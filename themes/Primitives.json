@@ -179,6 +179,112 @@
     "violet200": {
       "value": "#a076f6",
       "type": "color"
+    },
+    "External": {
+      "epl1": {
+        "value": "#37003c",
+        "type": "color"
+      },
+      "sber1": {
+        "value": "#21a038",
+        "type": "color"
+      },
+      "sber2": {
+        "value": "#00d900",
+        "type": "color"
+      },
+      "yandex1": {
+        "value": "#e81b2c",
+        "type": "color"
+      },
+      "vk1": {
+        "value": "#0077ff",
+        "type": "color"
+      },
+      "winline1": {
+        "value": "#ff6a13",
+        "type": "color"
+      },
+      "ok1": {
+        "value": "#f98d20",
+        "type": "color"
+      },
+      "facebook1": {
+        "value": "#325797",
+        "type": "color"
+      },
+      "twitter1": {
+        "value": "#31adf4",
+        "type": "color"
+      },
+      "viber1": {
+        "value": "#7360f2",
+        "type": "color"
+      }
+    }
+  },
+  "Brand": {
+    "Okko": {
+      "Primary": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "#5d0ef5",
+        "type": "color"
+      },
+      "AdditionalA": {
+        "value": "#3f29ff",
+        "type": "color"
+      },
+      "AdditionalB": {
+        "value": "#7a12ca",
+        "type": "color"
+      }
+    },
+    "Partners": {
+      "EPL": {
+        "value": "#37003c",
+        "type": "color"
+      },
+      "Winline": {
+        "value": "#ff6a13",
+        "type": "color"
+      },
+      "Sber": {
+        "value": "#21a038",
+        "type": "color"
+      },
+      "Sber Gradient": {
+        "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
+        "type": "color"
+      }
+    },
+    "Social": {
+      "Facebook": {
+        "value": "#325797",
+        "type": "color"
+      },
+      "VK": {
+        "value": "#0077ff",
+        "type": "color"
+      },
+      "Twitter": {
+        "value": "#31adf4",
+        "type": "color"
+      },
+      "Yandex": {
+        "value": "#e81b2c",
+        "type": "color"
+      },
+      "Odnoklassniki": {
+        "value": "#f98d20",
+        "type": "color"
+      },
+      "Viber": {
+        "value": "#7360f2",
+        "type": "color"
+      }
     }
   }
 }
