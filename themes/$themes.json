@@ -1,0 +1,17 @@
+[
+  {
+    "id": "0e47440648f608554a82ef29596243e24d4a0b36",
+    "name": "Main",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Semantic": "enabled",
+      "Component": "enabled"
+    }
+  },
+  {
+    "id": "5edf24bd56714d2a6474f194449b1db9c47eadac",
+    "name": "Kids",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {}
+  }
+]
