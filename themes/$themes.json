@@ -4,14 +4,17 @@
     "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic": "enabled",
-      "Component": "enabled"
-    }
+      "Color/Semantic/Main": "enabled"
+    },
+    "group": "Semantic"
   },
   {
     "id": "5edf24bd56714d2a6474f194449b1db9c47eadac",
     "name": "Kids",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {}
+    "selectedTokenSets": {
+      "Color/Semantic/Kids": "enabled"
+    },
+    "group": "Semantic"
   }
 ]
