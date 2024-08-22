@@ -1,30 +1,18 @@
 [
   {
-    "id": "0e47440648f608554a82ef29596243e24d4a0b36",
-    "name": "Main",
+    "id": "5db23a1521cf01059bd46210ced0b400caccb3d2",
+    "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitive": "disabled",
-      "Component": "disabled",
-      "Primitive/Color": "disabled",
-      "Semantic/Color/Dark": "disabled",
-      "Semantic/Color/Light": "disabled",
-      "Semantic": "disabled"
-    },
-    "group": "Semantic"
+      "Semantic/Dark": "enabled"
+    }
   },
   {
-    "id": "5edf24bd56714d2a6474f194449b1db9c47eadac",
-    "name": "Kids",
+    "id": "1460c37a9236250efcbbfb427017648c73c73784",
+    "name": "Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitive": "disabled",
-      "Component": "disabled",
-      "Primitive/Color": "disabled",
-      "Semantic/Color/Dark": "disabled",
-      "Semantic/Color/Light": "disabled",
-      "Semantic": "disabled"
-    },
-    "group": "Semantic"
+      "Semantic/Light": "enabled"
+    }
   }
 ]
