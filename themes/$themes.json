@@ -4,7 +4,12 @@
     "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Color/Semantic/Main": "enabled"
+      "Primitive": "disabled",
+      "Component": "disabled",
+      "Primitive/Color": "disabled",
+      "Semantic/Color/Dark": "disabled",
+      "Semantic/Color/Light": "disabled",
+      "Semantic": "disabled"
     },
     "group": "Semantic"
   },
@@ -13,7 +18,12 @@
     "name": "Kids",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Color/Semantic/Kids": "enabled"
+      "Primitive": "disabled",
+      "Component": "disabled",
+      "Primitive/Color": "disabled",
+      "Semantic/Color/Dark": "disabled",
+      "Semantic/Color/Light": "disabled",
+      "Semantic": "disabled"
     },
     "group": "Semantic"
   }

@@ -1,4 +1,68 @@
 {
+  "Brand": {
+    "Okko": {
+      "Primary": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "#5d0ef5",
+        "type": "color"
+      },
+      "AdditionalA": {
+        "value": "#3f29ff",
+        "type": "color"
+      },
+      "AdditionalB": {
+        "value": "#7a12ca",
+        "type": "color"
+      }
+    },
+    "Partners": {
+      "EPL": {
+        "value": "#37003c",
+        "type": "color"
+      },
+      "Winline": {
+        "value": "#ff6a13",
+        "type": "color"
+      },
+      "Sber": {
+        "value": "#21a038",
+        "type": "color"
+      },
+      "Sber Gradient": {
+        "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
+        "type": "color"
+      }
+    },
+    "Social": {
+      "Facebook": {
+        "value": "#325797",
+        "type": "color"
+      },
+      "VK": {
+        "value": "#0077ff",
+        "type": "color"
+      },
+      "Twitter": {
+        "value": "#31adf4",
+        "type": "color"
+      },
+      "Yandex": {
+        "value": "#e81b2c",
+        "type": "color"
+      },
+      "Odnoklassniki": {
+        "value": "#f98d20",
+        "type": "color"
+      },
+      "Viber": {
+        "value": "#7360f2",
+        "type": "color"
+      }
+    }
+  },
   "Primitives": {
     "black": {
       "value": "#000000",
@@ -218,70 +282,6 @@
         "type": "color"
       },
       "viber1": {
-        "value": "#7360f2",
-        "type": "color"
-      }
-    }
-  },
-  "Brand": {
-    "Okko": {
-      "Primary": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "Accent": {
-        "value": "#5d0ef5",
-        "type": "color"
-      },
-      "AdditionalA": {
-        "value": "#3f29ff",
-        "type": "color"
-      },
-      "AdditionalB": {
-        "value": "#7a12ca",
-        "type": "color"
-      }
-    },
-    "Partners": {
-      "EPL": {
-        "value": "#37003c",
-        "type": "color"
-      },
-      "Winline": {
-        "value": "#ff6a13",
-        "type": "color"
-      },
-      "Sber": {
-        "value": "#21a038",
-        "type": "color"
-      },
-      "Sber Gradient": {
-        "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
-        "type": "color"
-      }
-    },
-    "Social": {
-      "Facebook": {
-        "value": "#325797",
-        "type": "color"
-      },
-      "VK": {
-        "value": "#0077ff",
-        "type": "color"
-      },
-      "Twitter": {
-        "value": "#31adf4",
-        "type": "color"
-      },
-      "Yandex": {
-        "value": "#e81b2c",
-        "type": "color"
-      },
-      "Odnoklassniki": {
-        "value": "#f98d20",
-        "type": "color"
-      },
-      "Viber": {
         "value": "#7360f2",
         "type": "color"
       }
