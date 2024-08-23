@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "Primitives",
+    "Brand",
     "Semantic/Dark",
     "Semantic/Light",
     "Component"

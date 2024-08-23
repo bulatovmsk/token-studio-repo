@@ -5,7 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/Dark": "enabled",
-      "Primitives": "enabled"
+      "Primitives": "enabled",
+      "Brand": "disabled"
     }
   },
   {
@@ -14,7 +15,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/Light": "enabled",
-      "Primitives": "enabled"
+      "Primitives": "enabled",
+      "Brand": "disabled"
     }
   }
 ]
