@@ -4,18 +4,13 @@
     "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Component": "enabled",
-      "Semantic/Light": "disabled",
-      "Primitives": "disabled"
+      "Component": "enabled"
     }
   },
   {
     "id": "5edf24bd56714d2a6474f194449b1db9c47eadac",
     "name": "Kids",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Semantic/Light": "disabled",
-      "Primitives": "disabled"
-    }
+    "selectedTokenSets": {}
   }
 ]
