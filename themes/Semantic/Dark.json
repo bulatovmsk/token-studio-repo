@@ -2,19 +2,19 @@
   "Dark": {
     "Text&icon": {
       "Primary": {
-        "value": "{Primitives.white} 96%",
+        "value": "rgba( {Primitives.white} , 0.96)",
         "type": "color"
       },
       "Secondary": {
-        "value": "{Primitives.white} 78%",
+        "value": "rgba( {Primitives.white} , 0.78)",
         "type": "color"
       },
       "Third": {
-        "value": "{Primitives.white} 56%",
+        "value": "rgba( {Primitives.white} , 0.56%)",
         "type": "color"
       },
       "Forth": {
-        "value": "{Primitives.white} 40%",
+        "value": "rgba( {Primitives.white} , 0.4)",
         "type": "color"
       },
       "Accent": {
@@ -44,7 +44,7 @@
         "type": "color"
       },
       "Glassy": {
-        "value": "{Primitives.gray300} 32%",
+        "value": "rgba( {Primitives.gray300} , 0.32)",
         "type": "color"
       },
       "Focus": {
@@ -52,24 +52,24 @@
         "type": "color"
       },
       "Active": {
-        "value": "{Primitives.white} 56%",
+        "value": "rgba( {Primitives.white} , 0.56)",
         "type": "color"
       },
       "Contour": {
-        "value": "{Primitives.white} 10%",
+        "value": "rgba( {Primitives.white} , 0.1)",
         "type": "color"
       },
       "Decorative": {
         "Focus": {
-          "value": "linear-gradient(45deg, {Primitives.violet700} 0%, {Primitives.cobalt400} 52.08%, {Primitives.white} 100%)",
+          "value": "linear-gradient(45deg, {Primitives.violet700} 0%, {Primitives.cobalt400} 52%, {Primitives.white} 100%)",
           "type": "color"
         },
         "Active Horisontal": {
-          "value": "linear-gradient(270deg, {Primitives.black} 0%, {Primitives.cobalt400} 15.63%, {Primitives.white} 50%, {Primitives.cobalt400} 83.33%, {Primitives.black} 100%)",
+          "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0) 0%, {Primitives.cobalt400} 16%, {Primitives.white} 50%, {Primitives.cobalt400} 83%, rgba( {Primitives.black} , 0) 100%)",
           "type": "color"
         },
         "Active Vertical": {
-          "value": "linear-gradient(0deg, {Primitives.black} 0%, {Primitives.cobalt400} 17.71%, {Primitives.white} 50%, {Primitives.cobalt400} 82.29%, {Primitives.black} 100%)",
+          "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0) 0%, {Primitives.cobalt400} 18%, {Primitives.white} 50%, {Primitives.cobalt400} 82%, rgba( {Primitives.black} , 0) 100%)",
           "type": "color"
         }
       }
@@ -115,88 +115,88 @@
       },
       "Glassy": {
         "Secondary": {
-          "value": "{Primitives.gray500} 48%",
+          "value": "rgba( {Primitives.gray500} , 0.48)",
           "type": "color"
         },
         "Negative": {
-          "value": "{Primitives.red500} 20%",
+          "value": "rgba( {Primitives.red500} , 0.2)",
           "type": "color"
         },
         "Third": {
-          "value": "{Primitives.gray300} 32%",
+          "value": "rgba( {Primitives.gray300} , 0.32)",
           "type": "color"
         }
       },
       "Fade": {
         "Top": {
           "Primary": {
-            "value": "linear-gradient(180deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(180deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Brand.Okko.Primary} , 0.44) 53%, rgba( {Brand.Okko.Primary} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(180deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Brand.Okko.Primary} , 0.35) 53%, rgba( {Brand.Okko.Primary} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(180deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Brand.Okko.Primary} , 0.25) 53%, rgba( {Brand.Okko.Primary} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(180deg, #0000003d 0%, #0000003d 6.67%, #0000003b 13.33%, #00000038 20%, #00000033 26.67%, #0000002e 33.33%, #00000029 40%, #00000021 46.67%, #0000001c 53.33%, #00000014 60%, #0000000f 66.67%, #0000000a 73.33%, #00000005 80%, #00000003 86.67%, #00000000 93.33%, #00000000 100%)",
+            "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Brand.Okko.Primary} , 0.11) 53%, rgba( {Brand.Okko.Primary} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           }
         },
         "Right": {
           "Primary": {
-            "value": "linear-gradient(270deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(270deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Brand.Okko.Primary} , 0.44) 53%, rgba( {Brand.Okko.Primary} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(270deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Brand.Okko.Primary} , 0.35) 53%, rgba( {Brand.Okko.Primary} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(270deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Brand.Okko.Primary} , 0.25) 53%, rgba( {Brand.Okko.Primary} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(270deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Brand.Okko.Primary} , 0.11) 53%, rgba( {Brand.Okko.Primary} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           }
         },
         "Bottom": {
           "Primary": {
-            "value": "linear-gradient(0deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(0deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Brand.Okko.Primary} , 0.44) 53%, rgba( {Brand.Okko.Primary} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(0deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Brand.Okko.Primary} , 0.35) 53%, rgba( {Brand.Okko.Primary} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(0deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Brand.Okko.Primary} , 0.25) 53%, rgba( {Brand.Okko.Primary} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(0deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Brand.Okko.Primary} , 0.11) 53%, rgba( {Brand.Okko.Primary} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           }
         },
         "Left": {
           "Primary": {
-            "value": "linear-gradient(90deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(90deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Brand.Okko.Primary} , 0.44) 53%, rgba( {Brand.Okko.Primary} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(90deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, {Primitives.black} 46.67%, {Primitives.black} 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Brand.Okko.Primary} , 0.35) 53%, rgba( {Brand.Okko.Primary} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(90deg, {Primitives.black} 0%, {Primitives.black} 6.67%, {Primitives.black} 13.33%, {Primitives.black} 20%, {Primitives.black} 26.67%, {Primitives.black} 33.33%, {Primitives.black} 40%, #0000004f 46.67%, #00000040 53.33%, {Primitives.black} 60%, {Primitives.black} 66.67%, {Primitives.black} 73.33%, {Primitives.black} 80%, {Primitives.black} 86.67%, {Primitives.black} 93.33%, {Primitives.black} 100%)",
+            "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Brand.Okko.Primary} , 0.25) 53%, rgba( {Brand.Okko.Primary} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(90deg, #0000003d 0%, #0000003d 6.67%, #0000003b 13.33%, #00000038 20%, #00000033 26.67%, #0000002e 33.33%, #00000029 40%, #00000021 46.67%, #0000001c 53.33%, #00000014 60%, #0000000f 66.67%, #0000000a 73.33%, #00000005 80%, #00000003 86.67%, #00000000 93.33%, #00000000 100%)",
+            "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Brand.Okko.Primary} , 0.11) 53%, rgba( {Brand.Okko.Primary} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color"
           }
         }
@@ -237,11 +237,11 @@
       },
       "Technical": {
         "Skeleton": {
-          "value": "linear-gradient(90deg, rgba({Primitives.white} 5%) 0%, rgba({Primitives.white} 15%) 0.01%, rgba({Primitives.white} 5%) 100%)",
+          "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.05) 0%, rgba( {Primitives.white} , 0.15) 0%, rgba( {Primitives.white} , 0.05) 100%)",
           "type": "color"
         },
         "Button Loading": {
-          "value": "linear-gradient(90deg, rgba( {Primitives.white} 0%) 0%, rgba( {Primitives.white} 24%) 88.21%, rgba( {Primitives.white} 30%) 100%)",
+          "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0) 0%, rgba( {Primitives.white} , 0.24) 88%, rgba( {Primitives.white} , 0.3) 100%)",
           "type": "color"
         },
         "Placeholder": {
@@ -268,19 +268,19 @@
       },
       "Glassy": {
         "Primary": {
-          "value": "{Primitives.black} 88%",
+          "value": "rgba( {Primitives.black} , 0.88)",
           "type": "color"
         },
         "Secondary": {
-          "value": "{Primitives.black} 72%",
+          "value": "rgba( {Primitives.black} , 0.72)",
           "type": "color"
         },
         "Third": {
-          "value": "{Primitives.black} 56%",
+          "value": "rgba( {Primitives.black} , 0.56)",
           "type": "color"
         },
         "Forth": {
-          "value": "{Primitives.black} 32%",
+          "value": "rgba( {Primitives.black} , 0.32)",
           "type": "color"
         }
       }

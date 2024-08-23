@@ -4,7 +4,8 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic/Dark": "enabled"
+      "Semantic/Dark": "enabled",
+      "Primitives": "enabled"
     }
   },
   {
@@ -12,7 +13,8 @@
     "name": "Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic/Light": "enabled"
+      "Semantic/Light": "enabled",
+      "Primitives": "enabled"
     }
   }
 ]
