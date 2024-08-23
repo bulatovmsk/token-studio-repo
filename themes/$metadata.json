@@ -1,8 +1,6 @@
 {
   "tokenSetOrder": [
-    "Primitive",
-    "Primitive/Color",
-    "Semantic",
+    "Primitives",
     "Semantic/Dark",
     "Semantic/Light",
     "Component"

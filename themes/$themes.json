@@ -1,18 +1,21 @@
 [
   {
-    "id": "5db23a1521cf01059bd46210ced0b400caccb3d2",
-    "name": "Dark",
+    "id": "0e47440648f608554a82ef29596243e24d4a0b36",
+    "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic/Dark": "enabled"
+      "Component": "enabled",
+      "Semantic/Light": "disabled",
+      "Primitives": "disabled"
     }
   },
   {
-    "id": "1460c37a9236250efcbbfb427017648c73c73784",
-    "name": "Light",
+    "id": "5edf24bd56714d2a6474f194449b1db9c47eadac",
+    "name": "Kids",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic/Light": "enabled"
+      "Semantic/Light": "disabled",
+      "Primitives": "disabled"
     }
   }
 ]
