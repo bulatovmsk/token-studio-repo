@@ -2,218 +2,218 @@
   "Light": {
     "Text&Icon": {
       "Primary": {
-        "value": "#000000f5",
+        "value": "rgba( {Primitives.black} , 0.96)",
         "type": "color"
       },
       "Secondary": {
-        "value": "#000000cc",
+        "value": "rgba( {Primitives.black} , 0.8)",
         "type": "color"
       },
       "Third": {
-        "value": "#0000008f",
+        "value": "rgba( {Primitives.black} , 0.56)",
         "type": "color"
       },
       "Forth": {
-        "value": "#00000066",
+        "value": "rgba( {Primitives.black} , 0.4)",
         "type": "color"
       },
       "Accent": {
-        "value": "#5d0ef5",
+        "value": "{Primitives.cobalt400}",
         "type": "color"
       },
       "Offer": {
-        "value": "#ffcd13",
+        "value": "{Primitives.yellow500}",
         "type": "color"
       },
       "Positive": {
-        "value": "#12b77c",
+        "value": "{Primitives.green500}",
         "type": "color"
       },
       "Negative": {
-        "value": "#ff5b5b",
+        "value": "{Primitives.red100}",
         "type": "color"
       },
       "Warning": {
-        "value": "#eaa734",
+        "value": "{Primitives.yellow800}",
         "type": "color"
       }
     },
     "Fill": {
       "Solid": {
         "Primary": {
-          "value": "#101011",
+          "value": "{Primitives.gray900}",
           "type": "color"
         },
         "Secondary": {
-          "value": "#1b1a1d",
+          "value": "{Primitives.gray800}",
           "type": "color"
         },
         "Third": {
-          "value": "#2c2b2f",
+          "value": "{Primitives.white}",
           "type": "color"
         },
         "Positive": {
-          "value": "#12b77c",
+          "value": "{Primitives.green500}",
           "type": "color"
         },
         "Accent": {
-          "value": "#5d0ef5",
+          "value": "{Primitives.cobalt400}",
           "type": "color"
         },
         "Inverse": {
-          "value": "#f5f4f6",
+          "value": "{Primitives.gray100}",
           "type": "color"
         },
         "Negative": {
-          "value": "#ff5b5b",
+          "value": "{Primitives.red100}",
           "type": "color"
         },
         "Warning": {
-          "value": "#eaa734",
+          "value": "{Primitives.yellow800}",
           "type": "color"
         },
         "Live": {
-          "value": "#d0021b",
+          "value": "{Primitives.red500}",
           "type": "color"
         }
       },
       "Glassy": {
         "Third": {
-          "value": "#ffffff8f",
+          "value": "rgba( {Primitives.white} , 0.56)",
           "type": "color"
         },
         "Secondary": {
-          "value": "#3b3a3e7a",
+          "value": "rgba( {Primitives.gray500} , 0.48)",
           "type": "color"
         },
         "Negative": {
-          "value": "#d0021b33",
+          "value": "rgba( {Primitives.red500} , 0.2)",
           "type": "color"
         }
       },
       "Fade": {
         "Top": {
           "Primary": {
-            "value": "linear-gradient(180deg, #e6e5f5 0%, #e6e5f5fc 6.67%, #e6e5f5f5 13.33%, #e6e5f5eb 20%, #e6e5f5d9 26.67%, #e6e5f5c4 33.33%, #e6e5f5ab 40%, #e6e5f58f 46.67%, #e6e5f570 53.33%, #e6e5f554 60%, #e6e5f53b 66.67%, #e6e5f526 73.33%, #e6e5f514 80%, #e6e5f50a 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(180deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(180deg, #e6e5f5cc 0%, #e6e5f5c9 6.67%, #e6e5f5c4 13.33%, #e6e5f5ba 20%, #e6e5f5ad 26.67%, #e6e5f59c 33.33%, #e6e5f587 40%, #e6e5f573 46.67%, #e6e5f559 53.33%, #e6e5f545 60%, #e6e5f530 66.67%, #e6e5f51f 73.33%, #e6e5f512 80%, #e6e5f508 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(180deg, #e6e5f58f 0%, #e6e5f58f 6.67%, #e6e5f58a 13.33%, #e6e5f582 20%, #e6e5f57a 26.67%, #e6e5f56e 33.33%, #e6e5f55e 40%, #e6e5f54f 46.67%, #e6e5f540 53.33%, #e6e5f530 60%, #e6e5f521 66.67%, #e6e5f514 73.33%, #e6e5f50d 80%, #e6e5f505 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(180deg, #e6e5f53d 0%, #e6e5f53d 6.67%, #e6e5f53b 13.33%, #e6e5f538 20%, #e6e5f533 26.67%, #e6e5f52e 33.33%, #e6e5f529 40%, #e6e5f521 46.67%, #e6e5f51c 53.33%, #e6e5f514 60%, #e6e5f50f 66.67%, #e6e5f50a 73.33%, #e6e5f505 80%, #e6e5f503 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           }
         },
         "Right": {
           "Primary": {
-            "value": "linear-gradient(-90deg, #e6e5f5 0%, #e6e5f5fc 6.67%, #e6e5f5f5 13.33%, #e6e5f5eb 20%, #e6e5f5d9 26.67%, #e6e5f5c4 33.33%, #e6e5f5ab 40%, #e6e5f58f 46.67%, #e6e5f570 53.33%, #e6e5f554 60%, #e6e5f53b 66.67%, #e6e5f526 73.33%, #e6e5f514 80%, #e6e5f50a 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(-90deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(-90deg, #e6e5f5cc 0%, #e6e5f5c9 6.67%, #e6e5f5c4 13.33%, #e6e5f5ba 20%, #e6e5f5ad 26.67%, #e6e5f59c 33.33%, #e6e5f587 40%, #e6e5f573 46.67%, #e6e5f559 53.33%, #e6e5f545 60%, #e6e5f530 66.67%, #e6e5f51f 73.33%, #e6e5f512 80%, #e6e5f508 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(-90deg, #e6e5f58f 0%, #e6e5f58f 6.67%, #e6e5f58a 13.33%, #e6e5f582 20%, #e6e5f57a 26.67%, #e6e5f56e 33.33%, #e6e5f55e 40%, #e6e5f54f 46.67%, #e6e5f540 53.33%, #e6e5f530 60%, #e6e5f521 66.67%, #e6e5f514 73.33%, #e6e5f50d 80%, #e6e5f505 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(-90deg, #e6e5f53d 0%, #e6e5f53d 6.67%, #e6e5f53b 13.33%, #e6e5f538 20%, #e6e5f533 26.67%, #e6e5f52e 33.33%, #e6e5f529 40%, #e6e5f521 46.67%, #e6e5f51c 53.33%, #e6e5f514 60%, #e6e5f50f 66.67%, #e6e5f50a 73.33%, #e6e5f505 80%, #e6e5f503 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           }
         },
         "Bottom": {
           "Primary": {
-            "value": "linear-gradient(0deg, #e6e5f5 0%, #e6e5f5fc 6.67%, #e6e5f5f5 13.33%, #e6e5f5eb 20%, #e6e5f5d9 26.67%, #e6e5f5c4 33.33%, #e6e5f5ab 40%, #e6e5f58f 46.67%, #e6e5f570 53.33%, #e6e5f554 60%, #e6e5f53b 66.67%, #e6e5f526 73.33%, #e6e5f514 80%, #e6e5f50a 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(0deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(0deg, #e6e5f5cc 0%, #e6e5f5c9 6.67%, #e6e5f5c4 13.33%, #e6e5f5ba 20%, #e6e5f5ad 26.67%, #e6e5f59c 33.33%, #e6e5f587 40%, #e6e5f573 46.67%, #e6e5f559 53.33%, #e6e5f545 60%, #e6e5f530 66.67%, #e6e5f51f 73.33%, #e6e5f512 80%, #e6e5f508 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(0deg, #e6e5f58f 0%, #e6e5f58f 6.67%, #e6e5f58a 13.33%, #e6e5f582 20%, #e6e5f57a 26.67%, #e6e5f56e 33.33%, #e6e5f55e 40%, #e6e5f54f 46.67%, #e6e5f540 53.33%, #e6e5f530 60%, #e6e5f521 66.67%, #e6e5f514 73.33%, #e6e5f50d 80%, #e6e5f505 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(0deg, #e6e5f53d 0%, #e6e5f53d 6.67%, #e6e5f53b 13.33%, #e6e5f538 20%, #e6e5f533 26.67%, #e6e5f52e 33.33%, #e6e5f529 40%, #e6e5f521 46.67%, #e6e5f51c 53.33%, #e6e5f514 60%, #e6e5f50f 66.67%, #e6e5f50a 73.33%, #e6e5f505 80%, #e6e5f503 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           }
         },
         "Left": {
           "Primary": {
-            "value": "linear-gradient(90deg, #e6e5f5 0%, #e6e5f5fc 6.67%, #e6e5f5f5 13.33%, #e6e5f5eb 20%, #e6e5f5d9 26.67%, #e6e5f5c4 33.33%, #e6e5f5ab 40%, #e6e5f58f 46.67%, #e6e5f570 53.33%, #e6e5f554 60%, #e6e5f53b 66.67%, #e6e5f526 73.33%, #e6e5f514 80%, #e6e5f50a 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(90deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Secondary": {
-            "value": "linear-gradient(90deg, #e6e5f5cc 0%, #e6e5f5c9 6.67%, #e6e5f5c4 13.33%, #e6e5f5ba 20%, #e6e5f5ad 26.67%, #e6e5f59c 33.33%, #e6e5f587 40%, #e6e5f573 46.67%, #e6e5f559 53.33%, #e6e5f545 60%, #e6e5f530 66.67%, #e6e5f51f 73.33%, #e6e5f512 80%, #e6e5f508 86.67%, #e6e5f503 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Third": {
-            "value": "linear-gradient(90deg, #e6e5f58f 0%, #e6e5f58f 6.67%, #e6e5f58a 13.33%, #e6e5f582 20%, #e6e5f57a 26.67%, #e6e5f56e 33.33%, #e6e5f55e 40%, #e6e5f54f 46.67%, #e6e5f540 53.33%, #e6e5f530 60%, #e6e5f521 66.67%, #e6e5f514 73.33%, #e6e5f50d 80%, #e6e5f505 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           },
           "Fourth": {
-            "value": "linear-gradient(90deg, #e6e5f53d 0%, #e6e5f53d 6.67%, #e6e5f53b 13.33%, #e6e5f538 20%, #e6e5f533 26.67%, #e6e5f52e 33.33%, #e6e5f529 40%, #e6e5f521 46.67%, #e6e5f51c 53.33%, #e6e5f514 60%, #e6e5f50f 66.67%, #e6e5f50a 73.33%, #e6e5f505 80%, #e6e5f503 86.67%, #e6e5f500 93.33%, #e6e5f500 100%)",
+            "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
             "type": "color"
           }
         }
       },
       "Decorative": {
         "Kids": {
-          "value": "linear-gradient(270deg, #ff82e7 0%, #dc30e0 33.33%, #961dec 66.67%, #5d0ef5 100%)",
+          "value": "linear-gradient(270deg, {Primitives.pink200} 0%, {Primitives.pink500} 33%, {Primitives.purple400} 67%, {Primitives.cobalt400} 100%)",
           "type": "color"
         },
         "Lemon": {
-          "value": "linear-gradient(90deg, #ffe82b 0%, #ffcd13 100%)",
+          "value": "linear-gradient(90deg, {Primitives.yellow300} 0%, {Primitives.yellow500} 100%)",
           "type": "color"
         },
         "Twilight": {
-          "value": "linear-gradient(90deg, #d0021b 0%, #743ac6 100%)",
+          "value": "linear-gradient(90deg, {Primitives.red500} 0%, {Primitives.violet500} 100%)",
           "type": "color"
         },
         "Neon": {
-          "value": "linear-gradient(90deg, #bc0ecb 0%, #743ac6 100%)",
+          "value": "linear-gradient(90deg, {Primitives.pink600} 0%, {Primitives.violet500} 100%)",
           "type": "color"
         },
         "Continuum": {
-          "value": "linear-gradient(90deg, #4f03cd 0%, #7a12ca 100%)",
+          "value": "linear-gradient(90deg, {Primitives.cobalt500} 0%, {Primitives.purple500} 100%)",
           "type": "color"
         },
         "Lighthouse": {
-          "value": "linear-gradient(90deg, #7a12ca 0%, #bc0ecb 100%)",
+          "value": "linear-gradient(90deg, {Primitives.purple500} 0%, {Primitives.pink600} 100%)",
           "type": "color"
         },
         "Gold": {
-          "value": "linear-gradient(90deg, #6d5624 0%, #b09859 100%)",
+          "value": "linear-gradient(90deg, {Primitives.brown500} 0%, {Primitives.brown200} 100%)",
           "type": "color"
         },
         "Melancholy": {
-          "value": "linear-gradient(90deg, #2681d5 0%, #6c43bf 100%)",
+          "value": "linear-gradient(90deg, {Primitives.blue650} 0%, {Primitives.violet650} 100%)",
           "type": "color"
         },
         "Button": {
-          "value": "linear-gradient(27deg, #7e3eff 0%, #5d0ef5 100%)",
+          "value": "linear-gradient(27deg, {Primitives.violet400} 0%, {Primitives.cobalt400} 100%)",
           "type": "color"
         }
       },
       "Technical": {
         "Skeleton": {
-          "value": "linear-gradient(90deg, #ffffff59 0%, #ffffff 64.06%, #ffffff59 100%)",
+          "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.35) 0%, {Primitives.white} 64%, rgba( {Primitives.white} , 0.35) 100%)",
           "type": "color"
         },
         "Button Loading": {
-          "value": "linear-gradient(90deg, #bcbac100 0%, #bcbac13d 88.21%, #bcbac14d 100%)",
+          "value": "linear-gradient(90deg, rgba( {Primitives.gray200} , 0) 0%, rgba( {Primitives.gray200} , 0.24) 88.21%, rgba( {Primitives.gray200} , 0.3) 100%)",
           "type": "color"
         },
         "Placeholder": {
-          "value": "#f5f4f6",
+          "value": "{Primitives.gray100}",
           "type": "color"
         }
       }
@@ -221,70 +221,70 @@
     "Background": {
       "Solid": {
         "Primary": {
-          "value": "#e6e5f5",
+          "value": "{Primitives.cobalt100}",
           "type": "color"
         },
         "Secondary": {
-          "value": "#101011",
+          "value": "{Primitives.gray900}",
           "type": "color"
         },
         "Inverse": {
-          "value": "#f5f4f6",
+          "value": "{Primitives.gray100}",
           "type": "color",
           "description": "Для светлых элементов в тёмной теме"
         }
       },
       "Glassy": {
         "Primary": {
-          "value": "#000000e0",
+          "value": "rgba( {Primitives.black} , 0.88)",
           "type": "color"
         },
         "Secondary": {
-          "value": "#000000b8",
+          "value": "rgba( {Primitives.black} , 0.72)",
           "type": "color"
         },
         "Third": {
-          "value": "#0000008f",
+          "value": "rgba( {Primitives.black} , 0.56)",
           "type": "color"
         },
         "Forth": {
-          "value": "#00000052",
+          "value": "rgba( {Primitives.black} , 0.32)",
           "type": "color"
         }
       }
     },
     "Border": {
       "Solid": {
-        "value": "#2c2b2f",
+        "value": "{Primitives.gray600}",
         "type": "color"
       },
       "Glassy": {
-        "value": "#8b889252",
+        "value": "rgba( {Primitives.gray300} , 0.32)",
         "type": "color"
       },
       "Focus": {
-        "value": "#5d0ef5",
+        "value": "{Primitives.cobalt400}",
         "type": "color"
       },
       "Active": {
-        "value": "#ffffff8f",
+        "value": "rgba( {Primitives.white} , 0.56)",
         "type": "color"
       },
       "Contour": {
-        "value": "#ffffff1a",
+        "value": "rgba( {Primitives.white} , 0.56)",
         "type": "color"
       },
       "Decorative": {
         "Focus": {
-          "value": "linear-gradient(270deg, #ff82e7 0%, #dc30e0 33.33%, #961dec 66.67%, #5d0ef5 100%)",
+          "value": "linear-gradient(270deg, {Primitives.cobalt400} 0%, {Primitives.purple400} 33%, {Primitives.pink500} 67%, {Primitives.pink200} 100%)",
           "type": "color"
         },
         "Active Horisontal": {
-          "value": "linear-gradient(270deg, #ffffff00 0%, #ce7fff 12.5%, #5d0ef5 50%, #ce7fff 87.5%, #ffffff00 100%)",
+          "value": "linear-gradient(270deg, {Primitives.white} 0%, {Primitives.purple200} 13%, {Primitives.cobalt400} 50%, {Primitives.purple200} 88%, {Primitives.white} 100%)",
           "type": "color"
         },
         "Active Vertical": {
-          "value": "linear-gradient(0deg, #ffffff00 0%, #ce7fff 12.5%, #5d0ef5 50%, #ce7fff 87.5%, #ffffff00 100%)",
+          "value": "linear-gradient(0deg, {Primitives.white} 0%, {Primitives.purple200} 13%, {Primitives.cobalt400} 50%, {Primitives.purple200} 88%, {Primitives.white} 100%)",
           "type": "color"
         }
       }
