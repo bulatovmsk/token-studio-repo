@@ -1,0 +1,128 @@
+{
+  "Padding": {
+    "paddingScreenDefault(new)": {
+      "value": 32,
+      "type": "number"
+    },
+    "padding05": {
+      "value": 4,
+      "type": "number"
+    },
+    "paddingScreenLarge": {
+      "value": 40,
+      "type": "number"
+    },
+    "padding1": {
+      "value": 8,
+      "type": "number"
+    },
+    "padding2": {
+      "value": 16,
+      "type": "number"
+    },
+    "padding3": {
+      "value": 24,
+      "type": "number"
+    },
+    "padding4": {
+      "value": 32,
+      "type": "number"
+    },
+    "padding5": {
+      "value": 20,
+      "type": "number"
+    },
+    "padding6": {
+      "value": 48,
+      "type": "number"
+    },
+    "padding8": {
+      "value": 32,
+      "type": "number"
+    },
+    "padding10": {
+      "value": 80,
+      "type": "number"
+    },
+    "padding12": {
+      "value": 96,
+      "type": "number"
+    },
+    "paddingScreenDefault(as_is)": {
+      "value": 32,
+      "type": "number"
+    },
+    "padding1_5": {
+      "value": 12,
+      "type": "number"
+    }
+  },
+  "Spacing": {
+    "spacingVerticalS": {
+      "value": 6,
+      "type": "number"
+    },
+    "spacingHorizontalS": {
+      "value": 6,
+      "type": "number"
+    },
+    "spacingVerticalXs": {
+      "value": 4,
+      "type": "number"
+    },
+    "spacingHorizontalM": {
+      "value": 12,
+      "type": "number"
+    },
+    "spacingHorizontalXs": {
+      "value": 6,
+      "type": "number"
+    },
+    "spacingVertical2Xs": {
+      "value": 0,
+      "type": "number"
+    },
+    "spacingVerticalL": {
+      "value": 12,
+      "type": "number"
+    }
+  },
+  "Corner radius": {
+    "radius2Xs": {
+      "value": 4,
+      "type": "number"
+    },
+    "radiusXs": {
+      "value": 8,
+      "type": "number"
+    },
+    "radiusS": {
+      "value": 12,
+      "type": "number"
+    },
+    "radiusM": {
+      "value": 20,
+      "type": "number"
+    },
+    "radiusL": {
+      "value": 24,
+      "type": "number"
+    },
+    "radiusXl": {
+      "value": 32,
+      "type": "number"
+    },
+    "radius2Xl": {
+      "value": 48,
+      "type": "number"
+    },
+    "radius3Xl": {
+      "value": 64,
+      "type": "number"
+    },
+    "radiusSM": {
+      "value": 16,
+      "type": "number"
+    }
+  }
+}

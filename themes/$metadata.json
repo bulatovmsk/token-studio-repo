@@ -4,6 +4,10 @@
     "Brand",
     "Semantic/Dark",
     "Semantic/Light",
-    "Component"
+    "Component",
+    "Component/Desktop_L",
+    "Component/Desktop",
+    "Component/Tablet",
+    "Component/Mobile"
   ]
 }
