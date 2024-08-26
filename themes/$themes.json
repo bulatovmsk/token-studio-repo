@@ -4,8 +4,13 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic/Dark": "enabled",
-      "Primitives": "enabled"
+      "Primitives": "enabled",
+      "Semantic/Device/Desktop_L": "disabled",
+      "Semantic/Device/Desktop": "disabled",
+      "Semantic/Device/Tablet": "disabled",
+      "Semantic/Device/Mobile": "disabled",
+      "Semantic/Theme/Dark": "enabled",
+      "Semantic/Theme/Light": "disabled"
     },
     "group": "Semantic"
   },
@@ -14,8 +19,13 @@
     "name": "Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Semantic/Light": "enabled",
-      "Primitives": "enabled"
+      "Primitives": "enabled",
+      "Semantic/Device/Desktop_L": "disabled",
+      "Semantic/Device/Desktop": "disabled",
+      "Semantic/Device/Tablet": "disabled",
+      "Semantic/Device/Mobile": "disabled",
+      "Semantic/Theme/Dark": "disabled",
+      "Semantic/Theme/Light": "enabled"
     },
     "group": "Semantic"
   },
@@ -26,7 +36,12 @@
     "selectedTokenSets": {
       "Component": "source",
       "Primitives": "source",
-      "Component/Desktop_L": "enabled"
+      "Semantic/Device/Desktop_L": "enabled",
+      "Semantic/Device/Desktop": "disabled",
+      "Semantic/Device/Tablet": "disabled",
+      "Semantic/Device/Mobile": "disabled",
+      "Semantic/Theme/Dark": "disabled",
+      "Semantic/Theme/Light": "disabled"
     },
     "group": "Component",
     "$figmaCollectionId": "VariableCollectionId:26363:574",
@@ -71,7 +86,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Component": "source",
-      "Component/Desktop": "enabled"
+      "Semantic/Device/Desktop_L": "disabled",
+      "Semantic/Device/Desktop": "enabled",
+      "Semantic/Device/Tablet": "disabled",
+      "Semantic/Device/Mobile": "disabled",
+      "Semantic/Theme/Dark": "disabled",
+      "Semantic/Theme/Light": "disabled"
     },
     "group": "Component",
     "$figmaCollectionId": "VariableCollectionId:26363:574",
@@ -116,7 +136,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Component": "source",
-      "Component/Tablet": "enabled"
+      "Semantic/Device/Desktop_L": "disabled",
+      "Semantic/Device/Desktop": "disabled",
+      "Semantic/Device/Tablet": "enabled",
+      "Semantic/Device/Mobile": "disabled",
+      "Semantic/Theme/Dark": "disabled",
+      "Semantic/Theme/Light": "disabled"
     },
     "group": "Component",
     "$figmaCollectionId": "VariableCollectionId:26363:574",
@@ -161,7 +186,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Component": "source",
-      "Component/Mobile": "enabled"
+      "Semantic/Device/Desktop_L": "disabled",
+      "Semantic/Device/Desktop": "disabled",
+      "Semantic/Device/Tablet": "disabled",
+      "Semantic/Device/Mobile": "enabled",
+      "Semantic/Theme/Dark": "disabled",
+      "Semantic/Theme/Light": "disabled"
     },
     "group": "Component",
     "$figmaCollectionId": "VariableCollectionId:26363:574",
