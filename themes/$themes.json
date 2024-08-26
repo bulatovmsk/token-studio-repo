@@ -5,8 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dark/Semantic": "enabled",
-      "Core/Primitives": "enabled",
-      "Core/Brand": "enabled"
+      "Core/Primitives": "source",
+      "Core/Brand": "source"
     }
   },
   {
