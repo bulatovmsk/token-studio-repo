@@ -3,11 +3,6 @@
     "Core/Primitives",
     "Core/Brand",
     "Dark/Semantic",
-    "Light/Semantic",
-    "DesktopL/Semantic",
-    "Desktop/Semantic",
-    "Tablet/Semantic",
-    "Mobile/Semantic",
-    "TV/Semantic"
+    "Light/Semantic"
   ]
 }

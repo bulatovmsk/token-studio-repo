@@ -24,8 +24,7 @@
     "name": "DesktopL",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Core/Primitives": "source",
-      "DesktopL/Semantic": "enabled"
+      "Core/Primitives": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:26363:574",
     "$figmaModeId": "26363:2",
@@ -68,7 +67,6 @@
     "name": "Desktop",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Desktop/Semantic": "enabled",
       "Core/Primitives": "source"
     },
     "group": "Device",
@@ -112,7 +110,6 @@
     "name": "Tablet",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Tablet/Semantic": "enabled",
       "Core/Primitives": "source"
     },
     "group": "Device",
@@ -156,7 +153,6 @@
     "name": "Mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Mobile/Semantic": "enabled",
       "Core/Primitives": "source"
     },
     "group": "Device",
@@ -200,8 +196,7 @@
     "name": "TV",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Core/Primitives": "source",
-      "TV/Semantic": "enabled"
+      "Core/Primitives": "source"
     },
     "group": "Device"
   }
