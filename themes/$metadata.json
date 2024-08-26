@@ -1,13 +1,13 @@
 {
   "tokenSetOrder": [
-    "Primitives",
-    "Brand",
-    "Semantic/Theme/Dark",
-    "Semantic/Theme/Light",
-    "Semantic/Device/Desktop_L",
-    "Semantic/Device/Desktop",
-    "Semantic/Device/Tablet",
-    "Semantic/Device/Mobile",
-    "Component"
+    "Core/Primitives",
+    "Core/Brand",
+    "Dark/Semantic",
+    "Light/Semantic",
+    "DesktopL/Semantic",
+    "Desktop/Semantic",
+    "Tablet/Semantic",
+    "Mobile/Semantic",
+    "TV/Semantic"
   ]
 }
