@@ -1,33 +1,28 @@
 {
   "TV": {
     "r3xs": {
-      "value": "2",
+      "value": "8",
       "type": "borderRadius"
     },
     "r2xs": {
-      "value": "4",
-      "type": "borderRadius",
-      "description": "Min side 15px"
+      "value": "12",
+      "type": "borderRadius"
     },
     "rxs": {
-      "value": "6",
-      "type": "borderRadius",
-      "description": "Min side 30px"
+      "value": "16",
+      "type": "borderRadius"
     },
     "rs": {
-      "value": "8",
-      "type": "borderRadius",
-      "description": "Min side 40px"
+      "value": "20",
+      "type": "borderRadius"
     },
     "rms": {
-      "value": "10",
-      "type": "borderRadius",
-      "description": "Min side 60px"
+      "value": "24",
+      "type": "borderRadius"
     },
     "rm": {
-      "value": "12",
-      "type": "borderRadius",
-      "description": "Min side 70px"
+      "value": "32",
+      "type": "borderRadius"
     },
     "rml": {
       "value": "-",
@@ -35,34 +30,28 @@
       "description": "-"
     },
     "rl": {
-      "value": "16",
-      "type": "borderRadius",
-      "description": "Min side 96px"
+      "value": "48",
+      "type": "borderRadius"
     },
     "rxl": {
-      "value": "20",
-      "type": "borderRadius",
-      "description": "Min side 200px"
+      "value": "64",
+      "type": "borderRadius"
     },
     "r2xl": {
-      "value": "24",
-      "type": "borderRadius",
-      "description": "Min side 270px"
+      "value": "-",
+      "type": "borderRadius"
     },
     "r3xl": {
-      "value": "28",
-      "type": "borderRadius",
-      "description": "Min side 400px"
+      "value": "-",
+      "type": "borderRadius"
     },
     "r4xl": {
-      "value": "32",
-      "type": "borderRadius",
-      "description": "Min side 540px"
+      "value": "-",
+      "type": "borderRadius"
     },
     "r5xl": {
-      "value": "36",
-      "type": "borderRadius",
-      "description": "Min side 700px"
+      "value": "-",
+      "type": "borderRadius"
     }
   }
 }
