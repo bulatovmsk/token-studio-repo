@@ -5,10 +5,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Dark/Semantic": "enabled",
-      "Core/Primitives": "source",
-      "Core/Brand": "source"
-    },
-    "group": "Color"
+      "Core/Primitives": "enabled",
+      "Core/Brand": "enabled"
+    }
   },
   {
     "id": "5edf24bd56714d2a6474f194449b1db9c47eadac",
@@ -18,7 +17,6 @@
       "Light/Semantic": "enabled",
       "Core/Primitives": "source",
       "Core/Brand": "source"
-    },
-    "group": "Color"
+    }
   }
 ]
