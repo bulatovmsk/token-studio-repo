@@ -1,36 +1,122 @@
 {
   "color": {
-    "Dark": {
-      "Text&icon": {
-        "Primary": {
-          "value": "rgba( {Primitives.white} , 0.96)",
+    "Text&icon": {
+      "Primary": {
+        "value": "rgba( {Primitives.white} , 0.96)",
+        "type": "color",
+        "description": "Заголовки и основные иконки"
+      },
+      "Secondary": {
+        "value": "rgba( {Primitives.white} , 0.78)",
+        "type": "color",
+        "description": "Основной текст"
+      },
+      "Third": {
+        "value": "rgba( {Primitives.white} , 0.56%)",
+        "type": "color",
+        "description": "Второстепенный текст"
+      },
+      "Forth": {
+        "value": "rgba( {Primitives.white} , 0.4)",
+        "type": "color",
+        "description": "Хинты, подсказки"
+      },
+      "Accent": {
+        "value": "{Primitives.cobalt200}",
+        "type": "color",
+        "description": "Ссылки"
+      },
+      "Offer": {
+        "value": "{Primitives.yellow500}",
+        "type": "color",
+        "description": "Ссылки"
+      },
+      "Positive": {
+        "value": "{Primitives.green500}",
+        "type": "color",
+        "description": "Положительные события"
+      },
+      "Negative": {
+        "value": "{Primitives.red100}",
+        "type": "color",
+        "description": "Ошибки, критичные предупреждения"
+      },
+      "Warning": {
+        "value": "{Primitives.yellow800}",
+        "type": "color",
+        "description": "Некритичные предупреждения"
+      }
+    },
+    "Border": {
+      "Solid": {
+        "value": "{Primitives.gray600}",
+        "type": "color",
+        "description": "Обводки и разделители"
+      },
+      "Glassy": {
+        "value": "rgba( {Primitives.gray300} , 0.32)",
+        "type": "color",
+        "description": "Обводки и разделители"
+      },
+      "Focus": {
+        "value": "{Primitives.cobalt400}",
+        "type": "color",
+        "description": "Фокус ТВ"
+      },
+      "Active": {
+        "value": "rgba( {Primitives.white} , 0.56)",
+        "type": "color",
+        "description": "Обводка активных элементов, например, выбранный сезон"
+      },
+      "Contour": {
+        "value": "rgba( {Primitives.white} , 0.1)",
+        "type": "color",
+        "description": "контур контента, чтобы не сливался с черным"
+      },
+      "Decorative": {
+        "Focus": {
+          "value": "linear-gradient(45deg, {Primitives.violet700} 0%, {Primitives.cobalt400} 52%, {Primitives.white} 100%)",
           "type": "color",
-          "description": "Заголовки и основные иконки"
+          "description": "рамка фокуса"
+        },
+        "Active Horisontal": {
+          "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0) 0%, {Primitives.cobalt400} 16%, {Primitives.white} 50%, {Primitives.cobalt400} 83%, rgba( {Primitives.black} , 0) 100%)",
+          "type": "color",
+          "description": "Офферы, спецпредложения"
+        },
+        "Active Vertical": {
+          "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0) 0%, {Primitives.cobalt400} 18%, {Primitives.white} 50%, {Primitives.cobalt400} 82%, rgba( {Primitives.black} , 0) 100%)",
+          "type": "color",
+          "description": "Офферы, спецпредложения"
+        }
+      }
+    },
+    "Fill": {
+      "Solid": {
+        "Accent": {
+          "value": "{Primitives.cobalt400}",
+          "type": "color",
+          "description": "Офферы, спецпредложения"
+        },
+        "Primary": {
+          "value": "{Primitives.gray900}",
+          "type": "color",
+          "description": "Крупные кликабельные элементы, баннеры"
         },
         "Secondary": {
-          "value": "rgba( {Primitives.white} , 0.78)",
+          "value": "{Primitives.gray900}",
           "type": "color",
-          "description": "Основной текст"
+          "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
         },
         "Third": {
-          "value": "rgba( {Primitives.white} , 0.56%)",
+          "value": "{Primitives.gray600}",
           "type": "color",
-          "description": "Второстепенный текст"
+          "description": "Мелкие кликабельные элементы: чекбоксы, радиобаттоны"
         },
-        "Forth": {
-          "value": "rgba( {Primitives.white} , 0.4)",
+        "Inverse": {
+          "value": "{Primitives.gray100}",
           "type": "color",
-          "description": "Хинты, подсказки"
-        },
-        "Accent": {
-          "value": "{Primitives.cobalt200}",
-          "type": "color",
-          "description": "Ссылки"
-        },
-        "Offer": {
-          "value": "{Primitives.yellow500}",
-          "type": "color",
-          "description": "Ссылки"
+          "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
         },
         "Positive": {
           "value": "{Primitives.green500}",
@@ -46,298 +132,210 @@
           "value": "{Primitives.yellow800}",
           "type": "color",
           "description": "Некритичные предупреждения"
+        },
+        "Live": {
+          "value": "{Primitives.red500}",
+          "type": "color",
+          "description": "Live трансляции"
         }
       },
-      "Border": {
-        "Solid": {
-          "value": "{Primitives.gray600}",
+      "Glassy": {
+        "Secondary": {
+          "value": "rgba( {Primitives.gray500} , 0.48)",
           "type": "color",
-          "description": "Обводки и разделители"
+          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid"
         },
-        "Glassy": {
+        "Negative": {
+          "value": "rgba( {Primitives.red500} , 0.2)",
+          "type": "color",
+          "description": "Например, для подсветки ошибки в поле ввода"
+        },
+        "Third": {
           "value": "rgba( {Primitives.gray300} , 0.32)",
           "type": "color",
-          "description": "Обводки и разделители"
-        },
-        "Focus": {
-          "value": "{Primitives.cobalt400}",
-          "type": "color",
-          "description": "Фокус ТВ"
-        },
-        "Active": {
-          "value": "rgba( {Primitives.white} , 0.56)",
-          "type": "color",
-          "description": "Обводка активных элементов, например, выбранный сезон"
-        },
-        "Contour": {
-          "value": "rgba( {Primitives.white} , 0.1)",
-          "type": "color",
-          "description": "контур контента, чтобы не сливался с черным"
-        },
-        "Decorative": {
-          "Focus": {
-            "value": "linear-gradient(45deg, {Primitives.violet700} 0%, {Primitives.cobalt400} 52%, {Primitives.white} 100%)",
+          "description": "Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки"
+        }
+      },
+      "Fade": {
+        "Top": {
+          "Primary": {
+            "value": "linear-gradient(180deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color",
-            "description": "рамка фокуса"
+            "description": "Градиент для фейда изображений или видео"
           },
-          "Active Horisontal": {
-            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0) 0%, {Primitives.cobalt400} 16%, {Primitives.white} 50%, {Primitives.cobalt400} 83%, rgba( {Primitives.black} , 0) 100%)",
+          "Secondary": {
+            "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color",
-            "description": "Офферы, спецпредложения"
+            "description": "Градиент для фейда изображений или видео"
           },
-          "Active Vertical": {
-            "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0) 0%, {Primitives.cobalt400} 18%, {Primitives.white} 50%, {Primitives.cobalt400} 82%, rgba( {Primitives.black} , 0) 100%)",
+          "Third": {
+            "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
             "type": "color",
-            "description": "Офферы, спецпредложения"
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Fourth": {
+            "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          }
+        },
+        "Right": {
+          "Primary": {
+            "value": "linear-gradient(270deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Secondary": {
+            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Third": {
+            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Fourth": {
+            "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          }
+        },
+        "Bottom": {
+          "Primary": {
+            "value": "linear-gradient(0deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Secondary": {
+            "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Third": {
+            "value": "linear-gradient(0deg, rgba( rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Fourth": {
+            "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          }
+        },
+        "Left": {
+          "Primary": {
+            "value": "linear-gradient(90deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Secondary": {
+            "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Third": {
+            "value": "linear-gradient(90deg, rgba( rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
+          },
+          "Fourth": {
+            "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
+            "type": "color",
+            "description": "Градиент для фейда изображений или видео"
           }
         }
       },
-      "Fill": {
-        "Solid": {
-          "Accent": {
-            "value": "{Primitives.cobalt400}",
-            "type": "color",
-            "description": "Офферы, спецпредложения"
-          },
-          "Primary": {
-            "value": "{Primitives.gray900}",
-            "type": "color",
-            "description": "Крупные кликабельные элементы, баннеры"
-          },
-          "Secondary": {
-            "value": "{Primitives.gray900}",
-            "type": "color",
-            "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
-          },
-          "Third": {
-            "value": "{Primitives.gray600}",
-            "type": "color",
-            "description": "Мелкие кликабельные элементы: чекбоксы, радиобаттоны"
-          },
-          "Inverse": {
-            "value": "{Primitives.gray100}",
-            "type": "color",
-            "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
-          },
-          "Positive": {
-            "value": "{Primitives.green500}",
-            "type": "color",
-            "description": "Положительные события"
-          },
-          "Negative": {
-            "value": "{Primitives.red100}",
-            "type": "color",
-            "description": "Ошибки, критичные предупреждения"
-          },
-          "Warning": {
-            "value": "{Primitives.yellow800}",
-            "type": "color",
-            "description": "Некритичные предупреждения"
-          },
-          "Live": {
-            "value": "{Primitives.red500}",
-            "type": "color",
-            "description": "Live трансляции"
-          }
+      "Decorative": {
+        "Lemon": {
+          "value": "linear-gradient(90deg, {Primitives.yellow300} 0%, {Primitives.yellow500} 100%)",
+          "type": "color"
         },
-        "Glassy": {
-          "Secondary": {
-            "value": "rgba( {Primitives.gray500} , 0.48)",
-            "type": "color",
-            "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid"
-          },
-          "Negative": {
-            "value": "rgba( {Primitives.red500} , 0.2)",
-            "type": "color",
-            "description": "Например, для подсветки ошибки в поле ввода"
-          },
-          "Third": {
-            "value": "rgba( {Primitives.gray300} , 0.32)",
-            "type": "color",
-            "description": "Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки"
-          }
+        "Twilight": {
+          "value": "linear-gradient(90deg, {Primitives.red500} 0%, {Primitives.violet500} 100%)",
+          "type": "color"
         },
-        "Fade": {
-          "Top": {
-            "Primary": {
-              "value": "linear-gradient(180deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Secondary": {
-              "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Third": {
-              "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Fourth": {
-              "value": "linear-gradient(180deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            }
-          },
-          "Right": {
-            "Primary": {
-              "value": "linear-gradient(270deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Secondary": {
-              "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Third": {
-              "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Fourth": {
-              "value": "linear-gradient(270deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            }
-          },
-          "Bottom": {
-            "Primary": {
-              "value": "linear-gradient(0deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Secondary": {
-              "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Third": {
-              "value": "linear-gradient(0deg, rgba( rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Fourth": {
-              "value": "linear-gradient(0deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            }
-          },
-          "Left": {
-            "Primary": {
-              "value": "linear-gradient(90deg, {Primitives.black} 0%, rgba( {Primitives.black} , 0.99) 7%, rgba( {Primitives.black} , 0.96) 13%, rgba( {Primitives.black} , 0.92) 20%, rgba( {Primitives.black} , 0.85) 27%, rgba( {Primitives.black} , 0.77) 33%, rgba( {Primitives.black} , 0.67) 40%, rgba( {Primitives.black} , 0.56) 47%, rgba( {Primitives.black} , 0.44) 53%, rgba( {Primitives.black} , 0.33) 60%, rgba( {Primitives.black} , 0.23) 67%, rgba( {Primitives.black} , 0.15) 73%, rgba( {Primitives.black} , 0.08) 80%, rgba( {Primitives.black} , 0.04) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Secondary": {
-              "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.8) 0%, rgba( {Primitives.black} , 0.79) 7%, rgba( {Primitives.black} , 0.77) 13%, rgba( {Primitives.black} , 0.73) 20%, rgba( {Primitives.black} , 0.68) 27%, rgba( {Primitives.black} , 0.61) 33%, rgba( {Primitives.black} , 0.53) 40%, rgba( {Primitives.black} , 0.45) 47%, rgba( {Primitives.black} , 0.35) 53%, rgba( {Primitives.black} , 0.27) 60%, rgba( {Primitives.black} , 0.19) 67%, rgba( {Primitives.black} , 0.12) 73%, rgba( {Primitives.black} , 0.07) 80%, rgba( {Primitives.black} , 0.03) 87%, rgba( {Primitives.black} , 0.01) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Third": {
-              "value": "linear-gradient(90deg, rgba( rgba( {Primitives.black} , 0.56) 0%, rgba( {Primitives.black} , 0.56) 7%, rgba( {Primitives.black} , 0.54) 13%, rgba( {Primitives.black} , 0.51) 20%, rgba( {Primitives.black} , 0.48) 27%, rgba( {Primitives.black} , 0.43) 33%, rgba( {Primitives.black} , 0.37) 40%, rgba( {Primitives.black} , 0.31) 47%, rgba( {Primitives.black} , 0.25) 53%, rgba( {Primitives.black} , 0.19) 60%, rgba( {Primitives.black} , 0.13) 67%, rgba( {Primitives.black} , 0.08) 73%, rgba( {Primitives.black} , 0.05) 80%, rgba( {Primitives.black} , 0.02) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            },
-            "Fourth": {
-              "value": "linear-gradient(90deg, rgba( {Primitives.black} , 0.24) 0%, rgba( {Primitives.black} , 0.24) 7%, rgba( {Primitives.black} , 0.23) 13%, rgba( {Primitives.black} , 0.22) 20%, rgba( {Primitives.black} , 0.2) 27%, rgba( {Primitives.black} , 0.18) 33%, rgba( {Primitives.black} , 0.16) 40%, rgba( {Primitives.black} , 0.13) 47%, rgba( {Primitives.black} , 0.11) 53%, rgba( {Primitives.black} , 0.08) 60%, rgba( {Primitives.black} , 0.06) 67%, rgba( {Primitives.black} , 0.04) 73%, rgba( {Primitives.black} , 0.02) 80%, rgba( {Primitives.black} , 0.01) 87%, rgba( {Primitives.black} , 0) 93%, rgba( {Primitives.black} , 0) 100%)",
-              "type": "color",
-              "description": "Градиент для фейда изображений или видео"
-            }
-          }
+        "Neon": {
+          "value": "linear-gradient(90deg, {Primitives.pink600} 0%, {Primitives.violet500} 100%)",
+          "type": "color"
         },
-        "Decorative": {
-          "Lemon": {
-            "value": "linear-gradient(90deg, {Primitives.yellow300} 0%, {Primitives.yellow500} 100%)",
-            "type": "color"
-          },
-          "Twilight": {
-            "value": "linear-gradient(90deg, {Primitives.red500} 0%, {Primitives.violet500} 100%)",
-            "type": "color"
-          },
-          "Neon": {
-            "value": "linear-gradient(90deg, {Primitives.pink600} 0%, {Primitives.violet500} 100%)",
-            "type": "color"
-          },
-          "Continuum": {
-            "value": "linear-gradient(90deg, {Primitives.cobalt500} 0%, {Primitives.purple500} 100%)",
-            "type": "color"
-          },
-          "Lighthouse": {
-            "value": "linear-gradient(90deg, {Primitives.purple500} 0%, {Primitives.pink600} 100%)",
-            "type": "color"
-          },
-          "Gold": {
-            "value": "linear-gradient(90deg, {Primitives.brown500} 0%, {Primitives.brown200} 100%)",
-            "type": "color"
-          },
-          "Melancholy": {
-            "value": "linear-gradient(90deg, {Primitives.blue650} 0%, {Primitives.violet650} 100%)",
-            "type": "color"
-          },
-          "Button": {
-            "value": "linear-gradient(27deg, {Primitives.violet700} 0%, {Primitives.cobalt400} 100%)",
-            "type": "color"
-          }
+        "Continuum": {
+          "value": "linear-gradient(90deg, {Primitives.cobalt500} 0%, {Primitives.purple500} 100%)",
+          "type": "color"
         },
-        "Technical": {
-          "Skeleton": {
-            "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.05) 0%, rgba( {Primitives.white} , 0.15) 0%, rgba( {Primitives.white} , 0.05) 100%)",
-            "type": "color",
-            "description": "Для отображения процесса загрузки компонентов (только для использования в макетах)"
-          },
-          "Button Loading": {
-            "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0) 0%, rgba( {Primitives.white} , 0.24) 88%, rgba( {Primitives.white} , 0.3) 100%)",
-            "type": "color",
-            "description": "Процесс загрузки ответа сервера, отображаемый на кнопке"
-          },
-          "Placeholder": {
-            "value": "{Primitives.gray800}",
-            "type": "color",
-            "description": "Фон для отображения состояния, когда ответ от сервера получен и загружается контент"
-          }
+        "Lighthouse": {
+          "value": "linear-gradient(90deg, {Primitives.purple500} 0%, {Primitives.pink600} 100%)",
+          "type": "color"
+        },
+        "Gold": {
+          "value": "linear-gradient(90deg, {Primitives.brown500} 0%, {Primitives.brown200} 100%)",
+          "type": "color"
+        },
+        "Melancholy": {
+          "value": "linear-gradient(90deg, {Primitives.blue650} 0%, {Primitives.violet650} 100%)",
+          "type": "color"
+        },
+        "Button": {
+          "value": "linear-gradient(27deg, {Primitives.violet700} 0%, {Primitives.cobalt400} 100%)",
+          "type": "color"
         }
       },
-      "Background": {
-        "Solid": {
-          "Primary": {
-            "value": "{Primitives.black}",
-            "type": "color",
-            "description": "Основной фон"
-          },
-          "Secondary": {
-            "value": "{Primitives.gray900}",
-            "type": "color",
-            "description": "Для окон"
-          },
-          "Inverse": {
-            "value": "{Primitives.gray100}",
-            "type": "color",
-            "description": "Для светлых элементов в тёмной теме"
-          }
+      "Technical": {
+        "Skeleton": {
+          "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.05) 0%, rgba( {Primitives.white} , 0.15) 0%, rgba( {Primitives.white} , 0.05) 100%)",
+          "type": "color",
+          "description": "Для отображения процесса загрузки компонентов (только для использования в макетах)"
         },
-        "Glassy": {
-          "Primary": {
-            "value": "rgba( {Primitives.black} , 0.88)",
-            "type": "color",
-            "description": "Фон поверх изображения"
-          },
-          "Secondary": {
-            "value": "rgba( {Primitives.black} , 0.72)",
-            "type": "color",
-            "description": "Фон поверх изображения"
-          },
-          "Third": {
-            "value": "rgba( {Primitives.black} , 0.56)",
-            "type": "color",
-            "description": "Фон поверх изображения, видео (плеер)"
-          },
-          "Forth": {
-            "value": "rgba( {Primitives.black} , 0.32)",
-            "type": "color",
-            "description": "Фон поверх изображения"
-          }
+        "Button Loading": {
+          "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0) 0%, rgba( {Primitives.white} , 0.24) 88%, rgba( {Primitives.white} , 0.3) 100%)",
+          "type": "color",
+          "description": "Процесс загрузки ответа сервера, отображаемый на кнопке"
+        },
+        "Placeholder": {
+          "value": "{Primitives.gray800}",
+          "type": "color",
+          "description": "Фон для отображения состояния, когда ответ от сервера получен и загружается контент"
+        }
+      }
+    },
+    "Background": {
+      "Solid": {
+        "Primary": {
+          "value": "{Primitives.black}",
+          "type": "color",
+          "description": "Основной фон"
+        },
+        "Secondary": {
+          "value": "{Primitives.gray900}",
+          "type": "color",
+          "description": "Для окон"
+        },
+        "Inverse": {
+          "value": "{Primitives.gray100}",
+          "type": "color",
+          "description": "Для светлых элементов в тёмной теме"
+        }
+      },
+      "Glassy": {
+        "Primary": {
+          "value": "rgba( {Primitives.black} , 0.88)",
+          "type": "color",
+          "description": "Фон поверх изображения"
+        },
+        "Secondary": {
+          "value": "rgba( {Primitives.black} , 0.72)",
+          "type": "color",
+          "description": "Фон поверх изображения"
+        },
+        "Third": {
+          "value": "rgba( {Primitives.black} , 0.56)",
+          "type": "color",
+          "description": "Фон поверх изображения, видео (плеер)"
+        },
+        "Forth": {
+          "value": "rgba( {Primitives.black} , 0.32)",
+          "type": "color",
+          "description": "Фон поверх изображения"
         }
       }
     }
