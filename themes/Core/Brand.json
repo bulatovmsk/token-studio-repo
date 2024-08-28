@@ -2,63 +2,67 @@
   "Brand": {
     "Okko": {
       "Primary": {
-        "value": "#000000",
+        "value": "{Primitives.black}",
         "type": "color"
       },
       "Accent": {
-        "value": "#5d0ef5",
+        "value": "{Primitives.cobalt400}",
         "type": "color"
       },
       "AdditionalA": {
-        "value": "#3f29ff",
+        "value": "{Primitives.cobalt300}",
         "type": "color"
       },
       "AdditionalB": {
-        "value": "#7a12ca",
+        "value": "{Primitives.purple500}",
         "type": "color"
       }
     },
     "Partners": {
       "EPL": {
-        "value": "#37003c",
+        "value": "{Primitives.External.epl1}",
         "type": "color"
       },
       "Winline": {
-        "value": "#ff6a13",
+        "value": "{Primitives.External.winline1}",
         "type": "color"
       },
       "Sber": {
-        "value": "#21a038",
+        "value": "{Primitives.External.sber1}",
         "type": "color"
       },
       "Sber Gradient": {
         "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
         "type": "color"
+      },
+      "Sber_Spasibo": {
+        "value": "{Primitives.External.sber2}",
+        "type": "color"
       }
     },
     "Social": {
       "Facebook": {
-        "value": "#325797",
+        "value": "{Primitives.External.facebook1}",
         "type": "color"
       },
       "VK": {
-        "value": "#0077ff",
+        "value": "{Primitives.External.vk1}",
         "type": "color"
       },
       "Twitter": {
-        "value": "#31adf4",
+        "value": "{Primitives.External.twitter1}",
         "type": "color"
       },
       "Yandex": {
-        "value": "#e81b2c",
+        "value": "{Primitives.External.yandex1}",
         "type": "color"
       },
       "Odnoklassniki": {
-        "value": "#f98d20",
+        "value": "{Primitives.External.ok1}",
         "type": "color"
       },
       "Viber": {
-        "value": "#7360f2",
+        "value": "{Primitives.External.viber1}",
         "type": "color"
       }
     }
