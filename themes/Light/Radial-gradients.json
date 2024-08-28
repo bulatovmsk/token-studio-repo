@@ -1,0 +1,56 @@
+{
+  "color": {
+    "Dark": {
+      "Background": {
+        "Decorative": {
+          "Primary": {
+            "value": "radial-gradient(107.67% 119.02% at 81.25% -19%, {Primitives.purple300} 0.08%, {Primitives.violet700} 77.96%, {Primitives.cobalt750} 100%)",
+            "type": "color",
+            "description": "Брендированный фон"
+          }
+        }
+      },
+      "Fill": {
+        "Solid": {
+          "Hover&Focus": {
+            "Primary": {
+              "value": "radial-gradient(133.22% 100% at 100% 0%, {Primitives.gray800} 0%, {Primitives.gray900} 100%)",
+              "type": "color",
+              "description": "Для состояния ховера или фокуса компонентов залитых solid-primary"
+            },
+            "Secondary": {
+              "value": "radial-gradient(133.22% 100% at 100% 0%, {Primitives.gray600} 0%, {Primitives.gray800} 100%)",
+              "type": "color",
+              "description": "Для состояния ховера или фокуса компонентов залитых solid-secondary"
+            },
+            "Third": {
+              "value": "radial-gradient(100% 100% at 100% 0%, {Primitives.white} 0%, {Primitives.gray100} 100%)",
+              "type": "color",
+              "description": "Для состояния ховера или фокуса компонентов залитых Solid-third"
+            }
+          }
+        },
+        "Glassy": {
+          "Hover&Focus": {
+            "Secondary": {
+              "value": "radial-gradient(141.42% 141.42% at 100% 0%, rgba( {Primitives.gray400} , 0.48) 0%, rgba( {Primitives.gray500} , 0.48) 100%)",
+              "type": "color",
+              "description": "Для состояния ховера или фокуса компонентов залитых Glassy-secondary"
+            },
+            "Third": {
+              "value": "radial-gradient(100% 100% at 100% 0%, rgba( {Primitives.white} , 0.80) 0%, rgba( {Primitives.white} , 0.56) 100%)",
+              "type": "color",
+              "description": "Для состояния ховера или фокуса компонентов залитых Glassy-third"
+            }
+          }
+        },
+        "Decorative": {
+          "Sky": {
+            "value": "radial-gradient(2628.95% 208.1% at 0% -35%, {Primitives.blue100} 0%, {Primitives.blue300} 100%)",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

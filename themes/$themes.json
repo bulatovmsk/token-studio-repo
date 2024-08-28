@@ -6,7 +6,8 @@
     "selectedTokenSets": {
       "Dark/Semantic": "enabled",
       "Core/Primitives": "source",
-      "Core/Brand": "source"
+      "Core/Brand": "enabled",
+      "Dark/Radial-gradients": "enabled"
     }
   },
   {
@@ -16,7 +17,8 @@
     "selectedTokenSets": {
       "Light/Semantic": "enabled",
       "Core/Primitives": "source",
-      "Core/Brand": "source"
+      "Core/Brand": "enabled",
+      "Light/Radial-gradients": "enabled"
     }
   }
 ]

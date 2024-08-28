@@ -3,6 +3,8 @@
     "Core/Primitives",
     "Core/Brand",
     "Dark/Semantic",
-    "Light/Semantic"
+    "Dark/Radial-gradients",
+    "Light/Semantic",
+    "Light/Radial-gradients"
   ]
 }
