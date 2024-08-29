@@ -1,33 +1,67 @@
 {
   "color": {
-    "Light": {
-      "Text&icon": {
+    "Text&icon": {
+      "Primary": {
+        "value": "rgba( {Primitives.black} , 0.96)",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "rgba( {Primitives.black} , 0.8)",
+        "type": "color"
+      },
+      "Third": {
+        "value": "rgba( {Primitives.black} , 0.56)",
+        "type": "color"
+      },
+      "Forth": {
+        "value": "rgba( {Primitives.black} , 0.4)",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "{Primitives.cobalt400}",
+        "type": "color"
+      },
+      "Offer": {
+        "value": "{Primitives.yellow500}",
+        "type": "color"
+      },
+      "Positive": {
+        "value": "{Primitives.green500}",
+        "type": "color"
+      },
+      "Negative": {
+        "value": "{Primitives.red100}",
+        "type": "color"
+      },
+      "Warning": {
+        "value": "{Primitives.yellow800}",
+        "type": "color"
+      }
+    },
+    "Fill": {
+      "Solid": {
         "Primary": {
-          "value": "rgba( {Primitives.black} , 0.96)",
+          "value": "{Primitives.gray900}",
           "type": "color"
         },
         "Secondary": {
-          "value": "rgba( {Primitives.black} , 0.8)",
+          "value": "{Primitives.gray800}",
           "type": "color"
         },
         "Third": {
-          "value": "rgba( {Primitives.black} , 0.56)",
+          "value": "{Primitives.white}",
           "type": "color"
         },
-        "Forth": {
-          "value": "rgba( {Primitives.black} , 0.4)",
+        "Positive": {
+          "value": "{Primitives.green500}",
           "type": "color"
         },
         "Accent": {
           "value": "{Primitives.cobalt400}",
           "type": "color"
         },
-        "Offer": {
-          "value": "{Primitives.yellow500}",
-          "type": "color"
-        },
-        "Positive": {
-          "value": "{Primitives.green500}",
+        "Inverse": {
+          "value": "{Primitives.gray100}",
           "type": "color"
         },
         "Negative": {
@@ -37,257 +71,221 @@
         "Warning": {
           "value": "{Primitives.yellow800}",
           "type": "color"
+        },
+        "Live": {
+          "value": "{Primitives.red500}",
+          "type": "color"
         }
       },
-      "Fill": {
-        "Solid": {
-          "Primary": {
-            "value": "{Primitives.gray900}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{Primitives.gray800}",
-            "type": "color"
-          },
-          "Third": {
-            "value": "{Primitives.white}",
-            "type": "color"
-          },
-          "Positive": {
-            "value": "{Primitives.green500}",
-            "type": "color"
-          },
-          "Accent": {
-            "value": "{Primitives.cobalt400}",
-            "type": "color"
-          },
-          "Inverse": {
-            "value": "{Primitives.gray100}",
-            "type": "color"
-          },
-          "Negative": {
-            "value": "{Primitives.red100}",
-            "type": "color"
-          },
-          "Warning": {
-            "value": "{Primitives.yellow800}",
-            "type": "color"
-          },
-          "Live": {
-            "value": "{Primitives.red500}",
-            "type": "color"
-          }
-        },
-        "Glassy": {
-          "Third": {
-            "value": "rgba( {Primitives.white} , 0.56)",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "rgba( {Primitives.gray500} , 0.48)",
-            "type": "color"
-          },
-          "Negative": {
-            "value": "rgba( {Primitives.red500} , 0.2)",
-            "type": "color"
-          }
-        },
-        "Fade": {
-          "Top": {
-            "Primary": {
-              "value": "linear-gradient(180deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Secondary": {
-              "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Third": {
-              "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Fourth": {
-              "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            }
-          },
-          "Right": {
-            "Primary": {
-              "value": "linear-gradient(-90deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Secondary": {
-              "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Third": {
-              "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Fourth": {
-              "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            }
-          },
-          "Bottom": {
-            "Primary": {
-              "value": "linear-gradient(0deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Secondary": {
-              "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Third": {
-              "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Fourth": {
-              "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            }
-          },
-          "Left": {
-            "Primary": {
-              "value": "linear-gradient(90deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Secondary": {
-              "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Third": {
-              "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            },
-            "Fourth": {
-              "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
-              "type": "color"
-            }
-          }
-        },
-        "Decorative": {
-          "Kids": {
-            "value": "linear-gradient(270deg, {Primitives.pink200} 0%, {Primitives.pink500} 33%, {Primitives.purple400} 67%, {Primitives.cobalt400} 100%)",
-            "type": "color"
-          },
-          "Lemon": {
-            "value": "linear-gradient(90deg, {Primitives.yellow300} 0%, {Primitives.yellow500} 100%)",
-            "type": "color"
-          },
-          "Twilight": {
-            "value": "linear-gradient(90deg, {Primitives.red500} 0%, {Primitives.violet500} 100%)",
-            "type": "color"
-          },
-          "Neon": {
-            "value": "linear-gradient(90deg, {Primitives.pink600} 0%, {Primitives.violet500} 100%)",
-            "type": "color"
-          },
-          "Continuum": {
-            "value": "linear-gradient(90deg, {Primitives.cobalt500} 0%, {Primitives.purple500} 100%)",
-            "type": "color"
-          },
-          "Lighthouse": {
-            "value": "linear-gradient(90deg, {Primitives.purple500} 0%, {Primitives.pink600} 100%)",
-            "type": "color"
-          },
-          "Gold": {
-            "value": "linear-gradient(90deg, {Primitives.brown500} 0%, {Primitives.brown200} 100%)",
-            "type": "color"
-          },
-          "Melancholy": {
-            "value": "linear-gradient(90deg, {Primitives.blue650} 0%, {Primitives.violet650} 100%)",
-            "type": "color"
-          },
-          "Button": {
-            "value": "linear-gradient(27deg, {Primitives.violet400} 0%, {Primitives.cobalt400} 100%)",
-            "type": "color"
-          }
-        },
-        "Technical": {
-          "Skeleton": {
-            "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.35) 0%, {Primitives.white} 64%, rgba( {Primitives.white} , 0.35) 100%)",
-            "type": "color"
-          },
-          "Button Loading": {
-            "value": "linear-gradient(90deg, rgba( {Primitives.gray200} , 0) 0%, rgba( {Primitives.gray200} , 0.24) 88.21%, rgba( {Primitives.gray200} , 0.3) 100%)",
-            "type": "color"
-          },
-          "Placeholder": {
-            "value": "{Primitives.gray100}",
-            "type": "color"
-          }
-        }
-      },
-      "Background": {
-        "Solid": {
-          "Primary": {
-            "value": "{Primitives.cobalt100}",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "{Primitives.gray900}",
-            "type": "color"
-          },
-          "Inverse": {
-            "value": "{Primitives.gray100}",
-            "type": "color",
-            "description": "Для светлых элементов в тёмной теме"
-          }
-        },
-        "Glassy": {
-          "Primary": {
-            "value": "rgba( {Primitives.black} , 0.88)",
-            "type": "color"
-          },
-          "Secondary": {
-            "value": "rgba( {Primitives.black} , 0.72)",
-            "type": "color"
-          },
-          "Third": {
-            "value": "rgba( {Primitives.black} , 0.56)",
-            "type": "color"
-          },
-          "Forth": {
-            "value": "rgba( {Primitives.black} , 0.32)",
-            "type": "color"
-          }
-        }
-      },
-      "Border": {
-        "Solid": {
-          "value": "{Primitives.gray600}",
+      "Glassy": {
+        "Third": {
+          "value": "rgba( {Primitives.white} , 0.56)",
           "type": "color"
         },
-        "Glassy": {
-          "value": "rgba( {Primitives.gray300} , 0.32)",
+        "Secondary": {
+          "value": "rgba( {Primitives.gray500} , 0.48)",
           "type": "color"
         },
+        "Negative": {
+          "value": "rgba( {Primitives.red500} , 0.2)",
+          "type": "color"
+        }
+      },
+      "Fade": {
+        "Top": {
+          "Primary": {
+            "value": "linear-gradient(180deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Third": {
+            "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Fourth": {
+            "value": "linear-gradient(180deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          }
+        },
+        "Right": {
+          "Primary": {
+            "value": "linear-gradient(-90deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Third": {
+            "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Fourth": {
+            "value": "linear-gradient(-90deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          }
+        },
+        "Bottom": {
+          "Primary": {
+            "value": "linear-gradient(0deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Third": {
+            "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Fourth": {
+            "value": "linear-gradient(0deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          }
+        },
+        "Left": {
+          "Primary": {
+            "value": "linear-gradient(90deg, {Primitives.cobalt100} 0%, rgba( {Primitives.cobalt100} , 0.99) 7%, rgba( {Primitives.cobalt100} , 0.96) 13%, rgba( {Primitives.cobalt100} , 0.92) 20%, rgba( {Primitives.cobalt100} , 0.85) 27%, rgba( {Primitives.cobalt100} , 0.77) 33%, rgba( {Primitives.cobalt100} , 0.67) 40%, rgba( {Primitives.cobalt100} , 0.56) 47%, rgba( {Primitives.cobalt100} , 0.44) 53%, rgba( {Primitives.cobalt100} , 0.33) 60%, rgba( {Primitives.cobalt100} , 0.23) 67%, rgba( {Primitives.cobalt100} , 0.15) 73%, rgba( {Primitives.cobalt100} , 0.08) 80%, rgba( {Primitives.cobalt100} , 0.04) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.8) 0%, rgba( {Primitives.cobalt100} , 0.79) 7%, rgba( {Primitives.cobalt100} , 0.77) 13%, rgba( {Primitives.cobalt100} , 0.73) 20%, rgba( {Primitives.cobalt100} , 0.68) 27%, rgba( {Primitives.cobalt100} , 0.61) 33%, rgba( {Primitives.cobalt100} , 0.53) 40%, rgba( {Primitives.cobalt100} , 0.45) 47%, rgba( {Primitives.cobalt100} , 0.35) 53%, rgba( {Primitives.cobalt100} , 0.27) 60%, rgba( {Primitives.cobalt100} , 0.19) 67%, rgba( {Primitives.cobalt100} , 0.12) 73%, rgba( {Primitives.cobalt100} , 0.07) 80%, rgba( {Primitives.cobalt100} , 0.03) 87%, rgba( {Primitives.cobalt100} , 0.01) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Third": {
+            "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.56) 0%, rgba( {Primitives.cobalt100} , 0.56) 7%, rgba( {Primitives.cobalt100} , 0.54) 13%, rgba( {Primitives.cobalt100} , 0.51) 20%, rgba( {Primitives.cobalt100} , 0.48) 27%, rgba( {Primitives.cobalt100} , 0.43) 33%, rgba( {Primitives.cobalt100} , 0.37) 40%, rgba( {Primitives.cobalt100} , 0.31) 47%, rgba( {Primitives.cobalt100} , 0.25) 53%, rgba( {Primitives.cobalt100} , 0.19) 60%, rgba( {Primitives.cobalt100} , 0.13) 67%, rgba( {Primitives.cobalt100} , 0.08) 73%, rgba( {Primitives.cobalt100} , 0.05) 80%, rgba( {Primitives.cobalt100} , 0.02) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          },
+          "Fourth": {
+            "value": "linear-gradient(90deg, rgba( {Primitives.cobalt100} , 0.24) 0%, rgba( {Primitives.cobalt100} , 0.24) 7%, rgba( {Primitives.cobalt100} , 0.23) 13%, rgba( {Primitives.cobalt100} , 0.22) 20%, rgba( {Primitives.cobalt100} , 0.2) 27%, rgba( {Primitives.cobalt100} , 0.18) 33%, rgba( {Primitives.cobalt100} , 0.16) 40%, rgba( {Primitives.cobalt100} , 0.13) 47%, rgba( {Primitives.cobalt100} , 0.11) 53%, rgba( {Primitives.cobalt100} , 0.08) 60%, rgba( {Primitives.cobalt100} , 0.06) 67%, rgba( {Primitives.cobalt100} , 0.04) 73%, rgba( {Primitives.cobalt100} , 0.02) 80%, rgba( {Primitives.cobalt100} , 0.01) 87%, rgba( {Primitives.cobalt100} , 0) 93%, rgba( {Primitives.cobalt100} , 0) 100%)",
+            "type": "color"
+          }
+        }
+      },
+      "Decorative": {
+        "Kids": {
+          "value": "linear-gradient(270deg, {Primitives.pink200} 0%, {Primitives.pink500} 33%, {Primitives.purple400} 67%, {Primitives.cobalt400} 100%)",
+          "type": "color"
+        },
+        "Lemon": {
+          "value": "linear-gradient(90deg, {Primitives.yellow300} 0%, {Primitives.yellow500} 100%)",
+          "type": "color"
+        },
+        "Twilight": {
+          "value": "linear-gradient(90deg, {Primitives.red500} 0%, {Primitives.violet500} 100%)",
+          "type": "color"
+        },
+        "Neon": {
+          "value": "linear-gradient(90deg, {Primitives.pink600} 0%, {Primitives.violet500} 100%)",
+          "type": "color"
+        },
+        "Continuum": {
+          "value": "linear-gradient(90deg, {Primitives.cobalt500} 0%, {Primitives.purple500} 100%)",
+          "type": "color"
+        },
+        "Lighthouse": {
+          "value": "linear-gradient(90deg, {Primitives.purple500} 0%, {Primitives.pink600} 100%)",
+          "type": "color"
+        },
+        "Gold": {
+          "value": "linear-gradient(90deg, {Primitives.brown500} 0%, {Primitives.brown200} 100%)",
+          "type": "color"
+        },
+        "Melancholy": {
+          "value": "linear-gradient(90deg, {Primitives.blue650} 0%, {Primitives.violet650} 100%)",
+          "type": "color"
+        },
+        "Button": {
+          "value": "linear-gradient(27deg, {Primitives.violet400} 0%, {Primitives.cobalt400} 100%)",
+          "type": "color"
+        }
+      },
+      "Technical": {
+        "Skeleton": {
+          "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.35) 0%, {Primitives.white} 64%, rgba( {Primitives.white} , 0.35) 100%)",
+          "type": "color"
+        },
+        "Button Loading": {
+          "value": "linear-gradient(90deg, rgba( {Primitives.gray200} , 0) 0%, rgba( {Primitives.gray200} , 0.24) 88.21%, rgba( {Primitives.gray200} , 0.3) 100%)",
+          "type": "color"
+        },
+        "Placeholder": {
+          "value": "{Primitives.gray100}",
+          "type": "color"
+        }
+      }
+    },
+    "Background": {
+      "Solid": {
+        "Primary": {
+          "value": "{Primitives.cobalt100}",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "{Primitives.gray900}",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "{Primitives.gray100}",
+          "type": "color",
+          "description": "Для светлых элементов в тёмной теме"
+        }
+      },
+      "Glassy": {
+        "Primary": {
+          "value": "rgba( {Primitives.black} , 0.88)",
+          "type": "color"
+        },
+        "Secondary": {
+          "value": "rgba( {Primitives.black} , 0.72)",
+          "type": "color"
+        },
+        "Third": {
+          "value": "rgba( {Primitives.black} , 0.56)",
+          "type": "color"
+        },
+        "Forth": {
+          "value": "rgba( {Primitives.black} , 0.32)",
+          "type": "color"
+        }
+      }
+    },
+    "Border": {
+      "Solid": {
+        "value": "{Primitives.gray600}",
+        "type": "color"
+      },
+      "Glassy": {
+        "value": "rgba( {Primitives.gray300} , 0.32)",
+        "type": "color"
+      },
+      "Focus": {
+        "value": "{Primitives.cobalt400}",
+        "type": "color"
+      },
+      "Active": {
+        "value": "rgba( {Primitives.white} , 0.56)",
+        "type": "color"
+      },
+      "Contour": {
+        "value": "rgba( {Primitives.white} , 0.56)",
+        "type": "color"
+      },
+      "Decorative": {
         "Focus": {
-          "value": "{Primitives.cobalt400}",
+          "value": "linear-gradient(270deg, {Primitives.cobalt400} 0%, {Primitives.purple400} 33%, {Primitives.pink500} 67%, {Primitives.pink200} 100%)",
           "type": "color"
         },
-        "Active": {
-          "value": "rgba( {Primitives.white} , 0.56)",
+        "Active Horisontal": {
+          "value": "linear-gradient(270deg, {Primitives.white} 0%, {Primitives.purple200} 13%, {Primitives.cobalt400} 50%, {Primitives.purple200} 88%, {Primitives.white} 100%)",
           "type": "color"
         },
-        "Contour": {
-          "value": "rgba( {Primitives.white} , 0.56)",
+        "Active Vertical": {
+          "value": "linear-gradient(0deg, {Primitives.white} 0%, {Primitives.purple200} 13%, {Primitives.cobalt400} 50%, {Primitives.purple200} 88%, {Primitives.white} 100%)",
           "type": "color"
-        },
-        "Decorative": {
-          "Focus": {
-            "value": "linear-gradient(270deg, {Primitives.cobalt400} 0%, {Primitives.purple400} 33%, {Primitives.pink500} 67%, {Primitives.pink200} 100%)",
-            "type": "color"
-          },
-          "Active Horisontal": {
-            "value": "linear-gradient(270deg, {Primitives.white} 0%, {Primitives.purple200} 13%, {Primitives.cobalt400} 50%, {Primitives.purple200} 88%, {Primitives.white} 100%)",
-            "type": "color"
-          },
-          "Active Vertical": {
-            "value": "linear-gradient(0deg, {Primitives.white} 0%, {Primitives.purple200} 13%, {Primitives.cobalt400} 50%, {Primitives.purple200} 88%, {Primitives.white} 100%)",
-            "type": "color"
-          }
         }
       }
     }
