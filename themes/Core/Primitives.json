@@ -322,63 +322,52 @@
       },
       "100": {
         "value": "{CR.TV.Base} *0.5",
-        "type": "borderRadius",
-        "description": "Min side 15px"
+        "type": "borderRadius"
       },
       "150": {
         "value": "{CR.TV.Base} *0.75",
-        "type": "borderRadius",
-        "description": "Min side 30px"
+        "type": "borderRadius"
       },
       "200": {
         "value": "{CR.TV.Base}",
-        "type": "borderRadius",
-        "description": "Min side 40px"
+        "type": "borderRadius"
       },
       "250": {
         "value": "{CR.TV.Base} *1.25",
-        "type": "borderRadius",
-        "description": "Min side 60px"
+        "type": "borderRadius"
       },
       "300": {
         "value": "{CR.TV.Base} *1.5",
-        "type": "borderRadius",
-        "description": "Min side 70px"
+        "type": "borderRadius"
       },
       "350": {
         "value": "{CR.TV.Base} *1.75",
-        "type": "borderRadius",
-        "description": "-"
+        "type": "borderRadius"
       },
       "400": {
         "value": "{CR.TV.Base} *2",
-        "type": "borderRadius",
-        "description": "Min side 96px"
+        "type": "borderRadius"
       },
       "450": {
         "value": "{CR.TV.Base} *2.25",
-        "type": "borderRadius",
-        "description": "Min side 200px"
+        "type": "borderRadius"
       },
       "500": {
         "value": "{CR.TV.Base} *2.5",
-        "type": "borderRadius",
-        "description": "Min side 270px"
+        "type": "borderRadius"
       },
       "550": {
         "value": "{CR.TV.Base} *2.75",
-        "type": "borderRadius",
-        "description": "Min side 400px"
+        "type": "borderRadius"
       },
       "600": {
         "value": "{CR.TV.Base} *3",
         "type": "borderRadius",
-        "description": "Min side 540px"
+        "description": "\n"
       },
       "650": {
         "value": "{CR.TV.Base} *3.25",
-        "type": "borderRadius",
-        "description": "Min side 700px"
+        "type": "borderRadius"
       },
       "700": {
         "value": "{CR.TV.Base} *3.5",
