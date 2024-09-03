@@ -92,7 +92,8 @@
     "selectedTokenSets": {
       "Dark/Semantic": "enabled",
       "Core/Primitives": "source",
-      "Dark/Radial-gradients": "enabled"
+      "Dark/Radial-gradients": "enabled",
+      "Core/Corner Radius": "enabled"
     }
   },
   {
@@ -189,7 +190,8 @@
     "selectedTokenSets": {
       "Light/Semantic": "enabled",
       "Core/Primitives": "source",
-      "Light/Radial-gradients": "enabled"
+      "Light/Radial-gradients": "enabled",
+      "Core/Corner Radius": "enabled"
     }
   }
 ]
