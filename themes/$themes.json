@@ -93,7 +93,9 @@
       "Dark/Semantic": "enabled",
       "Core/Primitives": "source",
       "Dark/Radial-gradients": "enabled",
-      "Core/Corner Radius": "enabled"
+      "Core/Web&Mobile": "enabled",
+      "Core/TV": "enabled",
+      "Core/Brand": "enabled"
     }
   },
   {
@@ -191,7 +193,9 @@
       "Light/Semantic": "enabled",
       "Core/Primitives": "source",
       "Light/Radial-gradients": "enabled",
-      "Core/Corner Radius": "enabled"
+      "Core/Web&Mobile": "enabled",
+      "Core/TV": "enabled",
+      "Core/Brand": "enabled"
     }
   }
 ]

@@ -2,7 +2,8 @@
   "tokenSetOrder": [
     "Core/Primitives",
     "Core/Brand",
-    "Core/Corner Radius",
+    "Core/Web&Mobile",
+    "Core/TV",
     "Dark/Semantic",
     "Dark/Radial-gradients",
     "Light/Semantic",

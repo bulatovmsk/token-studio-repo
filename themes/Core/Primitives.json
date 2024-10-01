@@ -226,19 +226,5 @@
         "type": "color"
       }
     }
-  },
-  "CR": {
-    "web&mobile": {
-      "Base": {
-        "value": "8",
-        "type": "borderRadius"
-      }
-    },
-    "TV": {
-      "Base": {
-        "value": "16",
-        "type": "borderRadius"
-      }
-    }
   }
 }
