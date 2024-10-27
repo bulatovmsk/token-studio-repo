@@ -226,5 +226,17 @@
         "type": "color"
       }
     }
+  },
+  "spacing": {
+    "base": {
+      "value": "8",
+      "type": "spacing"
+    }
+  },
+  "corner-radius": {
+    "base": {
+      "value": "8",
+      "type": "borderRadius"
+    }
   }
 }

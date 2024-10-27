@@ -43,10 +43,6 @@
     "1000": {
       "value": "{corner-radius.base}*3.5",
       "type": "borderRadius"
-    },
-    "base": {
-      "value": "8",
-      "type": "borderRadius"
     }
   },
   "spacing": {
@@ -109,31 +105,28 @@
     "1000": {
       "value": "{spacing.base} *12",
       "type": "spacing"
-    },
-    "base": {
-      "value": "8",
-      "type": "spacing"
     }
   },
   "screen-padding": {
-    "200": {
+    "300": {
+      "value": "16",
+      "type": "spacing",
+      "description": "Depreceted"
+    },
+    "mobile": {
       "value": "12",
       "type": "spacing"
     },
-    "300": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "500": {
+    "tablet": {
       "value": "32",
       "type": "spacing"
     },
-    "800": {
-      "value": "72",
+    "desktop-m": {
+      "value": "56",
       "type": "spacing"
     },
-    "1000": {
-      "value": "96",
+    "desktop-l": {
+      "value": "72",
       "type": "spacing"
     }
   }

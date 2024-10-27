@@ -43,10 +43,6 @@
     "1000": {
       "value": "{corner-radius.base}*4.5",
       "type": "borderRadius"
-    },
-    "base": {
-      "value": "8",
-      "type": "borderRadius"
     }
   },
   "spacing": {
@@ -117,22 +113,18 @@
     "1000": {
       "value": "{spacing.base} *13",
       "type": "spacing"
-    },
-    "base": {
-      "value": "16",
-      "type": "spacing"
     }
   },
   "screen-padding": {
-    "300": {
-      "value": "72",
-      "type": "spacing"
-    },
     "500": {
       "value": "96",
       "type": "spacing"
     },
-    "800": {
+    "right": {
+      "value": "72",
+      "type": "spacing"
+    },
+    "left": {
       "value": "136",
       "type": "spacing"
     }

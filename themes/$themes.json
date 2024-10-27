@@ -90,12 +90,16 @@
       "color.Brand.Social.Viber": "S:11a7d47906cdf2205c9c8872ae5cf984199a34c2,"
     },
     "selectedTokenSets": {
-      "Dark/Semantic": "enabled",
       "Core/Primitives": "source",
-      "Dark/Radial-gradients": "enabled",
-      "Core/Web&Mobile": "enabled",
-      "Core/TV": "enabled",
-      "Core/Brand": "enabled"
+      "Core/Brand": "enabled",
+      "Semantic/Web&Mobile": "enabled",
+      "Semantic/TV": "enabled",
+      "Semantic/Dark/Radial-gradients": "enabled",
+      "Semantic/Light/Radial-gradients": "disabled",
+      "Semantic/Light/Colors&Linear-Gradients": "disabled",
+      "Semantic/Dark/Colors&Linear-Gradients": "enabled",
+      "Component/Web&Mobile": "disabled",
+      "Component/TV": "disabled"
     }
   },
   {
@@ -190,12 +194,16 @@
       "color.Brand.Social.Viber": "S:666cf20eb38bd83e19b7017e30d31d3993cc1082,"
     },
     "selectedTokenSets": {
-      "Light/Semantic": "enabled",
       "Core/Primitives": "source",
-      "Light/Radial-gradients": "enabled",
-      "Core/Web&Mobile": "enabled",
-      "Core/TV": "enabled",
-      "Core/Brand": "enabled"
+      "Core/Brand": "enabled",
+      "Semantic/Web&Mobile": "enabled",
+      "Semantic/TV": "enabled",
+      "Semantic/Dark/Radial-gradients": "disabled",
+      "Semantic/Light/Radial-gradients": "enabled",
+      "Semantic/Light/Colors&Linear-Gradients": "enabled",
+      "Semantic/Dark/Colors&Linear-Gradients": "disabled",
+      "Component/Web&Mobile": "disabled",
+      "Component/TV": "disabled"
     }
   }
 ]
