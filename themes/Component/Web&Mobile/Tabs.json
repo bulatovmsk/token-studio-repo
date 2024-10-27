@@ -1,0 +1,12 @@
+{
+  "tabs-square": {
+    "default": {
+      "desktop-l": {
+        "gap": {
+          "value": "{spacing.150}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

@@ -2,13 +2,15 @@
   "tokenSetOrder": [
     "Core/Primitives",
     "Core/Brand",
-    "Semantic/Web&Mobile",
-    "Semantic/TV",
-    "Semantic/Dark/Colors&Linear-Gradients",
-    "Semantic/Dark/Radial-gradients",
-    "Semantic/Light/Colors&Linear-Gradients",
-    "Semantic/Light/Radial-gradients",
-    "Component/Web&Mobile",
-    "Component/TV"
+    "Alias/Web&Mobile",
+    "Alias/TV",
+    "Alias/Dark/Colors&Linear-Gradients",
+    "Alias/Dark/Radial-gradients",
+    "Alias/Light/Colors&Linear-Gradients",
+    "Alias/Light/Radial-gradients",
+    "Component/TV",
+    "Component/Web&Mobile/Button",
+    "Component/Web&Mobile/Rail",
+    "Component/Web&Mobile/Tabs"
   ]
 }

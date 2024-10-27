@@ -1,0 +1,68 @@
+{
+  "button": {
+    "default": {
+      "desktop-l": {
+        "gap": {
+          "value": "{spacing.175}",
+          "type": "spacing"
+        },
+        "horizontal-padding": {
+          "value": "{spacing.325}",
+          "type": "spacing"
+        }
+      },
+      "tablet": {
+        "gap": {
+          "value": "{spacing.200}",
+          "type": "spacing"
+        },
+        "horizontal-padding": {
+          "value": "{spacing.300}",
+          "type": "spacing"
+        }
+      },
+      "mobile": {
+        "gap": {
+          "value": "{spacing.200}",
+          "type": "spacing"
+        },
+        "horizontal-padding": {
+          "value": "{spacing.275}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "icon-button": {
+    "default": {
+      "desktop-l": {
+        "vertical-padding": {
+          "value": "{spacing.250}",
+          "type": "spacing"
+        },
+        "horizontal-padding": {
+          "value": "{spacing.250}",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "{spacing.250}",
+          "type": "spacing"
+        }
+      },
+      "tablet": {
+        "vertical-padding": {
+          "value": "{spacing.225}",
+          "type": "spacing"
+        },
+        "horizontal-padding": {
+          "value": "{spacing.225}",
+          "type": "spacing"
+        },
+        "gap": {
+          "value": "{spacing.250}",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
