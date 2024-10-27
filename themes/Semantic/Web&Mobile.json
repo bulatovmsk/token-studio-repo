@@ -46,10 +46,6 @@
     }
   },
   "spacing": {
-    "27": {
-      "value": "{spacing.base} *2.25",
-      "type": "spacing"
-    },
     "50": {
       "value": "{spacing.base} *0.25",
       "type": "spacing"
