@@ -4,12 +4,8 @@
     "name": "Primitives",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Component/Web&Mobile": "enabled",
-      "Alias/Dark": "enabled",
-      "Alias/Light": "enabled",
       "Primitives": "enabled",
-      "Brand": "enabled",
-      "Component/TV": "disabled"
+      "Brand": "enabled"
     }
   },
   {
@@ -19,8 +15,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Web&Mobile": "enabled",
-      "Component/TV": "disabled"
+      "Semantic/Web&Mobile": "enabled"
     },
     "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:27562:12559",
@@ -72,8 +67,7 @@
       "Semantic/Web&Mobile": "source",
       "Component/Web&Mobile/Button": "enabled",
       "Component/Web&Mobile/Rail": "enabled",
-      "Component/Web&Mobile/Tabs": "enabled",
-      "Component/TV": "disabled"
+      "Component/Web&Mobile/Tabs": "enabled"
     },
     "group": "Component",
     "$figmaVariableReferences": {
@@ -105,8 +99,7 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Light/Colors&Linear-Gradients": "enabled",
-      "Semantic/Light/Radial-gradients": "enabled",
-      "Component/TV": "disabled"
+      "Semantic/Light/Radial-gradients": "enabled"
     },
     "group": "Theme"
   },
@@ -118,8 +111,7 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Dark/Colors&Linear-Gradients": "enabled",
-      "Semantic/Dark/Radial-gradients": "enabled",
-      "Component/TV": "disabled"
+      "Semantic/Dark/Radial-gradients": "enabled"
     },
     "group": "Theme"
   },
@@ -130,8 +122,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/TV": "enabled",
-      "Component/TV": "disabled"
+      "Semantic/TV": "enabled"
     },
     "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:27561:12517",

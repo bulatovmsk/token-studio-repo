@@ -229,7 +229,7 @@
   },
   "spacing": {
     "base": {
-      "value": "8",
+      "value": "8px",
       "type": "spacing"
     }
   },
