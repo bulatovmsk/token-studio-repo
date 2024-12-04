@@ -8,10 +8,8 @@
     "Semantic/Dark/Radial-gradients",
     "Semantic/Light/Colors&Linear-Gradients",
     "Semantic/Light/Radial-gradients",
-    "TV",
     "Component/Web&Mobile/Button",
     "Component/Web&Mobile/Rail",
-    "Component/Web&Mobile/Tabs",
-    "Component/TV"
+    "Component/Web&Mobile/Tabs"
   ]
 }

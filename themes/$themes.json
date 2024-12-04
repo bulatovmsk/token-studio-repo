@@ -98,8 +98,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors&Linear-Gradients": "enabled",
-      "Semantic/Light/Radial-gradients": "enabled"
+      "Semantic/Light/Colors&Linear-Gradients": "enabled"
     },
     "group": "Theme"
   },
@@ -110,8 +109,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors&Linear-Gradients": "enabled",
-      "Semantic/Dark/Radial-gradients": "enabled"
+      "Semantic/Dark/Colors&Linear-Gradients": "enabled"
     },
     "group": "Theme"
   },
@@ -167,8 +165,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/TV": "source",
-      "Component/TV": "enabled"
+      "Semantic/TV": "source"
     },
     "group": "Component"
   }
