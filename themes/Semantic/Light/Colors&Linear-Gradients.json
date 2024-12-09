@@ -138,7 +138,7 @@
           "value": "linear-gradient(27deg, {primitives.violet400} 0%, {primitives.cobalt400} 100%)",
           "type": "color"
         },
-        "kids": {
+        "progress-bar": {
           "value": "linear-gradient(270deg, {primitives.pink200} 0%, {primitives.pink500} 33%, {primitives.purple400} 67%, {primitives.cobalt400} 100%)",
           "type": "color"
         }
@@ -160,7 +160,7 @@
     },
     "background": {
       "solid": {
-        "kids": {
+        "primary": {
           "value": "{primitives.cobalt100}",
           "type": "color"
         }

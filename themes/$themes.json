@@ -126,8 +126,8 @@
       "color.fill.technical.button-loading": "S:f645acbd944956a6ea46a5ef85ac25cff980e288,",
       "color.fill.technical.placeholder": "S:21a2f54a15d2102c6dcacfb1378e01d5719203c8,",
       "color.background.glassy.secondary": "S:b1bf89dbc025e71b8415af3ade58541ecd985274,",
-      "color.fill.decorative.kids": "S:47e08f16230afdb512e51d6a6fec5826500c5a1b,",
-      "color.background.solid.kids": "S:ac16386563414ce63f5d1ca74524cba4951046df,"
+      "color.fill.decorative.progress-bar": "S:47e08f16230afdb512e51d6a6fec5826500c5a1b,",
+      "color.background.solid.primary": "S:ac16386563414ce63f5d1ca74524cba4951046df,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
