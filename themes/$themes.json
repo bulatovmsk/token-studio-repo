@@ -65,10 +65,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/Web&Mobile": "source",
-      "Component/Web&Mobile/Button": "enabled",
-      "Component/Web&Mobile/Rail": "enabled",
-      "Component/Web&Mobile/Tabs": "enabled"
+      "Semantic/Web&Mobile": "source"
     },
     "group": "Component",
     "$figmaVariableReferences": {
@@ -143,7 +140,6 @@
     "id": "b5704842380c4303bac5c02f6707a5e903b40552",
     "name": "Dark",
     "$figmaStyleReferences": {
-      "color.border.Focus": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,",
       "color.text-icon.primary": "S:8d1e4095c97d6f8de9740c869fae2aa91b41bd6d,",
       "color.text-icon.secondary": "S:eb0848c39cf58e48e9aae01f73f766c68f7bdde4,",
       "color.text-icon.third": "S:7ba87ccc576cd2381aee43f11162db346a88bf6a,",
@@ -207,7 +203,8 @@
       "color.background.glassy.secondary": "S:652819774a1ef1f79fa807ae422bcdd4d03842f2,",
       "color.background.glassy.third": "S:4aff0b1fa1d84bbd14d52f62486eca5ae301983c,",
       "color.background.glassy.forth": "S:8e17fe9c36b70f797da1cab086a142b0c02efe47,",
-      "color.background.solid.inverse": "S:3623cbdd4d0e6053ade7cfb985b8927d9a6a7659,"
+      "color.background.solid.inverse": "S:3623cbdd4d0e6053ade7cfb985b8927d9a6a7659,",
+      "color.border.focus": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,"
     },
     "selectedTokenSets": {
       "Primitives": "source",

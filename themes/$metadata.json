@@ -7,9 +7,6 @@
     "Semantic/Dark/Colors&Linear-Gradients",
     "Semantic/Dark/Radial-gradients",
     "Semantic/Light/Colors&Linear-Gradients",
-    "Semantic/Light/Radial-gradients",
-    "Component/Web&Mobile/Button",
-    "Component/Web&Mobile/Rail",
-    "Component/Web&Mobile/Tabs"
+    "Semantic/Light/Radial-gradients"
   ]
 }
