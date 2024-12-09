@@ -1,5 +1,5 @@
 {
-  "Primitives": {
+  "primitives": {
     "black": {
       "value": "#000000",
       "type": "color"
@@ -184,7 +184,7 @@
       "value": "#a076f6",
       "type": "color"
     },
-    "External": {
+    "external": {
       "epl1": {
         "value": "#37003c",
         "type": "color"

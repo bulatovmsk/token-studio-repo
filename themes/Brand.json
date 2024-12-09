@@ -1,64 +1,64 @@
 {
-  "Brand": {
-    "Okko": {
-      "Primary": {
-        "value": "{Primitives.black}",
+  "brand": {
+    "okko": {
+      "primary": {
+        "value": "{primitives.black}",
         "type": "color"
       },
-      "Accent": {
-        "value": "{Primitives.cobalt400}",
+      "accent": {
+        "value": "{primitives.cobalt400}",
         "type": "color"
       },
-      "AdditionalA": {
-        "value": "{Primitives.cobalt300}",
+      "additional-a": {
+        "value": "{primitives.cobalt300}",
         "type": "color"
       },
-      "AdditionalB": {
-        "value": "{Primitives.purple500}",
+      "additional-b": {
+        "value": "{primitives.purple500}",
         "type": "color"
       }
     },
-    "Partners": {
-      "EPL": {
-        "value": "{Primitives.External.epl1}",
+    "partners": {
+      "epl": {
+        "value": "{primitives.external.epl1}",
         "type": "color"
       },
-      "Winline": {
-        "value": "{Primitives.External.winline1}",
+      "winline": {
+        "value": "{primitives.external.winline1}",
         "type": "color"
       },
-      "Sber": {
-        "value": "{Primitives.External.sber1}",
+      "sber": {
+        "value": "{primitives.external.sber1}",
         "type": "color"
       },
-      "Sber Gradient": {
+      "sber-gradient": {
         "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
         "type": "color"
       }
     },
-    "Social": {
-      "Facebook": {
-        "value": "{Primitives.External.facebook1}",
+    "social": {
+      "facebook": {
+        "value": "{primitives.external.facebook1}",
         "type": "color"
       },
-      "VK": {
-        "value": "{Primitives.External.vk1}",
+      "vk": {
+        "value": "{primitives.external.vk1}",
         "type": "color"
       },
-      "Twitter": {
-        "value": "{Primitives.External.twitter1}",
+      "twitter": {
+        "value": "{primitives.external.twitter1}",
         "type": "color"
       },
-      "Yandex": {
-        "value": "{Primitives.External.yandex1}",
+      "yandex": {
+        "value": "{primitives.external.yandex1}",
         "type": "color"
       },
-      "Odnoklassniki": {
-        "value": "{Primitives.External.ok1}",
+      "odnoklassniki": {
+        "value": "{primitives.external.ok1}",
         "type": "color"
       },
-      "Viber": {
-        "value": "{Primitives.External.viber1}",
+      "viber": {
+        "value": "{primitives.external.viber1}",
         "type": "color"
       }
     }
