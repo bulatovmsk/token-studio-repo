@@ -1,5 +1,5 @@
 {
-  "color": {
+  "Color": {
     "Text&icon": {
       "Primary": {
         "value": "rgba( {Primitives.white} , 0.96)",
@@ -104,7 +104,7 @@
           "description": "Крупные кликабельные элементы, баннеры"
         },
         "Secondary": {
-          "value": "{Primitives.gray900}",
+          "value": "{Primitives.gray800}",
           "type": "color",
           "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
         },
@@ -112,6 +112,10 @@
           "value": "{Primitives.gray600}",
           "type": "color",
           "description": "Мелкие кликабельные элементы: чекбоксы, радиобаттоны"
+        },
+        "Forth": {
+          "value": "{Primitives.gray300}",
+          "type": "color"
         },
         "Inverse": {
           "value": "{Primitives.gray100}",
@@ -140,6 +144,11 @@
         }
       },
       "Glassy": {
+        "Primary": {
+          "value": "rgba( {Primitives.gray900} , 0.92)",
+          "type": "color",
+          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
+        },
         "Secondary": {
           "value": "rgba( {Primitives.gray500} , 0.48)",
           "type": "color",
@@ -284,7 +293,7 @@
         "Skeleton": {
           "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0.05) 0%, rgba( {Primitives.white} , 0.15) 0%, rgba( {Primitives.white} , 0.05) 100%)",
           "type": "color",
-          "description": "Для отображения процесса загрузки компонентов (только для использования в макетах)"
+          "description": "Для отображения процесса загрузки компонентов(только для использования в макетах)"
         },
         "Button Loading": {
           "value": "linear-gradient(90deg, rgba( {Primitives.white} , 0) 0%, rgba( {Primitives.white} , 0.24) 88%, rgba( {Primitives.white} , 0.3) 100%)",

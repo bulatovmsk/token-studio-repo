@@ -1,71 +1,65 @@
 {
-  "color": {
-    "Brand": {
-      "Okko": {
-        "Primary": {
-          "value": "{Primitives.black}",
-          "type": "color"
-        },
-        "Accent": {
-          "value": "{Primitives.cobalt400}",
-          "type": "color"
-        },
-        "AdditionalA": {
-          "value": "{Primitives.cobalt300}",
-          "type": "color"
-        },
-        "AdditionalB": {
-          "value": "{Primitives.purple500}",
-          "type": "color"
-        }
+  "Brand": {
+    "Okko": {
+      "Primary": {
+        "value": "{Primitives.black}",
+        "type": "color"
       },
-      "Partners": {
-        "EPL": {
-          "value": "{Primitives.External.epl1}",
-          "type": "color"
-        },
-        "Winline": {
-          "value": "{Primitives.External.winline1}",
-          "type": "color"
-        },
-        "Sber": {
-          "value": "{Primitives.External.sber1}",
-          "type": "color"
-        },
-        "Sber Gradient": {
-          "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
-          "type": "color"
-        },
-        "Sber_Spasibo": {
-          "value": "{Primitives.External.sber2}",
-          "type": "color"
-        }
+      "Accent": {
+        "value": "{Primitives.cobalt400}",
+        "type": "color"
       },
-      "Social": {
-        "Facebook": {
-          "value": "{Primitives.External.facebook1}",
-          "type": "color"
-        },
-        "VK": {
-          "value": "{Primitives.External.vk1}",
-          "type": "color"
-        },
-        "Twitter": {
-          "value": "{Primitives.External.twitter1}",
-          "type": "color"
-        },
-        "Yandex": {
-          "value": "{Primitives.External.yandex1}",
-          "type": "color"
-        },
-        "Odnoklassniki": {
-          "value": "{Primitives.External.ok1}",
-          "type": "color"
-        },
-        "Viber": {
-          "value": "{Primitives.External.viber1}",
-          "type": "color"
-        }
+      "AdditionalA": {
+        "value": "{Primitives.cobalt300}",
+        "type": "color"
+      },
+      "AdditionalB": {
+        "value": "{Primitives.purple500}",
+        "type": "color"
+      }
+    },
+    "Partners": {
+      "EPL": {
+        "value": "{Primitives.External.epl1}",
+        "type": "color"
+      },
+      "Winline": {
+        "value": "{Primitives.External.winline1}",
+        "type": "color"
+      },
+      "Sber": {
+        "value": "{Primitives.External.sber1}",
+        "type": "color"
+      },
+      "Sber Gradient": {
+        "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
+        "type": "color"
+      }
+    },
+    "Social": {
+      "Facebook": {
+        "value": "{Primitives.External.facebook1}",
+        "type": "color"
+      },
+      "VK": {
+        "value": "{Primitives.External.vk1}",
+        "type": "color"
+      },
+      "Twitter": {
+        "value": "{Primitives.External.twitter1}",
+        "type": "color"
+      },
+      "Yandex": {
+        "value": "{Primitives.External.yandex1}",
+        "type": "color"
+      },
+      "Odnoklassniki": {
+        "value": "{Primitives.External.ok1}",
+        "type": "color"
+      },
+      "Viber": {
+        "value": "{Primitives.External.viber1}",
+        "type": "color"
       }
     }
   }
