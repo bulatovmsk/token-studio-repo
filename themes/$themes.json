@@ -127,7 +127,16 @@
       "color.fill.technical.placeholder": "S:21a2f54a15d2102c6dcacfb1378e01d5719203c8,",
       "color.background.glassy.secondary": "S:b1bf89dbc025e71b8415af3ade58541ecd985274,",
       "color.fill.decorative.progress-bar": "S:47e08f16230afdb512e51d6a6fec5826500c5a1b,",
-      "color.background.solid.primary": "S:ac16386563414ce63f5d1ca74524cba4951046df,"
+      "color.background.solid.primary": "S:ac16386563414ce63f5d1ca74524cba4951046df,",
+      "color.text-icon.offer": "S:7050ac1328889dfd3177751868d911b0eefe777e,",
+      "color.text-icon.positive": "S:7689031c7233065cf697cff115b9909e40a0c189,",
+      "color.text-icon.negative": "S:3d20987b27384e66c686aafdf90fc99196f2898c,",
+      "color.text-icon.warning": "S:02228de56fdd1207aa339c6ade6c40e2ad3a8ccb,",
+      "color.border.solid": "S:b91bf74f65dad39fd042eae64c53f90eb82c5057,",
+      "color.border.glassy": "S:ec7d549f2c24b1ad308ee6d72dc1d63ef129f54a,",
+      "color.border.focus": "S:7a0b8b192a9112abc6efe4d69b54e0835849989d,",
+      "color.border.active": "S:497f1a39f9110562192f87b816f50b34f47b0de3,",
+      "color.border.contour": "S:ef53d2c9fd18e1f9b3ca2ebb40f80eca73b604fc,"
     },
     "selectedTokenSets": {
       "Primitives": "source",

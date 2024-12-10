@@ -20,6 +20,26 @@
       "accent": {
         "value": "{primitives.cobalt400}",
         "type": "color"
+      },
+      "offer": {
+        "value": "{primitives.yellow500}",
+        "type": "color",
+        "description": "Ссылки"
+      },
+      "positive": {
+        "value": "{primitives.green500}",
+        "type": "color",
+        "description": "Положительные события"
+      },
+      "negative": {
+        "value": "{primitives.red100}",
+        "type": "color",
+        "description": "Ошибки, критичные предупреждения"
+      },
+      "warning": {
+        "value": "{primitives.yellow800}",
+        "type": "color",
+        "description": "Некритичные предупреждения"
       }
     },
     "border": {
@@ -36,6 +56,31 @@
           "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.purple200} 13%, {primitives.cobalt400} 50%, {primitives.purple200} 88%, {primitives.white} 100%)",
           "type": "color"
         }
+      },
+      "solid": {
+        "value": "{primitives.gray600}",
+        "type": "color",
+        "description": "Обводки и разделители"
+      },
+      "glassy": {
+        "value": "rgba( {primitives.gray300} , 0.32)",
+        "type": "color",
+        "description": "Обводки и разделители"
+      },
+      "focus": {
+        "value": "{primitives.cobalt400}",
+        "type": "color",
+        "description": "Фокус ТВ"
+      },
+      "active": {
+        "value": "rgba( {primitives.white} , 0.56)",
+        "type": "color",
+        "description": "Обводка активных элементов, например, выбранный сезон"
+      },
+      "contour": {
+        "value": "rgba( {primitives.white} , 0.1)",
+        "type": "color",
+        "description": "контур контента, чтобы не сливался с черным"
       }
     },
     "fill": {
@@ -47,6 +92,41 @@
         "positive": {
           "value": "{primitives.green500}",
           "type": "color"
+        },
+        "accent": {
+          "value": "{primitives.cobalt400}",
+          "type": "color",
+          "description": "Офферы, спецпредложения"
+        },
+        "primary": {
+          "value": "{primitives.gray900}",
+          "type": "color",
+          "description": "Крупные кликабельные элементы, баннеры"
+        },
+        "secondary": {
+          "value": "{primitives.gray800}",
+          "type": "color",
+          "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
+        },
+        "inverse": {
+          "value": "{primitives.gray100}",
+          "type": "color",
+          "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
+        },
+        "negative": {
+          "value": "{primitives.red100}",
+          "type": "color",
+          "description": "Ошибки, критичные предупреждения"
+        },
+        "warning": {
+          "value": "{primitives.yellow800}",
+          "type": "color",
+          "description": "Некритичные предупреждения"
+        },
+        "live": {
+          "value": "{primitives.red500}",
+          "type": "color",
+          "description": "Live трансляции"
         }
       },
       "glassy": {
@@ -57,6 +137,16 @@
         "secondary": {
           "value": "rgba( {primitives.gray500} , 0.48)",
           "type": "color"
+        },
+        "primary": {
+          "value": "rgba( {primitives.gray900} , 0.92)",
+          "type": "color",
+          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
+        },
+        "negative": {
+          "value": "rgba( {primitives.red500} , 0.2)",
+          "type": "color",
+          "description": "Например, для подсветки ошибки в поле ввода"
         }
       },
       "fade": {
@@ -141,6 +231,34 @@
         "progress-bar": {
           "value": "linear-gradient(270deg, {primitives.pink200} 0%, {primitives.pink500} 33%, {primitives.purple400} 67%, {primitives.cobalt400} 100%)",
           "type": "color"
+        },
+        "lemon": {
+          "value": "linear-gradient(90deg, {primitives.yellow300} 0%, {primitives.yellow500} 100%)",
+          "type": "color"
+        },
+        "twilight": {
+          "value": "linear-gradient(90deg, {primitives.red500} 0%, {primitives.violet500} 100%)",
+          "type": "color"
+        },
+        "neon": {
+          "value": "linear-gradient(90deg, {primitives.pink600} 0%, {primitives.violet500} 100%)",
+          "type": "color"
+        },
+        "continuum": {
+          "value": "linear-gradient(90deg, {primitives.cobalt500} 0%, {primitives.purple500} 100%)",
+          "type": "color"
+        },
+        "lighthouse": {
+          "value": "linear-gradient(90deg, {primitives.purple500} 0%, {primitives.pink600} 100%)",
+          "type": "color"
+        },
+        "gold": {
+          "value": "linear-gradient(90deg, {primitives.brown500} 0%, {primitives.brown200} 100%)",
+          "type": "color"
+        },
+        "melancholy": {
+          "value": "linear-gradient(90deg, {primitives.blue650} 0%, {primitives.violet650} 100%)",
+          "type": "color"
         }
       },
       "technical": {
@@ -163,12 +281,37 @@
         "primary": {
           "value": "{primitives.cobalt100}",
           "type": "color"
+        },
+        "secondary": {
+          "value": "{primitives.gray900}",
+          "type": "color",
+          "description": "Для окон"
+        },
+        "inverse": {
+          "value": "{primitives.gray100}",
+          "type": "color",
+          "description": "Для светлых элементов в тёмной теме"
         }
       },
       "glassy": {
         "secondary": {
           "value": "rgba( {primitives.white} , 0.88)",
           "type": "color"
+        },
+        "primary": {
+          "value": "rgba( {primitives.black} , 0.88)",
+          "type": "color",
+          "description": "Фон поверх изображения"
+        },
+        "third": {
+          "value": "rgba( {primitives.black} , 0.56)",
+          "type": "color",
+          "description": "Фон поверх изображения, видео (плеер)"
+        },
+        "forth": {
+          "value": "rgba( {primitives.black} , 0.32)",
+          "type": "color",
+          "description": "Фон поверх изображения"
         }
       }
     }
