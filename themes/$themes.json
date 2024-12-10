@@ -136,12 +136,41 @@
       "color.border.glassy": "S:ec7d549f2c24b1ad308ee6d72dc1d63ef129f54a,",
       "color.border.focus": "S:7a0b8b192a9112abc6efe4d69b54e0835849989d,",
       "color.border.active": "S:497f1a39f9110562192f87b816f50b34f47b0de3,",
-      "color.border.contour": "S:ef53d2c9fd18e1f9b3ca2ebb40f80eca73b604fc,"
+      "color.border.contour": "S:ef53d2c9fd18e1f9b3ca2ebb40f80eca73b604fc,",
+      "color.fill.solid.accent": "S:6a2e864cbf8e646806d9ecec6e627738d5d69450,",
+      "color.fill.solid.primary": "S:15facc8b0bcc0f5764673677defc563852398873,",
+      "color.fill.solid.secondary": "S:d4691abc9b9548553b76e48f3f01cf7d02aca121,",
+      "color.fill.solid.inverse": "S:6dcff1e9d923226f0801173956bf52b6c5163219,",
+      "color.fill.solid.negative": "S:89e4bdb375dd2f0adb30a8dee5111a99d1c67504,",
+      "color.fill.solid.warning": "S:2abced1c6ae12c4965b8ca9fc2dd6c95ec3417be,",
+      "color.fill.solid.live": "S:0cb7d1c30a516e1e9065cc60f079886f46d31035,",
+      "color.fill.glassy.primary": "S:cf1d6de80e751046c4c90d1531ec0c705eea075b,",
+      "color.fill.glassy.negative": "S:a932db4342dcdd663c51142cd2e05ce60738a107,",
+      "color.fill.decorative.lemon": "S:088e8744551605d9fa704731bd22059982e6f8a6,",
+      "color.fill.decorative.twilight": "S:78f637e7484ecc1090a5905b901c0279caaff301,",
+      "color.fill.decorative.neon": "S:def57f9abeb8d2747f72d4f026bac66ce2d521a8,",
+      "color.fill.decorative.continuum": "S:b209b2510bd58bdf51006a68a624a409bb4be22d,",
+      "color.fill.decorative.lighthouse": "S:7bac2e5feac9748d5c67af291a866aa1d31e157f,",
+      "color.fill.decorative.gold": "S:6cc440f4b38c7af2e4d53cdb1e8636049965dcbc,",
+      "color.fill.decorative.melancholy": "S:a0fd726a4bf6f521bdbab75f222304c8dfc78863,",
+      "color.background.solid.secondary": "S:704b5836a9aa90b47529e56e7916da5dc9b6a45e,",
+      "color.background.solid.inverse": "S:68c5e99b145392b2cfb122eb260ff349425b469e,",
+      "color.background.glassy.primary": "S:d48120743aa42711269f00f91752334d147ac7df,",
+      "color.background.glassy.third": "S:362a29f87d14c48eddf5e71b8ff38f4363714173,",
+      "color.background.glassy.forth": "S:80aff2e4472280b71e87bc6203abbda8428fbb6d,",
+      "color.background.decorative.primary": "S:0549d17fa2ed8d0ce925c2cb8f3a8dc302671cd9,",
+      "color.fill.solid.hover-focus.primary": "S:3814eab71f9a00f7ec3e5cbe5e55e1123d558961,",
+      "color.fill.solid.hover-focus.secondary": "S:7f7db000ae383d8cf25119c52f9288bdc14cfc84,",
+      "color.fill.solid.hover-focus.third": "S:e6b04673df58d223f736734ead0b4b8ff04662a3,",
+      "color.fill.glassy.hover-focus.secondary": "S:cc508e769762a0ccfbc2ee9cd256da1072a86f96,",
+      "color.fill.glassy.hover-focus.third": "S:8b05b03d4b4d0c7b58ef2b869128abac7b0b5582,",
+      "color.fill.decorative.sky": "S:8496add778cc178fa3c2da545f923bb622f8941c,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors&Linear-Gradients": "enabled"
+      "Semantic/Light/Colors&Linear-Gradients": "enabled",
+      "Semantic/Light/Radial-gradients": "enabled"
     },
     "group": "Theme"
   },
@@ -213,12 +242,20 @@
       "color.background.glassy.third": "S:4aff0b1fa1d84bbd14d52f62486eca5ae301983c,",
       "color.background.glassy.forth": "S:8e17fe9c36b70f797da1cab086a142b0c02efe47,",
       "color.background.solid.inverse": "S:3623cbdd4d0e6053ade7cfb985b8927d9a6a7659,",
-      "color.border.focus": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,"
+      "color.border.focus": "S:12624d72e826e045d96307f7fa75f5cad8fa66d4,",
+      "color.background.decorative.primary": "S:ff3be08bcfccaeec3fb5e3ec38e54759e7174f7b,",
+      "color.fill.glassy.hover-focus.third": "S:1df3ad54fe8d3c841fbd67db5b3ad4764664347a,",
+      "color.fill.decorative.sky": "S:c13f4ce61a491ddea92db3ee85d7a8a33abdb0f9,",
+      "color.fill.solid.hover-focus.primary": "S:a9f9fba1fac99c06ab1b3a64bb434ec236d6b93f,",
+      "color.fill.solid.hover-focus.third": "S:7190d7e2c06681786a2e62457fbad4e50931c325,",
+      "color.fill.solid.hover-focus.secondary": "S:a02ac6372c58da259dc70bfc10c5553d6f663d87,",
+      "color.fill.glassy.hover-focus.secondary": "S:f59448fe56f27ba66e0eb32c9e119465d7bc0058,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors&Linear-Gradients": "enabled"
+      "Semantic/Dark/Colors&Linear-Gradients": "enabled",
+      "Semantic/Dark/Radial-gradients": "enabled"
     },
     "group": "Theme"
   },

@@ -84,51 +84,6 @@
       }
     },
     "fill": {
-      "solid": {
-        "third": {
-          "value": "{primitives.white}",
-          "type": "color"
-        },
-        "positive": {
-          "value": "{primitives.green500}",
-          "type": "color"
-        },
-        "accent": {
-          "value": "{primitives.cobalt400}",
-          "type": "color",
-          "description": "Офферы, спецпредложения"
-        },
-        "primary": {
-          "value": "{primitives.gray900}",
-          "type": "color",
-          "description": "Крупные кликабельные элементы, баннеры"
-        },
-        "secondary": {
-          "value": "{primitives.gray800}",
-          "type": "color",
-          "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
-        },
-        "inverse": {
-          "value": "{primitives.gray100}",
-          "type": "color",
-          "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
-        },
-        "negative": {
-          "value": "{primitives.red100}",
-          "type": "color",
-          "description": "Ошибки, критичные предупреждения"
-        },
-        "warning": {
-          "value": "{primitives.yellow800}",
-          "type": "color",
-          "description": "Некритичные предупреждения"
-        },
-        "live": {
-          "value": "{primitives.red500}",
-          "type": "color",
-          "description": "Live трансляции"
-        }
-      },
       "glassy": {
         "third": {
           "value": "rgba( {primitives.white} , 0.56)",
@@ -273,6 +228,51 @@
         "placeholder": {
           "value": "{primitives.gray100}",
           "type": "color"
+        }
+      },
+      "solid": {
+        "accent": {
+          "value": "{primitives.cobalt400}",
+          "type": "color",
+          "description": "Офферы, спецпредложения"
+        },
+        "primary": {
+          "value": "{primitives.gray900}",
+          "type": "color",
+          "description": "Крупные кликабельные элементы, баннеры"
+        },
+        "third": {
+          "value": "{primitives.white}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{primitives.gray800}",
+          "type": "color",
+          "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
+        },
+        "inverse": {
+          "value": "{primitives.gray100}",
+          "type": "color",
+          "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
+        },
+        "positive": {
+          "value": "{primitives.green500}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{primitives.red100}",
+          "type": "color",
+          "description": "Ошибки, критичные предупреждения"
+        },
+        "warning": {
+          "value": "{primitives.yellow800}",
+          "type": "color",
+          "description": "Некритичные предупреждения"
+        },
+        "live": {
+          "value": "{primitives.red500}",
+          "type": "color",
+          "description": "Live трансляции"
         }
       }
     },
