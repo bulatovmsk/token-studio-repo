@@ -17,7 +17,7 @@
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-third"
           },
-          "secondary-copy": {
+          "secondary": {
             "value": "radial-gradient(141.42% 141.42% at 100% 0%, rgba( {primitives.gray400} , 0.48) 0%, rgba( {primitives.gray500} , 0.48) 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-secondary"
@@ -32,7 +32,7 @@
       },
       "solid": {
         "hover-focus": {
-          "primary-copy": {
+          "primary": {
             "value": "radial-gradient(133.22% 100% at 100% 0%, {primitives.gray800} 0%, {primitives.gray900} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых solid-primary"
@@ -42,15 +42,10 @@
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Solid-third"
           },
-          "secondary-copy": {
+          "secondary": {
             "value": "radial-gradient(133.22% 100% at 100% 0%, {primitives.gray600} 0%, {primitives.gray800} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых solid-secondary"
-          },
-          "third-copy": {
-            "value": "radial-gradient(100% 100% at 100% 0%, {primitives.gray500} 0%, {primitives.gray600} 100%)",
-            "type": "color",
-            "description": "Для состояния ховера или фокуса компонентов залитых Solid-third"
           }
         }
       }
