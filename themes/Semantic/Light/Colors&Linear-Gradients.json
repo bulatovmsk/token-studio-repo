@@ -314,6 +314,18 @@
           "description": "Фон поверх изображения"
         }
       }
+    },
+    "static": {
+      "black": {
+        "value": "rgba( {primitives.black} , 0.96)",
+        "type": "color",
+        "description": "Цвет не меняется в зависимости от темы"
+      },
+      "white": {
+        "value": "rgba( {primitives.white} , 0.96)",
+        "type": "color",
+        "description": "Цвет не меняется в зависимости от темы"
+      }
     }
   }
 }
