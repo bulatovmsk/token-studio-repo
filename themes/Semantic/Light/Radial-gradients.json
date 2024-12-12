@@ -3,7 +3,7 @@
     "background": {
       "decorative": {
         "primary": {
-          "value": "radial-gradient(107.67% 119.02% at 81.25% -19%, {primitives.purple300} 0.08%, {primitives.violet700} 77.96%, {primitives.cobalt750} 100%)",
+          "value": "radial-gradient(107.67% 119.02% at 81.25% -19%, {primitives.purple900} 0.08%, {primitives.violet1000} 77.96%, {primitives.cobalt1300} 100%)",
           "type": "color",
           "description": "Брендированный фон"
         }
@@ -18,7 +18,7 @@
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-third"
           },
           "secondary": {
-            "value": "radial-gradient(141.42% 141.42% at 100% 0%, rgba( {primitives.gray400} , 0.48) 0%, rgba( {primitives.gray500} , 0.48) 100%)",
+            "value": "radial-gradient(141.42% 141.42% at 100% 0%, rgba( {primitives.gray800} , 0.48) 0%, rgba( {primitives.gray900} , 0.48) 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-secondary"
           }
@@ -26,24 +26,24 @@
       },
       "decorative": {
         "sky": {
-          "value": "radial-gradient(2628.95% 208.1% at 0% -35%, {primitives.blue100} 0%, {primitives.blue300} 100%)",
+          "value": "radial-gradient(2628.95% 208.1% at 0% -35%, {primitives.blue100} 0%, {primitives.blue500} 100%)",
           "type": "color"
         }
       },
       "solid": {
         "hover-focus": {
           "primary": {
-            "value": "radial-gradient(133.22% 100% at 100% 0%, {primitives.gray800} 0%, {primitives.gray900} 100%)",
+            "value": "radial-gradient(133.22% 100% at 100% 0%, {primitives.gray1100} 0%, {primitives.gray1200} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых solid-primary"
           },
           "third": {
-            "value": "radial-gradient(100% 100% at 100% 0%, {primitives.white} 0%, {primitives.gray100} 100%)",
+            "value": "radial-gradient(100% 100% at 100% 0%, {primitives.white} 0%, {primitives.gray200} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Solid-third"
           },
           "secondary": {
-            "value": "radial-gradient(133.22% 100% at 100% 0%, {primitives.gray600} 0%, {primitives.gray800} 100%)",
+            "value": "radial-gradient(133.22% 100% at 100% 0%, {primitives.gray1000} 0%, {primitives.gray1100} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых solid-secondary"
           }

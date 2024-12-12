@@ -6,15 +6,15 @@
         "type": "color"
       },
       "accent": {
-        "value": "{primitives.cobalt400}",
+        "value": "{primitives.cobalt1000}",
         "type": "color"
       },
       "additional-a": {
-        "value": "{primitives.cobalt300}",
+        "value": "{primitives.cobalt800}",
         "type": "color"
       },
       "additional-b": {
-        "value": "{primitives.purple500}",
+        "value": "{primitives.purple1100}",
         "type": "color"
       }
     },

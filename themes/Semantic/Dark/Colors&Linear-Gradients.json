@@ -22,44 +22,44 @@
         "description": "Хинты, подсказки"
       },
       "accent": {
-        "value": "{primitives.cobalt200}",
+        "value": "{primitives.cobalt700}",
         "type": "color",
         "description": "Ссылки"
       },
       "offer": {
-        "value": "{primitives.yellow500}",
+        "value": "{primitives.yellow300}",
         "type": "color",
         "description": "Ссылки"
       },
       "positive": {
-        "value": "{primitives.green500}",
+        "value": "{primitives.green600}",
         "type": "color",
         "description": "Положительные события"
       },
       "negative": {
-        "value": "{primitives.red100}",
+        "value": "{primitives.red700}",
         "type": "color",
         "description": "Ошибки, критичные предупреждения"
       },
       "warning": {
-        "value": "{primitives.yellow800}",
+        "value": "{primitives.yellow500}",
         "type": "color",
         "description": "Некритичные предупреждения"
       }
     },
     "border": {
       "solid": {
-        "value": "{primitives.gray600}",
+        "value": "{primitives.gray1000}",
         "type": "color",
         "description": "Обводки и разделители"
       },
       "glassy": {
-        "value": "rgba( {primitives.gray300} , 0.32)",
+        "value": "rgba( {primitives.gray600} , 0.32)",
         "type": "color",
         "description": "Обводки и разделители"
       },
       "focus": {
-        "value": "{primitives.cobalt400}",
+        "value": "{primitives.cobalt1000}",
         "type": "color",
         "description": "Фокус ТВ"
       },
@@ -75,17 +75,17 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.violet700} 0%, {primitives.cobalt400} 52%, {primitives.white} 100%)",
+          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 52%, {primitives.white} 100%)",
           "type": "color",
           "description": "рамка фокуса"
         },
         "active-horisontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt400} 16%, {primitives.white} 50%, {primitives.cobalt400} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt400} 18%, {primitives.white} 50%, {primitives.cobalt400} 82%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 18%, {primitives.white} 50%, {primitives.cobalt1000} 82%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         }
@@ -94,73 +94,73 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.cobalt400}",
+          "value": "{primitives.cobalt1000}",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.gray900}",
+          "value": "{primitives.gray1200}",
           "type": "color",
           "description": "Крупные кликабельные элементы, баннеры"
         },
         "secondary": {
-          "value": "{primitives.gray800}",
+          "value": "{primitives.gray1100}",
           "type": "color",
           "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
         },
         "third": {
-          "value": "{primitives.gray600}",
+          "value": "{primitives.gray1000}",
           "type": "color",
           "description": "Мелкие кликабельные элементы: чекбоксы, радиобаттоны"
         },
         "forth": {
-          "value": "{primitives.gray300}",
+          "value": "{primitives.gray600}",
           "type": "color"
         },
         "inverse": {
-          "value": "{primitives.gray100}",
+          "value": "{primitives.gray200}",
           "type": "color",
           "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
         },
         "positive": {
-          "value": "{primitives.green500}",
+          "value": "{primitives.green600}",
           "type": "color",
           "description": "Положительные события"
         },
         "negative": {
-          "value": "{primitives.red100}",
+          "value": "{primitives.red700}",
           "type": "color",
           "description": "Ошибки, критичные предупреждения"
         },
         "warning": {
-          "value": "{primitives.yellow800}",
+          "value": "{primitives.yellow500}",
           "type": "color",
           "description": "Некритичные предупреждения"
         },
         "live": {
-          "value": "{primitives.red500}",
+          "value": "{primitives.red900}",
           "type": "color",
           "description": "Live трансляции"
         }
       },
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.gray900} , 0.92)",
+          "value": "rgba( {primitives.gray1200} , 0.92)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
         },
         "secondary": {
-          "value": "rgba( {primitives.gray500} , 0.48)",
+          "value": "rgba( {primitives.gray900} , 0.48)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid"
         },
         "negative": {
-          "value": "rgba( {primitives.red500} , 0.2)",
+          "value": "rgba( {primitives.red900} , 0.2)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода"
         },
         "third": {
-          "value": "rgba( {primitives.gray300} , 0.32)",
+          "value": "rgba( {primitives.gray600} , 0.32)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки"
         }
@@ -257,35 +257,35 @@
       },
       "decorative": {
         "lemon": {
-          "value": "linear-gradient(90deg, {primitives.yellow300} 0%, {primitives.yellow500} 100%)",
+          "value": "linear-gradient(90deg, {primitives.yellow200} 0%, {primitives.yellow300} 100%)",
           "type": "color"
         },
         "twilight": {
-          "value": "linear-gradient(90deg, {primitives.red500} 0%, {primitives.violet500} 100%)",
+          "value": "linear-gradient(90deg, {primitives.red900} 0%, {primitives.violet800} 100%)",
           "type": "color"
         },
         "neon": {
-          "value": "linear-gradient(90deg, {primitives.pink600} 0%, {primitives.violet500} 100%)",
+          "value": "linear-gradient(90deg, {primitives.pink900} 0%, {primitives.violet800} 100%)",
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.cobalt500} 0%, {primitives.purple500} 100%)",
+          "value": "linear-gradient(90deg, {primitives.cobalt1100} 0%, {primitives.purple1100} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.purple500} 0%, {primitives.pink600} 100%)",
+          "value": "linear-gradient(90deg, {primitives.purple1100} 0%, {primitives.pink900} 100%)",
           "type": "color"
         },
         "gold": {
-          "value": "linear-gradient(90deg, {primitives.brown500} 0%, {primitives.brown200} 100%)",
+          "value": "linear-gradient(90deg, {primitives.brown1000} 0%, {primitives.brown600} 100%)",
           "type": "color"
         },
         "melancholy": {
-          "value": "linear-gradient(90deg, {primitives.blue650} 0%, {primitives.violet650} 100%)",
+          "value": "linear-gradient(90deg, {primitives.blue800} 0%, {primitives.violet900} 100%)",
           "type": "color"
         },
         "button": {
-          "value": "linear-gradient(27deg, {primitives.violet700} 0%, {primitives.cobalt400} 100%)",
+          "value": "linear-gradient(27deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 100%)",
           "type": "color"
         }
       },
@@ -301,7 +301,7 @@
           "description": "Процесс загрузки ответа сервера, отображаемый на кнопке"
         },
         "placeholder": {
-          "value": "{primitives.gray800}",
+          "value": "{primitives.gray1100}",
           "type": "color",
           "description": "Фон для отображения состояния, когда ответ от сервера получен и загружается контент"
         }
@@ -315,12 +315,12 @@
           "description": "Основной фон"
         },
         "secondary": {
-          "value": "{primitives.gray900}",
+          "value": "{primitives.gray1200}",
           "type": "color",
           "description": "Для окон"
         },
         "inverse": {
-          "value": "{primitives.gray100}",
+          "value": "{primitives.gray200}",
           "type": "color",
           "description": "Для светлых элементов в тёмной теме"
         }
