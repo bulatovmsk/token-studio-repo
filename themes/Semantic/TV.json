@@ -20,6 +20,10 @@
       "value": "{corner-radius.base}*1.5",
       "type": "borderRadius"
     },
+    "475": {
+      "value": "{corner-radius.base}*1.75",
+      "type": "borderRadius"
+    },
     "500": {
       "value": "{corner-radius.base}*2",
       "type": "borderRadius"
