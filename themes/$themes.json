@@ -7,7 +7,8 @@
       "Primitives": "enabled",
       "Brand": "enabled"
     },
-    "group": "Primitives"
+    "group": "Primitives",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "9cb1d60c9039157a6a62771c30d4ba75b3983261",
@@ -174,7 +175,8 @@
       "Semantic/Light/Colors&Linear-Gradients": "enabled",
       "Semantic/Light/Radial-gradients": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "b5704842380c4303bac5c02f6707a5e903b40552",
@@ -261,7 +263,8 @@
       "Semantic/Dark/Colors&Linear-Gradients": "enabled",
       "Semantic/Dark/Radial-gradients": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8",
@@ -317,7 +320,8 @@
       "Primitives": "source",
       "Semantic/TV": "source"
     },
-    "group": "Component"
+    "group": "Component",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "28532a6cbb44c4010b35dd98d5cbf84a897af6bb",
@@ -342,6 +346,7 @@
       "Primitives": "source",
       "Brand": "enabled"
     },
-    "group": "Primitives"
+    "group": "Primitives",
+    "$figmaVariableReferences": {}
   }
 ]
