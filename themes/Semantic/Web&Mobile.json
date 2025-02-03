@@ -32,8 +32,20 @@
       "value": "{corner-radius.base}*2",
       "type": "borderRadius"
     },
+    "750": {
+      "value": "{corner-radius.base} * 2.25",
+      "type": "borderRadius"
+    },
     "800": {
       "value": "{corner-radius.base}*2.5",
+      "type": "borderRadius"
+    },
+    "825": {
+      "value": "{corner-radius.base} *2.75",
+      "type": "borderRadius"
+    },
+    "875": {
+      "value": "{corner-radius.base} *3.25",
       "type": "borderRadius"
     },
     "900": {
