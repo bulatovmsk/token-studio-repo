@@ -54,6 +54,10 @@
       "value": "{spacing.base} *0.5",
       "type": "spacing"
     },
+    "125": {
+      "value": "{spacing.base} *0.75",
+      "type": "spacing"
+    },
     "150": {
       "value": "{spacing.base}",
       "type": "spacing"
