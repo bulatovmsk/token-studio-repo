@@ -82,12 +82,20 @@
       "value": "{spacing.base} *2",
       "type": "spacing"
     },
+    "225": {
+      "value": "{spacing.base} *2.25",
+      "type": "spacing"
+    },
     "250": {
       "value": "{spacing.base} *2.5",
       "type": "spacing"
     },
     "300": {
       "value": "{spacing.base} *3",
+      "type": "spacing"
+    },
+    "325": {
+      "value": "{spacing.base} *3.25",
       "type": "spacing"
     },
     "350": {
