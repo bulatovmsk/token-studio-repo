@@ -180,7 +180,7 @@
       },
       "decorative": {
         "button": {
-          "value": "linear-gradient(27deg, {primitives.violet700} 0%, {primitives.cobalt1000} 100%)",
+          "value": "linear-gradient(45deg, {primitives.violet600} 0%, {primitives.cobalt700} 100%)",
           "type": "color"
         },
         "progress-bar": {
