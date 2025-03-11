@@ -169,7 +169,7 @@
       "color.fill.decorative.sky": "S:8496add778cc178fa3c2da545f923bb622f8941c,",
       "color.static.black": "S:c0d42459881424aec01f3c33134d407811cf49ad,",
       "color.static.white": "S:727eb84bd0ead3e9376a37736ef1aa52b60034bf,",
-      "color.text-icon.inverse": "S:29f41a1168ef96f878778901cf5799b1fbba3b9a,"
+      "color.text-icon.inverse": "S:c5b4c0095536af7e6e40764789faa9ae0022c189,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
@@ -305,7 +305,7 @@
       "color.fill.glassy.hover-focus.secondary": "S:f59448fe56f27ba66e0eb32c9e119465d7bc0058,",
       "color.static.black": "S:520c0dfc860652e404089f5306531f78e96c8aa0,",
       "color.static.white": "S:579c8b5c1c08997f769f1a8cbe433d1f566a29cd,",
-      "color.text-icon.inverse": "S:29f41a1168ef96f878778901cf5799b1fbba3b9a,"
+      "color.text-icon.inverse": "S:17353278d074206275542c862df72ab9ca606c38,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
