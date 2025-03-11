@@ -102,6 +102,10 @@
           "value": "rgba( {primitives.red900} , 0.2)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода"
+        },
+        "accent": {
+          "value": "rgba( {primitives.cobalt1000} , 0.48)",
+          "type": "color"
         }
       },
       "fade": {
