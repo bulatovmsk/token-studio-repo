@@ -45,6 +45,10 @@
         "value": "{primitives.yellow500}",
         "type": "color",
         "description": "Некритичные предупреждения"
+      },
+      "inverse": {
+        "value": "rgba( {primitives.black} , 0.96)",
+        "type": "color"
       }
     },
     "border": {
@@ -144,10 +148,6 @@
         }
       },
       "glassy": {
-        "accent": {
-          "value": "rgba( {primitives.cobalt1000} , 0.36)",
-          "type": "color"
-        },
         "primary": {
           "value": "rgba( {primitives.gray1200} , 0.92)",
           "type": "color",

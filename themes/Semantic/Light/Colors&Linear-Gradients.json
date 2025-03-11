@@ -40,6 +40,10 @@
         "value": "{primitives.yellow500}",
         "type": "color",
         "description": "Некритичные предупреждения"
+      },
+      "inverse": {
+        "value": "rgba( {primitives.white} , 0.96)",
+        "type": "color"
       }
     },
     "border": {
@@ -102,10 +106,6 @@
           "value": "rgba( {primitives.red900} , 0.2)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода"
-        },
-        "accent": {
-          "value": "rgba( {primitives.cobalt1000} , 0.48)",
-          "type": "color"
         }
       },
       "fade": {
