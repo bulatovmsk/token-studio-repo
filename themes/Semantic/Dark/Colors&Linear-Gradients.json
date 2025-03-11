@@ -144,6 +144,10 @@
         }
       },
       "glassy": {
+        "accent": {
+          "value": "rgba( {primitives.cobalt1000} , 0.48)",
+          "type": "color"
+        },
         "primary": {
           "value": "rgba( {primitives.gray1200} , 0.92)",
           "type": "color",
