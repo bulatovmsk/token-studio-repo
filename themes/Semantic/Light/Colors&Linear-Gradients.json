@@ -232,6 +232,10 @@
         "placeholder": {
           "value": "{primitives.gray200}",
           "type": "color"
+        },
+        "disabled": {
+          "value": "rgba ( {primitives.gray600}  , 0.5)",
+          "type": "color"
         }
       },
       "solid": {
