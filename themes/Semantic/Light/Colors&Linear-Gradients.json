@@ -49,6 +49,10 @@
         "forth": {
           "value": "rgba( {primitives.white} , 0.4)",
           "type": "color"
+        },
+        "third": {
+          "value": "rgba( {primitives.white} , 0.56)",
+          "type": "color"
         }
       }
     },
