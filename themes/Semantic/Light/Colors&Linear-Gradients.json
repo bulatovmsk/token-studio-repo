@@ -42,8 +42,14 @@
         "description": "Некритичные предупреждения"
       },
       "inverse": {
-        "value": "rgba( {primitives.white} , 0.96)",
-        "type": "color"
+        "primary": {
+          "value": "rgba( {primitives.white} , 0.96)",
+          "type": "color"
+        },
+        "forth": {
+          "value": "rgba( {primitives.white} , 0.4)",
+          "type": "color"
+        }
       }
     },
     "border": {
