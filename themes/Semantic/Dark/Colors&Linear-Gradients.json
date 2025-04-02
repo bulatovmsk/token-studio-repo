@@ -320,8 +320,13 @@
           "description": "Фон для отображения состояния, когда ответ от сервера получен и загружается контент"
         },
         "disabled": {
-          "value": "rgba ( {primitives.gray900} , 0.4)",
+          "value": "rgba( {primitives.gray900} , 0.4)",
           "type": "color"
+        },
+        "skeletonbg": {
+          "value": "rgba( {primitives.white} , 0.1)",
+          "type": "color",
+          "description": "Подложка для скелетона"
         }
       }
     },
