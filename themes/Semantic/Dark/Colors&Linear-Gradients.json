@@ -73,7 +73,7 @@
         "description": "Обводки и разделители"
       },
       "focus": {
-        "value": "{primitives.cobalt1000}",
+        "value": "{primitives.cobalt1100}",
         "type": "color",
         "description": "Фокус ТВ"
       },
