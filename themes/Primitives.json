@@ -313,55 +313,55 @@
       "type": "color"
     },
     "cobalt1300": {
-      "value": "#1E0083",
+      "value": "#29017B",
       "type": "color"
     },
     "cobalt1200": {
-      "value": "#3201BE",
+      "value": "#4107B1",
       "type": "color"
     },
     "cobalt1100": {
-      "value": "#4102EC",
+      "value": "#4E0CCC",
       "type": "color"
     },
     "cobalt1000": {
-      "value": "#4224EC",
+      "value": "#5D0EF5",
       "type": "color"
     },
     "cobalt900": {
-      "value": "#5452F4",
+      "value": "#6B47FB",
       "type": "color"
     },
     "cobalt800": {
-      "value": "#5E64F7",
+      "value": "#725CFA",
       "type": "color"
     },
     "cobalt700": {
-      "value": "#7986FC",
+      "value": "#8A80FF",
       "type": "color"
     },
     "cobalt600": {
-      "value": "#8796FC",
+      "value": "#9691FF",
       "type": "color"
     },
     "cobalt500": {
-      "value": "#A7B5FF",
+      "value": "#B1B1FF",
       "type": "color"
     },
     "cobalt400": {
-      "value": "#B8C4FD",
+      "value": "#C0C1FE",
       "type": "color"
     },
     "cobalt300": {
-      "value": "#C9D3FF",
+      "value": "#CFD1FF",
       "type": "color"
     },
     "cobalt200": {
-      "value": "#DBE1FE",
+      "value": "#DEE0FE",
       "type": "color"
     },
     "cobalt100": {
-      "value": "#ECF0FF",
+      "value": "#EFF0FF",
       "type": "color"
     },
     "purple1300": {
