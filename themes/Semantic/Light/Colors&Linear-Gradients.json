@@ -22,22 +22,22 @@
         "type": "color"
       },
       "offer": {
-        "value": "{primitives.yellow700}",
+        "value": "{primitives.yellow300}",
         "type": "color",
         "description": "Ссылки"
       },
       "positive": {
-        "value": "{primitives.green600}",
+        "value": "{primitives.green900}",
         "type": "color",
         "description": "Положительные события"
       },
       "negative": {
-        "value": "{primitives.red700}",
+        "value": "{primitives.red900}",
         "type": "color",
         "description": "Ошибки, критичные предупреждения"
       },
       "warning": {
-        "value": "{primitives.yellow500}",
+        "value": "{primitives.yellow800}",
         "type": "color",
         "description": "Некритичные предупреждения"
       },
@@ -72,12 +72,12 @@
         }
       },
       "solid": {
-        "value": "{primitives.gray1000}",
+        "value": "{primitives.gray500}",
         "type": "color",
         "description": "Обводки и разделители"
       },
       "glassy": {
-        "value": "rgba( {primitives.gray600} , 0.32)",
+        "value": "rgba( {primitives.gray300} , 0.4)",
         "type": "color",
         "description": "Обводки и разделители"
       },
@@ -87,12 +87,12 @@
         "description": "Фокус ТВ"
       },
       "active": {
-        "value": "rgba( {primitives.white} , 0.56)",
+        "value": "rgba( {primitives.gray1100} , 0.56)",
         "type": "color",
         "description": "Обводка активных элементов, например, выбранный сезон"
       },
       "contour": {
-        "value": "rgba( {primitives.white} , 0.1)",
+        "value": "rgba( {primitives.black} , 0.1)",
         "type": "color",
         "description": "контур контента, чтобы не сливался с черным"
       }
