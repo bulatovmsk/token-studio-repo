@@ -73,7 +73,7 @@
         "description": "Обводки и разделители"
       },
       "focus": {
-        "value": "{primitives.cobalt1100}",
+        "value": "{primitives.cobalt900}",
         "type": "color",
         "description": "Фокус ТВ"
       },
@@ -89,17 +89,17 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 52%, {primitives.white} 100%)",
+          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt900} 52%, {primitives.white} 100%)",
           "type": "color",
           "description": "рамка фокуса"
         },
         "active-horisontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt900} 16%, {primitives.white} 50%, {primitives.cobalt900} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 18%, {primitives.white} 50%, {primitives.cobalt1000} 82%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt900} 18%, {primitives.white} 50%, {primitives.cobalt900} 82%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         }
@@ -108,7 +108,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.cobalt1000}",
+          "value": "{primitives.cobalt900}",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
@@ -269,40 +269,6 @@
           }
         }
       },
-      "decorative": {
-        "lemon": {
-          "value": "linear-gradient(90deg, {primitives.yellow200} 0%, {primitives.yellow300} 100%)",
-          "type": "color"
-        },
-        "twilight": {
-          "value": "linear-gradient(90deg, {primitives.red900} 0%, {primitives.violet800} 100%)",
-          "type": "color"
-        },
-        "neon": {
-          "value": "linear-gradient(90deg, {primitives.pink900} 0%, {primitives.violet800} 100%)",
-          "type": "color"
-        },
-        "continuum": {
-          "value": "linear-gradient(90deg, {primitives.cobalt1100} 0%, {primitives.purple1100} 100%)",
-          "type": "color"
-        },
-        "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.purple1100} 0%, {primitives.pink900} 100%)",
-          "type": "color"
-        },
-        "gold": {
-          "value": "linear-gradient(90deg, {primitives.brown1000} 0%, {primitives.brown600} 100%)",
-          "type": "color"
-        },
-        "melancholy": {
-          "value": "linear-gradient(90deg, {primitives.blue800} 0%, {primitives.violet900} 100%)",
-          "type": "color"
-        },
-        "button": {
-          "value": "linear-gradient(45deg, {primitives.cobalt1300} 0%, {primitives.cobalt1100} 100%)",
-          "type": "color"
-        }
-      },
       "technical": {
         "skeleton": {
           "value": "linear-gradient(90deg, rgba( {primitives.white} , 0.05) 0%, rgba( {primitives.white} , 0.15) 0%, rgba( {primitives.white} , 0.05) 100%)",
@@ -324,6 +290,42 @@
           "type": "color",
           "description": "Подложка для скелетона"
         }
+      }
+    },
+    "component": {
+      "label": {
+        "lemon": {
+          "value": "linear-gradient(90deg, {primitives.yellow200} 0%, {primitives.yellow300} 100%)",
+          "type": "color"
+        },
+        "twilight": {
+          "value": "linear-gradient(90deg, {primitives.red900} 0%, {primitives.violet800} 100%)",
+          "type": "color"
+        },
+        "neon": {
+          "value": "linear-gradient(90deg, {primitives.pink900} 0%, {primitives.violet800} 100%)",
+          "type": "color"
+        },
+        "continuum": {
+          "value": "linear-gradient(90deg, {primitives.cobalt900} 0%, {primitives.purple1100} 100%)",
+          "type": "color"
+        },
+        "lighthouse": {
+          "value": "linear-gradient(90deg, {primitives.purple1100} 0%, {primitives.pink900} 100%)",
+          "type": "color"
+        },
+        "gold": {
+          "value": "linear-gradient(90deg, {primitives.brown1000} 0%, {primitives.brown600} 100%)",
+          "type": "color"
+        },
+        "melancholy": {
+          "value": "linear-gradient(90deg, {primitives.blue800} 0%, {primitives.violet900} 100%)",
+          "type": "color"
+        }
+      },
+      "button": {
+        "value": "linear-gradient(45deg, {primitives.cobalt1200} 0%, {primitives.cobalt900} 100%)",
+        "type": "color"
       }
     },
     "background": {
@@ -369,12 +371,12 @@
     },
     "static": {
       "black": {
-        "value": "rgba( {primitives.black} , 0.96)",
+        "value": "{primitives.black}",
         "type": "color",
         "description": "Цвет не меняется в зависимости от темы"
       },
       "white": {
-        "value": "rgba( {primitives.white} , 0.96)",
+        "value": "{primitives.white}",
         "type": "color",
         "description": "Цвет не меняется в зависимости от темы"
       }
