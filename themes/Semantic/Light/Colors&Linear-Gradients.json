@@ -99,21 +99,21 @@
     },
     "fill": {
       "glassy": {
-        "third": {
-          "value": "rgba( {primitives.white} , 0.56)",
+        "primary": {
+          "value": "rgba( {primitives.white} , 0.90)",
           "type": "color"
         },
         "secondary": {
-          "value": "rgba( {primitives.gray900} , 0.48)",
+          "value": "rgba( {primitives.gray200} , 0.6)",
           "type": "color"
         },
-        "primary": {
-          "value": "rgba( {primitives.gray1200} , 0.92)",
+        "third": {
+          "value": "rgba( {primitives.gray300} , 0.4)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
         },
         "negative": {
-          "value": "rgba( {primitives.red900} , 0.2)",
+          "value": "rgba( {primitives.red700} , 0.3)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода"
         }
@@ -213,7 +213,7 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.white} }",
+          "value": "{primitives.white}",
           "type": "color",
           "description": "Крупные кликабельные элементы, баннеры"
         },
@@ -303,14 +303,14 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{primitives.gray1200}",
+          "value": "{primitives.white}",
           "type": "color",
           "description": "Для окон"
         },
         "inverse": {
-          "value": "{primitives.gray200}",
+          "value": "{primitives.gray1200}",
           "type": "color",
-          "description": "Для светлых элементов в тёмной теме"
+          "description": "Для тёмных элементов в детской теме"
         }
       },
       "glassy": {
@@ -319,17 +319,17 @@
           "type": "color"
         },
         "primary": {
-          "value": "rgba( {primitives.black} , 0.88)",
+          "value": "rgba( {primitives.cobalt200} , 0.88)",
           "type": "color",
           "description": "Фон поверх изображения"
         },
         "third": {
-          "value": "rgba( {primitives.black} , 0.56)",
+          "value": "rgba( {primitives.gray300} , 0.6)",
           "type": "color",
           "description": "Фон поверх изображения, видео (плеер)"
         },
         "forth": {
-          "value": "rgba( {primitives.black} , 0.32)",
+          "value": "rgba( {primitives.gray400} , 0.4)",
           "type": "color",
           "description": "Фон поверх изображения"
         }
@@ -337,12 +337,12 @@
     },
     "static": {
       "black": {
-        "value": "rgba( {primitives.black} , 0.96)",
+        "value": "{primitives.black}",
         "type": "color",
         "description": "Цвет не меняется в зависимости от темы"
       },
       "white": {
-        "value": "rgba( {primitives.white} , 0.96)",
+        "value": "{primitives.white}",
         "type": "color",
         "description": "Цвет не меняется в зависимости от темы"
       }
