@@ -42,12 +42,6 @@
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-third"
           }
         }
-      },
-      "decorative": {
-        "sky": {
-          "value": "radial-gradient(2628.95% 208.1% at 0% -35%, {primitives.blue100} 0%, {primitives.blue500} 100%)",
-          "type": "color"
-        }
       }
     }
   }

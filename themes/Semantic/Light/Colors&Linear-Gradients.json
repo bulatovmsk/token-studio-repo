@@ -297,6 +297,10 @@
         "melancholy": {
           "value": "linear-gradient(90deg, {primitives.blue800} 0%, {primitives.violet900} 100%)",
           "type": "color"
+        },
+        "sky": {
+          "value": "linear-gradient(90deg, {primitives.blue100} 0%, {primitives.blue500} 100%)",
+          "type": "color"
         }
       }
     },

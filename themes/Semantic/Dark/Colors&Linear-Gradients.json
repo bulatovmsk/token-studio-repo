@@ -321,10 +321,18 @@
         "melancholy": {
           "value": "linear-gradient(90deg, {primitives.blue800} 0%, {primitives.violet900} 100%)",
           "type": "color"
+        },
+        "sky": {
+          "value": "linear-gradient(90deg, {primitives.blue100} 0%, {primitives.blue500} 100%)",
+          "type": "color"
         }
       },
       "button": {
         "value": "linear-gradient(45deg, {primitives.cobalt1200} 0%, {primitives.cobalt900} 100%)",
+        "type": "color"
+      },
+      "progress-bar": {
+        "value": "{primitives.gray200}",
         "type": "color"
       }
     },
