@@ -1,14 +1,5 @@
 {
   "color": {
-    "background": {
-      "decorative": {
-        "primary": {
-          "value": "radial-gradient(107.67% 119.02% at 81.25% -19%, {primitives.purple900} 0.08%, {primitives.violet1000} 77.96%, {primitives.cobalt1300} 100%)",
-          "type": "color",
-          "description": "Брендированный фон"
-        }
-      }
-    },
     "fill": {
       "solid": {
         "hover-focus": {

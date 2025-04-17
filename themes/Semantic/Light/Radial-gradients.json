@@ -1,14 +1,5 @@
 {
   "color": {
-    "background": {
-      "decorative": {
-        "primary": {
-          "value": "radial-gradient(107.67% 119.02% at 81.25% -19%, {primitives.purple900} 0.08%, {primitives.violet1000} 77.96%, {primitives.cobalt1300} 100%)",
-          "type": "color",
-          "description": "Брендированный фон"
-        }
-      }
-    },
     "fill": {
       "glassy": {
         "hover-focus": {
@@ -22,12 +13,6 @@
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-secondary"
           }
-        }
-      },
-      "decorative": {
-        "sky": {
-          "value": "radial-gradient(2628.95% 208.1% at 0% -35%, {primitives.blue100} 0%, {primitives.blue500} 100%)",
-          "type": "color"
         }
       },
       "solid": {
