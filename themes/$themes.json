@@ -172,7 +172,17 @@
       "color.text-icon.inverse": "S:c5b4c0095536af7e6e40764789faa9ae0022c189,",
       "color.text-icon.inverse.primary": "S:6bcdfac58c985834e0eb26dab05d71924e760fd3,",
       "color.text-icon.inverse.forth": "S:10e62e61750d1f8f3947b42f8b4a1cf5df8d74af,",
-      "color.text-icon.inverse.third": "S:2ccda45f9d90f0c8d3a65ee0e159eb02e77c3910,"
+      "color.text-icon.inverse.third": "S:2ccda45f9d90f0c8d3a65ee0e159eb02e77c3910,",
+      "color.fill.solid.forth": "S:6871cf37d2039263ad4cc3ae30129558bb73b2e8,",
+      "color.component.label.lemon": "S:a67c7b1f5400a376dc992d9da4a2f4472bf1c63e,",
+      "color.component.label.twilight": "S:3b7aa840968f32e0ae9855a35d20a2a369f184dd,",
+      "color.component.label.neon": "S:743514bc3179fd32eec3461e417bd6e3e749d661,",
+      "color.component.label.continuum": "S:54da9c493fdb1d57bc8b064641bcb6ec2cc8acd1,",
+      "color.component.label.lighthouse": "S:2988e90271515ec6988833b9b88fd8cb74e76132,",
+      "color.component.label.gold": "S:769a2ae22fa5e99f8e43ecc18a182c4a3c210f63,",
+      "color.component.label.melancholy": "S:ec10664152df215282f5013854a3b6c9e892ac47,",
+      "color.component.button": "S:2622d420754887de1bf95b2585d53d7f1fff2753,",
+      "color.component.progress-bar": "S:aee3feebc2aeae0c956dfa5f18527f3bc89f871f,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
@@ -268,7 +278,15 @@
       "color.text-icon.inverse.forth": "S:f9e483f9cde982f89cfbab574ef198846f61d0c4,",
       "color.text-icon.inverse.third": "S:db394b9023eac0a425ffb13d15f27f633b5cfd16,",
       "color.fill.technical.disabled": "S:5ad0f53a586e4440406f9d091d0313133387f275,",
-      "color.fill.technical.skeletonbg": "S:d630191e61b82953ad1874a9cecd415c2525fec4,"
+      "color.fill.technical.skeletonbg": "S:d630191e61b82953ad1874a9cecd415c2525fec4,",
+      "color.component.button": "S:a68bdf436d96d9656c2abf0d2c1cf31077cae0d8,",
+      "color.component.label.lemon": "S:655ac121d28a38cff3495e79336c145afeda3279,",
+      "color.component.label.twilight": "S:c626d33c5f8d6d4c64aa0b4fbae172fc030adb53,",
+      "color.component.label.neon": "S:f33c0e308d72e5f4ee7c04d5326103245417f1d2,",
+      "color.component.label.continuum": "S:9b2db4044649a6068b4e702e59ec71556077922d,",
+      "color.component.label.lighthouse": "S:30efc864fa1de5b0910d08fb6b5e17a08a25b997,",
+      "color.component.label.gold": "S:0498d894f41769430e6ae16b73f300a7d6c446b7,",
+      "color.component.label.melancholy": "S:1fe2c1c62ba3e524c79715e122cbf0ea120f72fc,"
     },
     "selectedTokenSets": {
       "Primitives": "source",

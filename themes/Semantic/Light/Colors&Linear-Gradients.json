@@ -261,11 +261,11 @@
         "value": "linear-gradient(45deg, {primitives.violet600} 0%, {primitives.cobalt700} 100%)",
         "type": "color"
       },
+      "progress-bar": {
+        "value": "linear-gradient(270deg, {primitives.pink500} 0%, {primitives.pink800} 33%, {primitives.purple1000} 67%, {primitives.cobalt1000} 100%)",
+        "type": "color"
+      },
       "label": {
-        "progress-bar": {
-          "value": "linear-gradient(270deg, {primitives.pink500} 0%, {primitives.pink800} 33%, {primitives.purple1000} 67%, {primitives.cobalt1000} 100%)",
-          "type": "color"
-        },
         "lemon": {
           "value": "linear-gradient(90deg, {primitives.yellow200} 0%, {primitives.yellow300} 100%)",
           "type": "color"
