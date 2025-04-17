@@ -204,6 +204,10 @@
         "placeholder": {
           "value": "{primitives.gray200}",
           "type": "color"
+        },
+        "skeletonbg": {
+          "value": "rgba( {primitives.black} , 0.1)",
+          "type": "color"
         }
       },
       "solid": {
