@@ -116,6 +116,16 @@
           "value": "rgba( {primitives.red700} , 0.3)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода"
+        },
+        "hover-focus": {
+          "secondary": {
+            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.48) 0%, rgba( {primitives.gray200} , 0.48) 100%)",
+            "type": "color"
+          },
+          "third": {
+            "value": "linear-gradient(45deg, rgba( {primitives.gray200} , 0.32) 0%, rgba( {primitives.white} , 0.32) 100%)",
+            "type": "color"
+          }
         }
       },
       "fade": {
@@ -257,6 +267,20 @@
         "forth": {
           "value": "{primitives.gray400}",
           "type": "color"
+        },
+        "hover-focus": {
+          "primary": {
+            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.gray200} 95%)",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.gray300} 95%)",
+            "type": "color"
+          },
+          "third": {
+            "value": "linear-gradient(45deg, {primitives.gray300} 0%, {primitives.gray400} 100%)",
+            "type": "color"
+          }
         }
       }
     },

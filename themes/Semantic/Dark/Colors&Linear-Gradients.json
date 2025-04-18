@@ -155,6 +155,23 @@
           "value": "{primitives.red900}",
           "type": "color",
           "description": "Live трансляции"
+        },
+        "hover-focus": {
+          "primary": {
+            "value": "linear-gradient(45deg, {primitives.gray1200} 0%, {primitives.gray1100} 95%)",
+            "type": "color",
+            "description": "Для состояния ховера или фокуса компонентов залитых solid-primary"
+          },
+          "secondary": {
+            "value": "linear-gradient(45deg, {primitives.gray1100} 0%, {primitives.gray1000} 95%)",
+            "type": "color",
+            "description": "Для состояния ховера или фокуса компонентов залитых solid-secondary"
+          },
+          "third": {
+            "value": "linear-gradient(45deg, {primitives.gray1000} 0%, {primitives.gray900} 100%)",
+            "type": "color",
+            "description": "Для состояния ховера или фокуса компонентов залитых Solid-third"
+          }
         }
       },
       "glassy": {
@@ -177,6 +194,18 @@
           "value": "rgba( {primitives.gray600} , 0.32)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки"
+        },
+        "hover-focus": {
+          "secondary": {
+            "value": "linear-gradient(45deg, rgba( {primitives.gray900} , 0.48) 0%, rgba( {primitives.gray800} , 0.48) 100%)",
+            "type": "color",
+            "description": "Для состояния ховера или фокуса компонентов залитых Glassy-secondary"
+          },
+          "third": {
+            "value": "linear-gradient(45deg, rgba( {primitives.gray600} , 0.32) 0%, rgba( {primitives.gray500} , 0.32) 100%)",
+            "type": "color",
+            "description": "Для состояния ховера или фокуса компонентов залитых Glassy-third"
+          }
         }
       },
       "fade": {

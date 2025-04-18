@@ -5,8 +5,6 @@
     "Semantic/Web&Mobile",
     "Semantic/TV",
     "Semantic/Dark/Colors&Linear-Gradients",
-    "Semantic/Dark/Radial-gradients",
-    "Semantic/Light/Colors&Linear-Gradients",
-    "Semantic/Light/Radial-gradients"
+    "Semantic/Light/Colors&Linear-Gradients"
   ]
 }
