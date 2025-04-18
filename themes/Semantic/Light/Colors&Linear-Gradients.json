@@ -100,11 +100,11 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.cobalt400} , 0.80)",
+          "value": "rgba( {primitives.gray400} , 0.80)",
           "type": "color"
         },
         "secondary": {
-          "value": "rgba( {primitives.cobalt300} , 0.8)",
+          "value": "rgba( {primitives.gray300} , 0.8)",
           "type": "color"
         },
         "third": {
@@ -217,7 +217,7 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.cobalt400}",
+          "value": "{primitives.gray200}",
           "type": "color",
           "description": "Крупные кликабельные элементы, баннеры"
         },
@@ -226,7 +226,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{primitives.cobalt300}",
+          "value": "{primitives.gray300}",
           "type": "color",
           "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
         },
