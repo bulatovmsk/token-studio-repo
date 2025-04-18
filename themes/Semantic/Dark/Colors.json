@@ -195,6 +195,10 @@
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки"
         },
+        "inverse": {
+          "value": "rgba( {primitives.white} , 0.8)",
+          "type": "color"
+        },
         "hover-focus": {
           "secondary": {
             "value": "linear-gradient(45deg, rgba( {primitives.gray900} , 0.48) 0%, rgba( {primitives.gray800} , 0.48) 100%)",

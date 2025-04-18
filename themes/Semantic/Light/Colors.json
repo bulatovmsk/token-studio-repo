@@ -112,6 +112,10 @@
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
         },
+        "inverse": {
+          "value": "rgba( {primitives.gray1200} , 0.8)",
+          "type": "color"
+        },
         "negative": {
           "value": "rgba( {primitives.red700} , 0.3)",
           "type": "color",
