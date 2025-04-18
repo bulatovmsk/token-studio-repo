@@ -357,7 +357,7 @@
         }
       },
       "button": {
-        "value": "linear-gradient(45deg, {primitives.cobalt1200} 0%, {primitives.cobalt900} 100%)",
+        "value": "linear-gradient(45deg, {primitives.cobalt1300} 0%, {primitives.cobalt1000} 100%)",
         "type": "color"
       },
       "progress-bar": {
