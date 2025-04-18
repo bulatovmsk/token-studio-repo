@@ -189,7 +189,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors&Linear-Gradients": "enabled"
+      "Semantic/Light/Colors": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaCollectionId": "VariableCollectionId:31443:7065",
@@ -293,7 +293,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors&Linear-Gradients": "enabled"
+      "Semantic/Dark/Colors": "enabled"
     },
     "$figmaVariableReferences": {},
     "$figmaCollectionId": "VariableCollectionId:31443:7065",
