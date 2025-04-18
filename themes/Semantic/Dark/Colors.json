@@ -73,7 +73,7 @@
         "description": "Обводки и разделители"
       },
       "focus": {
-        "value": "{primitives.cobalt900}",
+        "value": "{primitives.cobalt1000}",
         "type": "color",
         "description": "Фокус ТВ"
       },
@@ -89,17 +89,17 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt900} 52%, {primitives.white} 100%)",
+          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 52%, {primitives.white} 100%)",
           "type": "color",
           "description": "рамка фокуса"
         },
         "active-horisontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt900} 16%, {primitives.white} 50%, {primitives.cobalt900} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt900} 18%, {primitives.white} 50%, {primitives.cobalt900} 82%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 18%, {primitives.white} 50%, {primitives.cobalt1000} 82%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         }
@@ -108,7 +108,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.cobalt900}",
+          "value": "{primitives.cobalt1000}",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
