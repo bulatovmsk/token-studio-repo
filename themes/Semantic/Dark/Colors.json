@@ -132,7 +132,7 @@
           "type": "color"
         },
         "inverse": {
-          "value": "{primitives.gray200}",
+          "value": "{primitives.white}",
           "type": "color",
           "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
         },
