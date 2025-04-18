@@ -100,15 +100,15 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.white} , 0.90)",
+          "value": "rgba( {primitives.cobalt400} , 0.80)",
           "type": "color"
         },
         "secondary": {
-          "value": "rgba( {primitives.gray200} , 0.6)",
+          "value": "rgba( {primitives.cobalt300} , 0.8)",
           "type": "color"
         },
         "third": {
-          "value": "rgba( {primitives.gray300} , 0.4)",
+          "value": "rgba( {primitives.white} , 0.8)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
         },
@@ -217,16 +217,16 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.white}",
+          "value": "{primitives.cobalt400}",
           "type": "color",
           "description": "Крупные кликабельные элементы, баннеры"
         },
         "third": {
-          "value": "{primitives.gray300}",
+          "value": "{primitives.white}",
           "type": "color"
         },
         "secondary": {
-          "value": "{primitives.gray200}",
+          "value": "{primitives.cobalt300}",
           "type": "color",
           "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
         },
@@ -323,7 +323,7 @@
       },
       "glassy": {
         "secondary": {
-          "value": "rgba( {primitives.white} , 0.88)",
+          "value": "rgba( {primitives.gray300} , 0.6)",
           "type": "color"
         },
         "primary": {
@@ -332,7 +332,7 @@
           "description": "Фон поверх изображения"
         },
         "third": {
-          "value": "rgba( {primitives.gray300} , 0.6)",
+          "value": "rgba( {primitives.white} , 0.8)",
           "type": "color",
           "description": "Фон поверх изображения, видео (плеер)"
         },
