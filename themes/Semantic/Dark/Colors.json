@@ -158,17 +158,17 @@
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.gray1200} 0%, {primitives.gray1100} 95%)",
+            "value": "linear-gradient(45deg, {primitives.gray1200} 0%, {primitives.gray1000} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых solid-primary"
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.gray1100} 0%, {primitives.gray1000} 95%)",
+            "value": "linear-gradient(45deg, {primitives.gray1100} 0%, {primitives.gray900} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых solid-secondary"
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.gray1000} 0%, {primitives.gray900} 100%)",
+            "value": "linear-gradient(45deg, {primitives.gray1000} 0%, {primitives.gray800} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Solid-third"
           }
