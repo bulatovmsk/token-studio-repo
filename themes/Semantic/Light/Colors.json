@@ -13,7 +13,7 @@
         "value": "rgba( {primitives.black} , 0.56)",
         "type": "color"
       },
-      "forth": {
+      "fourth": {
         "value": "rgba( {primitives.black} , 0.4)",
         "type": "color"
       },
@@ -46,7 +46,7 @@
           "value": "rgba( {primitives.white} , 0.96)",
           "type": "color"
         },
-        "forth": {
+        "fourth": {
           "value": "rgba( {primitives.white} , 0.4)",
           "type": "color"
         },
@@ -59,10 +59,10 @@
     "border": {
       "decorative": {
         "focus": {
-          "value": "linear-gradient(270deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 33%, {primitives.pink800} 67%, {primitives.pink500} 100%)",
+          "value": "linear-gradient(45deg, {primitives.pink500} 0%, {primitives.pink800} 52%, {primitives.purple1000} 100%)",
           "type": "color"
         },
-        "active-horisontal": {
+        "active-horizontal": {
           "value": "linear-gradient(270deg, {primitives.white} 0%, {primitives.purple600} 13%, {primitives.cobalt1000} 50%, {primitives.purple600} 88%, {primitives.white} 100%)",
           "type": "color"
         },
@@ -268,7 +268,7 @@
           "type": "color",
           "description": "Live трансляции"
         },
-        "forth": {
+        "fourth": {
           "value": "{primitives.gray400}",
           "type": "color"
         },
@@ -364,7 +364,7 @@
           "type": "color",
           "description": "Фон поверх изображения, видео (плеер)"
         },
-        "forth": {
+        "fourth": {
           "value": "rgba( {primitives.gray400} , 0.4)",
           "type": "color",
           "description": "Фон поверх изображения"
