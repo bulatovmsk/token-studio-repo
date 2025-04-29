@@ -185,7 +185,12 @@
       "color.fill.glassy.hover-focus.secondary": "S:a22eac227d4a0586fcefdbb0fc946f7c4eb13f6e,",
       "color.fill.glassy.hover-focus.third": "S:c3ef1ec982afff44a915305cc6f8c327950e73dd,",
       "color.fill.decorative.sky": "S:3c5eb4c29fa4b0d48920c31bd6eaa529598fb4de,",
-      "color.fill.glassy.inverse": "S:905a9b76a4a211d1ab72d7f5fc17b7b557ebcc37,"
+      "color.fill.glassy.inverse": "S:905a9b76a4a211d1ab72d7f5fc17b7b557ebcc37,",
+      "color.text-icon.fourth": "S:87386e619c7fe4cea75ac1a555e3dd7a081f2226,",
+      "color.text-icon.inverse.fourth": "S:f7fb9a5b2870b7ac04c36967dac1023380322be9,",
+      "color.border.decorative.active-horizontal": "S:b7527d063389e2d84c55ec6e14ab1a17b0c89c74,",
+      "color.fill.solid.fourth": "S:dddcce2e7a7ed2bae8770a258a24809be3aa858e,",
+      "color.background.glassy.fourth": "S:5a92b510488ce2643477915cf696f1c115c4ad02,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
@@ -290,7 +295,12 @@
       "color.fill.solid.hover-focus.primary": "S:a9f9fba1fac99c06ab1b3a64bb434ec236d6b93f,",
       "color.fill.solid.hover-focus.third": "S:7190d7e2c06681786a2e62457fbad4e50931c325,",
       "color.fill.solid.hover-focus.secondary": "S:a02ac6372c58da259dc70bfc10c5553d6f663d87,",
-      "color.fill.glassy.inverse": "S:83152c5fefffea11f5a5262b751f28242944052f,"
+      "color.fill.glassy.inverse": "S:83152c5fefffea11f5a5262b751f28242944052f,",
+      "color.text-icon.fourth": "S:3fc15eccc09b5bd3ba85addf567d4077c21fd01d,",
+      "color.text-icon.inverse.fourth": "S:2738adedcbe55bfc83bb38737c78bf6a2ab59fab,",
+      "color.border.decorative.active-horizontal": "S:a639f9f2536427f1116194a3869e8cf9e56ccd88,",
+      "color.fill.solid.fourth": "S:bdf4fd24e2e4a3d136b97ab0c39402e6190cecb8,",
+      "color.background.glassy.fourth": "S:48ae5661222b6b05e7bc11f219ea2ea8b0adcbe5,"
     },
     "selectedTokenSets": {
       "Primitives": "source",
