@@ -365,7 +365,7 @@
         "type": "color"
       },
       "progress-bar": {
-        "value": "{primitives.gray200}",
+        "value": "linear-gradient(270deg, {primitives.gray200} 0%, {primitives.gray200} 33%, {primitives.gray200} 67%, {primitives.gray200} 100%)",
         "type": "color"
       }
     },
