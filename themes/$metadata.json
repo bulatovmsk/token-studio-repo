@@ -5,6 +5,8 @@
     "Semantic/Web&Mobile",
     "Semantic/TV",
     "Semantic/Dark/Colors",
-    "Semantic/Light/Colors"
+    "Semantic/Light/Colors",
+    "Technical(only for figma)/Dark",
+    "Technical(only for figma)/Light"
   ]
 }

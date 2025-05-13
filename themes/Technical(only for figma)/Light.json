@@ -1,0 +1,534 @@
+{
+  "color": {
+    "border": {
+      "decorative": {
+        "focus": {
+          "Step_1": {
+            "value": "{primitives.pink500}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.pink800}",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "{primitives.purple1000}",
+            "type": "color"
+          }
+        },
+        "active-horizontal": {
+          "Step_1": {
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.purple600}",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "{primitives.cobalt1000}",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "{primitives.purple600}",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "#ffffff00",
+            "type": "color"
+          }
+        },
+        "active-vertical": {
+          "Step_1": {
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.purple600}",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "{primitives.cobalt1000}",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "{primitives.purple600}",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "#ffffff00",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "fill": {
+      "solid": {
+        "hover-focus": {
+          "primary": {
+            "Step_1": {
+              "value": "{primitives.white}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray200}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "Step_1": {
+              "value": "{primitives.gray200}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray300}",
+              "type": "color"
+            }
+          },
+          "third": {
+            "Step_1": {
+              "value": "{primitives.gray300}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray400}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "glassy": {
+        "hover-focus": {
+          "secondary": {
+            "Step_1": {
+              "value": "#ffffff7a",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "#f5f4f67a",
+              "type": "color"
+            }
+          },
+          "third": {
+            "Step_1": {
+              "value": "#f5f4f652",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "#f5f4f652",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "fade": {
+        "primary": {
+          "Step_1": {
+            "value": "{primitives.cobalt200}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "#dee0fefc",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "#dee0fef5",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "#dee0feeb",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "#dee0fed9",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "#dee0fec4",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "#dee0feab",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "#dee0fe8f",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "#dee0fe70",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "#dee0fe54",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "#dee0fe3b",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "#dee0fe26",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "#dee0fe14",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "#dee0fe0a",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "#dee0fe03",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "#dee0fe00",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "Step_1": {
+            "value": "#dee0fecc",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "#dee0fec9",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "#dee0fec4",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "#dee0feba",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "#dee0fead",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "#dee0fe9c",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "#dee0fe87",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "#dee0fe73",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "#dee0fe59",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "#dee0fe45",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "#dee0fe30",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "#dee0fe1f",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "#dee0fe12",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "#dee0fe08",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "#dee0fe03",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "#dee0fe00",
+            "type": "color"
+          }
+        },
+        "third": {
+          "Step_1": {
+            "value": "#dee0fe8f",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "#dee0fe8f",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "#dee0fe8a",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "#dee0fe82",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "#dee0fe7a",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "#dee0fe6e",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "#dee0fe5e",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "#dee0fe4f",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "#dee0fe40",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "#dee0fe30",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "#dee0fe21",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "#dee0fe14",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "#dee0fe0d",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "#dee0fe05",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "#dee0fe03",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "#dee0fe00",
+            "type": "color"
+          }
+        },
+        "fourth": {
+          "Step_1": {
+            "value": "#dee0fe3d",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "#dee0fe3d",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "#dee0fe3b",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "#dee0fe33",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "#dee0fe2e",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "#dee0fe29",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "#dee0fe21",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "#dee0fe1c",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "#dee0fe14",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "#dee0fe0f",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "#dee0fe0a",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "#dee0fe05",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "#dee0fe03",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "#dee0fe38",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "#dee0fe00",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "#dee0fe00",
+            "type": "color"
+          }
+        }
+      },
+      "technical": {
+        "skeleton": {
+          "Step_1": {
+            "value": "#ffffff59",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "#ffffff",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "#ffffff59",
+            "type": "color"
+          }
+        },
+        "button-loading": {
+          "Step_1": {
+            "value": "#bcbac100",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "#bcbac159",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "#bcbac180",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "component": {
+      "label": {
+        "lemon": {
+          "Step_1": {
+            "value": "{primitives.yellow200}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.yellow300}",
+            "type": "color"
+          }
+        },
+        "twilight": {
+          "Step_1": {
+            "value": "{primitives.red900}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.violet800}",
+            "type": "color"
+          }
+        },
+        "neon": {
+          "Step_1": {
+            "value": "{primitives.pink900}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.violet800}",
+            "type": "color"
+          }
+        },
+        "continuum": {
+          "Step_1": {
+            "value": "{primitives.cobalt1100}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.purple1100}",
+            "type": "color"
+          }
+        },
+        "lighthouse": {
+          "Step_1": {
+            "value": "{primitives.purple1100}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.pink900}",
+            "type": "color"
+          }
+        },
+        "gold": {
+          "Step_1": {
+            "value": "{primitives.brown1000}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.brown600}",
+            "type": "color"
+          }
+        },
+        "melancholy": {
+          "Step_1": {
+            "value": "{primitives.blue800}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.violet900}",
+            "type": "color"
+          }
+        },
+        "sky": {
+          "Step_1": {
+            "value": "{primitives.blue100}",
+            "type": "color"
+          },
+          "Step_1 2": {
+            "value": "{primitives.blue500}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "Step_1": {
+          "value": "{primitives.violet600}",
+          "type": "color"
+        },
+        "Step_2": {
+          "value": "{primitives.cobalt700}",
+          "type": "color"
+        }
+      },
+      "progress-bar": {
+        "Step_1": {
+          "value": "{primitives.pink500}",
+          "type": "color"
+        },
+        "Step_2": {
+          "value": "{primitives.pink800}",
+          "type": "color"
+        },
+        "Step_3": {
+          "value": "{primitives.purple1000}",
+          "type": "color"
+        },
+        "Step_4": {
+          "value": "{primitives.cobalt1000}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
