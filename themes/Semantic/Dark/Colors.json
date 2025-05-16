@@ -27,7 +27,7 @@
         "description": "Ссылки"
       },
       "offer": {
-        "value": "{primitives.yellow500}",
+        "value": "{primitives.yellow300}",
         "type": "color",
         "description": "Ссылки"
       },
