@@ -121,7 +121,6 @@
       "spacing.550": "7444c662b769c0f244380da02a46b4e49fd91ec8",
       "spacing.650": "951002c0a5a694d777f66a1c541ffdd2e4aa6215",
       "spacing.750": "e227df19f7a217fdef24db11b0f0aa1530c08d92",
-      "screen-padding.500": "189fc8b294ed19836011d6b5a2976b8445da6850",
       "screen-padding.right": "c47608b1720a058fb738d35693606ed2f651b23d",
       "screen-padding.left": "fa9486b1334f40d83110f71945a8411580608fec"
     }
@@ -399,8 +398,7 @@
     "group": "Primitives",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Brand": "enabled",
-      "Primitives/Primitives": "enabled"
+      "Brand": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -555,8 +553,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors": "enabled",
-      "Theme/Dark": "enabled"
+      "Semantic/Dark/Colors": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -614,8 +611,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors": "enabled",
-      "Theme/Light": "enabled"
+      "Semantic/Light/Colors": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {

@@ -152,16 +152,12 @@
     }
   },
   "screen-padding": {
-    "500": {
-      "value": "96",
-      "type": "spacing"
-    },
     "right": {
-      "value": "72",
+      "value": "60",
       "type": "spacing"
     },
     "left": {
-      "value": "136",
+      "value": "148",
       "type": "spacing"
     }
   }
