@@ -6,7 +6,9 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Web&Mobile": "enabled"
+      "Semantic/Web&Mobile": "enabled",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
@@ -56,7 +58,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/Web&Mobile": "source"
+      "Semantic/Web&Mobile": "source",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "group": "Component",
     "$figmaVariableReferences": {
@@ -87,7 +91,9 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/TV": "enabled"
+      "Semantic/TV": "enabled",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:27561:12517",
@@ -131,7 +137,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/TV": "source"
+      "Semantic/TV": "source",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "group": "Component",
     "$figmaVariableReferences": {}
@@ -141,7 +149,8 @@
     "name": "Dark",
     "group": "Technical(only for figma)",
     "selectedTokenSets": {
-      "Technical(only for figma)/Dark": "enabled"
+      "Technical(for Figma gradients)/Dark": "enabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -269,7 +278,8 @@
     "name": "Light",
     "group": "Technical(only for figma)",
     "selectedTokenSets": {
-      "Technical(only for figma)/Light": "enabled"
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -398,7 +408,9 @@
     "group": "Primitives",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Brand": "enabled"
+      "Brand": "enabled",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -553,7 +565,9 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors": "enabled"
+      "Semantic/Dark/Colors": "enabled",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -611,7 +625,9 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors": "enabled"
+      "Semantic/Light/Colors": "enabled",
+      "Technical(for Figma gradients)/Dark": "disabled",
+      "Technical(for Figma gradients)/Light": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
