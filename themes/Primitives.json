@@ -313,15 +313,15 @@
       "type": "color"
     },
     "cobalt1300": {
-      "value": "#29017B",
+      "value": "#301A59",
       "type": "color"
     },
     "cobalt1200": {
-      "value": "#4107B1",
+      "value": "#301A59",
       "type": "color"
     },
     "cobalt1100": {
-      "value": "#4E0CCC",
+      "value": "#4F03CD",
       "type": "color"
     },
     "cobalt1000": {
@@ -329,23 +329,23 @@
       "type": "color"
     },
     "cobalt900": {
-      "value": "#6414FD",
+      "value": "#564EFD",
       "type": "color"
     },
     "cobalt800": {
-      "value": "#725CFA",
+      "value": "#6860FA",
       "type": "color"
     },
     "cobalt700": {
-      "value": "#8A80FF",
+      "value": "#8D80F9",
       "type": "color"
     },
     "cobalt600": {
-      "value": "#9691FF",
+      "value": "#C3C1FA",
       "type": "color"
     },
     "cobalt500": {
-      "value": "#B1B1FF",
+      "value": "#B4B2F9",
       "type": "color"
     },
     "cobalt400": {
@@ -353,27 +353,27 @@
       "type": "color"
     },
     "cobalt300": {
-      "value": "#CFD1FF",
+      "value": "#D1D0FE",
       "type": "color"
     },
     "cobalt200": {
-      "value": "#DEE0FE",
+      "value": "#E6E5F5",
       "type": "color"
     },
     "cobalt100": {
-      "value": "#EFF0FF",
+      "value": "#F0F0F9",
       "type": "color"
     },
     "purple1300": {
-      "value": "#3A0365",
+      "value": "#3C1266",
       "type": "color"
     },
     "purple1200": {
-      "value": "#580C92",
+      "value": "#56148F",
       "type": "color"
     },
     "purple1100": {
-      "value": "#6712AA",
+      "value": "#6712AB",
       "type": "color"
     },
     "purple1000": {
@@ -381,39 +381,39 @@
       "type": "color"
     },
     "purple900": {
-      "value": "#8B45D5",
+      "value": "#A22BD5",
       "type": "color"
     },
     "purple800": {
-      "value": "#9457D9",
+      "value": "#AC44DE",
       "type": "color"
     },
     "purple700": {
-      "value": "#A87CE3",
+      "value": "#C16AF3",
       "type": "color"
     },
     "purple600": {
-      "value": "#B28DE6",
+      "value": "#CE7FFF",
       "type": "color"
     },
     "purple500": {
-      "value": "#C6ADEE",
+      "value": "#DBA3FE",
       "type": "color"
     },
     "purple400": {
-      "value": "#D2BDF3",
+      "value": "#E2B6FE",
       "type": "color"
     },
     "purple300": {
-      "value": "#DCCEF5",
+      "value": "#EBC8FF",
       "type": "color"
     },
     "purple200": {
-      "value": "#E8DEFA",
+      "value": "#F1DAFF",
       "type": "color"
     },
     "purple100": {
-      "value": "#F4EEFE",
+      "value": "#F9EDFF",
       "type": "color"
     },
     "pink1300": {
