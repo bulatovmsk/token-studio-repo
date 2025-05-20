@@ -59,7 +59,7 @@
     "border": {
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.pink500} 0%, {primitives.pink800} 52%, {primitives.purple1000} 100%)",
+          "value": "linear-gradient(45deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 52%, {primitives.pink800} 100%)",
           "type": "color"
         },
         "active-horizontal": {
@@ -290,7 +290,7 @@
     },
     "component": {
       "button": {
-        "value": "linear-gradient(45deg, {primitives.violet600} 0%, {primitives.cobalt700} 100%)",
+        "value": "linear-gradient(45deg, {primitives.violet700} 0%, {primitives.cobalt1000} 100%)",
         "type": "color"
       },
       "progress-bar": {

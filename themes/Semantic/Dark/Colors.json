@@ -340,11 +340,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.cobalt900} 0%, {primitives.purple1100} 100%)",
+          "value": "linear-gradient(90deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.purple1100} 0%, {primitives.pink900} 100%)",
+          "value": "linear-gradient(90deg, {primitives.purple1000} 0%, {primitives.pink900} 100%)",
           "type": "color"
         },
         "gold": {
@@ -361,7 +361,7 @@
         }
       },
       "button": {
-        "value": "linear-gradient(45deg, {primitives.cobalt1300} 0%, {primitives.cobalt1000} 100%)",
+        "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 100%)",
         "type": "color"
       },
       "progress-bar": {
