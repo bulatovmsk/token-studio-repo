@@ -507,7 +507,7 @@
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.cobalt700}",
+          "value": "{primitives.cobalt1000}",
           "type": "color"
         }
       },
