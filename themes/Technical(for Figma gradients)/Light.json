@@ -18,7 +18,7 @@
         },
         "active-horizontal": {
           "Step_1": {
-            "value": "#ffffff00",
+            "value": "{primitives.white}",
             "type": "color"
           },
           "Step_2": {
@@ -34,13 +34,13 @@
             "type": "color"
           },
           "Step_5": {
-            "value": "#ffffff00",
+            "value": "{primitives.white}",
             "type": "color"
           }
         },
         "active-vertical": {
           "Step_1": {
-            "value": "#ffffff00",
+            "value": "{primitives.white}",
             "type": "color"
           },
           "Step_2": {
@@ -56,7 +56,7 @@
             "type": "color"
           },
           "Step_5": {
-            "value": "#ffffff00",
+            "value": "{primitives.white}",
             "type": "color"
           }
         }
@@ -101,21 +101,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "#ffffff7a",
+              "value": "rgba( {primitives.white} , 0.48)",
               "type": "color"
             },
             "Step_2": {
-              "value": "#f5f4f67a",
+              "value": "rgba( {primitives.gray200} , 0.48)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "#f5f4f652",
+              "value": "rgba( {primitives.gray200} , 0.32)",
               "type": "color"
             },
             "Step_2": {
-              "value": "#f5f4f652",
+              "value": "rgba( {primitives.white} , 0.32)",
               "type": "color"
             }
           }
@@ -128,261 +128,261 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "#dee0fefc",
+            "value": "rgba( {primitives.cobalt200} , 0.99)",
             "type": "color"
           },
           "Step_3": {
-            "value": "#dee0fef5",
+            "value": "rgba( {primitives.cobalt200} , 0.96)",
             "type": "color"
           },
           "Step_4": {
-            "value": "#dee0feeb",
+            "value": "rgba( {primitives.cobalt200} , 0.92)",
             "type": "color"
           },
           "Step_5": {
-            "value": "#dee0fed9",
+            "value": "rgba( {primitives.cobalt200} , 0.85)",
             "type": "color"
           },
           "Step_6": {
-            "value": "#dee0fec4",
+            "value": "rgba( {primitives.cobalt200} , 0.77)",
             "type": "color"
           },
           "Step_7": {
-            "value": "#dee0feab",
+            "value": "rgba( {primitives.cobalt200} , 0.67)",
             "type": "color"
           },
           "Step_8": {
-            "value": "#dee0fe8f",
+            "value": "rgba( {primitives.cobalt200} , 0.56)",
             "type": "color"
           },
           "Step_9": {
-            "value": "#dee0fe70",
+            "value": "rgba( {primitives.cobalt200} , 0.44)",
             "type": "color"
           },
           "Step_10": {
-            "value": "#dee0fe54",
+            "value": "rgba( {primitives.cobalt200} , 0.33)",
             "type": "color"
           },
           "Step_11": {
-            "value": "#dee0fe3b",
+            "value": "rgba( {primitives.cobalt200} , 0.23)",
             "type": "color"
           },
           "Step_12": {
-            "value": "#dee0fe26",
+            "value": "rgba( {primitives.cobalt200} , 0.15)",
             "type": "color"
           },
           "Step_13": {
-            "value": "#dee0fe14",
+            "value": "rgba( {primitives.cobalt200} , 0.08)",
             "type": "color"
           },
           "Step_14": {
-            "value": "#dee0fe0a",
+            "value": "rgba( {primitives.cobalt200} , 0.04)",
             "type": "color"
           },
           "Step_15": {
-            "value": "#dee0fe03",
+            "value": "rgba( {primitives.cobalt200} , 0.01)",
             "type": "color"
           },
           "Step_16": {
-            "value": "#dee0fe00",
+            "value": "rgba( {primitives.cobalt200} , 0)",
             "type": "color"
           }
         },
         "secondary": {
           "Step_1": {
-            "value": "#dee0fecc",
+            "value": "rgba( {primitives.cobalt200} , 0.8)",
             "type": "color"
           },
           "Step_2": {
-            "value": "#dee0fec9",
+            "value": "rgba( {primitives.cobalt200} , 0.79)",
             "type": "color"
           },
           "Step_3": {
-            "value": "#dee0fec4",
+            "value": "rgba( {primitives.cobalt200} , 0.77)",
             "type": "color"
           },
           "Step_4": {
-            "value": "#dee0feba",
+            "value": "rgba( {primitives.cobalt200} , 0.73)",
             "type": "color"
           },
           "Step_5": {
-            "value": "#dee0fead",
+            "value": "rgba( {primitives.cobalt200} , 0.68)",
             "type": "color"
           },
           "Step_6": {
-            "value": "#dee0fe9c",
+            "value": "rgba( {primitives.cobalt200} , 0.61)",
             "type": "color"
           },
           "Step_7": {
-            "value": "#dee0fe87",
+            "value": "rgba( {primitives.cobalt200} , 0.53)",
             "type": "color"
           },
           "Step_8": {
-            "value": "#dee0fe73",
+            "value": "rgba( {primitives.cobalt200} , 0.45)",
             "type": "color"
           },
           "Step_9": {
-            "value": "#dee0fe59",
+            "value": "rgba( {primitives.cobalt200} , 0.35)",
             "type": "color"
           },
           "Step_10": {
-            "value": "#dee0fe45",
+            "value": "rgba( {primitives.cobalt200} , 0.27)",
             "type": "color"
           },
           "Step_11": {
-            "value": "#dee0fe30",
+            "value": "rgba( {primitives.cobalt200} , 0.19)",
             "type": "color"
           },
           "Step_12": {
-            "value": "#dee0fe1f",
+            "value": "rgba( {primitives.cobalt200} , 0.12)",
             "type": "color"
           },
           "Step_13": {
-            "value": "#dee0fe12",
+            "value": "rgba( {primitives.cobalt200} , 0.07)",
             "type": "color"
           },
           "Step_14": {
-            "value": "#dee0fe08",
+            "value": "rgba( {primitives.cobalt200} , 0.03)",
             "type": "color"
           },
           "Step_15": {
-            "value": "#dee0fe03",
+            "value": "rgba( {primitives.cobalt200} , 0.01)",
             "type": "color"
           },
           "Step_16": {
-            "value": "#dee0fe00",
+            "value": "rgba( {primitives.cobalt200} , 0)",
             "type": "color"
           }
         },
         "third": {
           "Step_1": {
-            "value": "#dee0fe8f",
+            "value": "rgba( {primitives.cobalt200} , 0.56)",
             "type": "color"
           },
           "Step_2": {
-            "value": "#dee0fe8f",
+            "value": "rgba( {primitives.cobalt200} , 0.56)",
             "type": "color"
           },
           "Step_3": {
-            "value": "#dee0fe8a",
+            "value": "rgba( {primitives.cobalt200} , 0.54)",
             "type": "color"
           },
           "Step_4": {
-            "value": "#dee0fe82",
+            "value": "rgba( {primitives.cobalt200} , 0.51)",
             "type": "color"
           },
           "Step_5": {
-            "value": "#dee0fe7a",
+            "value": "rgba( {primitives.cobalt200} , 0.48)",
             "type": "color"
           },
           "Step_6": {
-            "value": "#dee0fe6e",
+            "value": "rgba( {primitives.cobalt200} , 0.43)",
             "type": "color"
           },
           "Step_7": {
-            "value": "#dee0fe5e",
+            "value": "rgba( {primitives.cobalt200} , 0.37)",
             "type": "color"
           },
           "Step_8": {
-            "value": "#dee0fe4f",
+            "value": "rgba( {primitives.cobalt200} , 0.31)",
             "type": "color"
           },
           "Step_9": {
-            "value": "#dee0fe40",
+            "value": "rgba( {primitives.cobalt200} , 0.25)",
             "type": "color"
           },
           "Step_10": {
-            "value": "#dee0fe30",
+            "value": "rgba( {primitives.cobalt200} , 0.19)",
             "type": "color"
           },
           "Step_11": {
-            "value": "#dee0fe21",
+            "value": "rgba( {primitives.cobalt200} , 0.13)",
             "type": "color"
           },
           "Step_12": {
-            "value": "#dee0fe14",
+            "value": "rgba( {primitives.cobalt200} , 0.08)",
             "type": "color"
           },
           "Step_13": {
-            "value": "#dee0fe0d",
+            "value": "rgba( {primitives.cobalt200} , 0.05)",
             "type": "color"
           },
           "Step_14": {
-            "value": "#dee0fe05",
+            "value": "rgba( {primitives.cobalt200} , 0.02)",
             "type": "color"
           },
           "Step_15": {
-            "value": "#dee0fe03",
+            "value": "rgba( {primitives.cobalt200} , 0)",
             "type": "color"
           },
           "Step_16": {
-            "value": "#dee0fe00",
+            "value": "rgba( {primitives.cobalt200} , 0)",
             "type": "color"
           }
         },
         "fourth": {
           "Step_1": {
-            "value": "#dee0fe3d",
+            "value": "rgba( {primitives.cobalt200} , 0.24)",
             "type": "color"
           },
           "Step_2": {
-            "value": "#dee0fe3d",
+            "value": "rgba( {primitives.cobalt200} , 0.24)",
             "type": "color"
           },
           "Step_3": {
-            "value": "#dee0fe3b",
+            "value": "rgba( {primitives.cobalt200} , 0.23)",
             "type": "color"
           },
           "Step_5": {
-            "value": "#dee0fe33",
+            "value": "rgba( {primitives.cobalt200} , 0.22)",
             "type": "color"
           },
           "Step_6": {
-            "value": "#dee0fe2e",
+            "value": "rgba( {primitives.cobalt200} , 0.2)",
             "type": "color"
           },
           "Step_7": {
-            "value": "#dee0fe29",
+            "value": "rgba( {primitives.cobalt200} , 0.18)",
             "type": "color"
           },
           "Step_8": {
-            "value": "#dee0fe21",
+            "value": "rgba( {primitives.cobalt200} , 0.16)",
             "type": "color"
           },
           "Step_9": {
-            "value": "#dee0fe1c",
+            "value": "rgba( {primitives.cobalt200} , 0.13)",
             "type": "color"
           },
           "Step_10": {
-            "value": "#dee0fe14",
+            "value": "rgba( {primitives.cobalt200} , 0.11)",
             "type": "color"
           },
           "Step_11": {
-            "value": "#dee0fe0f",
+            "value": "rgba( {primitives.cobalt200} , 0.08)",
             "type": "color"
           },
           "Step_12": {
-            "value": "#dee0fe0a",
+            "value": "rgba( {primitives.cobalt200} , 0.06)",
             "type": "color"
           },
           "Step_13": {
-            "value": "#dee0fe05",
+            "value": "rgba( {primitives.cobalt200} , 0.04)",
             "type": "color"
           },
           "Step_14": {
-            "value": "#dee0fe03",
+            "value": "rgba( {primitives.cobalt200} , 0.02)",
             "type": "color"
           },
           "Step_4": {
-            "value": "#dee0fe38",
+            "value": "rgba( {primitives.cobalt200} , 0.01)",
             "type": "color"
           },
           "Step_15": {
-            "value": "#dee0fe00",
+            "value": "rgba( {primitives.cobalt200} , 0)",
             "type": "color"
           },
           "Step_16": {
-            "value": "#dee0fe00",
+            "value": "rgba( {primitives.cobalt200} , 0)",
             "type": "color"
           }
         }
@@ -390,29 +390,29 @@
       "technical": {
         "skeleton": {
           "Step_1": {
-            "value": "#ffffff59",
+            "value": "rgba( {primitives.white} , 0.35)",
             "type": "color"
           },
           "Step_2": {
-            "value": "#ffffff",
+            "value": "{primitives.white}",
             "type": "color"
           },
           "Step_3": {
-            "value": "#ffffff59",
+            "value": "rgba( {primitives.white} , 0.35)",
             "type": "color"
           }
         },
         "button-loading": {
           "Step_1": {
-            "value": "#bcbac100",
+            "value": "rgba( {primitives.gray500} , 0)",
             "type": "color"
           },
           "Step_2": {
-            "value": "#bcbac159",
+            "value": "rgba( {primitives.gray500} , 0.35)",
             "type": "color"
           },
           "Step_3": {
-            "value": "#bcbac180",
+            "value": "rgba( {primitives.gray500} , 0.5)",
             "type": "color"
           }
         }
