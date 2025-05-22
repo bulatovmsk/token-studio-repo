@@ -71,7 +71,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray1000}",
+              "value": "{primitives.gray1100}",
               "type": "color"
             }
           },
