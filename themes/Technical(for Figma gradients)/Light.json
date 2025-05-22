@@ -333,47 +333,47 @@
             "value": "rgba( {primitives.cobalt200} , 0.23)",
             "type": "color"
           },
-          "Step_5": {
+          "Step_4": {
             "value": "rgba( {primitives.cobalt200} , 0.22)",
             "type": "color"
           },
-          "Step_6": {
+          "Step_5": {
             "value": "rgba( {primitives.cobalt200} , 0.2)",
             "type": "color"
           },
-          "Step_7": {
+          "Step_6": {
             "value": "rgba( {primitives.cobalt200} , 0.18)",
             "type": "color"
           },
-          "Step_8": {
+          "Step_7": {
             "value": "rgba( {primitives.cobalt200} , 0.16)",
             "type": "color"
           },
-          "Step_9": {
+          "Step_8": {
             "value": "rgba( {primitives.cobalt200} , 0.13)",
             "type": "color"
           },
-          "Step_10": {
+          "Step_9": {
             "value": "rgba( {primitives.cobalt200} , 0.11)",
             "type": "color"
           },
-          "Step_11": {
+          "Step_10": {
             "value": "rgba( {primitives.cobalt200} , 0.08)",
             "type": "color"
           },
-          "Step_12": {
+          "Step_11": {
             "value": "rgba( {primitives.cobalt200} , 0.06)",
             "type": "color"
           },
-          "Step_13": {
+          "Step_12": {
             "value": "rgba( {primitives.cobalt200} , 0.04)",
             "type": "color"
           },
-          "Step_14": {
+          "Step_13": {
             "value": "rgba( {primitives.cobalt200} , 0.02)",
             "type": "color"
           },
-          "Step_4": {
+          "Step_14": {
             "value": "rgba( {primitives.cobalt200} , 0.01)",
             "type": "color"
           },
