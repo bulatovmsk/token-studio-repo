@@ -613,8 +613,8 @@
       "color.background.glassy.primary": "392f3484866a529d41a81d48e42154c0b3c20858",
       "color.background.glassy.third": "7bed8bcad56c8a2b700c146c20b01ee2c2a608f1",
       "color.background.glassy.fourth": "eb54110058e55fa529316435e2bf281072e232ab",
-      "color.static.black": "7d91de2f3af9f0251bdae8d307742f601799f39d",
-      "color.static.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329"
+      "color.static.solid.black": "7d91de2f3af9f0251bdae8d307742f601799f39d",
+      "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918"
@@ -671,8 +671,8 @@
       "color.background.glassy.secondary": "f422bc71ba878de65e3b792c2a1c45259cb48000",
       "color.background.glassy.third": "7bed8bcad56c8a2b700c146c20b01ee2c2a608f1",
       "color.background.glassy.fourth": "eb54110058e55fa529316435e2bf281072e232ab",
-      "color.static.black": "7d91de2f3af9f0251bdae8d307742f601799f39d",
-      "color.static.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329"
+      "color.static.solid.black": "7d91de2f3af9f0251bdae8d307742f601799f39d",
+      "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329"
     },
     "$figmaModeId": "32029:5",
     "$figmaCollectionId": "VariableCollectionId:32029:3918"
