@@ -99,7 +99,7 @@
           "description": "Офферы, спецпредложения"
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 18%, {primitives.white} 50%, {primitives.cobalt1000} 82%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения"
         }
