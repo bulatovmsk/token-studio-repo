@@ -383,8 +383,7 @@
         },
         "inverse": {
           "value": "{primitives.gray200}",
-          "type": "color",
-          "description": "Для светлых элементов в тёмной теме"
+          "type": "color"
         }
       },
       "glassy": {

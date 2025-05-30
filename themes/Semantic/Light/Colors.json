@@ -63,11 +63,11 @@
           "type": "color"
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, {primitives.white} 0%, {primitives.purple600} 13%, {primitives.cobalt1000} 50%, {primitives.purple600} 88%, {primitives.white} 100%)",
+          "value": "linear-gradient(270deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
           "type": "color"
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.purple600} 13%, {primitives.cobalt1000} 50%, {primitives.purple600} 88%, {primitives.white} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
           "type": "color"
         }
       },
@@ -345,8 +345,7 @@
         },
         "inverse": {
           "value": "{primitives.gray1200}",
-          "type": "color",
-          "description": "Для тёмных элементов в детской теме"
+          "type": "color"
         }
       },
       "glassy": {
