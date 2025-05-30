@@ -274,11 +274,11 @@
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.gray200} 95%)",
+            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.gray200} 100%)",
             "type": "color"
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.gray300} 95%)",
+            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.gray300} 100%)",
             "type": "color"
           },
           "third": {
