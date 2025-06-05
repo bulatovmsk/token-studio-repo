@@ -51,6 +51,10 @@
           "value": "rgba( {primitives.black} , 0.96)",
           "type": "color"
         },
+        "secondary": {
+          "value": "rgba( {primitives.black} , 0.8)",
+          "type": "color"
+        },
         "fourth": {
           "value": "rgba( {primitives.black} , 0.4)",
           "type": "color"
