@@ -6,9 +6,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Web&Mobile": "enabled",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Semantic/Web&Mobile": "enabled"
     },
     "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
@@ -58,9 +56,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/Web&Mobile": "source",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Semantic/Web&Mobile": "source"
     },
     "group": "Component",
     "$figmaVariableReferences": {
@@ -91,9 +87,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/TV": "enabled",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Semantic/TV": "enabled"
     },
     "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:27561:12517",
@@ -137,9 +131,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/TV": "source",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Semantic/TV": "source"
     },
     "group": "Component",
     "$figmaVariableReferences": {}
@@ -149,9 +141,7 @@
     "name": "Dark",
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Dark": "enabled",
-      "Primitives": "source",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Primitives": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -280,9 +270,7 @@
     "name": "Light",
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Light": "enabled",
-      "Primitives": "source",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Primitives": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -412,9 +400,7 @@
     "group": "Primitives",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Brand": "enabled",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Brand": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -582,9 +568,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors": "enabled",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Semantic/Dark/Colors": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -645,9 +629,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors": "enabled",
-      "Technical(TV)": "disabled",
-      "Technical(TV)/Rails": "disabled"
+      "Semantic/Light/Colors": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -707,7 +689,6 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/TV": "source",
-      "Technical(TV)": "disabled",
       "Technical(TV)/Rails": "enabled"
     }
   }
