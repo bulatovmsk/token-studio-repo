@@ -1,25 +1,75 @@
 {
   "cover": {
-    "vertical": {
-      "cover-numbers": {
+    "numbers": {
+      "vertical": {
         "value": "4",
         "type": "number"
       },
-      "width": {
-        "value": "({container-width} - (( {cover.vertical.cover-numbers} - 1)  *{spacing.200} )) / {cover.vertical.cover-numbers}",
+      "main": {
+        "value": "4",
+        "type": "number"
+      },
+      "rich": {
+        "value": "3",
+        "type": "number"
+      }
+    },
+    "width": {
+      "vertical": {
+        "value": "({container.width} - (( {cover.numbers.vertical} - 1)  *{spacing.200} )) / {cover.numbers.vertical}",
         "type": "sizing"
       },
-      "sizes": {
+      "main": {
+        "value": "({container.width} - (( {cover.numbers.main} - 1)  *{spacing.200} )) / {cover.numbers.vertical}",
+        "type": "sizing"
+      },
+      "rich": {
+        "value": "({container.width} - (( {cover.numbers.rich} - 1)  *{spacing.200} )) / {cover.numbers.rich}",
+        "type": "sizing"
+      }
+    },
+    "sizes": {
+      "vertical": {
         "value": {
-          "width": "{cover.vertical.width}",
-          "height": "{cover.vertical.width} * 1.5"
+          "width": "{cover.width.vertical}",
+          "height": "{cover.width.vertical} / 2 *3"
+        },
+        "type": "composition"
+      },
+      "main": {
+        "value": {
+          "width": "{cover.width.main}",
+          "height": "{cover.width.vertical} / 16 * 9"
+        },
+        "type": "composition"
+      },
+      "rich": {
+        "value": {
+          "width": "{cover.width.rich}",
+          "height": "{cover.width.rich} / 10 * 12"
+        },
+        "type": "composition"
+      },
+      "rich1x1": {
+        "value": {
+          "width": "{cover.width.rich}",
+          "height": "{cover.width.rich} / 10 * 12"
+        },
+        "type": "composition"
+      },
+      "rich2x1": {
+        "value": {
+          "width": "{cover.width.rich}",
+          "height": "(({cover.width.rich} / 10 * 12) - {spacing.300}) /2"
         },
         "type": "composition"
       }
     }
   },
-  "container-width": {
-    "value": "1712px",
-    "type": "sizing"
+  "container": {
+    "width": {
+      "value": "1712px",
+      "type": "sizing"
+    }
   }
 }
