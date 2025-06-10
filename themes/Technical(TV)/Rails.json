@@ -1,0 +1,25 @@
+{
+  "cover": {
+    "vertical": {
+      "cover-numbers": {
+        "value": "4",
+        "type": "number"
+      },
+      "width": {
+        "value": "({container-width} - (( {cover.vertical.cover-numbers} - 1)  *{spacing.200} )) / {cover.vertical.cover-numbers}",
+        "type": "sizing"
+      },
+      "sizes": {
+        "value": {
+          "width": "{cover.vertical.width}",
+          "height": "{cover.vertical.width} * 1.5"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "container-width": {
+    "value": "1712px",
+    "type": "sizing"
+  }
+}

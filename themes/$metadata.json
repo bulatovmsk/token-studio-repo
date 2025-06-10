@@ -7,6 +7,8 @@
     "Semantic/Dark/Colors",
     "Semantic/Light/Colors",
     "Technical(for Figma gradients)/Dark",
-    "Technical(for Figma gradients)/Light"
+    "Technical(for Figma gradients)/Light",
+    "Technical(TV)",
+    "Technical(TV)/Rails"
   ]
 }
