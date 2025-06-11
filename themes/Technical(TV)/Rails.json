@@ -39,7 +39,7 @@
       "main": {
         "value": {
           "width": "{cover.width.main}",
-          "height": "{cover.width.vertical} / 16 * 9"
+          "height": "{cover.width.main} / 16 * 9"
         },
         "type": "composition"
       },
