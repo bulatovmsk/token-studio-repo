@@ -20,7 +20,7 @@
         "type": "sizing"
       },
       "main": {
-        "value": "({container.width} - (( {cover.numbers.main} - 1)  *{spacing.200} )) / {cover.numbers.vertical}",
+        "value": "({container.width} - (( {cover.numbers.main} - 1)  *{spacing.200} )) / {cover.numbers.main}",
         "type": "sizing"
       },
       "rich": {
