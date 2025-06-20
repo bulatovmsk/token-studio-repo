@@ -689,7 +689,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/TV": "source",
-      "Technical(TV)/Rails": "enabled"
-    }
+      "Technical(TV)/Ui Type": "enabled"
+    },
+    "$figmaVariableReferences": {}
   }
 ]
