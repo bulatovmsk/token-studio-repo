@@ -78,6 +78,10 @@
       "value": "{spacing.base} *1.5",
       "type": "spacing"
     },
+    "175": {
+      "value": "{spacing.base} *1.75",
+      "type": "spacing"
+    },
     "200": {
       "value": "{spacing.base} *2",
       "type": "spacing"
@@ -112,6 +116,10 @@
     },
     "450": {
       "value": "{spacing.base} *5.5",
+      "type": "spacing"
+    },
+    "475": {
+      "value": "{spacing.base} *6",
       "type": "spacing"
     },
     "500": {
