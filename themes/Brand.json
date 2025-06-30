@@ -31,6 +31,10 @@
         "value": "{primitives.external.sber1}",
         "type": "color"
       },
+      "sber-spasibo": {
+        "value": "{primitives.external.sber2}",
+        "type": "color"
+      },
       "sber-gradient": {
         "value": "linear-gradient(135deg, #faed00 0%, #a0e720 5%, #00d900 25%, #00adee 100%)",
         "type": "color"
