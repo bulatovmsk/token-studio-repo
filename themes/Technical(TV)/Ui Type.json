@@ -44,6 +44,14 @@
       "medium": {
         "value": "3",
         "type": "number"
+      },
+      "widget-medium": {
+        "value": "3",
+        "type": "number"
+      },
+      "widget-small": {
+        "value": "3",
+        "type": "number"
       }
     },
     "width": {
@@ -89,6 +97,14 @@
       },
       "medium": {
         "value": "({container.width} - (( {cover.numbers.medium} - 1)  *{spacing.200} )) / {cover.numbers.medium}",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "({container.width} - (( {cover.numbers.widget-medium} - 1)  *{spacing.200} )) / {cover.numbers.widget-medium}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "({container.width} - (( {cover.numbers.widget-small} - 1)  *{spacing.200} )) / {cover.numbers.widget-small}",
         "type": "sizing"
       }
     },
@@ -169,6 +185,20 @@
           "height": "{cover.height.medium}"
         },
         "type": "composition"
+      },
+      "widget-small": {
+        "value": {
+          "width": "{cover.width.widget-small}",
+          "height": "{cover.height.widget-small}"
+        },
+        "type": "composition"
+      },
+      "widget-medium": {
+        "value": {
+          "width": "{cover.width.widget-medium}",
+          "height": "{cover.height.widget-medium}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -214,6 +244,14 @@
       },
       "medium": {
         "value": "{cover.width.medium} / 16 * 9",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "{cover.height.widget-small} *2 + {spacing.200}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "{cover.width.widget-small} /16*9",
         "type": "sizing"
       }
     }
@@ -300,6 +338,20 @@
         "value": {
           "width": "{cover.width.medium} + 16px",
           "height": "{cover.height.medium} + 16px"
+        },
+        "type": "composition"
+      },
+      "widget-medium": {
+        "value": {
+          "width": "{cover.width.widget-medium} + 16px",
+          "height": "{cover.height.widget-medium} + 16px"
+        },
+        "type": "composition"
+      },
+      "widget-small": {
+        "value": {
+          "width": "{cover.width.widget-small} + 16px",
+          "height": "{cover.height.widget-small} + 16px"
         },
         "type": "composition"
       }
