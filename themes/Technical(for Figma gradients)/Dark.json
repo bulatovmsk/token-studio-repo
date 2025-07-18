@@ -503,7 +503,7 @@
       },
       "button": {
         "Step_1": {
-          "value": "{primitives.cobalt1300}",
+          "value": "{primitives.violet1000}",
           "type": "color"
         },
         "Step_2": {
