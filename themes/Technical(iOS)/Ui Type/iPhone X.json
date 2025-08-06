@@ -2,7 +2,7 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "4",
+        "value": "1.5",
         "type": "number"
       },
       "vertical": {
@@ -367,7 +367,7 @@
       "type": "sizing"
     },
     "right": {
-      "value": "36",
+      "value": "36px",
       "type": "sizing"
     }
   }
