@@ -662,5 +662,16 @@
       "Technical(TV)/Ui Type": "enabled"
     },
     "$figmaVariableReferences": {}
+  },
+  {
+    "id": "3715958cfe3e21f6b3ea9141fcc8f11d206deff5",
+    "name": "iPhone X",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPhone X": "enabled"
+    },
+    "group": "Technical(iOS)"
   }
 ]

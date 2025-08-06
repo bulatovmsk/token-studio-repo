@@ -1,0 +1,374 @@
+{
+  "cover": {
+    "numbers": {
+      "main": {
+        "value": "4",
+        "type": "number"
+      },
+      "vertical": {
+        "value": "4",
+        "type": "number"
+      },
+      "large": {
+        "value": "2",
+        "type": "number"
+      },
+      "square-m": {
+        "value": "5",
+        "type": "number"
+      },
+      "square-l": {
+        "value": "4",
+        "type": "number"
+      },
+      "square-small-2-story": {
+        "value": "6",
+        "type": "number"
+      },
+      "square-small-1-story": {
+        "value": "6",
+        "type": "number"
+      },
+      "games": {
+        "value": "2",
+        "type": "number"
+      },
+      "circle": {
+        "value": "7",
+        "type": "number"
+      },
+      "marketing": {
+        "value": "3",
+        "type": "number"
+      },
+      "medium": {
+        "value": "3",
+        "type": "number"
+      },
+      "widget-medium": {
+        "value": "3",
+        "type": "number"
+      },
+      "widget-small": {
+        "value": "3",
+        "type": "number"
+      }
+    },
+    "width": {
+      "main": {
+        "value": "({container.width} - (( {cover.numbers.main} - 1)  *{spacing.200} )) / {cover.numbers.main}",
+        "type": "sizing"
+      },
+      "vertical": {
+        "value": "({container.width} - (( {cover.numbers.vertical} - 1)  *{spacing.200} )) / {cover.numbers.vertical}",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "({container.width} - (( {cover.numbers.large} - 1)  *{spacing.200} )) / {cover.numbers.large}",
+        "type": "sizing"
+      },
+      "square-m": {
+        "value": "({container.width} - (( {cover.numbers.square-m} - 1)  *{spacing.200} )) / {cover.numbers.square-m}",
+        "type": "sizing"
+      },
+      "square-l": {
+        "value": "({container.width} - (( {cover.numbers.square-l} - 1)  *{spacing.200} )) / {cover.numbers.square-l}",
+        "type": "sizing"
+      },
+      "square-small-2-story": {
+        "value": "({container.width} - (( {cover.numbers.square-small-2-story} - 1)  *{spacing.200} )) / {cover.numbers.square-small-2-story}",
+        "type": "sizing"
+      },
+      "square-small-1-story": {
+        "value": "({container.width} - (( {cover.numbers.square-small-1-story} - 1)  *{spacing.200} )) / {cover.numbers.square-small-1-story}",
+        "type": "sizing"
+      },
+      "circle": {
+        "value": "({container.width} - (( {cover.numbers.circle} - 1)  *{spacing.200} )) / {cover.numbers.circle}",
+        "type": "sizing"
+      },
+      "games": {
+        "value": "({container.width} - (( {cover.numbers.games} - 1)  *{spacing.200} )) / {cover.numbers.games}",
+        "type": "sizing"
+      },
+      "marketing": {
+        "value": "({container.width} - (( {cover.numbers.marketing} - 1)  *{spacing.200} )) / {cover.numbers.marketing}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "({container.width} - (( {cover.numbers.medium} - 1)  *{spacing.200} )) / {cover.numbers.medium}",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "({container.width} - (( {cover.numbers.widget-medium} - 1)  *{spacing.200} )) / {cover.numbers.widget-medium}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "({container.width} - (( {cover.numbers.widget-small} - 1)  *{spacing.200} )) / {cover.numbers.widget-small}",
+        "type": "sizing"
+      }
+    },
+    "sizes": {
+      "main": {
+        "value": {
+          "width": "{cover.width.main}",
+          "height": "{cover.height.main}"
+        },
+        "type": "composition"
+      },
+      "vertical": {
+        "value": {
+          "width": "{cover.width.vertical}",
+          "height": "{cover.height.vertical}"
+        },
+        "type": "composition"
+      },
+      "large": {
+        "value": {
+          "width": "{cover.width.large}",
+          "height": "{cover.height.large}"
+        },
+        "type": "composition"
+      },
+      "square-m": {
+        "value": {
+          "width": "{cover.width.square-m}",
+          "height": "{cover.height.square-m}"
+        },
+        "type": "composition"
+      },
+      "square-l": {
+        "value": {
+          "width": "{cover.width.square-l}",
+          "height": "{cover.height.square-l}"
+        },
+        "type": "composition"
+      },
+      "square-small-2-story": {
+        "value": {
+          "width": "{cover.width.square-small-2-story}",
+          "height": "{cover.height.square-small-2-story}"
+        },
+        "type": "composition"
+      },
+      "square-small-1-story": {
+        "value": {
+          "width": "{cover.width.square-small-1-story}",
+          "height": "{cover.height.square-small-1-story}"
+        },
+        "type": "composition"
+      },
+      "circle": {
+        "value": {
+          "width": "{cover.width.circle}",
+          "height": "{cover.height.circle}"
+        },
+        "type": "composition"
+      },
+      "games": {
+        "value": {
+          "width": "{cover.width.games}",
+          "height": "{cover.height.games}"
+        },
+        "type": "composition"
+      },
+      "marketing": {
+        "value": {
+          "width": "{cover.width.marketing}",
+          "height": "{cover.height.marketing}"
+        },
+        "type": "composition"
+      },
+      "medium": {
+        "value": {
+          "width": "{cover.width.medium}",
+          "height": "{cover.height.medium}"
+        },
+        "type": "composition"
+      },
+      "widget-small": {
+        "value": {
+          "width": "{cover.width.widget-small}",
+          "height": "{cover.height.widget-small}"
+        },
+        "type": "composition"
+      },
+      "widget-medium": {
+        "value": {
+          "width": "{cover.width.widget-medium}",
+          "height": "{cover.height.widget-medium}"
+        },
+        "type": "composition"
+      }
+    },
+    "height": {
+      "main": {
+        "value": "{cover.width.main} / 16 * 9",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "{cover.width.large} / 16 * 9",
+        "type": "sizing"
+      },
+      "vertical": {
+        "value": "{cover.width.vertical} * 1.5",
+        "type": "sizing"
+      },
+      "square-m": {
+        "value": "{cover.width.square-m}",
+        "type": "sizing"
+      },
+      "square-l": {
+        "value": "{cover.width.square-l}",
+        "type": "sizing"
+      },
+      "square-small-2-story": {
+        "value": "{cover.width.square-small-2-story}",
+        "type": "sizing"
+      },
+      "square-small-1-story": {
+        "value": "{cover.width.square-small-1-story}",
+        "type": "sizing"
+      },
+      "circle": {
+        "value": "{cover.width.circle}",
+        "type": "sizing"
+      },
+      "games": {
+        "value": "{cover.width.games} * 0.75",
+        "type": "sizing"
+      },
+      "marketing": {
+        "value": "{cover.width.marketing}",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "{cover.width.medium} / 16 * 9",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "{cover.height.widget-small} *2 + {spacing.200}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "{cover.width.widget-small} /16*9",
+        "type": "sizing"
+      }
+    }
+  },
+  "container": {
+    "width": {
+      "value": "{container.device-width} - {screen-padding.left} - {screen-padding.right}",
+      "type": "sizing"
+    },
+    "device-width": {
+      "value": "375px",
+      "type": "sizing"
+    }
+  },
+  "focus": {
+    "size": {
+      "main": {
+        "value": {
+          "width": "{cover.width.main} + 16px",
+          "height": "{cover.height.main} + 16px"
+        },
+        "type": "composition"
+      },
+      "vertical": {
+        "value": {
+          "width": "{cover.width.vertical} + 16px",
+          "height": "{cover.height.vertical} + 16px"
+        },
+        "type": "composition"
+      },
+      "large": {
+        "value": {
+          "width": "{cover.width.large} + 16px",
+          "height": "{cover.height.large} + 16px"
+        },
+        "type": "composition"
+      },
+      "square-m": {
+        "value": {
+          "width": "{cover.width.square-m} + 16px",
+          "height": "{cover.height.square-m} + 16px"
+        },
+        "type": "composition"
+      },
+      "square-l": {
+        "value": {
+          "width": "{cover.width.square-l} + 16px",
+          "height": "{cover.height.square-l} + 16px"
+        },
+        "type": "composition"
+      },
+      "square-small-2-story": {
+        "value": {
+          "width": "{cover.width.square-small-2-story} + 16px",
+          "height": "{cover.height.square-small-2-story} + 16px"
+        },
+        "type": "composition"
+      },
+      "square-small-1-story": {
+        "value": {
+          "width": "{cover.width.square-small-1-story} + 16px",
+          "height": "{cover.height.square-small-1-story} + 16px"
+        },
+        "type": "composition"
+      },
+      "circle": {
+        "value": {
+          "width": "{cover.width.circle} + 16px",
+          "height": "{cover.height.circle} + 16px"
+        },
+        "type": "composition"
+      },
+      "games": {
+        "value": {
+          "width": "{cover.width.games} + 16px",
+          "height": "{cover.height.games} + 16px"
+        },
+        "type": "composition"
+      },
+      "marketing": {
+        "value": {
+          "width": "{cover.width.marketing} + 16px",
+          "height": "{cover.height.marketing} + 16px"
+        },
+        "type": "composition"
+      },
+      "medium": {
+        "value": {
+          "width": "{cover.width.medium} + 16px",
+          "height": "{cover.height.medium} + 16px"
+        },
+        "type": "composition"
+      },
+      "widget-medium": {
+        "value": {
+          "width": "{cover.width.widget-medium} + 16px",
+          "height": "{cover.height.widget-medium} + 16px"
+        },
+        "type": "composition"
+      },
+      "widget-small": {
+        "value": {
+          "width": "{cover.width.widget-small} + 16px",
+          "height": "{cover.height.widget-small} + 16px"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "screen-padding": {
+    "left": {
+      "value": "{screen-padding.mobile}",
+      "type": "sizing"
+    },
+    "right": {
+      "value": "36",
+      "type": "sizing"
+    }
+  }
+}
