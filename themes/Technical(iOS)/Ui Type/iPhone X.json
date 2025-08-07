@@ -2,35 +2,31 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "2.5",
+        "value": "1.5",
         "type": "number"
       },
       "vertical": {
-        "value": "4",
+        "value": "2.5",
         "type": "number"
       },
       "large": {
-        "value": "2",
+        "value": "1",
         "type": "number"
       },
-      "square-small-2-story": {
-        "value": "6",
-        "type": "number"
-      },
-      "square-small-1-story": {
-        "value": "6",
+      "square-small-story": {
+        "value": "3",
         "type": "number"
       },
       "square": {
-        "value": "5",
+        "value": "2",
         "type": "number"
       },
       "marketing": {
-        "value": "3",
+        "value": "1",
         "type": "number"
       },
       "medium": {
-        "value": "3",
+        "value": "1.25",
         "type": "number"
       }
     },
@@ -40,31 +36,27 @@
         "type": "sizing"
       },
       "vertical": {
-        "value": "({container.width} - (( {cover.gaps-count.vertical} - 1)  *{spacing.125} )) / {cover.gaps-count.vertical}",
+        "value": "({container.width} - ( {cover.gaps-count.vertical}  *{spacing.125} )) / {cover.numbers.vertical}",
         "type": "sizing"
       },
       "large": {
-        "value": "({container.width} - (( {cover.gaps-count.large} - 1)  *{spacing.125} )) / {cover.gaps-count.large}",
+        "value": "({container.width} - ( {cover.gaps-count.large}  *{spacing.125} )) / {cover.numbers.large}",
         "type": "sizing"
       },
-      "square-small-2-story": {
-        "value": "({container.width} - (( {cover.gaps-count.square-small-2-story} - 1)  *{spacing.125} )) / {cover.gaps-count.square-small-2-story}",
-        "type": "sizing"
-      },
-      "square-small-1-story": {
-        "value": "({container.width} - (( {cover.numbers.square-small-1-story} - 1)  *{spacing.125} )) / {cover.numbers.square-small-1-story}",
+      "square-small-story": {
+        "value": "({container.width} - ( {cover.numbers.square-small-story}  *{spacing.125} )) / {cover.numbers.square-small-story}",
         "type": "sizing"
       },
       "square": {
-        "value": "({container.width} - (( {cover.gaps-count.square} - 1)  *{spacing.125} )) / {cover.gaps-count.square}",
+        "value": "({container.width} - ( {cover.gaps-count.square} *{spacing.125} )) / {cover.numbers.square}",
         "type": "sizing"
       },
       "marketing": {
-        "value": "({container.width} - (( {cover.gaps-count.marketing} - 1)  *{spacing.125} )) / {cover.gaps-count.marketing}",
+        "value": "({container.width} - ( {cover.gaps-count.marketing}  *{spacing.125} )) / {cover.numbers.marketing}",
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.gaps-count.medium}",
+        "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
         "type": "sizing"
       }
     },
@@ -90,17 +82,10 @@
         },
         "type": "composition"
       },
-      "square-small-2-story": {
+      "square-small-story": {
         "value": {
-          "width": "{cover.width.square-small-2-story}",
-          "height": "{cover.height.square-small-2-story}"
-        },
-        "type": "composition"
-      },
-      "square-small-1-story": {
-        "value": {
-          "width": "{cover.width.square-small-1-story}",
-          "height": "{cover.height.square-small-1-story}"
+          "width": "{cover.width.square-small-story}",
+          "height": "{cover.height.square-small-story}"
         },
         "type": "composition"
       },
@@ -139,12 +124,8 @@
         "value": "{cover.width.vertical} * 1.5",
         "type": "sizing"
       },
-      "square-small-2-story": {
-        "value": "{cover.width.square-small-2-story}",
-        "type": "sizing"
-      },
-      "square-small-1-story": {
-        "value": "{cover.width.square-small-1-story}",
+      "square-small-story": {
+        "value": "{cover.width.square-small-story}",
         "type": "sizing"
       },
       "square": {
@@ -162,35 +143,31 @@
     },
     "gaps-count": {
       "main": {
-        "value": "if(({cover.numbers.main}-({cover.numbers.main}%1)-1)<1,1,({cover.numbers.main}-({cover.numbers.main}%1)-1))",
+        "value": "if(floor({cover.numbers.main} + 0.5) - 1 < 1, 0, floor({cover.numbers.main} + 0.5) - 1)",
         "type": "sizing"
       },
       "vertical": {
-        "value": "if(({cover.numbers.vertical}-({cover.numbers.vertical}%1)-1)<1,1,({cover.numbers.vertical}-({cover.numbers.vertical}%1)-1))",
+        "value": "if(floor({cover.numbers.vertical} + 0.5) - 1 < 1, 0, floor({cover.numbers.vertical} + 0.5) - 1)",
         "type": "sizing"
       },
       "large": {
-        "value": "if(({cover.numbers.large}-({cover.numbers.large}%1)-1)<1,1,({cover.numbers.large}-({cover.numbers.large}%1)-1))",
+        "value": "if(floor({cover.numbers.large} + 0.5) - 1 < 1, 0, floor({cover.numbers.large} + 0.5) - 1)",
         "type": "sizing"
       },
-      "square-small-2-story": {
-        "value": "if(({cover.numbers.square-small-2-story}-({cover.numbers.square-small-2-story}%1)-1)<1,1,({cover.numbers.square-small-2-story}-({cover.numbers.square-small-2-story}%1)-1))",
-        "type": "sizing"
-      },
-      "square-small-1-story": {
-        "value": "if(({cover.numbers.square-small-1-story}-({cover.numbers.square-small-1-story}%1)-1)<1,1,({cover.numbers.square-small-1-story}-({cover.numbers.square-small-1-story}%1)-1))",
+      "square-small-story": {
+        "value": "if(floor({cover.numbers.square-small-story} + 0.5) - 1 < 1, 0, floor({cover.numbers.square-small-story} + 0.5) - 1)",
         "type": "sizing"
       },
       "square": {
-        "value": "if(({cover.numbers.square}-({cover.numbers.square}%1)-1)<1,1,({cover.numbers.square}-({cover.numbers.square}%1)-1))",
+        "value": "if(floor({cover.numbers.square} + 0.5) - 1 < 1, 0, floor({cover.numbers.square} + 0.5) - 1)",
         "type": "sizing"
       },
       "marketing": {
-        "value": "if(({cover.numbers.marketing}-({cover.numbers.marketing}%1)-1)<1,1,({cover.numbers.marketing}-({cover.numbers.marketing}%1)-1))",
+        "value": "if(floor({cover.numbers.marketing} + 0.5) - 1 < 1, 0, floor({cover.numbers.marketing} + 0.5) - 1)",
         "type": "sizing"
       },
       "medium": {
-        "value": "if(({cover.numbers.medium}-({cover.numbers.medium}%1)-1)<1,1,({cover.numbers.medium}-({cover.numbers.medium}%1)-1))",
+        "value": "if(floor({cover.numbers.medium} + 0.5) - 1 < 1, 0, floor({cover.numbers.medium} + 0.5) - 1)",
         "type": "sizing"
       }
     }
