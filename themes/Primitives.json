@@ -565,7 +565,7 @@
   },
   "spacing": {
     "base": {
-      "value": "8px",
+      "value": "8",
       "type": "spacing"
     }
   },

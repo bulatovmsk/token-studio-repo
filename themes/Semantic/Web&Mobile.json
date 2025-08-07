@@ -129,24 +129,24 @@
   },
   "screen-padding": {
     "300": {
-      "value": "16px",
+      "value": "16",
       "type": "spacing",
       "description": "Depreceted"
     },
     "mobile": {
-      "value": "12px",
+      "value": "12",
       "type": "spacing"
     },
     "tablet": {
-      "value": "32px",
+      "value": "32",
       "type": "spacing"
     },
     "desktop-m": {
-      "value": "56px",
+      "value": "56",
       "type": "spacing"
     },
     "desktop-l": {
-      "value": "72px",
+      "value": "72",
       "type": "spacing"
     }
   }
