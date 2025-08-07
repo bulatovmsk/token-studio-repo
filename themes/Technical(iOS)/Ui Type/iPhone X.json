@@ -2,7 +2,7 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "1.5",
+        "value": "2.5",
         "type": "number"
       },
       "vertical": {
@@ -56,55 +56,55 @@
     },
     "width": {
       "main": {
-        "value": "({container.width} - (( {cover.numbers.main} - 1)  *{spacing.200} )) / {cover.numbers.main}",
+        "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.125})) / {cover.numbers.main}",
         "type": "sizing"
       },
       "vertical": {
-        "value": "({container.width} - (( {cover.numbers.vertical} - 1)  *{spacing.200} )) / {cover.numbers.vertical}",
+        "value": "({container.width} - (( {cover.numbers.vertical} - 1)  *{spacing.125} )) / {cover.numbers.vertical}",
         "type": "sizing"
       },
       "large": {
-        "value": "({container.width} - (( {cover.numbers.large} - 1)  *{spacing.200} )) / {cover.numbers.large}",
+        "value": "({container.width} - (( {cover.numbers.large} - 1)  *{spacing.125} )) / {cover.numbers.large}",
         "type": "sizing"
       },
       "square-m": {
-        "value": "({container.width} - (( {cover.numbers.square-m} - 1)  *{spacing.200} )) / {cover.numbers.square-m}",
+        "value": "({container.width} - (( {cover.numbers.square-m} - 1)  *{spacing.125} )) / {cover.numbers.square-m}",
         "type": "sizing"
       },
       "square-l": {
-        "value": "({container.width} - (( {cover.numbers.square-l} - 1)  *{spacing.200} )) / {cover.numbers.square-l}",
+        "value": "({container.width} - (( {cover.numbers.square-l} - 1)  *{spacing.125} )) / {cover.numbers.square-l}",
         "type": "sizing"
       },
       "square-small-2-story": {
-        "value": "({container.width} - (( {cover.numbers.square-small-2-story} - 1)  *{spacing.200} )) / {cover.numbers.square-small-2-story}",
+        "value": "({container.width} - (( {cover.numbers.square-small-2-story} - 1)  *{spacing.125} )) / {cover.numbers.square-small-2-story}",
         "type": "sizing"
       },
       "square-small-1-story": {
-        "value": "({container.width} - (( {cover.numbers.square-small-1-story} - 1)  *{spacing.200} )) / {cover.numbers.square-small-1-story}",
+        "value": "({container.width} - (( {cover.numbers.square-small-1-story} - 1)  *{spacing.125} )) / {cover.numbers.square-small-1-story}",
         "type": "sizing"
       },
       "circle": {
-        "value": "({container.width} - (( {cover.numbers.circle} - 1)  *{spacing.200} )) / {cover.numbers.circle}",
+        "value": "({container.width} - (( {cover.numbers.circle} - 1)  *{spacing.125} )) / {cover.numbers.circle}",
         "type": "sizing"
       },
       "games": {
-        "value": "({container.width} - (( {cover.numbers.games} - 1)  *{spacing.200} )) / {cover.numbers.games}",
+        "value": "({container.width} - (( {cover.numbers.games} - 1)  *{spacing.125} )) / {cover.numbers.games}",
         "type": "sizing"
       },
       "marketing": {
-        "value": "({container.width} - (( {cover.numbers.marketing} - 1)  *{spacing.200} )) / {cover.numbers.marketing}",
+        "value": "({container.width} - (( {cover.numbers.marketing} - 1)  *{spacing.125} )) / {cover.numbers.marketing}",
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - (( {cover.numbers.medium} - 1)  *{spacing.200} )) / {cover.numbers.medium}",
+        "value": "({container.width} - (( {cover.numbers.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
         "type": "sizing"
       },
       "widget-medium": {
-        "value": "({container.width} - (( {cover.numbers.widget-medium} - 1)  *{spacing.200} )) / {cover.numbers.widget-medium}",
+        "value": "({container.width} - (( {cover.numbers.widget-medium} - 1)  *{spacing.125} )) / {cover.numbers.widget-medium}",
         "type": "sizing"
       },
       "widget-small": {
-        "value": "({container.width} - (( {cover.numbers.widget-small} - 1)  *{spacing.200} )) / {cover.numbers.widget-small}",
+        "value": "({container.width} - (( {cover.numbers.widget-small} - 1)  *{spacing.125} )) / {cover.numbers.widget-small}",
         "type": "sizing"
       }
     },
@@ -252,6 +252,12 @@
       },
       "widget-small": {
         "value": "{cover.width.widget-small} /16*9",
+        "type": "sizing"
+      }
+    },
+    "gaps-count": {
+      "main": {
+        "value": "if(({cover.numbers.main}-({cover.numbers.main}%1)-1)<1,1,({cover.numbers.main}-({cover.numbers.main}%1)-1))",
         "type": "sizing"
       }
     }
