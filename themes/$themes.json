@@ -681,8 +681,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPhone 16": "enabled"
+      "Semantic/Web&Mobile": "source"
     },
     "group": "Technical(iOS)"
   }

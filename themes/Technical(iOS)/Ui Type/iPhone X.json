@@ -113,61 +113,61 @@
     },
     "height": {
       "main": {
-        "value": "{cover.width.main} / 16 * 9",
+        "value": "ceil({cover.width.main} / 16 * 9)",
         "type": "sizing"
       },
       "large": {
-        "value": "{cover.width.large} / 16 * 9",
+        "value": "ceil({cover.width.large} / 16 * 9)",
         "type": "sizing"
       },
       "vertical": {
-        "value": "{cover.width.vertical} * 1.5",
+        "value": "ceil({cover.width.vertical} * 1.5)",
         "type": "sizing"
       },
       "square-small-story": {
-        "value": "{cover.width.square-small-story}",
+        "value": "ceil({cover.width.square-small-story})",
         "type": "sizing"
       },
       "square": {
-        "value": "{cover.width.square}",
+        "value": "ceil({cover.width.square})",
         "type": "sizing"
       },
       "marketing": {
-        "value": "{cover.width.marketing}",
+        "value": "ceil({cover.width.marketing})",
         "type": "sizing"
       },
       "medium": {
-        "value": "{cover.width.medium} / 16 * 9",
+        "value": "ceil({cover.width.medium} / 16 * 9)",
         "type": "sizing"
       }
     },
     "gaps-count": {
       "main": {
-        "value": "if(floor({cover.numbers.main} + 0.5) - 1 < 1, 0, floor({cover.numbers.main} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.main}) - 1 < 1, 0, ceil({cover.numbers.main}) - 1)",
         "type": "sizing"
       },
       "vertical": {
-        "value": "if(floor({cover.numbers.vertical} + 0.5) - 1 < 1, 0, floor({cover.numbers.vertical} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.vertical}) - 1 < 1, 0, ceil({cover.numbers.vertical}) - 1)",
         "type": "sizing"
       },
       "large": {
-        "value": "if(floor({cover.numbers.large} + 0.5) - 1 < 1, 0, floor({cover.numbers.large} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.large}) - 1 < 1, 0, ceil({cover.numbers.large}) - 1)",
         "type": "sizing"
       },
       "square-small-story": {
-        "value": "if(floor({cover.numbers.square-small-story} + 0.5) - 1 < 1, 0, floor({cover.numbers.square-small-story} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.square-small-story}) - 1 < 1, 0, ceil({cover.numbers.square-small-story}) - 1)",
         "type": "sizing"
       },
       "square": {
-        "value": "if(floor({cover.numbers.square} + 0.5) - 1 < 1, 0, floor({cover.numbers.square} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.square}) - 1 < 1, 0, ceil({cover.numbers.square}) - 1)",
         "type": "sizing"
       },
       "marketing": {
-        "value": "if(floor({cover.numbers.marketing} + 0.5) - 1 < 1, 0, floor({cover.numbers.marketing} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.marketing}) - 1 < 1, 0, ceil({cover.numbers.marketing}) - 1)",
         "type": "sizing"
       },
       "medium": {
-        "value": "if(floor({cover.numbers.medium} + 0.5) - 1 < 1, 0, floor({cover.numbers.medium} + 0.5) - 1)",
+        "value": "if(ceil({cover.numbers.medium}) - 1 < 1, 0, ceil({cover.numbers.medium}) - 1)",
         "type": "sizing"
       }
     }
