@@ -13,14 +13,6 @@
         "value": "2",
         "type": "number"
       },
-      "square-m": {
-        "value": "5",
-        "type": "number"
-      },
-      "square-l": {
-        "value": "4",
-        "type": "number"
-      },
       "square-small-2-story": {
         "value": "6",
         "type": "number"
@@ -29,12 +21,8 @@
         "value": "6",
         "type": "number"
       },
-      "games": {
-        "value": "2",
-        "type": "number"
-      },
-      "circle": {
-        "value": "7",
+      "square": {
+        "value": "5",
         "type": "number"
       },
       "marketing": {
@@ -42,14 +30,6 @@
         "type": "number"
       },
       "medium": {
-        "value": "3",
-        "type": "number"
-      },
-      "widget-medium": {
-        "value": "3",
-        "type": "number"
-      },
-      "widget-small": {
         "value": "3",
         "type": "number"
       }
@@ -60,51 +40,31 @@
         "type": "sizing"
       },
       "vertical": {
-        "value": "({container.width} - (( {cover.numbers.vertical} - 1)  *{spacing.125} )) / {cover.numbers.vertical}",
+        "value": "({container.width} - (( {cover.gaps-count.vertical} - 1)  *{spacing.125} )) / {cover.gaps-count.vertical}",
         "type": "sizing"
       },
       "large": {
-        "value": "({container.width} - (( {cover.numbers.large} - 1)  *{spacing.125} )) / {cover.numbers.large}",
-        "type": "sizing"
-      },
-      "square-m": {
-        "value": "({container.width} - (( {cover.numbers.square-m} - 1)  *{spacing.125} )) / {cover.numbers.square-m}",
-        "type": "sizing"
-      },
-      "square-l": {
-        "value": "({container.width} - (( {cover.numbers.square-l} - 1)  *{spacing.125} )) / {cover.numbers.square-l}",
+        "value": "({container.width} - (( {cover.gaps-count.large} - 1)  *{spacing.125} )) / {cover.gaps-count.large}",
         "type": "sizing"
       },
       "square-small-2-story": {
-        "value": "({container.width} - (( {cover.numbers.square-small-2-story} - 1)  *{spacing.125} )) / {cover.numbers.square-small-2-story}",
+        "value": "({container.width} - (( {cover.gaps-count.square-small-2-story} - 1)  *{spacing.125} )) / {cover.gaps-count.square-small-2-story}",
         "type": "sizing"
       },
       "square-small-1-story": {
         "value": "({container.width} - (( {cover.numbers.square-small-1-story} - 1)  *{spacing.125} )) / {cover.numbers.square-small-1-story}",
         "type": "sizing"
       },
-      "circle": {
-        "value": "({container.width} - (( {cover.numbers.circle} - 1)  *{spacing.125} )) / {cover.numbers.circle}",
-        "type": "sizing"
-      },
-      "games": {
-        "value": "({container.width} - (( {cover.numbers.games} - 1)  *{spacing.125} )) / {cover.numbers.games}",
+      "square": {
+        "value": "({container.width} - (( {cover.gaps-count.square} - 1)  *{spacing.125} )) / {cover.gaps-count.square}",
         "type": "sizing"
       },
       "marketing": {
-        "value": "({container.width} - (( {cover.numbers.marketing} - 1)  *{spacing.125} )) / {cover.numbers.marketing}",
+        "value": "({container.width} - (( {cover.gaps-count.marketing} - 1)  *{spacing.125} )) / {cover.gaps-count.marketing}",
         "type": "sizing"
       },
       "medium": {
         "value": "({container.width} - (( {cover.numbers.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
-        "type": "sizing"
-      },
-      "widget-medium": {
-        "value": "({container.width} - (( {cover.numbers.widget-medium} - 1)  *{spacing.125} )) / {cover.numbers.widget-medium}",
-        "type": "sizing"
-      },
-      "widget-small": {
-        "value": "({container.width} - (( {cover.numbers.widget-small} - 1)  *{spacing.125} )) / {cover.numbers.widget-small}",
         "type": "sizing"
       }
     },
@@ -130,20 +90,6 @@
         },
         "type": "composition"
       },
-      "square-m": {
-        "value": {
-          "width": "{cover.width.square-m}",
-          "height": "{cover.height.square-m}"
-        },
-        "type": "composition"
-      },
-      "square-l": {
-        "value": {
-          "width": "{cover.width.square-l}",
-          "height": "{cover.height.square-l}"
-        },
-        "type": "composition"
-      },
       "square-small-2-story": {
         "value": {
           "width": "{cover.width.square-small-2-story}",
@@ -158,17 +104,10 @@
         },
         "type": "composition"
       },
-      "circle": {
+      "square": {
         "value": {
-          "width": "{cover.width.circle}",
-          "height": "{cover.height.circle}"
-        },
-        "type": "composition"
-      },
-      "games": {
-        "value": {
-          "width": "{cover.width.games}",
-          "height": "{cover.height.games}"
+          "width": "{cover.width.square}",
+          "height": "{cover.height.square}"
         },
         "type": "composition"
       },
@@ -183,20 +122,6 @@
         "value": {
           "width": "{cover.width.medium}",
           "height": "{cover.height.medium}"
-        },
-        "type": "composition"
-      },
-      "widget-small": {
-        "value": {
-          "width": "{cover.width.widget-small}",
-          "height": "{cover.height.widget-small}"
-        },
-        "type": "composition"
-      },
-      "widget-medium": {
-        "value": {
-          "width": "{cover.width.widget-medium}",
-          "height": "{cover.height.widget-medium}"
         },
         "type": "composition"
       }
@@ -214,14 +139,6 @@
         "value": "{cover.width.vertical} * 1.5",
         "type": "sizing"
       },
-      "square-m": {
-        "value": "{cover.width.square-m}",
-        "type": "sizing"
-      },
-      "square-l": {
-        "value": "{cover.width.square-l}",
-        "type": "sizing"
-      },
       "square-small-2-story": {
         "value": "{cover.width.square-small-2-story}",
         "type": "sizing"
@@ -230,12 +147,8 @@
         "value": "{cover.width.square-small-1-story}",
         "type": "sizing"
       },
-      "circle": {
-        "value": "{cover.width.circle}",
-        "type": "sizing"
-      },
-      "games": {
-        "value": "{cover.width.games} * 0.75",
+      "square": {
+        "value": "{cover.width.square}",
         "type": "sizing"
       },
       "marketing": {
@@ -245,19 +158,35 @@
       "medium": {
         "value": "{cover.width.medium} / 16 * 9",
         "type": "sizing"
-      },
-      "widget-medium": {
-        "value": "{cover.height.widget-small} *2 + {spacing.200}",
-        "type": "sizing"
-      },
-      "widget-small": {
-        "value": "{cover.width.widget-small} /16*9",
-        "type": "sizing"
       }
     },
     "gaps-count": {
       "main": {
         "value": "if(({cover.numbers.main}-({cover.numbers.main}%1)-1)<1,1,({cover.numbers.main}-({cover.numbers.main}%1)-1))",
+        "type": "sizing"
+      },
+      "vertical": {
+        "value": "if(({cover.numbers.vertical}-({cover.numbers.vertical}%1)-1)<1,1,({cover.numbers.vertical}-({cover.numbers.vertical}%1)-1))",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "if(({cover.numbers.large}-({cover.numbers.large}%1)-1)<1,1,({cover.numbers.large}-({cover.numbers.large}%1)-1))",
+        "type": "sizing"
+      },
+      "square-small-2-story": {
+        "value": "if(({cover.numbers.square-small-2-story}-({cover.numbers.square-small-2-story}%1)-1)<1,1,({cover.numbers.square-small-2-story}-({cover.numbers.square-small-2-story}%1)-1))",
+        "type": "sizing"
+      },
+      "square-small-1-story": {
+        "value": "if(({cover.numbers.square-small-1-story}-({cover.numbers.square-small-1-story}%1)-1)<1,1,({cover.numbers.square-small-1-story}-({cover.numbers.square-small-1-story}%1)-1))",
+        "type": "sizing"
+      },
+      "square": {
+        "value": "if(({cover.numbers.square}-({cover.numbers.square}%1)-1)<1,1,({cover.numbers.square}-({cover.numbers.square}%1)-1))",
+        "type": "sizing"
+      },
+      "marketing": {
+        "value": "if(({cover.numbers.marketing}-({cover.numbers.marketing}%1)-1)<1,1,({cover.numbers.marketing}-({cover.numbers.marketing}%1)-1))",
         "type": "sizing"
       }
     }
@@ -270,101 +199,6 @@
     "device-width": {
       "value": "375px",
       "type": "sizing"
-    }
-  },
-  "focus": {
-    "size": {
-      "main": {
-        "value": {
-          "width": "{cover.width.main} + 16px",
-          "height": "{cover.height.main} + 16px"
-        },
-        "type": "composition"
-      },
-      "vertical": {
-        "value": {
-          "width": "{cover.width.vertical} + 16px",
-          "height": "{cover.height.vertical} + 16px"
-        },
-        "type": "composition"
-      },
-      "large": {
-        "value": {
-          "width": "{cover.width.large} + 16px",
-          "height": "{cover.height.large} + 16px"
-        },
-        "type": "composition"
-      },
-      "square-m": {
-        "value": {
-          "width": "{cover.width.square-m} + 16px",
-          "height": "{cover.height.square-m} + 16px"
-        },
-        "type": "composition"
-      },
-      "square-l": {
-        "value": {
-          "width": "{cover.width.square-l} + 16px",
-          "height": "{cover.height.square-l} + 16px"
-        },
-        "type": "composition"
-      },
-      "square-small-2-story": {
-        "value": {
-          "width": "{cover.width.square-small-2-story} + 16px",
-          "height": "{cover.height.square-small-2-story} + 16px"
-        },
-        "type": "composition"
-      },
-      "square-small-1-story": {
-        "value": {
-          "width": "{cover.width.square-small-1-story} + 16px",
-          "height": "{cover.height.square-small-1-story} + 16px"
-        },
-        "type": "composition"
-      },
-      "circle": {
-        "value": {
-          "width": "{cover.width.circle} + 16px",
-          "height": "{cover.height.circle} + 16px"
-        },
-        "type": "composition"
-      },
-      "games": {
-        "value": {
-          "width": "{cover.width.games} + 16px",
-          "height": "{cover.height.games} + 16px"
-        },
-        "type": "composition"
-      },
-      "marketing": {
-        "value": {
-          "width": "{cover.width.marketing} + 16px",
-          "height": "{cover.height.marketing} + 16px"
-        },
-        "type": "composition"
-      },
-      "medium": {
-        "value": {
-          "width": "{cover.width.medium} + 16px",
-          "height": "{cover.height.medium} + 16px"
-        },
-        "type": "composition"
-      },
-      "widget-medium": {
-        "value": {
-          "width": "{cover.width.widget-medium} + 16px",
-          "height": "{cover.height.widget-medium} + 16px"
-        },
-        "type": "composition"
-      },
-      "widget-small": {
-        "value": {
-          "width": "{cover.width.widget-small} + 16px",
-          "height": "{cover.height.widget-small} + 16px"
-        },
-        "type": "composition"
-      }
     }
   },
   "screen-padding": {

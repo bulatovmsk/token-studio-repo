@@ -672,6 +672,7 @@
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPhone X": "enabled"
     },
-    "group": "Technical(iOS)"
+    "group": "Technical(iOS)",
+    "$figmaVariableReferences": {}
   }
 ]

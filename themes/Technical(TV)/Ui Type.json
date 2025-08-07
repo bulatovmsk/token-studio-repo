@@ -68,7 +68,7 @@
         "type": "sizing"
       },
       "square-m": {
-        "value": "({container.width} - (( {cover.numbers.square-m} - 1)  *{spacing.200} )) / {cover.numbers.square-m}",
+        "value": "({container.width} - (( {cover.numbers.square} - 1)  *{spacing.200} )) / {cover.numbers.square}",
         "type": "sizing"
       },
       "square-l": {
@@ -132,8 +132,8 @@
       },
       "square-m": {
         "value": {
-          "width": "{cover.width.square-m}",
-          "height": "{cover.height.square-m}"
+          "width": "{cover.width.square}",
+          "height": "{cover.height.square}"
         },
         "type": "composition"
       },
@@ -215,7 +215,7 @@
         "type": "sizing"
       },
       "square-m": {
-        "value": "{cover.width.square-m}",
+        "value": "{cover.width.square}",
         "type": "sizing"
       },
       "square-l": {
@@ -287,8 +287,8 @@
       },
       "square-m": {
         "value": {
-          "width": "{cover.width.square-m} + 16px",
-          "height": "{cover.height.square-m} + 16px"
+          "width": "{cover.width.square} + 16px",
+          "height": "{cover.height.square} + 16px"
         },
         "type": "composition"
       },
