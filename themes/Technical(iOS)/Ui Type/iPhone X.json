@@ -64,7 +64,7 @@
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - (( {cover.numbers.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
+        "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.gaps-count.medium}",
         "type": "sizing"
       }
     },
@@ -187,6 +187,10 @@
       },
       "marketing": {
         "value": "if(({cover.numbers.marketing}-({cover.numbers.marketing}%1)-1)<1,1,({cover.numbers.marketing}-({cover.numbers.marketing}%1)-1))",
+        "type": "sizing"
+      },
+      "medium": {
+        "value": "if(({cover.numbers.medium}-({cover.numbers.medium}%1)-1)<1,1,({cover.numbers.medium}-({cover.numbers.medium}%1)-1))",
         "type": "sizing"
       }
     }
