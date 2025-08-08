@@ -674,5 +674,16 @@
     },
     "group": "Technical(iOS)",
     "$figmaVariableReferences": {}
+  },
+  {
+    "id": "689caa9135da66a5ffeb5afe13643259a843c019",
+    "name": "iPhone 15",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPhone 15": "enabled"
+    },
+    "group": "Technical(iOS)"
   }
 ]
