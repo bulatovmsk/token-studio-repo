@@ -10,7 +10,7 @@
         "type": "number"
       },
       "large": {
-        "value": "4",
+        "value": "3",
         "type": "number"
       },
       "square-small-story": {
@@ -22,7 +22,7 @@
         "type": "number"
       },
       "marketing": {
-        "value": "4",
+        "value": "3",
         "type": "number"
       },
       "medium": {
