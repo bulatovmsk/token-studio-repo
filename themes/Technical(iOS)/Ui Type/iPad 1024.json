@@ -184,11 +184,11 @@
   },
   "screen-padding": {
     "left": {
-      "value": "{screen-padding.mobile}",
+      "value": "{screen-padding.tablet}",
       "type": "sizing"
     },
     "right": {
-      "value": "36",
+      "value": "56",
       "type": "sizing"
     }
   }

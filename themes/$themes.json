@@ -707,5 +707,16 @@
       "Technical(iOS)/Ui Type/iPad 1024": "enabled"
     },
     "group": "Technical(iOS)"
+  },
+  {
+    "id": "191fa53d0bada7e83c14e887f36dc600b3e26966",
+    "name": "iPad Pro",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPad Pro": "enabled"
+    },
+    "group": "Technical(iOS)"
   }
 ]
