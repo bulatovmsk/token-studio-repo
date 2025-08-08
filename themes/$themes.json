@@ -685,5 +685,27 @@
       "Technical(iOS)/Ui Type/iPhone 15": "enabled"
     },
     "group": "Technical(iOS)"
+  },
+  {
+    "id": "61a0b514cfcd3f13849e098e75178d288acd9834",
+    "name": "iPad 768",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPad 768": "enabled"
+    },
+    "group": "Technical(iOS)"
+  },
+  {
+    "id": "d173c117c08becf3ead2e49bdec32a0628da5ab4",
+    "name": "iPad 1024",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPad 1024": "enabled"
+    },
+    "group": "Technical(iOS)"
   }
 ]
