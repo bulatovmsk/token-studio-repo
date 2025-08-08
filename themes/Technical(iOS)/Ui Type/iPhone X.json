@@ -56,7 +56,7 @@
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
+        "value": "({container.width} - ({cover.gaps-count.medium}  *{spacing.125} )) / {cover.numbers.medium}",
         "type": "sizing"
       }
     },
