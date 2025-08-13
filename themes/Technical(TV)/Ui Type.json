@@ -2,7 +2,7 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "4",
+        "value": "7",
         "type": "number"
       },
       "vertical": {
@@ -51,6 +51,10 @@
       },
       "widget-small": {
         "value": "3",
+        "type": "number"
+      },
+      "ticket": {
+        "value": "4",
         "type": "number"
       }
     },
@@ -105,6 +109,10 @@
       },
       "widget-small": {
         "value": "({container.width} - (( {cover.numbers.widget-small} - 1)  *{spacing.200} )) / {cover.numbers.widget-small}",
+        "type": "sizing"
+      },
+      "ticket": {
+        "value": "({container.width} - (( {cover.numbers.ticket} - 1)  *{spacing.200} )) / {cover.numbers.ticket}",
         "type": "sizing"
       }
     },
@@ -199,6 +207,13 @@
           "height": "{cover.height.widget-medium}"
         },
         "type": "composition"
+      },
+      "ticket": {
+        "value": {
+          "width": "{cover.width.ticket}",
+          "height": "{cover.height.ticket}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -252,6 +267,10 @@
       },
       "widget-small": {
         "value": "{cover.width.widget-small} /16*9",
+        "type": "sizing"
+      },
+      "ticket": {
+        "value": "{cover.width.ticket} *1.5",
         "type": "sizing"
       }
     }
@@ -352,6 +371,13 @@
         "value": {
           "width": "{cover.width.widget-small} + 16px",
           "height": "{cover.height.widget-small} + 16px"
+        },
+        "type": "composition"
+      },
+      "ticket": {
+        "value": {
+          "width": "{cover.width.ticket} + 16",
+          "height": "{cover.height.ticket} + 16"
         },
         "type": "composition"
       }
