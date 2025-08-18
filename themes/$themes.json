@@ -718,5 +718,16 @@
       "Technical(iOS)/Ui Type/iPad Pro": "enabled"
     },
     "group": "Technical(iOS)"
+  },
+  {
+    "id": "d71900a0ad1ad1527a98fe1a524e07eb346ce201",
+    "name": "iPhone 15 Pro Max",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPhone 15 Pro Max": "enabled"
+    },
+    "group": "Technical(iOS)"
   }
 ]
