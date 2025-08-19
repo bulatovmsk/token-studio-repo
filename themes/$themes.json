@@ -7,9 +7,8 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Web&Mobile": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
-    "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "2286:0",
     "$figmaVariableReferences": {
@@ -49,7 +48,8 @@
       "screen-padding.tablet": "93ed3f838d3bab4da16f1abab23d1fd2183abee6",
       "screen-padding.desktop-m": "222c966504e03b4f41a593fe9d728b422d569e0c",
       "screen-padding.desktop-l": "e5ba9a8261a759611f664d139b2c4167011166b7"
-    }
+    },
+    "group": "Semantic"
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8",
@@ -59,9 +59,8 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/TV": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
-    "group": "Semantic",
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "859:0",
     "$figmaVariableReferences": {
@@ -106,7 +105,8 @@
       "spacing.750": "0bb27a93f0e8a50e0c1a75a5548fd5a9a4e29981",
       "screen-padding.right": "f56cf5a459d7394cf363e9a2598a7e823fb32938",
       "screen-padding.left": "9bb918d0fd23d746518635627830667138232bb9"
-    }
+    },
+    "group": "Semantic"
   },
   {
     "id": "technical(only for figma)-dark",
@@ -114,7 +114,7 @@
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Dark": "enabled",
       "Primitives": "source",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -244,7 +244,7 @@
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Light": "enabled",
       "Primitives": "source",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -371,11 +371,10 @@
   {
     "id": "primitives-primitives",
     "name": "Primitives",
-    "group": "Primitives",
     "selectedTokenSets": {
       "Primitives": "enabled",
       "Brand": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -534,17 +533,17 @@
       "brand.social.viber": "ddac95d7a4bb81872739890970f3ec1b538ce541"
     },
     "$figmaModeId": "32016:3",
-    "$figmaCollectionId": "VariableCollectionId:32016:3471"
+    "$figmaCollectionId": "VariableCollectionId:32016:3471",
+    "group": "Primitives"
   },
   {
     "id": "theme-dark",
     "name": "Dark",
-    "group": "Theme",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Dark/Colors": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -596,17 +595,17 @@
       "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a"
     },
     "$figmaModeId": "32029:4",
-    "$figmaCollectionId": "VariableCollectionId:32029:3918"
+    "$figmaCollectionId": "VariableCollectionId:32029:3918",
+    "group": "Theme"
   },
   {
     "id": "theme-light",
     "name": "Light",
-    "group": "Theme",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Light/Colors": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -658,7 +657,8 @@
       "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a"
     },
     "$figmaModeId": "32029:5",
-    "$figmaCollectionId": "VariableCollectionId:32029:3918"
+    "$figmaCollectionId": "VariableCollectionId:32029:3918",
+    "group": "Theme"
   },
   {
     "id": "0a48b85c31ea89ff1b2631b33f618c0c3248dc75",
@@ -667,7 +667,7 @@
     "selectedTokenSets": {
       "Semantic/TV": "source",
       "Technical(TV)/Ui Type": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaVariableReferences": {}
   },
@@ -679,9 +679,20 @@
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPhone 0+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "$figmaVariableReferences": {},
+    "group": "Technical(iOS)"
+  },
+  {
+    "id": "6d63ae5e0012dd41734b0d077859c6051e74df72",
+    "name": "iPhone 390+",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPad 1366+": "enabled"
+    },
     "group": "Technical(iOS)"
   },
   {
@@ -691,7 +702,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPhone 420+": "enabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "enabled"
     },
     "group": "Technical(iOS)"
   },
@@ -703,7 +714,7 @@
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad 768+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "group": "Technical(iOS)"
   },
@@ -715,7 +726,7 @@
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad 1024+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "group": "Technical(iOS)"
   },
@@ -727,7 +738,7 @@
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad 1366+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 420+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
     },
     "group": "Technical(iOS)"
   }
