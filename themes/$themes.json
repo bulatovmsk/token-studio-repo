@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Web&Mobile": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Semantic/Web&Mobile": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "2286:0",
@@ -58,8 +57,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/TV": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Semantic/TV": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "859:0",
@@ -113,8 +111,7 @@
     "name": "Dark",
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Dark": "enabled",
-      "Primitives": "source",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Primitives": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -243,8 +240,7 @@
     "name": "Light",
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Light": "enabled",
-      "Primitives": "source",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Primitives": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -373,8 +369,7 @@
     "name": "Primitives",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Brand": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Brand": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -542,8 +537,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Semantic/Dark/Colors": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -604,8 +598,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Semantic/Light/Colors": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -666,8 +659,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/TV": "source",
-      "Technical(TV)/Ui Type": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Technical(TV)/Ui Type": "enabled"
     },
     "$figmaVariableReferences": {}
   },
@@ -678,8 +670,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPhone 0+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Technical(iOS)/Ui Type/iPhone 0+": "enabled"
     },
     "$figmaVariableReferences": {},
     "group": "Technical(iOS)"
@@ -691,7 +682,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPad 1366+": "enabled"
+      "Technical(iOS)/Ui Type/iPhone 390+": "enabled"
     },
     "group": "Technical(iOS)"
   },
@@ -713,8 +704,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPad 768+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Technical(iOS)/Ui Type/iPad 768+": "enabled"
     },
     "group": "Technical(iOS)"
   },
@@ -725,8 +715,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPad 1024+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Technical(iOS)/Ui Type/iPad 1024+": "enabled"
     },
     "group": "Technical(iOS)"
   },
@@ -737,8 +726,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPad 1366+": "enabled",
-      "Technical(iOS)/Ui Type/iPhone 428+": "disabled"
+      "Technical(iOS)/Ui Type/iPad 1366+": "enabled"
     },
     "group": "Technical(iOS)"
   }
