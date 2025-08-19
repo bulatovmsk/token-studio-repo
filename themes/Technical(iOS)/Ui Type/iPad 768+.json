@@ -32,31 +32,31 @@
     },
     "width": {
       "main": {
-        "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.125})) / {cover.numbers.main}",
+        "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.150})) / {cover.numbers.main}",
         "type": "sizing"
       },
       "vertical": {
-        "value": "({container.width} - ( {cover.gaps-count.vertical}  *{spacing.125} )) / {cover.numbers.vertical}",
+        "value": "({container.width} - ( {cover.gaps-count.vertical}  *{spacing.150} )) / {cover.numbers.vertical}",
         "type": "sizing"
       },
       "large": {
-        "value": "({container.width} - ( {cover.gaps-count.large}  *{spacing.125} )) / {cover.numbers.large}",
+        "value": "({container.width} - ( {cover.gaps-count.large}  *{spacing.150} )) / {cover.numbers.large}",
         "type": "sizing"
       },
       "square-small-story": {
-        "value": "({container.width} - ( {cover.gaps-count.square-small-story} * {spacing.125})) / {cover.numbers.square-small-story}",
+        "value": "({container.width} - ( {cover.gaps-count.square-small-story} * {spacing.150})) / {cover.numbers.square-small-story}",
         "type": "sizing"
       },
       "square": {
-        "value": "({container.width} - ( {cover.gaps-count.square} *{spacing.125} )) / {cover.numbers.square}",
+        "value": "({container.width} - ( {cover.gaps-count.square} *{spacing.150} )) / {cover.numbers.square}",
         "type": "sizing"
       },
       "marketing": {
-        "value": "({container.width} - ( {cover.gaps-count.marketing}  *{spacing.125} )) / {cover.numbers.marketing}",
+        "value": "({container.width} - ( {cover.gaps-count.marketing}  *{spacing.150} )) / {cover.numbers.marketing}",
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - ({cover.gaps-count.medium}  *{spacing.125} )) / {cover.numbers.medium}",
+        "value": "({container.width} - ({cover.gaps-count.medium}  *{spacing.150} )) / {cover.numbers.medium}",
         "type": "sizing"
       }
     },
