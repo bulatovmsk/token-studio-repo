@@ -17,6 +17,10 @@
         "value": "3",
         "type": "number"
       },
+      "person": {
+        "value": "3",
+        "type": "number"
+      },
       "square": {
         "value": "2",
         "type": "number"
@@ -45,6 +49,10 @@
       },
       "square-small-story": {
         "value": "({container.width} - ( {cover.gaps-count.square-small-story}  *{spacing.125} )) / {cover.numbers.square-small-story}",
+        "type": "sizing"
+      },
+      "person": {
+        "value": "({container.width} - ( {cover.gaps-count.person}  *{spacing.175} )) / {cover.numbers.square-small-story}",
         "type": "sizing"
       },
       "square": {
@@ -128,6 +136,10 @@
         "value": "ceil({cover.width.square-small-story})",
         "type": "sizing"
       },
+      "person": {
+        "value": "ceil({cover.width.person})",
+        "type": "sizing"
+      },
       "square": {
         "value": "ceil({cover.width.square})",
         "type": "sizing"
@@ -155,6 +167,10 @@
         "type": "sizing"
       },
       "square-small-story": {
+        "value": "if(ceil({cover.numbers.square-small-story}) - 1 < 1, 0, ceil({cover.numbers.square-small-story}) - 1)",
+        "type": "sizing"
+      },
+      "person": {
         "value": "if(ceil({cover.numbers.square-small-story}) - 1 < 1, 0, ceil({cover.numbers.square-small-story}) - 1)",
         "type": "sizing"
       },

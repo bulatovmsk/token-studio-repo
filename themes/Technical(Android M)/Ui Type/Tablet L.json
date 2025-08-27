@@ -17,6 +17,10 @@
         "value": "6",
         "type": "number"
       },
+      "person": {
+        "value": 6,
+        "type": "number"
+      },
       "square": {
         "value": "4",
         "type": "number"
@@ -49,6 +53,10 @@
       },
       "square": {
         "value": "({container.width} - ( {cover.gaps-count.square} *{spacing.150} )) / {cover.numbers.square}",
+        "type": "sizing"
+      },
+      "person": {
+        "value": "({container.width} - ( {cover.gaps-count.person} *{spacing.200} )) / {cover.numbers.person}",
         "type": "sizing"
       },
       "marketing": {
@@ -96,6 +104,13 @@
         },
         "type": "composition"
       },
+      "person": {
+        "value": {
+          "width": "{cover.width.person}",
+          "height": "{cover.height.person}"
+        },
+        "type": "composition"
+      },
       "marketing": {
         "value": {
           "width": "{cover.width.marketing}",
@@ -132,6 +147,10 @@
         "value": "ceil({cover.width.square})",
         "type": "sizing"
       },
+      "person": {
+        "value": "ceil({cover.width.person})",
+        "type": "sizing"
+      },
       "marketing": {
         "value": "ceil({cover.width.marketing})",
         "type": "sizing"
@@ -160,6 +179,10 @@
       },
       "square": {
         "value": "if(ceil({cover.numbers.square}) - 1 < 1, 0, ceil({cover.numbers.square}) - 1)",
+        "type": "sizing"
+      },
+      "person": {
+        "value": "if(ceil({cover.numbers.person}) - 1 < 1, 0, ceil({cover.numbers.person}) - 1)",
         "type": "sizing"
       },
       "marketing": {
