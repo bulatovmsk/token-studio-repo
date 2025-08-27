@@ -56,7 +56,7 @@
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
+        "value": "({container.width} - ({cover.gaps-count.medium}  *{spacing.125} )) / {cover.numbers.medium}",
         "type": "sizing"
       }
     },
@@ -178,13 +178,13 @@
       "type": "sizing"
     },
     "device-width": {
-      "value": "428",
+      "value": "360",
       "type": "sizing"
     }
   },
   "screen-padding": {
     "left": {
-      "value": "{screen-padding.ios.iphone}",
+      "value": "{screen-padding.android.phone}",
       "type": "sizing"
     },
     "right": {

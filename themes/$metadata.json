@@ -14,6 +14,9 @@
     "Technical(iOS)/Ui Type/iPhone 428+",
     "Technical(iOS)/Ui Type/iPad 768+",
     "Technical(iOS)/Ui Type/iPad 1024+",
-    "Technical(iOS)/Ui Type/iPad 1366+"
+    "Technical(iOS)/Ui Type/iPad 1366+",
+    "Technical(Android M)/Ui Type/Phone",
+    "Technical(Android M)/Ui Type/Tablet P",
+    "Technical(Android M)/Ui Type/Tablet L"
   ]
 }

@@ -184,7 +184,7 @@
   },
   "screen-padding": {
     "left": {
-      "value": "{screen-padding.tablet}",
+      "value": "{screen-padding.ios.ipad}",
       "type": "sizing"
     },
     "right": {

@@ -42,11 +42,11 @@
       "spacing.225": "b2b8d38267e520aa3ee126db1690f67c05f4b33e",
       "spacing.275": "086cfa22669c54c0cc73c16b2dc7229e649720b3",
       "spacing.325": "c2fee38f86544d6db2c2319b40402e238100033b",
-      "screen-padding.300": "4519e7d6535c137252afe7eb297e46997b44e3a5",
-      "screen-padding.mobile": "62c12bcb844ca03f6214f5c4ccf094a5686598a5",
-      "screen-padding.tablet": "93ed3f838d3bab4da16f1abab23d1fd2183abee6",
-      "screen-padding.desktop-m": "222c966504e03b4f41a593fe9d728b422d569e0c",
-      "screen-padding.desktop-l": "e5ba9a8261a759611f664d139b2c4167011166b7"
+      "screen-padding.web.mobile": "62c12bcb844ca03f6214f5c4ccf094a5686598a5",
+      "screen-padding.web.tablet": "93ed3f838d3bab4da16f1abab23d1fd2183abee6",
+      "screen-padding.web.desktop-m": "222c966504e03b4f41a593fe9d728b422d569e0c",
+      "screen-padding.web.desktop-l": "e5ba9a8261a759611f664d139b2c4167011166b7",
+      "screen-padding.android.phone": "4519e7d6535c137252afe7eb297e46997b44e3a5"
     },
     "group": "Semantic"
   },
@@ -729,5 +729,41 @@
       "Technical(iOS)/Ui Type/iPad 1366+": "enabled"
     },
     "group": "Technical(iOS)"
+  },
+  {
+    "id": "31b479d02042fd5888b2d7b14949a6d060f5ea07",
+    "name": "Phone",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(Android M)/Ui Type/Phone": "enabled"
+    },
+    "group": "Technical(Android M)"
+  },
+  {
+    "id": "293508cd0c0a51f357223b5625a98b8ad3e98e5e",
+    "name": "Tablet P",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(Android M)/Ui Type/Tablet P": "enabled"
+    },
+    "group": "Technical(Android M)"
+  },
+  {
+    "id": "efbf463183b3b358f99929b0f16c95ad928d7480",
+    "name": "Tablet L",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(Android M)/Ui Type/Tablet L": "enabled"
+    },
+    "group": "Technical(Android M)"
   }
 ]

@@ -184,7 +184,7 @@
   },
   "screen-padding": {
     "left": {
-      "value": "{screen-padding.mobile}",
+      "value": "{screen-padding.ios.iphone}",
       "type": "sizing"
     },
     "right": {
