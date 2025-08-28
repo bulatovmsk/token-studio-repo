@@ -144,11 +144,11 @@
     },
     "ios": {
       "iphone": {
-        "value": "12",
+        "value": "15",
         "type": "spacing"
       },
       "ipad": {
-        "value": "16",
+        "value": "35",
         "type": "spacing"
       }
     },
