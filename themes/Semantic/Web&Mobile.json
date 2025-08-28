@@ -94,6 +94,10 @@
       "value": "{spacing.base} *3",
       "type": "spacing"
     },
+    "375": {
+      "value": "{spacing.base} *3.5",
+      "type": "spacing"
+    },
     "400": {
       "value": "{spacing.base} *4",
       "type": "spacing"
