@@ -2,31 +2,31 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "5",
+        "value": 4,
         "type": "number"
       },
       "vertical": {
-        "value": "5",
+        "value": 4,
         "type": "number"
       },
       "large": {
-        "value": "3",
+        "value": 2,
         "type": "number"
       },
       "square-small-story": {
-        "value": "8",
+        "value": 6,
         "type": "number"
       },
       "square": {
-        "value": "5",
+        "value": 4,
         "type": "number"
       },
       "marketing": {
-        "value": "3",
+        "value": 2,
         "type": "number"
       },
       "medium": {
-        "value": "4",
+        "value": 3,
         "type": "number"
       }
     },
@@ -178,7 +178,7 @@
       "type": "sizing"
     },
     "device-width": {
-      "value": "1366",
+      "value": "1024",
       "type": "sizing"
     }
   },
