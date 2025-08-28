@@ -6,7 +6,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Web&Mobile": "enabled"
+      "Semantic/Web&Mobile": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "2286:0",
@@ -57,7 +62,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/TV": "enabled"
+      "Semantic/TV": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "859:0",
@@ -111,7 +121,12 @@
     "name": "Dark",
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Dark": "enabled",
-      "Primitives": "source"
+      "Primitives": "source",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -240,7 +255,12 @@
     "name": "Light",
     "selectedTokenSets": {
       "Technical(for Figma gradients)/Light": "enabled",
-      "Primitives": "source"
+      "Primitives": "source",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -369,7 +389,12 @@
     "name": "Primitives",
     "selectedTokenSets": {
       "Primitives": "enabled",
-      "Brand": "enabled"
+      "Brand": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -537,7 +562,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Dark/Colors": "enabled"
+      "Semantic/Dark/Colors": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -598,7 +628,12 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Light/Colors": "enabled"
+      "Semantic/Light/Colors": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -659,7 +694,12 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/TV": "source",
-      "Technical(TV)/Ui Type": "enabled"
+      "Technical(TV)/Ui Type": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaVariableReferences": {}
   },
@@ -670,35 +710,51 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPhone 0+": "enabled"
+      "Technical(iOS)/Ui Type/iPhone 0+": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "$figmaVariableReferences": {},
     "group": "Technical(iOS)"
   },
   {
     "id": "6d63ae5e0012dd41734b0d077859c6051e74df72",
-    "name": "iPhone 390+",
+    "name": "iPhone 320+",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPhone 390+": "enabled"
+      "Technical(iOS)/Ui Type/iPhone 320+": "enabled"
     },
     "group": "Technical(iOS)"
   },
   {
     "id": "689caa9135da66a5ffeb5afe13643259a843c019",
-    "name": "iPhone 420+",
+    "name": "iPhone 414+",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPhone 428+": "enabled"
+      "Technical(iOS)/Ui Type/iPhone 414+": "enabled"
     },
     "group": "Technical(iOS)"
   },
   {
     "id": "61a0b514cfcd3f13849e098e75178d288acd9834",
+    "name": "iPad 0+",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Semantic/Web&Mobile": "source",
+      "Technical(iOS)/Ui Type/iPad 0+": "enabled"
+    },
+    "group": "Technical(iOS)"
+  },
+  {
+    "id": "d173c117c08becf3ead2e49bdec32a0628da5ab4",
     "name": "iPad 768+",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
@@ -709,24 +765,13 @@
     "group": "Technical(iOS)"
   },
   {
-    "id": "d173c117c08becf3ead2e49bdec32a0628da5ab4",
+    "id": "191fa53d0bada7e83c14e887f36dc600b3e26966",
     "name": "iPad 1024+",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad 1024+": "enabled"
-    },
-    "group": "Technical(iOS)"
-  },
-  {
-    "id": "191fa53d0bada7e83c14e887f36dc600b3e26966",
-    "name": "iPad 1366+",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Primitives": "source",
-      "Semantic/Web&Mobile": "source",
-      "Technical(iOS)/Ui Type/iPad 1366+": "enabled"
     },
     "group": "Technical(iOS)"
   },
@@ -738,7 +783,12 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(Android M)/Ui Type/Phone": "enabled"
+      "Technical(Android M)/Ui Type/Phone": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "group": "Technical(Android M)"
   },
@@ -750,7 +800,12 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(Android M)/Ui Type/Tablet P": "enabled"
+      "Technical(Android M)/Ui Type/Tablet P": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "group": "Technical(Android M)"
   },
@@ -762,7 +817,12 @@
       "Primitives": "source",
       "Brand": "source",
       "Semantic/Web&Mobile": "source",
-      "Technical(Android M)/Ui Type/Tablet L": "enabled"
+      "Technical(Android M)/Ui Type/Tablet L": "enabled",
+      "Technical(iOS)/Ui Type/iPhone 320+": "disabled",
+      "Technical(iOS)/Ui Type/iPhone 414+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 0+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 768+": "disabled",
+      "Technical(iOS)/Ui Type/iPad 1024+": "disabled"
     },
     "group": "Technical(Android M)"
   }

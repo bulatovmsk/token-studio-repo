@@ -2,31 +2,31 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "5",
+        "value": "3",
         "type": "number"
       },
       "vertical": {
-        "value": "5",
+        "value": "3",
         "type": "number"
       },
       "large": {
-        "value": "3",
+        "value": "1.5",
         "type": "number"
       },
       "square-small-story": {
-        "value": "8",
-        "type": "number"
-      },
-      "square": {
         "value": "5",
         "type": "number"
       },
-      "marketing": {
+      "square": {
         "value": "3",
         "type": "number"
       },
+      "marketing": {
+        "value": "1.5",
+        "type": "number"
+      },
       "medium": {
-        "value": "4",
+        "value": "2",
         "type": "number"
       }
     },
@@ -44,7 +44,7 @@
         "type": "sizing"
       },
       "square-small-story": {
-        "value": "({container.width} - ( {cover.gaps-count.square-small-story}  *{spacing.150} )) / {cover.numbers.square-small-story}",
+        "value": "({container.width} - ( {cover.gaps-count.square-small-story} * {spacing.150})) / {cover.numbers.square-small-story}",
         "type": "sizing"
       },
       "square": {
@@ -56,7 +56,7 @@
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - ( {cover.gaps-count.medium}  *{spacing.150} )) / {cover.numbers.medium}",
+        "value": "({container.width} - ({cover.gaps-count.medium}  *{spacing.150} )) / {cover.numbers.medium}",
         "type": "sizing"
       }
     },
@@ -178,7 +178,7 @@
       "type": "sizing"
     },
     "device-width": {
-      "value": "1366",
+      "value": "768",
       "type": "sizing"
     }
   },
