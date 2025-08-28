@@ -2,35 +2,35 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "4",
+        "value": 4,
         "type": "number"
       },
       "vertical": {
-        "value": "4",
+        "value": 4,
         "type": "number"
       },
       "large": {
-        "value": "2",
+        "value": 2,
         "type": "number"
       },
       "square-small-story": {
-        "value": "6",
+        "value": 5,
         "type": "number"
       },
       "person": {
-        "value": 6,
+        "value": 5,
         "type": "number"
       },
       "square": {
-        "value": "4",
+        "value": 4,
         "type": "number"
       },
       "marketing": {
-        "value": "2",
+        "value": 2,
         "type": "number"
       },
       "medium": {
-        "value": "3",
+        "value": 3,
         "type": "number"
       }
     },
@@ -56,7 +56,7 @@
         "type": "sizing"
       },
       "person": {
-        "value": "({container.width} - ( {cover.gaps-count.person} *{spacing.200} )) / {cover.numbers.person}",
+        "value": "({container.width} - ( {cover.gaps-count.person} *{spacing.250} )) / {cover.numbers.person}",
         "type": "sizing"
       },
       "marketing": {

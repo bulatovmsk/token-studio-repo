@@ -14,7 +14,7 @@
         "type": "number"
       },
       "square-small-story": {
-        "value": "5",
+        "value": 5,
         "type": "number"
       },
       "person": {
@@ -56,7 +56,7 @@
         "type": "sizing"
       },
       "person": {
-        "value": "({container.width} - ( {cover.gaps-count.person} *{spacing.200} )) / {cover.numbers.person}",
+        "value": "({container.width} - ( {cover.gaps-count.person} *{spacing.250} )) / {cover.numbers.person}",
         "type": "sizing"
       },
       "marketing": {
