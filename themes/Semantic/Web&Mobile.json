@@ -148,7 +148,7 @@
         "type": "spacing"
       },
       "ipad": {
-        "value": "32",
+        "value": "16",
         "type": "spacing"
       }
     },
