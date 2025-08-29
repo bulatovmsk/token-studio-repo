@@ -665,7 +665,7 @@
   },
   {
     "id": "3715958cfe3e21f6b3ea9141fcc8f11d206deff5",
-    "name": "iPhone 0+",
+    "name": "iPhone Compact",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
@@ -677,7 +677,7 @@
   },
   {
     "id": "6d63ae5e0012dd41734b0d077859c6051e74df72",
-    "name": "iPhone 375+",
+    "name": "iPhone Regular",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
@@ -688,7 +688,7 @@
   },
   {
     "id": "689caa9135da66a5ffeb5afe13643259a843c019",
-    "name": "iPhone 414+",
+    "name": "iPhone Wide",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
@@ -699,7 +699,7 @@
   },
   {
     "id": "61a0b514cfcd3f13849e098e75178d288acd9834",
-    "name": "iPad 600+",
+    "name": "iPad Compact",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
@@ -710,7 +710,7 @@
   },
   {
     "id": "d173c117c08becf3ead2e49bdec32a0628da5ab4",
-    "name": "iPad 768+",
+    "name": "iPad Regular",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
@@ -721,7 +721,7 @@
   },
   {
     "id": "191fa53d0bada7e83c14e887f36dc600b3e26966",
-    "name": "iPad 1024+",
+    "name": "iPad Wide",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
