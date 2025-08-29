@@ -6,7 +6,7 @@
         "type": "number"
       },
       "vertical": {
-        "value": "2.5",
+        "value": 2.5,
         "type": "number"
       },
       "large": {
@@ -188,7 +188,7 @@
       "type": "sizing"
     },
     "right": {
-      "value": "36",
+      "value": "28",
       "type": "sizing"
     }
   }
