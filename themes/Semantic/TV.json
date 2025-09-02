@@ -59,6 +59,68 @@
     "1000": {
       "value": "{corner-radius.base}*4.5",
       "type": "borderRadius"
+    },
+    "focus": {
+      "100": {
+        "value": "{corner-radius.100}+6",
+        "type": "borderRadius"
+      },
+      "200": {
+        "value": "{corner-radius.200}+6",
+        "type": "borderRadius"
+      },
+      "300": {
+        "value": "{corner-radius.300}+6",
+        "type": "borderRadius"
+      },
+      "400": {
+        "value": "{corner-radius.400}+6",
+        "type": "borderRadius"
+      },
+      "450": {
+        "value": "{corner-radius.450}+6",
+        "type": "borderRadius"
+      },
+      "475": {
+        "value": "{corner-radius.475}+6",
+        "type": "borderRadius"
+      },
+      "500": {
+        "value": "{corner-radius.500} +6",
+        "type": "borderRadius"
+      },
+      "550": {
+        "value": "{corner-radius.550} +6",
+        "type": "borderRadius"
+      },
+      "600": {
+        "value": "{corner-radius.600} +6",
+        "type": "borderRadius"
+      },
+      "650": {
+        "value": "{corner-radius.650} +6",
+        "type": "borderRadius"
+      },
+      "700": {
+        "value": "{corner-radius.700} +6",
+        "type": "borderRadius"
+      },
+      "750": {
+        "value": "{corner-radius.750} +6",
+        "type": "borderRadius"
+      },
+      "800": {
+        "value": "{corner-radius.800} +6",
+        "type": "borderRadius"
+      },
+      "900": {
+        "value": "{corner-radius.900} +6",
+        "type": "borderRadius"
+      },
+      "1000": {
+        "value": "{corner-radius.1000} +6",
+        "type": "borderRadius"
+      }
     }
   },
   "spacing": {
