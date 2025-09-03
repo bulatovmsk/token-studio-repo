@@ -66,6 +66,10 @@
       "medium": {
         "value": "ceil(({container.width} - ({cover.gaps-count.medium}  *{spacing.150} )) / {cover.numbers.medium})",
         "type": "sizing"
+      },
+      "featured": {
+        "value": "ceil( {container.device-width} -{screen-padding.android.tablet}*2)",
+        "type": "sizing"
       }
     },
     "sizes": {
@@ -124,6 +128,13 @@
           "height": "{cover.height.medium}"
         },
         "type": "composition"
+      },
+      "featured": {
+        "value": {
+          "width": "{cover.width.featured}",
+          "height": "{cover.height.featured}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -157,6 +168,10 @@
       },
       "medium": {
         "value": "ceil({cover.width.medium} / 16 * 9)",
+        "type": "sizing"
+      },
+      "featured": {
+        "value": "ceil({cover.width.featured} / 16 * 9)",
         "type": "sizing"
       }
     },

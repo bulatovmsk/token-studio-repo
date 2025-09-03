@@ -63,6 +63,10 @@
         "value": "ceil(({container.width} - ( {cover.gaps-count.marketing}  *{spacing.125} )) / {cover.numbers.marketing})",
         "type": "sizing"
       },
+      "featured": {
+        "value": "ceil( {container.device-width} -{screen-padding.android.phone}*2)",
+        "type": "sizing"
+      },
       "medium": {
         "value": "ceil(({container.width} - ({cover.gaps-count.medium}  *{spacing.125} )) / {cover.numbers.medium})",
         "type": "sizing"
@@ -117,6 +121,13 @@
           "height": "{cover.height.medium}"
         },
         "type": "composition"
+      },
+      "featured": {
+        "value": {
+          "width": "{cover.width.featured}",
+          "height": "{cover.height.featured}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -150,6 +161,10 @@
       },
       "medium": {
         "value": "ceil({cover.width.medium} / 16 * 9)",
+        "type": "sizing"
+      },
+      "featured": {
+        "value": "ceil({cover.width.featured} / 16 * 9)",
         "type": "sizing"
       }
     },
