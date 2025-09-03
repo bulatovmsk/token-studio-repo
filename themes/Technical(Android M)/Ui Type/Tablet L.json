@@ -2,35 +2,35 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "vertical": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "large": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "square-small-story": {
-        "value": 5,
+        "value": "5",
         "type": "number"
       },
       "person": {
-        "value": 5,
+        "value": "5",
         "type": "number"
       },
       "square": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "marketing": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "medium": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       }
     },
@@ -65,6 +65,10 @@
       },
       "medium": {
         "value": "ceil(({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.150} )) / {cover.numbers.medium})",
+        "type": "sizing"
+      },
+      "featured": {
+        "value": "ceil( {container.device-width} *0.63)",
         "type": "sizing"
       }
     },
@@ -124,6 +128,13 @@
           "height": "{cover.height.medium}"
         },
         "type": "composition"
+      },
+      "featured": {
+        "value": {
+          "width": "{cover.width.featured}",
+          "height": "{cover.height.featured}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -157,6 +168,10 @@
       },
       "medium": {
         "value": "ceil({cover.width.medium} / 16 * 9)",
+        "type": "sizing"
+      },
+      "featured": {
+        "value": "ceil( {cover.width.featured} / 16 * 9)",
         "type": "sizing"
       }
     },
