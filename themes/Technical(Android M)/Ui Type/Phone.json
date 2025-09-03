@@ -164,7 +164,7 @@
         "type": "sizing"
       },
       "featured": {
-        "value": "ceil({cover.width.featured} / 16 * 9)",
+        "value": "{cover.width.featured}",
         "type": "sizing"
       }
     },
