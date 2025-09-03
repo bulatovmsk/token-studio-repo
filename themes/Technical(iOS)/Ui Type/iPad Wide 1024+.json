@@ -30,7 +30,7 @@
         "type": "number"
       },
       "featured": {
-        "value": 1.66,
+        "value": 1.5,
         "type": "number"
       }
     },
