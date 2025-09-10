@@ -32,11 +32,19 @@
       "medium": {
         "value": "2",
         "type": "number"
+      },
+      "announces": {
+        "value": 2,
+        "type": "number"
       }
     },
     "width": {
       "main": {
         "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.150})) / {cover.numbers.main}",
+        "type": "sizing"
+      },
+      "announces": {
+        "value": "({container.width} - ( {cover.gaps-count.announces} * {spacing.150})) / {cover.numbers.announces}",
         "type": "sizing"
       },
       "vertical": {
@@ -73,6 +81,12 @@
         "value": {
           "width": "{cover.width.main}",
           "height": "{cover.height.main}"
+        },
+        "type": "composition"
+      },
+      "announces": {
+        "value": {
+          "width": "{cover.width.announces}"
         },
         "type": "composition"
       },
@@ -163,6 +177,10 @@
     "gaps-count": {
       "main": {
         "value": "if(ceil({cover.numbers.main}) - 1 < 1, 0, ceil({cover.numbers.main}) - 1)",
+        "type": "sizing"
+      },
+      "announces": {
+        "value": "if(ceil({cover.numbers.announces}) - 1 < 1, 0, ceil({cover.numbers.announces}) - 1)",
         "type": "sizing"
       },
       "vertical": {

@@ -34,13 +34,17 @@
         "type": "number"
       },
       "announces": {
-        "value": 1.5,
+        "value": 1.25,
         "type": "number"
       }
     },
     "width": {
       "main": {
         "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.125})) / {cover.numbers.main}",
+        "type": "sizing"
+      },
+      "announces": {
+        "value": "({container.width} - ( {cover.gaps-count.announces} * {spacing.125})) / {cover.numbers.announces}",
         "type": "sizing"
       },
       "vertical": {
@@ -69,10 +73,6 @@
       },
       "medium": {
         "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
-        "type": "sizing"
-      },
-      "announces": {
-        "value": "({container.width} - (( {cover.gaps-count.announces} - 1)  *{spacing.125} )) / {cover.numbers.announces}-136",
         "type": "sizing"
       }
     },
@@ -135,8 +135,7 @@
       },
       "announces": {
         "value": {
-          "width": "{cover.width.announces}",
-          "height": "{cover.height.announces}"
+          "width": "{cover.width.announces}"
         },
         "type": "composition"
       }
@@ -152,10 +151,6 @@
       },
       "vertical": {
         "value": "ceil({cover.width.vertical} * 1.5)",
-        "type": "sizing"
-      },
-      "announces": {
-        "value": "ceil( {cover.width.announces} * 1.5)",
         "type": "sizing"
       },
       "square-small-story": {
@@ -184,6 +179,10 @@
         "value": "if(ceil({cover.numbers.main}) - 1 < 1, 0, ceil({cover.numbers.main}) - 1)",
         "type": "sizing"
       },
+      "announces": {
+        "value": "if(ceil({cover.numbers.announces}) - 1 < 1, 0, ceil({cover.numbers.announces}) - 1)",
+        "type": "sizing"
+      },
       "vertical": {
         "value": "if(ceil({cover.numbers.vertical}) - 1 < 1, 0, ceil({cover.numbers.vertical}) - 1)",
         "type": "sizing"
@@ -210,10 +209,6 @@
       },
       "medium": {
         "value": "if(ceil({cover.numbers.medium}) - 1 < 1, 0, ceil({cover.numbers.medium}) - 1)",
-        "type": "sizing"
-      },
-      "announces": {
-        "value": "if(ceil({cover.numbers.announces}) - 1 < 1, 0, ceil({cover.numbers.announces}) - 1)",
         "type": "sizing"
       }
     }

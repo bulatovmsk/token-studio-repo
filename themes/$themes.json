@@ -684,7 +684,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPhone Regular 321-413": "enabled"
     },
-    "group": "Technical(iOS)"
+    "group": "Technical(iOS)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "689caa9135da66a5ffeb5afe13643259a843c019",
@@ -695,7 +696,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPhone Wide 414+": "enabled"
     },
-    "group": "Technical(iOS)"
+    "group": "Technical(iOS)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "61a0b514cfcd3f13849e098e75178d288acd9834",
@@ -706,7 +708,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad Compact 0-767": "enabled"
     },
-    "group": "Technical(iOS)"
+    "group": "Technical(iOS)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "d173c117c08becf3ead2e49bdec32a0628da5ab4",
@@ -717,7 +720,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad Regular 768+": "enabled"
     },
-    "group": "Technical(iOS)"
+    "group": "Technical(iOS)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "191fa53d0bada7e83c14e887f36dc600b3e26966",
@@ -728,7 +732,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(iOS)/Ui Type/iPad Wide 1024+": "enabled"
     },
-    "group": "Technical(iOS)"
+    "group": "Technical(iOS)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "31b479d02042fd5888b2d7b14949a6d060f5ea07",
@@ -740,7 +745,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(Android M)/Ui Type/Phone": "enabled"
     },
-    "group": "Technical(Android M)"
+    "group": "Technical(Android M)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "293508cd0c0a51f357223b5625a98b8ad3e98e5e",
@@ -752,7 +758,8 @@
       "Semantic/Web&Mobile": "source",
       "Technical(Android M)/Ui Type/Tablet P": "enabled"
     },
-    "group": "Technical(Android M)"
+    "group": "Technical(Android M)",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "efbf463183b3b358f99929b0f16c95ad928d7480",
@@ -764,6 +771,7 @@
       "Semantic/Web&Mobile": "source",
       "Technical(Android M)/Ui Type/Tablet L": "enabled"
     },
-    "group": "Technical(Android M)"
+    "group": "Technical(Android M)",
+    "$figmaVariableReferences": {}
   }
 ]
