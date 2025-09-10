@@ -32,6 +32,10 @@
       "medium": {
         "value": "1.25",
         "type": "number"
+      },
+      "announces": {
+        "value": 1.5,
+        "type": "number"
       }
     },
     "width": {
@@ -65,6 +69,10 @@
       },
       "medium": {
         "value": "({container.width} - (( {cover.gaps-count.medium} - 1)  *{spacing.125} )) / {cover.numbers.medium}",
+        "type": "sizing"
+      },
+      "announces": {
+        "value": "({container.width} - (( {cover.gaps-count.announces} - 1)  *{spacing.125} )) / {cover.numbers.announces}-136",
         "type": "sizing"
       }
     },
@@ -124,6 +132,13 @@
           "height": "{cover.height.medium}"
         },
         "type": "composition"
+      },
+      "announces": {
+        "value": {
+          "width": "{cover.width.announces}",
+          "height": "{cover.height.announces}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -137,6 +152,10 @@
       },
       "vertical": {
         "value": "ceil({cover.width.vertical} * 1.5)",
+        "type": "sizing"
+      },
+      "announces": {
+        "value": "ceil({cover.width.announces} * 1.5)",
         "type": "sizing"
       },
       "square-small-story": {
@@ -191,6 +210,10 @@
       },
       "medium": {
         "value": "if(ceil({cover.numbers.medium}) - 1 < 1, 0, ceil({cover.numbers.medium}) - 1)",
+        "type": "sizing"
+      },
+      "announces": {
+        "value": "if(ceil({cover.numbers.announces}) - 1 < 1, 0, ceil({cover.numbers.announces}) - 1)",
         "type": "sizing"
       }
     }
