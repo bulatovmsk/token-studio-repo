@@ -2,39 +2,39 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "announces": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       },
       "vertical": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "large": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "square-small-story": {
-        "value": 6,
+        "value": "6",
         "type": "number"
       },
       "square": {
-        "value": 4,
+        "value": "4",
         "type": "number"
       },
       "marketing": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "medium": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       },
       "featured": {
-        "value": 1.5,
+        "value": "1.5",
         "type": "number"
       }
     },

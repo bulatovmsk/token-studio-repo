@@ -438,6 +438,18 @@
           "description": "Цвет не меняется в зависимости от темы"
         }
       }
+    },
+    "shadow": {
+      "assistant": {
+        "focus": {
+          "value": "rgba({primitives.cobalt1000} , 0.7)",
+          "type": "color"
+        },
+        "rest": {
+          "value": "rgba({primitives.cobalt1000} , 0.3)",
+          "type": "color"
+        }
+      }
     }
   }
 }

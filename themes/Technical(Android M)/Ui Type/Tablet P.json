@@ -14,11 +14,11 @@
         "type": "number"
       },
       "square-small-story": {
-        "value": 5,
+        "value": "5",
         "type": "number"
       },
       "person": {
-        "value": 5,
+        "value": "5",
         "type": "number"
       },
       "square": {

@@ -6,7 +6,7 @@
         "type": "number"
       },
       "vertical": {
-        "value": 2.5,
+        "value": "2.5",
         "type": "number"
       },
       "large": {
@@ -26,7 +26,7 @@
         "type": "number"
       },
       "featured": {
-        "value": 1,
+        "value": "1",
         "type": "number"
       },
       "medium": {
@@ -34,7 +34,7 @@
         "type": "number"
       },
       "announces": {
-        "value": 1.25,
+        "value": "1.25",
         "type": "number"
       }
     },
