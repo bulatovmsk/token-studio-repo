@@ -443,11 +443,13 @@
       "assistant": {
         "focus": {
           "value": "rgba({primitives.cobalt1000} , 0.7)",
-          "type": "color"
+          "type": "color",
+          "description": "Для тени компонентов ИИ ассистента"
         },
         "rest": {
           "value": "rgba({primitives.cobalt1000} , 0.3)",
-          "type": "color"
+          "type": "color",
+          "description": "Для тени компонентов ИИ ассистента"
         }
       }
     }
