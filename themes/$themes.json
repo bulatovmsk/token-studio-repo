@@ -586,7 +586,9 @@
       "color.static.solid.black": "7d91de2f3af9f0251bdae8d307742f601799f39d",
       "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
       "color.static.glassy.black": "bdfa45b417b76092ad8685739f93c95df3bb432d",
-      "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a"
+      "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a",
+      "color.shadow.accent-focus": "4e2988bc22cb856199e3f835fde53dec96f37a65",
+      "color.shadow.accent": "6995b255d64e98454ff24d1e53b2d81e7f534ae0"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",

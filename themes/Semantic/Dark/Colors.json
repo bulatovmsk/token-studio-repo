@@ -440,17 +440,15 @@
       }
     },
     "shadow": {
-      "assistant": {
-        "focus": {
-          "value": "rgba({primitives.cobalt1000} , 0.7)",
-          "type": "color",
-          "description": "Для тени компонентов ИИ ассистента"
-        },
-        "rest": {
-          "value": "rgba({primitives.cobalt1000} , 0.3)",
-          "type": "color",
-          "description": "Для тени компонентов ИИ ассистента"
-        }
+      "accent-focus": {
+        "value": "rgba({primitives.cobalt1000} , 0.7)",
+        "type": "color",
+        "description": "Для тени компонентов ИИ ассистента"
+      },
+      "accent": {
+        "value": "rgba({primitives.cobalt1000} , 0.3)",
+        "type": "color",
+        "description": "Для тени компонентов ИИ ассистента"
       }
     }
   }
