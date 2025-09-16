@@ -164,7 +164,7 @@
         "type": "sizing"
       },
       "featured": {
-        "value": "{cover.width.featured}",
+        "value": "floor({cover.width.featured} /1.14)",
         "type": "sizing"
       }
     },
