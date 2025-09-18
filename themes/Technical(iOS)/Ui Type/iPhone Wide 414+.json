@@ -2,7 +2,7 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": 2,
+        "value": 1.5,
         "type": "number"
       },
       "vertical": {
@@ -14,11 +14,11 @@
         "type": "number"
       },
       "square-small-story": {
-        "value": 4,
+        "value": 3,
         "type": "number"
       },
       "square": {
-        "value": 3,
+        "value": 2,
         "type": "number"
       },
       "marketing": {
@@ -30,7 +30,7 @@
         "type": "number"
       },
       "medium": {
-        "value": 1.5,
+        "value": 1.25,
         "type": "number"
       },
       "announces": {
