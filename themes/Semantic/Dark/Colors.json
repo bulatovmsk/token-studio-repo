@@ -325,7 +325,7 @@
         "placeholder": {
           "value": "{primitives.gray1100}",
           "type": "color",
-          "description": "Фон для отображения состояния, когда ответ от сервера получен и загружается контент"
+          "description": "Фон для отображения состояния, когда ответ от сервера получен и загружается контент. Замена для {{ Fill/Technical/on Dark/Placeholder }}"
         },
         "skeletonbg": {
           "value": "rgba( {primitives.white} , 0.1)",
@@ -383,38 +383,39 @@
         "primary": {
           "value": "{primitives.black}",
           "type": "color",
-          "description": "Основной фон"
+          "description": "Основной фон. Замена для {{ Background/Solid/Primary }}"
         },
         "secondary": {
           "value": "{primitives.gray1200}",
           "type": "color",
-          "description": "Для окон"
+          "description": "Для окон. Замена для {{ Background/Solid/Secondary }}"
         },
         "inverse": {
           "value": "{primitives.gray200}",
-          "type": "color"
+          "type": "color",
+          "description": ". Замена для {{ Background/Solid/Inverse }}"
         }
       },
       "glassy": {
         "primary": {
           "value": "rgba( {primitives.black} , 0.88)",
           "type": "color",
-          "description": "Фон поверх изображения"
+          "description": "Фон поверх изображения. Замена для {{ Background/Glassy/Primary }}"
         },
         "secondary": {
           "value": "rgba( {primitives.black} , 0.72)",
           "type": "color",
-          "description": "Фон поверх изображения"
+          "description": "Фон поверх изображения. Замена для {{ Background/Glassy/Secondary }}"
         },
         "third": {
           "value": "rgba( {primitives.black} , 0.56)",
           "type": "color",
-          "description": "Фон поверх изображения, видео (плеер)"
+          "description": "Фон поверх изображения, видео (плеер). Замена для {{ Background/Glassy/Third }}"
         },
         "fourth": {
           "value": "rgba( {primitives.black} , 0.32)",
           "type": "color",
-          "description": "Фон поверх изображения"
+          "description": "Фон поверх изображения. Замена для {{ Background/Glassy/Forth }}"
         }
       }
     },
