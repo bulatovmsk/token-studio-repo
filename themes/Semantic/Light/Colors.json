@@ -19,7 +19,8 @@
       },
       "accent": {
         "value": "{primitives.cobalt1000}",
-        "type": "color"
+        "type": "color",
+        "description": "Замена для {{ Text & icon/on Light/Accent }}"
       },
       "offer": {
         "value": "{primitives.yellow500}",
@@ -64,15 +65,18 @@
       "decorative": {
         "focus": {
           "value": "linear-gradient(45deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 52%, {primitives.pink800} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Замена на {{ Border/Decorative/on Light/Focus }}"
         },
         "active-horizontal": {
           "value": "linear-gradient(270deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Замена на {{ Border/Decorative/on Light/Active Horisontal }}"
         },
         "active-vertical": {
           "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
-          "type": "color"
+          "type": "color",
+          "description": "Замена на {{ Border/Decorative/on Light/Active Vertical }}"
         }
       },
       "solid": {
@@ -109,12 +113,13 @@
         },
         "secondary": {
           "value": "rgba( {primitives.gray300} , 0.8)",
-          "type": "color"
+          "type": "color",
+          "description": "Замена для {{ Fill/Glassy/On Light/Secondary }}"
         },
         "third": {
           "value": "rgba( {primitives.white} , 0.8)",
           "type": "color",
-          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне"
+          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Замена для {{ Fill/Glassy: hover & focus/Third }}"
         },
         "inverse": {
           "value": "rgba( {primitives.gray1200} , 0.8)",
@@ -132,7 +137,8 @@
           },
           "third": {
             "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.56) 0%, rgba( {primitives.white} , 0.80) 100%)",
-            "type": "color"
+            "type": "color",
+            "description": ". Замена для {{ Fill/Glassy: hover & focus/On Light/Third }}"
           }
         }
       },
@@ -140,7 +146,8 @@
         "top": {
           "primary": {
             "value": "linear-gradient(180deg, {primitives.cobalt200} 0%, rgba( {primitives.cobalt200} , 0.99) 7%, rgba( {primitives.cobalt200} , 0.96) 13%, rgba( {primitives.cobalt200} , 0.92) 20%, rgba( {primitives.cobalt200} , 0.85) 27%, rgba( {primitives.cobalt200} , 0.77) 33%, rgba( {primitives.cobalt200} , 0.67) 40%, rgba( {primitives.cobalt200} , 0.56) 47%, rgba( {primitives.cobalt200} , 0.44) 53%, rgba( {primitives.cobalt200} , 0.33) 60%, rgba( {primitives.cobalt200} , 0.23) 67%, rgba( {primitives.cobalt200} , 0.15) 73%, rgba( {primitives.cobalt200} , 0.08) 80%, rgba( {primitives.cobalt200} , 0.04) 87%, rgba( {primitives.cobalt200} , 0.01) 93%, rgba( {primitives.cobalt200} , 0) 100%)",
-            "type": "color"
+            "type": "color",
+            "description": "Замена для {{ Fill/Fade/On Light/Top/Primary }}"
           },
           "secondary": {
             "value": "linear-gradient(180deg, rgba( {primitives.cobalt200} , 0.8) 0%, rgba( {primitives.cobalt200} , 0.79) 7%, rgba( {primitives.cobalt200} , 0.77) 13%, rgba( {primitives.cobalt200} , 0.73) 20%, rgba( {primitives.cobalt200} , 0.68) 27%, rgba( {primitives.cobalt200} , 0.61) 33%, rgba( {primitives.cobalt200} , 0.53) 40%, rgba( {primitives.cobalt200} , 0.45) 47%, rgba( {primitives.cobalt200} , 0.35) 53%, rgba( {primitives.cobalt200} , 0.27) 60%, rgba( {primitives.cobalt200} , 0.19) 67%, rgba( {primitives.cobalt200} , 0.12) 73%, rgba( {primitives.cobalt200} , 0.07) 80%, rgba( {primitives.cobalt200} , 0.03) 87%, rgba( {primitives.cobalt200} , 0.01) 93%, rgba( {primitives.cobalt200} , 0) 100%)",
