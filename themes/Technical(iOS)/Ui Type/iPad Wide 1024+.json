@@ -36,6 +36,14 @@
       "featured": {
         "value": "1.5",
         "type": "number"
+      },
+      "widget-medium": {
+        "value": "1.5",
+        "type": "number"
+      },
+      "widget-small": {
+        "value": "1.5",
+        "type": "number"
       }
     },
     "width": {
@@ -73,6 +81,14 @@
       },
       "featured": {
         "value": "({container.width} - ( {cover.gaps-count.featured}  *{spacing.150} )) / {cover.numbers.featured}",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "({container.width} - ( {cover.gaps-count.widget-medium}  *{spacing.150} )) / {cover.numbers.widget-medium}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "({container.width} - ( {cover.gaps-count.widget-small} * {spacing.150})) / {cover.numbers.widget-small}",
         "type": "sizing"
       }
     },
@@ -138,6 +154,20 @@
           "height": "{cover.height.featured}"
         },
         "type": "composition"
+      },
+      "widget-medium": {
+        "value": {
+          "width": "{cover.width.widget-medium}",
+          "height": "{cover.height.widget-medium}"
+        },
+        "type": "composition"
+      },
+      "widget-small": {
+        "value": {
+          "width": "{cover.width.widget-small}",
+          "height": "{cover.height.widget-small}"
+        },
+        "type": "composition"
       }
     },
     "height": {
@@ -171,6 +201,14 @@
       },
       "featured": {
         "value": "ceil({cover.width.featured} / 16 * 9)",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "{cover.height.widget-small} *2 + {spacing.150}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "ceil({cover.width.widget-small} / 16 * 9)",
         "type": "sizing"
       }
     },
@@ -209,6 +247,14 @@
       },
       "featured": {
         "value": "if(ceil({cover.numbers.featured}) - 1 < 1, 0, ceil({cover.numbers.featured}) - 1)",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "if(ceil({cover.numbers.widget-medium}) - 1 < 1, 0, ceil({cover.numbers.widget-medium}) - 1)",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "if(ceil({cover.numbers.widget-medium}) - 1 < 1, 0, ceil({cover.numbers.widget-medium}) - 1)",
         "type": "sizing"
       }
     }

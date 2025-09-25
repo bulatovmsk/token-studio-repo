@@ -6,11 +6,11 @@
         "type": "number"
       },
       "widget-medium": {
-        "value": 1.5,
+        "value": "1.5",
         "type": "number"
       },
       "widget-small": {
-        "value": 0.5,
+        "value": "0.5",
         "type": "number"
       },
       "vertical": {
