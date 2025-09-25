@@ -176,7 +176,7 @@
         "type": "sizing"
       },
       "widget-medium": {
-        "value": "ceil({cover.width.widget-medium} * 1.15)",
+        "value": "ceil({cover.width.widget-medium} * 1.45)",
         "type": "sizing"
       },
       "large": {
