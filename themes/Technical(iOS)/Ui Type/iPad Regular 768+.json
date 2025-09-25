@@ -38,11 +38,11 @@
         "type": "number"
       },
       "widget-medium": {
-        "value": "1.5",
+        "value": "2",
         "type": "number"
       },
       "widget-small": {
-        "value": "1.5",
+        "value": "2",
         "type": "number"
       }
     },
