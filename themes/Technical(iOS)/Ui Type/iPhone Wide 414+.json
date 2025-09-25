@@ -2,11 +2,11 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": 1.5,
+        "value": "1.5",
         "type": "number"
       },
       "vertical": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       },
       "large": {
@@ -14,11 +14,11 @@
         "type": "number"
       },
       "square-small-story": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       },
       "square": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "marketing": {
@@ -30,11 +30,11 @@
         "type": "number"
       },
       "medium": {
-        "value": 1.2,
+        "value": "1.2",
         "type": "number"
       },
       "announces": {
-        "value": 1.5,
+        "value": "1.5",
         "type": "number"
       }
     },

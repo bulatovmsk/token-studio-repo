@@ -5,6 +5,14 @@
         "value": "1.5",
         "type": "number"
       },
+      "widget-medium": {
+        "value": 1.5,
+        "type": "number"
+      },
+      "widget-small": {
+        "value": 0.5,
+        "type": "number"
+      },
       "vertical": {
         "value": "2.5",
         "type": "number"
@@ -30,7 +38,7 @@
         "type": "number"
       },
       "medium": {
-        "value": 1.2,
+        "value": "1.2",
         "type": "number"
       },
       "announces": {
@@ -41,6 +49,14 @@
     "width": {
       "main": {
         "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.125})) / {cover.numbers.main}",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "{cover.width.widget-medium} *2 +({cover.gaps-count.widget-medium} * {spacing.125})",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "({container.width} - ( {cover.gaps-count.widget-medium} * {spacing.125})) / {cover.numbers.widget-medium}",
         "type": "sizing"
       },
       "vertical": {
@@ -81,6 +97,20 @@
         "value": {
           "width": "{cover.width.main}",
           "height": "{cover.height.main}"
+        },
+        "type": "composition"
+      },
+      "widget-medium": {
+        "value": {
+          "width": "{cover.width.widget-medium}",
+          "height": "{cover.height.widget-medium}"
+        },
+        "type": "composition"
+      },
+      "widget-small": {
+        "value": {
+          "width": "{cover.width.widget-small}",
+          "height": "{cover.height.widget-small}"
         },
         "type": "composition"
       },
@@ -145,6 +175,14 @@
         "value": "ceil({cover.width.main} / 16 * 9)",
         "type": "sizing"
       },
+      "widget-small": {
+        "value": "ceil({cover.width.widget-small} / 16 * 9)",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "ceil({cover.width.widget-medium} * 1.15)",
+        "type": "sizing"
+      },
       "large": {
         "value": "ceil({cover.width.large} / 16 * 9)",
         "type": "sizing"
@@ -177,6 +215,14 @@
     "gaps-count": {
       "main": {
         "value": "if(ceil({cover.numbers.main}) - 1 < 1, 0, ceil({cover.numbers.main}) - 1)",
+        "type": "sizing"
+      },
+      "widget-small": {
+        "value": "if(ceil({cover.numbers.widget-small}) - 1 < 1, 0, ceil({cover.numbers.widget-small}) - 1)",
+        "type": "sizing"
+      },
+      "widget-medium": {
+        "value": "if(ceil({cover.numbers.widget-medium}) - 1 < 1, 0, ceil({cover.numbers.widget-medium}) - 1)",
         "type": "sizing"
       },
       "vertical": {
