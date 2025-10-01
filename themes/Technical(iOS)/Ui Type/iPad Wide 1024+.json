@@ -6,7 +6,7 @@
         "type": "number"
       },
       "announces": {
-        "value": 5,
+        "value": 4,
         "type": "number"
       },
       "vertical": {
@@ -22,7 +22,7 @@
         "type": "number"
       },
       "square": {
-        "value": 3,
+        "value": 5,
         "type": "number"
       },
       "marketing": {
