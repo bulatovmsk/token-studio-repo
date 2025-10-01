@@ -6,7 +6,7 @@
         "type": "number"
       },
       "announces": {
-        "value": "2",
+        "value": 2,
         "type": "number"
       },
       "vertical": {
