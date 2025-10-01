@@ -80,7 +80,7 @@
         "type": "sizing"
       },
       "featured": {
-        "value": "({container.width} - (( {cover.gaps-count.featured} - 1)  *{spacing.150} )) / {cover.numbers.featured}",
+        "value": "({container.width} - ({cover.gaps-count.featured}  *{spacing.150} )) / {cover.numbers.featured}",
         "type": "sizing"
       },
       "widget-medium": {
