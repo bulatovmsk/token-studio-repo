@@ -77,6 +77,16 @@
           "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
           "type": "color",
           "description": "Замена на {{ Border/Decorative/on Light/Active Vertical }}"
+        },
+        "assistant-gradient": {
+          "value": "linear-gradient(0deg, {primitives.cobalt200} 0%, {primitives.cobalt1300} 100%)",
+          "type": "color",
+          "description": "Только для обводки ии ассистента "
+        },
+        "assistant-solid": {
+          "value": "rgba( {primitives.cobalt700} , 0.7)",
+          "type": "color",
+          "description": "Только для обводки ии ассистента "
         }
       },
       "solid": {
