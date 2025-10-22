@@ -106,6 +106,16 @@
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
+        "assistant-gradient": {
+          "value": "linear-gradient(0deg, {primitives.cobalt200} 0%, {primitives.cobalt1300} 100%)",
+          "type": "color",
+          "description": "Только для обводки ии ассистента "
+        },
+        "assistant-solid": {
+          "value": "rgba( {primitives.cobalt700} , 0.7)",
+          "type": "color",
+          "description": "Только для обводки ии ассистента "
+        },
         "active-vertical": {
           "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",

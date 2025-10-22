@@ -6,7 +6,7 @@
         "type": "number"
       },
       "widget-medium": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "vertical": {

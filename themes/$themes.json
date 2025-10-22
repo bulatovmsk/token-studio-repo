@@ -345,7 +345,9 @@
       "color.component.progress-bar.Step_1": "b46d4794305bacb96644808564fe41e558a684c6",
       "color.component.progress-bar.Step_2": "e26a28ff5f2ac7aefc4815a817dc7cb73e74a90e",
       "color.component.progress-bar.Step_3": "ab8eff2c6d46fe5ca8c9abcd1e247bd30bcecb41",
-      "color.component.progress-bar.Step_4": "5ce850df638fac8592d67b71112e300e48649eb4"
+      "color.component.progress-bar.Step_4": "5ce850df638fac8592d67b71112e300e48649eb4",
+      "color.border.decorative.assistant.step_1": "1565b3abae220312381d6c9eecfdf0bc47ddec63",
+      "color.border.decorative.assistant.step_2": "e91f1f8d855e8d0b09b1d762bfaad0132167b569"
     },
     "$figmaModeId": "32029:6",
     "$figmaCollectionId": "VariableCollectionId:32029:3962",
@@ -819,8 +821,9 @@
       "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
       "color.static.glassy.black": "bdfa45b417b76092ad8685739f93c95df3bb432d",
       "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a",
-      "color.shadow.accent-focus": "4e2988bc22cb856199e3f835fde53dec96f37a65",
-      "color.shadow.accent": "6995b255d64e98454ff24d1e53b2d81e7f534ae0"
+      "color.border.decorative.assistant-solid": "f34dbf502d4cdff4379921cb2956f80221cb8f96",
+      "color.shadow.accent-focus": "2f6f59b28e55d674b62851bcf1b08f3437ab42f0",
+      "color.shadow.accent": "f66dd1ef3a3d731f25c2008ea0205b36ece0d9bd"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
