@@ -59,6 +59,18 @@
             "value": "{primitives.white}",
             "type": "color"
           }
+        },
+        "assistant": {
+          "step_1": {
+            "value": "{primitives.cobalt200}",
+            "type": "color",
+            "description": "Только для обводки ии ассистента "
+          },
+          "step_2": {
+            "value": "{primitives.cobalt1300}",
+            "type": "color",
+            "description": "Только для обводки ии ассистента "
+          }
         }
       }
     },

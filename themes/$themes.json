@@ -592,7 +592,9 @@
       "color.component.progress-bar.Step_1": "b46d4794305bacb96644808564fe41e558a684c6",
       "color.component.progress-bar.Step_2": "e26a28ff5f2ac7aefc4815a817dc7cb73e74a90e",
       "color.component.progress-bar.Step_3": "ab8eff2c6d46fe5ca8c9abcd1e247bd30bcecb41",
-      "color.component.progress-bar.Step_4": "5ce850df638fac8592d67b71112e300e48649eb4"
+      "color.component.progress-bar.Step_4": "5ce850df638fac8592d67b71112e300e48649eb4",
+      "color.border.decorative.assistant.step_1": "1565b3abae220312381d6c9eecfdf0bc47ddec63",
+      "color.border.decorative.assistant.step_2": "e91f1f8d855e8d0b09b1d762bfaad0132167b569"
     },
     "$figmaModeId": "32029:7",
     "$figmaCollectionId": "VariableCollectionId:32029:3962",
