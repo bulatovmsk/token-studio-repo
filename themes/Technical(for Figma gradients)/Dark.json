@@ -62,7 +62,7 @@
         },
         "assistant": {
           "step_1": {
-            "value": "{primitives.cobalt200}",
+            "value": "{primitives.white}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           },

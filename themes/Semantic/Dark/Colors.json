@@ -107,7 +107,7 @@
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
         "assistant-gradient": {
-          "value": "linear-gradient(0deg, {primitives.cobalt200} 0%, {primitives.cobalt1300} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.cobalt1300} 100%)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
