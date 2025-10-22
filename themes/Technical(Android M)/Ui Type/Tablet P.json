@@ -75,22 +75,22 @@
     "sizes": {
       "main": {
         "value": {
-          "width": "{cover.width.main}",
-          "height": "{cover.height.main}"
+          "width": "189",
+          "height": "107"
         },
         "type": "composition"
       },
       "vertical": {
         "value": {
-          "width": "{cover.width.vertical}",
-          "height": "{cover.height.vertical}"
+          "width": "189",
+          "height": "283"
         },
         "type": "composition"
       },
       "large": {
         "value": {
-          "width": "{cover.width.large}",
-          "height": "{cover.height.large}"
+          "width": "390",
+          "height": "221"
         },
         "type": "composition"
       },
