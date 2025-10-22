@@ -96,15 +96,15 @@
       },
       "square-small-story": {
         "value": {
-          "width": "{cover.width.square-small-story}",
-          "height": "{cover.height.square-small-story}"
+          "width": "109",
+          "height": "109"
         },
         "type": "composition"
       },
       "square": {
         "value": {
-          "width": "{cover.width.square}",
-          "height": "{cover.height.square}"
+          "width": "189",
+          "height": "189"
         },
         "type": "composition"
       },
@@ -117,15 +117,15 @@
       },
       "marketing": {
         "value": {
-          "width": "{cover.width.marketing}",
-          "height": "{cover.height.marketing}"
+          "width": "290",
+          "height": "290"
         },
         "type": "composition"
       },
       "medium": {
         "value": {
-          "width": "{cover.width.medium}",
-          "height": "{cover.height.medium}"
+          "width": "290",
+          "height": "164"
         },
         "type": "composition"
       },
