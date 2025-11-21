@@ -121,6 +121,10 @@
         "value": "{corner-radius.1000} +6",
         "type": "borderRadius"
       }
+    },
+    "round": {
+      "value": "9999",
+      "type": "borderRadius"
     }
   },
   "spacing": {
