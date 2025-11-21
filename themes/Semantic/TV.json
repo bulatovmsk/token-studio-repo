@@ -60,6 +60,10 @@
       "value": "{corner-radius.base}*4.5",
       "type": "borderRadius"
     },
+    "round": {
+      "value": "9999",
+      "type": "borderRadius"
+    },
     "focus": {
       "100": {
         "value": "{corner-radius.100}+6",
@@ -121,10 +125,6 @@
         "value": "{corner-radius.1000} +6",
         "type": "borderRadius"
       }
-    },
-    "round": {
-      "value": "9999",
-      "type": "borderRadius"
     }
   },
   "spacing": {
