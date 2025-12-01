@@ -36,7 +36,7 @@
         "type": "color"
       },
       "sber-gradient": {
-        "value": "linear-gradient(132deg, #A3DD0F 0%, #37BC12 25%, #16B47D 73.82%, #0D9EB5 100%);",
+        "value": "linear-gradient(100deg, #A3DD0F 0%, #37BC12 25%, #16B47D 73.82%, #0D9EB5 100%);",
         "type": "color"
       }
     },
