@@ -204,7 +204,7 @@
         "type": "sizing"
       },
       "widget-small": {
-        "value": "ceil({cover.width.widget-small} / 16 * 9)",
+        "value": "ceil({cover.width.widget-small} / 16 * 8.24)",
         "type": "sizing"
       }
     },
