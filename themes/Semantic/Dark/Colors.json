@@ -467,5 +467,13 @@
         "description": "Для тени компонентов ИИ ассистента"
       }
     }
+  },
+  "brand": {
+    "partners": {
+      "sber": {
+        "value": "{primitives.external.sber1}",
+        "type": "color"
+      }
+    }
   }
 }
