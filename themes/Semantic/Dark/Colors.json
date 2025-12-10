@@ -386,6 +386,10 @@
       "progress-bar": {
         "value": "linear-gradient(270deg, {primitives.gray200} 0%, {primitives.gray200} 33%, {primitives.gray200} 67%, {primitives.gray200} 100%)",
         "type": "color"
+      },
+      "sber-button": {
+        "value": "{primitives.external.sber1}",
+        "type": "color"
       }
     },
     "background": {
@@ -465,14 +469,6 @@
         "value": "rgba({primitives.cobalt1000} , 0.3)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
-      }
-    }
-  },
-  "brand": {
-    "partners": {
-      "sber": {
-        "value": "{primitives.external.sber1}",
-        "type": "color"
       }
     }
   }
