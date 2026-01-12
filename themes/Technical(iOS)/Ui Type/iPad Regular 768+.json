@@ -34,7 +34,7 @@
         "type": "number"
       },
       "featured": {
-        "value": 1.5,
+        "value": 1.25,
         "type": "number"
       },
       "widget-medium": {
@@ -200,7 +200,7 @@
         "type": "sizing"
       },
       "featured": {
-        "value": "ceil({cover.width.featured} / 16 * 9)",
+        "value": "ceil({cover.width.featured} / 2)",
         "type": "sizing"
       },
       "widget-medium": {
