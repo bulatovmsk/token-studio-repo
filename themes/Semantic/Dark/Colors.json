@@ -95,6 +95,10 @@
         "type": "color",
         "description": "контур контента, чтобы не сливался с черным. Замена для {{ Border/Contour }}"
       },
+      "negative": {
+        "value": "{primitives.red700}",
+        "type": "color"
+      },
       "decorative": {
         "focus": {
           "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 52%, {primitives.white} 100%)",
