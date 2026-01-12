@@ -26,7 +26,7 @@
         "type": "number"
       },
       "featured": {
-        "value": 1.5,
+        "value": 1.4,
         "type": "number"
       },
       "medium": {
