@@ -113,6 +113,10 @@
         "value": "rgba( {primitives.black} , 0.1)",
         "type": "color",
         "description": "контур контента, чтобы не сливался с черным"
+      },
+      "negative": {
+        "value": "{primitives.red1100}",
+        "type": "color"
       }
     },
     "fill": {
