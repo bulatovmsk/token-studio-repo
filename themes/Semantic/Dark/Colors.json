@@ -96,7 +96,7 @@
         "description": "контур контента, чтобы не сливался с черным. Замена для {{ Border/Contour }}"
       },
       "negative": {
-        "value": "{primitives.red1100}",
+        "value": "{primitives.red1200}",
         "type": "color"
       },
       "decorative": {
@@ -165,7 +165,7 @@
           "description": "Положительные события. Замена для {{ Fill/Solid/Positive }}"
         },
         "negative": {
-          "value": "{primitives.red1100}",
+          "value": "{primitives.red1200}",
           "type": "color",
           "description": "Ошибки, критичные предупреждения. Замена для {{ Solid/Negative }}"
         },
