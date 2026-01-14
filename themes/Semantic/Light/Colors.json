@@ -115,7 +115,7 @@
         "description": "контур контента, чтобы не сливался с черным"
       },
       "negative": {
-        "value": "{primitives.red1100}",
+        "value": "{primitives.red600}",
         "type": "color"
       }
     },
