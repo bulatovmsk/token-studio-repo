@@ -1,1 +1,10 @@
-{}
+{
+  "component": {
+    "controll": {
+      "height": {
+        "value": "10",
+        "type": "sizing"
+      }
+    }
+  }
+}
