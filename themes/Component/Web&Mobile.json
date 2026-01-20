@@ -4,43 +4,43 @@
       "height": {
         "default": {
           "mobile": {
-            "value": "10",
+            "value": "48",
             "type": "sizing"
           },
           "tablet": {
-            "value": "10",
+            "value": "52",
             "type": "sizing"
           },
           "desktop": {
-            "value": "10",
+            "value": "58",
             "type": "sizing"
           }
         },
         "large": {
           "mobile": {
-            "value": "10",
+            "value": "58",
             "type": "sizing"
           },
           "tablet": {
-            "value": "10",
+            "value": "76",
             "type": "sizing"
           },
           "desktop": {
-            "value": "10",
+            "value": "96",
             "type": "sizing"
           }
         },
         "small": {
           "mobile": {
-            "value": "10",
+            "value": "32",
             "type": "sizing"
           },
           "tablet": {
-            "value": "10",
+            "value": "38",
             "type": "sizing"
           },
           "desktop": {
-            "value": "10",
+            "value": "42",
             "type": "sizing"
           }
         }
@@ -48,88 +48,134 @@
       "radius": {
         "default": {
           "mobile": {
-            "value": "10",
+            "value": "{corner-radius.450}",
             "type": "sizing"
           },
           "tablet": {
-            "value": "10",
+            "value": "{corner-radius.500}",
             "type": "sizing"
           },
           "desktop": {
-            "value": "10",
+            "value": "{corner-radius.600}",
             "type": "sizing"
           }
         },
         "large": {
           "mobile": {
-            "value": "10",
+            "value": "{corner-radius.500}",
             "type": "sizing"
           },
           "tablet": {
-            "value": "10",
+            "value": "{corner-radius.600}",
             "type": "sizing"
           },
           "desktop": {
-            "value": "10",
+            "value": "{corner-radius.700}",
             "type": "sizing"
           }
         },
         "small": {
           "mobile": {
-            "value": "10",
+            "value": "{corner-radius.400}",
             "type": "sizing"
           },
           "tablet": {
-            "value": "10",
+            "value": "{corner-radius.450}",
             "type": "sizing"
           },
           "desktop": {
-            "value": "10",
+            "value": "{corner-radius.500}",
             "type": "sizing"
           }
         }
       },
       "icon-size": {
-        "default": {
-          "mobile": {
-            "value": "10",
-            "type": "sizing"
+        "icon+text": {
+          "large": {
+            "mobile": {
+              "value": "22",
+              "type": "sizing"
+            },
+            "tablet": {
+              "value": "26",
+              "type": "sizing"
+            },
+            "desktop": {
+              "value": "28",
+              "type": "sizing"
+            }
           },
-          "tablet": {
-            "value": "10",
-            "type": "sizing"
+          "small": {
+            "mobile": {
+              "value": "14",
+              "type": "sizing"
+            },
+            "tablet": {
+              "value": "18",
+              "type": "sizing"
+            },
+            "desktop": {
+              "value": "22",
+              "type": "sizing"
+            }
           },
-          "desktop": {
-            "value": "10",
-            "type": "sizing"
+          "default": {
+            "mobile": {
+              "value": "18",
+              "type": "sizing"
+            },
+            "tablet": {
+              "value": "20",
+              "type": "sizing"
+            },
+            "desktop": {
+              "value": "26",
+              "type": "sizing"
+            }
           }
         },
-        "large": {
-          "mobile": {
-            "value": "10",
-            "type": "sizing"
+        "icon-only": {
+          "large": {
+            "mobile": {
+              "value": "24",
+              "type": "sizing"
+            },
+            "tablet": {
+              "value": "30",
+              "type": "sizing"
+            },
+            "desktop": {
+              "value": "38",
+              "type": "sizing"
+            }
           },
-          "tablet": {
-            "value": "10",
-            "type": "sizing"
+          "small": {
+            "mobile": {
+              "value": "16",
+              "type": "sizing"
+            },
+            "tablet": {
+              "value": "20",
+              "type": "sizing"
+            },
+            "desktop": {
+              "value": "24",
+              "type": "sizing"
+            }
           },
-          "desktop": {
-            "value": "10",
-            "type": "sizing"
-          }
-        },
-        "small": {
-          "mobile": {
-            "value": "10",
-            "type": "sizing"
-          },
-          "tablet": {
-            "value": "10",
-            "type": "sizing"
-          },
-          "desktop": {
-            "value": "10",
-            "type": "sizing"
+          "default": {
+            "mobile": {
+              "value": "22",
+              "type": "sizing"
+            },
+            "tablet": {
+              "value": "24",
+              "type": "sizing"
+            },
+            "desktop": {
+              "value": "28",
+              "type": "sizing"
+            }
           }
         }
       }
