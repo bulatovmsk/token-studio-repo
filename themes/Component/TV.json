@@ -1,0 +1,64 @@
+{
+  "component": {
+    "controll": {
+      "height": {
+        "default": {
+          "value": "48",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "58",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "32",
+          "type": "sizing"
+        }
+      },
+      "radius": {
+        "default": {
+          "value": "48",
+          "type": "sizing"
+        },
+        "large": {
+          "value": "58",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "32",
+          "type": "sizing"
+        }
+      },
+      "icon-size": {
+        "icon-only": {
+          "default": {
+            "value": "48",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "58",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "32",
+            "type": "sizing"
+          }
+        },
+        "icon+text": {
+          "default": {
+            "value": "48",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "58",
+            "type": "sizing"
+          },
+          "small": {
+            "value": "32",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}

@@ -58,7 +58,9 @@
           "desktop": {
             "value": "{corner-radius.600}",
             "type": "sizing"
-          }
+          },
+          "value": "48",
+          "type": "sizing"
         },
         "large": {
           "mobile": {
@@ -72,7 +74,9 @@
           "desktop": {
             "value": "{corner-radius.700}",
             "type": "sizing"
-          }
+          },
+          "value": "58",
+          "type": "sizing"
         },
         "small": {
           "mobile": {
@@ -86,7 +90,9 @@
           "desktop": {
             "value": "{corner-radius.500}",
             "type": "sizing"
-          }
+          },
+          "value": "32",
+          "type": "sizing"
         }
       },
       "icon-size": {
