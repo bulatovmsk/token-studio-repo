@@ -209,7 +209,7 @@
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid. Замена для {{ Fill/Glassy/Secondary }}"
         },
         "negative": {
-          "value": "rgba( {primitives.red900} , 0.2)",
+          "value": "rgba( {primitives.red900} , 0.3)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода. Замена для {{ Fill/Glassy/Negative }}"
         },
