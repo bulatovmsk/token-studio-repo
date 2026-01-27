@@ -178,6 +178,50 @@
             "type": "borderRadius"
           }
         }
+      },
+      "padding-left": {
+        "default": {
+          "mobile": {
+            "value": "18",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "20",
+            "type": "spacing"
+          },
+          "desktop": {
+            "value": "22",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "mobile": {
+            "value": "14",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "16",
+            "type": "spacing"
+          },
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "mobile": {
+            "value": "20",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "28",
+            "type": "spacing"
+          },
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          }
+        }
       }
     }
   }
