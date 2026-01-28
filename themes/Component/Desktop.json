@@ -121,6 +121,12 @@
           "type": "spacing"
         }
       }
+    },
+    "compensation": {
+      "desktop": {
+        "value": "4",
+        "type": "sizing"
+      }
     }
   }
 }
