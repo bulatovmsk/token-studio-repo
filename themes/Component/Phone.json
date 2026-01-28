@@ -121,6 +121,10 @@
           "type": "spacing"
         }
       }
+    },
+    "compensation": {
+      "value": "4",
+      "type": "sizing"
     }
   }
 }
