@@ -1,0 +1,126 @@
+{
+  "controll": {
+    "height": {
+      "default": {
+        "desktop": {
+          "value": "58",
+          "type": "sizing"
+        }
+      },
+      "large": {
+        "desktop": {
+          "value": "96",
+          "type": "sizing"
+        }
+      },
+      "small": {
+        "desktop": {
+          "value": "42",
+          "type": "sizing"
+        }
+      }
+    },
+    "icon-size": {
+      "icon+text": {
+        "large": {
+          "desktop": {
+            "value": "28",
+            "type": "sizing"
+          }
+        },
+        "small": {
+          "desktop": {
+            "value": "22",
+            "type": "sizing"
+          }
+        },
+        "default": {
+          "desktop": {
+            "value": "26",
+            "type": "sizing"
+          }
+        }
+      },
+      "icon-only": {
+        "large": {
+          "desktop": {
+            "value": "38",
+            "type": "sizing"
+          }
+        },
+        "small": {
+          "desktop": {
+            "value": "24",
+            "type": "sizing"
+          }
+        },
+        "default": {
+          "desktop": {
+            "value": "28",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "radius": {
+      "default": {
+        "desktop": {
+          "value": "{corner-radius.600}",
+          "type": "borderRadius"
+        }
+      },
+      "large": {
+        "desktop": {
+          "value": "{corner-radius.700}",
+          "type": "borderRadius"
+        }
+      },
+      "small": {
+        "desktop": {
+          "value": "{corner-radius.500}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "padding-horizontal": {
+      "default": {
+        "desktop": {
+          "value": "22",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "desktop": {
+          "value": "18",
+          "type": "spacing"
+        }
+      },
+      "large": {
+        "desktop": {
+          "value": "18",
+          "type": "spacing"
+        }
+      }
+    },
+    "gap": {
+      "default": {
+        "desktop": {
+          "value": "10",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "desktop": {
+          "value": "8",
+          "type": "spacing"
+        }
+      },
+      "large": {
+        "desktop": {
+          "value": "12",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}

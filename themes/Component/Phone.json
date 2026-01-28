@@ -1,0 +1,126 @@
+{
+  "controll": {
+    "height": {
+      "default": {
+        "mobile": {
+          "value": "48",
+          "type": "sizing"
+        }
+      },
+      "large": {
+        "mobile": {
+          "value": "58",
+          "type": "sizing"
+        }
+      },
+      "small": {
+        "mobile": {
+          "value": "32",
+          "type": "sizing"
+        }
+      }
+    },
+    "icon-size": {
+      "icon+text": {
+        "large": {
+          "mobile": {
+            "value": "22",
+            "type": "sizing"
+          }
+        },
+        "small": {
+          "mobile": {
+            "value": "14",
+            "type": "sizing"
+          }
+        },
+        "default": {
+          "mobile": {
+            "value": "18",
+            "type": "sizing"
+          }
+        }
+      },
+      "icon-only": {
+        "large": {
+          "mobile": {
+            "value": "24",
+            "type": "sizing"
+          }
+        },
+        "small": {
+          "mobile": {
+            "value": "16",
+            "type": "sizing"
+          }
+        },
+        "default": {
+          "mobile": {
+            "value": "22",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "radius": {
+      "default": {
+        "mobile": {
+          "value": "{corner-radius.450}",
+          "type": "borderRadius"
+        }
+      },
+      "large": {
+        "mobile": {
+          "value": "{corner-radius.500}",
+          "type": "borderRadius"
+        }
+      },
+      "small": {
+        "mobile": {
+          "value": "{corner-radius.400}",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "padding-horizontal": {
+      "default": {
+        "mobile": {
+          "value": "18",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "mobile": {
+          "value": "14",
+          "type": "spacing"
+        }
+      },
+      "large": {
+        "mobile": {
+          "value": "20",
+          "type": "spacing"
+        }
+      }
+    },
+    "gap": {
+      "default": {
+        "mobile": {
+          "value": "8",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "mobile": {
+          "value": "6",
+          "type": "spacing"
+        }
+      },
+      "large": {
+        "mobile": {
+          "value": "10",
+          "type": "spacing"
+        }
+      }
+    }
+  }
+}
