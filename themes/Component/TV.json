@@ -1,63 +1,93 @@
 {
-  "component": {
-    "controll": {
-      "height": {
+  "control": {
+    "height": {
+      "default": {
+        "value": "68",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "92",
+        "type": "sizing"
+      },
+      "small": {
+        "value": "60",
+        "type": "sizing"
+      }
+    },
+    "icon-size": {
+      "icon-only": {
         "default": {
-          "value": "48",
+          "value": "32",
           "type": "sizing"
         },
         "large": {
-          "value": "58",
+          "value": "40",
           "type": "sizing"
         },
         "small": {
-          "value": "32",
+          "value": "28",
           "type": "sizing"
         }
       },
-      "radius": {
+      "icon+text": {
         "default": {
-          "value": "48",
+          "value": "32",
           "type": "sizing"
         },
         "large": {
-          "value": "58",
+          "value": "40",
           "type": "sizing"
         },
         "small": {
-          "value": "32",
+          "value": "28",
           "type": "sizing"
         }
+      }
+    },
+    "padding-horizontal": {
+      "default": {
+        "value": "24",
+        "type": "spacing"
       },
-      "icon-size": {
-        "icon-only": {
-          "default": {
-            "value": "48",
-            "type": "sizing"
-          },
-          "large": {
-            "value": "58",
-            "type": "sizing"
-          },
-          "small": {
-            "value": "32",
-            "type": "sizing"
-          }
-        },
-        "icon+text": {
-          "default": {
-            "value": "48",
-            "type": "sizing"
-          },
-          "large": {
-            "value": "58",
-            "type": "sizing"
-          },
-          "small": {
-            "value": "32",
-            "type": "sizing"
-          }
-        }
+      "large": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "20",
+        "type": "spacing"
+      }
+    },
+    "compensation": {
+      "value": "4",
+      "type": "sizing"
+    },
+    "gap": {
+      "default": {
+        "value": "{corner-radius.475}",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "8",
+        "type": "spacing"
+      }
+    },
+    "radius": {
+      "default": {
+        "value": "{corner-radius.475}",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "{corner-radius.550}",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "{corner-radius.450}",
+        "type": "borderRadius"
       }
     }
   }
