@@ -354,6 +354,10 @@
         "sky": {
           "value": "linear-gradient(90deg, {primitives.blue100} 0%, {primitives.blue500} 100%)",
           "type": "color"
+        },
+        "offer": {
+          "value": "{primitives.yellow300}",
+          "type": "color"
         }
       },
       "sber-button": {
