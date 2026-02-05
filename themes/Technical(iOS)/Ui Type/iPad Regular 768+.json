@@ -34,7 +34,7 @@
         "type": "number"
       },
       "featured": {
-        "value": 1,
+        "value": 1.16,
         "type": "number"
       },
       "widget-medium": {
