@@ -17,8 +17,12 @@
         "value": "3",
         "type": "number"
       },
+      "square-medium": {
+        "value": 3,
+        "type": "number"
+      },
       "square": {
-        "value": "2",
+        "value": 2.5,
         "type": "number"
       },
       "marketing": {
@@ -61,6 +65,10 @@
       },
       "square-small-story": {
         "value": "({container.width} - ( {cover.gaps-count.square-small-story}  *{spacing.125} )) / {cover.numbers.square-small-story}",
+        "type": "sizing"
+      },
+      "square-medium": {
+        "value": "({container.width} - ( {cover.gaps-count.square-medium}  *{spacing.125} )) / {cover.numbers.square-medium}",
         "type": "sizing"
       },
       "square": {
@@ -114,6 +122,13 @@
         "value": {
           "width": "{cover.width.square-small-story}",
           "height": "{cover.height.square-small-story}"
+        },
+        "type": "composition"
+      },
+      "square-medium": {
+        "value": {
+          "width": "{cover.width.square-medium}",
+          "height": "{cover.height.square-medium}"
         },
         "type": "composition"
       },
@@ -227,6 +242,10 @@
       },
       "square-small-story": {
         "value": "if(ceil({cover.numbers.square-small-story}) - 1 < 1, 0, ceil({cover.numbers.square-small-story}) - 1)",
+        "type": "sizing"
+      },
+      "square-medium": {
+        "value": "if(ceil({cover.numbers.square-medium}) - 1 < 1, 0, ceil({cover.numbers.square-medium}) - 1)",
         "type": "sizing"
       },
       "square": {

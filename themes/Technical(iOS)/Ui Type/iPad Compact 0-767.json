@@ -21,6 +21,10 @@
         "value": "3",
         "type": "number"
       },
+      "square-medium": {
+        "value": 3,
+        "type": "number"
+      },
       "marketing": {
         "value": "1.5",
         "type": "number"
@@ -79,6 +83,10 @@
         "value": "({container.width} - ( {cover.gaps-count.square} *{spacing.150} )) / {cover.numbers.square}",
         "type": "sizing"
       },
+      "square-medium": {
+        "value": "({container.width} - ( {cover.gaps-count.square-medium} *{spacing.150} )) / {cover.numbers.square-medium}",
+        "type": "sizing"
+      },
       "marketing": {
         "value": "({container.width} - ( {cover.gaps-count.marketing}  *{spacing.150} )) / {cover.numbers.marketing}",
         "type": "sizing"
@@ -131,6 +139,13 @@
         "value": {
           "width": "{cover.width.square}",
           "height": "{cover.height.square}"
+        },
+        "type": "composition"
+      },
+      "square-medium": {
+        "value": {
+          "width": "{cover.width.square-medium}",
+          "height": "{cover.height.square-medium}"
         },
         "type": "composition"
       },
@@ -199,6 +214,10 @@
         "value": "ceil({cover.width.square})",
         "type": "sizing"
       },
+      "square-medium": {
+        "value": "ceil({cover.width.square-medium})",
+        "type": "sizing"
+      },
       "marketing": {
         "value": "ceil({cover.width.marketing})",
         "type": "sizing"
@@ -235,6 +254,10 @@
       },
       "square": {
         "value": "if(ceil({cover.numbers.square}) - 1 < 1, 0, ceil({cover.numbers.square}) - 1)",
+        "type": "sizing"
+      },
+      "square-medium": {
+        "value": "if(ceil({cover.numbers.square-medium}) - 1 < 1, 0, ceil({cover.numbers.square-medium}) - 1)",
         "type": "sizing"
       },
       "marketing": {
