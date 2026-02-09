@@ -18,11 +18,11 @@
         "type": "number"
       },
       "square-medium": {
-        "value": 2,
+        "value": "2",
         "type": "number"
       },
       "square": {
-        "value": 2.5,
+        "value": "2.5",
         "type": "number"
       },
       "marketing": {

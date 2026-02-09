@@ -22,7 +22,7 @@
         "type": "number"
       },
       "square-medium": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       },
       "marketing": {
@@ -30,7 +30,7 @@
         "type": "number"
       },
       "featured": {
-        "value": 1.16,
+        "value": "1.16",
         "type": "number"
       },
       "medium": {

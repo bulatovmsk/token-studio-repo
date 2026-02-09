@@ -44,37 +44,39 @@
         }
       }
     },
-    "padding-horizontal": {
-      "default": {
-        "value": "24",
-        "type": "spacing"
+    "icon+text": {
+      "padding-horizontal": {
+        "default": {
+          "value": "24",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "32",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "20",
+          "type": "spacing"
+        }
       },
-      "large": {
-        "value": "32",
-        "type": "spacing"
-      },
-      "small": {
-        "value": "20",
-        "type": "spacing"
+      "gap": {
+        "default": {
+          "value": "{corner-radius.475}",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "12",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "8",
+          "type": "spacing"
+        }
       }
     },
     "compensation": {
       "value": "4",
       "type": "sizing"
-    },
-    "gap": {
-      "default": {
-        "value": "{corner-radius.475}",
-        "type": "spacing"
-      },
-      "large": {
-        "value": "12",
-        "type": "spacing"
-      },
-      "small": {
-        "value": "8",
-        "type": "spacing"
-      }
     },
     "radius": {
       "default": {
@@ -88,6 +90,26 @@
       "small": {
         "value": "{corner-radius.450}",
         "type": "borderRadius"
+      }
+    },
+    "icon-only": {
+      "padding-horizontal": {
+        "default": {
+          "value": "18",
+          "type": "spacing"
+        },
+        "small": {
+          "value": "14",
+          "type": "spacing"
+        },
+        "large": {
+          "value": "20",
+          "type": "spacing"
+        },
+        "extra-small": {
+          "value": "8",
+          "type": "spacing"
+        }
       }
     }
   }

@@ -82,43 +82,45 @@
         }
       }
     },
-    "padding-horizontal": {
-      "default": {
-        "desktop": {
-          "value": "22",
-          "type": "spacing"
+    "icon+text": {
+      "padding-horizontal": {
+        "default": {
+          "desktop": {
+            "value": "22",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          }
         }
       },
-      "small": {
-        "desktop": {
-          "value": "18",
-          "type": "spacing"
-        }
-      },
-      "large": {
-        "desktop": {
-          "value": "18",
-          "type": "spacing"
-        }
-      }
-    },
-    "gap": {
-      "default": {
-        "desktop": {
-          "value": "10",
-          "type": "spacing"
-        }
-      },
-      "small": {
-        "desktop": {
-          "value": "8",
-          "type": "spacing"
-        }
-      },
-      "large": {
-        "desktop": {
-          "value": "12",
-          "type": "spacing"
+      "gap": {
+        "default": {
+          "desktop": {
+            "value": "10",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "desktop": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "desktop": {
+            "value": "12",
+            "type": "spacing"
+          }
         }
       }
     },
@@ -126,6 +128,34 @@
       "desktop": {
         "value": "4",
         "type": "sizing"
+      }
+    },
+    "icon-only": {
+      "padding-horizontal": {
+        "default": {
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "desktop": {
+            "value": "14",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "desktop": {
+            "value": "20",
+            "type": "spacing"
+          }
+        },
+        "extra-small": {
+          "desktop": {
+            "value": "8",
+            "type": "spacing"
+          }
+        }
       }
     }
   }

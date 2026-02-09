@@ -106,55 +106,57 @@
         }
       }
     },
-    "padding-horizontal": {
-      "default": {
-        "tablet": {
-          "value": "20",
-          "type": "spacing"
+    "icon+text": {
+      "padding-horizontal": {
+        "default": {
+          "tablet": {
+            "value": "20",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "tablet": {
+            "value": "16",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "tablet": {
+            "value": "28",
+            "type": "spacing"
+          }
+        },
+        "extra-small": {
+          "tablet": {
+            "value": "10",
+            "type": "spacing"
+          }
         }
       },
-      "small": {
-        "tablet": {
-          "value": "16",
-          "type": "spacing"
-        }
-      },
-      "large": {
-        "tablet": {
-          "value": "28",
-          "type": "spacing"
-        }
-      },
-      "extra-small": {
-        "tablet": {
-          "value": "10",
-          "type": "spacing"
-        }
-      }
-    },
-    "gap": {
-      "default": {
-        "tablet": {
-          "value": "8",
-          "type": "spacing"
-        }
-      },
-      "small": {
-        "tablet": {
-          "value": "8",
-          "type": "spacing"
-        }
-      },
-      "large": {
-        "tablet": {
-          "value": "10",
-          "type": "spacing"
-        }
-      },
-      "extra-small": {
-        "tablet": {
-          "value": "6",
-          "type": "spacing"
+      "gap": {
+        "default": {
+          "tablet": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "tablet": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "tablet": {
+            "value": "10",
+            "type": "spacing"
+          }
+        },
+        "extra-small": {
+          "tablet": {
+            "value": "6",
+            "type": "spacing"
+          }
         }
       }
     },
@@ -162,6 +164,34 @@
       "tablet": {
         "value": "4",
         "type": "sizing"
+      }
+    },
+    "icon-only": {
+      "padding-horizontal": {
+        "default": {
+          "tablet": {
+            "value": "18",
+            "type": "spacing"
+          }
+        },
+        "small": {
+          "tablet": {
+            "value": "14",
+            "type": "spacing"
+          }
+        },
+        "large": {
+          "tablet": {
+            "value": "20",
+            "type": "spacing"
+          }
+        },
+        "extra-small": {
+          "tablet": {
+            "value": "8",
+            "type": "spacing"
+          }
+        }
       }
     }
   }
