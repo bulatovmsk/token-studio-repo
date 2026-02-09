@@ -136,13 +136,13 @@
       "icon-only": {
         "default": {
           "tablet": {
-            "value": "18",
+            "value": "14",
             "type": "spacing"
           }
         },
         "small": {
           "tablet": {
-            "value": "14",
+            "value": "10",
             "type": "spacing"
           }
         },

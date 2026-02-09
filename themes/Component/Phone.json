@@ -136,13 +136,13 @@
       "icon-only": {
         "default": {
           "phone": {
-            "value": "18",
+            "value": "13",
             "type": "spacing"
           }
         },
         "small": {
           "phone": {
-            "value": "14",
+            "value": "8",
             "type": "spacing"
           }
         },
