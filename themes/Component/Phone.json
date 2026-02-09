@@ -27,7 +27,7 @@
       }
     },
     "icon-size": {
-      "icon+text": {
+      "text-icon": {
         "large": {
           "phone": {
             "value": "22",
@@ -106,8 +106,8 @@
         }
       }
     },
-    "icon+text": {
-      "padding-horizontal": {
+    "padding-horizontal": {
+      "text-icon": {
         "default": {
           "phone": {
             "value": "18",
@@ -133,41 +133,7 @@
           }
         }
       },
-      "gap": {
-        "default": {
-          "phone": {
-            "value": "8",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "phone": {
-            "value": "6",
-            "type": "spacing"
-          }
-        },
-        "large": {
-          "phone": {
-            "value": "10",
-            "type": "spacing"
-          }
-        },
-        "extra-small": {
-          "phone": {
-            "value": "4",
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "compensation": {
-      "phone": {
-        "value": "4",
-        "type": "sizing"
-      }
-    },
-    "icon-only": {
-      "padding-horizontal": {
+      "icon-only": {
         "default": {
           "phone": {
             "value": "18",
@@ -192,6 +158,38 @@
             "type": "spacing"
           }
         }
+      }
+    },
+    "gap": {
+      "default": {
+        "phone": {
+          "value": "8",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "phone": {
+          "value": "6",
+          "type": "spacing"
+        }
+      },
+      "large": {
+        "phone": {
+          "value": "10",
+          "type": "spacing"
+        }
+      },
+      "extra-small": {
+        "phone": {
+          "value": "4",
+          "type": "spacing"
+        }
+      }
+    },
+    "compensation": {
+      "phone": {
+        "value": "4",
+        "type": "sizing"
       }
     }
   }
