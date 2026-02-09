@@ -160,7 +160,7 @@
         }
       }
     },
-    "gap": {
+    "gap-horizontal": {
       "default": {
         "tablet": {
           "value": "8",
@@ -190,6 +190,20 @@
       "tablet": {
         "value": "4",
         "type": "sizing"
+      }
+    },
+    "gap-vertical": {
+      "default": {
+        "tablet": {
+          "value": "10",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "tablet": {
+          "value": "8",
+          "type": "spacing"
+        }
       }
     }
   }

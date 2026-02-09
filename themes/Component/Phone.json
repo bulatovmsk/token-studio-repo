@@ -160,7 +160,7 @@
         }
       }
     },
-    "gap": {
+    "gap-horizontal": {
       "default": {
         "phone": {
           "value": "8",
@@ -190,6 +190,20 @@
       "phone": {
         "value": "4",
         "type": "sizing"
+      }
+    },
+    "gap-vertical": {
+      "default": {
+        "phone": {
+          "value": "8",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "phone": {
+          "value": "6",
+          "type": "spacing"
+        }
       }
     }
   }

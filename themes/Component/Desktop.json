@@ -130,7 +130,7 @@
         }
       }
     },
-    "gap": {
+    "gap-horizontal": {
       "default": {
         "desktop": {
           "value": "10",
@@ -154,6 +154,20 @@
       "desktop": {
         "value": "4",
         "type": "sizing"
+      }
+    },
+    "gap-vertical": {
+      "default": {
+        "desktop": {
+          "value": "18",
+          "type": "spacing"
+        }
+      },
+      "small": {
+        "desktop": {
+          "value": "14",
+          "type": "spacing"
+        }
       }
     }
   }
