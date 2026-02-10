@@ -1,29 +1,27 @@
 {
   "control": {
-    "height": {
-      "default": {
-        "tablet": {
-          "value": "52",
-          "type": "sizing"
-        }
-      },
-      "large": {
-        "tablet": {
-          "value": "76",
-          "type": "sizing"
-        }
-      },
-      "small": {
-        "tablet": {
-          "value": "40",
-          "type": "sizing"
-        }
-      },
-      "extra-small": {
-        "tablet": {
-          "value": "32",
-          "type": "sizing"
-        }
+    "default": {
+      "height": {
+        "value": "52",
+        "type": "sizing"
+      }
+    },
+    "large": {
+      "height": {
+        "value": "76",
+        "type": "sizing"
+      }
+    },
+    "small": {
+      "height": {
+        "value": "40",
+        "type": "sizing"
+      }
+    },
+    "extra-small": {
+      "height": {
+        "value": "32",
+        "type": "sizing"
       }
     },
     "icon-size": {

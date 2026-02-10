@@ -22,7 +22,7 @@
         "type": "number"
       },
       "square-medium": {
-        "value": 3,
+        "value": "3",
         "type": "number"
       },
       "marketing": {

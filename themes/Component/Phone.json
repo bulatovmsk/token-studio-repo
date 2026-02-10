@@ -1,210 +1,152 @@
 {
   "control": {
-    "height": {
-      "default": {
-        "phone": {
-          "value": "48",
-          "type": "sizing"
-        }
+    "default": {
+      "height": {
+        "value": "48",
+        "type": "sizing"
       },
-      "large": {
-        "phone": {
-          "value": "58",
-          "type": "sizing"
-        }
-      },
-      "small": {
-        "phone": {
-          "value": "36",
-          "type": "sizing"
-        }
-      },
-      "extra-small": {
-        "phone": {
-          "value": "28",
-          "type": "sizing"
-        }
-      }
-    },
-    "icon-size": {
       "text-icon": {
-        "large": {
-          "phone": {
-            "value": "22",
-            "type": "sizing"
-          }
+        "icon-size": {
+          "value": "18",
+          "type": "sizing"
         },
-        "small": {
-          "phone": {
-            "value": "14",
-            "type": "sizing"
-          }
+        "padding-horizontal": {
+          "value": "18",
+          "type": "spacing"
         },
-        "default": {
-          "phone": {
-            "value": "18",
-            "type": "sizing"
-          }
+        "gap-horizontal": {
+          "value": "8",
+          "type": "spacing"
         },
-        "extra-small": {
-          "phone": {
-            "value": "12",
-            "type": "sizing"
-          }
-        }
-      },
-      "icon-only": {
-        "large": {
-          "phone": {
-            "value": "26",
-            "type": "sizing"
-          }
-        },
-        "small": {
-          "phone": {
-            "value": "18",
-            "type": "sizing"
-          }
-        },
-        "default": {
-          "phone": {
-            "value": "22",
-            "type": "sizing"
-          }
-        },
-        "extra-small": {
-          "phone": {
-            "value": "16",
-            "type": "sizing"
-          }
-        }
-      }
-    },
-    "radius": {
-      "default": {
-        "phone": {
-          "value": "{corner-radius.450}",
-          "type": "borderRadius"
-        }
-      },
-      "large": {
-        "phone": {
-          "value": "{corner-radius.500}",
-          "type": "borderRadius"
-        }
-      },
-      "small": {
-        "phone": {
-          "value": "{corner-radius.400}",
-          "type": "borderRadius"
-        }
-      },
-      "extra-small": {
-        "phone": {
-          "value": "{corner-radius.300}",
-          "type": "borderRadius"
-        }
-      }
-    },
-    "padding-horizontal": {
-      "text-icon": {
-        "default": {
-          "phone": {
-            "value": "18",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "phone": {
-            "value": "14",
-            "type": "spacing"
-          }
-        },
-        "large": {
-          "phone": {
-            "value": "20",
-            "type": "spacing"
-          }
-        },
-        "extra-small": {
-          "phone": {
-            "value": "8",
-            "type": "spacing"
-          }
-        }
-      },
-      "icon-only": {
-        "default": {
-          "phone": {
-            "value": "13",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "phone": {
-            "value": "9",
-            "type": "spacing"
-          }
-        },
-        "large": {
-          "phone": {
-            "value": "20",
-            "type": "spacing"
-          }
-        },
-        "extra-small": {
-          "phone": {
-            "value": "8",
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "gap-horizontal": {
-      "default": {
-        "phone": {
+        "gap-vertical": {
           "value": "8",
           "type": "spacing"
         }
       },
-      "small": {
-        "phone": {
-          "value": "6",
+      "icon-only": {
+        "icon-size": {
+          "value": "22",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "13",
           "type": "spacing"
         }
       },
-      "large": {
-        "phone": {
+      "radius": {
+        "value": "{corner-radius.450}",
+        "type": "borderRadius"
+      }
+    },
+    "large": {
+      "height": {
+        "value": "58",
+        "type": "sizing"
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "22",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        },
+        "gap-horizontal": {
           "value": "10",
           "type": "spacing"
         }
       },
-      "extra-small": {
-        "phone": {
+      "icon-only": {
+        "icon-size": {
+          "value": "26",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "value": "{corner-radius.500}",
+        "type": "borderRadius"
+      }
+    },
+    "small": {
+      "height": {
+        "value": "36",
+        "type": "sizing"
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "14",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "14",
+          "type": "spacing"
+        },
+        "gap-horizontal": {
+          "value": "6",
+          "type": "spacing"
+        },
+        "gap-vertical": {
+          "value": "6",
+          "type": "spacing"
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "18",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "9",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "value": "{corner-radius.400}",
+        "type": "borderRadius"
+      }
+    },
+    "extra-small": {
+      "height": {
+        "value": "28",
+        "type": "sizing"
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "12",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "gap-horizontal": {
           "value": "4",
           "type": "spacing"
         }
-      }
-    },
-    "compensation": {
-      "phone": {
-        "value": "4",
-        "type": "sizing"
-      }
-    },
-    "gap-vertical": {
-      "default": {
-        "phone": {
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "16",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
           "value": "8",
           "type": "spacing"
         }
       },
-      "small": {
-        "phone": {
-          "value": "6",
-          "type": "spacing"
-        }
+      "radius": {
+        "value": "{corner-radius.300}",
+        "type": "borderRadius"
       }
+    },
+    "compensation": {
+      "value": "4",
+      "type": "sizing"
     }
   }
 }
