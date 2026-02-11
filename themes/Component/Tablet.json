@@ -4,204 +4,150 @@
       "height": {
         "value": "52",
         "type": "sizing"
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "20",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "24",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "14",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "value": "{corner-radius.500}",
+        "type": "borderRadius"
+      },
+      "gap-horizontal": {
+        "value": "10",
+        "type": "spacing"
+      },
+      "gap-vertical": {
+        "value": "10",
+        "type": "spacing"
       }
     },
     "large": {
       "height": {
         "value": "76",
         "type": "sizing"
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "26",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "28",
+          "type": "spacing"
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "32",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "value": "{corner-radius.600}",
+        "type": "borderRadius"
+      },
+      "gap-horizontal": {
+        "value": "12",
+        "type": "spacing"
       }
     },
     "small": {
       "height": {
         "value": "40",
         "type": "sizing"
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "18",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "16",
+          "type": "spacing"
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "20",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "10",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "value": "{corner-radius.450}",
+        "type": "borderRadius"
+      },
+      "gap-horizontal": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "gap-vertical": {
+        "value": "8",
+        "type": "spacing"
       }
     },
     "extra-small": {
       "height": {
         "value": "32",
         "type": "sizing"
-      }
-    },
-    "icon-size": {
+      },
       "text-icon": {
-        "large": {
-          "tablet": {
-            "value": "26",
-            "type": "sizing"
-          }
+        "icon-size": {
+          "value": "16",
+          "type": "sizing"
         },
-        "small": {
-          "tablet": {
-            "value": "18",
-            "type": "sizing"
-          }
-        },
-        "default": {
-          "tablet": {
-            "value": "20",
-            "type": "sizing"
-          }
-        },
-        "extra-small": {
-          "tablet": {
-            "value": "16",
-            "type": "sizing"
-          }
-        }
-      },
-      "icon-only": {
-        "large": {
-          "tablet": {
-            "value": "32",
-            "type": "sizing"
-          }
-        },
-        "small": {
-          "tablet": {
-            "value": "20",
-            "type": "sizing"
-          }
-        },
-        "default": {
-          "tablet": {
-            "value": "24",
-            "type": "sizing"
-          }
-        },
-        "extra-small": {
-          "tablet": {
-            "value": "18",
-            "type": "sizing"
-          }
-        }
-      }
-    },
-    "radius": {
-      "default": {
-        "tablet": {
-          "value": "{corner-radius.500}",
-          "type": "borderRadius"
-        }
-      },
-      "large": {
-        "tablet": {
-          "value": "{corner-radius.600}",
-          "type": "borderRadius"
-        }
-      },
-      "small": {
-        "tablet": {
-          "value": "{corner-radius.450}",
-          "type": "borderRadius"
-        }
-      },
-      "extra-small": {
-        "tablet": {
-          "value": "{corner-radius.400}",
-          "type": "borderRadius"
-        }
-      }
-    },
-    "padding-horizontal": {
-      "text-icon": {
-        "default": {
-          "tablet": {
-            "value": "20",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "tablet": {
-            "value": "16",
-            "type": "spacing"
-          }
-        },
-        "large": {
-          "tablet": {
-            "value": "28",
-            "type": "spacing"
-          }
-        },
-        "extra-small": {
-          "tablet": {
-            "value": "10",
-            "type": "spacing"
-          }
-        }
-      },
-      "icon-only": {
-        "default": {
-          "tablet": {
-            "value": "14",
-            "type": "spacing"
-          }
-        },
-        "small": {
-          "tablet": {
-            "value": "10",
-            "type": "spacing"
-          }
-        },
-        "large": {
-          "tablet": {
-            "value": "20",
-            "type": "spacing"
-          }
-        },
-        "extra-small": {
-          "tablet": {
-            "value": "8",
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "gap-horizontal": {
-      "default": {
-        "tablet": {
+        "padding-horizontal": {
           "value": "10",
           "type": "spacing"
         }
       },
-      "small": {
-        "tablet": {
+      "icon-only": {
+        "icon-size": {
+          "value": "18",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
           "value": "8",
           "type": "spacing"
         }
       },
-      "large": {
-        "tablet": {
-          "value": "12",
-          "type": "spacing"
-        }
+      "radius": {
+        "value": "{corner-radius.400}",
+        "type": "borderRadius"
       },
-      "extra-small": {
-        "tablet": {
-          "value": "6",
-          "type": "spacing"
-        }
+      "gap-horizontal": {
+        "value": "6",
+        "type": "spacing"
       }
     },
     "compensation": {
       "tablet": {
         "value": "4",
         "type": "sizing"
-      }
-    },
-    "gap-vertical": {
-      "default": {
-        "tablet": {
-          "value": "10",
-          "type": "spacing"
-        }
-      },
-      "small": {
-        "tablet": {
-          "value": "8",
-          "type": "spacing"
-        }
       }
     }
   }
