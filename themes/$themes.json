@@ -1042,7 +1042,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Component/Phone": "enabled"
+      "Component/Phone 0+": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:35301:16764",
     "$figmaModeId": "35301:2",
@@ -1088,7 +1088,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Semantic/Web&Mobile": "source",
-      "Component/Tablet": "enabled"
+      "Component/Tablet 600+": "enabled"
     },
     "group": "Component",
     "$figmaCollectionId": "VariableCollectionId:35301:16764",
@@ -1134,7 +1134,7 @@
     "selectedTokenSets": {
       "Semantic/Web&Mobile": "source",
       "Primitives": "source",
-      "Component/Desktop": "enabled"
+      "Component/Desktop 1720+": "enabled"
     },
     "$figmaVariableReferences": {
       "controll.icon-compensation": "196b283fccbb747762a602df626f5ba3341a7ae7",
