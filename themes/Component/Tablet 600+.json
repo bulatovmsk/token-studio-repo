@@ -145,10 +145,8 @@
       }
     },
     "compensation": {
-      "tablet": {
-        "value": "4",
-        "type": "sizing"
-      }
+      "value": "4",
+      "type": "sizing"
     }
   }
 }
