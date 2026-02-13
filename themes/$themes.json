@@ -1076,12 +1076,12 @@
       "control.large.text-icon.gap-horizontal": "1510920210baf22b85f6febd28b3fcdcddbf5812",
       "control.small.text-icon.gap-horizontal": "db58ed7070b6648a7cc62596ffd49d67a1f4d446",
       "control.small.text-icon.gap-vertical": "4f27e7c17f923241e0d39874992990ab85a233fb",
-      "control.extra-small.height": "0bb3915d1adea6f47be4836dc32365c705db65f8",
-      "control.extra-small.text-icon.icon-size": "3f19129fe38f02da4c6d88738802be0fc6d8fb7e",
-      "control.extra-small.text-icon.padding-horizontal": "41eb3bb79fa44d3b9e14247275411158fe3347d2",
-      "control.extra-small.text-icon.gap-horizontal": "aa2973e0845024c2e3c100f298c96e735a2adeed",
-      "control.extra-small.icon-only.icon-size": "1b2d9e9a3fae6402e394e07e94ab726edcd1d2e3",
-      "control.extra-small.radius": "5295baaf41f54ecb0db6f145a432f4bf3f191868"
+      "control.extra-small.height": "8a490c53f9e5dcbcc26fe4d3ca6d013a56ce321a",
+      "control.extra-small.text-icon.icon-size": "f15805fed9baf92381084fb7509e55ff53333504",
+      "control.extra-small.text-icon.padding-horizontal": "c42e794e1b39a65aae73f2f957e7932e9afb7e62",
+      "control.extra-small.text-icon.gap-horizontal": "b3e3446e10eb72360f7f38ff49ca20a0b53c30e1",
+      "control.extra-small.icon-only.icon-size": "063d7441ed06ba6c211c1841993f48086e32f85a",
+      "control.extra-small.radius": "b91da9e96c01f53f74a747d8f7e1607436fe9b44"
     },
     "group": "Component"
   },
@@ -1123,12 +1123,12 @@
       "control.large.text-icon.gap-horizontal": "1510920210baf22b85f6febd28b3fcdcddbf5812",
       "control.small.text-icon.gap-horizontal": "db58ed7070b6648a7cc62596ffd49d67a1f4d446",
       "control.small.text-icon.gap-vertical": "4f27e7c17f923241e0d39874992990ab85a233fb",
-      "control.extra-small.height": "0bb3915d1adea6f47be4836dc32365c705db65f8",
-      "control.extra-small.text-icon.icon-size": "3f19129fe38f02da4c6d88738802be0fc6d8fb7e",
-      "control.extra-small.text-icon.padding-horizontal": "41eb3bb79fa44d3b9e14247275411158fe3347d2",
-      "control.extra-small.text-icon.gap-horizontal": "aa2973e0845024c2e3c100f298c96e735a2adeed",
-      "control.extra-small.icon-only.icon-size": "1b2d9e9a3fae6402e394e07e94ab726edcd1d2e3",
-      "control.extra-small.radius": "5295baaf41f54ecb0db6f145a432f4bf3f191868"
+      "control.extra-small.height": "8a490c53f9e5dcbcc26fe4d3ca6d013a56ce321a",
+      "control.extra-small.text-icon.icon-size": "f15805fed9baf92381084fb7509e55ff53333504",
+      "control.extra-small.text-icon.padding-horizontal": "c42e794e1b39a65aae73f2f957e7932e9afb7e62",
+      "control.extra-small.text-icon.gap-horizontal": "b3e3446e10eb72360f7f38ff49ca20a0b53c30e1",
+      "control.extra-small.icon-only.icon-size": "063d7441ed06ba6c211c1841993f48086e32f85a",
+      "control.extra-small.radius": "b91da9e96c01f53f74a747d8f7e1607436fe9b44"
     }
   },
   {
