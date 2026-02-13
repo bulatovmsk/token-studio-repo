@@ -1076,12 +1076,12 @@
       "control.large.text-icon.gap-horizontal": "1510920210baf22b85f6febd28b3fcdcddbf5812",
       "control.small.text-icon.gap-horizontal": "db58ed7070b6648a7cc62596ffd49d67a1f4d446",
       "control.small.text-icon.gap-vertical": "4f27e7c17f923241e0d39874992990ab85a233fb",
-      "control.extra-small.height": "169ecb194d0e3174cb0d5123413aa6b03c02b466",
-      "control.extra-small.text-icon.icon-size": "178ee6dbfdd15d07d09ee842a9977802cefea341",
-      "control.extra-small.text-icon.padding-horizontal": "65584b3d1735090eeefa93c34dcea27d21121f92",
-      "control.extra-small.icon-only.icon-size": "dbb59a081e735d4fa79de988164b145833a15dd9",
-      "control.extra-small.radius": "62968949d3070377a8dfa84da6c9764e258b6785",
-      "control.extra-small.text-icon.gap-horizontal": "40c30b9591174ce7fa3d2d90a06c9ad1406f3871"
+      "control.extra-small.height": "0bb3915d1adea6f47be4836dc32365c705db65f8",
+      "control.extra-small.text-icon.icon-size": "3f19129fe38f02da4c6d88738802be0fc6d8fb7e",
+      "control.extra-small.text-icon.padding-horizontal": "41eb3bb79fa44d3b9e14247275411158fe3347d2",
+      "control.extra-small.text-icon.gap-horizontal": "aa2973e0845024c2e3c100f298c96e735a2adeed",
+      "control.extra-small.icon-only.icon-size": "1b2d9e9a3fae6402e394e07e94ab726edcd1d2e3",
+      "control.extra-small.radius": "5295baaf41f54ecb0db6f145a432f4bf3f191868"
     },
     "group": "Component"
   },
@@ -1123,12 +1123,12 @@
       "control.large.text-icon.gap-horizontal": "1510920210baf22b85f6febd28b3fcdcddbf5812",
       "control.small.text-icon.gap-horizontal": "db58ed7070b6648a7cc62596ffd49d67a1f4d446",
       "control.small.text-icon.gap-vertical": "4f27e7c17f923241e0d39874992990ab85a233fb",
-      "control.extra-small.height": "169ecb194d0e3174cb0d5123413aa6b03c02b466",
-      "control.extra-small.text-icon.icon-size": "178ee6dbfdd15d07d09ee842a9977802cefea341",
-      "control.extra-small.text-icon.padding-horizontal": "65584b3d1735090eeefa93c34dcea27d21121f92",
-      "control.extra-small.text-icon.gap-horizontal": "40c30b9591174ce7fa3d2d90a06c9ad1406f3871",
-      "control.extra-small.icon-only.icon-size": "dbb59a081e735d4fa79de988164b145833a15dd9",
-      "control.extra-small.radius": "62968949d3070377a8dfa84da6c9764e258b6785"
+      "control.extra-small.height": "0bb3915d1adea6f47be4836dc32365c705db65f8",
+      "control.extra-small.text-icon.icon-size": "3f19129fe38f02da4c6d88738802be0fc6d8fb7e",
+      "control.extra-small.text-icon.padding-horizontal": "41eb3bb79fa44d3b9e14247275411158fe3347d2",
+      "control.extra-small.text-icon.gap-horizontal": "aa2973e0845024c2e3c100f298c96e735a2adeed",
+      "control.extra-small.icon-only.icon-size": "1b2d9e9a3fae6402e394e07e94ab726edcd1d2e3",
+      "control.extra-small.radius": "5295baaf41f54ecb0db6f145a432f4bf3f191868"
     }
   },
   {
