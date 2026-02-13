@@ -134,6 +134,11 @@
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
+        "accent-secondary": {
+          "value": "{primitives.violet1200}",
+          "type": "color",
+          "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
+        },
         "primary": {
           "value": "{primitives.gray1200}",
           "type": "color",
