@@ -310,8 +310,10 @@
             "value": "linear-gradient(45deg, {primitives.gray300} 0%, {primitives.gray400} 100%)",
             "type": "color"
           }
-        },
-        "accent-secondary": {
+        }
+      },
+      "decorative": {
+        "promo": {
           "value": "{primitives.violet1200}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"

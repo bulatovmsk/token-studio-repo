@@ -134,11 +134,6 @@
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
-        "accent-secondary": {
-          "value": "{primitives.violet1200}",
-          "type": "color",
-          "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
-        },
         "primary": {
           "value": "{primitives.gray1200}",
           "type": "color",
@@ -200,6 +195,13 @@
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Solid-third. Замена для {{ Fill/Solid: hover & focus/Third }}"
           }
+        }
+      },
+      "decorative": {
+        "promo": {
+          "value": "{primitives.violet1200}",
+          "type": "color",
+          "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
       },
       "glassy": {
