@@ -29,7 +29,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "18",
+          "value": "15",
           "type": "spacing"
         }
       },
@@ -49,7 +49,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "18",
+          "value": "36",
           "type": "spacing"
         },
         "gap-horizontal": {
@@ -63,7 +63,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "29",
           "type": "spacing"
         }
       },
@@ -101,7 +101,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "14",
+          "value": "9",
           "type": "spacing"
         }
       },

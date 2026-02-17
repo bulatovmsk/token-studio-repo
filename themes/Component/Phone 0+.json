@@ -63,7 +63,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "16",
           "type": "spacing"
         }
       },
