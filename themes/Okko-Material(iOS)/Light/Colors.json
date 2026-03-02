@@ -1,0 +1,18 @@
+{
+  "color": {
+    "material": {
+      "primary": {
+        "value": "rgba(#FFFFFF , 0.4)",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "rgba(#FFFFFF , 0.25)",
+        "type": "color"
+      },
+      "third": {
+        "value": "rgba(#FFFFFF , 0.15)",
+        "type": "color"
+      }
+    }
+  }
+}
