@@ -1215,7 +1215,14 @@
     "selectedTokenSets": {
       "Okko-Material(iOS)/Dark/Colors": "enabled"
     },
-    "group": "Material"
+    "group": "Material",
+    "$figmaCollectionId": "VariableCollectionId:36919:12747",
+    "$figmaModeId": "36919:0",
+    "$figmaVariableReferences": {
+      "color.material.primary": "00381ecb4ca5b6f8ad1b1baa26bfc7a594208649",
+      "color.material.secondary": "43c2722f377b7e8431019e10318ee31cf2552f93",
+      "color.material.third": "594d818d8a025f3e7eff8400e14e3bf0bd0edac1"
+    }
   },
   {
     "id": "e47a655ac7a632237cd3666af5a95300fa839204",
@@ -1224,6 +1231,13 @@
     "selectedTokenSets": {
       "Okko-Material(iOS)/Light/Colors": "enabled"
     },
-    "group": "Material"
+    "group": "Material",
+    "$figmaCollectionId": "VariableCollectionId:36919:12747",
+    "$figmaModeId": "36919:1",
+    "$figmaVariableReferences": {
+      "color.material.primary": "00381ecb4ca5b6f8ad1b1baa26bfc7a594208649",
+      "color.material.secondary": "43c2722f377b7e8431019e10318ee31cf2552f93",
+      "color.material.third": "594d818d8a025f3e7eff8400e14e3bf0bd0edac1"
+    }
   }
 ]
