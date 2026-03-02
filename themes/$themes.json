@@ -1213,7 +1213,15 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Okko-Material(iOS)/Dark/Colors": "enabled",
+      "Okko-Material(iOS)/Dark/Colors": "enabled"
+    },
+    "group": "Material"
+  },
+  {
+    "id": "e47a655ac7a632237cd3666af5a95300fa839204",
+    "name": "Light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
       "Okko-Material(iOS)/Light/Colors": "enabled"
     },
     "group": "Material"
