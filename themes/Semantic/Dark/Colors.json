@@ -356,15 +356,18 @@
         "material": {
           "primary": {
             "value": "rgba(#1C1C1C , 0.6)",
-            "type": "color"
+            "type": "color",
+            "description": "ios only! Для материалов с блюром"
           },
           "secondary": {
             "value": "rgba(#3B3A3E , 0.48)",
-            "type": "color"
+            "type": "color",
+            "description": "ios only! Для материалов с блюром"
           },
           "third": {
             "value": "rgba(#8B8892 , 0.32)",
-            "type": "color"
+            "type": "color",
+            "description": "ios only! Для материалов с блюром"
           }
         }
       }
