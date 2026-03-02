@@ -247,6 +247,20 @@
         "skeletonbg": {
           "value": "rgba( {primitives.black} , 0.1)",
           "type": "color"
+        },
+        "material": {
+          "primary": {
+            "value": "rgba(#FFFFFF , 0.4)",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "rgba(#FFFFFF , 0.25)",
+            "type": "color"
+          },
+          "third": {
+            "value": "rgba(#FFFFFF , 0.15)",
+            "type": "color"
+          }
         }
       },
       "solid": {
