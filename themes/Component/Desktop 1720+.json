@@ -151,6 +151,10 @@
         "value": "{corner-radius.200}",
         "type": "borderRadius"
       }
+    },
+    "icon-size": {
+      "value": "16",
+      "type": "sizing"
     }
   }
 }
