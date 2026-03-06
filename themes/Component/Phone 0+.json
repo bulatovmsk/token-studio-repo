@@ -162,6 +162,10 @@
       "radius": {
         "value": "{corner-radius.200}",
         "type": "borderRadius"
+      },
+      "icon-size": {
+        "value": "12",
+        "type": "sizing"
       }
     },
     "small": {
@@ -176,11 +180,11 @@
       "radius": {
         "value": "{corner-radius.100}",
         "type": "borderRadius"
+      },
+      "icon-size": {
+        "value": "10",
+        "type": "sizing"
       }
-    },
-    "icon-size": {
-      "value": "12",
-      "type": "sizing"
     }
   }
 }
