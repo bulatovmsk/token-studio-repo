@@ -148,5 +148,35 @@
       "value": "4",
       "type": "sizing"
     }
+  },
+  "label": {
+    "large": {
+      "padding-horizontal": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "gap-horizontal": {
+        "value": "3",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "{corner-radius.200}",
+        "type": "borderRadius"
+      }
+    },
+    "small": {
+      "padding-horizontal": {
+        "value": "3",
+        "type": "spacing"
+      },
+      "gap-horizontal": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "{corner-radius.100}",
+        "type": "borderRadius"
+      }
+    }
   }
 }
