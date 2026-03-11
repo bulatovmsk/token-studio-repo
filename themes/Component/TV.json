@@ -120,6 +120,10 @@
       "padding-horizontal": {
         "value": "7",
         "type": "spacing"
+      },
+      "radius": {
+        "value": "{corner-radius.300}",
+        "type": "borderRadius"
       }
     },
     "small": {
@@ -134,6 +138,10 @@
       "padding-horizontal": {
         "value": "7",
         "type": "spacing"
+      },
+      "radius": {
+        "value": "{corner-radius.200}",
+        "type": "borderRadius"
       }
     }
   }
