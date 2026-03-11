@@ -106,5 +106,35 @@
       "value": "4",
       "type": "sizing"
     }
+  },
+  "label": {
+    "large": {
+      "icon-size": {
+        "value": "24",
+        "type": "sizing"
+      },
+      "gap-horizontal": {
+        "value": "6",
+        "type": "spacing"
+      },
+      "padding-horizontal": {
+        "value": "7",
+        "type": "spacing"
+      }
+    },
+    "small": {
+      "icon-size": {
+        "value": "20",
+        "type": "sizing"
+      },
+      "gap-horizontal": {
+        "value": "5",
+        "type": "spacing"
+      },
+      "padding-horizontal": {
+        "value": "7",
+        "type": "spacing"
+      }
+    }
   }
 }
