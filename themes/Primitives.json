@@ -520,6 +520,58 @@
       "value": "#F1EFFF",
       "type": "color"
     },
+    "electric1300": {
+      "value": "#250E62",
+      "type": "color"
+    },
+    "electric1200": {
+      "value": "#2E008B",
+      "type": "color"
+    },
+    "electric1100": {
+      "value": "#3705AB",
+      "type": "color"
+    },
+    "electric1000": {
+      "value": "#4200D1",
+      "type": "color"
+    },
+    "electric900": {
+      "value": "#4225F0",
+      "type": "color"
+    },
+    "electric800": {
+      "value": "#4A3AFF",
+      "type": "color"
+    },
+    "electric700": {
+      "value": "#575BFF",
+      "type": "color"
+    },
+    "electric600": {
+      "value": "#606AFF",
+      "type": "color"
+    },
+    "electric500": {
+      "value": "#7484FF",
+      "type": "color"
+    },
+    "electric400": {
+      "value": "#8A9BFF",
+      "type": "color"
+    },
+    "electric300": {
+      "value": "#A0B0FF",
+      "type": "color"
+    },
+    "electric200": {
+      "value": "#C3CEFF",
+      "type": "color"
+    },
+    "electric100": {
+      "value": "#D8E0FF",
+      "type": "color"
+    },
     "external": {
       "epl1": {
         "value": "#37003c",

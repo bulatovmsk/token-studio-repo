@@ -22,7 +22,7 @@
         "description": "Хинты, подсказки. Замена для {{Text & icon/on Dark/Forth }}"
       },
       "accent": {
-        "value": "{primitives.cobalt700}",
+        "value": "{primitives.electric300}",
         "type": "color",
         "description": "Ссылки. Замена для {{ Text & icon/on Dark/Accent }}"
       },
@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.cobalt1000}",
+        "value": "{primitives.electric1000}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
@@ -101,27 +101,27 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 52%, {primitives.white} 100%)",
+          "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.electric1000} 52%, {primitives.white} 100%)",
           "type": "color",
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.electric1000} 16%, {primitives.white} 50%, {primitives.electric1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
         "assistant-gradient": {
-          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.cobalt1300} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.electric1300} 100%)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
         "assistant-solid": {
-          "value": "rgba( {primitives.cobalt700} , 0.7)",
+          "value": "rgba( {primitives.electric1300} , 0.7)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt1000} 16%, {primitives.white} 50%, {primitives.cobalt1000} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.electric1000} 16%, {primitives.white} 50%, {primitives.electric1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
@@ -130,7 +130,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.cobalt1000}",
+          "value": "{primitives.electric1000}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
@@ -391,7 +391,7 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 100%)",
+          "value": "linear-gradient(90deg, {primitives.electric1000} 0%, {primitives.purple1000} 100%)",
           "type": "color"
         },
         "lighthouse": {
@@ -412,7 +412,7 @@
         }
       },
       "button": {
-        "value": "linear-gradient(45deg, {primitives.violet1000} 0%, {primitives.cobalt1000} 100%)",
+        "value": "linear-gradient(45deg, {primitives.electric1000} 0%, {primitives.electric1000} 100%)",
         "type": "color"
       },
       "progress-bar": {
@@ -493,12 +493,12 @@
     },
     "shadow": {
       "accent-focus": {
-        "value": "rgba({primitives.cobalt1000} , 0.7)",
+        "value": "rgba({primitives.electric1000} , 0.7)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       },
       "accent": {
-        "value": "rgba({primitives.cobalt1000} , 0.3)",
+        "value": "rgba( {primitives.electric1000} , 0.3)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       }
