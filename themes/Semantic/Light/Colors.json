@@ -117,6 +117,10 @@
       "negative": {
         "value": "{primitives.red600}",
         "type": "color"
+      },
+      "warning": {
+        "value": "{primitives.yellow300}",
+        "type": "color"
       }
     },
     "fill": {

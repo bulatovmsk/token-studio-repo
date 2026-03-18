@@ -99,6 +99,10 @@
         "value": "{primitives.red1200}",
         "type": "color"
       },
+      "warning": {
+        "value": "{primitives.yellow500}",
+        "type": "color"
+      },
       "decorative": {
         "focus": {
           "value": "linear-gradient(45deg, {primitives.electric1200} 0%, {primitives.electric1000} 52%, {primitives.white} 100%)",
