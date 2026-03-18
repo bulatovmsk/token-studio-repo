@@ -199,7 +199,7 @@
       },
       "decorative": {
         "promo": {
-          "value": "{primitives.electric1200}",
+          "value": "{primitives.electric1100}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
@@ -395,7 +395,7 @@
           "type": "color"
         },
         "lighthouse": {
-          "value": "{primitives.electric1200}",
+          "value": "{primitives.electric1100}",
           "type": "color"
         },
         "gold": {

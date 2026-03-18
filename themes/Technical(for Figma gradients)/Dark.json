@@ -67,7 +67,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.electric1200}",
+            "value": "{primitives.electric1100}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
@@ -474,11 +474,11 @@
         },
         "lighthouse": {
           "Step_1": {
-            "value": "{primitives.electric1200}",
+            "value": "{primitives.electric1100}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.electric1200}",
+            "value": "{primitives.electric1100}",
             "type": "color"
           }
         },

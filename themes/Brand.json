@@ -10,11 +10,11 @@
         "type": "color"
       },
       "additional-a": {
-        "value": "{primitives.electric1100}",
+        "value": "{primitives.electric800}",
         "type": "color"
       },
       "additional-b": {
-        "value": "{primitives.electric1200}",
+        "value": "{primitives.electric1100}",
         "type": "color"
       }
     },
