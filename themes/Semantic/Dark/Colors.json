@@ -130,7 +130,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.electric1000}",
+          "value": "{primitives.electric900}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
