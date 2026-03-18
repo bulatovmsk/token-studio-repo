@@ -4,11 +4,11 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "{primitives.violet1000}",
+            "value": "{primitives.electric1300}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_3": {
@@ -22,7 +22,7 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_3": {
@@ -30,7 +30,7 @@
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_5": {
@@ -44,7 +44,7 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_3": {
@@ -52,7 +52,7 @@
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_5": {
@@ -67,7 +67,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.cobalt1300}",
+            "value": "{primitives.electric1300}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
@@ -464,11 +464,11 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "{primitives.cobalt900}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.purple1100}",
+            "value": "{primitives.electric1300}",
             "type": "color"
           }
         },
@@ -515,11 +515,11 @@
       },
       "button": {
         "Step_1": {
-          "value": "{primitives.violet1000}",
+          "value": "{primitives.electric1000}",
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.cobalt1000}",
+          "value": "{primitives.electric1000}",
           "type": "color"
         }
       },
