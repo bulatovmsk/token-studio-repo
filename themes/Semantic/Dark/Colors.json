@@ -101,7 +101,7 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.electric1300} 0%, {primitives.electric1000} 52%, {primitives.white} 100%)",
+          "value": "linear-gradient(45deg, {primitives.electric1200} 0%, {primitives.electric1000} 52%, {primitives.white} 100%)",
           "type": "color",
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
@@ -116,7 +116,7 @@
           "description": "Только для обводки ии ассистента "
         },
         "assistant-solid": {
-          "value": "rgba( {primitives.electric1300} , 0.7)",
+          "value": "rgba( {primitives.electric1200} , 0.7)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
@@ -199,7 +199,7 @@
       },
       "decorative": {
         "promo": {
-          "value": "{primitives.electric1300}",
+          "value": "{primitives.electric1200}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
@@ -391,11 +391,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.electric1000} 0%, {primitives.electric1300} 100%)",
+          "value": "{primitives.electric800}",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.purple1000} 0%, {primitives.pink900} 100%)",
+          "value": "{primitives.electric1200}",
           "type": "color"
         },
         "gold": {

@@ -4,7 +4,7 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "{primitives.electric1300}",
+            "value": "{primitives.electric1200}",
             "type": "color"
           },
           "Step_2": {
@@ -67,7 +67,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.electric1300}",
+            "value": "{primitives.electric1200}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
@@ -464,21 +464,21 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "{primitives.electric1000}",
+            "value": "{primitives.electric800}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.electric1300}",
+            "value": "{primitives.electric800}",
             "type": "color"
           }
         },
         "lighthouse": {
           "Step_1": {
-            "value": "{primitives.purple1100}",
+            "value": "{primitives.electric1200}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.pink900}",
+            "value": "{primitives.electric1200}",
             "type": "color"
           }
         },
