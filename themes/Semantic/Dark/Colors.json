@@ -107,6 +107,10 @@
         "value": "{primitives.yellow500}",
         "type": "color"
       },
+      "warning-glassy": {
+        "value": "rgba({primitives.yellow500} , 0.32)",
+        "type": "color"
+      },
       "decorative": {
         "focus": {
           "value": "linear-gradient(45deg, {primitives.electric1200} 0%, {primitives.electric1000} 52%, {primitives.white} 100%)",

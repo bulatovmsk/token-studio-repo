@@ -125,6 +125,10 @@
       "negative-glassy": {
         "value": "rgba({primitives.red600} , 0.32)",
         "type": "color"
+      },
+      "warning-glassy": {
+        "value": "rgba({primitives.yellow500} , 0.32)",
+        "type": "color"
       }
     },
     "fill": {
