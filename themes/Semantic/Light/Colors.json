@@ -121,6 +121,10 @@
       "warning": {
         "value": "{primitives.yellow300}",
         "type": "color"
+      },
+      "negative-glassy": {
+        "value": "rgba({primitives.red600} , 0.32)",
+        "type": "color"
       }
     },
     "fill": {
@@ -158,6 +162,10 @@
             "type": "color",
             "description": ". Замена для {{ Fill/Glassy: hover & focus/On Light/Third }}"
           }
+        },
+        "warning": {
+          "value": "rgba( {primitives.yellow500} , 0.32)",
+          "type": "color"
         }
       },
       "fade": {
