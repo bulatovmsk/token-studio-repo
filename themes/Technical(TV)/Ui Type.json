@@ -2,11 +2,11 @@
   "cover": {
     "numbers": {
       "main": {
-        "value": "7",
+        "value": 4,
         "type": "number"
       },
       "vertical": {
-        "value": "4",
+        "value": 4,
         "type": "number"
       },
       "large": {
@@ -72,7 +72,7 @@
         "type": "sizing"
       },
       "square-m": {
-        "value": "({container.width} - (( {cover.numbers.square} - 1)  *{spacing.200} )) / {cover.numbers.square}",
+        "value": "({container.width} - (( {cover.numbers.square-m} - 1)  *{spacing.200} )) / {cover.numbers.square-m}",
         "type": "sizing"
       },
       "square-l": {
@@ -84,7 +84,7 @@
         "type": "sizing"
       },
       "square-small-1-story": {
-        "value": "({container.width} - (( {cover.numbers.square-small-story} - 1)  *{spacing.200} )) / {cover.numbers.square-small-story}",
+        "value": "({container.width} - (( {cover.numbers.square-small-1-story} - 1)  *{spacing.200} )) / {cover.numbers.square-small-1-story}",
         "type": "sizing"
       },
       "circle": {
@@ -140,8 +140,8 @@
       },
       "square-m": {
         "value": {
-          "width": "{cover.width.square}",
-          "height": "{cover.height.square}"
+          "width": "{cover.width.square-m}",
+          "height": "{cover.width.square-m}"
         },
         "type": "composition"
       },
@@ -161,8 +161,8 @@
       },
       "square-small-1-story": {
         "value": {
-          "width": "{cover.width.square-small-story}",
-          "height": "{cover.height.square-small-story}"
+          "width": "{cover.width.square-small-1-story}",
+          "height": "{cover.height.square-small-1-story}"
         },
         "type": "composition"
       },
@@ -242,7 +242,7 @@
         "type": "sizing"
       },
       "square-small-1-story": {
-        "value": "{cover.width.square-small-story}",
+        "value": "{cover.width.square-small-1-story}",
         "type": "sizing"
       },
       "circle": {
@@ -277,7 +277,7 @@
   },
   "container": {
     "width": {
-      "value": "1712",
+      "value": "1616",
       "type": "sizing"
     }
   },
