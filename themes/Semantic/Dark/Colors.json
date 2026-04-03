@@ -128,7 +128,7 @@
           "description": "Только для обводки ии ассистента "
         },
         "assistant-solid": {
-          "value": "rgba( {primitives.electric1200} , 0.7)",
+          "value": "rgba( {primitives.electric800} , 0.7)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
@@ -228,7 +228,7 @@
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid. Замена для {{ Fill/Glassy/Secondary }}"
         },
         "negative": {
-          "value": "rgba( {primitives.red600} , 0.32)",
+          "value": "rgba( {primitives.red600} , 0.2)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода. Замена для {{ Fill/Glassy/Negative }}"
         },
