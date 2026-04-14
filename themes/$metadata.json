@@ -21,6 +21,8 @@
     "Component/Phone 0+",
     "Component/Tablet 600+",
     "Component/Desktop 1720+",
-    "Component/TV"
+    "Component/TV",
+    "Microcopy/RU",
+    "Microcopy/ID"
   ]
 }

@@ -1,0 +1,1929 @@
+{
+  "Ошибка": {
+    "Нет интернета": {
+      "Модальная": {
+        "Заголовок": {
+          "value": "error.internet.modal.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Проблемы с соединением, нет соединения, интернет"
+        },
+        "Описание": {
+          "value": "error.internet.modal.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Проблемы с соединением, нет соединения, интернет"
+        },
+        "Действия": {
+          "Вторичное действие": {
+            "value": "error.internet.modal.action.secondary",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Открыть загрузки, перейти в загрузки. Проблемы с соединением, нет соединения, интернет"
+          },
+          "Главное действие": {
+            "value": "{Универсальное.Действие.Повторная попытка}",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Уведомление": {
+        "Однострочник": {
+          "value": "error.internet.oneliner",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Логи": {
+      "Заголовок": {
+        "value": "error.log.title",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "АЗ5": {
+      "Заголовок": {
+        "value": "error.meltdown.title",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Описание": {
+        "value": "error.meltdown.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Действие": {
+        "value": "{Универсальное.Действие.Связаться с поддержкой}",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Ошибка часового пояса": {
+      "Заголовок": {
+        "value": "error.timezone.title",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Описание": {
+        "value": "error.timezone.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Главное действие": {
+        "value": "{Универсальное.Действие.Понятно}",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Вторичное действие": {
+        "value": "{Универсальное.Действие.Связаться с поддержкой}",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    }
+  },
+  "Универсальное": {
+    "Подсказка": {
+      "Задержка": {
+        "Задержка перед попыткой": {
+          "value": "common.hint.cooldown.retry",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Попробовать ещё раз, повторить попытку"
+        },
+        "Код в смс": {
+          "value": "common.hint.cooldown.sms",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Действие": {
+      "Повторная попытка": {
+        "value": "common.action.retry",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "description": "Попробовать ещё раз, повторить попытку"
+      },
+      "Связаться с поддержкой": {
+        "value": "common.action.contact_support",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "description": "Связаться с поддержкой"
+      },
+      "Понятно": {
+        "value": "common.action.ok",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "description": "Понятно, ладно, окей, согласие"
+      },
+      "Продолжить": {
+        "value": "common.action.next",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Готово": {
+        "value": "common.action.done",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Просмотр": {
+        "Смотреть": {
+          "value": "common.action.play",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Продолжить просмотр": {
+          "value": "common.action.continueWatching",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Заголовок": {
+      "Введите номер телефона": {
+        "value": "common.title.phone_input",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Код из смс": {
+        "value": "common.title.sms_challenge",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Описание": {
+      "Код из смс": {
+        "value": "common.body.sms_challenge ",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    }
+  },
+  "Второй экран": {
+    "Шторка": {
+      "Запуск": {
+        "Заголовок": {
+          "value": "ss.sheet.launch.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Вторичное действие": {
+          "value": "ss.sheet.launch.action.secondary",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Добавить устройство, управлять другим устройством"
+        },
+        "Перехват устройства": {
+          "Заголовок": {
+            "value": "ss.sheet.launch.profileSwitch.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Смена профиля, выбрать профиль"
+          },
+          "Описание": {
+            "value": "ss.sheet.launch.profileSwitch.body ",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Смотрит другой профиль"
+          },
+          "Главное действие": {
+            "value": "ss.sheet.launch.profileSwitch.action",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Вторичное действие": {
+            "value": "ss.sheet.launch.profileSwitch.action.secondary ",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Смена управляемого": {
+        "Заголовок": {
+          "value": "ss.sheet.deviceSwitch.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Смена устройства, управлять другим, каким управлять, каким телевизором управлять"
+        }
+      }
+    },
+    "Онбординг": {
+      "Промо баббл запуска": {
+        "Заголовок": {
+          "value": "ss.onboarding.promoBubble.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Добавить устройство, управлять другим устройством"
+        },
+        "Описание": {
+          "value": "ss.onboarding.promoBubble.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Добавить устройство, управлять другим устройством"
+        }
+      }
+    },
+    "Плеер": {
+      "Полный экран": {
+        "Ассистент": {
+          "Кнопка вызова": {
+            "value": "ss.player.fs.assistant.action",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Спросить ассистента, задать вопрос, обсудить фильм"
+          }
+        }
+      }
+    },
+    "Тост": {
+      "Не удалось инициировать флоу запуска на ТВ": {
+        "value": "ss.toast.connectionError.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "description": "Эта ошибка используется для двух кейсов: либо у юзера нет интернета, либо ошибка на запрос getDeviceLink. Должна быть универсальной"
+      }
+    }
+  },
+  "Карточка контента": {
+    "Действия": {
+      "Второй экран": {
+        "Включить на ТВ": {
+          "value": "cc.action.ss.launch",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Запустить на телевизоре, второй экран"
+        },
+        "Играет на ТВ": {
+          "value": "cc.action.ss.active",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Запустить на телевизоре, второй экран"
+        }
+      },
+      "Загрузка": {
+        "Загрузить": {
+          "value": "cc.action.download.start",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "description": "Начать загрузку"
+        },
+        "Статус": {
+          "В процессе": {
+            "value": "cc.action.download.active",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Загрузка в процессе, активная загрузка"
+          },
+          "Рыба для макетов": {
+            "РЫБА Загрузка 0%": {
+              "value": "{Карточка контента.Действия.Загрузка.Статус.В процессе}",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              }
+            },
+            "РЫБА Загрузка 1%": {
+              "value": "{Карточка контента.Действия.Загрузка.Статус.В процессе}",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              }
+            },
+            "РЫБА Загружается 25%": {
+              "value": "{Карточка контента.Действия.Загрузка.Статус.В процессе}",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              }
+            }
+          },
+          "На паузе": {
+            "value": "cc.action.download.paused",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Загрузка остановлена юзером, на паузе юзером"
+          },
+          "Завершена": {
+            "value": "cc.action.download.done",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Загружено на устройство, загрузка завершена"
+          },
+          "Проблемный": {
+            "Ошибка": {
+              "value": "cc.action.download.failed",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Ошибка загрузки Reason: \"segmentDownloadFailed\", \"licenseFailed\""
+            },
+            "Ждёт Wi-FI": {
+              "value": "cc.action.download.needsWifi",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Ошибка загрузки из-за вайфай Reason: \"network\""
+            },
+            "Недостаточно места на устройстве": {
+              "value": "cc.action.download.storageFull",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Ошибка загрузки из-за вайфая Reason: \"storageFull\""
+            },
+            "Нет интернета": {
+              "value": "cc.action.download.offline",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Reason: \"offline\""
+            },
+            "Авария": {
+              "value": "cc.action.download.meltdown",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Reason: \"emergencyMode\""
+            }
+          },
+          "В очереди": {
+            "value": "cc.action.download.queued",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Загрузка в очереди"
+          }
+        }
+      }
+    }
+  },
+  "Детское": {
+    "Таймер": {
+      "Блокировка": {
+        "Экран блокировки на ТВ": {
+          "Подсказка": {
+            "value": "kids.timer.tvLockScreen.tip",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Снять блокировку, сменить профиль, время закончилось"
+          },
+          "Заголовок": {
+            "value": "kids.timer.tvLockScreen.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Снять блокировку, сменить профиль, время закончилось"
+          },
+          "Диалог": {
+            "Заголовок": {
+              "value": "kids.timer.tvLockScreen.dialogue.title",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Время кончилось, телевизор заблокирован, дети не могут смотреть"
+            },
+            "Главное действие": {
+              "value": "kids.timer.tvLockScreen.dialogue.action",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, сменить профиль"
+            },
+            "Вторичное действие": {
+              "value": "kids.timer.tvLockScreen.dialogue.action.secondary",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, снять/убрать  блокировку/ограничение"
+            }
+          }
+        },
+        "Пуш": {
+          "Заголовок": {
+            "value": "kids.timer.locked.push.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Время истекло, таймер кончился, детские профили заблокированы, просмотр заблокирован"
+          },
+          "Описание": {
+            "value": "kids.timer.locked.push.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Время истекло, таймер кончился, детские профили заблокированы, просмотр заблокирован"
+          }
+        }
+      },
+      "Экран таймера в меню": {
+        "Заголовок": {
+          "value": "kids.timer.screen.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Как включить": {
+          "value": "kids.timer.screen.body.1",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Главное действие": {
+          "value": "kids.timer.screen.action",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Логика блокировки": {
+          "value": "kids.timer.screen.body.2",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Шторка": {
+        "Установка": {
+          "Заголовок": {
+            "value": "kids.timer.sheet.setup.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "kids.timer.sheet.setup.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Кнопка настройки ВЭ": {
+            "value": "kids.timer.sheet.setup.action.SecondScreen",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        },
+        "Редактирование": {
+          "Кнопка выключения таймера": {
+            "value": "kids.timer.sheet.edit.deactivate",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Заголовок": {
+            "value": "kids.timer.sheet.edit.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "{Детское.Таймер.Шторка.Установка.Описание}",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Фидбек": {
+        "Успех": {
+          "Таймер установлен": {
+            "value": "kids.timer.feedback.successful.start",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Таймёр продлён": {
+            "value": "kids.timer.feedback.successful.edit",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Таймер выключен": {
+            "value": "kids.timer.feedback.successful.deactivation",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Снялась блокировка": {
+            "value": "kids.timer.feedback.successful.unlock",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, снять/убрать  блокировку/ограничение"
+          }
+        },
+        "Ошибка": {
+          "Таймер не продлён": {
+            "value": "kids.timer.feedback.failed.edit",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Таймер не установлен": {
+            "value": "kids.timer.feedback.failed.start",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Таймер не выключился": {
+            "value": "kids.timer.feedback.failed.deactivation",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Не снялась блокировка": {
+            "value": "kids.timer.feedback.failed.unlock",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Время кончилось, телевизор заблокирован, дети не могут смотреть, снять/убрать  блокировку/ограничение"
+          }
+        }
+      }
+    },
+    "Защита": {
+      "Установка защиты (РКН)": {
+        "Предложение установить": {
+          "Заголовок": {
+            "value": "kids.safety.advisedSetup.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "kids.safety.advisedSetup.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Главное действие": {
+            "value": "kids.safety.advisedSetup.action",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Вторичное действие": {
+            "value": "kids.safety.advisedSetup.action.secondary",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        },
+        "Создание кода": {
+          "Заголовок": {
+            "value": "kids.safety.advisedSetup.code.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "kids.safety.advisedSetup.code.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "description": "Отличается от стандартного окна создания кода. Во флоу РКН нет экрана, где юзер выбирает уровень защиты. Поэтому здесь чуть больше информации, чем в обычном создании кода"
+          },
+          "Главное действие": {
+            "value": "kids.safety.advisedSetup.code.creation.action",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Подтверждение телефона": {
+            "Заголовок": {
+              "value": "{Универсальное.Заголовок.Введите номер телефона}",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              }
+            },
+            "Описание": {
+              "value": "kids.safety.advisedSetup.code.phoneChallenge.body",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              }
+            },
+            "Главное действие": {
+              "value": "{Универсальное.Действие.Продолжить}",
+              "type": "text",
+              "$extensions": {
+                "com.figma.scopes": [
+                  "TEXT_CONTENT"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              }
+            }
+          }
+        },
+        "Дисклеймер для отказа": {
+          "Заголовок": {
+            "value": "kids.safety.advisedSetup.rejectDisclaimer.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "kids.safety.advisedSetup.rejectDisclaimer.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Главное действие": {
+            "value": "kids.safety.advisedSetup.rejectDisclaimer.action",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Вторичное действие": {
+            "value": "kids.safety.advisedSetup.rejectDisclaimer.action.secondary",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Обычная установка защиты": {
+        "Выбор уровня защиты": {
+          "Заголовок": {
+            "value": "kids.safety.setup.level.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Опция 1 (переход и покупки)": {
+            "value": "kids.safety.setup.level.option.1",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Опция 2 (покупки)": {
+            "value": "kids.safety.setup.level.option.2",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Опция 3 (пропустить)": {
+            "value": "kids.safety.setup.level.option.3",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Действие": {
+            "value": "{Универсальное.Действие.Продолжить}",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        },
+        "Создание кода": {
+          "Заголовок": {
+            "value": "kids.safety.setup.code.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "kids.safety.setup.code.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Главное действие": {
+            "value": "{Универсальное.Действие.Готово}",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      }
+    },
+    "Флоу создания профиля": {
+      "Ввод имени": {
+        "Заголовок": {
+          "value": "kids.newProfile.name.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Плейсхолдер поля": {
+          "value": "kids.newProfile.name.placeholder",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Кнопка продолжения": {
+          "value": "{Универсальное.Действие.Продолжить}",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Выбор аватара": {
+        "Заголовок": {
+          "value": "kids.newProfile.icon.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Группа иконок 1": {
+          "value": "kids.newProfile.icon.row1",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Группа иконок 2": {
+          "value": "kids.newProfile.icon.row2",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Выбор возраста": {
+        "Заголовок": {
+          "value": "kids.newProfile.age.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание": {
+          "value": "kids.newProfile.age.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Настройка предпочтений": {
+        "Заголовок до 7 лет": {
+          "value": "kids.newProfile.taste.heroes.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Заголовок 8-12 лет": {
+          "value": "kids.newProfile.taste.movies.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание 8-12 лет": {
+          "value": "kids.newProfile.taste.movies.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание до 7 лет": {
+          "value": "kids.newProfile.taste.heroes.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Первичное действие (пропустить)": {
+          "value": "kids.newProfile.taste.button.skip",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Вторичное действие (не нравится)": {
+          "value": "kids.newProfile.taste.button.refresh",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    }
+  },
+  "АЗ-5": {
+    "Главный экран": {
+      "Заголовок": {
+        "value": "meltdown.main.title",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Описание": {
+        "value": "meltdown.main.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Главное действие": {
+        "value": "{Универсальное.Действие.Повторная попытка}",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Баннер": {
+      "Заголовок": {
+        "value": "meltdown.banner.title",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Описание": {
+        "value": "meltdown.banner.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Однострочник": {
+        "value": "meltdown.banner.oneliner",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    }
+  },
+  "Выбор профиля": {
+    "Заголовок": {
+      "value": "profilePicker.title",
+      "type": "text",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Создание нового": {
+      "Заголовок": {
+        "value": "profilePicker.create.title ",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Описание": {
+        "value": "profilePicker.create.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Кнопка автовыбора": {
+      "value": "profilePicker.autopick",
+      "type": "text",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Кнопка создания нового профиля": {
+      "value": "profilePicker.create.button",
+      "type": "text",
+      "$extensions": {
+        "com.figma.scopes": [
+          "TEXT_CONTENT"
+        ],
+        "com.figma.hiddenFromPublishing": false
+      }
+    },
+    "Редактирование": {
+      "Заголовок": {
+        "value": "profilePicker.edit.title",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Описание": {
+        "value": "profilePicker.edit.body",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    }
+  },
+  "Настройки": {
+    "Раздел уведомлений": {
+      "Ошибка, не работают тоглы": {
+        "value": "settings.notifications.toggleError",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    }
+  },
+  "Загрузки": {
+    "Уведомление (тост)": {
+      "Загрузка началась": {
+        "value": "downloads.toast.started",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Загрузка отменена": {
+        "value": "downloads.toast.cancelled",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Загрузка ждёт место": {
+        "value": "downloads.toast.storageFull",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Загрузка невозможна": {
+        "Нужна подписка": {
+          "value": "downloads.toast.needTo.subscribe",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Нужен апгрейд": {
+          "value": "downloads.toast.needTo.upgrade",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Нужно купить": {
+          "value": "downloads.toast.needTo.buy",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Гео блок": {
+          "value": "downloads.toast.restrictedBy.Geo",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Правообладатель запретил загрузку": {
+          "value": "downloads.toast.restrictedBy.Owner",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Нет интернета": {
+          "value": "downloads.toast.offline",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Загрузка удалена": {
+        "value": "downloads.toast.deleted",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Загрузка завершилась": {
+        "value": "downloads.toast.сompleted",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      },
+      "Разрешили без вайфай": {
+        "value": "downloads.toast.cellularAllowed",
+        "type": "text",
+        "$extensions": {
+          "com.figma.scopes": [
+            "TEXT_CONTENT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        }
+      }
+    },
+    "Шторка": {
+      "Нужен вайфай": {
+        "Заголовок": {
+          "value": "downloads.sheet.needWifi.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание": {
+          "value": "downloads.sheet.needWifi.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Главное действие": {
+          "value": "downloads.sheet.needWifi.action",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Вторичное действие": {
+          "value": "downloads.sheet.needWifi.action.secondary",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Недостаточно места": {
+        "Заголовок": {
+          "value": "downloads.sheet.storageFull.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Действие": {
+          "value": "{Универсальное.Действие.Понятно}",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Вторичное действие": {
+          "value": "downloads.sheet.storageFull.action.secondary",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание": {
+          "value": "downloads.sheet.storageFull.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Загруженный тайтл": {
+        "Заголовок": {
+          "value": "downloads.sheet.offlineReady.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "РЫБА фильм загружен": {
+          "value": "{Загрузки.Шторка.Загруженный тайтл.Описание}",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание": {
+          "value": "downloads.sheet.offlineReady.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "РЫБА сериал загружен": {
+          "value": "{Загрузки.Шторка.Загруженный тайтл.Описание}",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Действие 1": {
+          "value": "{Универсальное.Действие.Просмотр.Смотреть}",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Действие 2": {
+          "value": "downloads.sheet.offlineReady.delete",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Подсказка": {
+      "Страница сезона": {
+        "Сезон недоступен для загрузки": {
+          "value": "downloads.hint.season.restrictedBy.Owner",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Сезон недоступен по гео": {
+          "value": "downloads.hint.season.restrictedBy.Geo",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    }
+  },
+  "Status Header": {
+    "Статусы загрузки": {
+      "Есть активная загрузка": {
+        "Заголовок": {
+          "value": "status.download.active.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание": {
+          "value": "status.download.active.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Одна ошибка загрузки": {
+        "Ошибка загрузки сегмента": {
+          "value": "status.download.failed",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Недостаточно места на устройстве": {
+          "value": "status.download.failed.storageFull",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Нужен вайфай": {
+          "Заголовок": {
+            "value": "status.download.waitingWiFi.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "status.download.waitingWiFi.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Есть несколько ошибок": {
+        "Заголовок": {
+          "value": "status.download.failed.several",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      },
+      "Загрузки завершились": {
+        "Заголовок": {
+          "value": "status.download.completed.title",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "Описание": {
+          "value": "status.download.completed.body",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    },
+    "Системные статусы": {
+      "Негативные": {
+        "Нет интернета": {
+          "Заголовок": {
+            "value": "status.offline.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "status.offline.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        },
+        "АЗ-5": {
+          "Заголовок": {
+            "value": "status.meltdown.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "status.meltdown.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        },
+        "Гео блок": {
+          "Заголовок": {
+            "value": "status.restrictedBy.Geo.title",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          },
+          "Описание": {
+            "value": "status.restrictedBy.Geo.body",
+            "type": "text",
+            "$extensions": {
+              "com.figma.scopes": [
+                "TEXT_CONTENT"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            }
+          }
+        }
+      },
+      "Позитивные": {
+        "Соединение восстановлено": {
+          "value": "status.offline.isOff",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        },
+        "АЗ-5 выключился": {
+          "value": "status.meltdown.isOff",
+          "type": "text",
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_CONTENT"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          }
+        }
+      }
+    }
+  }
+}
