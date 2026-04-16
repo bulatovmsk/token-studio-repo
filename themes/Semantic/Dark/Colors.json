@@ -22,7 +22,7 @@
         "description": "Хинты, подсказки. Замена для {{Text & icon/on Dark/Forth }}"
       },
       "accent": {
-        "value": "{primitives.electric300}",
+        "value": "{primitives.electric400}",
         "type": "color",
         "description": "Ссылки. Замена для {{ Text & icon/on Dark/Accent }}"
       },
@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.electric1000}",
+        "value": "{primitives.electric100}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
@@ -429,6 +429,10 @@
       },
       "button": {
         "value": "linear-gradient(45deg, {primitives.electric1000} 0%, {primitives.electric1000} 100%)",
+        "type": "color"
+      },
+      "button-border": {
+        "value": "{primitives.electric1000}",
         "type": "color"
       },
       "progress-bar": {
