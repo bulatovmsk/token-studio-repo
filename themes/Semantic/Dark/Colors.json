@@ -118,7 +118,7 @@
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.electric1000} 16%, {primitives.white} 50%, {primitives.electric1000} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.electric1000} 16%, {primitives.electric400} 50%, {primitives.electric1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
@@ -133,7 +133,7 @@
           "description": "Только для обводки ии ассистента "
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.electric1000} 16%, {primitives.white} 50%, {primitives.electric1000} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.electric1000} 16%, {primitives.electric400} 50%, {primitives.electric1000} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
