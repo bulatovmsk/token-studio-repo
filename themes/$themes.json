@@ -852,8 +852,8 @@
       "color.fill.solid.live": "2bc6fe0fd7ed25572c4e5a64dd85ad773f977c39",
       "color.fill.solid.fourth": "4ba00c9509b524cf0e68531892aeb34942f08875",
       "color.fill.decorative.promo": "81ff2313c69119b029c0ce4bb3bdd78017f4e716",
-      "color.component.label.continuum": "45bc19623b8882d471dc45efdc3147cf6ae2c55f",
-      "color.component.label.lighthouse": "7a41bd776c15d2a81ac42ba37f1e3f892533d0c4",
+      "color.component.label.continuum": "3c3ae7c4afa9b00dd426759982f694fc0e286f8a",
+      "color.component.label.lighthouse": "a6e3ef131251fbd0cd395a82d1dbae341288ff01",
       "color.component.label.offer": "5ced601921ce84e607066f047dd304a5d0bbb8d3",
       "color.component.sber-button": "8a43817b30caf3ebecbedcae5caac4a4f0fa6be2",
       "color.background.solid.primary": "22b40d9806162a614c8e6016efdcbbb696e83436",
@@ -867,8 +867,8 @@
       "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
       "color.static.glassy.black": "bdfa45b417b76092ad8685739f93c95df3bb432d",
       "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a",
-      "color.shadow.accent-focus": "6119a23d1bd4d8e532a57fd3c75456c729894a19",
-      "color.shadow.accent": "bf695ea0263e8d463722e6b831d8fe6b8d599ec0"
+      "color.shadow.accent-focus": "27babacf7124d60f91fa1b22527f35b16fe6f046",
+      "color.shadow.accent": "78f9b9879f95b113c30a0bf7854fbbbfc49f0145"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
