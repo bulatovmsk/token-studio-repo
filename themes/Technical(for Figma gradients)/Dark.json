@@ -4,15 +4,15 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "{primitives.electric1200}",
+            "value": "{primitives.electric900}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.electric1000}",
+            "value": "{primitives.electric900}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.white}",
+            "value": "{primitives.electric900}",
             "type": "color"
           }
         },
@@ -26,7 +26,7 @@
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.white}",
+            "value": "{primitives.electric400}",
             "type": "color"
           },
           "Step_4": {
@@ -48,7 +48,7 @@
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.white}",
+            "value": "{primitives.electric400}",
             "type": "color"
           },
           "Step_4": {
@@ -67,7 +67,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.electric1100}",
+            "value": "{primitives.electric1300}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
