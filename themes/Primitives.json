@@ -521,11 +521,11 @@
       "type": "color"
     },
     "electric1300": {
-      "value": "#250E62",
+      "value": "#24145c",
       "type": "color"
     },
     "electric1200": {
-      "value": "#2E008B",
+      "value": "#2a1284",
       "type": "color"
     },
     "electric1100": {
@@ -533,43 +533,43 @@
       "type": "color"
     },
     "electric1000": {
-      "value": "#4200D1",
+      "value": "#4116c9",
       "type": "color"
     },
     "electric900": {
-      "value": "#4225F0",
+      "value": "#4137df",
       "type": "color"
     },
     "electric800": {
-      "value": "#4A3AFF",
+      "value": "#4a44f3",
       "type": "color"
     },
     "electric700": {
-      "value": "#575BFF",
+      "value": "#585ff5",
       "type": "color"
     },
     "electric600": {
-      "value": "#606AFF",
+      "value": "#616cfb",
       "type": "color"
     },
     "electric500": {
-      "value": "#7484FF",
+      "value": "#7586f9",
       "type": "color"
     },
     "electric400": {
-      "value": "#8A9BFF",
+      "value": "#8d9df5",
       "type": "color"
     },
     "electric300": {
-      "value": "#A0B0FF",
+      "value": "#a0b0ff",
       "type": "color"
     },
     "electric200": {
-      "value": "#C3CEFF",
+      "value": "#c3ceff",
       "type": "color"
     },
     "electric100": {
-      "value": "#D8E0FF",
+      "value": "#d8e0ff",
       "type": "color"
     },
     "external": {

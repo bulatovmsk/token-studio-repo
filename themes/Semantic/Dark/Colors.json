@@ -22,7 +22,7 @@
         "description": "Хинты, подсказки. Замена для {{Text & icon/on Dark/Forth }}"
       },
       "accent": {
-        "value": "{primitives.electric400}",
+        "value": "{primitives.electric600}",
         "type": "color",
         "description": "Ссылки. Замена для {{ Text & icon/on Dark/Accent }}"
       },
@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.electric100}",
+        "value": "{primitives.electric900}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
@@ -211,7 +211,7 @@
       },
       "decorative": {
         "promo": {
-          "value": "{primitives.electric1100}",
+          "value": "{primitives.electric1300}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
@@ -429,10 +429,6 @@
       },
       "button": {
         "value": "linear-gradient(45deg, {primitives.electric1000} 0%, {primitives.electric1000} 100%)",
-        "type": "color"
-      },
-      "button-border": {
-        "value": "{primitives.electric1000}",
         "type": "color"
       },
       "progress-bar": {
