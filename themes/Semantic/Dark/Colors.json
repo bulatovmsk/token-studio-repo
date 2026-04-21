@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.electric900}",
+        "value": "{primitives.electric1000}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
