@@ -620,7 +620,8 @@
     "id": "primitives-primitives",
     "name": "Primitives",
     "selectedTokenSets": {
-      "Primitives": "enabled"
+      "Primitives": "enabled",
+      "Brand": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1641,15 +1642,5 @@
     },
     "$figmaModeId": "36521:0",
     "$figmaCollectionId": "VariableCollectionId:36485:2513"
-  },
-  {
-    "id": "3ee2eacaf6437bcc6b28a7d60b70fe0b201c04ed",
-    "name": "Brand",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Primitives": "source",
-      "Brand": "enabled"
-    },
-    "group": "Primitives"
   }
 ]
