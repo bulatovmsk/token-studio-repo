@@ -37,7 +37,7 @@
         "description": "Положительные события. Замена для {{ Text & icon/on Dark/Positive }}"
       },
       "negative": {
-        "value": "{primitives.red600}",
+        "value": "{primitives.red500}",
         "type": "color",
         "description": "Ошибки, критичные предупреждения. Замена для {{ Text & icon/on Dark/Negaive }}"
       },
@@ -96,11 +96,7 @@
         "description": "контур контента, чтобы не сливался с черным. Замена для {{ Border/Contour }}"
       },
       "negative": {
-        "value": "{primitives.red600}",
-        "type": "color"
-      },
-      "negative-glassy": {
-        "value": "rgba({primitives.red600} , 0.32)",
+        "value": "{primitives.red900}",
         "type": "color"
       },
       "warning": {
@@ -177,7 +173,7 @@
           "description": "Положительные события. Замена для {{ Fill/Solid/Positive }}"
         },
         "negative": {
-          "value": "{primitives.red1200}",
+          "value": "{primitives.red1300}",
           "type": "color",
           "description": "Ошибки, критичные предупреждения. Замена для {{ Solid/Negative }}"
         },
@@ -228,7 +224,7 @@
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid. Замена для {{ Fill/Glassy/Secondary }}"
         },
         "negative": {
-          "value": "rgba( {primitives.red600} , 0.2)",
+          "value": "rgba( {primitives.red1300} , 0.8)",
           "type": "color",
           "description": "Например, для подсветки ошибки в поле ввода. Замена для {{ Fill/Glassy/Negative }}"
         },
