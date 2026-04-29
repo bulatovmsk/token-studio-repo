@@ -53,55 +53,55 @@
       "type": "color"
     },
     "red1300": {
-      "value": "#5F0100",
+      "value": "#5f0004",
       "type": "color"
     },
     "red1200": {
-      "value": "#730100",
+      "value": "#6f0005",
       "type": "color"
     },
     "red1100": {
-      "value": "#920511",
+      "value": "#810007",
       "type": "color"
     },
     "red1000": {
-      "value": "#A80300",
+      "value": "#94000a",
       "type": "color"
     },
     "red900": {
-      "value": "#BE0400",
+      "value": "#a9000c",
       "type": "color"
     },
     "red800": {
-      "value": "#D92D20",
+      "value": "#bb201e",
       "type": "color"
     },
     "red700": {
-      "value": "#E4392B",
+      "value": "#cd352e",
       "type": "color"
     },
     "red600": {
-      "value": "#FB5240",
+      "value": "#dd453b",
       "type": "color"
     },
     "red500": {
-      "value": "#FF7967",
+      "value": "#f25857",
       "type": "color"
     },
     "red400": {
-      "value": "#FEB4AE",
+      "value": "#ff767b",
       "type": "color"
     },
     "red300": {
-      "value": "#FFB5A9",
+      "value": "#ff979a",
       "type": "color"
     },
     "red200": {
-      "value": "#FFCDC5",
+      "value": "#ffb9b9",
       "type": "color"
     },
     "red100": {
-      "value": "#FFE4E0",
+      "value": "#ffccce",
       "type": "color"
     },
     "yellow1300": {
