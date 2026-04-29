@@ -37,7 +37,7 @@
         "description": "Положительные события. Замена для {{ Text & icon/on Dark/Positive }}"
       },
       "negative": {
-        "value": "{primitives.red500}",
+        "value": "rgba({primitives.red500} , 0.96)",
         "type": "color",
         "description": "Ошибки, критичные предупреждения. Замена для {{ Text & icon/on Dark/Negaive }}"
       },
