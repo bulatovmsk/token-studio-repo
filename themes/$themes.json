@@ -851,8 +851,8 @@
       "color.fill.solid.live": "2bc6fe0fd7ed25572c4e5a64dd85ad773f977c39",
       "color.fill.solid.fourth": "4ba00c9509b524cf0e68531892aeb34942f08875",
       "color.fill.decorative.promo": "81ff2313c69119b029c0ce4bb3bdd78017f4e716",
-      "color.component.label.continuum": "d6205f3d2569c7f28ec162300eb61502fd9f559b",
-      "color.component.label.lighthouse": "466c4f945e73a8703cd67c5f07cbee8364a4dbe9",
+      "color.component.label.continuum": "0248c83d9f17dd02942834164337500733ee5b9a",
+      "color.component.label.lighthouse": "261cb280e183ab554f0a7805d2eae7f98bb95c45",
       "color.component.label.offer": "5ced601921ce84e607066f047dd304a5d0bbb8d3",
       "color.component.sber-button": "8a43817b30caf3ebecbedcae5caac4a4f0fa6be2",
       "color.background.solid.primary": "22b40d9806162a614c8e6016efdcbbb696e83436",
@@ -866,8 +866,8 @@
       "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
       "color.static.glassy.black": "bdfa45b417b76092ad8685739f93c95df3bb432d",
       "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a",
-      "color.shadow.accent-focus": "68dc5f347b65613db3043298b4fdf8bfaa9b0924",
-      "color.shadow.accent": "53cde7c678f8142c5901396a711c5dde728e4893"
+      "color.shadow.accent-focus": "5045a06374124f19f5d9e4ef4e865c373341e36f",
+      "color.shadow.accent": "2266d3a23620a8a3a52a0ba25ca30444f6b463b0"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -902,7 +902,6 @@
       "color.border.active": "a67651704500d1449368f92535ff05f850dbda18",
       "color.border.contour": "e3d71b1bc076647b05c9162ad918b8193e4e80d0",
       "color.border.negative": "b410e4e007d2a05e98c20300acc8be797cbde6db",
-      "color.border.negative-glassy": "c7192af4878e8b197fffcdc40c683c192b6a76c2",
       "color.border.warning": "221136e35d7e5bff24e5eef7d0b983567ba592cb",
       "color.border.warning-glassy": "d7f8a6cdaab6300e039fc4a694c004beeed09642",
       "color.border.decorative.assistant-solid": "f34dbf502d4cdff4379921cb2956f80221cb8f96",
@@ -940,7 +939,8 @@
       "color.static.solid.black": "7d91de2f3af9f0251bdae8d307742f601799f39d",
       "color.static.solid.white": "50051225ccdd46cd88f61f1e1e7ae485a9062329",
       "color.static.glassy.black": "bdfa45b417b76092ad8685739f93c95df3bb432d",
-      "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a"
+      "color.static.glassy.white": "5bec5444880a541162cac7f2885cf8f980a6005a",
+      "color.border.negative-glassy": "5e5f3cfc049b2e58ea6280e81464059eefef8b07"
     },
     "$figmaModeId": "32029:5",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
