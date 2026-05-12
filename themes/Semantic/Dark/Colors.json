@@ -427,6 +427,10 @@
         "value": "linear-gradient(45deg, {primitives.electric1000} 0%, {primitives.electric1000} 100%)",
         "type": "color"
       },
+      "menu": {
+        "value": "linear-gradient(0deg, {primitives.violet400} 0%, {primitives.white} 100%)",
+        "type": "color"
+      },
       "progress-bar": {
         "value": "linear-gradient(270deg, {primitives.gray200} 0%, {primitives.gray200} 33%, {primitives.gray200} 67%, {primitives.gray200} 100%)",
         "type": "color"

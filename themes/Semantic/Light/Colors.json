@@ -403,6 +403,10 @@
       "sber-button": {
         "value": "{primitives.external.sber1}",
         "type": "color"
+      },
+      "menu": {
+        "value": "linear-gradient(0deg, {primitives.violet400} 0%, {primitives.white} 100%)",
+        "type": "color"
       }
     },
     "background": {
