@@ -541,7 +541,7 @@
           "type": "color"
         }
       },
-      "menu-copy": {
+      "menu": {
         "Step_1": {
           "value": "{primitives.violet400}",
           "type": "color"
