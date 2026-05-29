@@ -519,5 +519,559 @@
         "description": "Для тени компонентов ИИ ассистента"
       }
     }
+  },
+  "gradient": {
+    "border": {
+      "decorative": {
+        "focus": {
+          "Step_1": {
+            "value": "{primitives.electric900}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.electric900}",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "{primitives.electric900}",
+            "type": "color"
+          }
+        },
+        "active-horizontal": {
+          "Step_1": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.electric1000}",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "{primitives.electric400}",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "{primitives.electric1000}",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          }
+        },
+        "active-vertical": {
+          "Step_1": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.electric1000}",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "{primitives.electric400}",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "{primitives.electric1000}",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          }
+        },
+        "assistant": {
+          "step_1": {
+            "value": "{primitives.white}",
+            "type": "color",
+            "description": "Только для обводки ии ассистента "
+          },
+          "step_2": {
+            "value": "{primitives.electric1300}",
+            "type": "color",
+            "description": "Только для обводки ии ассистента "
+          }
+        }
+      }
+    },
+    "fill": {
+      "solid": {
+        "hover-focus": {
+          "primary": {
+            "Step_1": {
+              "value": "{primitives.gray1200}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray1100}",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "Step_1": {
+              "value": "{primitives.gray1100}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray900}",
+              "type": "color"
+            }
+          },
+          "third": {
+            "Step_1": {
+              "value": "{primitives.gray1000}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray800}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "glassy": {
+        "hover-focus": {
+          "secondary": {
+            "Step_1": {
+              "value": "rgba( {primitives.gray900} , 0.48)",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "rgba( {primitives.gray800} , 0.48)",
+              "type": "color"
+            }
+          },
+          "third": {
+            "Step_1": {
+              "value": "rgba( {primitives.gray600} , 0.32)",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "rgba( {primitives.gray500} , 0.32)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "fade": {
+        "primary": {
+          "Step_1": {
+            "value": "{primitives.black}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "rgba( {primitives.black} , 0.99)",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "rgba( {primitives.black} , 0.96)",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "rgba( {primitives.black} , 0.92)",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "rgba( {primitives.black} , 0.85)",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "rgba( {primitives.black} , 0.77)",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "rgba( {primitives.black} , 0.67)",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "rgba( {primitives.black} , 0.56)",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "rgba( {primitives.black} , 0.44)",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "rgba( {primitives.black} , 0.33)",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "rgba( {primitives.black} , 0.23)",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "rgba( {primitives.black} , 0.15)",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "rgba( {primitives.black} , 0.08)",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "rgba( {primitives.black} , 0.04)",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "rgba( {primitives.black} , 0.01)",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "Step_1": {
+            "value": "rgba( {primitives.black} , 0.8)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "rgba( {primitives.black} , 0.79)",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "rgba( {primitives.black} , 0.77)",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "rgba( {primitives.black} , 0.73)",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "rgba( {primitives.black} , 0.68)",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "rgba( {primitives.black} , 0.61)",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "rgba( {primitives.black} , 0.53)",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "rgba( {primitives.black} , 0.45)",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "rgba( {primitives.black} , 0.35)",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "rgba( {primitives.black} , 0.27)",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "rgba( {primitives.black} , 0.19)",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "rgba( {primitives.black} , 0.12)",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "rgba( {primitives.black} , 0.07)",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "rgba( {primitives.black} , 0.03)",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "rgba( {primitives.black} , 0.01)",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          }
+        },
+        "third": {
+          "Step_1": {
+            "value": "rgba( {primitives.black} , 0.56)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "rgba( {primitives.black} , 0.56)",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "rgba( {primitives.black} , 0.54)",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "rgba( {primitives.black} , 0.51)",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "rgba( {primitives.black} , 0.48)",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "rgba( {primitives.black} , 0.43)",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "rgba( {primitives.black} , 0.37)",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "rgba( {primitives.black} , 0.31)",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "rgba( {primitives.black} , 0.25)",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "rgba( {primitives.black} , 0.19)",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "rgba( {primitives.black} , 0.13)",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "rgba( {primitives.black} , 0.08)",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "rgba( {primitives.black} , 0.05)",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "rgba( {primitives.black} , 0.02)",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          }
+        },
+        "fourth": {
+          "Step_1": {
+            "value": "rgba( {primitives.black} , 0.24)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "rgba( {primitives.black} , 0.24)",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "rgba( {primitives.black} , 0.23)",
+            "type": "color"
+          },
+          "Step_4": {
+            "value": "rgba( {primitives.black} , 0.22)",
+            "type": "color"
+          },
+          "Step_5": {
+            "value": "rgba( {primitives.black} , 0.2)",
+            "type": "color"
+          },
+          "Step_6": {
+            "value": "rgba( {primitives.black} , 0.18)",
+            "type": "color"
+          },
+          "Step_7": {
+            "value": "rgba( {primitives.black} , 0.16)",
+            "type": "color"
+          },
+          "Step_8": {
+            "value": "rgba( {primitives.black} , 0.13)",
+            "type": "color"
+          },
+          "Step_9": {
+            "value": "rgba( {primitives.black} , 0.11)",
+            "type": "color"
+          },
+          "Step_10": {
+            "value": "rgba( {primitives.black} , 0.08)",
+            "type": "color"
+          },
+          "Step_11": {
+            "value": "rgba( {primitives.black} , 0.06)",
+            "type": "color"
+          },
+          "Step_12": {
+            "value": "rgba( {primitives.black} , 0.04)",
+            "type": "color"
+          },
+          "Step_13": {
+            "value": "rgba( {primitives.black} , 0.02)",
+            "type": "color"
+          },
+          "Step_14": {
+            "value": "rgba( {primitives.black} , 0.01)",
+            "type": "color"
+          },
+          "Step_15": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          },
+          "Step_16": {
+            "value": "rgba( {primitives.black} , 0)",
+            "type": "color"
+          }
+        }
+      },
+      "technical": {
+        "skeleton": {
+          "Step_1": {
+            "value": "rgba( {primitives.white} , 0.05)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "rgba( {primitives.white} , 0.15)",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "rgba( {primitives.white} , 0.05)",
+            "type": "color"
+          }
+        },
+        "button-loading": {
+          "Step_1": {
+            "value": "rgba( {primitives.white} , 0)",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "rgba( {primitives.white} , 0.24)",
+            "type": "color"
+          },
+          "Step_3": {
+            "value": "rgba( {primitives.white} , 0.3)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "component": {
+      "label": {
+        "lemon": {
+          "Step_1": {
+            "value": "{primitives.yellow200}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.yellow300}",
+            "type": "color"
+          }
+        },
+        "twilight": {
+          "Step_1": {
+            "value": "{primitives.red900}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.violet800}",
+            "type": "color"
+          }
+        },
+        "neon": {
+          "Step_1": {
+            "value": "{primitives.pink900}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.violet800}",
+            "type": "color"
+          }
+        },
+        "continuum": {
+          "Step_1": {
+            "value": "{primitives.electric800}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.electric800}",
+            "type": "color"
+          }
+        },
+        "lighthouse": {
+          "Step_1": {
+            "value": "{primitives.electric1100}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.electric1100}",
+            "type": "color"
+          }
+        },
+        "gold": {
+          "Step_1": {
+            "value": "{primitives.brown1000}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.brown600}",
+            "type": "color"
+          }
+        },
+        "melancholy": {
+          "Step_1": {
+            "value": "{primitives.blue800}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.violet900}",
+            "type": "color"
+          }
+        },
+        "sky": {
+          "Step_1": {
+            "value": "{primitives.blue100}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.blue500}",
+            "type": "color"
+          }
+        }
+      },
+      "button": {
+        "Step_1": {
+          "value": "{primitives.electric1000}",
+          "type": "color"
+        },
+        "Step_2": {
+          "value": "{primitives.electric1000}",
+          "type": "color"
+        }
+      },
+      "progress-bar": {
+        "Step_1": {
+          "value": "{primitives.gray200}",
+          "type": "color"
+        },
+        "Step_2": {
+          "value": "{primitives.gray200}",
+          "type": "color"
+        },
+        "Step_3": {
+          "value": "{primitives.gray200}",
+          "type": "color"
+        },
+        "Step_4": {
+          "value": "{primitives.gray200}",
+          "type": "color"
+        }
+      },
+      "menu": {
+        "Step_1": {
+          "value": "{primitives.violet400}",
+          "type": "color"
+        },
+        "Step_2": {
+          "value": "{primitives.white}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
