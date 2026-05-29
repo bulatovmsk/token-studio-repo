@@ -2,8 +2,8 @@
   "tokenSetOrder": [
     "Primitives",
     "Brand",
-    "Theme/SemanticWeb&Mobile",
-    "Theme/SemanticTV",
+    "Theme/Numbers/Number-Web-Mobile-Main",
+    "Theme/Numbers/Number-TV-Main",
     "Theme/Colors/ColorMainDark",
     "Theme/Colors/ColorKidsLight",
     "Technical(TV)/Ui Type",

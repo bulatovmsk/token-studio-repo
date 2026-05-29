@@ -6,7 +6,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/SemanticWeb&Mobile": "enabled"
+      "Theme/Numbers/Number-Web-Mobile-Main": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "2286:0",
@@ -57,7 +57,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/SemanticTV": "enabled"
+      "Theme/Numbers/Number-TV-Main": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "859:0",
@@ -457,7 +457,7 @@
     "name": "Technical(TV)",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Theme/SemanticTV": "source",
+      "Theme/Numbers/Number-TV-Main": "source",
       "Technical(TV)/Ui Type": "enabled"
     },
     "$figmaVariableReferences": {}
@@ -468,7 +468,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(iOS)/Ui Type/iPhone Compact 0-320": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -480,7 +480,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(iOS)/Ui Type/iPhone Regular 321-413": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -492,7 +492,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(iOS)/Ui Type/iPhone Wide 414+": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -504,7 +504,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(iOS)/Ui Type/iPad Compact 0-767": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -516,7 +516,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(iOS)/Ui Type/iPad Regular 768+": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -528,7 +528,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(iOS)/Ui Type/iPad Wide 1024+": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -541,7 +541,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(Android M)/Ui Type/Phone": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -554,7 +554,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(Android M)/Ui Type/Tablet P": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -567,7 +567,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Technical(Android M)/Ui Type/Tablet L": "enabled"
     },
     "$figmaVariableReferences": {},
@@ -579,7 +579,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Component/Phone 0+": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:29675:513",
@@ -633,7 +633,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Component/Tablet 600+": "enabled"
     },
     "group": "Component",
@@ -686,7 +686,7 @@
     "name": "Desktop 1720+",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Theme/SemanticWeb&Mobile": "source",
+      "Theme/Numbers/Number-Web-Mobile-Main": "source",
       "Primitives": "source",
       "Component/Desktop 1720+": "enabled"
     },
@@ -736,7 +736,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Component/TV": "enabled",
-      "Theme/SemanticTV": "source"
+      "Theme/Numbers/Number-TV-Main": "source"
     },
     "$figmaVariableReferences": {
       "control.default.height": "1186b9ebee19486682db4fafa18fe3bf85e0d909",
