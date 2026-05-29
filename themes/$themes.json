@@ -309,7 +309,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/Colors/ColorDark": "enabled"
+      "Theme/Colors/ColorMainDark": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -385,7 +385,7 @@
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Theme/Colors/ColorLight": "enabled"
+      "Theme/Colors/ColorKidsLight": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
