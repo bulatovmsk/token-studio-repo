@@ -238,8 +238,18 @@
           "description": "Использовать, только если нужна прозрачность. Например, элемент на неоднородном фоне. Аналог Solid. + Второстепенные кнопки. Замена для {{ Fill/Glassy/Third }}"
         },
         "inverse": {
-          "value": "rgba( {primitives.white} , 0.8)",
-          "type": "color"
+          "primary": {
+            "value": "rgba( {primitives.white} , 0.8)",
+            "type": "color"
+          },
+          "third": {
+            "value": "rgba( {primitives.white} , 0.3)",
+            "type": "color"
+          },
+          "fourth": {
+            "value": "rgba( {primitives.white} , 0.1)",
+            "type": "color"
+          }
         },
         "hover-focus": {
           "secondary": {
