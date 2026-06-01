@@ -30,7 +30,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "14",
+        "value": "999",
         "type": "borderRadius"
       }
     },
@@ -64,7 +64,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "18",
+        "value": "999",
         "type": "borderRadius"
       }
     },
@@ -98,7 +98,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "12",
+        "value": "999",
         "type": "borderRadius"
       }
     },
@@ -122,7 +122,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "8",
+        "value": "999",
         "type": "borderRadius"
       }
     },
@@ -140,7 +140,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "6",
+        "value": "999",
         "type": "borderRadius"
       }
     }

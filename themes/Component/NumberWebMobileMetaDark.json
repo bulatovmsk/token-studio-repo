@@ -105,15 +105,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "14",
+          "value": "999",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "12",
+          "value": "999",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "10",
+          "value": "999",
           "type": "borderRadius"
         }
       }
@@ -209,15 +209,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "16",
+          "value": "999",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "14",
+          "value": "999",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "12",
+          "value": "999",
           "type": "borderRadius"
         }
       }
@@ -327,15 +327,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "12",
+          "value": "999",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "10",
+          "value": "999",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "8",
+          "value": "999",
           "type": "borderRadius"
         }
       }
@@ -411,11 +411,11 @@
       },
       "radius": {
         "tablet": {
-          "value": "8",
+          "value": "999",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "6",
+          "value": "999",
           "type": "borderRadius"
         }
       }
@@ -467,15 +467,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "4",
+          "value": "999",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "4",
+          "value": "999",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "4",
+          "value": "999",
           "type": "borderRadius"
         }
       },
@@ -525,15 +525,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "4",
+          "value": "999",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "4",
+          "value": "999",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "2",
+          "value": "999",
           "type": "borderRadius"
         }
       },
