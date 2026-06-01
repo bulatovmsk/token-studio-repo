@@ -2,10 +2,10 @@
   "tokenSetOrder": [
     "Primitives",
     "Brand",
-    "Theme/Numbers/Number-Web-Mobile-Main",
-    "Theme/Numbers/Number-TV-Main",
-    "Theme/Colors/ColorMainDark",
-    "Theme/Colors/ColorKidsLight",
+    "Semantic/Numbers/Number-Web-Mobile-Main",
+    "Semantic/Numbers/Number-TV-Main",
+    "Semantic/Colors/ColorMainDark",
+    "Semantic/Colors/ColorKidsLight",
     "Technical(TV)/Ui Type",
     "Technical(iOS)/Ui Type/iPhone Compact 0-320",
     "Technical(iOS)/Ui Type/iPhone Regular 321-413",
@@ -16,8 +16,8 @@
     "Technical(Android M)/Ui Type/Phone",
     "Technical(Android M)/Ui Type/Tablet P",
     "Technical(Android M)/Ui Type/Tablet L",
-    "Component/Component-Web-Mobile-Main",
-    "Component/TV",
+    "Component/ComponentWebMobileMainDark",
+    "Component/ComponentTVMainDark",
     "Microcopy/RU",
     "Microcopy/ID"
   ]
