@@ -152,11 +152,11 @@
             "value": "rgba( {primitives.gray1200} , 0.8)",
             "type": "color"
           },
-          "third-copy": {
+          "third": {
             "value": "rgba( {primitives.white} , 0.3)",
             "type": "color"
           },
-          "fourth-copy": {
+          "fourth": {
             "value": "rgba( {primitives.white} , 0.1)",
             "type": "color"
           }
