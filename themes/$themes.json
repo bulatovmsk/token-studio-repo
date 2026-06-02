@@ -1,12 +1,12 @@
 [
   {
     "id": "9cb1d60c9039157a6a62771c30d4ba75b3983261",
-    "name": "Main-Web&Mobile",
+    "name": "WebMobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/NumberWebMobileMain": "enabled"
+      "Semantic/Numbers/WebMobile": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "2286:0",
@@ -48,16 +48,16 @@
       "screen-padding.web.desktop-l": "e5ba9a8261a759611f664d139b2c4167011166b7",
       "screen-padding.android.phone": "4519e7d6535c137252afe7eb297e46997b44e3a5"
     },
-    "group": "Semantic-Numbers"
+    "group": "Semantic W&M"
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8",
-    "name": "Main-TV",
+    "name": "TV",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/NumberTVMain": "enabled"
+      "Semantic/Numbers/TV": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "859:0",
@@ -120,15 +120,15 @@
       "spacing.650": "ea2c7be2edd9f4e3533013e9f6fef17f7e3f12f0",
       "spacing.750": "0bb27a93f0e8a50e0c1a75a5548fd5a9a4e29981"
     },
-    "group": "Semantic-Numbers"
+    "group": "Semantic TV"
   },
   {
     "id": "theme-dark",
-    "name": "Main-Dark",
+    "name": "MainDark",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/ColorMainDark": "enabled"
+      "Semantic/Colors/MainDark": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -315,15 +315,15 @@
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
-    "group": "Semantic-Color"
+    "group": "Color"
   },
   {
     "id": "theme-light",
-    "name": "Kids-Light",
+    "name": "KidsLight",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/ColorKidsLight": "enabled"
+      "Semantic/Colors/KidsLight": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -507,15 +507,15 @@
     },
     "$figmaModeId": "32029:5",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
-    "group": "Semantic-Color"
+    "group": "Color"
   },
   {
     "id": "theme-kids-dark",
-    "name": "Kids-Dark",
+    "name": "KidsDark",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/ColorKidsDark": "enabled"
+      "Semantic/Colors/KidsDark": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -702,16 +702,19 @@
     },
     "$figmaModeId": "",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
-    "group": "Semantic-Color"
+    "group": "Color"
   },
   {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a",
-    "name": "Main-Web&Mobile",
+    "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Component/NumberWebMobileMainDark": "enabled"
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Numbers/WebMobile": "enabled",
+      "Component/WebMobile/Default": "enabled"
     },
-    "group": "Component-Number",
+    "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
     "$figmaModeId": "45163:0",
     "$figmaVariableReferences": {
@@ -830,21 +833,27 @@
   },
   {
     "id": "2db599178cb3b5db46e0b1320ed5bb27fb0fa654",
-    "name": "Main-TV",
+    "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Component/NumberTVMainDark": "enabled"
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Numbers/TV": "enabled",
+      "Component/TV/Default": "enabled"
     },
-    "group": "Component-Number"
+    "group": "Component TV"
   },
   {
     "id": "810829e53b93ac45e0d4104884df2677b59f8c1a",
-    "name": "Meta-Web&Mobile",
+    "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Component/NumberWebMobileMetaDark": "enabled"
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Numbers/WebMobile": "enabled",
+      "Component/WebMobile/Meta": "enabled"
     },
-    "group": "Component-Number",
+    "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
     "$figmaModeId": "45163:1",
     "$figmaVariableReferences": {
@@ -963,12 +972,15 @@
   },
   {
     "id": "8fdac0b77e5068ec0c175c39f4d497480eb46826",
-    "name": "Meta-TV",
+    "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Component/NumberTVMetaDark": "enabled"
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Numbers/TV": "enabled",
+      "Component/TV/Meta": "enabled"
     },
-    "group": "Component-Number"
+    "group": "Component TV"
   },
   {
     "id": "primitives-primitives",
