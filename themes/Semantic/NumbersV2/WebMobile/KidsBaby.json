@@ -1,0 +1,132 @@
+{
+  "spacing": {
+    "layout": {
+      "xs": {
+        "phone":   { "value": "4",  "type": "spacing" },
+        "tablet":  { "value": "8",  "type": "spacing" },
+        "desktop": { "value": "8",  "type": "spacing" }
+      },
+      "sm": {
+        "phone":   { "value": "8",  "type": "spacing" },
+        "tablet":  { "value": "16", "type": "spacing" },
+        "desktop": { "value": "16", "type": "spacing" }
+      },
+      "md": {
+        "phone":   { "value": "16", "type": "spacing" },
+        "tablet":  { "value": "24", "type": "spacing" },
+        "desktop": { "value": "32", "type": "spacing" }
+      },
+      "lg": {
+        "phone":   { "value": "24", "type": "spacing" },
+        "tablet":  { "value": "32", "type": "spacing" },
+        "desktop": { "value": "48", "type": "spacing" }
+      },
+      "xl": {
+        "phone":   { "value": "32", "type": "spacing" },
+        "tablet":  { "value": "48", "type": "spacing" },
+        "desktop": { "value": "80", "type": "spacing" }
+      },
+      "2xl": {
+        "phone":   { "value": "48",  "type": "spacing" },
+        "tablet":  { "value": "80",  "type": "spacing" },
+        "desktop": { "value": "120", "type": "spacing" }
+      }
+    },
+    "stack": {
+      "xs": {
+        "phone":   { "value": "4", "type": "spacing" },
+        "tablet":  { "value": "4", "type": "spacing" },
+        "desktop": { "value": "4", "type": "spacing" }
+      },
+      "sm": {
+        "phone":   { "value": "8", "type": "spacing" },
+        "tablet":  { "value": "8", "type": "spacing" },
+        "desktop": { "value": "8", "type": "spacing" }
+      },
+      "md": {
+        "phone":   { "value": "16", "type": "spacing" },
+        "tablet":  { "value": "16", "type": "spacing" },
+        "desktop": { "value": "24", "type": "spacing" }
+      },
+      "lg": {
+        "phone":   { "value": "24", "type": "spacing" },
+        "tablet":  { "value": "24", "type": "spacing" },
+        "desktop": { "value": "32", "type": "spacing" }
+      },
+      "xl": {
+        "phone":   { "value": "32", "type": "spacing" },
+        "tablet":  { "value": "40", "type": "spacing" },
+        "desktop": { "value": "48", "type": "spacing" }
+      },
+      "2xl": {
+        "phone":   { "value": "48", "type": "spacing" },
+        "tablet":  { "value": "56", "type": "spacing" },
+        "desktop": { "value": "64", "type": "spacing" }
+      }
+    },
+    "gap": {
+      "xs": {
+        "phone":   { "value": "4", "type": "spacing" },
+        "tablet":  { "value": "4", "type": "spacing" },
+        "desktop": { "value": "4", "type": "spacing" }
+      },
+      "sm": {
+        "phone":   { "value": "8", "type": "spacing" },
+        "tablet":  { "value": "8", "type": "spacing" },
+        "desktop": { "value": "8", "type": "spacing" }
+      },
+      "md": {
+        "phone":   { "value": "12", "type": "spacing" },
+        "tablet":  { "value": "12", "type": "spacing" },
+        "desktop": { "value": "12", "type": "spacing" }
+      },
+      "lg": {
+        "phone":   { "value": "16", "type": "spacing" },
+        "tablet":  { "value": "16", "type": "spacing" },
+        "desktop": { "value": "16", "type": "spacing" }
+      },
+      "xl": {
+        "phone":   { "value": "24", "type": "spacing" },
+        "tablet":  { "value": "24", "type": "spacing" },
+        "desktop": { "value": "24", "type": "spacing" }
+      },
+      "2xl": {
+        "phone":   { "value": "32", "type": "spacing" },
+        "tablet":  { "value": "32", "type": "spacing" },
+        "desktop": { "value": "32", "type": "spacing" }
+      }
+    }
+  },
+  "radius": {
+    "xs": {
+      "phone":   { "value": "4", "type": "borderRadius" },
+      "tablet":  { "value": "4", "type": "borderRadius" },
+      "desktop": { "value": "4", "type": "borderRadius" }
+    },
+    "sm": {
+      "phone":   { "value": "8", "type": "borderRadius" },
+      "tablet":  { "value": "8", "type": "borderRadius" },
+      "desktop": { "value": "8", "type": "borderRadius" }
+    },
+    "md": {
+      "phone":   { "value": "12", "type": "borderRadius" },
+      "tablet":  { "value": "12", "type": "borderRadius" },
+      "desktop": { "value": "12", "type": "borderRadius" }
+    },
+    "lg": {
+      "phone":   { "value": "16", "type": "borderRadius" },
+      "tablet":  { "value": "16", "type": "borderRadius" },
+      "desktop": { "value": "16", "type": "borderRadius" }
+    },
+    "xl": {
+      "phone":   { "value": "24", "type": "borderRadius" },
+      "tablet":  { "value": "24", "type": "borderRadius" },
+      "desktop": { "value": "24", "type": "borderRadius" }
+    },
+    "full": {
+      "phone":   { "value": "9999", "type": "borderRadius" },
+      "tablet":  { "value": "9999", "type": "borderRadius" },
+      "desktop": { "value": "9999", "type": "borderRadius" }
+    }
+  }
+}
