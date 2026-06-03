@@ -472,6 +472,18 @@
           "description": "Цвет не меняется в зависимости от темы"
         }
       }
+    },
+    "shadow": {
+      "accent-focus": {
+        "value": "rgba({primitives.electric1000} , 0.7)",
+        "type": "color",
+        "description": "Для тени компонентов ИИ ассистента"
+      },
+      "accent": {
+        "value": "rgba( {primitives.electric1000} , 0.3)",
+        "type": "color",
+        "description": "Для тени компонентов ИИ ассистента"
+      }
     }
   },
   "gradient": {

@@ -133,6 +133,10 @@
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
+      },
+      "negative-glassy": {
+        "value": "rgba({primitives.red600} , 0.32)",
+        "type": "color"
       }
     },
     "fill": {
