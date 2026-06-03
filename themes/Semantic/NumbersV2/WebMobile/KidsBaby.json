@@ -95,6 +95,22 @@
         "tablet":  { "value": "32", "type": "spacing" },
         "desktop": { "value": "32", "type": "spacing" }
       }
+    },
+    "screen-padding": {
+      "android": {
+        "phone":  { "value": "16", "type": "spacing" },
+        "tablet": { "value": "24", "type": "spacing" }
+      },
+      "ios": {
+        "iphone": { "value": "15", "type": "spacing" },
+        "ipad":   { "value": "35", "type": "spacing" }
+      },
+      "web": {
+        "mobile":    { "value": "12", "type": "spacing" },
+        "tablet":    { "value": "32", "type": "spacing" },
+        "desktop-m": { "value": "56", "type": "spacing" },
+        "desktop-l": { "value": "72", "type": "spacing" }
+      }
     }
   },
   "radius": {

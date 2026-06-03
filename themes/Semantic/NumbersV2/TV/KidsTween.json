@@ -23,6 +23,10 @@
       "lg":  { "value": "16", "type": "spacing" },
       "xl":  { "value": "24", "type": "spacing" },
       "2xl": { "value": "32", "type": "spacing" }
+    },
+    "screen-padding": {
+      "left":  { "value": "148", "type": "spacing" },
+      "right": { "value": "60",  "type": "spacing" }
     }
   },
   "radius": {
