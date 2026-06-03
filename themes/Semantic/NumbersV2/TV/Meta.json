@@ -1,0 +1,44 @@
+{
+  "spacing": {
+    "layout": {
+      "xs":  { "value": "16",  "type": "spacing" },
+      "sm":  { "value": "32",  "type": "spacing" },
+      "md":  { "value": "48",  "type": "spacing" },
+      "lg":  { "value": "80",  "type": "spacing" },
+      "xl":  { "value": "120", "type": "spacing" },
+      "2xl": { "value": "148", "type": "spacing" }
+    },
+    "stack": {
+      "xs":  { "value": "8",  "type": "spacing" },
+      "sm":  { "value": "16", "type": "spacing" },
+      "md":  { "value": "24", "type": "spacing" },
+      "lg":  { "value": "40", "type": "spacing" },
+      "xl":  { "value": "64", "type": "spacing" },
+      "2xl": { "value": "96", "type": "spacing" }
+    },
+    "gap": {
+      "xs":  { "value": "4",  "type": "spacing" },
+      "sm":  { "value": "8",  "type": "spacing" },
+      "md":  { "value": "12", "type": "spacing" },
+      "lg":  { "value": "16", "type": "spacing" },
+      "xl":  { "value": "24", "type": "spacing" },
+      "2xl": { "value": "32", "type": "spacing" }
+    }
+  },
+  "radius": {
+    "xs":   { "value": "8",    "type": "borderRadius" },
+    "sm":   { "value": "12",   "type": "borderRadius" },
+    "md":   { "value": "16",   "type": "borderRadius" },
+    "lg":   { "value": "24",   "type": "borderRadius" },
+    "xl":   { "value": "32",   "type": "borderRadius" },
+    "full": { "value": "9999", "type": "borderRadius" },
+    "focus": {
+      "xs":   { "value": "{radius.xs} + 6", "type": "borderRadius" },
+      "sm":   { "value": "{radius.sm} + 6", "type": "borderRadius" },
+      "md":   { "value": "{radius.md} + 6", "type": "borderRadius" },
+      "lg":   { "value": "{radius.lg} + 6", "type": "borderRadius" },
+      "xl":   { "value": "{radius.xl} + 6", "type": "borderRadius" },
+      "full": { "value": "9999",            "type": "borderRadius" }
+    }
+  }
+}
