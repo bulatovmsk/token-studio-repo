@@ -1,0 +1,148 @@
+{
+  "control": {
+    "default": {
+      "height": {
+        "value": "68",
+        "type": "sizing"
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "32",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "18",
+          "type": "spacing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "32",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "18",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "value": "10",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "14",
+        "type": "borderRadius"
+      }
+    },
+    "large": {
+      "height": {
+        "value": "92",
+        "type": "sizing"
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "40",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "26",
+          "type": "spacing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "40",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "32",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "18",
+        "type": "borderRadius"
+      }
+    },
+    "small": {
+      "height": {
+        "value": "60",
+        "type": "sizing"
+      },
+      "icon-only": {
+        "icon-size": {
+          "value": "28",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "16",
+          "type": "spacing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "value": "28",
+          "type": "sizing"
+        },
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        }
+      },
+      "gap": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "12",
+        "type": "borderRadius"
+      }
+    },
+    "compensation": {
+      "value": "4",
+      "type": "sizing"
+    }
+  },
+  "label": {
+    "large": {
+      "icon-size": {
+        "value": "24",
+        "type": "sizing"
+      },
+      "gap-horizontal": {
+        "value": "6",
+        "type": "spacing"
+      },
+      "padding-horizontal": {
+        "value": "7",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "8",
+        "type": "borderRadius"
+      }
+    },
+    "small": {
+      "icon-size": {
+        "value": "20",
+        "type": "sizing"
+      },
+      "gap-horizontal": {
+        "value": "5",
+        "type": "spacing"
+      },
+      "padding-horizontal": {
+        "value": "7",
+        "type": "spacing"
+      },
+      "radius": {
+        "value": "6",
+        "type": "borderRadius"
+      }
+    }
+  }
+}
