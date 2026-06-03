@@ -1,0 +1,556 @@
+{
+  "control": {
+    "default": {
+      "height": {
+        "desktop": {
+          "value": "58",
+          "type": "sizing"
+        },
+        "tablet": {
+          "value": "52",
+          "type": "sizing"
+        },
+        "phone": {
+          "value": "48",
+          "type": "sizing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "desktop": {
+            "value": "26",
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": "20",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "18",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "desktop": {
+            "value": "22",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "20",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "18",
+            "type": "spacing"
+          }
+        },
+        "gap-horizontal": {
+          "desktop": {
+            "value": "10",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "10",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "gap-vertical": {
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "10",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "8",
+            "type": "spacing"
+          }
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "desktop": {
+            "value": "28",
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": "24",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "22",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "desktop": {
+            "value": "15",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "14",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "13",
+            "type": "spacing"
+          }
+        }
+      },
+      "radius": {
+        "desktop": {
+          "value": "14",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "12",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "10",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "large": {
+      "height": {
+        "desktop": {
+          "value": "96",
+          "type": "sizing"
+        },
+        "tablet": {
+          "value": "76",
+          "type": "sizing"
+        },
+        "phone": {
+          "value": "58",
+          "type": "sizing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "desktop": {
+            "value": "28",
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": "26",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "22",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "desktop": {
+            "value": "36",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "28",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "20",
+            "type": "spacing"
+          }
+        },
+        "gap-horizontal": {
+          "desktop": {
+            "value": "12",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "12",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "10",
+            "type": "spacing"
+          }
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "desktop": {
+            "value": "38",
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": "32",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "26",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "desktop": {
+            "value": "29",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "22",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "16",
+            "type": "spacing"
+          }
+        }
+      },
+      "radius": {
+        "desktop": {
+          "value": "16",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "14",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "12",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "small": {
+      "height": {
+        "desktop": {
+          "value": "42",
+          "type": "sizing"
+        },
+        "tablet": {
+          "value": "40",
+          "type": "sizing"
+        },
+        "phone": {
+          "value": "36",
+          "type": "sizing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "desktop": {
+            "value": "22",
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": "18",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "14",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "16",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "14",
+            "type": "spacing"
+          }
+        },
+        "gap-horizontal": {
+          "desktop": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "6",
+            "type": "spacing"
+          }
+        },
+        "gap-vertical": {
+          "desktop": {
+            "value": "14",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "6",
+            "type": "spacing"
+          }
+        }
+      },
+      "icon-only": {
+        "icon-size": {
+          "desktop": {
+            "value": "24",
+            "type": "sizing"
+          },
+          "tablet": {
+            "value": "20",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "18",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "desktop": {
+            "value": "9",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "10",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "9",
+            "type": "spacing"
+          }
+        }
+      },
+      "radius": {
+        "desktop": {
+          "value": "12",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "10",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "8",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "extra-small": {
+      "icon-only": {
+        "padding-horizontal": {
+          "desktop": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "8",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "icon-size": {
+          "tablet": {
+            "value": "18",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "16",
+            "type": "sizing"
+          }
+        }
+      },
+      "height": {
+        "tablet": {
+          "value": "32",
+          "type": "sizing"
+        },
+        "phone": {
+          "value": "28",
+          "type": "sizing"
+        }
+      },
+      "text-icon": {
+        "icon-size": {
+          "tablet": {
+            "value": "16",
+            "type": "sizing"
+          },
+          "phone": {
+            "value": "12",
+            "type": "sizing"
+          }
+        },
+        "padding-horizontal": {
+          "tablet": {
+            "value": "10",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "8",
+            "type": "spacing"
+          }
+        },
+        "gap-horizontal": {
+          "tablet": {
+            "value": "6",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "4",
+            "type": "spacing"
+          }
+        }
+      },
+      "radius": {
+        "tablet": {
+          "value": "8",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "6",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "compensation": {
+      "desktop": {
+        "value": "4",
+        "type": "sizing"
+      },
+      "tablet": {
+        "value": "4",
+        "type": "sizing"
+      },
+      "phone": {
+        "value": "4",
+        "type": "sizing"
+      }
+    }
+  },
+  "label": {
+    "large": {
+      "padding-horizontal": {
+        "desktop": {
+          "value": "5",
+          "type": "spacing"
+        },
+        "tablet": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "4",
+          "type": "spacing"
+        }
+      },
+      "gap-horizontal": {
+        "desktop": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "tablet": {
+          "value": "3",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "3",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "desktop": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "4",
+          "type": "borderRadius"
+        }
+      },
+      "icon-size": {
+        "desktop": {
+          "value": "16",
+          "type": "sizing"
+        },
+        "tablet": {
+          "value": "14",
+          "type": "sizing"
+        },
+        "phone": {
+          "value": "12",
+          "type": "sizing"
+        }
+      }
+    },
+    "small": {
+      "padding-horizontal": {
+        "desktop": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "tablet": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "3",
+          "type": "spacing"
+        }
+      },
+      "gap-horizontal": {
+        "desktop": {
+          "value": "3",
+          "type": "spacing"
+        },
+        "tablet": {
+          "value": "3",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "2",
+          "type": "spacing"
+        }
+      },
+      "radius": {
+        "desktop": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "4",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "2",
+          "type": "borderRadius"
+        }
+      },
+      "icon-size": {
+        "desktop": {
+          "value": "12",
+          "type": "sizing"
+        },
+        "tablet": {
+          "value": "12",
+          "type": "sizing"
+        },
+        "phone": {
+          "value": "10",
+          "type": "sizing"
+        }
+      }
+    }
+  }
+}
