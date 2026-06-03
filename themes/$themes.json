@@ -680,7 +680,8 @@
       "gradient.component.menu.Step_1": "44f5bfe2fe8d962d331108b2a2c69a768850005c",
       "gradient.component.menu.Step_2": "d7127f89472a2eacc8ea6615447803bb90056653",
       "color.shadow.accent-focus": "d2305db383cb936ca8241be75f039c4d7ed5d7ec",
-      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844"
+      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844",
+      "color.border.negative-glassy": "56843ba73545b58d0e2aa627267cc71231bc9397"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -872,7 +873,11 @@
       "gradient.component.progress-bar.Step_4": "29cc2b952327836392b3673668843b65474417a8",
       "gradient.component.menu.Step_1": "44f5bfe2fe8d962d331108b2a2c69a768850005c",
       "gradient.component.menu.Step_2": "d7127f89472a2eacc8ea6615447803bb90056653",
-      "color.border.negative-glassy": "56843ba73545b58d0e2aa627267cc71231bc9397"
+      "color.border.negative-glassy": "56843ba73545b58d0e2aa627267cc71231bc9397",
+      "color.component.label.continuum": "9629b3a833a830c48ab9bb7545c948f126859ea8",
+      "color.component.label.lighthouse": "d3f8bbbf6faef307773ec21158ecce6a110bfc88",
+      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844",
+      "color.shadow.accent-focus": "d2305db383cb936ca8241be75f039c4d7ed5d7ec"
     },
     "$figmaModeId": "32029:5",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -1067,7 +1072,8 @@
       "gradient.component.menu.Step_1": "44f5bfe2fe8d962d331108b2a2c69a768850005c",
       "gradient.component.menu.Step_2": "d7127f89472a2eacc8ea6615447803bb90056653",
       "color.shadow.accent-focus": "d2305db383cb936ca8241be75f039c4d7ed5d7ec",
-      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844"
+      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844",
+      "color.border.negative-glassy": "56843ba73545b58d0e2aa627267cc71231bc9397"
     },
     "$figmaModeId": "",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -1262,7 +1268,8 @@
       "gradient.component.menu.Step_1": "44f5bfe2fe8d962d331108b2a2c69a768850005c",
       "gradient.component.menu.Step_2": "d7127f89472a2eacc8ea6615447803bb90056653",
       "color.shadow.accent-focus": "d2305db383cb936ca8241be75f039c4d7ed5d7ec",
-      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844"
+      "color.shadow.accent": "384a4cd1756088d2d0333ca52767ed513dbea844",
+      "color.border.negative-glassy": "56843ba73545b58d0e2aa627267cc71231bc9397"
     },
     "$figmaModeId": "",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
