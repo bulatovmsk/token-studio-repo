@@ -1286,12 +1286,8 @@
     "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitives": "source",
-      "Brand": "source",
-      "Semantic/Numbers/WebMobile/Main": "enabled",
       "Component/WebMobile/Main": "enabled"
     },
-    "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
     "$figmaModeId": "45163:0",
     "$figmaVariableReferences": {
@@ -1447,7 +1443,8 @@
       "label.small.icon-size.desktop": "e732c49111fd789d3ed4833b0ab121c9455be17e",
       "label.small.icon-size.tablet": "96511dc9975dfe65f1c374fde6047a7990496d66",
       "label.small.icon-size.phone": "3367ddbb10633c0b7954304a8d3dd9fb22f7df40"
-    }
+    },
+    "group": "Component W&M"
   },
   {
     "id": "2db599178cb3b5db46e0b1320ed5bb27fb0fa654",
@@ -1466,12 +1463,8 @@
     "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitives": "source",
-      "Brand": "source",
-      "Semantic/Numbers/WebMobile/Meta": "enabled",
       "Component/WebMobile/Meta": "enabled"
     },
-    "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
     "$figmaModeId": "45163:1",
     "$figmaVariableReferences": {
@@ -1627,19 +1620,16 @@
       "label.small.icon-size.desktop": "e732c49111fd789d3ed4833b0ab121c9455be17e",
       "label.small.icon-size.tablet": "96511dc9975dfe65f1c374fde6047a7990496d66",
       "label.small.icon-size.phone": "3367ddbb10633c0b7954304a8d3dd9fb22f7df40"
-    }
+    },
+    "group": "Component W&M"
   },
   {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a-kidsdark",
     "name": "KidsTween",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitives": "source",
-      "Brand": "source",
-      "Semantic/Numbers/WebMobile/KidsTween": "enabled",
       "Component/WebMobile/KidsTween": "enabled"
     },
-    "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
     "$figmaModeId": "45291:0",
     "$figmaVariableReferences": {
@@ -1795,19 +1785,16 @@
       "label.small.icon-size.desktop": "e732c49111fd789d3ed4833b0ab121c9455be17e",
       "label.small.icon-size.tablet": "96511dc9975dfe65f1c374fde6047a7990496d66",
       "label.small.icon-size.phone": "3367ddbb10633c0b7954304a8d3dd9fb22f7df40"
-    }
+    },
+    "group": "Component W&M"
   },
   {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a-kidslight",
     "name": "KidsBaby",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitives": "source",
-      "Brand": "source",
-      "Semantic/Numbers/WebMobile/KidsBaby": "enabled",
       "Component/WebMobile/KidsBaby": "enabled"
     },
-    "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
     "$figmaModeId": "45291:1",
     "$figmaVariableReferences": {
@@ -1963,7 +1950,8 @@
       "label.small.icon-size.desktop": "e732c49111fd789d3ed4833b0ab121c9455be17e",
       "label.small.icon-size.tablet": "96511dc9975dfe65f1c374fde6047a7990496d66",
       "label.small.icon-size.phone": "3367ddbb10633c0b7954304a8d3dd9fb22f7df40"
-    }
+    },
+    "group": "Component W&M"
   },
   {
     "id": "8fdac0b77e5068ec0c175c39f4d497480eb46826",
