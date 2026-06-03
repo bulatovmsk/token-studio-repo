@@ -1,12 +1,12 @@
 [
   {
     "id": "9cb1d60c9039157a6a62771c30d4ba75b3983261",
-    "name": "MainDark",
+    "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/MainDark": "enabled"
+      "Semantic/Numbers/WebMobile/Main": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "2286:0",
@@ -52,12 +52,12 @@
   },
   {
     "id": "9cb1d60c9039157a6a62771c30d4ba75b3983261-kidsdark",
-    "name": "KidsDark",
+    "name": "KidsTween",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/KidsDark": "enabled"
+      "Semantic/Numbers/WebMobile/KidsTween": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "",
@@ -103,12 +103,12 @@
   },
   {
     "id": "9cb1d60c9039157a6a62771c30d4ba75b3983261-kidslight",
-    "name": "KidsLight",
+    "name": "KidsBaby",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/KidsLight": "enabled"
+      "Semantic/Numbers/WebMobile/KidsBaby": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "",
@@ -154,12 +154,12 @@
   },
   {
     "id": "9cb1d60c9039157a6a62771c30d4ba75b3983261-metadark",
-    "name": "MetaDark",
+    "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/MetaDark": "enabled"
+      "Semantic/Numbers/WebMobile/Meta": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
     "$figmaModeId": "",
@@ -205,12 +205,12 @@
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8",
-    "name": "MainDark",
+    "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/MainDark": "enabled"
+      "Semantic/Numbers/TV/Main": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "859:0",
@@ -277,12 +277,12 @@
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8-kidsdark",
-    "name": "KidsDark",
+    "name": "KidsTween",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/KidsDark": "enabled"
+      "Semantic/Numbers/TV/KidsTween": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "",
@@ -349,12 +349,12 @@
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8-kidslight",
-    "name": "KidsLight",
+    "name": "KidsBaby",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/KidsLight": "enabled"
+      "Semantic/Numbers/TV/KidsBaby": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "",
@@ -421,12 +421,12 @@
   },
   {
     "id": "1bee9766524e3cf6c4cb29ce979992d68ee7faf8-metadark",
-    "name": "MetaDark",
+    "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/MetaDark": "enabled"
+      "Semantic/Numbers/TV/Meta": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:859:9314",
     "$figmaModeId": "",
@@ -493,11 +493,11 @@
   },
   {
     "id": "theme-dark",
-    "name": "MainDark",
+    "name": "Main",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/MainDark": "enabled"
+      "Semantic/Colors/Main": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -689,11 +689,11 @@
   },
   {
     "id": "theme-light",
-    "name": "KidsLight",
+    "name": "KidsBaby",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/KidsLight": "enabled"
+      "Semantic/Colors/KidsBaby": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -885,11 +885,11 @@
   },
   {
     "id": "theme-kids-dark",
-    "name": "KidsDark",
+    "name": "KidsTween",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/KidsDark": "enabled"
+      "Semantic/Colors/KidsTween": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1081,11 +1081,11 @@
   },
   {
     "id": "theme-dark-metadark",
-    "name": "MetaDark",
+    "name": "Meta",
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Colors/MetaDark": "enabled"
+      "Semantic/Colors/Meta": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1277,13 +1277,13 @@
   },
   {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a",
-    "name": "MainDark",
+    "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/MainDark": "enabled",
-      "Component/WebMobile/MainDark": "enabled"
+      "Semantic/Numbers/WebMobile/Main": "enabled",
+      "Component/WebMobile/Main": "enabled"
     },
     "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
@@ -1404,25 +1404,25 @@
   },
   {
     "id": "2db599178cb3b5db46e0b1320ed5bb27fb0fa654",
-    "name": "MainDark",
+    "name": "Main",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/MainDark": "enabled",
-      "Component/TV/MainDark": "enabled"
+      "Semantic/Numbers/TV/Main": "enabled",
+      "Component/TV/Main": "enabled"
     },
     "group": "Component TV"
   },
   {
     "id": "810829e53b93ac45e0d4104884df2677b59f8c1a",
-    "name": "MetaDark",
+    "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/MetaDark": "enabled",
-      "Component/WebMobile/MetaDark": "enabled"
+      "Semantic/Numbers/WebMobile/Meta": "enabled",
+      "Component/WebMobile/Meta": "enabled"
     },
     "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
@@ -1543,13 +1543,13 @@
   },
   {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a-kidsdark",
-    "name": "KidsDark",
+    "name": "KidsTween",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/KidsDark": "enabled",
-      "Component/WebMobile/KidsDark": "enabled"
+      "Semantic/Numbers/WebMobile/KidsTween": "enabled",
+      "Component/WebMobile/KidsTween": "enabled"
     },
     "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
@@ -1670,13 +1670,13 @@
   },
   {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a-kidslight",
-    "name": "KidsLight",
+    "name": "KidsBaby",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/WebMobile/KidsLight": "enabled",
-      "Component/WebMobile/KidsLight": "enabled"
+      "Semantic/Numbers/WebMobile/KidsBaby": "enabled",
+      "Component/WebMobile/KidsBaby": "enabled"
     },
     "group": "Component W&M",
     "$figmaCollectionId": "VariableCollectionId:45163:17134",
@@ -1797,38 +1797,38 @@
   },
   {
     "id": "8fdac0b77e5068ec0c175c39f4d497480eb46826",
-    "name": "MetaDark",
+    "name": "Meta",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/MetaDark": "enabled",
-      "Component/TV/MetaDark": "enabled"
+      "Semantic/Numbers/TV/Meta": "enabled",
+      "Component/TV/Meta": "enabled"
     },
     "group": "Component TV"
   },
   {
     "id": "2db599178cb3b5db46e0b1320ed5bb27fb0fa654-kidsdark",
-    "name": "KidsDark",
+    "name": "KidsTween",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/KidsDark": "enabled",
-      "Component/TV/KidsDark": "enabled"
+      "Semantic/Numbers/TV/KidsTween": "enabled",
+      "Component/TV/KidsTween": "enabled"
     },
     "group": "Component TV",
     "$figmaModeId": ""
   },
   {
     "id": "2db599178cb3b5db46e0b1320ed5bb27fb0fa654-kidslight",
-    "name": "KidsLight",
+    "name": "KidsBaby",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitives": "source",
       "Brand": "source",
-      "Semantic/Numbers/TV/KidsLight": "enabled",
-      "Component/TV/KidsLight": "enabled"
+      "Semantic/Numbers/TV/KidsBaby": "enabled",
+      "Component/TV/KidsBaby": "enabled"
     },
     "group": "Component TV",
     "$figmaModeId": ""

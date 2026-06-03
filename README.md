@@ -12,16 +12,16 @@ themes/
 ├── Brand.json                # Бренды (okko/partners/social), ссылается на Primitives
 ├── Semantic/                 # Продуктовая семантика — используется в вёрстке фич
 │   ├── Colors/
-│   │   ├── MainDark.json
-│   │   ├── KidsDark.json
-│   │   ├── KidsLight.json
-│   │   └── MetaDark.json
+│   │   ├── Main.json
+│   │   ├── KidsTween.json
+│   │   ├── KidsBaby.json
+│   │   └── Meta.json
 │   └── Numbers/
-│       ├── WebMobile/{MainDark,KidsDark,KidsLight,MetaDark}.json
-│       └── TV/{MainDark,KidsDark,KidsLight,MetaDark}.json
+│       ├── WebMobile/{Main,KidsTween,KidsBaby,Meta}.json
+│       └── TV/{Main,KidsTween,KidsBaby,Meta}.json
 ├── Component/                # Токены компонентов ДС — только внутри ДС-компонентов
-│   ├── WebMobile/{MainDark,KidsDark,KidsLight,MetaDark}.json
-│   └── TV/{MainDark,KidsDark,KidsLight,MetaDark}.json
+│   ├── WebMobile/{Main,KidsTween,KidsBaby,Meta}.json
+│   └── TV/{Main,KidsTween,KidsBaby,Meta}.json
 ├── Technical(iOS)/           # Типографика и spec'ы под iPhone/iPad
 ├── Technical(Android M)/     # То же под Android (Phone/Tablet P/L)
 ├── Technical(TV)/            # То же под TV
@@ -55,12 +55,12 @@ Primitives → Brand → Semantic → Component
 
 | Тема | Описание |
 |---|---|
-| `MainDark` | Основная тёмная тема продукта |
-| `KidsDark` | Детский продукт, тёмная палитра |
-| `KidsLight` | Детский продукт, светлая палитра |
-| `MetaDark` | Глобальный редизайн (закруглённые контролы, `control.*.radius=999`) |
+| `Main` | Основная тёмная тема продукта |
+| `KidsTween` | Детский продукт, тёмная палитра |
+| `KidsBaby` | Детский продукт, светлая палитра |
+| `Meta` | Глобальный редизайн (закруглённые контролы, `control.*.radius=999`) |
 
-Каждая тема существует во всех слоях. На Semantic/Component-слоях Kids- и Meta-варианты пока являются клонами MainDark (placeholder) — дизайнер заполнит значения позже.
+Каждая тема существует во всех слоях. На Semantic/Component-слоях Kids- и Meta-варианты пока являются клонами Main (placeholder) — дизайнер заполнит значения позже.
 
 ## Figma-коллекции
 
@@ -81,23 +81,23 @@ Primitives → Brand → Semantic → Component
 
 Оба файла критичны для плагина — править руками только осознанно.
 
-## Контракт `Color/MainDark` — не трогать
+## Контракт `Color/Main` — не трогать
 
-Запись `Color/MainDark` в `themes/$themes.json` имеет:
+Запись `Color/Main` в `themes/$themes.json` имеет:
 - `$figmaCollectionId: "VariableCollectionId:32029:3918"`,
 - `$figmaModeId: "32029:4"`,
 - **180** `$figmaVariableReferences` (mapping token-путей на конкретные Figma-переменные).
 
 Эти поля **нельзя менять**. Любое изменение приведёт к тому, что Token Studio plugin при push пересоздаст все 180 цветовых переменных в Figma как новые, и вся вёрстка фич, использующая Main-Dark цвета, отвалится.
 
-Аналогично нельзя менять пути ключей внутри `themes/Semantic/Colors/MainDark.json` (`color.text-icon.primary` → удалить или переименовать = поломать var-ref в `$themes.json`).
+Аналогично нельзя менять пути ключей внутри `themes/Semantic/Colors/Main.json` (`color.text-icon.primary` → удалить или переименовать = поломать var-ref в `$themes.json`).
 
 ## Workflow
 
 1. **Pull**: открыть Figma → Token Studio plugin → Sync → Pull from GitHub. Плагин зальёт в Figma актуальные значения переменных и стили.
 2. **Edit**: править токены либо в плагине (UI), либо напрямую в JSON через PR.
 3. **Push**: из плагина → Push to GitHub → создать ветку → PR. Плагин обновит `$themes.json` (новые `$figmaModeId` / `$figmaVariableReferences` при необходимости).
-4. **Review**: проверить diff. Для записи `Color/MainDark` `$figma*` поля **должны быть нулевыми** в diff.
+4. **Review**: проверить diff. Для записи `Color/Main` `$figma*` поля **должны быть нулевыми** в diff.
 5. **Merge**: после ревью смерджить в `main`.
 
 ## Как добавить новый токен
@@ -111,10 +111,10 @@ Primitives → Brand → Semantic → Component
 
 ## Как добавить новую тему
 
-1. Создать 5 новых json-файлов — по одному в каждой коллекции — как клоны соответствующих MainDark:
+1. Создать 5 новых json-файлов — по одному в каждой коллекции — как клоны соответствующих Main:
    - `themes/Semantic/Colors/<NewTheme>.json`
    - `themes/Semantic/Numbers/{WebMobile,TV}/<NewTheme>.json`
    - `themes/Component/{WebMobile,TV}/<NewTheme>.json`
-2. В `themes/$themes.json` добавить 5 записей `<NewTheme>` — по одной в каждой из 5 групп. Скопировать `$figmaCollectionId` и `$figmaVariableReferences` из MainDark соответствующей группы; `$figmaModeId: ""` — плагин создаст новый мод на push.
+2. В `themes/$themes.json` добавить 5 записей `<NewTheme>` — по одной в каждой из 5 групп. Скопировать `$figmaCollectionId` и `$figmaVariableReferences` из Main соответствующей группы; `$figmaModeId: ""` — плагин создаст новый мод на push.
 3. Добавить пути новых файлов в `themes/$metadata.json` → `tokenSetOrder`.
 4. Push в Figma — плагин создаст новый мод в каждой коллекции.
