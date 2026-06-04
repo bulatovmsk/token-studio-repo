@@ -102,6 +102,36 @@
         "type": "borderRadius"
       }
     },
+    "focus": {
+      "width": {
+        "default": {
+          "value": "3",
+          "type": "borderWidth"
+        },
+        "large": {
+          "value": "3",
+          "type": "borderWidth"
+        },
+        "small": {
+          "value": "3",
+          "type": "borderWidth"
+        }
+      },
+      "radius": {
+        "default": {
+          "value": "{control.default.radius} + 3",
+          "type": "borderRadius"
+        },
+        "large": {
+          "value": "{control.large.radius} + 3",
+          "type": "borderRadius"
+        },
+        "small": {
+          "value": "{control.small.radius} + 3",
+          "type": "borderRadius"
+        }
+      }
+    },
     "compensation": {
       "value": "4",
       "type": "sizing"

@@ -420,6 +420,68 @@
         }
       }
     },
+    "focus": {
+      "width": {
+        "default": {
+          "value": "1",
+          "type": "borderWidth"
+        },
+        "large": {
+          "value": "2",
+          "type": "borderWidth"
+        },
+        "small": {
+          "value": "1",
+          "type": "borderWidth"
+        },
+        "extra-small": {
+          "value": "1",
+          "type": "borderWidth"
+        }
+      },
+      "radius": {
+        "default": {
+          "desktop": {
+            "value": "{control.default.radius.desktop} + 2",
+            "type": "borderRadius"
+          },
+          "tablet": {
+            "value": "{control.default.radius.tablet} + 2",
+            "type": "borderRadius"
+          }
+        },
+        "large": {
+          "desktop": {
+            "value": "{control.large.radius.desktop} + 3",
+            "type": "borderRadius"
+          },
+          "tablet": {
+            "value": "{control.large.radius.tablet} + 3",
+            "type": "borderRadius"
+          }
+        },
+        "small": {
+          "desktop": {
+            "value": "{control.small.radius.desktop} + 2",
+            "type": "borderRadius"
+          },
+          "tablet": {
+            "value": "{control.small.radius.tablet} + 2",
+            "type": "borderRadius"
+          }
+        },
+        "extra-small": {
+          "desktop": {
+            "value": "{control.extra-small.radius.desktop} + 2",
+            "type": "borderRadius"
+          },
+          "tablet": {
+            "value": "{control.extra-small.radius.tablet} + 2",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
     "compensation": {
       "desktop": {
         "value": "4",
