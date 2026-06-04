@@ -1,48 +1,176 @@
 {
   "spacing": {
     "layout": {
-      "xs":  { "value": "16",  "type": "spacing" },
-      "sm":  { "value": "32",  "type": "spacing" },
-      "md":  { "value": "48",  "type": "spacing" },
-      "lg":  { "value": "80",  "type": "spacing" },
-      "xl":  { "value": "120", "type": "spacing" },
-      "2xl": { "value": "148", "type": "spacing" }
+      "xs": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Минимальный отступ между секциями экрана"
+      },
+      "sm": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Маленький отступ между секциями экрана"
+      },
+      "md": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Средний отступ между секциями экрана"
+      },
+      "lg": {
+        "value": "80",
+        "type": "spacing",
+        "description": "Большой отступ между секциями экрана"
+      },
+      "xl": {
+        "value": "120",
+        "type": "spacing",
+        "description": "Очень большой отступ между секциями экрана"
+      },
+      "2xl": {
+        "value": "148",
+        "type": "spacing",
+        "description": "Максимальный отступ между секциями экрана"
+      }
     },
     "stack": {
-      "xs":  { "value": "8",  "type": "spacing" },
-      "sm":  { "value": "16", "type": "spacing" },
-      "md":  { "value": "24", "type": "spacing" },
-      "lg":  { "value": "40", "type": "spacing" },
-      "xl":  { "value": "64", "type": "spacing" },
-      "2xl": { "value": "96", "type": "spacing" }
+      "xs": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Минимальный отступ между элементами в вертикальной стопке"
+      },
+      "sm": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Маленький отступ между элементами в вертикальной стопке"
+      },
+      "md": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Средний отступ между элементами в вертикальной стопке"
+      },
+      "lg": {
+        "value": "40",
+        "type": "spacing",
+        "description": "Большой отступ между элементами в вертикальной стопке"
+      },
+      "xl": {
+        "value": "64",
+        "type": "spacing",
+        "description": "Очень большой отступ между элементами в вертикальной стопке"
+      },
+      "2xl": {
+        "value": "96",
+        "type": "spacing",
+        "description": "Максимальный отступ между элементами в вертикальной стопке"
+      }
     },
     "gap": {
-      "xs":  { "value": "4",  "type": "spacing" },
-      "sm":  { "value": "8",  "type": "spacing" },
-      "md":  { "value": "12", "type": "spacing" },
-      "lg":  { "value": "16", "type": "spacing" },
-      "xl":  { "value": "24", "type": "spacing" },
-      "2xl": { "value": "32", "type": "spacing" }
+      "xs": {
+        "value": "4",
+        "type": "spacing",
+        "description": "Минимальный gap между элементами внутри компонента"
+      },
+      "sm": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Маленький gap между элементами внутри компонента"
+      },
+      "md": {
+        "value": "12",
+        "type": "spacing",
+        "description": "Средний gap между элементами внутри компонента"
+      },
+      "lg": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Большой gap между элементами внутри компонента"
+      },
+      "xl": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Очень большой gap между элементами внутри компонента"
+      },
+      "2xl": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Максимальный gap между элементами внутри компонента"
+      }
     },
     "screen-padding": {
-      "left":  { "value": "148", "type": "spacing" },
-      "right": { "value": "60",  "type": "spacing" }
+      "left": {
+        "value": "148",
+        "type": "spacing",
+        "description": "Левый отступ от края экрана TV под зону фокуса"
+      },
+      "right": {
+        "value": "60",
+        "type": "spacing",
+        "description": "Правый отступ от края экрана TV"
+      }
     }
   },
   "radius": {
-    "xs":   { "value": "8",    "type": "borderRadius" },
-    "sm":   { "value": "12",   "type": "borderRadius" },
-    "md":   { "value": "16",   "type": "borderRadius" },
-    "lg":   { "value": "24",   "type": "borderRadius" },
-    "xl":   { "value": "32",   "type": "borderRadius" },
-    "full": { "value": "9999", "type": "borderRadius" },
+    "xs": {
+      "value": "8",
+      "type": "borderRadius",
+      "description": "Минимальный радиус скругления"
+    },
+    "sm": {
+      "value": "12",
+      "type": "borderRadius",
+      "description": "Маленький радиус скругления"
+    },
+    "md": {
+      "value": "16",
+      "type": "borderRadius",
+      "description": "Средний радиус скругления"
+    },
+    "lg": {
+      "value": "24",
+      "type": "borderRadius",
+      "description": "Большой радиус скругления"
+    },
+    "xl": {
+      "value": "32",
+      "type": "borderRadius",
+      "description": "Очень большой радиус скругления"
+    },
+    "full": {
+      "value": "9999",
+      "type": "borderRadius",
+      "description": "Полный радиус: круг или пилюля"
+    },
     "focus": {
-      "xs":   { "value": "{radius.xs} + 6", "type": "borderRadius" },
-      "sm":   { "value": "{radius.sm} + 6", "type": "borderRadius" },
-      "md":   { "value": "{radius.md} + 6", "type": "borderRadius" },
-      "lg":   { "value": "{radius.lg} + 6", "type": "borderRadius" },
-      "xl":   { "value": "{radius.xl} + 6", "type": "borderRadius" },
-      "full": { "value": "9999",            "type": "borderRadius" }
+      "xs": {
+        "value": "{radius.xs} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления xs"
+      },
+      "sm": {
+        "value": "{radius.sm} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления sm"
+      },
+      "md": {
+        "value": "{radius.md} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления md"
+      },
+      "lg": {
+        "value": "{radius.lg} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления lg"
+      },
+      "xl": {
+        "value": "{radius.xl} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления xl"
+      },
+      "full": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Полный радиус фокус-обводки: круг или пилюля"
+      }
     }
   }
 }
