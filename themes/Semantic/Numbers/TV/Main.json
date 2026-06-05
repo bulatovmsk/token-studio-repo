@@ -1,238 +1,366 @@
 {
-  "corner-radius": {
-    "100": {
-      "value": "{corner-radius.base} *0.5",
-      "type": "borderRadius"
+  "space-4": {
+    "value": "4",
+    "type": "spacing"
+  },
+  "space-8": {
+    "value": "8",
+    "type": "spacing"
+  },
+  "space-10": {
+    "value": "10",
+    "type": "spacing"
+  },
+  "space-12": {
+    "value": "12",
+    "type": "spacing"
+  },
+  "space-14": {
+    "value": "14",
+    "type": "spacing"
+  },
+  "space-16": {
+    "value": "16",
+    "type": "spacing"
+  },
+  "space-18": {
+    "value": "18",
+    "type": "spacing"
+  },
+  "space-20": {
+    "value": "20",
+    "type": "spacing"
+  },
+  "space-24": {
+    "value": "24",
+    "type": "spacing"
+  },
+  "space-26": {
+    "value": "26",
+    "type": "spacing"
+  },
+  "space-28": {
+    "value": "28",
+    "type": "spacing"
+  },
+  "space-32": {
+    "value": "32",
+    "type": "spacing"
+  },
+  "space-36": {
+    "value": "36",
+    "type": "spacing"
+  },
+  "space-44": {
+    "value": "44",
+    "type": "spacing"
+  },
+  "space-48": {
+    "value": "48",
+    "type": "spacing"
+  },
+  "space-52": {
+    "value": "52",
+    "type": "spacing"
+  },
+  "space-56": {
+    "value": "56",
+    "type": "spacing"
+  },
+  "space-60": {
+    "value": "60",
+    "type": "spacing"
+  },
+  "space-64": {
+    "value": "64",
+    "type": "spacing"
+  },
+  "space-68": {
+    "value": "68",
+    "type": "spacing"
+  },
+  "space-72": {
+    "value": "72",
+    "type": "spacing"
+  },
+  "space-80": {
+    "value": "80",
+    "type": "spacing"
+  },
+  "space-88": {
+    "value": "88",
+    "type": "spacing"
+  },
+  "space-104": {
+    "value": "104",
+    "type": "spacing"
+  },
+  "radius-4": {
+    "value": "4",
+    "type": "borderRadius"
+  },
+  "radius-6": {
+    "value": "6",
+    "type": "borderRadius"
+  },
+  "radius-8": {
+    "value": "8",
+    "type": "borderRadius"
+  },
+  "radius-10": {
+    "value": "10",
+    "type": "borderRadius"
+  },
+  "radius-12": {
+    "value": "12",
+    "type": "borderRadius"
+  },
+  "radius-14": {
+    "value": "14",
+    "type": "borderRadius"
+  },
+  "radius-16": {
+    "value": "16",
+    "type": "borderRadius"
+  },
+  "radius-18": {
+    "value": "18",
+    "type": "borderRadius"
+  },
+  "radius-20": {
+    "value": "20",
+    "type": "borderRadius"
+  },
+  "radius-22": {
+    "value": "22",
+    "type": "borderRadius"
+  },
+  "radius-24": {
+    "value": "24",
+    "type": "borderRadius"
+  },
+  "radius-26": {
+    "value": "26",
+    "type": "borderRadius"
+  },
+  "radius-28": {
+    "value": "28",
+    "type": "borderRadius"
+  },
+  "radius-32": {
+    "value": "32",
+    "type": "borderRadius"
+  },
+  "radius-36": {
+    "value": "36",
+    "type": "borderRadius"
+  },
+  "radius-full": {
+    "value": "9999",
+    "type": "borderRadius"
+  },
+  "radius-focus-10": {
+    "value": "{radius-4} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-12": {
+    "value": "{radius-6} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-14": {
+    "value": "{radius-8} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-16": {
+    "value": "{radius-10} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-18": {
+    "value": "{radius-12} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-20": {
+    "value": "{radius-14} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-22": {
+    "value": "{radius-16} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-24": {
+    "value": "{radius-18} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-26": {
+    "value": "{radius-20} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-28": {
+    "value": "{radius-22} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-30": {
+    "value": "{radius-24} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-32": {
+    "value": "{radius-26} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-34": {
+    "value": "{radius-28} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-38": {
+    "value": "{radius-32} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-42": {
+    "value": "{radius-36} + 6",
+    "type": "borderRadius"
+  },
+  "radius-focus-full": {
+    "value": "9999",
+    "type": "borderRadius"
+  },
+  "section": {
+    "xs": {
+      "value": "16",
+      "type": "spacing",
+      "description": "Минимальный отступ между секциями экрана"
     },
-    "200": {
-      "value": "{corner-radius.base} *0.75",
-      "type": "borderRadius"
+    "sm": {
+      "value": "32",
+      "type": "spacing",
+      "description": "Маленький отступ между секциями экрана"
     },
-    "300": {
-      "value": "{corner-radius.base}",
-      "type": "borderRadius"
+    "md": {
+      "value": "48",
+      "type": "spacing",
+      "description": "Средний отступ между секциями экрана"
     },
-    "400": {
-      "value": "{corner-radius.base} *1.25",
-      "type": "borderRadius"
+    "lg": {
+      "value": "80",
+      "type": "spacing",
+      "description": "Большой отступ между секциями экрана"
     },
-    "450": {
-      "value": "{corner-radius.base}*1.5",
-      "type": "borderRadius"
+    "xl": {
+      "value": "120",
+      "type": "spacing",
+      "description": "Очень большой отступ между секциями экрана"
     },
-    "475": {
-      "value": "{corner-radius.base}*1.75",
-      "type": "borderRadius"
-    },
-    "500": {
-      "value": "{corner-radius.base}*2",
-      "type": "borderRadius"
-    },
-    "550": {
-      "value": "{corner-radius.base} *2.25",
-      "type": "borderRadius"
-    },
-    "600": {
-      "value": "{corner-radius.base}*2.5",
-      "type": "borderRadius"
-    },
-    "650": {
-      "value": "{corner-radius.base} *2.75",
-      "type": "borderRadius"
-    },
-    "700": {
-      "value": "{corner-radius.base}*3",
-      "type": "borderRadius"
-    },
-    "750": {
-      "value": "{corner-radius.base} *3.25",
-      "type": "borderRadius"
-    },
-    "800": {
-      "value": "{corner-radius.base}*3.5",
-      "type": "borderRadius"
-    },
-    "900": {
-      "value": "{corner-radius.base}*4",
-      "type": "borderRadius"
-    },
-    "1000": {
-      "value": "{corner-radius.base}*4.5",
-      "type": "borderRadius"
-    },
-    "round": {
-      "value": "9999",
-      "type": "borderRadius"
-    },
-    "focus": {
-      "100": {
-        "value": "{corner-radius.100}+6",
-        "type": "borderRadius"
-      },
-      "200": {
-        "value": "{corner-radius.200}+6",
-        "type": "borderRadius"
-      },
-      "300": {
-        "value": "{corner-radius.300}+6",
-        "type": "borderRadius"
-      },
-      "400": {
-        "value": "{corner-radius.400}+6",
-        "type": "borderRadius"
-      },
-      "450": {
-        "value": "{corner-radius.450}+6",
-        "type": "borderRadius"
-      },
-      "475": {
-        "value": "{corner-radius.475}+6",
-        "type": "borderRadius"
-      },
-      "500": {
-        "value": "{corner-radius.500} +6",
-        "type": "borderRadius"
-      },
-      "550": {
-        "value": "{corner-radius.550} +6",
-        "type": "borderRadius"
-      },
-      "600": {
-        "value": "{corner-radius.600} +6",
-        "type": "borderRadius"
-      },
-      "650": {
-        "value": "{corner-radius.650} +6",
-        "type": "borderRadius"
-      },
-      "700": {
-        "value": "{corner-radius.700} +6",
-        "type": "borderRadius"
-      },
-      "750": {
-        "value": "{corner-radius.750} +6",
-        "type": "borderRadius"
-      },
-      "800": {
-        "value": "{corner-radius.800} +6",
-        "type": "borderRadius"
-      },
-      "900": {
-        "value": "{corner-radius.900} +6",
-        "type": "borderRadius"
-      },
-      "1000": {
-        "value": "{corner-radius.1000} +6",
-        "type": "borderRadius"
-      }
+    "2xl": {
+      "value": "148",
+      "type": "spacing",
+      "description": "Максимальный отступ между секциями экрана"
     }
   },
-  "spacing": {
-    "50": {
-      "value": "{spacing.base} *0.5",
-      "type": "spacing"
+  "section-inner": {
+    "xs": {
+      "value": "8",
+      "type": "spacing",
+      "description": "Минимальный отступ между элементами в вертикальной стопке"
     },
-    "100": {
-      "value": "{spacing.base}",
-      "type": "spacing"
+    "sm": {
+      "value": "16",
+      "type": "spacing",
+      "description": "Маленький отступ между элементами в вертикальной стопке"
     },
-    "125": {
-      "value": "{spacing.base} *1.25",
-      "type": "spacing"
+    "md": {
+      "value": "24",
+      "type": "spacing",
+      "description": "Средний отступ между элементами в вертикальной стопке"
     },
-    "150": {
-      "value": "{spacing.base} *1.5",
-      "type": "spacing"
+    "lg": {
+      "value": "40",
+      "type": "spacing",
+      "description": "Большой отступ между элементами в вертикальной стопке"
     },
-    "175": {
-      "value": "{spacing.base} *1.75",
-      "type": "spacing"
+    "xl": {
+      "value": "64",
+      "type": "spacing",
+      "description": "Очень большой отступ между элементами в вертикальной стопке"
     },
-    "200": {
-      "value": "{spacing.base} *2",
-      "type": "spacing"
-    },
-    "225": {
-      "value": "{spacing.base} *2.25",
-      "type": "spacing"
-    },
-    "250": {
-      "value": "{spacing.base} *2.5",
-      "type": "spacing"
-    },
-    "300": {
-      "value": "{spacing.base} *3",
-      "type": "spacing"
-    },
-    "325": {
-      "value": "{spacing.base} *3.25",
-      "type": "spacing"
-    },
-    "350": {
-      "value": "{spacing.base} *3.5",
-      "type": "spacing"
-    },
-    "375": {
-      "value": "{spacing.base} *4",
-      "type": "spacing"
-    },
-    "400": {
-      "value": "{spacing.base} *4.5",
-      "type": "spacing"
-    },
-    "450": {
-      "value": "{spacing.base} *5.5",
-      "type": "spacing"
-    },
-    "475": {
-      "value": "{spacing.base} *6",
-      "type": "spacing"
-    },
-    "500": {
-      "value": "{spacing.base} *6.5",
-      "type": "spacing"
-    },
-    "550": {
-      "value": "{spacing.base} *7",
-      "type": "spacing"
-    },
-    "600": {
-      "value": "{spacing.base} *7.5",
-      "type": "spacing"
-    },
-    "650": {
-      "value": "{spacing.base} *8",
-      "type": "spacing"
-    },
-    "700": {
-      "value": "{spacing.base} *8.5",
-      "type": "spacing"
-    },
-    "750": {
-      "value": "{spacing.base} *9",
-      "type": "spacing"
-    },
-    "800": {
-      "value": "{spacing.base} *10",
-      "type": "spacing"
-    },
-    "900": {
-      "value": "{spacing.base} *11",
-      "type": "spacing"
-    },
-    "1000": {
-      "value": "{spacing.base} *13",
-      "type": "spacing"
+    "2xl": {
+      "value": "96",
+      "type": "spacing",
+      "description": "Максимальный отступ между элементами в вертикальной стопке"
     }
   },
-  "screen-padding": {
-    "right": {
-      "value": "60",
-      "type": "spacing"
-    },
+  "device-padding": {
     "left": {
       "value": "148",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Левый отступ от края экрана TV под зону фокуса"
+    },
+    "right": {
+      "value": "60",
+      "type": "spacing",
+      "description": "Правый отступ от края экрана TV"
+    }
+  },
+  "radius": {
+    "xs": {
+      "value": "8",
+      "type": "borderRadius",
+      "description": "Минимальный радиус скругления"
+    },
+    "sm": {
+      "value": "12",
+      "type": "borderRadius",
+      "description": "Маленький радиус скругления"
+    },
+    "md": {
+      "value": "16",
+      "type": "borderRadius",
+      "description": "Средний радиус скругления"
+    },
+    "lg": {
+      "value": "24",
+      "type": "borderRadius",
+      "description": "Большой радиус скругления"
+    },
+    "xl": {
+      "value": "32",
+      "type": "borderRadius",
+      "description": "Очень большой радиус скругления"
+    },
+    "full": {
+      "value": "9999",
+      "type": "borderRadius",
+      "description": "Полный радиус: круг или пилюля"
+    },
+    "focus": {
+      "xs": {
+        "value": "{radius.xs} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления xs"
+      },
+      "sm": {
+        "value": "{radius.sm} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления sm"
+      },
+      "md": {
+        "value": "{radius.md} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления md"
+      },
+      "lg": {
+        "value": "{radius.lg} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления lg"
+      },
+      "xl": {
+        "value": "{radius.xl} + 6",
+        "type": "borderRadius",
+        "description": "Радиус фокус-обводки для скругления xl"
+      },
+      "full": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Полный радиус фокус-обводки: круг или пилюля"
+      }
     }
   }
 }

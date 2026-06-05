@@ -1,177 +1,493 @@
 {
-  "corner-radius": {
-    "100": {
-      "value": "{corner-radius.base} *0.25",
-      "type": "borderRadius"
-    },
-    "200": {
-      "value": "{corner-radius.base} *0.5",
-      "type": "borderRadius"
-    },
-    "300": {
-      "value": "{corner-radius.base}*0.75",
-      "type": "borderRadius"
-    },
-    "400": {
-      "value": "{corner-radius.base}",
-      "type": "borderRadius"
-    },
-    "450": {
-      "value": "{corner-radius.base}*1.25",
-      "type": "borderRadius"
-    },
-    "500": {
-      "value": "{corner-radius.base}*1.5",
-      "type": "borderRadius"
-    },
-    "600": {
-      "value": "{corner-radius.base}*1.75",
-      "type": "borderRadius"
-    },
-    "700": {
-      "value": "{corner-radius.base}*2",
-      "type": "borderRadius"
-    },
-    "800": {
-      "value": "{corner-radius.base}*2.5",
-      "type": "borderRadius"
-    },
-    "900": {
-      "value": "{corner-radius.base}*3",
-      "type": "borderRadius"
-    },
-    "1000": {
-      "value": "{corner-radius.base}*3.5",
-      "type": "borderRadius"
-    },
-    "round": {
-      "value": "9999",
-      "type": "borderRadius"
-    }
+  "space-2": {
+    "value": "2",
+    "type": "spacing"
   },
-  "spacing": {
-    "50": {
-      "value": "{spacing.base} *0.25",
-      "type": "spacing"
-    },
-    "100": {
-      "value": "{spacing.base} *0.5",
-      "type": "spacing"
-    },
-    "125": {
-      "value": "{spacing.base} *0.75",
-      "type": "spacing"
-    },
-    "150": {
-      "value": "{spacing.base}",
-      "type": "spacing"
-    },
-    "175": {
-      "value": "{spacing.base}*1.25",
-      "type": "spacing"
-    },
-    "200": {
-      "value": "{spacing.base} *1.5",
-      "type": "spacing"
-    },
-    "225": {
-      "value": "{spacing.base} *1.75",
-      "type": "spacing"
-    },
-    "250": {
-      "value": "{spacing.base} *2",
-      "type": "spacing"
-    },
-    "275": {
-      "value": "{spacing.base} *2.25",
-      "type": "spacing"
-    },
-    "300": {
-      "value": "{spacing.base} *2.5",
-      "type": "spacing"
-    },
-    "325": {
-      "value": "{spacing.base} *2.75",
-      "type": "spacing"
-    },
-    "350": {
-      "value": "{spacing.base} *3",
-      "type": "spacing"
-    },
-    "375": {
-      "value": "{spacing.base} *3.5",
-      "type": "spacing"
-    },
-    "400": {
-      "value": "{spacing.base} *4",
-      "type": "spacing"
-    },
-    "450": {
-      "value": "{spacing.base} *5",
-      "type": "spacing"
-    },
-    "500": {
-      "value": "{spacing.base} *6",
-      "type": "spacing"
-    },
-    "600": {
-      "value": "{spacing.base} *7",
-      "type": "spacing"
-    },
-    "700": {
-      "value": "{spacing.base} *8",
-      "type": "spacing"
-    },
-    "800": {
-      "value": "{spacing.base} *9",
-      "type": "spacing"
-    },
-    "900": {
-      "value": "{spacing.base} *10",
-      "type": "spacing"
-    },
-    "1000": {
-      "value": "{spacing.base} *12",
-      "type": "spacing"
-    }
+  "space-4": {
+    "value": "4",
+    "type": "spacing"
   },
-  "screen-padding": {
-    "android": {
+  "space-6": {
+    "value": "6",
+    "type": "spacing"
+  },
+  "space-8": {
+    "value": "8",
+    "type": "spacing"
+  },
+  "space-10": {
+    "value": "10",
+    "type": "spacing"
+  },
+  "space-12": {
+    "value": "12",
+    "type": "spacing"
+  },
+  "space-14": {
+    "value": "14",
+    "type": "spacing"
+  },
+  "space-16": {
+    "value": "16",
+    "type": "spacing"
+  },
+  "space-18": {
+    "value": "18",
+    "type": "spacing"
+  },
+  "space-20": {
+    "value": "20",
+    "type": "spacing"
+  },
+  "space-22": {
+    "value": "22",
+    "type": "spacing"
+  },
+  "space-24": {
+    "value": "24",
+    "type": "spacing"
+  },
+  "space-28": {
+    "value": "28",
+    "type": "spacing"
+  },
+  "space-32": {
+    "value": "32",
+    "type": "spacing"
+  },
+  "space-40": {
+    "value": "40",
+    "type": "spacing"
+  },
+  "space-48": {
+    "value": "48",
+    "type": "spacing"
+  },
+  "space-56": {
+    "value": "56",
+    "type": "spacing"
+  },
+  "space-64": {
+    "value": "64",
+    "type": "spacing"
+  },
+  "space-72": {
+    "value": "72",
+    "type": "spacing"
+  },
+  "space-80": {
+    "value": "80",
+    "type": "spacing"
+  },
+  "space-96": {
+    "value": "96",
+    "type": "spacing"
+  },
+  "radius-2": {
+    "value": "2",
+    "type": "borderRadius"
+  },
+  "radius-4": {
+    "value": "4",
+    "type": "borderRadius"
+  },
+  "radius-6": {
+    "value": "6",
+    "type": "borderRadius"
+  },
+  "radius-8": {
+    "value": "8",
+    "type": "borderRadius"
+  },
+  "radius-10": {
+    "value": "10",
+    "type": "borderRadius"
+  },
+  "radius-12": {
+    "value": "12",
+    "type": "borderRadius"
+  },
+  "radius-14": {
+    "value": "14",
+    "type": "borderRadius"
+  },
+  "radius-16": {
+    "value": "16",
+    "type": "borderRadius"
+  },
+  "radius-20": {
+    "value": "20",
+    "type": "borderRadius"
+  },
+  "radius-24": {
+    "value": "24",
+    "type": "borderRadius"
+  },
+  "radius-28": {
+    "value": "28",
+    "type": "borderRadius"
+  },
+  "radius-full": {
+    "value": "9999",
+    "type": "borderRadius"
+  },
+  "section": {
+    "xs": {
+      "phone": {
+        "value": "4",
+        "type": "spacing",
+        "description": "Минимальный отступ между секциями страницы"
+      },
+      "tablet": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Минимальный отступ между секциями страницы"
+      },
+      "desktop": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Минимальный отступ между секциями страницы"
+      }
+    },
+    "sm": {
+      "phone": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Маленький отступ между секциями страницы"
+      },
+      "tablet": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Маленький отступ между секциями страницы"
+      },
+      "desktop": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Маленький отступ между секциями страницы"
+      }
+    },
+    "md": {
       "phone": {
         "value": "16",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Средний отступ между секциями страницы"
       },
       "tablet": {
         "value": "24",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Средний отступ между секциями страницы"
+      },
+      "desktop": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Средний отступ между секциями страницы"
+      }
+    },
+    "lg": {
+      "phone": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Большой отступ между секциями страницы"
+      },
+      "tablet": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Большой отступ между секциями страницы"
+      },
+      "desktop": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Большой отступ между секциями страницы"
+      }
+    },
+    "xl": {
+      "phone": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Очень большой отступ между секциями страницы"
+      },
+      "tablet": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Очень большой отступ между секциями страницы"
+      },
+      "desktop": {
+        "value": "80",
+        "type": "spacing",
+        "description": "Очень большой отступ между секциями страницы"
+      }
+    },
+    "2xl": {
+      "phone": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Максимальный отступ между секциями страницы"
+      },
+      "tablet": {
+        "value": "80",
+        "type": "spacing",
+        "description": "Максимальный отступ между секциями страницы"
+      },
+      "desktop": {
+        "value": "120",
+        "type": "spacing",
+        "description": "Максимальный отступ между секциями страницы"
+      }
+    }
+  },
+  "section-inner": {
+    "xs": {
+      "phone": {
+        "value": "4",
+        "type": "spacing",
+        "description": "Минимальный отступ между элементами в вертикальной стопке"
+      },
+      "tablet": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Минимальный отступ между элементами в вертикальной стопке"
+      },
+      "desktop": {
+        "value": "12",
+        "type": "spacing",
+        "description": "Минимальный отступ между элементами в вертикальной стопке"
+      }
+    },
+    "sm": {
+      "phone": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Маленький отступ между элементами в вертикальной стопке"
+      },
+      "tablet": {
+        "value": "12",
+        "type": "spacing",
+        "description": "Маленький отступ между элементами в вертикальной стопке"
+      },
+      "desktop": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Маленький отступ между элементами в вертикальной стопке"
+      }
+    },
+    "md": {
+      "phone": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Средний отступ между элементами в вертикальной стопке"
+      },
+      "tablet": {
+        "value": "20",
+        "type": "spacing",
+        "description": "Средний отступ между элементами в вертикальной стопке"
+      },
+      "desktop": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Средний отступ между элементами в вертикальной стопке"
+      }
+    },
+    "lg": {
+      "phone": {
+        "value": "20",
+        "type": "spacing",
+        "description": "Большой отступ между элементами в вертикальной стопке"
+      },
+      "tablet": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Большой отступ между элементами в вертикальной стопке"
+      },
+      "desktop": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Большой отступ между элементами в вертикальной стопке"
+      }
+    },
+    "xl": {
+      "phone": {
+        "value": "32",
+        "type": "spacing",
+        "description": "Очень большой отступ между элементами в вертикальной стопке"
+      },
+      "tablet": {
+        "value": "40",
+        "type": "spacing",
+        "description": "Очень большой отступ между элементами в вертикальной стопке"
+      },
+      "desktop": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Очень большой отступ между элементами в вертикальной стопке"
+      }
+    },
+    "2xl": {
+      "phone": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Максимальный отступ между элементами в вертикальной стопке"
+      },
+      "tablet": {
+        "value": "56",
+        "type": "spacing",
+        "description": "Максимальный отступ между элементами в вертикальной стопке"
+      },
+      "desktop": {
+        "value": "64",
+        "type": "spacing",
+        "description": "Максимальный отступ между элементами в вертикальной стопке"
+      }
+    }
+  },
+  "device-padding": {
+    "android": {
+      "phone": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Боковой отступ экрана на Android-телефоне"
+      },
+      "tablet": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Боковой отступ экрана на Android-планшете"
       }
     },
     "ios": {
       "iphone": {
         "value": "15",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Боковой отступ экрана на iPhone"
       },
       "ipad": {
         "value": "35",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Боковой отступ экрана на iPad"
       }
     },
     "web": {
       "mobile": {
         "value": "12",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Боковой отступ страницы на мобильном вебе"
       },
       "tablet": {
         "value": "32",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Боковой отступ страницы на планшетном вебе"
       },
       "desktop-m": {
         "value": "56",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Боковой отступ страницы на десктопе, средний экран"
       },
       "desktop-l": {
         "value": "72",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "Боковой отступ страницы на десктопе, широкий экран"
+      }
+    }
+  },
+  "radius": {
+    "xs": {
+      "phone": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "Минимальный радиус скругления"
+      },
+      "tablet": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "Минимальный радиус скругления"
+      },
+      "desktop": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "Минимальный радиус скругления"
+      }
+    },
+    "sm": {
+      "phone": {
+        "value": "8",
+        "type": "borderRadius",
+        "description": "Маленький радиус скругления"
+      },
+      "tablet": {
+        "value": "8",
+        "type": "borderRadius",
+        "description": "Маленький радиус скругления"
+      },
+      "desktop": {
+        "value": "8",
+        "type": "borderRadius",
+        "description": "Маленький радиус скругления"
+      }
+    },
+    "md": {
+      "phone": {
+        "value": "12",
+        "type": "borderRadius",
+        "description": "Средний радиус скругления"
+      },
+      "tablet": {
+        "value": "12",
+        "type": "borderRadius",
+        "description": "Средний радиус скругления"
+      },
+      "desktop": {
+        "value": "12",
+        "type": "borderRadius",
+        "description": "Средний радиус скругления"
+      }
+    },
+    "lg": {
+      "phone": {
+        "value": "16",
+        "type": "borderRadius",
+        "description": "Большой радиус скругления"
+      },
+      "tablet": {
+        "value": "16",
+        "type": "borderRadius",
+        "description": "Большой радиус скругления"
+      },
+      "desktop": {
+        "value": "16",
+        "type": "borderRadius",
+        "description": "Большой радиус скругления"
+      }
+    },
+    "xl": {
+      "phone": {
+        "value": "24",
+        "type": "borderRadius",
+        "description": "Очень большой радиус скругления"
+      },
+      "tablet": {
+        "value": "24",
+        "type": "borderRadius",
+        "description": "Очень большой радиус скругления"
+      },
+      "desktop": {
+        "value": "24",
+        "type": "borderRadius",
+        "description": "Очень большой радиус скругления"
+      }
+    },
+    "full": {
+      "phone": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Полный радиус: круг или пилюля"
+      },
+      "tablet": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Полный радиус: круг или пилюля"
+      },
+      "desktop": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Полный радиус: круг или пилюля"
       }
     }
   }
