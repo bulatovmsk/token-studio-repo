@@ -272,68 +272,68 @@
     },
     "md": {
       "phone": {
-        "value": "16",
+        "value": "12",
         "type": "spacing",
         "description": "Средний отступ между элементами в вертикальной стопке"
       },
       "tablet": {
-        "value": "20",
+        "value": "16",
         "type": "spacing",
         "description": "Средний отступ между элементами в вертикальной стопке"
       },
       "desktop": {
-        "value": "24",
+        "value": "20",
         "type": "spacing",
         "description": "Средний отступ между элементами в вертикальной стопке"
       }
     },
     "lg": {
       "phone": {
-        "value": "20",
+        "value": "16",
         "type": "spacing",
         "description": "Большой отступ между элементами в вертикальной стопке"
       },
       "tablet": {
-        "value": "24",
+        "value": "20",
         "type": "spacing",
         "description": "Большой отступ между элементами в вертикальной стопке"
       },
       "desktop": {
-        "value": "32",
+        "value": "24",
         "type": "spacing",
         "description": "Большой отступ между элементами в вертикальной стопке"
       }
     },
     "xl": {
       "phone": {
-        "value": "32",
+        "value": "24",
         "type": "spacing",
         "description": "Очень большой отступ между элементами в вертикальной стопке"
       },
       "tablet": {
-        "value": "40",
+        "value": "32",
         "type": "spacing",
         "description": "Очень большой отступ между элементами в вертикальной стопке"
       },
       "desktop": {
-        "value": "48",
+        "value": "40",
         "type": "spacing",
         "description": "Очень большой отступ между элементами в вертикальной стопке"
       }
     },
     "2xl": {
       "phone": {
-        "value": "48",
+        "value": "32",
         "type": "spacing",
         "description": "Максимальный отступ между элементами в вертикальной стопке"
       },
       "tablet": {
-        "value": "56",
+        "value": "40",
         "type": "spacing",
         "description": "Максимальный отступ между элементами в вертикальной стопке"
       },
       "desktop": {
-        "value": "64",
+        "value": "48",
         "type": "spacing",
         "description": "Максимальный отступ между элементами в вертикальной стопке"
       }
