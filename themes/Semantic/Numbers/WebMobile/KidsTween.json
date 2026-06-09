@@ -4,12 +4,10 @@
     "type": "spacing",
     "description": "spacing.50",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.50",
-          "iOS": "spacing.50",
-          "ANDROID": "spacing.50"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.50",
+        "iOS": "spacing.50",
+        "Android": "spacing.50"
       }
     }
   },
@@ -18,12 +16,10 @@
     "type": "spacing",
     "description": "spacing.100",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.100",
-          "iOS": "spacing.100",
-          "ANDROID": "spacing.100"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.100",
+        "iOS": "spacing.100",
+        "Android": "spacing.100"
       }
     }
   },
@@ -32,12 +28,10 @@
     "type": "spacing",
     "description": "spacing.125",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.125",
-          "iOS": "spacing.125",
-          "ANDROID": "spacing.125"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.125",
+        "iOS": "spacing.125",
+        "Android": "spacing.125"
       }
     }
   },
@@ -46,12 +40,10 @@
     "type": "spacing",
     "description": "spacing.150",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.150",
-          "iOS": "spacing.150",
-          "ANDROID": "spacing.150"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.150",
+        "iOS": "spacing.150",
+        "Android": "spacing.150"
       }
     }
   },
@@ -60,12 +52,10 @@
     "type": "spacing",
     "description": "spacing.175",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.175",
-          "iOS": "spacing.175",
-          "ANDROID": "spacing.175"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.175",
+        "iOS": "spacing.175",
+        "Android": "spacing.175"
       }
     }
   },
@@ -74,12 +64,10 @@
     "type": "spacing",
     "description": "spacing.200",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.200",
-          "iOS": "spacing.200",
-          "ANDROID": "spacing.200"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.200",
+        "iOS": "spacing.200",
+        "Android": "spacing.200"
       }
     }
   },
@@ -88,12 +76,10 @@
     "type": "spacing",
     "description": "spacing.225",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.225",
-          "iOS": "spacing.225",
-          "ANDROID": "spacing.225"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.225",
+        "iOS": "spacing.225",
+        "Android": "spacing.225"
       }
     }
   },
@@ -102,12 +88,10 @@
     "type": "spacing",
     "description": "spacing.250",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.250",
-          "iOS": "spacing.250",
-          "ANDROID": "spacing.250"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.250",
+        "iOS": "spacing.250",
+        "Android": "spacing.250"
       }
     }
   },
@@ -116,12 +100,10 @@
     "type": "spacing",
     "description": "spacing.275",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.275",
-          "iOS": "spacing.275",
-          "ANDROID": "spacing.275"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.275",
+        "iOS": "spacing.275",
+        "Android": "spacing.275"
       }
     }
   },
@@ -130,12 +112,10 @@
     "type": "spacing",
     "description": "spacing.300",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.300",
-          "iOS": "spacing.300",
-          "ANDROID": "spacing.300"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.300",
+        "iOS": "spacing.300",
+        "Android": "spacing.300"
       }
     }
   },
@@ -144,12 +124,10 @@
     "type": "spacing",
     "description": "spacing.325",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.325",
-          "iOS": "spacing.325",
-          "ANDROID": "spacing.325"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.325",
+        "iOS": "spacing.325",
+        "Android": "spacing.325"
       }
     }
   },
@@ -158,12 +136,10 @@
     "type": "spacing",
     "description": "spacing.350",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.350",
-          "iOS": "spacing.350",
-          "ANDROID": "spacing.350"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.350",
+        "iOS": "spacing.350",
+        "Android": "spacing.350"
       }
     }
   },
@@ -172,12 +148,10 @@
     "type": "spacing",
     "description": "spacing.375",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.375",
-          "iOS": "spacing.375",
-          "ANDROID": "spacing.375"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.375",
+        "iOS": "spacing.375",
+        "Android": "spacing.375"
       }
     }
   },
@@ -186,12 +160,10 @@
     "type": "spacing",
     "description": "spacing.400",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.400",
-          "iOS": "spacing.400",
-          "ANDROID": "spacing.400"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.400",
+        "iOS": "spacing.400",
+        "Android": "spacing.400"
       }
     }
   },
@@ -200,12 +172,10 @@
     "type": "spacing",
     "description": "spacing.450",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.450",
-          "iOS": "spacing.450",
-          "ANDROID": "spacing.450"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.450",
+        "iOS": "spacing.450",
+        "Android": "spacing.450"
       }
     }
   },
@@ -214,12 +184,10 @@
     "type": "spacing",
     "description": "spacing.500",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.500",
-          "iOS": "spacing.500",
-          "ANDROID": "spacing.500"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.500",
+        "iOS": "spacing.500",
+        "Android": "spacing.500"
       }
     }
   },
@@ -228,12 +196,10 @@
     "type": "spacing",
     "description": "spacing.600",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.600",
-          "iOS": "spacing.600",
-          "ANDROID": "spacing.600"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.600",
+        "iOS": "spacing.600",
+        "Android": "spacing.600"
       }
     }
   },
@@ -242,12 +208,10 @@
     "type": "spacing",
     "description": "spacing.700",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.700",
-          "iOS": "spacing.700",
-          "ANDROID": "spacing.700"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.700",
+        "iOS": "spacing.700",
+        "Android": "spacing.700"
       }
     }
   },
@@ -256,12 +220,10 @@
     "type": "spacing",
     "description": "spacing.800",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.800",
-          "iOS": "spacing.800",
-          "ANDROID": "spacing.800"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.800",
+        "iOS": "spacing.800",
+        "Android": "spacing.800"
       }
     }
   },
@@ -270,12 +232,10 @@
     "type": "spacing",
     "description": "spacing.900",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.900",
-          "iOS": "spacing.900",
-          "ANDROID": "spacing.900"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.900",
+        "iOS": "spacing.900",
+        "Android": "spacing.900"
       }
     }
   },
@@ -284,12 +244,10 @@
     "type": "spacing",
     "description": "spacing.1000",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "spacing.1000",
-          "iOS": "spacing.1000",
-          "ANDROID": "spacing.1000"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "spacing.1000",
+        "iOS": "spacing.1000",
+        "Android": "spacing.1000"
       }
     }
   },
@@ -298,12 +256,10 @@
     "type": "borderRadius",
     "description": "corner-radius.100",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.100",
-          "iOS": "corner-radius.100",
-          "ANDROID": "corner-radius.100"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.100",
+        "iOS": "corner-radius.100",
+        "Android": "corner-radius.100"
       }
     }
   },
@@ -312,12 +268,10 @@
     "type": "borderRadius",
     "description": "corner-radius.200",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.200",
-          "iOS": "corner-radius.200",
-          "ANDROID": "corner-radius.200"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.200",
+        "iOS": "corner-radius.200",
+        "Android": "corner-radius.200"
       }
     }
   },
@@ -326,12 +280,10 @@
     "type": "borderRadius",
     "description": "corner-radius.300",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.300",
-          "iOS": "corner-radius.300",
-          "ANDROID": "corner-radius.300"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.300",
+        "iOS": "corner-radius.300",
+        "Android": "corner-radius.300"
       }
     }
   },
@@ -340,12 +292,10 @@
     "type": "borderRadius",
     "description": "corner-radius.400",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.400",
-          "iOS": "corner-radius.400",
-          "ANDROID": "corner-radius.400"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.400",
+        "iOS": "corner-radius.400",
+        "Android": "corner-radius.400"
       }
     }
   },
@@ -354,12 +304,10 @@
     "type": "borderRadius",
     "description": "corner-radius.450",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.450",
-          "iOS": "corner-radius.450",
-          "ANDROID": "corner-radius.450"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.450",
+        "iOS": "corner-radius.450",
+        "Android": "corner-radius.450"
       }
     }
   },
@@ -368,12 +316,10 @@
     "type": "borderRadius",
     "description": "corner-radius.500",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.500",
-          "iOS": "corner-radius.500",
-          "ANDROID": "corner-radius.500"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.500",
+        "iOS": "corner-radius.500",
+        "Android": "corner-radius.500"
       }
     }
   },
@@ -382,12 +328,10 @@
     "type": "borderRadius",
     "description": "corner-radius.600",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.600",
-          "iOS": "corner-radius.600",
-          "ANDROID": "corner-radius.600"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.600",
+        "iOS": "corner-radius.600",
+        "Android": "corner-radius.600"
       }
     }
   },
@@ -396,12 +340,10 @@
     "type": "borderRadius",
     "description": "corner-radius.700",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.700",
-          "iOS": "corner-radius.700",
-          "ANDROID": "corner-radius.700"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.700",
+        "iOS": "corner-radius.700",
+        "Android": "corner-radius.700"
       }
     }
   },
@@ -410,12 +352,10 @@
     "type": "borderRadius",
     "description": "corner-radius.800",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.800",
-          "iOS": "corner-radius.800",
-          "ANDROID": "corner-radius.800"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.800",
+        "iOS": "corner-radius.800",
+        "Android": "corner-radius.800"
       }
     }
   },
@@ -424,12 +364,10 @@
     "type": "borderRadius",
     "description": "corner-radius.900",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.900",
-          "iOS": "corner-radius.900",
-          "ANDROID": "corner-radius.900"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.900",
+        "iOS": "corner-radius.900",
+        "Android": "corner-radius.900"
       }
     }
   },
@@ -438,12 +376,10 @@
     "type": "borderRadius",
     "description": "corner-radius.1000",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.1000",
-          "iOS": "corner-radius.1000",
-          "ANDROID": "corner-radius.1000"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.1000",
+        "iOS": "corner-radius.1000",
+        "Android": "corner-radius.1000"
       }
     }
   },
@@ -452,12 +388,10 @@
     "type": "borderRadius",
     "description": "corner-radius.round",
     "$extensions": {
-      "studio.tokens": {
-        "codeSyntax": {
-          "WEB": "corner-radius.round",
-          "iOS": "corner-radius.round",
-          "ANDROID": "corner-radius.round"
-        }
+      "com.figma.codeSyntax": {
+        "Web": "corner-radius.round",
+        "iOS": "corner-radius.round",
+        "Android": "corner-radius.round"
       }
     }
   },
@@ -468,12 +402,10 @@
         "type": "spacing",
         "description": "screen-padding.android.phone",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.android.phone",
-              "iOS": "screen-padding.android.phone",
-              "ANDROID": "screen-padding.android.phone"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.android.phone",
+            "iOS": "screen-padding.android.phone",
+            "Android": "screen-padding.android.phone"
           }
         }
       },
@@ -482,12 +414,10 @@
         "type": "spacing",
         "description": "screen-padding.android.tablet",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.android.tablet",
-              "iOS": "screen-padding.android.tablet",
-              "ANDROID": "screen-padding.android.tablet"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.android.tablet",
+            "iOS": "screen-padding.android.tablet",
+            "Android": "screen-padding.android.tablet"
           }
         }
       }
@@ -498,12 +428,10 @@
         "type": "spacing",
         "description": "screen-padding.ios.iphone",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.ios.iphone",
-              "iOS": "screen-padding.ios.iphone",
-              "ANDROID": "screen-padding.ios.iphone"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.ios.iphone",
+            "iOS": "screen-padding.ios.iphone",
+            "Android": "screen-padding.ios.iphone"
           }
         }
       },
@@ -512,12 +440,10 @@
         "type": "spacing",
         "description": "screen-padding.ios.ipad",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.ios.ipad",
-              "iOS": "screen-padding.ios.ipad",
-              "ANDROID": "screen-padding.ios.ipad"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.ios.ipad",
+            "iOS": "screen-padding.ios.ipad",
+            "Android": "screen-padding.ios.ipad"
           }
         }
       }
@@ -528,12 +454,10 @@
         "type": "spacing",
         "description": "screen-padding.web.mobile",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.web.mobile",
-              "iOS": "screen-padding.web.mobile",
-              "ANDROID": "screen-padding.web.mobile"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.web.mobile",
+            "iOS": "screen-padding.web.mobile",
+            "Android": "screen-padding.web.mobile"
           }
         }
       },
@@ -542,12 +466,10 @@
         "type": "spacing",
         "description": "screen-padding.web.tablet",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.web.tablet",
-              "iOS": "screen-padding.web.tablet",
-              "ANDROID": "screen-padding.web.tablet"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.web.tablet",
+            "iOS": "screen-padding.web.tablet",
+            "Android": "screen-padding.web.tablet"
           }
         }
       },
@@ -556,12 +478,10 @@
         "type": "spacing",
         "description": "screen-padding.web.desktop-m",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.web.desktop-m",
-              "iOS": "screen-padding.web.desktop-m",
-              "ANDROID": "screen-padding.web.desktop-m"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.web.desktop-m",
+            "iOS": "screen-padding.web.desktop-m",
+            "Android": "screen-padding.web.desktop-m"
           }
         }
       },
@@ -570,12 +490,10 @@
         "type": "spacing",
         "description": "screen-padding.web.desktop-l",
         "$extensions": {
-          "studio.tokens": {
-            "codeSyntax": {
-              "WEB": "screen-padding.web.desktop-l",
-              "iOS": "screen-padding.web.desktop-l",
-              "ANDROID": "screen-padding.web.desktop-l"
-            }
+          "com.figma.codeSyntax": {
+            "Web": "screen-padding.web.desktop-l",
+            "iOS": "screen-padding.web.desktop-l",
+            "Android": "screen-padding.web.desktop-l"
           }
         }
       }
