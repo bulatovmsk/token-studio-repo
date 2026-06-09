@@ -1,174 +1,592 @@
 {
   "space-4": {
     "value": "{space.base} * 0.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.50",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.50",
+          "iOS": "spacing.50",
+          "ANDROID": "spacing.50"
+        }
+      }
+    }
   },
   "space-8": {
     "value": "{space.base} * 1",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.100",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.100",
+          "iOS": "spacing.100",
+          "ANDROID": "spacing.100"
+        }
+      }
+    }
   },
   "space-10": {
     "value": "{space.base} * 1.25",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.125",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.125",
+          "iOS": "spacing.125",
+          "ANDROID": "spacing.125"
+        }
+      }
+    }
   },
   "space-12": {
     "value": "{space.base} * 1.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.150",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.150",
+          "iOS": "spacing.150",
+          "ANDROID": "spacing.150"
+        }
+      }
+    }
   },
   "space-14": {
     "value": "{space.base} * 1.75",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.175",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.175",
+          "iOS": "spacing.175",
+          "ANDROID": "spacing.175"
+        }
+      }
+    }
   },
   "space-16": {
     "value": "{space.base} * 2",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.200",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.200",
+          "iOS": "spacing.200",
+          "ANDROID": "spacing.200"
+        }
+      }
+    }
   },
   "space-18": {
     "value": "{space.base} * 2.25",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.225",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.225",
+          "iOS": "spacing.225",
+          "ANDROID": "spacing.225"
+        }
+      }
+    }
   },
   "space-20": {
     "value": "{space.base} * 2.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.250",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.250",
+          "iOS": "spacing.250",
+          "ANDROID": "spacing.250"
+        }
+      }
+    }
   },
   "space-24": {
     "value": "{space.base} * 3",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.300",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.300",
+          "iOS": "spacing.300",
+          "ANDROID": "spacing.300"
+        }
+      }
+    }
   },
   "space-26": {
     "value": "{space.base} * 3.25",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.325",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.325",
+          "iOS": "spacing.325",
+          "ANDROID": "spacing.325"
+        }
+      }
+    }
   },
   "space-28": {
     "value": "{space.base} * 3.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.350",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.350",
+          "iOS": "spacing.350",
+          "ANDROID": "spacing.350"
+        }
+      }
+    }
   },
   "space-32": {
     "value": "{space.base} * 4",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.375",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.375",
+          "iOS": "spacing.375",
+          "ANDROID": "spacing.375"
+        }
+      }
+    }
   },
   "space-36": {
     "value": "{space.base} * 4.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.400",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.400",
+          "iOS": "spacing.400",
+          "ANDROID": "spacing.400"
+        }
+      }
+    }
   },
   "space-44": {
     "value": "{space.base} * 5.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.450",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.450",
+          "iOS": "spacing.450",
+          "ANDROID": "spacing.450"
+        }
+      }
+    }
   },
   "space-48": {
     "value": "{space.base} * 6",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.475",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.475",
+          "iOS": "spacing.475",
+          "ANDROID": "spacing.475"
+        }
+      }
+    }
   },
   "space-52": {
     "value": "{space.base} * 6.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.500",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.500",
+          "iOS": "spacing.500",
+          "ANDROID": "spacing.500"
+        }
+      }
+    }
   },
   "space-56": {
     "value": "{space.base} * 7",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.550",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.550",
+          "iOS": "spacing.550",
+          "ANDROID": "spacing.550"
+        }
+      }
+    }
   },
   "space-60": {
     "value": "{space.base} * 7.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.600",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.600",
+          "iOS": "spacing.600",
+          "ANDROID": "spacing.600"
+        }
+      }
+    }
   },
   "space-64": {
     "value": "{space.base} * 8",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.650",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.650",
+          "iOS": "spacing.650",
+          "ANDROID": "spacing.650"
+        }
+      }
+    }
   },
   "space-68": {
     "value": "{space.base} * 8.5",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.700",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.700",
+          "iOS": "spacing.700",
+          "ANDROID": "spacing.700"
+        }
+      }
+    }
   },
   "space-72": {
     "value": "{space.base} * 9",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.750",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.750",
+          "iOS": "spacing.750",
+          "ANDROID": "spacing.750"
+        }
+      }
+    }
   },
   "space-80": {
     "value": "{space.base} * 10",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.800",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.800",
+          "iOS": "spacing.800",
+          "ANDROID": "spacing.800"
+        }
+      }
+    }
   },
   "space-88": {
     "value": "{space.base} * 11",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.900",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.900",
+          "iOS": "spacing.900",
+          "ANDROID": "spacing.900"
+        }
+      }
+    }
   },
   "space-104": {
     "value": "{space.base} * 13",
-    "type": "spacing"
+    "type": "spacing",
+    "description": "spacing.1000",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "spacing.1000",
+          "iOS": "spacing.1000",
+          "ANDROID": "spacing.1000"
+        }
+      }
+    }
   },
   "radius-4": {
     "value": "{corner-radius.base} * 0.5",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.100",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.100",
+          "iOS": "corner-radius.100",
+          "ANDROID": "corner-radius.100"
+        }
+      }
+    }
   },
   "radius-6": {
     "value": "{corner-radius.base} * 0.75",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.200",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.200",
+          "iOS": "corner-radius.200",
+          "ANDROID": "corner-radius.200"
+        }
+      }
+    }
   },
   "radius-8": {
     "value": "{corner-radius.base} * 1",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.300",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.300",
+          "iOS": "corner-radius.300",
+          "ANDROID": "corner-radius.300"
+        }
+      }
+    }
   },
   "radius-10": {
     "value": "{corner-radius.base} * 1.25",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.400",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.400",
+          "iOS": "corner-radius.400",
+          "ANDROID": "corner-radius.400"
+        }
+      }
+    }
   },
   "radius-12": {
     "value": "{corner-radius.base} * 1.5",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.450",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.450",
+          "iOS": "corner-radius.450",
+          "ANDROID": "corner-radius.450"
+        }
+      }
+    }
   },
   "radius-14": {
     "value": "{corner-radius.base} * 1.75",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.475",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.475",
+          "iOS": "corner-radius.475",
+          "ANDROID": "corner-radius.475"
+        }
+      }
+    }
   },
   "radius-16": {
     "value": "{corner-radius.base} * 2",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.500",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.500",
+          "iOS": "corner-radius.500",
+          "ANDROID": "corner-radius.500"
+        }
+      }
+    }
   },
   "radius-18": {
     "value": "{corner-radius.base} * 2.25",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.550",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.550",
+          "iOS": "corner-radius.550",
+          "ANDROID": "corner-radius.550"
+        }
+      }
+    }
   },
   "radius-20": {
     "value": "{corner-radius.base} * 2.5",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.600",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.600",
+          "iOS": "corner-radius.600",
+          "ANDROID": "corner-radius.600"
+        }
+      }
+    }
   },
   "radius-22": {
     "value": "{corner-radius.base} * 2.75",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.650",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.650",
+          "iOS": "corner-radius.650",
+          "ANDROID": "corner-radius.650"
+        }
+      }
+    }
   },
   "radius-24": {
     "value": "{corner-radius.base} * 3",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.700",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.700",
+          "iOS": "corner-radius.700",
+          "ANDROID": "corner-radius.700"
+        }
+      }
+    }
   },
   "radius-26": {
     "value": "{corner-radius.base} * 3.25",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.750",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.750",
+          "iOS": "corner-radius.750",
+          "ANDROID": "corner-radius.750"
+        }
+      }
+    }
   },
   "radius-28": {
     "value": "{corner-radius.base} * 3.5",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.800",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.800",
+          "iOS": "corner-radius.800",
+          "ANDROID": "corner-radius.800"
+        }
+      }
+    }
   },
   "radius-32": {
     "value": "{corner-radius.base} * 4",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.900",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.900",
+          "iOS": "corner-radius.900",
+          "ANDROID": "corner-radius.900"
+        }
+      }
+    }
   },
   "radius-36": {
     "value": "{corner-radius.base} * 4.5",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.1000",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.1000",
+          "iOS": "corner-radius.1000",
+          "ANDROID": "corner-radius.1000"
+        }
+      }
+    }
   },
   "radius-full": {
     "value": "9999",
-    "type": "borderRadius"
+    "type": "borderRadius",
+    "description": "corner-radius.round",
+    "$extensions": {
+      "studio.tokens": {
+        "codeSyntax": {
+          "WEB": "corner-radius.round",
+          "iOS": "corner-radius.round",
+          "ANDROID": "corner-radius.round"
+        }
+      }
+    }
   },
   "device-padding": {
     "left": {
       "value": "148",
       "type": "spacing",
-      "description": "Левый отступ от края экрана TV под зону фокуса"
+      "description": "screen-padding.left",
+      "$extensions": {
+        "studio.tokens": {
+          "codeSyntax": {
+            "WEB": "screen-padding.left",
+            "iOS": "screen-padding.left",
+            "ANDROID": "screen-padding.left"
+          }
+        }
+      }
     },
     "right": {
       "value": "60",
       "type": "spacing",
-      "description": "Правый отступ от края экрана TV"
+      "description": "screen-padding.right",
+      "$extensions": {
+        "studio.tokens": {
+          "codeSyntax": {
+            "WEB": "screen-padding.right",
+            "iOS": "screen-padding.right",
+            "ANDROID": "screen-padding.right"
+          }
+        }
+      }
     }
   }
 }
