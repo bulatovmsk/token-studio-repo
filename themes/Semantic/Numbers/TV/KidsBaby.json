@@ -1,98 +1,98 @@
 {
   "space-4": {
-    "value": "{spacing.base} * 0.5",
+    "value": "{space.base} * 0.5",
     "type": "spacing"
   },
   "space-8": {
-    "value": "{spacing.base} * 1",
+    "value": "{space.base} * 1",
     "type": "spacing"
   },
   "space-10": {
-    "value": "{spacing.base} * 1.25",
+    "value": "{space.base} * 1.25",
     "type": "spacing"
   },
   "space-12": {
-    "value": "{spacing.base} * 1.5",
+    "value": "{space.base} * 1.5",
     "type": "spacing"
   },
   "space-14": {
-    "value": "{spacing.base} * 1.75",
+    "value": "{space.base} * 1.75",
     "type": "spacing"
   },
   "space-16": {
-    "value": "{spacing.base} * 2",
+    "value": "{space.base} * 2",
     "type": "spacing"
   },
   "space-18": {
-    "value": "{spacing.base} * 2.25",
+    "value": "{space.base} * 2.25",
     "type": "spacing"
   },
   "space-20": {
-    "value": "{spacing.base} * 2.5",
+    "value": "{space.base} * 2.5",
     "type": "spacing"
   },
   "space-24": {
-    "value": "{spacing.base} * 3",
+    "value": "{space.base} * 3",
     "type": "spacing"
   },
   "space-26": {
-    "value": "{spacing.base} * 3.25",
+    "value": "{space.base} * 3.25",
     "type": "spacing"
   },
   "space-28": {
-    "value": "{spacing.base} * 3.5",
+    "value": "{space.base} * 3.5",
     "type": "spacing"
   },
   "space-32": {
-    "value": "{spacing.base} * 4",
+    "value": "{space.base} * 4",
     "type": "spacing"
   },
   "space-36": {
-    "value": "{spacing.base} * 4.5",
+    "value": "{space.base} * 4.5",
     "type": "spacing"
   },
   "space-44": {
-    "value": "{spacing.base} * 5.5",
+    "value": "{space.base} * 5.5",
     "type": "spacing"
   },
   "space-48": {
-    "value": "{spacing.base} * 6",
+    "value": "{space.base} * 6",
     "type": "spacing"
   },
   "space-52": {
-    "value": "{spacing.base} * 6.5",
+    "value": "{space.base} * 6.5",
     "type": "spacing"
   },
   "space-56": {
-    "value": "{spacing.base} * 7",
+    "value": "{space.base} * 7",
     "type": "spacing"
   },
   "space-60": {
-    "value": "{spacing.base} * 7.5",
+    "value": "{space.base} * 7.5",
     "type": "spacing"
   },
   "space-64": {
-    "value": "{spacing.base} * 8",
+    "value": "{space.base} * 8",
     "type": "spacing"
   },
   "space-68": {
-    "value": "{spacing.base} * 8.5",
+    "value": "{space.base} * 8.5",
     "type": "spacing"
   },
   "space-72": {
-    "value": "{spacing.base} * 9",
+    "value": "{space.base} * 9",
     "type": "spacing"
   },
   "space-80": {
-    "value": "{spacing.base} * 10",
+    "value": "{space.base} * 10",
     "type": "spacing"
   },
   "space-88": {
-    "value": "{spacing.base} * 11",
+    "value": "{space.base} * 11",
     "type": "spacing"
   },
   "space-104": {
-    "value": "{spacing.base} * 13",
+    "value": "{space.base} * 13",
     "type": "spacing"
   },
   "radius-4": {

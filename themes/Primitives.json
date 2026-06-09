@@ -615,7 +615,7 @@
       }
     }
   },
-  "spacing": {
+  "space": {
     "base": {
       "value": "8",
       "type": "spacing"
