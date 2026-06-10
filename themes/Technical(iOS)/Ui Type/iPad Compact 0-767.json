@@ -52,51 +52,51 @@
     },
     "width": {
       "main": {
-        "value": "({container.width} - ( {cover.gaps-count.main} * {space-8})) / {cover.numbers.main}",
+        "value": "({container.width} - ( {cover.gaps-count.main} * {spacing.150})) / {cover.numbers.main}",
         "type": "sizing"
       },
       "widget-small": {
-        "value": "({container.width} - ( {cover.gaps-count.widget-small} * {space-8})) / {cover.numbers.widget-small}",
+        "value": "({container.width} - ( {cover.gaps-count.widget-small} * {spacing.150})) / {cover.numbers.widget-small}",
         "type": "sizing"
       },
       "announces": {
-        "value": "({container.width} - ( {cover.gaps-count.announces} * {space-8})) / {cover.numbers.announces}",
+        "value": "({container.width} - ( {cover.gaps-count.announces} * {spacing.150})) / {cover.numbers.announces}",
         "type": "sizing"
       },
       "vertical": {
-        "value": "({container.width} - ( {cover.gaps-count.vertical}  *{space-8} )) / {cover.numbers.vertical}",
+        "value": "({container.width} - ( {cover.gaps-count.vertical}  *{spacing.150} )) / {cover.numbers.vertical}",
         "type": "sizing"
       },
       "widget-medium": {
-        "value": "({container.width} - ( {cover.gaps-count.widget-medium}  *{space-8} )) / {cover.numbers.widget-medium}",
+        "value": "({container.width} - ( {cover.gaps-count.widget-medium}  *{spacing.150} )) / {cover.numbers.widget-medium}",
         "type": "sizing"
       },
       "large": {
-        "value": "({container.width} - ( {cover.gaps-count.large}  *{space-8} )) / {cover.numbers.large}",
+        "value": "({container.width} - ( {cover.gaps-count.large}  *{spacing.150} )) / {cover.numbers.large}",
         "type": "sizing"
       },
       "square-small-story": {
-        "value": "({container.width} - ( {cover.gaps-count.square-small-story} * {space-8})) / {cover.numbers.square-small-story}",
+        "value": "({container.width} - ( {cover.gaps-count.square-small-story} * {spacing.150})) / {cover.numbers.square-small-story}",
         "type": "sizing"
       },
       "square": {
-        "value": "({container.width} - ( {cover.gaps-count.square} *{space-8} )) / {cover.numbers.square}",
+        "value": "({container.width} - ( {cover.gaps-count.square} *{spacing.150} )) / {cover.numbers.square}",
         "type": "sizing"
       },
       "square-medium": {
-        "value": "({container.width} - ( {cover.gaps-count.square-medium} *{space-8} )) / {cover.numbers.square-medium}",
+        "value": "({container.width} - ( {cover.gaps-count.square-medium} *{spacing.150} )) / {cover.numbers.square-medium}",
         "type": "sizing"
       },
       "marketing": {
-        "value": "({container.width} - ( {cover.gaps-count.marketing}  *{space-8} )) / {cover.numbers.marketing}",
+        "value": "({container.width} - ( {cover.gaps-count.marketing}  *{spacing.150} )) / {cover.numbers.marketing}",
         "type": "sizing"
       },
       "medium": {
-        "value": "({container.width} - ({cover.gaps-count.medium}  *{space-8} )) / {cover.numbers.medium}",
+        "value": "({container.width} - ({cover.gaps-count.medium}  *{spacing.150} )) / {cover.numbers.medium}",
         "type": "sizing"
       },
       "featured": {
-        "value": "({container.width} - ({cover.gaps-count.featured}  *{space-8} )) / {cover.numbers.featured}",
+        "value": "({container.width} - ({cover.gaps-count.featured}  *{spacing.150} )) / {cover.numbers.featured}",
         "type": "sizing"
       }
     },
@@ -227,7 +227,7 @@
         "type": "sizing"
       },
       "widget-medium": {
-        "value": "{cover.height.widget-small} *2 + {space-8}",
+        "value": "{cover.height.widget-small} *2 + {spacing.150}",
         "type": "sizing"
       }
     },
@@ -284,7 +284,7 @@
   },
   "container": {
     "width": {
-      "value": "{container.device-width} - {device-padding.left} - {device-padding.right}",
+      "value": "{container.device-width} - {screen-padding.left} - {screen-padding.right}",
       "type": "sizing"
     },
     "device-width": {
@@ -294,7 +294,7 @@
   },
   "screen-padding": {
     "left": {
-      "value": "{device-padding.ios.ipad}",
+      "value": "{screen-padding.ios.ipad}",
       "type": "sizing"
     },
     "right": {

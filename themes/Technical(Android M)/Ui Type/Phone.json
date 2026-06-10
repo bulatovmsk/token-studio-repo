@@ -36,39 +36,39 @@
     },
     "width": {
       "main": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.main} * {space-6})) / {cover.numbers.main})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.main} * {spacing.125})) / {cover.numbers.main})",
         "type": "sizing"
       },
       "vertical": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.vertical}  *{space-6} )) / {cover.numbers.vertical})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.vertical}  *{spacing.125} )) / {cover.numbers.vertical})",
         "type": "sizing"
       },
       "large": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.large}  *{space-6} )) / {cover.numbers.large})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.large}  *{spacing.125} )) / {cover.numbers.large})",
         "type": "sizing"
       },
       "square-small-story": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.square-small-story}  *{space-6} )) / {cover.numbers.square-small-story})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.square-small-story}  *{spacing.125} )) / {cover.numbers.square-small-story})",
         "type": "sizing"
       },
       "person": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.person}  *{space-10} )) / {cover.numbers.square-small-story})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.person}  *{spacing.175} )) / {cover.numbers.square-small-story})",
         "type": "sizing"
       },
       "square": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.square} *{space-6} )) / {cover.numbers.square})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.square} *{spacing.125} )) / {cover.numbers.square})",
         "type": "sizing"
       },
       "marketing": {
-        "value": "ceil(({container.width} - ( {cover.gaps-count.marketing}  *{space-6} )) / {cover.numbers.marketing})",
+        "value": "ceil(({container.width} - ( {cover.gaps-count.marketing}  *{spacing.125} )) / {cover.numbers.marketing})",
         "type": "sizing"
       },
       "featured": {
-        "value": "ceil( {container.device-width} -{device-padding.android.phone}*2)",
+        "value": "ceil( {container.device-width} -{screen-padding.android.phone}*2)",
         "type": "sizing"
       },
       "medium": {
-        "value": "ceil(({container.width} - ({cover.gaps-count.medium}  *{space-6} )) / {cover.numbers.medium})",
+        "value": "ceil(({container.width} - ({cover.gaps-count.medium}  *{spacing.125} )) / {cover.numbers.medium})",
         "type": "sizing"
       }
     },
@@ -205,7 +205,7 @@
   },
   "container": {
     "width": {
-      "value": "{container.device-width} - {device-padding.left} - {device-padding.right}",
+      "value": "{container.device-width} - {screen-padding.left} - {screen-padding.right}",
       "type": "sizing"
     },
     "device-width": {
@@ -215,7 +215,7 @@
   },
   "screen-padding": {
     "left": {
-      "value": "{device-padding.android.phone}",
+      "value": "{screen-padding.android.phone}",
       "type": "sizing"
     },
     "right": {
