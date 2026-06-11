@@ -901,6 +901,34 @@
     "group": "Color"
   },
   {
+    "id": "theme-kids-boys",
+    "name": "Boys",
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Colors/Boys": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaModeId": "40245:2",
+    "$figmaCollectionId": "VariableCollectionId:32029:3918",
+    "group": "Color"
+  },
+  {
+    "id": "theme-kids-girls",
+    "name": "Girls",
+    "selectedTokenSets": {
+      "Primitives": "source",
+      "Brand": "source",
+      "Semantic/Colors/Girls": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "$figmaModeId": "40245:3",
+    "$figmaCollectionId": "VariableCollectionId:32029:3918",
+    "group": "Color"
+  },
+  {
     "id": "aacca7211cd6218784d4b4ad6d1c41deadcda90a",
     "name": "Main",
     "$figmaStyleReferences": {},
