@@ -421,26 +421,8 @@
       }
     },
     "focus": {
-      "width": {
-        "default": {
-          "value": "1",
-          "type": "borderWidth"
-        },
-        "large": {
-          "value": "2",
-          "type": "borderWidth"
-        },
-        "small": {
-          "value": "1",
-          "type": "borderWidth"
-        },
-        "extra-small": {
-          "value": "1",
-          "type": "borderWidth"
-        }
-      },
-      "radius": {
-        "default": {
+      "default": {
+        "radius": {
           "desktop": {
             "value": "{control.default.radius.desktop} + 2",
             "type": "borderRadius"
@@ -450,7 +432,13 @@
             "type": "borderRadius"
           }
         },
-        "large": {
+        "width": {
+          "value": "1",
+          "type": "borderWidth"
+        }
+      },
+      "large": {
+        "radius": {
           "desktop": {
             "value": "{control.large.radius.desktop} + 3",
             "type": "borderRadius"
@@ -460,7 +448,13 @@
             "type": "borderRadius"
           }
         },
-        "small": {
+        "width": {
+          "value": "2",
+          "type": "borderWidth"
+        }
+      },
+      "small": {
+        "radius": {
           "desktop": {
             "value": "{control.small.radius.desktop} + 2",
             "type": "borderRadius"
@@ -470,7 +464,13 @@
             "type": "borderRadius"
           }
         },
-        "extra-small": {
+        "width": {
+          "value": "1",
+          "type": "borderWidth"
+        }
+      },
+      "extra-small": {
+        "radius": {
           "desktop": {
             "value": "{control.extra-small.radius.desktop} + 2",
             "type": "borderRadius"
@@ -479,6 +479,10 @@
             "value": "{control.extra-small.radius.tablet} + 2",
             "type": "borderRadius"
           }
+        },
+        "width": {
+          "value": "1",
+          "type": "borderWidth"
         }
       }
     },

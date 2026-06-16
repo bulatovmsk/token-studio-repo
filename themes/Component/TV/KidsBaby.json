@@ -103,32 +103,34 @@
       }
     },
     "focus": {
-      "width": {
-        "default": {
-          "value": "3",
-          "type": "borderWidth"
+      "default": {
+        "radius": {
+          "value": "{control.default.radius} + 3",
+          "type": "borderRadius"
         },
-        "large": {
-          "value": "3",
-          "type": "borderWidth"
-        },
-        "small": {
+        "width": {
           "value": "3",
           "type": "borderWidth"
         }
       },
-      "radius": {
-        "default": {
-          "value": "{control.default.radius} + 3",
-          "type": "borderRadius"
-        },
-        "large": {
+      "large": {
+        "radius": {
           "value": "{control.large.radius} + 3",
           "type": "borderRadius"
         },
-        "small": {
+        "width": {
+          "value": "3",
+          "type": "borderWidth"
+        }
+      },
+      "small": {
+        "radius": {
           "value": "{control.small.radius} + 3",
           "type": "borderRadius"
+        },
+        "width": {
+          "value": "3",
+          "type": "borderWidth"
         }
       }
     },
