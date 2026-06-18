@@ -18,29 +18,29 @@
       "text-icon": {
         "icon-size": {
           "desktop": {
-            "value": "26",
+            "value": "28",
             "type": "sizing"
           },
           "tablet": {
-            "value": "20",
+            "value": "24",
             "type": "sizing"
           },
           "phone": {
-            "value": "18",
+            "value": "22",
             "type": "sizing"
           }
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "22",
+            "value": "28",
             "type": "spacing"
           },
           "tablet": {
-            "value": "20",
+            "value": "24",
             "type": "spacing"
           },
           "phone": {
-            "value": "18",
+            "value": "20",
             "type": "spacing"
           }
         },
@@ -90,15 +90,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "15",
+            "value": "24",
             "type": "spacing"
           },
           "tablet": {
-            "value": "14",
+            "value": "24",
             "type": "spacing"
           },
           "phone": {
-            "value": "13",
+            "value": "24",
             "type": "spacing"
           }
         }
@@ -136,29 +136,29 @@
       "text-icon": {
         "icon-size": {
           "desktop": {
-            "value": "28",
+            "value": "38",
             "type": "sizing"
           },
           "tablet": {
-            "value": "26",
+            "value": "32",
             "type": "sizing"
           },
           "phone": {
-            "value": "22",
+            "value": "26",
             "type": "sizing"
           }
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "36",
+            "value": "40",
             "type": "spacing"
           },
           "tablet": {
-            "value": "28",
+            "value": "32",
             "type": "spacing"
           },
           "phone": {
-            "value": "20",
+            "value": "24",
             "type": "spacing"
           }
         },
@@ -194,15 +194,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "29",
+            "value": "48",
             "type": "spacing"
           },
           "tablet": {
-            "value": "22",
+            "value": "36",
             "type": "spacing"
           },
           "phone": {
-            "value": "16",
+            "value": "28",
             "type": "spacing"
           }
         }
@@ -240,29 +240,29 @@
       "text-icon": {
         "icon-size": {
           "desktop": {
-            "value": "22",
+            "value": "24",
             "type": "sizing"
           },
           "tablet": {
-            "value": "18",
+            "value": "20",
             "type": "sizing"
           },
           "phone": {
-            "value": "14",
+            "value": "18",
             "type": "sizing"
           }
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "18",
+            "value": "20",
             "type": "spacing"
           },
           "tablet": {
-            "value": "16",
+            "value": "20",
             "type": "spacing"
           },
           "phone": {
-            "value": "14",
+            "value": "16",
             "type": "spacing"
           }
         },
@@ -312,15 +312,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "9",
+            "value": "16",
             "type": "spacing"
           },
           "tablet": {
-            "value": "10",
+            "value": "16",
             "type": "spacing"
           },
           "phone": {
-            "value": "9",
+            "value": "16",
             "type": "spacing"
           }
         }
@@ -344,15 +344,15 @@
       "icon-only": {
         "padding-horizontal": {
           "desktop": {
-            "value": "8",
+            "value": "16",
             "type": "spacing"
           },
           "tablet": {
-            "value": "8",
+            "value": "16",
             "type": "spacing"
           },
           "phone": {
-            "value": "8",
+            "value": "16",
             "type": "spacing"
           }
         },
@@ -380,21 +380,21 @@
       "text-icon": {
         "icon-size": {
           "tablet": {
-            "value": "16",
+            "value": "18",
             "type": "sizing"
           },
           "phone": {
-            "value": "12",
+            "value": "16",
             "type": "sizing"
           }
         },
         "padding-horizontal": {
           "tablet": {
-            "value": "10",
+            "value": "12",
             "type": "spacing"
           },
           "phone": {
-            "value": "8",
+            "value": "12",
             "type": "spacing"
           }
         },
@@ -505,15 +505,15 @@
     "large": {
       "padding-horizontal": {
         "desktop": {
-          "value": "5",
+          "value": "8",
           "type": "spacing"
         },
         "tablet": {
-          "value": "4",
+          "value": "7",
           "type": "spacing"
         },
         "phone": {
-          "value": "4",
+          "value": "7",
           "type": "spacing"
         }
       },
@@ -563,15 +563,15 @@
     "small": {
       "padding-horizontal": {
         "desktop": {
-          "value": "4",
+          "value": "7",
           "type": "spacing"
         },
         "tablet": {
-          "value": "4",
+          "value": "7",
           "type": "spacing"
         },
         "phone": {
-          "value": "3",
+          "value": "5",
           "type": "spacing"
         }
       },
