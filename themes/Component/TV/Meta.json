@@ -181,23 +181,23 @@
     "card": {
       "radius": {
         "500": {
-          "value": "20",
-          "type": "borderRadius"
-        },
-        "600": {
           "value": "28",
           "type": "borderRadius"
         },
+        "600": {
+          "value": "40",
+          "type": "borderRadius"
+        },
         "700": {
-          "value": "32",
+          "value": "48",
           "type": "borderRadius"
         },
         "800": {
-          "value": "36",
+          "value": "52",
           "type": "borderRadius"
         },
         "900": {
-          "value": "40",
+          "value": "56",
           "type": "borderRadius"
         }
       }
