@@ -90,15 +90,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "24",
+            "value": "20",
             "type": "spacing"
           },
           "tablet": {
-            "value": "24",
+            "value": "20",
             "type": "spacing"
           },
           "phone": {
-            "value": "24",
+            "value": "20",
             "type": "spacing"
           }
         }
@@ -194,15 +194,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "48",
+            "value": "40",
             "type": "spacing"
           },
           "tablet": {
-            "value": "36",
+            "value": "32",
             "type": "spacing"
           },
           "phone": {
-            "value": "28",
+            "value": "24",
             "type": "spacing"
           }
         }
@@ -312,7 +312,7 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "16",
+            "value": "12",
             "type": "spacing"
           },
           "tablet": {
@@ -320,7 +320,7 @@
             "type": "spacing"
           },
           "phone": {
-            "value": "16",
+            "value": "12",
             "type": "spacing"
           }
         }
@@ -344,15 +344,15 @@
       "icon-only": {
         "padding-horizontal": {
           "desktop": {
-            "value": "16",
+            "value": "12",
             "type": "spacing"
           },
           "tablet": {
-            "value": "16",
+            "value": "12",
             "type": "spacing"
           },
           "phone": {
-            "value": "16",
+            "value": "12",
             "type": "spacing"
           }
         },

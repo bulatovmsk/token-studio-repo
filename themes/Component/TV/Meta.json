@@ -11,7 +11,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "32",
+          "value": "24",
           "type": "spacing"
         }
       },
@@ -45,7 +45,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "44",
+          "value": "36",
           "type": "spacing"
         }
       },
@@ -79,7 +79,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "28",
+          "value": "24",
           "type": "spacing"
         }
       },
