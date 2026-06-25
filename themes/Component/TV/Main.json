@@ -132,6 +132,12 @@
           "value": "3",
           "type": "borderWidth"
         }
+      },
+      "round": {
+        "radius": {
+          "value": "9999",
+          "type": "borderRadius"
+        }
       }
     },
     "compensation": {
