@@ -21,7 +21,7 @@
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "18",
+          "value": "24",
           "type": "spacing"
         }
       },
@@ -105,7 +105,7 @@
     "focus": {
       "default": {
         "radius": {
-          "value": "{control.default.radius} + 3",
+          "value": "{control.default.radius} + 6",
           "type": "borderRadius"
         },
         "width": {
@@ -115,7 +115,7 @@
       },
       "large": {
         "radius": {
-          "value": "{control.large.radius} + 3",
+          "value": "{control.large.radius} + 6",
           "type": "borderRadius"
         },
         "width": {
@@ -125,7 +125,7 @@
       },
       "small": {
         "radius": {
-          "value": "{control.small.radius} + 3",
+          "value": "{control.small.radius} + 6",
           "type": "borderRadius"
         },
         "width": {
