@@ -107,30 +107,18 @@
         "radius": {
           "value": "{control.default.radius} + 3",
           "type": "borderRadius"
-        },
-        "width": {
-          "value": "3",
-          "type": "borderWidth"
         }
       },
       "large": {
         "radius": {
           "value": "{control.large.radius} + 3",
           "type": "borderRadius"
-        },
-        "width": {
-          "value": "3",
-          "type": "borderWidth"
         }
       },
       "small": {
         "radius": {
           "value": "{control.small.radius} + 3",
           "type": "borderRadius"
-        },
-        "width": {
-          "value": "3",
-          "type": "borderWidth"
         }
       },
       "round": {
@@ -138,6 +126,10 @@
           "value": "9999",
           "type": "borderRadius"
         }
+      },
+      "width": {
+        "value": "3",
+        "type": "borderWidth"
       }
     },
     "compensation": {
@@ -206,6 +198,12 @@
           "value": "56",
           "type": "borderRadius"
         }
+      }
+    },
+    "focus": {
+      "width": {
+        "value": "4",
+        "type": "borderWidth"
       }
     }
   }

@@ -431,10 +431,6 @@
             "value": "{control.default.radius.tablet} + 2",
             "type": "borderRadius"
           }
-        },
-        "width": {
-          "value": "1",
-          "type": "borderWidth"
         }
       },
       "large": {
@@ -447,10 +443,6 @@
             "value": "{control.large.radius.tablet} + 3",
             "type": "borderRadius"
           }
-        },
-        "width": {
-          "value": "2",
-          "type": "borderWidth"
         }
       },
       "small": {
@@ -463,10 +455,6 @@
             "value": "{control.small.radius.tablet} + 2",
             "type": "borderRadius"
           }
-        },
-        "width": {
-          "value": "1",
-          "type": "borderWidth"
         }
       },
       "extra-small": {
@@ -479,11 +467,11 @@
             "value": "{control.extra-small.radius.tablet} + 2",
             "type": "borderRadius"
           }
-        },
-        "width": {
-          "value": "1",
-          "type": "borderWidth"
         }
+      },
+      "width": {
+        "value": "1",
+        "type": "borderWidth"
       }
     },
     "compensation": {
@@ -650,6 +638,12 @@
           "value": "36",
           "type": "borderRadius"
         }
+      }
+    },
+    "focus": {
+      "width": {
+        "value": "4",
+        "type": "borderWidth"
       }
     }
   }
