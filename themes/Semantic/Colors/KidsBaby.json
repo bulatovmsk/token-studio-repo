@@ -408,6 +408,10 @@
         "offer": {
           "value": "{primitives.yellow300}",
           "type": "color"
+        },
+        "sber": {
+          "value": "{primitives.external.sber1}",
+          "type": "color"
         }
       },
       "sber-button": {

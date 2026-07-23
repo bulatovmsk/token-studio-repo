@@ -408,6 +408,10 @@
           "value": "{primitives.yellow300}",
           "type": "color"
         },
+        "sber": {
+          "value": "{primitives.external.sber1}",
+          "type": "color"
+        },
         "twilight": {
           "value": "linear-gradient(90deg, {primitives.red900} 0%, {primitives.violet800} 100%)",
           "type": "color"
