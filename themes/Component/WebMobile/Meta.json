@@ -611,31 +611,31 @@
     "card": {
       "radius": {
         "400": {
-          "value": "10",
-          "type": "borderRadius"
-        },
-        "450": {
           "value": "12",
           "type": "borderRadius"
         },
-        "500": {
-          "value": "14",
-          "type": "borderRadius"
-        },
-        "600": {
+        "450": {
           "value": "16",
           "type": "borderRadius"
         },
-        "700": {
+        "500": {
           "value": "20",
           "type": "borderRadius"
         },
-        "800": {
+        "600": {
+          "value": "20",
+          "type": "borderRadius"
+        },
+        "700": {
           "value": "24",
           "type": "borderRadius"
         },
-        "900": {
+        "800": {
           "value": "28",
+          "type": "borderRadius"
+        },
+        "900": {
+          "value": "36",
           "type": "borderRadius"
         }
       }
