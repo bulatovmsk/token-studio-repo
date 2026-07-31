@@ -90,15 +90,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "20",
+            "value": "15",
             "type": "spacing"
           },
           "tablet": {
-            "value": "20",
+            "value": "14",
             "type": "spacing"
           },
           "phone": {
-            "value": "20",
+            "value": "13",
             "type": "spacing"
           }
         }
@@ -194,15 +194,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "40",
+            "value": "29",
             "type": "spacing"
           },
           "tablet": {
-            "value": "32",
+            "value": "22",
             "type": "spacing"
           },
           "phone": {
-            "value": "24",
+            "value": "16",
             "type": "spacing"
           }
         }
@@ -312,15 +312,15 @@
         },
         "padding-horizontal": {
           "desktop": {
-            "value": "12",
+            "value": "9",
             "type": "spacing"
           },
           "tablet": {
-            "value": "16",
+            "value": "10",
             "type": "spacing"
           },
           "phone": {
-            "value": "12",
+            "value": "9",
             "type": "spacing"
           }
         }
@@ -348,11 +348,11 @@
             "type": "spacing"
           },
           "tablet": {
-            "value": "12",
+            "value": "7",
             "type": "spacing"
           },
           "phone": {
-            "value": "12",
+            "value": "6",
             "type": "spacing"
           }
         },
