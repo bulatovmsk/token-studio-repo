@@ -7,21 +7,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "36",
+          "value": "32",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "18",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "36",
+          "value": "32",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "24",
+          "value": "20",
           "type": "spacing"
         }
       },
@@ -41,21 +41,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "48",
+          "value": "40",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "32",
+          "value": "26",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "48",
+          "value": "40",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "44",
+          "value": "36",
           "type": "spacing"
         }
       },
@@ -75,21 +75,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "32",
+          "value": "28",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "16",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "32",
+          "value": "28",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "28",
+          "value": "24",
           "type": "spacing"
         }
       },
