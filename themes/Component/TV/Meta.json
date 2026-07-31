@@ -7,7 +7,7 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "32",
+          "value": "36",
           "type": "sizing"
         },
         "padding-horizontal": {
@@ -17,11 +17,11 @@
       },
       "text-icon": {
         "icon-size": {
-          "value": "32",
+          "value": "36",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "32",
           "type": "spacing"
         }
       },
@@ -41,7 +41,7 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "40",
+          "value": "44",
           "type": "sizing"
         },
         "padding-horizontal": {
@@ -51,11 +51,11 @@
       },
       "text-icon": {
         "icon-size": {
-          "value": "40",
+          "value": "44",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "36",
+          "value": "40",
           "type": "spacing"
         }
       },
@@ -75,7 +75,7 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "28",
+          "value": "30",
           "type": "sizing"
         },
         "padding-horizontal": {
@@ -85,11 +85,11 @@
       },
       "text-icon": {
         "icon-size": {
-          "value": "28",
+          "value": "30",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "24",
+          "value": "28",
           "type": "spacing"
         }
       },
