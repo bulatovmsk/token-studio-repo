@@ -421,11 +421,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "{primitives.electric800}",
+          "value": "linear-gradient(90deg, {primitives.electric800} 0%, {primitives.electric800} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "{primitives.electric1100}",
+          "value": "linear-gradient(90deg, {primitives.electric1100} 0%, {primitives.electric1100} 100%)",
           "type": "color"
         },
         "gold": {
