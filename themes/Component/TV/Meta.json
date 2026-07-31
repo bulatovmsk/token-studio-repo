@@ -7,21 +7,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "32",
+          "value": "36",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "18",
+          "value": "20",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "32",
+          "value": "36",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "24",
           "type": "spacing"
         }
       },
@@ -41,21 +41,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "40",
+          "value": "48",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "26",
+          "value": "32",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "40",
+          "value": "48",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "36",
+          "value": "44",
           "type": "spacing"
         }
       },
@@ -75,21 +75,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "28",
+          "value": "32",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "16",
+          "value": "20",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "28",
+          "value": "32",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "24",
+          "value": "28",
           "type": "spacing"
         }
       },
@@ -148,11 +148,11 @@
         "type": "spacing"
       },
       "padding-horizontal": {
-        "value": "12",
+        "value": "7",
         "type": "spacing"
       },
       "radius": {
-        "value": "999",
+        "value": "8",
         "type": "borderRadius"
       }
     },
@@ -166,11 +166,11 @@
         "type": "spacing"
       },
       "padding-horizontal": {
-        "value": "12",
+        "value": "7",
         "type": "spacing"
       },
       "radius": {
-        "value": "999",
+        "value": "6",
         "type": "borderRadius"
       }
     }
