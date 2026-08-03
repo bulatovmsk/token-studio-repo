@@ -298,15 +298,15 @@
       "filter-icon": {
         "padding-horizontal": {
           "desktop": {
-            "value": "18",
+            "value": "14",
             "type": "spacing"
           },
           "tablet": {
-            "value": "16",
+            "value": "11",
             "type": "spacing"
           },
           "phone": {
-            "value": "14",
+            "value": "10",
             "type": "spacing"
           }
         }
