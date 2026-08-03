@@ -295,6 +295,22 @@
           }
         }
       },
+      "filter-icon": {
+        "padding-horizontal": {
+          "desktop": {
+            "value": "18",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "16",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "14",
+            "type": "spacing"
+          }
+        }
+      },
       "icon-only": {
         "icon-size": {
           "desktop": {

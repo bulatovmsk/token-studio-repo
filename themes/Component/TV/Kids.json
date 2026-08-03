@@ -93,6 +93,12 @@
           "type": "spacing"
         }
       },
+      "filter-icon": {
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        }
+      },
       "gap": {
         "value": "8",
         "type": "spacing"
