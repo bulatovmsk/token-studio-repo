@@ -30,7 +30,7 @@
         "type": "number"
       },
       "marketing": {
-        "value": "1.5",
+        "value": 2,
         "type": "number"
       },
       "medium": {
