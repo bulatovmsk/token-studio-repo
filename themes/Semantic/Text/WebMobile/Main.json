@@ -10,806 +10,366 @@
     }
   },
   "lineHeights": {
-    "0": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "1": {
-      "value": 108,
-      "type": "lineHeights"
-    },
-    "2": {
-      "value": 64,
-      "type": "lineHeights"
-    },
-    "3": {
-      "value": 56,
-      "type": "lineHeights"
-    },
-    "4": {
-      "value": 64,
-      "type": "lineHeights"
-    },
-    "5": {
-      "value": 54,
-      "type": "lineHeights"
-    },
-    "6": {
-      "value": 44,
-      "type": "lineHeights"
-    },
-    "7": {
-      "value": 48,
-      "type": "lineHeights"
-    },
-    "8": {
-      "value": 40,
-      "type": "lineHeights"
-    },
-    "9": {
-      "value": 34,
-      "type": "lineHeights"
-    },
-    "10": {
-      "value": 36,
-      "type": "lineHeights"
-    },
-    "11": {
-      "value": 32,
-      "type": "lineHeights"
-    },
     "12": {
-      "value": 28,
-      "type": "lineHeights"
-    },
-    "13": {
-      "value": 32,
+      "value": 12,
       "type": "lineHeights"
     },
     "14": {
-      "value": 28,
+      "value": 14,
       "type": "lineHeights"
     },
     "15": {
-      "value": 26,
+      "value": 15,
       "type": "lineHeights"
     },
     "16": {
-      "value": 28,
+      "value": 16,
       "type": "lineHeights"
     },
     "17": {
-      "value": 26,
+      "value": 17,
       "type": "lineHeights"
     },
     "18": {
-      "value": 22,
+      "value": 18,
       "type": "lineHeights"
     },
     "19": {
-      "value": 30,
+      "value": 19,
       "type": "lineHeights"
     },
     "20": {
-      "value": 26,
+      "value": 20,
       "type": "lineHeights"
     },
     "21": {
-      "value": 22,
+      "value": 21,
       "type": "lineHeights"
     },
     "22": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "23": {
-      "value": 26,
-      "type": "lineHeights"
-    },
-    "24": {
       "value": 22,
       "type": "lineHeights"
     },
-    "25": {
-      "value": 36,
+    "24": {
+      "value": 24,
       "type": "lineHeights"
     },
     "26": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "27": {
       "value": 26,
       "type": "lineHeights"
     },
     "28": {
-      "value": 26,
-      "type": "lineHeights"
-    },
-    "29": {
-      "value": 22,
+      "value": 28,
       "type": "lineHeights"
     },
     "30": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "31": {
-      "value": 26,
+      "value": 30,
       "type": "lineHeights"
     },
     "32": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "33": {
-      "value": 20,
+      "value": 32,
       "type": "lineHeights"
     },
     "34": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "35": {
-      "value": 26,
+      "value": 34,
       "type": "lineHeights"
     },
     "36": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "37": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "38": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "39": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "40": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "41": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "42": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "43": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "44": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "45": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "46": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "47": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "48": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "49": {
-      "value": 16,
-      "type": "lineHeights"
-    },
-    "50": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "51": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "52": {
-      "value": 28,
-      "type": "lineHeights"
-    },
-    "53": {
-      "value": 26,
-      "type": "lineHeights"
-    },
-    "54": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "55": {
-      "value": 26,
-      "type": "lineHeights"
-    },
-    "56": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "57": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "58": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "59": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "60": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "61": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "62": {
-      "value": 16,
-      "type": "lineHeights"
-    },
-    "63": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "64": {
-      "value": 44,
-      "type": "lineHeights"
-    },
-    "65": {
       "value": 36,
       "type": "lineHeights"
     },
-    "66": {
-      "value": 30,
+    "38": {
+      "value": 38,
       "type": "lineHeights"
     },
-    "67": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "68": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "69": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "70": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "71": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "72": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "73": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "74": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "75": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "76": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "77": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "78": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "79": {
-      "value": 16,
-      "type": "lineHeights"
-    },
-    "80": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "81": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "82": {
-      "value": 16,
-      "type": "lineHeights"
-    },
-    "83": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "84": {
-      "value": 16,
-      "type": "lineHeights"
-    },
-    "85": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "86": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "87": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "88": {
-      "value": 15,
-      "type": "lineHeights"
-    },
-    "89": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "90": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "91": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "92": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "93": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "94": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "95": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "96": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "97": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "98": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "99": {
-      "value": 16,
-      "type": "lineHeights"
-    },
-    "100": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "101": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "102": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "103": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "104": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "105": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "106": {
-      "value": 12,
-      "type": "lineHeights"
-    },
-    "107": {
-      "value": 32,
-      "type": "lineHeights"
-    },
-    "108": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "109": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "110": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "111": {
-      "value": 14,
-      "type": "lineHeights"
-    },
-    "112": {
-      "value": 42,
-      "type": "lineHeights"
-    },
-    "113": {
-      "value": 28,
-      "type": "lineHeights"
-    },
-    "114": {
-      "value": 48,
-      "type": "lineHeights"
-    },
-    "115": {
-      "value": 32,
-      "type": "lineHeights"
-    },
-    "116": {
-      "value": 26,
-      "type": "lineHeights"
-    },
-    "117": {
-      "value": 48,
-      "type": "lineHeights"
-    },
-    "118": {
+    "40": {
       "value": 40,
       "type": "lineHeights"
     },
-    "119": {
-      "value": 34,
+    "42": {
+      "value": 42,
+      "type": "lineHeights"
+    },
+    "44": {
+      "value": 44,
+      "type": "lineHeights"
+    },
+    "46": {
+      "value": 46,
+      "type": "lineHeights"
+    },
+    "48": {
+      "value": 48,
+      "type": "lineHeights"
+    },
+    "54": {
+      "value": 54,
+      "type": "lineHeights"
+    },
+    "56": {
+      "value": 56,
+      "type": "lineHeights"
+    },
+    "60": {
+      "value": 60,
+      "type": "lineHeights"
+    },
+    "62": {
+      "value": 62,
+      "type": "lineHeights"
+    },
+    "64": {
+      "value": 64,
+      "type": "lineHeights"
+    },
+    "72": {
+      "value": 72,
+      "type": "lineHeights"
+    },
+    "96": {
+      "value": 96,
+      "type": "lineHeights"
+    },
+    "104": {
+      "value": 104,
+      "type": "lineHeights"
+    },
+    "108": {
+      "value": 108,
       "type": "lineHeights"
     },
     "120": {
       "value": 120,
       "type": "lineHeights"
-    },
-    "121": {
-      "value": 104,
-      "type": "lineHeights"
-    },
-    "122": {
-      "value": 62,
-      "type": "lineHeights"
-    },
-    "123": {
-      "value": 96,
-      "type": "lineHeights"
-    },
-    "124": {
-      "value": 54,
-      "type": "lineHeights"
-    },
-    "125": {
-      "value": 40,
-      "type": "lineHeights"
-    },
-    "126": {
-      "value": 72,
-      "type": "lineHeights"
-    },
-    "127": {
-      "value": 46,
-      "type": "lineHeights"
-    },
-    "128": {
-      "value": 42,
-      "type": "lineHeights"
-    },
-    "129": {
-      "value": 60,
-      "type": "lineHeights"
-    },
-    "130": {
-      "value": 42,
-      "type": "lineHeights"
-    },
-    "131": {
-      "value": 38,
-      "type": "lineHeights"
-    },
-    "132": {
-      "value": 48,
-      "type": "lineHeights"
-    },
-    "133": {
-      "value": 34,
-      "type": "lineHeights"
-    },
-    "134": {
-      "value": 32,
-      "type": "lineHeights"
-    },
-    "135": {
-      "value": 44,
-      "type": "lineHeights"
-    },
-    "136": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "137": {
-      "value": 34,
-      "type": "lineHeights"
-    },
-    "138": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "139": {
-      "value": 22,
-      "type": "lineHeights"
-    },
-    "140": {
-      "value": 32,
-      "type": "lineHeights"
-    },
-    "141": {
-      "value": 17,
-      "type": "lineHeights"
-    },
-    "142": {
-      "value": 19,
-      "type": "lineHeights"
-    },
-    "143": {
-      "value": 21,
-      "type": "lineHeights"
     }
   },
   "fontWeights": {
-    "suisse-intl-0": {
-      "value": "Semi Bold",
-      "type": "fontWeights"
+    "suisse-intl": {
+      "semi-bold": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "light": {
+        "value": "Light",
+        "type": "fontWeights"
+      }
     },
-    "suisse-intl-1": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "suisse-intl-2": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
-    "suisse-intl-3": {
-      "value": "Medium",
-      "type": "fontWeights"
-    },
-    "suisse-intl-4": {
-      "value": "Light",
-      "type": "fontWeights"
-    },
-    "sorem-5": {
-      "value": "Regular",
-      "type": "fontWeights"
+    "sorem": {
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
     }
   },
   "fontSize": {
-    "0": {
+    "8": {
       "value": 8,
       "type": "fontSizes"
     },
-    "1": {
+    "9": {
       "value": 9,
       "type": "fontSizes"
     },
-    "2": {
+    "10": {
       "value": 10,
       "type": "fontSizes"
     },
-    "3": {
+    "11": {
       "value": 11,
       "type": "fontSizes"
     },
-    "4": {
+    "12": {
       "value": 12,
       "type": "fontSizes"
     },
-    "5": {
+    "13": {
       "value": 13,
       "type": "fontSizes"
     },
-    "6": {
+    "14": {
       "value": 14,
       "type": "fontSizes"
     },
-    "7": {
+    "15": {
       "value": 15,
       "type": "fontSizes"
     },
-    "8": {
+    "16": {
       "value": 16,
       "type": "fontSizes"
     },
-    "9": {
+    "17": {
       "value": 17,
       "type": "fontSizes"
     },
-    "10": {
+    "18": {
       "value": 18,
       "type": "fontSizes"
     },
-    "11": {
+    "20": {
       "value": 20,
       "type": "fontSizes"
     },
-    "12": {
+    "22": {
       "value": 22,
       "type": "fontSizes"
     },
-    "13": {
+    "23": {
       "value": 23,
       "type": "fontSizes"
     },
-    "14": {
+    "24": {
       "value": 24,
       "type": "fontSizes"
     },
-    "15": {
+    "26": {
       "value": 26,
       "type": "fontSizes"
     },
-    "16": {
+    "27": {
       "value": 27,
       "type": "fontSizes"
     },
-    "17": {
+    "28": {
       "value": 28,
       "type": "fontSizes"
     },
-    "18": {
+    "30": {
       "value": 30,
       "type": "fontSizes"
     },
-    "19": {
+    "31": {
       "value": 31,
       "type": "fontSizes"
     },
-    "20": {
+    "32": {
       "value": 32,
       "type": "fontSizes"
     },
-    "21": {
+    "35": {
       "value": 35,
       "type": "fontSizes"
     },
-    "22": {
+    "36": {
       "value": 36,
       "type": "fontSizes"
     },
-    "23": {
+    "38": {
       "value": 38,
       "type": "fontSizes"
     },
-    "24": {
+    "40": {
       "value": 40,
       "type": "fontSizes"
     },
-    "25": {
+    "42": {
       "value": 42,
       "type": "fontSizes"
     },
-    "26": {
+    "43": {
       "value": 43,
       "type": "fontSizes"
     },
-    "27": {
+    "48": {
       "value": 48,
       "type": "fontSizes"
     },
-    "28": {
+    "50": {
       "value": 50,
       "type": "fontSizes"
     },
-    "29": {
+    "56": {
       "value": 56,
       "type": "fontSizes"
     },
-    "30": {
+    "58": {
       "value": 58,
       "type": "fontSizes"
     },
-    "31": {
+    "60": {
       "value": 60,
       "type": "fontSizes"
     },
-    "32": {
+    "64": {
       "value": 64,
       "type": "fontSizes"
     },
-    "33": {
+    "70": {
       "value": 70,
       "type": "fontSizes"
     },
-    "34": {
+    "72": {
       "value": 72,
       "type": "fontSizes"
     },
-    "35": {
+    "98": {
       "value": 98,
       "type": "fontSizes"
     },
-    "36": {
+    "100": {
       "value": 100,
       "type": "fontSizes"
     },
-    "37": {
+    "116": {
       "value": 116,
       "type": "fontSizes"
     },
-    "38": {
+    "120": {
       "value": 120,
       "type": "fontSizes"
     }
   },
   "letterSpacing": {
-    "0": {
-      "value": "0.3%",
-      "type": "letterSpacing"
-    },
-    "1": {
+    "minus-4": {
       "value": "-4%",
       "type": "letterSpacing"
     },
-    "2": {
-      "value": "-2%",
-      "type": "letterSpacing"
-    },
-    "3": {
-      "value": "-1%",
-      "type": "letterSpacing"
-    },
-    "4": {
-      "value": "0%",
-      "type": "letterSpacing"
-    },
-    "5": {
-      "value": "1%",
-      "type": "letterSpacing"
-    },
-    "6": {
-      "value": "6%",
-      "type": "letterSpacing"
-    },
-    "7": {
+    "minus-3": {
       "value": "-3%",
       "type": "letterSpacing"
     },
-    "8": {
+    "minus-2": {
+      "value": "-2%",
+      "type": "letterSpacing"
+    },
+    "minus-1": {
+      "value": "-1%",
+      "type": "letterSpacing"
+    },
+    "zero": {
+      "value": "0%",
+      "type": "letterSpacing"
+    },
+    "plus-0-3": {
+      "value": "0.3%",
+      "type": "letterSpacing"
+    },
+    "plus-1": {
+      "value": "1%",
+      "type": "letterSpacing"
+    },
+    "plus-2": {
       "value": "2%",
       "type": "letterSpacing"
     },
-    "9": {
+    "plus-3": {
       "value": "3%",
+      "type": "letterSpacing"
+    },
+    "plus-6": {
+      "value": "6%",
       "type": "letterSpacing"
     }
   },
@@ -818,11 +378,11 @@
       "value": 0,
       "type": "paragraphSpacing"
     },
-    "1": {
+    "30": {
       "value": 30,
       "type": "paragraphSpacing"
     },
-    "2": {
+    "36": {
       "value": 36,
       "type": "paragraphSpacing"
     }
@@ -830,10 +390,10 @@
   "Meta Menu Item": {
     "value": {
       "fontFamily": "{fontFamilies.suisse-intl}",
-      "fontWeight": "{fontWeights.suisse-intl-0}",
-      "lineHeight": "{lineHeights.0}",
-      "fontSize": "{fontSize.2}",
-      "letterSpacing": "{letterSpacing.0}",
+      "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+      "lineHeight": "{lineHeights.14}",
+      "fontSize": "{fontSize.10}",
+      "letterSpacing": "{letterSpacing.plus-0-3}",
       "paragraphSpacing": "{paragraphSpacing.0}",
       "paragraphIndent": "{paragraphIndent.0}",
       "textCase": "{textCase.none}",
@@ -842,13 +402,13 @@
     "type": "typography"
   },
   "Godzilla": {
-    "Dektop 1720+": {
+    "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.1}",
-        "fontSize": "{fontSize.38}",
-        "letterSpacing": "{letterSpacing.1}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.108}",
+        "fontSize": "{fontSize.120}",
+        "letterSpacing": "{letterSpacing.minus-4}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -859,10 +419,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.2}",
-        "fontSize": "{fontSize.34}",
-        "letterSpacing": "{letterSpacing.2}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.64}",
+        "fontSize": "{fontSize.72}",
+        "letterSpacing": "{letterSpacing.minus-2}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -873,10 +433,10 @@
     "Mobile 320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.3}",
-        "fontSize": "{fontSize.31}",
-        "letterSpacing": "{letterSpacing.2}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.56}",
+        "fontSize": "{fontSize.60}",
+        "letterSpacing": "{letterSpacing.minus-2}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -889,10 +449,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.2}",
-        "fontSize": "{fontSize.30}",
-        "letterSpacing": "{letterSpacing.2}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.64}",
+        "fontSize": "{fontSize.58}",
+        "letterSpacing": "{letterSpacing.minus-2}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -903,10 +463,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.5}",
-        "fontSize": "{fontSize.27}",
-        "letterSpacing": "{letterSpacing.2}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.54}",
+        "fontSize": "{fontSize.48}",
+        "letterSpacing": "{letterSpacing.minus-2}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -917,10 +477,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.6}",
-        "fontSize": "{fontSize.24}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.44}",
+        "fontSize": "{fontSize.40}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -933,10 +493,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.7}",
-        "fontSize": "{fontSize.26}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.48}",
+        "fontSize": "{fontSize.43}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -947,10 +507,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.8}",
-        "fontSize": "{fontSize.21}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.40}",
+        "fontSize": "{fontSize.35}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -961,10 +521,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.9}",
-        "fontSize": "{fontSize.18}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.34}",
+        "fontSize": "{fontSize.30}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -977,10 +537,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.10}",
-        "fontSize": "{fontSize.19}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.36}",
+        "fontSize": "{fontSize.31}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -991,10 +551,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.11}",
-        "fontSize": "{fontSize.16}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.32}",
+        "fontSize": "{fontSize.27}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1005,10 +565,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.12}",
-        "fontSize": "{fontSize.14}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.28}",
+        "fontSize": "{fontSize.24}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1021,10 +581,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.11}",
-        "fontSize": "{fontSize.16}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.32}",
+        "fontSize": "{fontSize.27}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1035,10 +595,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.12}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.28}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1049,10 +609,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1065,10 +625,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.12}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.28}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1079,10 +639,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1093,10 +653,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1109,10 +669,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.19}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1123,10 +683,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1137,10 +697,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1153,10 +713,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.19}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1167,10 +727,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1181,10 +741,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1197,11 +757,11 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.10}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.4}",
-        "paragraphSpacing": "{paragraphSpacing.2}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.36}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.zero}",
+        "paragraphSpacing": "{paragraphSpacing.36}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.none}"
@@ -1211,11 +771,11 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.19}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
-        "paragraphSpacing": "{paragraphSpacing.1}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
+        "paragraphSpacing": "{paragraphSpacing.30}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.none}"
@@ -1225,10 +785,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1241,10 +801,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1255,10 +815,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1269,10 +829,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1285,10 +845,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1299,10 +859,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1313,10 +873,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1329,10 +889,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.19}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1343,10 +903,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1357,10 +917,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.36}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.24}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1373,10 +933,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1387,10 +947,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1401,10 +961,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1417,10 +977,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1431,10 +991,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1445,10 +1005,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1461,10 +1021,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1475,10 +1035,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1489,10 +1049,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-2}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.3}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.regular}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.11}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1505,10 +1065,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1519,10 +1079,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1533,10 +1093,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.3}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.11}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1549,10 +1109,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.49}",
-        "fontSize": "{fontSize.4}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.16}",
+        "fontSize": "{fontSize.12}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1563,10 +1123,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.2}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.10}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1577,10 +1137,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1593,10 +1153,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.12}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.28}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1607,10 +1167,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1621,10 +1181,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1637,10 +1197,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1651,10 +1211,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1665,10 +1225,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1681,10 +1241,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1695,10 +1255,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1709,10 +1269,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1725,10 +1285,10 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1739,10 +1299,10 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.49}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.16}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1753,10 +1313,10 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.3}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.11}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1769,10 +1329,10 @@
     "1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.6}",
-        "fontSize": "{fontSize.22}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.44}",
+        "fontSize": "{fontSize.36}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1783,10 +1343,10 @@
     "1320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.10}",
-        "fontSize": "{fontSize.18}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.36}",
+        "fontSize": "{fontSize.30}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1797,10 +1357,10 @@
     "600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.19}",
-        "fontSize": "{fontSize.14}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSize.24}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1811,10 +1371,10 @@
     "0+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.8}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.16}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1825,10 +1385,10 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.19}",
-        "fontSize": "{fontSize.13}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.30}",
+        "fontSize": "{fontSize.23}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1839,10 +1399,10 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.36}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.5}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.24}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.plus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -1855,10 +1415,10 @@
     "1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.36}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.24}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1869,10 +1429,10 @@
     "375+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.4}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.12}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1883,10 +1443,10 @@
     "320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.3}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.11}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1897,10 +1457,10 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.36}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.24}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1911,10 +1471,10 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.4}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.12}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1925,10 +1485,10 @@
     "iPad": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.36}",
-        "fontSize": "{fontSize.7}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.24}",
+        "fontSize": "{fontSize.15}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1939,10 +1499,10 @@
     "iPhone": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.4}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.12}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1953,10 +1513,10 @@
     "iPhone SE": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.4}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.12}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1969,10 +1529,10 @@
     "1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1983,10 +1543,10 @@
     "1320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.49}",
-        "fontSize": "{fontSize.2}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.16}",
+        "fontSize": "{fontSize.10}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -1997,10 +1557,10 @@
     "375+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2011,10 +1571,10 @@
     "320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2025,10 +1585,10 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.49}",
-        "fontSize": "{fontSize.2}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.16}",
+        "fontSize": "{fontSize.10}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2039,10 +1599,10 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2053,10 +1613,10 @@
     "iPad": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.49}",
-        "fontSize": "{fontSize.2}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.16}",
+        "fontSize": "{fontSize.10}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2067,10 +1627,10 @@
     "iPhone": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2081,10 +1641,10 @@
     "iPhone SE": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2097,10 +1657,10 @@
     "1320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.7}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.minus-3}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2111,10 +1671,10 @@
     "600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.88}",
-        "fontSize": "{fontSize.4}",
-        "letterSpacing": "{letterSpacing.7}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.15}",
+        "fontSize": "{fontSize.12}",
+        "letterSpacing": "{letterSpacing.minus-3}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2125,10 +1685,10 @@
     "320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.7}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.minus-3}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2139,10 +1699,10 @@
     "Android Default": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.7}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.minus-3}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2155,10 +1715,10 @@
     "1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.36}",
-        "fontSize": "{fontSize.11}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.24}",
+        "fontSize": "{fontSize.20}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2169,10 +1729,10 @@
     "1320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.10}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.18}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2183,10 +1743,10 @@
     "600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.8}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.16}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2197,10 +1757,10 @@
     "320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2211,10 +1771,10 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.8}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.16}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2225,10 +1785,10 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2239,10 +1799,10 @@
     "iPad": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.30}",
-        "fontSize": "{fontSize.8}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.20}",
+        "fontSize": "{fontSize.16}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2253,10 +1813,10 @@
     "iPhone": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.39}",
-        "fontSize": "{fontSize.6}",
-        "letterSpacing": "{letterSpacing.3}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.18}",
+        "fontSize": "{fontSize.14}",
+        "letterSpacing": "{letterSpacing.minus-1}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2269,10 +1829,10 @@
     "1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.49}",
-        "fontSize": "{fontSize.3}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.16}",
+        "fontSize": "{fontSize.11}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2283,10 +1843,10 @@
     "1320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.2}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.10}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2297,10 +1857,10 @@
     "600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2311,10 +1871,10 @@
     "320+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2325,10 +1885,10 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2339,10 +1899,10 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2353,10 +1913,10 @@
     "iPad": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2367,10 +1927,10 @@
     "iPhone": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.51}",
-        "fontSize": "{fontSize.0}",
-        "letterSpacing": "{letterSpacing.6}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.12}",
+        "fontSize": "{fontSize.8}",
+        "letterSpacing": "{letterSpacing.plus-6}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.uppercase}",
@@ -2383,10 +1943,10 @@
     "Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.11}",
-        "fontSize": "{fontSize.15}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.32}",
+        "fontSize": "{fontSize.26}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2397,10 +1957,10 @@
     "Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.18}",
-        "fontSize": "{fontSize.8}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.22}",
+        "fontSize": "{fontSize.16}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2413,10 +1973,10 @@
     "iPad": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2427,10 +1987,10 @@
     "iPhone": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2441,10 +2001,10 @@
     "iPhone SE": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-3}",
-        "lineHeight": "{lineHeights.0}",
-        "fontSize": "{fontSize.1}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "lineHeight": "{lineHeights.14}",
+        "fontSize": "{fontSize.9}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2457,10 +2017,10 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-4}",
-        "lineHeight": "{lineHeights.112}",
-        "fontSize": "{fontSize.20}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.light}",
+        "lineHeight": "{lineHeights.42}",
+        "fontSize": "{fontSize.32}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2471,10 +2031,10 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-4}",
-        "lineHeight": "{lineHeights.12}",
-        "fontSize": "{fontSize.14}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.light}",
+        "lineHeight": "{lineHeights.28}",
+        "fontSize": "{fontSize.24}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2485,10 +2045,10 @@
     "iPad": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-4}",
-        "lineHeight": "{lineHeights.7}",
-        "fontSize": "{fontSize.23}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.light}",
+        "lineHeight": "{lineHeights.48}",
+        "fontSize": "{fontSize.38}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2499,10 +2059,10 @@
     "iPhone": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-4}",
-        "lineHeight": "{lineHeights.11}",
-        "fontSize": "{fontSize.17}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.light}",
+        "lineHeight": "{lineHeights.32}",
+        "fontSize": "{fontSize.28}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2513,10 +2073,10 @@
     "iPhone SE": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-4}",
-        "lineHeight": "{lineHeights.15}",
-        "fontSize": "{fontSize.12}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.light}",
+        "lineHeight": "{lineHeights.26}",
+        "fontSize": "{fontSize.22}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2529,10 +2089,10 @@
     "Desktop": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.7}",
-        "fontSize": "{fontSize.26}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.48}",
+        "fontSize": "{fontSize.43}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2543,10 +2103,10 @@
     "Tablet": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.8}",
-        "fontSize": "{fontSize.21}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.40}",
+        "fontSize": "{fontSize.35}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2557,10 +2117,10 @@
     "Mobile": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-1}",
-        "lineHeight": "{lineHeights.9}",
-        "fontSize": "{fontSize.18}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "lineHeight": "{lineHeights.34}",
+        "fontSize": "{fontSize.30}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2574,10 +2134,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
+          "fontWeight": "{fontWeights.sorem.regular}",
           "lineHeight": "{lineHeights.120}",
-          "fontSize": "{fontSize.37}",
-          "letterSpacing": "{letterSpacing.8}",
+          "fontSize": "{fontSize.116}",
+          "letterSpacing": "{letterSpacing.plus-2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2588,10 +2148,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.121}",
-          "fontSize": "{fontSize.36}",
-          "letterSpacing": "{letterSpacing.8}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.104}",
+          "fontSize": "{fontSize.100}",
+          "letterSpacing": "{letterSpacing.plus-2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2602,10 +2162,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.122}",
-          "fontSize": "{fontSize.32}",
-          "letterSpacing": "{letterSpacing.8}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.62}",
+          "fontSize": "{fontSize.64}",
+          "letterSpacing": "{letterSpacing.plus-2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2618,10 +2178,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.123}",
-          "fontSize": "{fontSize.35}",
-          "letterSpacing": "{letterSpacing.8}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.96}",
+          "fontSize": "{fontSize.98}",
+          "letterSpacing": "{letterSpacing.plus-2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2633,10 +2193,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.5}",
-          "fontSize": "{fontSize.28}",
-          "letterSpacing": "{letterSpacing.8}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.54}",
+          "fontSize": "{fontSize.50}",
+          "letterSpacing": "{letterSpacing.plus-2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2648,10 +2208,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.8}",
-          "fontSize": "{fontSize.23}",
-          "letterSpacing": "{letterSpacing.8}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.40}",
+          "fontSize": "{fontSize.38}",
+          "letterSpacing": "{letterSpacing.plus-2}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2665,10 +2225,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.126}",
-          "fontSize": "{fontSize.33}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.72}",
+          "fontSize": "{fontSize.70}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2680,10 +2240,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.127}",
-          "fontSize": "{fontSize.25}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.46}",
+          "fontSize": "{fontSize.42}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2695,10 +2255,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.112}",
-          "fontSize": "{fontSize.23}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.42}",
+          "fontSize": "{fontSize.38}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2712,10 +2272,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.129}",
-          "fontSize": "{fontSize.29}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.60}",
+          "fontSize": "{fontSize.56}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2727,10 +2287,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.112}",
-          "fontSize": "{fontSize.23}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.42}",
+          "fontSize": "{fontSize.38}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2742,10 +2302,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.131}",
-          "fontSize": "{fontSize.20}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.38}",
+          "fontSize": "{fontSize.32}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2759,10 +2319,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.7}",
-          "fontSize": "{fontSize.25}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.48}",
+          "fontSize": "{fontSize.42}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2774,10 +2334,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.9}",
-          "fontSize": "{fontSize.18}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.34}",
+          "fontSize": "{fontSize.30}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2789,10 +2349,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.11}",
-          "fontSize": "{fontSize.17}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.32}",
+          "fontSize": "{fontSize.28}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2806,10 +2366,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.6}",
-          "fontSize": "{fontSize.22}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.44}",
+          "fontSize": "{fontSize.36}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2821,10 +2381,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.19}",
-          "fontSize": "{fontSize.15}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.30}",
+          "fontSize": "{fontSize.26}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2836,10 +2396,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.sorem}",
-          "fontWeight": "{fontWeights.sorem-5}",
-          "lineHeight": "{lineHeights.9}",
-          "fontSize": "{fontSize.18}",
-          "letterSpacing": "{letterSpacing.9}",
+          "fontWeight": "{fontWeights.sorem.regular}",
+          "lineHeight": "{lineHeights.34}",
+          "fontSize": "{fontSize.30}",
+          "letterSpacing": "{letterSpacing.plus-3}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2853,10 +2413,10 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{fontFamilies.suisse-intl}",
-          "fontWeight": "{fontWeights.suisse-intl-3}",
-          "lineHeight": "{lineHeights.19}",
-          "fontSize": "{fontSize.12}",
-          "letterSpacing": "{letterSpacing.4}",
+          "fontWeight": "{fontWeights.suisse-intl.medium}",
+          "lineHeight": "{lineHeights.30}",
+          "fontSize": "{fontSize.22}",
+          "letterSpacing": "{letterSpacing.zero}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2867,10 +2427,10 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{fontFamilies.suisse-intl}",
-          "fontWeight": "{fontWeights.suisse-intl-3}",
-          "lineHeight": "{lineHeights.18}",
-          "fontSize": "{fontSize.8}",
-          "letterSpacing": "{letterSpacing.4}",
+          "fontWeight": "{fontWeights.suisse-intl.medium}",
+          "lineHeight": "{lineHeights.22}",
+          "fontSize": "{fontSize.16}",
+          "letterSpacing": "{letterSpacing.zero}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2881,10 +2441,10 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{fontFamilies.suisse-intl}",
-          "fontWeight": "{fontWeights.suisse-intl-3}",
-          "lineHeight": "{lineHeights.11}",
-          "fontSize": "{fontSize.14}",
-          "letterSpacing": "{letterSpacing.4}",
+          "fontWeight": "{fontWeights.suisse-intl.medium}",
+          "lineHeight": "{lineHeights.32}",
+          "fontSize": "{fontSize.24}",
+          "letterSpacing": "{letterSpacing.zero}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
@@ -2898,10 +2458,10 @@
     "375+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.141}",
-        "fontSize": "{fontSize.5}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.17}",
+        "fontSize": "{fontSize.13}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2912,10 +2472,10 @@
     "600+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.142}",
-        "fontSize": "{fontSize.8}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.19}",
+        "fontSize": "{fontSize.16}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
@@ -2926,10 +2486,10 @@
     "1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
-        "fontWeight": "{fontWeights.suisse-intl-0}",
-        "lineHeight": "{lineHeights.143}",
-        "fontSize": "{fontSize.9}",
-        "letterSpacing": "{letterSpacing.4}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "lineHeight": "{lineHeights.21}",
+        "fontSize": "{fontSize.17}",
+        "letterSpacing": "{letterSpacing.zero}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",

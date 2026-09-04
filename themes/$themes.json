@@ -5,6 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/Numbers/WebMobile/Main": "enabled",
+      "Semantic/Text/WebMobile/Main": "enabled",
       "Primitives": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
