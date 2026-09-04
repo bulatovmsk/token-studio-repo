@@ -5,7 +5,6 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Semantic/Numbers/WebMobile/Main": "enabled",
-      "Semantic/Text/WebMobile/Main": "enabled",
       "Primitives": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:2286:157338",
@@ -110,6 +109,15 @@
       "corner-radius.750": "9a7fb39fa8e70015e81dc52987c15ed3e1026edf"
     },
     "group": "Semantic TV"
+  },
+  {
+    "id": "typography-main",
+    "name": "Main",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "enabled"
+    },
+    "group": "Typography"
   },
   {
     "id": "theme-dark",
