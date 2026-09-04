@@ -402,7 +402,7 @@
     "type": "typography"
   },
   "Godzilla": {
-    "Desktop 1720+": {
+    "Dektop 1720+": {
       "value": {
         "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
