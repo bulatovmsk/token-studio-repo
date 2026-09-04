@@ -115,7 +115,7 @@
     "name": "Main",
     "$figmaStyleReferences": {
       "Meta Menu Item": "S:b0b1b1832601644d049932aad5e126e958110484,",
-      "Godzilla.Desktop 1720+": "S:c3489f92311a6839c3ac4417f39de7141ec5e280,",
+      "Godzilla.Desktop 1720+": "S:b4a041838ca979843cd056a282d6e7225d70aea3,",
       "Godzilla.Tablet 600+": "S:186c8e8b67fe13e3839110e1f2d0399417dff531,",
       "Godzilla.Mobile 320+": "S:d2ebcc23ea3934e879bcfc3dbaac6e531d78280a,",
       "Title.Desktop 1720+": "S:65e7b17902e28f2eb377284a8c49d947bb4e47d5,",
@@ -260,7 +260,8 @@
       "Spasibo Badge.1720+": "S:980612084acdd316eba1268918fc981ca8cc41ea,"
     },
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "enabled"
+      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Scale/Main": "enabled"
     },
     "group": "Typography",
     "$figmaCollectionId": "VariableCollectionId:5688:4280",
@@ -351,6 +352,39 @@
       "paragraphSpacing.36": "22430f9380085f0e8f1f13bb121b4e0a5f61ba72",
       "paragraphIndent.0": "1623e86e4f502bd80c6023688f3635940f483c42"
     }
+  },
+  {
+    "id": "typography-large",
+    "name": "Large",
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Scale/Large": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Typography"
+  },
+  {
+    "id": "typography-extra-large",
+    "name": "Extra Large",
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Scale/Extra Large": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Typography"
+  },
+  {
+    "id": "typography-accessibility",
+    "name": "Accessibility",
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Scale/Accessibility": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Typography"
   },
   {
     "id": "theme-dark",
