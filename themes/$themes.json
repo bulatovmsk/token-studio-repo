@@ -260,7 +260,7 @@
       "Spasibo Badge.1720+": "S:980612084acdd316eba1268918fc981ca8cc41ea,"
     },
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Core": "enabled",
       "Semantic/Text/Scale/Main": "enabled",
       "Semantic/Text/Theme/Main": "source"
     },
@@ -448,7 +448,7 @@
     "id": "typography-large",
     "name": "Large",
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Core": "enabled",
       "Semantic/Text/Scale/Large": "enabled",
       "Semantic/Text/Theme/Main": "source"
     },
@@ -637,7 +637,7 @@
     "id": "typography-extra-large",
     "name": "Extra Large",
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Core": "enabled",
       "Semantic/Text/Scale/Extra Large": "enabled",
       "Semantic/Text/Theme/Main": "source"
     },
@@ -826,7 +826,7 @@
     "id": "typography-accessibility",
     "name": "Accessibility",
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "enabled",
+      "Semantic/Text/Core": "enabled",
       "Semantic/Text/Scale/Accessibility": "enabled",
       "Semantic/Text/Theme/Main": "source"
     },
@@ -1015,7 +1015,7 @@
     "id": "typography-theme-main",
     "name": "Main",
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "source",
+      "Semantic/Text/Core": "source",
       "Semantic/Text/Theme/Main": "enabled"
     },
     "$figmaStyleReferences": {},
@@ -1033,7 +1033,7 @@
     "id": "typography-theme-kids",
     "name": "Kids",
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "source",
+      "Semantic/Text/Core": "source",
       "Semantic/Text/Theme/Kids": "enabled"
     },
     "$figmaStyleReferences": {},
@@ -1051,7 +1051,7 @@
     "id": "typography-theme-meta",
     "name": "Meta",
     "selectedTokenSets": {
-      "Semantic/Text/WebMobile/Main": "source",
+      "Semantic/Text/Core": "source",
       "Semantic/Text/Theme/Meta": "enabled"
     },
     "$figmaStyleReferences": {},

@@ -4,7 +4,7 @@
     "Brand",
     "Semantic/Numbers/WebMobile/Main",
     "Semantic/Numbers/TV/Main",
-    "Semantic/Text/WebMobile/Main",
+    "Semantic/Text/Core",
     "Semantic/Text/Scale/Main",
     "Semantic/Text/Scale/Large",
     "Semantic/Text/Scale/Extra Large",
