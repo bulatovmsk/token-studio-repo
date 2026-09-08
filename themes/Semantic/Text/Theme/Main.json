@@ -1,0 +1,22 @@
+{
+  "theme": {
+    "fontFamily": {
+      "heading": {
+        "value": "{fontFamilies.suisse-intl}",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "{fontFamilies.suisse-intl}",
+        "type": "fontFamilies"
+      },
+      "control": {
+        "value": "{fontFamilies.suisse-intl}",
+        "type": "fontFamilies"
+      },
+      "display": {
+        "value": "{fontFamilies.suisse-intl}",
+        "type": "fontFamilies"
+      }
+    }
+  }
+}

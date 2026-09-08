@@ -261,7 +261,8 @@
     },
     "selectedTokenSets": {
       "Semantic/Text/WebMobile/Main": "enabled",
-      "Semantic/Text/Scale/Main": "enabled"
+      "Semantic/Text/Scale/Main": "enabled",
+      "Semantic/Text/Theme/Main": "source"
     },
     "group": "Typography",
     "$figmaCollectionId": "VariableCollectionId:5688:4280",
@@ -448,7 +449,8 @@
     "name": "Large",
     "selectedTokenSets": {
       "Semantic/Text/WebMobile/Main": "enabled",
-      "Semantic/Text/Scale/Large": "enabled"
+      "Semantic/Text/Scale/Large": "enabled",
+      "Semantic/Text/Theme/Main": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -636,7 +638,8 @@
     "name": "Extra Large",
     "selectedTokenSets": {
       "Semantic/Text/WebMobile/Main": "enabled",
-      "Semantic/Text/Scale/Extra Large": "enabled"
+      "Semantic/Text/Scale/Extra Large": "enabled",
+      "Semantic/Text/Theme/Main": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -824,7 +827,8 @@
     "name": "Accessibility",
     "selectedTokenSets": {
       "Semantic/Text/WebMobile/Main": "enabled",
-      "Semantic/Text/Scale/Accessibility": "enabled"
+      "Semantic/Text/Scale/Accessibility": "enabled",
+      "Semantic/Text/Theme/Main": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1006,6 +1010,39 @@
     "group": "Typography",
     "$figmaCollectionId": "VariableCollectionId:5688:4280",
     "$figmaModeId": "5697:4"
+  },
+  {
+    "id": "typography-theme-main",
+    "name": "Main",
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "source",
+      "Semantic/Text/Theme/Main": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Typography Theme"
+  },
+  {
+    "id": "typography-theme-kids",
+    "name": "Kids",
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "source",
+      "Semantic/Text/Theme/Kids": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Typography Theme"
+  },
+  {
+    "id": "typography-theme-meta",
+    "name": "Meta",
+    "selectedTokenSets": {
+      "Semantic/Text/WebMobile/Main": "source",
+      "Semantic/Text/Theme/Meta": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Typography Theme"
   },
   {
     "id": "theme-dark",
