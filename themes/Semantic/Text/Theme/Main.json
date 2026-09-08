@@ -5,6 +5,10 @@
         "value": "{fontFamilies.suisse-intl}",
         "type": "fontFamilies"
       },
+      "button": {
+        "value": "{fontFamilies.suisse-intl}",
+        "type": "fontFamilies"
+      },
       "body": {
         "value": "{fontFamilies.suisse-intl}",
         "type": "fontFamilies"
@@ -16,6 +20,28 @@
       "display": {
         "value": "{fontFamilies.suisse-intl}",
         "type": "fontFamilies"
+      }
+    },
+    "fontWeight": {
+      "heading": {
+        "bold": {
+          "value": "{fontWeights.suisse-intl.bold}",
+          "type": "fontWeights"
+        },
+        "semi-bold": {
+          "value": "{fontWeights.suisse-intl.semi-bold}",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "{fontWeights.suisse-intl.medium}",
+          "type": "fontWeights"
+        }
+      },
+      "button": {
+        "medium": {
+          "value": "{fontWeights.suisse-intl.medium}",
+          "type": "fontWeights"
+        }
       }
     }
   }

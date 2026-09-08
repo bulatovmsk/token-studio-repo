@@ -2,7 +2,11 @@
   "theme": {
     "fontFamily": {
       "heading": {
-        "value": "{fontFamilies.suisse-intl}",
+        "value": "{fontFamilies.comic-relief}",
+        "type": "fontFamilies"
+      },
+      "button": {
+        "value": "{fontFamilies.comic-relief}",
         "type": "fontFamilies"
       },
       "body": {
@@ -16,6 +20,28 @@
       "display": {
         "value": "{fontFamilies.suisse-intl}",
         "type": "fontFamilies"
+      }
+    },
+    "fontWeight": {
+      "heading": {
+        "bold": {
+          "value": "{fontWeights.comic-relief.bold}",
+          "type": "fontWeights"
+        },
+        "semi-bold": {
+          "value": "{fontWeights.comic-relief.bold}",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "{fontWeights.comic-relief.bold}",
+          "type": "fontWeights"
+        }
+      },
+      "button": {
+        "medium": {
+          "value": "{fontWeights.comic-relief.bold}",
+          "type": "fontWeights"
+        }
       }
     }
   }

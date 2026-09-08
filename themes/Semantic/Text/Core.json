@@ -7,6 +7,14 @@
     "sorem": {
       "value": "Sorem",
       "type": "fontFamilies"
+    },
+    "unbounded": {
+      "value": "Unbounded",
+      "type": "fontFamilies"
+    },
+    "comic-relief": {
+      "value": "Comic Relief",
+      "type": "fontFamilies"
     }
   },
   "lineHeights": {
@@ -169,6 +177,26 @@
     "sorem": {
       "regular": {
         "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "unbounded": {
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "semi-bold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      }
+    },
+    "comic-relief": {
+      "bold": {
+        "value": "Bold",
         "type": "fontWeights"
       }
     }
@@ -449,7 +477,7 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{lineHeights.64}",
         "fontSize": "{fontSize.58}",
         "letterSpacing": "{letterSpacing.minus-2}",
@@ -463,7 +491,7 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.54}",
         "fontSize": "{adaptive.fontSize.headings.48}",
         "letterSpacing": "{letterSpacing.minus-2}",
@@ -477,7 +505,7 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.44}",
         "fontSize": "{adaptive.fontSize.headings.40}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -493,7 +521,7 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{lineHeights.48}",
         "fontSize": "{fontSize.43}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -507,7 +535,7 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.40}",
         "fontSize": "{adaptive.fontSize.headings.35}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -521,7 +549,7 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.34}",
         "fontSize": "{adaptive.fontSize.headings.30}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -537,7 +565,7 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{lineHeights.36}",
         "fontSize": "{fontSize.31}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -551,7 +579,7 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.32}",
         "fontSize": "{adaptive.fontSize.headings.27}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -565,7 +593,7 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.bold}",
+        "fontWeight": "{theme.fontWeight.heading.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.28}",
         "fontSize": "{adaptive.fontSize.headings.24}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -581,7 +609,7 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{lineHeights.32}",
         "fontSize": "{fontSize.27}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -595,7 +623,7 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.28}",
         "fontSize": "{adaptive.fontSize.headings.23}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -609,7 +637,7 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.26}",
         "fontSize": "{adaptive.fontSize.headings.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -625,7 +653,7 @@
     "Desktop 1720+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{lineHeights.28}",
         "fontSize": "{fontSize.23}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -639,7 +667,7 @@
     "Tablet 600+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.26}",
         "fontSize": "{adaptive.fontSize.headings.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -653,7 +681,7 @@
     "Mobile 0+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.22}",
         "fontSize": "{adaptive.fontSize.headings.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1152,8 +1180,8 @@
   "Button Large": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{lineHeights.28}",
         "fontSize": "{fontSize.23}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1166,8 +1194,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.26}",
         "fontSize": "{adaptive.fontSize.controls.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1180,8 +1208,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.22}",
         "fontSize": "{adaptive.fontSize.controls.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1196,8 +1224,8 @@
   "Button Default": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{lineHeights.26}",
         "fontSize": "{fontSize.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1210,8 +1238,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1224,8 +1252,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.15}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1240,8 +1268,8 @@
   "Button Small": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{lineHeights.22}",
         "fontSize": "{fontSize.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1254,8 +1282,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.15}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1268,8 +1296,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.13}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1284,8 +1312,8 @@
   "Button ExtraSmall": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{lineHeights.18}",
         "fontSize": "{fontSize.14}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1298,8 +1326,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.16}",
         "fontSize": "{adaptive.fontSize.controls.13}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1312,8 +1340,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
-        "fontWeight": "{fontWeights.suisse-intl.medium}",
+        "fontFamily": "{theme.fontFamily.button}",
+        "fontWeight": "{theme.fontWeight.button.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.11}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1329,7 +1357,7 @@
     "1720+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{lineHeights.44}",
         "fontSize": "{fontSize.36}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1343,7 +1371,7 @@
     "1320+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{lineHeights.36}",
         "fontSize": "{fontSize.30}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1357,7 +1385,7 @@
     "600+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.30}",
         "fontSize": "{adaptive.fontSize.headings.24}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1371,7 +1399,7 @@
     "0+": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.20}",
         "fontSize": "{adaptive.fontSize.headings.16}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1385,7 +1413,7 @@
     "Android Tablet": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.30}",
         "fontSize": "{adaptive.fontSize.headings.23}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1399,7 +1427,7 @@
     "Android Mobile": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.24}",
         "fontSize": "{adaptive.fontSize.headings.17}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1943,7 +1971,7 @@
     "Tablet": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.32}",
         "fontSize": "{adaptive.fontSize.headings.26}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1957,7 +1985,7 @@
     "Mobile": {
       "value": {
         "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
+        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.22}",
         "fontSize": "{adaptive.fontSize.headings.16}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -2413,7 +2441,7 @@
       "Mobile 0+": {
         "value": {
           "fontFamily": "{theme.fontFamily.heading}",
-          "fontWeight": "{fontWeights.suisse-intl.medium}",
+          "fontWeight": "{theme.fontWeight.heading.medium}",
           "lineHeight": "{adaptive.lineHeight.display.30}",
           "fontSize": "{adaptive.fontSize.display.22}",
           "letterSpacing": "{letterSpacing.zero}",
@@ -2427,7 +2455,7 @@
       "Tablet 600+": {
         "value": {
           "fontFamily": "{theme.fontFamily.heading}",
-          "fontWeight": "{fontWeights.suisse-intl.medium}",
+          "fontWeight": "{theme.fontWeight.heading.medium}",
           "lineHeight": "{adaptive.lineHeight.display.22}",
           "fontSize": "{adaptive.fontSize.display.16}",
           "letterSpacing": "{letterSpacing.zero}",
@@ -2441,7 +2469,7 @@
       "Desktop 1720+": {
         "value": {
           "fontFamily": "{theme.fontFamily.heading}",
-          "fontWeight": "{fontWeights.suisse-intl.medium}",
+          "fontWeight": "{theme.fontWeight.heading.medium}",
           "lineHeight": "{lineHeights.32}",
           "fontSize": "{fontSize.24}",
           "letterSpacing": "{letterSpacing.zero}",
