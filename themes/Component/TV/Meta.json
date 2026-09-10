@@ -150,16 +150,16 @@
         "type": "borderRadius"
       },
       "padding-horizontal": {
-        "value": "12",
+        "value": "16",
         "type": "spacing"
       }
     },
     "radius": {
-      "value": "14",
+      "value": "999",
       "type": "borderRadius"
     },
     "padding-horizontal": {
-      "value": "7",
+      "value": "10",
       "type": "spacing"
     }
   },
