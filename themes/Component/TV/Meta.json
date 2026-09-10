@@ -163,19 +163,19 @@
           "type": "borderRadius"
         },
         "600": {
-          "value": "36",
+          "value": "34",
           "type": "borderRadius"
         },
         "700": {
-          "value": "44",
+          "value": "42",
           "type": "borderRadius"
         },
         "800": {
-          "value": "58",
+          "value": "52",
           "type": "borderRadius"
         },
         "900": {
-          "value": "62",
+          "value": "64",
           "type": "borderRadius"
         }
       }
