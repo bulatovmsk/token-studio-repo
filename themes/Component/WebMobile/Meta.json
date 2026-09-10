@@ -520,6 +520,20 @@
           "value": "8",
           "type": "borderRadius"
         }
+      },
+      "padding-horizontal": {
+        "desktop": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "tablet": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "4",
+          "type": "spacing"
+        }
       }
     },
     "small": {
@@ -536,6 +550,20 @@
           "value": "6",
           "type": "borderRadius"
         }
+      },
+      "padding-horizontal": {
+        "desktop": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "tablet": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "4",
+          "type": "spacing"
+        }
       }
     },
     "rich": {
@@ -551,6 +579,16 @@
         "phone": {
           "value": "12",
           "type": "borderRadius"
+        }
+      },
+      "padding-horizontal": {
+        "tablet": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "phone": {
+          "value": "6",
+          "type": "spacing"
         }
       }
     }
