@@ -212,6 +212,28 @@
       "width": {
         "value": "4",
         "type": "borderWidth"
+      },
+      "radius": {
+        "500": {
+          "value": "{rail.card.radius.500} + {rail.focus.width} * 2",
+          "type": "borderRadius"
+        },
+        "600": {
+          "value": "{rail.card.radius.600} + {rail.focus.width} * 2",
+          "type": "borderRadius"
+        },
+        "700": {
+          "value": "{rail.card.radius.700} + {rail.focus.width} * 2",
+          "type": "borderRadius"
+        },
+        "800": {
+          "value": "{rail.card.radius.800} + {rail.focus.width} * 2",
+          "type": "borderRadius"
+        },
+        "900": {
+          "value": "{rail.card.radius.900} + {rail.focus.width} * 2",
+          "type": "borderRadius"
+        }
       }
     }
   }
