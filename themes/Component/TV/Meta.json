@@ -146,7 +146,7 @@
   "label": {
     "rich": {
       "radius": {
-        "value": "18",
+        "value": "22",
         "type": "borderRadius"
       }
     },
@@ -163,11 +163,11 @@
           "type": "borderRadius"
         },
         "600": {
-          "value": "40",
+          "value": "36",
           "type": "borderRadius"
         },
         "700": {
-          "value": "48",
+          "value": "44",
           "type": "borderRadius"
         },
         "800": {
