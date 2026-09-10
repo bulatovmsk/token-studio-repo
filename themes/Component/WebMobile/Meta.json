@@ -507,34 +507,6 @@
   },
   "label": {
     "large": {
-      "padding-horizontal": {
-        "desktop": {
-          "value": "5",
-          "type": "spacing"
-        },
-        "tablet": {
-          "value": "4",
-          "type": "spacing"
-        },
-        "phone": {
-          "value": "4",
-          "type": "spacing"
-        }
-      },
-      "gap-horizontal": {
-        "desktop": {
-          "value": "4",
-          "type": "spacing"
-        },
-        "tablet": {
-          "value": "3",
-          "type": "spacing"
-        },
-        "phone": {
-          "value": "3",
-          "type": "spacing"
-        }
-      },
       "radius": {
         "desktop": {
           "value": "8",
@@ -547,52 +519,10 @@
         "phone": {
           "value": "8",
           "type": "borderRadius"
-        }
-      },
-      "icon-size": {
-        "desktop": {
-          "value": "16",
-          "type": "sizing"
-        },
-        "tablet": {
-          "value": "14",
-          "type": "sizing"
-        },
-        "phone": {
-          "value": "12",
-          "type": "sizing"
         }
       }
     },
     "small": {
-      "padding-horizontal": {
-        "desktop": {
-          "value": "4",
-          "type": "spacing"
-        },
-        "tablet": {
-          "value": "4",
-          "type": "spacing"
-        },
-        "phone": {
-          "value": "3",
-          "type": "spacing"
-        }
-      },
-      "gap-horizontal": {
-        "desktop": {
-          "value": "3",
-          "type": "spacing"
-        },
-        "tablet": {
-          "value": "3",
-          "type": "spacing"
-        },
-        "phone": {
-          "value": "2",
-          "type": "spacing"
-        }
-      },
       "radius": {
         "desktop": {
           "value": "6",
@@ -605,20 +535,6 @@
         "phone": {
           "value": "6",
           "type": "borderRadius"
-        }
-      },
-      "icon-size": {
-        "desktop": {
-          "value": "12",
-          "type": "sizing"
-        },
-        "tablet": {
-          "value": "12",
-          "type": "sizing"
-        },
-        "phone": {
-          "value": "10",
-          "type": "sizing"
         }
       }
     },

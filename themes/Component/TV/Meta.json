@@ -144,34 +144,6 @@
     }
   },
   "label": {
-    "large": {
-      "icon-size": {
-        "value": "24",
-        "type": "sizing"
-      },
-      "gap-horizontal": {
-        "value": "6",
-        "type": "spacing"
-      },
-      "padding-horizontal": {
-        "value": "7",
-        "type": "spacing"
-      }
-    },
-    "small": {
-      "icon-size": {
-        "value": "20",
-        "type": "sizing"
-      },
-      "gap-horizontal": {
-        "value": "5",
-        "type": "spacing"
-      },
-      "padding-horizontal": {
-        "value": "7",
-        "type": "spacing"
-      }
-    },
     "rich": {
       "radius": {
         "value": "18",
@@ -187,15 +159,15 @@
     "card": {
       "radius": {
         "500": {
-          "value": "32",
+          "value": "28",
           "type": "borderRadius"
         },
         "600": {
-          "value": "44",
+          "value": "40",
           "type": "borderRadius"
         },
         "700": {
-          "value": "50",
+          "value": "48",
           "type": "borderRadius"
         },
         "800": {

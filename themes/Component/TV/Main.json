@@ -144,47 +144,15 @@
     }
   },
   "label": {
-    "large": {
-      "icon-size": {
-        "value": "24",
-        "type": "sizing"
-      },
-      "gap-horizontal": {
-        "value": "6",
-        "type": "spacing"
-      },
-      "padding-horizontal": {
-        "value": "7",
-        "type": "spacing"
-      },
-      "radius": {
-        "value": "8",
-        "type": "borderRadius"
-      }
-    },
-    "small": {
-      "icon-size": {
-        "value": "20",
-        "type": "sizing"
-      },
-      "gap-horizontal": {
-        "value": "5",
-        "type": "spacing"
-      },
-      "padding-horizontal": {
-        "value": "7",
-        "type": "spacing"
-      },
-      "radius": {
-        "value": "6",
-        "type": "borderRadius"
-      }
-    },
     "rich": {
       "radius": {
         "value": "12",
         "type": "borderRadius"
       }
+    },
+    "radius": {
+      "value": "8",
+      "type": "borderRadius"
     }
   },
   "rail": {
