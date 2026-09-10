@@ -156,10 +156,6 @@
       "padding-horizontal": {
         "value": "7",
         "type": "spacing"
-      },
-      "radius": {
-        "value": "8",
-        "type": "borderRadius"
       }
     },
     "small": {
@@ -174,34 +170,40 @@
       "padding-horizontal": {
         "value": "7",
         "type": "spacing"
-      },
+      }
+    },
+    "rich": {
       "radius": {
-        "value": "6",
+        "value": "18",
         "type": "borderRadius"
       }
+    },
+    "radius": {
+      "value": "12",
+      "type": "borderRadius"
     }
   },
   "rail": {
     "card": {
       "radius": {
         "500": {
-          "value": "24",
+          "value": "32",
           "type": "borderRadius"
         },
         "600": {
-          "value": "34",
-          "type": "borderRadius"
-        },
-        "700": {
-          "value": "38",
-          "type": "borderRadius"
-        },
-        "800": {
           "value": "44",
           "type": "borderRadius"
         },
+        "700": {
+          "value": "50",
+          "type": "borderRadius"
+        },
+        "800": {
+          "value": "58",
+          "type": "borderRadius"
+        },
         "900": {
-          "value": "48",
+          "value": "62",
           "type": "borderRadius"
         }
       }

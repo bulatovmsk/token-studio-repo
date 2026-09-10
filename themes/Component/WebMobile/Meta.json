@@ -537,15 +537,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "4",
+          "value": "8",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "4",
+          "value": "8",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "4",
+          "value": "8",
           "type": "borderRadius"
         }
       },
@@ -595,15 +595,15 @@
       },
       "radius": {
         "desktop": {
-          "value": "4",
+          "value": "6",
           "type": "borderRadius"
         },
         "tablet": {
-          "value": "4",
+          "value": "6",
           "type": "borderRadius"
         },
         "phone": {
-          "value": "2",
+          "value": "6",
           "type": "borderRadius"
         }
       },
@@ -619,6 +619,22 @@
         "phone": {
           "value": "10",
           "type": "sizing"
+        }
+      }
+    },
+    "rich": {
+      "radius": {
+        "desktop": {
+          "value": "12",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "12",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "12",
+          "type": "borderRadius"
         }
       }
     }
