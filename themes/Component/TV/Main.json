@@ -179,6 +179,12 @@
         "value": "6",
         "type": "borderRadius"
       }
+    },
+    "rich": {
+      "radius": {
+        "value": "12",
+        "type": "borderRadius"
+      }
     }
   },
   "rail": {

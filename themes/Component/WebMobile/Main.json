@@ -621,6 +621,22 @@
           "type": "sizing"
         }
       }
+    },
+    "rich": {
+      "radius": {
+        "desktop": {
+          "value": "6",
+          "type": "borderRadius"
+        },
+        "tablet": {
+          "value": "6",
+          "type": "borderRadius"
+        },
+        "phone": {
+          "value": "6",
+          "type": "borderRadius"
+        }
+      }
     }
   },
   "rail": {
