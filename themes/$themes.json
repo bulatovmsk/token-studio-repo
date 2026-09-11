@@ -717,7 +717,6 @@
       "rail.card.radius.700": "b001b5c55a194f61748842f81be599c64d0c5ce7",
       "rail.card.radius.800": "f65fc97235a8fce714a4bc7890e02e1a0076866a",
       "rail.card.radius.900": "d1e1543cd8326fc32fb9996da0deb1e7c7192e5e",
-      "rail.focus.width": "be6a7278a300d957eb6002913f317f6fec938521",
       "control.default.height.desktop": "3231559a2bba6c9328233cfcc81f02b98afa69a6",
       "control.default.height.tablet": "bac8fa57a0b630168678c08193f87c01efe8837b",
       "control.default.height.phone": "f19ce8a1d97ed13443e31f4af69c1204cd5714b4",
@@ -833,7 +832,10 @@
       "label.rich.radius.tablet": "f928eef7a28224e74bdc4e4f73ba26d7f9dc614c",
       "label.rich.radius.phone": "0e23a5d977af232d68be7a90d767be234ccdfc9c",
       "label.rich.padding-horizontal.tablet": "a9400d6d7e096a1e7c57928a198f21561ced52f9",
-      "label.rich.padding-horizontal.phone": "d243209a70da93d800c1c84dda65add8f73fc38e"
+      "label.rich.padding-horizontal.phone": "d243209a70da93d800c1c84dda65add8f73fc38e",
+      "snackbar.radius.desktop": "5a3236e76b2ab546364fbba5e0aa59871b682e5f",
+      "snackbar.radius.tablet": "27b03866378e71676b810ca4203e589d470f1ab6",
+      "snackbar.radius.phone": "cfed40ae27a06bd50c212fcd1b3f1c4e0cb551f9"
     },
     "group": "Component W&M"
   },
@@ -955,7 +957,6 @@
       "rail.card.radius.700": "b001b5c55a194f61748842f81be599c64d0c5ce7",
       "rail.card.radius.800": "f65fc97235a8fce714a4bc7890e02e1a0076866a",
       "rail.card.radius.900": "d1e1543cd8326fc32fb9996da0deb1e7c7192e5e",
-      "rail.focus.width": "be6a7278a300d957eb6002913f317f6fec938521",
       "control.default.height.desktop": "3231559a2bba6c9328233cfcc81f02b98afa69a6",
       "control.default.height.tablet": "bac8fa57a0b630168678c08193f87c01efe8837b",
       "control.default.height.phone": "f19ce8a1d97ed13443e31f4af69c1204cd5714b4",
@@ -1071,7 +1072,10 @@
       "label.rich.radius.tablet": "f928eef7a28224e74bdc4e4f73ba26d7f9dc614c",
       "label.rich.radius.phone": "0e23a5d977af232d68be7a90d767be234ccdfc9c",
       "label.rich.padding-horizontal.tablet": "a9400d6d7e096a1e7c57928a198f21561ced52f9",
-      "label.rich.padding-horizontal.phone": "d243209a70da93d800c1c84dda65add8f73fc38e"
+      "label.rich.padding-horizontal.phone": "d243209a70da93d800c1c84dda65add8f73fc38e",
+      "snackbar.radius.desktop": "5a3236e76b2ab546364fbba5e0aa59871b682e5f",
+      "snackbar.radius.tablet": "27b03866378e71676b810ca4203e589d470f1ab6",
+      "snackbar.radius.phone": "cfed40ae27a06bd50c212fcd1b3f1c4e0cb551f9"
     },
     "group": "Component W&M"
   },
@@ -1091,7 +1095,6 @@
       "rail.card.radius.700": "b001b5c55a194f61748842f81be599c64d0c5ce7",
       "rail.card.radius.800": "f65fc97235a8fce714a4bc7890e02e1a0076866a",
       "rail.card.radius.900": "d1e1543cd8326fc32fb9996da0deb1e7c7192e5e",
-      "rail.focus.width": "be6a7278a300d957eb6002913f317f6fec938521",
       "control.default.height.desktop": "3231559a2bba6c9328233cfcc81f02b98afa69a6",
       "control.default.height.tablet": "bac8fa57a0b630168678c08193f87c01efe8837b",
       "control.default.height.phone": "f19ce8a1d97ed13443e31f4af69c1204cd5714b4",
@@ -1207,7 +1210,10 @@
       "label.rich.radius.tablet": "f928eef7a28224e74bdc4e4f73ba26d7f9dc614c",
       "label.rich.radius.phone": "0e23a5d977af232d68be7a90d767be234ccdfc9c",
       "label.rich.padding-horizontal.tablet": "a9400d6d7e096a1e7c57928a198f21561ced52f9",
-      "label.rich.padding-horizontal.phone": "d243209a70da93d800c1c84dda65add8f73fc38e"
+      "label.rich.padding-horizontal.phone": "d243209a70da93d800c1c84dda65add8f73fc38e",
+      "snackbar.radius.desktop": "5a3236e76b2ab546364fbba5e0aa59871b682e5f",
+      "snackbar.radius.tablet": "27b03866378e71676b810ca4203e589d470f1ab6",
+      "snackbar.radius.phone": "cfed40ae27a06bd50c212fcd1b3f1c4e0cb551f9"
     },
     "group": "Component W&M"
   },
