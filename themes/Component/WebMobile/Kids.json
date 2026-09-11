@@ -625,12 +625,6 @@
           "type": "borderRadius"
         }
       }
-    },
-    "focus": {
-      "width": {
-        "value": "4",
-        "type": "borderWidth"
-      }
     }
   }
 }
