@@ -219,7 +219,7 @@
   },
   "snackbar": {
     "radius": {
-      "value": "0",
+      "value": "32",
       "type": "borderRadius"
     }
   }
