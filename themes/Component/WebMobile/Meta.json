@@ -634,11 +634,11 @@
         "type": "borderRadius"
       },
       "tablet": {
-        "value": "0",
+        "value": "18",
         "type": "borderRadius"
       },
       "phone": {
-        "value": "0",
+        "value": "16",
         "type": "borderRadius"
       }
     }
