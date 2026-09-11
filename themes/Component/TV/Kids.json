@@ -216,5 +216,11 @@
         }
       }
     }
+  },
+  "snackbar": {
+    "radius": {
+      "value": "0",
+      "type": "borderRadius"
+    }
   }
 }

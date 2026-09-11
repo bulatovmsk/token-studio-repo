@@ -626,5 +626,21 @@
         }
       }
     }
+  },
+  "snackbar": {
+    "radius": {
+      "desktop": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "tablet": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "phone": {
+        "value": "0",
+        "type": "borderRadius"
+      }
+    }
   }
 }
