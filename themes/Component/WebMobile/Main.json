@@ -600,11 +600,11 @@
         "type": "spacing"
       },
       "tablet": {
-        "value": "12",
+        "value": "8",
         "type": "spacing"
       },
       "phone": {
-        "value": "8",
+        "value": "6",
         "type": "spacing"
       }
     },
