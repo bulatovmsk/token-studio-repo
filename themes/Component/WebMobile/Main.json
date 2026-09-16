@@ -594,6 +594,20 @@
     }
   },
   "rail": {
+    "gap-horizontal": {
+      "desktop": {
+        "value": "10",
+        "type": "spacing"
+      },
+      "tablet": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "phone": {
+        "value": "8",
+        "type": "spacing"
+      }
+    },
     "card": {
       "radius": {
         "400": {
