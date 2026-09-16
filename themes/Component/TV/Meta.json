@@ -167,15 +167,15 @@
     "card": {
       "radius": {
         "500": {
-          "value": "28",
+          "value": "24",
           "type": "borderRadius"
         },
         "600": {
-          "value": "34",
+          "value": "28",
           "type": "borderRadius"
         },
         "700": {
-          "value": "42",
+          "value": "40",
           "type": "borderRadius"
         },
         "800": {
