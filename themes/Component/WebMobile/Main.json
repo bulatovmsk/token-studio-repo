@@ -436,60 +436,6 @@
         }
       }
     },
-    "focus": {
-      "default": {
-        "radius": {
-          "desktop": {
-            "value": "{control.default.radius.desktop} + 2",
-            "type": "borderRadius"
-          },
-          "tablet": {
-            "value": "{control.default.radius.tablet} + 2",
-            "type": "borderRadius"
-          }
-        }
-      },
-      "large": {
-        "radius": {
-          "desktop": {
-            "value": "{control.large.radius.desktop} + 3",
-            "type": "borderRadius"
-          },
-          "tablet": {
-            "value": "{control.large.radius.tablet} + 3",
-            "type": "borderRadius"
-          }
-        }
-      },
-      "small": {
-        "radius": {
-          "desktop": {
-            "value": "{control.small.radius.desktop} + 2",
-            "type": "borderRadius"
-          },
-          "tablet": {
-            "value": "{control.small.radius.tablet} + 2",
-            "type": "borderRadius"
-          }
-        }
-      },
-      "extra-small": {
-        "radius": {
-          "desktop": {
-            "value": "{control.extra-small.radius.desktop} + 2",
-            "type": "borderRadius"
-          },
-          "tablet": {
-            "value": "{control.extra-small.radius.tablet} + 2",
-            "type": "borderRadius"
-          }
-        }
-      },
-      "width": {
-        "value": "1",
-        "type": "borderWidth"
-      }
-    },
     "compensation": {
       "desktop": {
         "value": "4",
