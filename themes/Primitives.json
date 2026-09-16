@@ -612,6 +612,24 @@
       "viber1": {
         "value": "#7360f2",
         "type": "color"
+      },
+      "sber-gradient": {
+        "Step_1": {
+          "value": "#A1D809",
+          "type": "color"
+        },
+        "Step_2": {
+          "value": "#30B916",
+          "type": "color"
+        },
+        "Step_3": {
+          "value": "#0C9C0C",
+          "type": "color"
+        },
+        "Step_4": {
+          "value": "#129FE3",
+          "type": "color"
+        }
       }
     }
   },

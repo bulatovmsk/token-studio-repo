@@ -456,6 +456,10 @@
       "sber-button": {
         "value": "{primitives.external.sber1}",
         "type": "color"
+      },
+      "sber-gradient": {
+        "value": "{brand.partners.sber-gradient}",
+        "type": "color"
       }
     },
     "background": {
@@ -1088,6 +1092,28 @@
         "Step_2": {
           "value": "{primitives.white}",
           "type": "color"
+        }
+      },
+      "sber-gradient": {
+        "Step_1": {
+          "value": "{primitives.external.sber-gradient.Step_1}",
+          "type": "color",
+          "description": "Позиция шага: 2%"
+        },
+        "Step_2": {
+          "value": "{primitives.external.sber-gradient.Step_2}",
+          "type": "color",
+          "description": "Позиция шага: 36%"
+        },
+        "Step_3": {
+          "value": "{primitives.external.sber-gradient.Step_3}",
+          "type": "color",
+          "description": "Позиция шага: 66%"
+        },
+        "Step_4": {
+          "value": "{primitives.external.sber-gradient.Step_4}",
+          "type": "color",
+          "description": "Позиция шага: 100%"
         }
       }
     }
