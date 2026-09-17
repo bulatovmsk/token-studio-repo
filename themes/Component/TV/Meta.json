@@ -139,7 +139,7 @@
       }
     },
     "compensation": {
-      "value": "4",
+      "value": "8",
       "type": "sizing"
     }
   },
