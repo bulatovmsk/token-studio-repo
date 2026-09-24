@@ -1005,26 +1005,6 @@
             "type": "color"
           }
         },
-        "continuum": {
-          "Step_1": {
-            "value": "{primitives.electric800}",
-            "type": "color"
-          },
-          "Step_2": {
-            "value": "{primitives.electric800}",
-            "type": "color"
-          }
-        },
-        "lighthouse": {
-          "Step_1": {
-            "value": "{primitives.electric1100}",
-            "type": "color"
-          },
-          "Step_2": {
-            "value": "{primitives.electric1100}",
-            "type": "color"
-          }
-        },
         "gold": {
           "Step_1": {
             "value": "{primitives.brown1000}",
