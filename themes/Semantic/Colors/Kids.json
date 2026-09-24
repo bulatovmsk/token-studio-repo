@@ -421,11 +421,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {gradient.component.label.continuum.Step_1} 0%, {gradient.component.label.continuum.Step_2} 100%)",
+          "value": "#B50087",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {gradient.component.label.lighthouse.Step_1} 0%, {gradient.component.label.lighthouse.Step_2} 100%)",
+          "value": "#B50087",
           "type": "color"
         },
         "gold": {
