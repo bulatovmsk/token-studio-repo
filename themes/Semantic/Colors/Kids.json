@@ -109,27 +109,27 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 52%, {primitives.pink800} 100%)",
+          "value": "linear-gradient(45deg, #B50087 0%, #B50087 52%, #B50087 100%)",
           "type": "color",
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt900} 16%, {primitives.purple600} 50%, {primitives.cobalt900} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst700} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
         "assistant-gradient": {
-          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.cobalt1300} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.iris1300} 100%)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
         "assistant-solid": {
-          "value": "rgba( {primitives.cobalt700} , 0.7)",
+          "value": "rgba( {primitives.iris700} , 0.7)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.cobalt900} 16%, {primitives.purple600} 50%, {primitives.cobalt900} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst700} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
@@ -547,15 +547,15 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "{primitives.cobalt1000}",
+            "value": "#B50087",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.purple1000}",
+            "value": "#B50087",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.pink800}",
+            "value": "#B50087",
             "type": "color"
           }
         },
@@ -565,15 +565,15 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.cobalt900}",
+            "value": "{primitives.iris800}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.purple600}",
+            "value": "{primitives.amethyst700}",
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.cobalt900}",
+            "value": "{primitives.iris800}",
             "type": "color"
           },
           "Step_5": {
@@ -587,15 +587,15 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.cobalt900}",
+            "value": "{primitives.iris800}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.purple600}",
+            "value": "{primitives.amethyst700}",
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.cobalt900}",
+            "value": "{primitives.iris800}",
             "type": "color"
           },
           "Step_5": {
@@ -610,7 +610,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.cobalt1300}",
+            "value": "{primitives.iris1300}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
@@ -1007,21 +1007,21 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "#B50087",
+            "value": "{primitives.amethyst800}",
             "type": "color"
           },
           "Step_2": {
-            "value": "#B50087",
+            "value": "{primitives.amethyst800}",
             "type": "color"
           }
         },
         "lighthouse": {
           "Step_1": {
-            "value": "#B50087",
+            "value": "{primitives.iris900}",
             "type": "color"
           },
           "Step_2": {
-            "value": "#B50087",
+            "value": "{primitives.iris900}",
             "type": "color"
           }
         },

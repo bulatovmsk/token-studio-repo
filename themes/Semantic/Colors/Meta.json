@@ -547,15 +547,15 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "{primitives.electric900}",
+            "value": "{primitives.electric1200}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.electric900}",
+            "value": "{primitives.electric1000}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.electric900}",
+            "value": "{primitives.white}",
             "type": "color"
           }
         },
