@@ -442,7 +442,7 @@
         }
       },
       "button": {
-        "value": "linear-gradient(45deg, {gradient.component.button.Step_1} 0%, {gradient.component.button.Step_2} 100%)",
+        "value": "linear-gradient(135deg, {gradient.component.button.Step_1} 0%, {gradient.component.button.Step_2} 16%, {gradient.component.button.Step_3} 82%, {gradient.component.button.Step_4} 100%)",
         "type": "color"
       },
       "menu": {
@@ -1062,6 +1062,14 @@
           "type": "color"
         },
         "Step_2": {
+          "value": "{primitives.electric1000}",
+          "type": "color"
+        },
+        "Step_3": {
+          "value": "{primitives.electric1000}",
+          "type": "color"
+        },
+        "Step_4": {
           "value": "{primitives.electric1000}",
           "type": "color"
         }
