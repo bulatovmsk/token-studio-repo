@@ -1058,19 +1058,19 @@
       },
       "button": {
         "Step_1": {
-          "value": "#B50087",
+          "value": "{primitives.amethyst800}",
           "type": "color"
         },
         "Step_2": {
-          "value": "#B50087",
+          "value": "{primitives.iris800}",
           "type": "color"
         },
         "Step_3": {
-          "value": "#B50087",
+          "value": "{primitives.iris800}",
           "type": "color"
         },
         "Step_4": {
-          "value": "#B50087",
+          "value": "#546CDD",
           "type": "color"
         }
       },
