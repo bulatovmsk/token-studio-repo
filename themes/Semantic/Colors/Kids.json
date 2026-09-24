@@ -421,11 +421,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.electric800} 0%, {primitives.electric800} 100%)",
+          "value": "linear-gradient(90deg, {gradient.component.label.continuum.Step_1} 0%, {gradient.component.label.continuum.Step_2} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.electric1100} 0%, {primitives.electric1100} 100%)",
+          "value": "linear-gradient(90deg, {gradient.component.label.lighthouse.Step_1} 0%, {gradient.component.label.lighthouse.Step_2} 100%)",
           "type": "color"
         },
         "gold": {
@@ -442,7 +442,7 @@
         }
       },
       "button": {
-        "value": "linear-gradient(45deg, {primitives.cobalt1000} 0%, {primitives.purple900} 100%)",
+        "value": "linear-gradient(45deg, {gradient.component.button.Step_1} 0%, {gradient.component.button.Step_2} 100%)",
         "type": "color"
       },
       "menu": {
@@ -450,7 +450,7 @@
         "type": "color"
       },
       "progress-bar": {
-        "value": "linear-gradient(270deg, {primitives.gray200} 0%, {primitives.gray200} 33%, {primitives.gray200} 67%, {primitives.gray200} 100%)",
+        "value": "linear-gradient(270deg, {gradient.component.progress-bar.Step_1} 0%, {gradient.component.progress-bar.Step_2} 33%, {gradient.component.progress-bar.Step_3} 67%, {gradient.component.progress-bar.Step_4} 100%)",
         "type": "color"
       },
       "sber-button": {
@@ -1007,21 +1007,21 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "{primitives.electric800}",
+            "value": "#B50087",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.electric800}",
+            "value": "#B50087",
             "type": "color"
           }
         },
         "lighthouse": {
           "Step_1": {
-            "value": "{primitives.electric1100}",
+            "value": "#B50087",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.electric1100}",
+            "value": "#B50087",
             "type": "color"
           }
         },
@@ -1058,11 +1058,11 @@
       },
       "button": {
         "Step_1": {
-          "value": "{primitives.cobalt1000}",
+          "value": "#B50087",
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.purple900}",
+          "value": "#B50087",
           "type": "color"
         }
       },
