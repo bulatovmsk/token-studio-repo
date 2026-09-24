@@ -22,7 +22,7 @@
         "description": "Хинты, подсказки. Замена для {{Text & icon/on Dark/Forth }}"
       },
       "accent": {
-        "value": "{primitives.cobalt700}",
+        "value": "{primitives.iris600}",
         "type": "color",
         "description": "Ссылки. Замена для {{ Text & icon/on Dark/Accent }}"
       },
@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.cobalt900}",
+        "value": "{primitives.iris900}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
@@ -142,7 +142,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.cobalt900}",
+          "value": "{primitives.iris900}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
@@ -211,7 +211,7 @@
       },
       "decorative": {
         "promo": {
-          "value": "{primitives.cobalt1300}",
+          "value": "{primitives.iris1300}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
@@ -421,11 +421,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "#B50087",
+          "value": "{primitives.amethyst800}",
           "type": "color"
         },
         "lighthouse": {
-          "value": "#B50087",
+          "value": "{primitives.iris900}",
           "type": "color"
         },
         "gold": {
@@ -531,12 +531,12 @@
     },
     "shadow": {
       "accent-focus": {
-        "value": "rgba({primitives.cobalt900} , 0.7)",
+        "value": "rgba({primitives.iris900} , 0.7)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       },
       "accent": {
-        "value": "rgba( {primitives.cobalt900} , 0.3)",
+        "value": "rgba( {primitives.iris900} , 0.3)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       }
