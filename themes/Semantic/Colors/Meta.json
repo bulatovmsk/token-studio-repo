@@ -442,7 +442,7 @@
         }
       },
       "button": {
-        "value": "linear-gradient(135deg, {gradient.component.button.Step_1} 0%, {gradient.component.button.Step_2} 16%, {gradient.component.button.Step_3} 82%, {gradient.component.button.Step_4} 100%)",
+        "value": "linear-gradient(135deg, {primitives.electric1000} 0%, {primitives.electric1000} 16%, {primitives.electric1000} 82%, {primitives.electric1000} 100%)",
         "type": "color"
       },
       "menu": {
@@ -450,7 +450,7 @@
         "type": "color"
       },
       "progress-bar": {
-        "value": "linear-gradient(270deg, {gradient.component.progress-bar.Step_1} 0%, {gradient.component.progress-bar.Step_2} 33%, {gradient.component.progress-bar.Step_3} 67%, {gradient.component.progress-bar.Step_4} 100%)",
+        "value": "linear-gradient(270deg, {primitives.gray200} 0%, {primitives.gray200} 33%, {primitives.gray200} 67%, {primitives.gray200} 100%)",
         "type": "color"
       },
       "sber-button": {
