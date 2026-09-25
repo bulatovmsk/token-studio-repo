@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.iris900}",
+        "value": "{primitives.iris800}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
@@ -114,7 +114,7 @@
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst700} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst600} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
@@ -129,7 +129,7 @@
           "description": "Только для обводки ии ассистента "
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst700} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst600} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
@@ -142,7 +142,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.iris900}",
+          "value": "{primitives.iris800}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
@@ -425,7 +425,7 @@
           "type": "color"
         },
         "lighthouse": {
-          "value": "{primitives.iris900}",
+          "value": "{primitives.iris800}",
           "type": "color"
         },
         "gold": {
@@ -531,12 +531,12 @@
     },
     "shadow": {
       "accent-focus": {
-        "value": "rgba({primitives.iris900} , 0.7)",
+        "value": "rgba( {primitives.iris800} , 0.7)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       },
       "accent": {
-        "value": "rgba( {primitives.iris900} , 0.3)",
+        "value": "rgba( {primitives.iris800} , 0.3)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       }
