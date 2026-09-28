@@ -22,7 +22,7 @@
         "description": "Хинты, подсказки. Замена для {{Text & icon/on Dark/Forth }}"
       },
       "accent": {
-        "value": "{primitives.iris600}",
+        "value": "{primitives.iris500}",
         "type": "color",
         "description": "Ссылки. Замена для {{ Text & icon/on Dark/Accent }}"
       },
@@ -81,7 +81,7 @@
         "description": "Обводки и разделители. Замена для {{ Border/Glassy }}"
       },
       "focus": {
-        "value": "{primitives.iris800}",
+        "value": "{primitives.iris700}",
         "type": "color",
         "description": "Фокус ТВ. Замена для {{ Border/Focus }}"
       },
@@ -114,7 +114,7 @@
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst600} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(270deg, rgba( {primitives.black} , 0) 0%, {primitives.iris700} 16%, {primitives.amethyst500} 50%, {primitives.iris700} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Horisontal }}"
         },
@@ -129,7 +129,7 @@
           "description": "Только для обводки ии ассистента "
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.iris800} 16%, {primitives.amethyst600} 50%, {primitives.iris800} 83%, rgba( {primitives.black} , 0) 100%)",
+          "value": "linear-gradient(0deg, rgba( {primitives.black} , 0) 0%, {primitives.iris700} 16%, {primitives.amethyst500} 50%, {primitives.iris700} 83%, rgba( {primitives.black} , 0) 100%)",
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
@@ -142,7 +142,7 @@
     "fill": {
       "solid": {
         "accent": {
-          "value": "{primitives.iris800}",
+          "value": "{primitives.iris700}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         },
