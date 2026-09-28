@@ -109,7 +109,7 @@
       },
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, #B50087 0%, #B50087 52%, #B50087 100%)",
+          "value": "linear-gradient(45deg, {primitives.iris1200} 0%, {primitives.iris700} 52%, {primitives.white} 100%)",
           "type": "color",
           "description": "рамка фокуса. Замена на {{ Border/Decorative/on Dark/Focus }}"
         },
@@ -547,15 +547,15 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "#B50087",
+            "value": "{primitives.iris1200}",
             "type": "color"
           },
           "Step_2": {
-            "value": "#B50087",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_3": {
-            "value": "#B50087",
+            "value": "{primitives.white}",
             "type": "color"
           }
         },
@@ -565,15 +565,15 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.iris800}",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.amethyst700}",
+            "value": "{primitives.amethyst500}",
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.iris800}",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_5": {
@@ -587,15 +587,15 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.iris800}",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.amethyst700}",
+            "value": "{primitives.amethyst500}",
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.iris800}",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_5": {
