@@ -421,11 +421,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "{primitives.amethyst800}",
+          "value": "{primitives.iris800}",
           "type": "color"
         },
         "lighthouse": {
-          "value": "{primitives.iris800}",
+          "value": "{primitives.amethyst800}",
           "type": "color"
         },
         "gold": {
