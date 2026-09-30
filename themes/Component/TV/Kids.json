@@ -7,21 +7,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "32",
+          "value": "36",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "18",
+          "value": "16",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "32",
+          "value": "36",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "24",
+          "value": "32",
           "type": "spacing"
         }
       },
@@ -30,7 +30,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "14",
+        "value": "999",
         "type": "borderRadius"
       }
     },
@@ -41,21 +41,21 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "40",
+          "value": "44",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "26",
+          "value": "24",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "40",
+          "value": "44",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "32",
+          "value": "40",
           "type": "spacing"
         }
       },
@@ -64,7 +64,7 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "18",
+        "value": "999",
         "type": "borderRadius"
       }
     },
@@ -75,27 +75,27 @@
       },
       "icon-only": {
         "icon-size": {
-          "value": "28",
+          "value": "30",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "16",
+          "value": "15",
           "type": "spacing"
         }
       },
       "text-icon": {
         "icon-size": {
-          "value": "28",
+          "value": "30",
           "type": "sizing"
         },
         "padding-horizontal": {
-          "value": "20",
+          "value": "28",
           "type": "spacing"
         }
       },
       "filter-icon": {
         "padding-horizontal": {
-          "value": "20",
+          "value": "28",
           "type": "spacing"
         }
       },
@@ -104,26 +104,26 @@
         "type": "spacing"
       },
       "radius": {
-        "value": "12",
+        "value": "999",
         "type": "borderRadius"
       }
     },
     "focus": {
       "default": {
         "radius": {
-          "value": "{control.default.radius} + 6",
+          "value": "{control.default.radius} + 3",
           "type": "borderRadius"
         }
       },
       "large": {
         "radius": {
-          "value": "{control.large.radius} + 6",
+          "value": "{control.large.radius} + 3",
           "type": "borderRadius"
         }
       },
       "small": {
         "radius": {
-          "value": "{control.small.radius} + 6",
+          "value": "{control.small.radius} + 3",
           "type": "borderRadius"
         }
       },
@@ -139,27 +139,27 @@
       }
     },
     "compensation": {
-      "value": "4",
+      "value": "8",
       "type": "sizing"
     }
   },
   "label": {
     "rich": {
       "radius": {
-        "value": "12",
+        "value": "22",
         "type": "borderRadius"
       },
       "padding-horizontal": {
-        "value": "12",
+        "value": "16",
         "type": "spacing"
       }
     },
     "radius": {
-      "value": "8",
+      "value": "999",
       "type": "borderRadius"
     },
     "padding-horizontal": {
-      "value": "7",
+      "value": "10",
       "type": "spacing"
     }
   },
@@ -167,7 +167,7 @@
     "card": {
       "radius": {
         "500": {
-          "value": "20",
+          "value": "24",
           "type": "borderRadius"
         },
         "600": {
@@ -175,15 +175,15 @@
           "type": "borderRadius"
         },
         "700": {
-          "value": "32",
+          "value": "40",
           "type": "borderRadius"
         },
         "800": {
-          "value": "36",
+          "value": "52",
           "type": "borderRadius"
         },
         "900": {
-          "value": "40",
+          "value": "64",
           "type": "borderRadius"
         }
       }
@@ -219,7 +219,7 @@
   },
   "snackbar": {
     "radius": {
-      "value": "16",
+      "value": "32",
       "type": "borderRadius"
     }
   }
