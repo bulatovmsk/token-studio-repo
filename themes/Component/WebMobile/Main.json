@@ -298,7 +298,7 @@
       "filter-icon": {
         "padding-horizontal": {
           "desktop": {
-            "value": "14",
+            "value": "18",
             "type": "spacing"
           },
           "tablet": {
