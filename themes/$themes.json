@@ -261,8 +261,7 @@
     },
     "selectedTokenSets": {
       "Semantic/Text/Core": "enabled",
-      "Semantic/Text/Scale/Extra Small": "enabled",
-      "Semantic/Text/Theme/Main": "source"
+      "Semantic/Text/Scale/Extra Small": "enabled"
     },
     "group": "Typography",
     "$figmaCollectionId": "VariableCollectionId:5760:3920",
@@ -601,8 +600,7 @@
     },
     "selectedTokenSets": {
       "Semantic/Text/Core": "enabled",
-      "Semantic/Text/Scale/Main": "enabled",
-      "Semantic/Text/Theme/Main": "source"
+      "Semantic/Text/Scale/Main": "enabled"
     },
     "group": "Typography",
     "$figmaCollectionId": "VariableCollectionId:5760:3920",
@@ -795,8 +793,7 @@
     "name": "Large",
     "selectedTokenSets": {
       "Semantic/Text/Core": "enabled",
-      "Semantic/Text/Scale/Large": "enabled",
-      "Semantic/Text/Theme/Main": "source"
+      "Semantic/Text/Scale/Large": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -990,8 +987,7 @@
     "name": "Extra Large",
     "selectedTokenSets": {
       "Semantic/Text/Core": "enabled",
-      "Semantic/Text/Scale/Extra Large": "enabled",
-      "Semantic/Text/Theme/Main": "source"
+      "Semantic/Text/Scale/Extra Large": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1185,8 +1181,7 @@
     "name": "Accessibility",
     "selectedTokenSets": {
       "Semantic/Text/Core": "enabled",
-      "Semantic/Text/Scale/Accessibility": "enabled",
-      "Semantic/Text/Theme/Main": "source"
+      "Semantic/Text/Scale/Accessibility": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {

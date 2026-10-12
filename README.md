@@ -124,5 +124,5 @@ Primitives → Brand → Semantic → Component
 `Typography` provides `Extra Small`, `Main`, `Large`, `Extra Large`, and `Accessibility` modes.
 `Extra Small` sets all 90 adaptive font-size and line-height tokens to 85% of resolved Main values, without integer rounding. It is a reduced-text test scale, not an exact Android emulator. Component dimensions are unchanged.
 
-The separate `Typography Theme` collection is removed from the configuration. `Semantic/Text/Theme/Main` remains a source for text style families and weights; product themes no longer switch fonts.
+The separate `Typography Theme` collection is removed from the configuration. Text styles reference Suisse Int’l family and weight tokens directly in Core; there is no separate Theme layer or font switching by product theme.
 After syncing, check Main to Extra Small on text, buttons, and multiline blocks. An existing Figma `Typography Theme` collection may require separate removal after checking its bindings.

@@ -417,7 +417,7 @@
   },
   "Meta Menu Item": {
     "value": {
-      "fontFamily": "{theme.fontFamily.control}",
+      "fontFamily": "{fontFamilies.suisse-intl}",
       "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
       "lineHeight": "{lineHeights.14}",
       "fontSize": "{fontSize.10}",
@@ -432,7 +432,7 @@
   "Godzilla": {
     "Dektop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{lineHeights.108}",
         "fontSize": "{fontSize.120}",
@@ -446,7 +446,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.display.64}",
         "fontSize": "{adaptive.fontSize.display.72}",
@@ -460,7 +460,7 @@
     },
     "Mobile 320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.display.56}",
         "fontSize": "{adaptive.fontSize.display.60}",
@@ -476,8 +476,8 @@
   "Title": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{lineHeights.64}",
         "fontSize": "{fontSize.58}",
         "letterSpacing": "{letterSpacing.minus-2}",
@@ -490,8 +490,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.54}",
         "fontSize": "{adaptive.fontSize.headings.48}",
         "letterSpacing": "{letterSpacing.minus-2}",
@@ -504,8 +504,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.44}",
         "fontSize": "{adaptive.fontSize.headings.40}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -520,8 +520,8 @@
   "H1": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{lineHeights.48}",
         "fontSize": "{fontSize.43}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -534,8 +534,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.40}",
         "fontSize": "{adaptive.fontSize.headings.35}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -548,8 +548,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.34}",
         "fontSize": "{adaptive.fontSize.headings.30}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -564,8 +564,8 @@
   "H2": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{lineHeights.36}",
         "fontSize": "{fontSize.31}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -578,8 +578,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.32}",
         "fontSize": "{adaptive.fontSize.headings.27}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -592,8 +592,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.headings.28}",
         "fontSize": "{adaptive.fontSize.headings.24}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -608,8 +608,8 @@
   "H3": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.32}",
         "fontSize": "{fontSize.27}",
         "letterSpacing": "{letterSpacing.minus-1}",
@@ -622,8 +622,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.28}",
         "fontSize": "{adaptive.fontSize.headings.23}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -636,8 +636,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.26}",
         "fontSize": "{adaptive.fontSize.headings.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -652,8 +652,8 @@
   "H4": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.28}",
         "fontSize": "{fontSize.23}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -666,8 +666,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.26}",
         "fontSize": "{adaptive.fontSize.headings.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -680,8 +680,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.22}",
         "fontSize": "{adaptive.fontSize.headings.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -696,7 +696,7 @@
   "Body 1": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{lineHeights.30}",
         "fontSize": "{fontSize.23}",
@@ -710,7 +710,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.26}",
         "fontSize": "{adaptive.fontSize.reading.20}",
@@ -724,7 +724,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.22}",
         "fontSize": "{adaptive.fontSize.reading.17}",
@@ -740,7 +740,7 @@
   "Body 1 Accent": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.30}",
         "fontSize": "{fontSize.23}",
@@ -754,7 +754,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.26}",
         "fontSize": "{adaptive.fontSize.reading.20}",
@@ -768,7 +768,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.22}",
         "fontSize": "{adaptive.fontSize.reading.17}",
@@ -784,7 +784,7 @@
   "Body 1 Text": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{lineHeights.36}",
         "fontSize": "{fontSize.23}",
@@ -798,7 +798,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.30}",
         "fontSize": "{adaptive.fontSize.reading.20}",
@@ -812,7 +812,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.26}",
         "fontSize": "{adaptive.fontSize.reading.17}",
@@ -828,7 +828,7 @@
   "Body 2": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{lineHeights.26}",
         "fontSize": "{fontSize.20}",
@@ -842,7 +842,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.22}",
         "fontSize": "{adaptive.fontSize.reading.17}",
@@ -856,7 +856,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.20}",
         "fontSize": "{adaptive.fontSize.reading.15}",
@@ -872,7 +872,7 @@
   "Body 2 Accent": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.26}",
         "fontSize": "{fontSize.20}",
@@ -886,7 +886,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.22}",
         "fontSize": "{adaptive.fontSize.reading.17}",
@@ -900,7 +900,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.20}",
         "fontSize": "{adaptive.fontSize.reading.15}",
@@ -916,7 +916,7 @@
   "Body 2 Text": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{lineHeights.30}",
         "fontSize": "{fontSize.20}",
@@ -930,7 +930,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.26}",
         "fontSize": "{adaptive.fontSize.reading.17}",
@@ -944,7 +944,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.24}",
         "fontSize": "{adaptive.fontSize.reading.15}",
@@ -960,7 +960,7 @@
   "Body 3": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{lineHeights.22}",
         "fontSize": "{fontSize.17}",
@@ -974,7 +974,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.20}",
         "fontSize": "{adaptive.fontSize.reading.15}",
@@ -988,7 +988,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.18}",
         "fontSize": "{adaptive.fontSize.reading.13}",
@@ -1004,7 +1004,7 @@
   "Body 3 Accent": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.22}",
         "fontSize": "{fontSize.17}",
@@ -1018,7 +1018,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.20}",
         "fontSize": "{adaptive.fontSize.reading.15}",
@@ -1032,7 +1032,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.18}",
         "fontSize": "{adaptive.fontSize.reading.13}",
@@ -1048,7 +1048,7 @@
   "Body 4": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{lineHeights.18}",
         "fontSize": "{fontSize.14}",
@@ -1062,7 +1062,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.18}",
         "fontSize": "{adaptive.fontSize.reading.13}",
@@ -1076,7 +1076,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.regular}",
         "lineHeight": "{adaptive.lineHeight.reading.14}",
         "fontSize": "{adaptive.fontSize.reading.11}",
@@ -1092,7 +1092,7 @@
   "Body 4 Accent": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.18}",
         "fontSize": "{fontSize.14}",
@@ -1106,7 +1106,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.18}",
         "fontSize": "{adaptive.fontSize.reading.13}",
@@ -1120,7 +1120,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.reading.14}",
         "fontSize": "{adaptive.fontSize.reading.11}",
@@ -1136,7 +1136,7 @@
   "Caption": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.16}",
         "fontSize": "{fontSize.12}",
@@ -1150,7 +1150,7 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.reading.14}",
         "fontSize": "{adaptive.fontSize.reading.10}",
@@ -1164,7 +1164,7 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.body}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.reading.12}",
         "fontSize": "{adaptive.fontSize.reading.8}",
@@ -1180,8 +1180,8 @@
   "Button Large": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.28}",
         "fontSize": "{fontSize.23}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1194,8 +1194,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.26}",
         "fontSize": "{adaptive.fontSize.controls.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1208,8 +1208,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.22}",
         "fontSize": "{adaptive.fontSize.controls.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1224,8 +1224,8 @@
   "Button Default": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.26}",
         "fontSize": "{fontSize.20}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1238,8 +1238,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1252,8 +1252,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.15}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1268,8 +1268,8 @@
   "Button Small": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.22}",
         "fontSize": "{fontSize.17}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1282,8 +1282,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.15}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1296,8 +1296,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.13}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1312,8 +1312,8 @@
   "Button ExtraSmall": {
     "Desktop 1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{lineHeights.18}",
         "fontSize": "{fontSize.14}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1326,8 +1326,8 @@
     },
     "Tablet 600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.16}",
         "fontSize": "{adaptive.fontSize.controls.13}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1340,8 +1340,8 @@
     },
     "Mobile 0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.button}",
-        "fontWeight": "{theme.fontWeight.button.medium}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.11}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1356,8 +1356,8 @@
   "Subtitles": {
     "1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.44}",
         "fontSize": "{fontSize.36}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1370,8 +1370,8 @@
     },
     "1320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.36}",
         "fontSize": "{fontSize.30}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1384,8 +1384,8 @@
     },
     "600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.30}",
         "fontSize": "{adaptive.fontSize.headings.24}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1398,8 +1398,8 @@
     },
     "0+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.20}",
         "fontSize": "{adaptive.fontSize.headings.16}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1412,8 +1412,8 @@
     },
     "Android Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.30}",
         "fontSize": "{adaptive.fontSize.headings.23}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1426,8 +1426,8 @@
     },
     "Android Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.24}",
         "fontSize": "{adaptive.fontSize.headings.17}",
         "letterSpacing": "{letterSpacing.plus-1}",
@@ -1442,7 +1442,7 @@
   "Label Large": {
     "1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.24}",
         "fontSize": "{fontSize.15}",
@@ -1456,7 +1456,7 @@
     },
     "375+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.12}",
@@ -1470,7 +1470,7 @@
     },
     "320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.11}",
@@ -1484,7 +1484,7 @@
     },
     "Android Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.24}",
         "fontSize": "{adaptive.fontSize.controls.15}",
@@ -1498,7 +1498,7 @@
     },
     "Android Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.12}",
@@ -1512,7 +1512,7 @@
     },
     "iPad": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.24}",
         "fontSize": "{adaptive.fontSize.controls.15}",
@@ -1526,7 +1526,7 @@
     },
     "iPhone": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.12}",
@@ -1540,7 +1540,7 @@
     },
     "iPhone SE": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.12}",
@@ -1556,7 +1556,7 @@
   "Label Small": {
     "1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.20}",
         "fontSize": "{fontSize.14}",
@@ -1570,7 +1570,7 @@
     },
     "1320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.16}",
         "fontSize": "{fontSize.10}",
@@ -1584,7 +1584,7 @@
     },
     "375+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1598,7 +1598,7 @@
     },
     "320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.8}",
@@ -1612,7 +1612,7 @@
     },
     "Android Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.16}",
         "fontSize": "{adaptive.fontSize.controls.10}",
@@ -1626,7 +1626,7 @@
     },
     "Android Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1640,7 +1640,7 @@
     },
     "iPad": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.16}",
         "fontSize": "{adaptive.fontSize.controls.10}",
@@ -1654,7 +1654,7 @@
     },
     "iPhone": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1668,7 +1668,7 @@
     },
     "iPhone SE": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1684,7 +1684,7 @@
   "Label Bonus": {
     "1320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.18}",
         "fontSize": "{fontSize.14}",
@@ -1698,7 +1698,7 @@
     },
     "600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.15}",
         "fontSize": "{adaptive.fontSize.controls.12}",
@@ -1712,7 +1712,7 @@
     },
     "320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1726,7 +1726,7 @@
     },
     "Android Default": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1742,7 +1742,7 @@
   "Label Rich Value": {
     "1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.24}",
         "fontSize": "{fontSize.20}",
@@ -1756,7 +1756,7 @@
     },
     "1320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.22}",
         "fontSize": "{fontSize.18}",
@@ -1770,7 +1770,7 @@
     },
     "600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.16}",
@@ -1784,7 +1784,7 @@
     },
     "320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.14}",
@@ -1798,7 +1798,7 @@
     },
     "Android Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.16}",
@@ -1812,7 +1812,7 @@
     },
     "Android Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.14}",
@@ -1826,7 +1826,7 @@
     },
     "iPad": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.20}",
         "fontSize": "{adaptive.fontSize.controls.16}",
@@ -1840,7 +1840,7 @@
     },
     "iPhone": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.18}",
         "fontSize": "{adaptive.fontSize.controls.14}",
@@ -1856,7 +1856,7 @@
   "Label Rich Title": {
     "1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.16}",
         "fontSize": "{fontSize.11}",
@@ -1870,7 +1870,7 @@
     },
     "1320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.14}",
         "fontSize": "{fontSize.10}",
@@ -1884,7 +1884,7 @@
     },
     "600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1898,7 +1898,7 @@
     },
     "320+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.8}",
@@ -1912,7 +1912,7 @@
     },
     "Android Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1926,7 +1926,7 @@
     },
     "Android Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.8}",
@@ -1940,7 +1940,7 @@
     },
     "iPad": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -1954,7 +1954,7 @@
     },
     "iPhone": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.12}",
         "fontSize": "{adaptive.fontSize.controls.8}",
@@ -1970,8 +1970,8 @@
   "Rewind": {
     "Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.32}",
         "fontSize": "{adaptive.fontSize.headings.26}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -1984,8 +1984,8 @@
     },
     "Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.heading}",
-        "fontWeight": "{theme.fontWeight.heading.semi-bold}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
+        "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.headings.22}",
         "fontSize": "{adaptive.fontSize.headings.16}",
         "letterSpacing": "{letterSpacing.zero}",
@@ -2000,7 +2000,7 @@
   "Menu Item": {
     "iPad": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.13}",
@@ -2014,7 +2014,7 @@
     },
     "iPhone": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -2028,7 +2028,7 @@
     },
     "iPhone SE": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.medium}",
         "lineHeight": "{adaptive.lineHeight.controls.14}",
         "fontSize": "{adaptive.fontSize.controls.9}",
@@ -2044,7 +2044,7 @@
   "Decorative": {
     "Android Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.light}",
         "lineHeight": "{adaptive.lineHeight.display.42}",
         "fontSize": "{adaptive.fontSize.display.32}",
@@ -2058,7 +2058,7 @@
     },
     "Android Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.light}",
         "lineHeight": "{adaptive.lineHeight.display.28}",
         "fontSize": "{adaptive.fontSize.display.24}",
@@ -2072,7 +2072,7 @@
     },
     "iPad": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.light}",
         "lineHeight": "{adaptive.lineHeight.display.48}",
         "fontSize": "{adaptive.fontSize.display.38}",
@@ -2086,7 +2086,7 @@
     },
     "iPhone": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.light}",
         "lineHeight": "{adaptive.lineHeight.display.32}",
         "fontSize": "{adaptive.fontSize.display.28}",
@@ -2100,7 +2100,7 @@
     },
     "iPhone SE": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.light}",
         "lineHeight": "{adaptive.lineHeight.display.26}",
         "fontSize": "{adaptive.fontSize.display.22}",
@@ -2116,7 +2116,7 @@
   "Age Mark": {
     "Desktop": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{lineHeights.48}",
         "fontSize": "{fontSize.43}",
@@ -2130,7 +2130,7 @@
     },
     "Tablet": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.display.40}",
         "fontSize": "{adaptive.fontSize.display.35}",
@@ -2144,7 +2144,7 @@
     },
     "Mobile": {
       "value": {
-        "fontFamily": "{theme.fontFamily.display}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.bold}",
         "lineHeight": "{adaptive.lineHeight.display.34}",
         "fontSize": "{adaptive.fontSize.display.30}",
@@ -2440,8 +2440,8 @@
     "H5": {
       "Mobile 0+": {
         "value": {
-          "fontFamily": "{theme.fontFamily.heading}",
-          "fontWeight": "{theme.fontWeight.heading.medium}",
+          "fontFamily": "{fontFamilies.suisse-intl}",
+          "fontWeight": "{fontWeights.suisse-intl.medium}",
           "lineHeight": "{adaptive.lineHeight.display.30}",
           "fontSize": "{adaptive.fontSize.display.22}",
           "letterSpacing": "{letterSpacing.zero}",
@@ -2454,8 +2454,8 @@
       },
       "Tablet 600+": {
         "value": {
-          "fontFamily": "{theme.fontFamily.heading}",
-          "fontWeight": "{theme.fontWeight.heading.medium}",
+          "fontFamily": "{fontFamilies.suisse-intl}",
+          "fontWeight": "{fontWeights.suisse-intl.medium}",
           "lineHeight": "{adaptive.lineHeight.display.22}",
           "fontSize": "{adaptive.fontSize.display.16}",
           "letterSpacing": "{letterSpacing.zero}",
@@ -2468,8 +2468,8 @@
       },
       "Desktop 1720+": {
         "value": {
-          "fontFamily": "{theme.fontFamily.heading}",
-          "fontWeight": "{theme.fontWeight.heading.medium}",
+          "fontFamily": "{fontFamilies.suisse-intl}",
+          "fontWeight": "{fontWeights.suisse-intl.medium}",
           "lineHeight": "{lineHeights.32}",
           "fontSize": "{fontSize.24}",
           "letterSpacing": "{letterSpacing.zero}",
@@ -2485,7 +2485,7 @@
   "Spasibo Badge": {
     "375+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.17}",
         "fontSize": "{adaptive.fontSize.controls.13}",
@@ -2499,7 +2499,7 @@
     },
     "600+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{adaptive.lineHeight.controls.19}",
         "fontSize": "{adaptive.fontSize.controls.16}",
@@ -2513,7 +2513,7 @@
     },
     "1720+": {
       "value": {
-        "fontFamily": "{theme.fontFamily.control}",
+        "fontFamily": "{fontFamilies.suisse-intl}",
         "fontWeight": "{fontWeights.suisse-intl.semi-bold}",
         "lineHeight": "{lineHeights.21}",
         "fontSize": "{fontSize.17}",
