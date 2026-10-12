@@ -118,3 +118,11 @@ Primitives → Brand → Semantic → Component
 2. В `themes/$themes.json` добавить 5 записей `<NewTheme>` — по одной в каждой из 5 групп. Скопировать `$figmaCollectionId` и `$figmaVariableReferences` из Main соответствующей группы; `$figmaModeId: ""` — плагин создаст новый мод на push.
 3. Добавить пути новых файлов в `themes/$metadata.json` → `tokenSetOrder`.
 4. Push в Figma — плагин создаст новый мод в каждой коллекции.
+
+## Typography scale
+
+`Typography` provides `Extra Small`, `Main`, `Large`, `Extra Large`, and `Accessibility` modes.
+`Extra Small` sets all 90 adaptive font-size and line-height tokens to 85% of resolved Main values, without integer rounding. It is a reduced-text test scale, not an exact Android emulator. Component dimensions are unchanged.
+
+The separate `Typography Theme` collection is removed from the configuration. `Semantic/Text/Theme/Main` remains a source for text style families and weights; product themes no longer switch fonts.
+After syncing, check Main to Extra Small on text, buttons, and multiline blocks. An existing Figma `Typography Theme` collection may require separate removal after checking its bindings.
