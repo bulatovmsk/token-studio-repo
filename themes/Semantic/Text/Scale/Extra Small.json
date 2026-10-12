@@ -1,0 +1,384 @@
+{
+  "adaptive": {
+    "fontSize": {
+      "reading": {
+        "8": {
+          "value": 6.8,
+          "type": "fontSizes"
+        },
+        "10": {
+          "value": 8.5,
+          "type": "fontSizes"
+        },
+        "11": {
+          "value": 9.35,
+          "type": "fontSizes"
+        },
+        "13": {
+          "value": 11.05,
+          "type": "fontSizes"
+        },
+        "15": {
+          "value": 12.75,
+          "type": "fontSizes"
+        },
+        "17": {
+          "value": 14.45,
+          "type": "fontSizes"
+        },
+        "20": {
+          "value": 17.0,
+          "type": "fontSizes"
+        }
+      },
+      "controls": {
+        "8": {
+          "value": 6.8,
+          "type": "fontSizes"
+        },
+        "9": {
+          "value": 7.65,
+          "type": "fontSizes"
+        },
+        "10": {
+          "value": 8.5,
+          "type": "fontSizes"
+        },
+        "11": {
+          "value": 9.35,
+          "type": "fontSizes"
+        },
+        "12": {
+          "value": 10.2,
+          "type": "fontSizes"
+        },
+        "13": {
+          "value": 11.05,
+          "type": "fontSizes"
+        },
+        "14": {
+          "value": 11.9,
+          "type": "fontSizes"
+        },
+        "15": {
+          "value": 12.75,
+          "type": "fontSizes"
+        },
+        "16": {
+          "value": 13.6,
+          "type": "fontSizes"
+        },
+        "17": {
+          "value": 14.45,
+          "type": "fontSizes"
+        },
+        "20": {
+          "value": 17.0,
+          "type": "fontSizes"
+        }
+      },
+      "headings": {
+        "16": {
+          "value": 13.6,
+          "type": "fontSizes"
+        },
+        "17": {
+          "value": 14.45,
+          "type": "fontSizes"
+        },
+        "20": {
+          "value": 17.0,
+          "type": "fontSizes"
+        },
+        "23": {
+          "value": 19.55,
+          "type": "fontSizes"
+        },
+        "24": {
+          "value": 20.4,
+          "type": "fontSizes"
+        },
+        "26": {
+          "value": 22.1,
+          "type": "fontSizes"
+        },
+        "27": {
+          "value": 22.95,
+          "type": "fontSizes"
+        },
+        "30": {
+          "value": 25.5,
+          "type": "fontSizes"
+        },
+        "35": {
+          "value": 29.75,
+          "type": "fontSizes"
+        },
+        "40": {
+          "value": 34.0,
+          "type": "fontSizes"
+        },
+        "48": {
+          "value": 40.8,
+          "type": "fontSizes"
+        }
+      },
+      "display": {
+        "16": {
+          "value": 13.6,
+          "type": "fontSizes"
+        },
+        "22": {
+          "value": 18.7,
+          "type": "fontSizes"
+        },
+        "24": {
+          "value": 20.4,
+          "type": "fontSizes"
+        },
+        "26": {
+          "value": 22.1,
+          "type": "fontSizes"
+        },
+        "28": {
+          "value": 23.8,
+          "type": "fontSizes"
+        },
+        "30": {
+          "value": 25.5,
+          "type": "fontSizes"
+        },
+        "32": {
+          "value": 27.2,
+          "type": "fontSizes"
+        },
+        "35": {
+          "value": 29.75,
+          "type": "fontSizes"
+        },
+        "38": {
+          "value": 32.3,
+          "type": "fontSizes"
+        },
+        "42": {
+          "value": 35.7,
+          "type": "fontSizes"
+        },
+        "50": {
+          "value": 42.5,
+          "type": "fontSizes"
+        },
+        "60": {
+          "value": 51.0,
+          "type": "fontSizes"
+        },
+        "64": {
+          "value": 54.4,
+          "type": "fontSizes"
+        },
+        "72": {
+          "value": 61.2,
+          "type": "fontSizes"
+        },
+        "100": {
+          "value": 85.0,
+          "type": "fontSizes"
+        }
+      }
+    },
+    "lineHeight": {
+      "reading": {
+        "12": {
+          "value": 10.2,
+          "type": "lineHeights"
+        },
+        "14": {
+          "value": 11.9,
+          "type": "lineHeights"
+        },
+        "18": {
+          "value": 15.3,
+          "type": "lineHeights"
+        },
+        "20": {
+          "value": 17.0,
+          "type": "lineHeights"
+        },
+        "22": {
+          "value": 18.7,
+          "type": "lineHeights"
+        },
+        "24": {
+          "value": 20.4,
+          "type": "lineHeights"
+        },
+        "26": {
+          "value": 22.1,
+          "type": "lineHeights"
+        },
+        "30": {
+          "value": 25.5,
+          "type": "lineHeights"
+        }
+      },
+      "controls": {
+        "12": {
+          "value": 10.2,
+          "type": "lineHeights"
+        },
+        "14": {
+          "value": 11.9,
+          "type": "lineHeights"
+        },
+        "15": {
+          "value": 12.75,
+          "type": "lineHeights"
+        },
+        "16": {
+          "value": 13.6,
+          "type": "lineHeights"
+        },
+        "17": {
+          "value": 14.45,
+          "type": "lineHeights"
+        },
+        "18": {
+          "value": 15.3,
+          "type": "lineHeights"
+        },
+        "19": {
+          "value": 16.15,
+          "type": "lineHeights"
+        },
+        "20": {
+          "value": 17.0,
+          "type": "lineHeights"
+        },
+        "22": {
+          "value": 18.7,
+          "type": "lineHeights"
+        },
+        "24": {
+          "value": 20.4,
+          "type": "lineHeights"
+        },
+        "26": {
+          "value": 22.1,
+          "type": "lineHeights"
+        }
+      },
+      "headings": {
+        "20": {
+          "value": 17.0,
+          "type": "lineHeights"
+        },
+        "22": {
+          "value": 18.7,
+          "type": "lineHeights"
+        },
+        "24": {
+          "value": 20.4,
+          "type": "lineHeights"
+        },
+        "26": {
+          "value": 22.1,
+          "type": "lineHeights"
+        },
+        "28": {
+          "value": 23.8,
+          "type": "lineHeights"
+        },
+        "30": {
+          "value": 25.5,
+          "type": "lineHeights"
+        },
+        "32": {
+          "value": 27.2,
+          "type": "lineHeights"
+        },
+        "34": {
+          "value": 28.9,
+          "type": "lineHeights"
+        },
+        "40": {
+          "value": 34.0,
+          "type": "lineHeights"
+        },
+        "44": {
+          "value": 37.4,
+          "type": "lineHeights"
+        },
+        "54": {
+          "value": 45.9,
+          "type": "lineHeights"
+        }
+      },
+      "display": {
+        "22": {
+          "value": 18.7,
+          "type": "lineHeights"
+        },
+        "26": {
+          "value": 22.1,
+          "type": "lineHeights"
+        },
+        "28": {
+          "value": 23.8,
+          "type": "lineHeights"
+        },
+        "30": {
+          "value": 25.5,
+          "type": "lineHeights"
+        },
+        "32": {
+          "value": 27.2,
+          "type": "lineHeights"
+        },
+        "34": {
+          "value": 28.9,
+          "type": "lineHeights"
+        },
+        "38": {
+          "value": 32.3,
+          "type": "lineHeights"
+        },
+        "40": {
+          "value": 34.0,
+          "type": "lineHeights"
+        },
+        "42": {
+          "value": 35.7,
+          "type": "lineHeights"
+        },
+        "46": {
+          "value": 39.1,
+          "type": "lineHeights"
+        },
+        "48": {
+          "value": 40.8,
+          "type": "lineHeights"
+        },
+        "54": {
+          "value": 45.9,
+          "type": "lineHeights"
+        },
+        "56": {
+          "value": 47.6,
+          "type": "lineHeights"
+        },
+        "62": {
+          "value": 52.7,
+          "type": "lineHeights"
+        },
+        "64": {
+          "value": 54.4,
+          "type": "lineHeights"
+        },
+        "104": {
+          "value": 88.4,
+          "type": "lineHeights"
+        }
+      }
+    }
+  }
+}
