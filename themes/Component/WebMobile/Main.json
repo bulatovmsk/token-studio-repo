@@ -73,6 +73,22 @@
           }
         }
       },
+      "filter-icon": {
+        "padding-horizontal": {
+          "desktop": {
+            "value": "20",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "18",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "16",
+            "type": "spacing"
+          }
+        }
+      },
       "icon-only": {
         "icon-size": {
           "desktop": {
@@ -173,6 +189,22 @@
           },
           "phone": {
             "value": "10",
+            "type": "spacing"
+          }
+        }
+      },
+      "filter-icon": {
+        "padding-horizontal": {
+          "desktop": {
+            "value": "34",
+            "type": "spacing"
+          },
+          "tablet": {
+            "value": "26",
+            "type": "spacing"
+          },
+          "phone": {
+            "value": "18",
             "type": "spacing"
           }
         }
