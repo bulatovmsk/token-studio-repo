@@ -2032,7 +2032,13 @@
       "rail.card.radius.450": "0766af804aec28351ee02804a4eb3194d832ab4a",
       "snackbar.radius.desktop": "65ffe1035a6ebcbbe0f3d8c5fc037df0e36bbf94",
       "snackbar.radius.tablet": "c65d4a0c4395ca3a3319b7df863bb60f05ad4037",
-      "snackbar.radius.phone": "8d82d0a309dfa553bf9768a81cca999b3259b1b9"
+      "snackbar.radius.phone": "8d82d0a309dfa553bf9768a81cca999b3259b1b9",
+      "control.default.filter-icon.padding-horizontal.desktop": "8623700ea100ffdaf670c12fa938449e76def894",
+      "control.default.filter-icon.padding-horizontal.tablet": "fc346c1c088039a70ddae55b35ddad58e4b82f15",
+      "control.default.filter-icon.padding-horizontal.phone": "0e0ace4110a1b9ffb8d72d6179ce2ffe5b68f56a",
+      "control.large.filter-icon.padding-horizontal.desktop": "ce6dd09ea27da47cb959b5d29f84a5b9f55621ea",
+      "control.large.filter-icon.padding-horizontal.tablet": "878bf77e3c45fadfe89d4bd6109dd7f390abf3f9",
+      "control.large.filter-icon.padding-horizontal.phone": "1f34187b9110c1bb8c7b94a14c26632a4780e224"
     },
     "group": "Component W&M"
   },
@@ -2267,7 +2273,13 @@
       "rail.card.radius.450": "0766af804aec28351ee02804a4eb3194d832ab4a",
       "snackbar.radius.desktop": "65ffe1035a6ebcbbe0f3d8c5fc037df0e36bbf94",
       "snackbar.radius.tablet": "c65d4a0c4395ca3a3319b7df863bb60f05ad4037",
-      "snackbar.radius.phone": "8d82d0a309dfa553bf9768a81cca999b3259b1b9"
+      "snackbar.radius.phone": "8d82d0a309dfa553bf9768a81cca999b3259b1b9",
+      "control.default.filter-icon.padding-horizontal.desktop": "8623700ea100ffdaf670c12fa938449e76def894",
+      "control.default.filter-icon.padding-horizontal.tablet": "fc346c1c088039a70ddae55b35ddad58e4b82f15",
+      "control.default.filter-icon.padding-horizontal.phone": "0e0ace4110a1b9ffb8d72d6179ce2ffe5b68f56a",
+      "control.large.filter-icon.padding-horizontal.desktop": "ce6dd09ea27da47cb959b5d29f84a5b9f55621ea",
+      "control.large.filter-icon.padding-horizontal.tablet": "878bf77e3c45fadfe89d4bd6109dd7f390abf3f9",
+      "control.large.filter-icon.padding-horizontal.phone": "1f34187b9110c1bb8c7b94a14c26632a4780e224"
     },
     "group": "Component W&M"
   },
@@ -2400,7 +2412,13 @@
       "rail.card.radius.450": "0766af804aec28351ee02804a4eb3194d832ab4a",
       "snackbar.radius.desktop": "65ffe1035a6ebcbbe0f3d8c5fc037df0e36bbf94",
       "snackbar.radius.tablet": "c65d4a0c4395ca3a3319b7df863bb60f05ad4037",
-      "snackbar.radius.phone": "8d82d0a309dfa553bf9768a81cca999b3259b1b9"
+      "snackbar.radius.phone": "8d82d0a309dfa553bf9768a81cca999b3259b1b9",
+      "control.default.filter-icon.padding-horizontal.desktop": "8623700ea100ffdaf670c12fa938449e76def894",
+      "control.default.filter-icon.padding-horizontal.tablet": "fc346c1c088039a70ddae55b35ddad58e4b82f15",
+      "control.default.filter-icon.padding-horizontal.phone": "0e0ace4110a1b9ffb8d72d6179ce2ffe5b68f56a",
+      "control.large.filter-icon.padding-horizontal.desktop": "ce6dd09ea27da47cb959b5d29f84a5b9f55621ea",
+      "control.large.filter-icon.padding-horizontal.tablet": "878bf77e3c45fadfe89d4bd6109dd7f390abf3f9",
+      "control.large.filter-icon.padding-horizontal.phone": "1f34187b9110c1bb8c7b94a14c26632a4780e224"
     },
     "group": "Component W&M"
   },
