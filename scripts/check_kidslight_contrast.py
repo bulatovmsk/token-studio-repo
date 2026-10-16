@@ -116,6 +116,24 @@ def main():
         resolve(path)
     print(f"PASS references: {len(semantic)} tokens, no missing references or cycles")
 
+    # Audit every composite gradient with a corresponding split-token family.
+    for path in semantic:
+        if not path.startswith("color.") or not str(resolve(path)).startswith("linear-gradient("):
+            continue
+        split = "gradient." + path[len("color."):]
+        if ".fill.fade." in path:
+            split = "gradient.fill.fade." + path.rsplit(".", 1)[1]
+        if path == "color.border.decorative.assistant-gradient":
+            split = "gradient.border.decorative.assistant"
+        keys = [key for key in semantic if key.startswith(split + ".")]
+        if not keys:
+            raise AssertionError(f"Missing split gradient: {path}")
+        keys.sort(key=lambda key: int(key.rsplit("_", 1)[1]))
+        expected = [rgba(color) for color, _ in STOP.findall(resolve(path))]
+        if [rgba(resolve(key)) for key in keys] != expected:
+            raise AssertionError(f"Gradient stops disagree: {path}")
+    print("PASS all composite/split gradients, including fades, borders and components")
+
     backgrounds = [f"color.fill.solid.{level}" for level in ("primary", "secondary", "third", "fourth")]
     backgrounds += [f"color.fill.glassy.{level}" for level in ("primary", "secondary", "third")]
     for family, levels in [("solid", ("primary", "secondary", "third")), ("glassy", ("secondary", "third"))]:
@@ -186,6 +204,23 @@ def main():
     inverse = samples("color.text-icon.inverse.primary")
     for path in ("color.fill.solid.selected", "color.fill.solid.accent", "color.component.button"):
         require(f"inverse.primary / {path}", minimum(inverse, samples(path)), 4.5)
+    dark = samples("color.fill.solid.inverse") + samples("color.background.solid.inverse")
+    dark += [composite(samples("color.fill.glassy.inverse.primary")[0], base)
+             for base in [*roots, rgba("#FFFFFF")]]
+    dark += samples("color.fill.solid.selected") + samples("color.fill.solid.accent") + samples("color.component.button")
+    for role in ("primary", "secondary", "third"):
+        require(f"inverse.{role} / dark and accent surfaces",
+                minimum(samples(f"color.text-icon.inverse.{role}"), dark), 4.5)
+    for role in ("third", "fourth"):
+        light_inverse = [composite(samples(f"color.fill.glassy.inverse.{role}")[0], root) for root in roots]
+        require(f"primary text / weak inverse.{role}", minimum(samples("color.text-icon.primary"), light_inverse), 4.5)
+    for role in ("positive", "negative", "warning"):
+        require(f"primary text / status {role}", minimum(samples("color.text-icon.primary"), samples(f"color.fill.solid.{role}")), 4.5)
+    require("inverse.primary / live", minimum(inverse, samples("color.fill.solid.live")), 4.5)
+    for role in ("negative", "warning"):
+        tinted = [composite(samples(f"color.fill.glassy.{role}")[0], root) for root in roots]
+        require(f"status text / tinted {role}", minimum(samples(f"color.text-icon.{role}"), tinted), 4.5)
+
     require("focus / light controls", minimum(samples("color.border.focus"), palette), 3)
     require("focus / white separation gap", minimum(samples("color.border.focus"), [rgba("#FFFFFF")]), 3)
     for relative in ("themes/Component/WebMobile/KidsLight.json", "themes/Component/TV/KidsLight.json"):

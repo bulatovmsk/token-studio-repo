@@ -1,77 +1,54 @@
-# KidsLight: hierarchy of backgrounds, surfaces and controls
+# KidsLight: iris, amethyst and indigo
 
-The production canvas stays `cobalt200` / `#E6E5F5`. Modal, dialog and sheet
-backgrounds stay `violet200` / `#E3DFFE` (glassy: 88%).
+All background tokens are unchanged from commit 422c727. In particular,
+background.solid.primary remains cobalt200 (#E6E5F5); background.glassy.primary
+and every fade token are unchanged. Secondary remains violet200 (#E3DFFE).
 
-## Why the previous palette flattened the UI
+## Roles
 
-The Figma comparison at node `41920:125304` uses fill.primary for the large
-island and again for a nested sample. Identical opaque fills cannot separate
-from themselves. The previous secondary and third fills were also almost white.
-Text contrast passed, but this did not establish a useful surface hierarchy.
+- Solid primary: white; secondary/third/fourth: amethyst100/200/300.
+- Glassy primary: white 92%; secondary/third: indigo1200 at 6%/16%.
+- Glassy hover: indigo1200 at 12–16% for secondary, 18% for third.
+- Solid hover: indigo100 → amethyst100; amethyst200; amethyst300.
+- Selected: iris800. Accent/focus: iris900. Accent text: iris1100.
+- Solid inverse and promo: indigo1200. Glassy inverse primary: indigo1200 92%.
+- Weak inverse third/fourth remain 30%/10% layers: use dark regular text on them,
+  not white inverse text. These are not standalone dark surfaces.
+- Readable inverse text: white 100%/98%/96%; fourth (40%) is disabled/decorative.
+- Ordinary borders: indigo1200 opaque/85%; contour: indigo1200 22%.
+- Technical placeholder: amethyst100. Skeleton background and loading tint use
+  indigo1200; white shimmer/materials remain neutral.
+- Status colors, named decorative label palettes, brand progress gradient and
+  partner colors retain their purpose. Static black/white stay theme invariant.
+- Shadows and decorative focus use iris. Decorative gradients do not replace
+  the dedicated contrast-bearing focus indicator.
 
-This revision applies role separation from
-[Radix Colors](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale)
-and [Material color roles](https://m3.material.io/styles/color/roles): backgrounds,
-containers, interactive fills, states and borders are separate decisions.
-The numerical palette is custom to Okko; it is not a copied Radix scale.
+The main button is copied exactly from dark Kids, including its four split
+stops: 135deg, amethyst800 0%, iris800 16%, iris800 82%, indigo700 100%.
 
-## Surface roles
+No shared primitive values are changed. Earlier lavender primitives remain for
+compatibility but are no longer consumed by KidsLight. No new primitives added.
 
-| Role | Solid | Glassy | Purpose |
-|---|---|---|---|
-| Primary | white | white 92% | Bright cards and large islands |
-| Secondary | lavender100 / #EEEDF2 | cobalt1300 6% | Subtle nested surfaces |
-| Third | lavender200 / #DEDAE4 | cobalt1300 16% | Denser controls and unselected segments |
-| Fourth | lavender300 / #CDC8D7 | — | Local stronger fill; avoid large areas |
+## Audit and validation
 
-The definitive hex values for lavender100–300 are in Primitives.json. They are
-opaque mixes of cobalt1300 (#301A59) over white at 8%, 16% and 24%, respectively.
-Glassy variants retain alpha and adapt to the parent. Their solid counterparts
-are reference colors on white, not exact matches on every background.
+`python3 scripts/check_kidslight_contrast.py` resolves all 228 semantic tokens,
+checks every composite/split gradient (including borders, fades and components),
+alpha composition across 19 supported contexts, normal and inverse text,
+status pairs, ordinary/active/status borders, focus and surface hierarchy.
+The previously mismatched decorative focus gradient and split stops are fixed.
 
-Solid hover: primary uses violet100 → lavender100; secondary uses lavender200;
-third uses lavender300. Existing two-stop gradient tokens are retained even
-when both stops match, preserving the Tokens Studio/Figma schema.
-Glassy hover: secondary uses cobalt1300 at 12% → 16%; third uses 18%.
-Hover replaces the normal fill rather than stacking another paint over it.
+Normal readable text reaches at least 4.63:1 in checked surface combinations.
+Inverse text reaches at least 4.75:1 on checked dark/accent surfaces.
+Opaque white text on the imported Kids button reaches 5.00:1 across the gradient.
+Ordinary borders: at least 5.07:1; active border: 3.94:1; focus: 3.93:1.
+Status fills require the checked foreground: dark primary on positive/negative/
+warning; white inverse primary on live. Low-alpha status borders are decorative.
 
-Ordinary meaningful borders: solid gray800; glassy gray900 85%.
-Decorative card contours: cobalt1300 22%. Active and focus remain purple.
-The focus ring is 3 px; a white 2 px gap against accent fills is an application
-component requirement. Selected keeps violet700 with opaque white text.
+The 1.10:1 surface hierarchy floor is a design regression guard, not a WCAG
+criterion. Identical opaque primary fills nested inside themselves still need
+a different role or contour. Arbitrary images/video, deeper nesting,
+disabled/decorative colors and application behavior need contextual validation.
+This is not application-wide WCAG certification.
 
-## Limits and validation
-
-Do not nest the same opaque fill inside itself and expect a visible boundary.
-Use secondary/third inside a primary card, or a contour where the same role is
-necessary. A token value cannot change an existing component's role binding.
-The linked Figma sample that nests primary inside primary will still merge.
-
-`python3 scripts/check_kidslight_contrast.py` checks 19 parent contexts, alpha
-composition, gradient stops, references, focus widths and the fixed canvas.
-It also checks a custom 1.10:1 separation floor for card/root and successive
-control levels inside cards. This is a design regression guard, not WCAG.
-
-Minimum ratios over tested normal/hover surfaces and supported nesting:
-
-| Pair | Minimum |
-|---|---:|
-| Primary text | 9.99:1 |
-| Secondary text | 7.66:1 |
-| Third text | 5.61:1 |
-| Accent text | 4.69:1 |
-| Status text | 4.61:1 |
-| Ordinary solid / glassy boundary | 3.39:1 / 3.89:1 |
-| Active boundary | 3.54:1 |
-| Focus | 3.67:1 |
-| White text on selected / CTA gradient | 5.22:1 |
-
-[WCAG non-text contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
-requires 3:1 for meaningful UI cues, not every decorative surface pair.
-Normal text uses the 4.5:1 threshold. Disabled/decorative colors, arbitrary
-images, videos, deeper nesting and actual application interaction are outside
-this palette check. It is not an application-wide WCAG certification.
-
-Only KidsLight consumes the three newly added lavender primitives. Other theme
-values and the production main background are unchanged.
+References: [Radix role separation](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale),
+[WCAG meaningful UI contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
