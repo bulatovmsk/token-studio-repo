@@ -142,7 +142,7 @@
     "fill": {
       "solid": {
         "selected": {
-          "value": "{primitives.violet700}",
+          "value": "{primitives.iris300}",
           "type": "color",
           "description": "Заливка выбранного контрола (selected)."
         },
