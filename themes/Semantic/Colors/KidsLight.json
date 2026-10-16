@@ -93,14 +93,14 @@
         }
       },
       "solid": {
-        "value": "{primitives.violet300}",
+        "value": "{primitives.gray500}",
         "type": "color",
-        "description": "Мягкие обводки поверхностей и разделители. Для значимой границы контрола использовать border.active, для фокуса — border.focus."
+        "description": "Мягкая нейтральная обводка обычных кнопок и поверхностей, в том числе белых на белом. Если граница — единственный значимый признак контрола, использовать border.active."
       },
       "glassy": {
-        "value": "rgba( {primitives.violet700} , 0.24)",
+        "value": "rgba( {primitives.gray900} , 0.16)",
         "type": "color",
-        "description": "Полупрозрачные мягкие обводки поверхностей и разделители. Не использовать как единственный индикатор состояния контрола."
+        "description": "Мягкий полупрозрачный нейтральный контур. Для значимой границы использовать border.active."
       },
       "focus": {
         "value": "{primitives.cobalt1000}",
@@ -113,9 +113,9 @@
         "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
       "contour": {
-        "value": "rgba( {primitives.violet700} , 0.1)",
+        "value": "rgba( {primitives.gray900} , 0.12)",
         "type": "color",
-        "description": "Декоративные контуры айлендов и карточек. Не использовать как единственную значимую границу контрола."
+        "description": "Декоративный контур айлендов и карточек. Для значимого состояния использовать цветной border.active/focus."
       },
       "negative": {
         "value": "{primitives.red1000}",
@@ -139,19 +139,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.violet700} , 0.06)",
+          "value": "rgba( {primitives.gray200} , 0.92)",
           "type": "color",
-          "description": "Полупрозрачная цветная заливка крупных айлендов. Проверять после смешивания с background.primary/secondary и родительской поверхностью; для изображений нужна отдельная проверка."
+          "description": "Светлый айленд с высокой укрывистостью, сохраняющий оттенок подложки. Контраст поверх изображений проверять отдельно."
         },
         "secondary": {
-          "value": "rgba( {primitives.violet700} , 0.12)",
+          "value": "rgba( {primitives.cobalt100} , 0.8)",
           "type": "color",
-          "description": "Полупрозрачная цветная заливка карточек и плашек. Проверять после смешивания с background.primary/secondary и родительской поверхностью; для изображений нужна отдельная проверка."
+          "description": "Светлая слегка тонированная карточка внутри поверхности. Контраст поверх изображений проверять отдельно."
         },
         "third": {
-          "value": "rgba( {primitives.violet700} , 0.18)",
+          "value": "rgba( {primitives.white} , 0.88)",
           "type": "color",
-          "description": "Полупрозрачная цветная заливка небольших контролов. Проверять после смешивания с background.primary/secondary и родительской поверхностью; для изображений нужна отдельная проверка."
+          "description": "Светлый полупрозрачный контрол. На белом фоне отделять контуром; белая альфа не создаёт различия на белой подложке. Контраст поверх изображений проверять отдельно."
         },
         "inverse": {
           "primary": {
@@ -174,14 +174,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.violet700} , 0.12) 0%, rgba( {primitives.violet700} , 0.18) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.cobalt100} , 0.8) 0%, rgba( {primitives.violet100} , 0.88) 100%)",
             "type": "color",
-            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
+            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.violet700} , 0.18) 0%, rgba( {primitives.violet700} , 0.22) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.88) 0%, rgba( {primitives.violet100} , 0.96) 100%)",
             "type": "color",
-            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
+            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
           }
         },
         "warning": {
@@ -311,19 +311,19 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.violet100}",
+          "value": "{primitives.gray200}",
           "type": "color",
-          "description": "Мягкая непрозрачная поверхность крупных айлендов. На белом фоне сохраняет лёгкий оттенок."
+          "description": "Почти белая нейтральная поверхность крупных айлендов, например блока оценки."
         },
         "third": {
-          "value": "{primitives.violet400}",
+          "value": "{primitives.white}",
           "type": "color",
-          "description": "Непрозрачная заливка небольших контролов; насыщеннее secondary."
+          "description": "Белая поверхность обычных контролов. На белом фоне нужна мягкая обводка border.solid/glassy; если граница сама передаёт назначение контрола, использовать border.active."
         },
         "secondary": {
-          "value": "{primitives.violet300}",
+          "value": "{primitives.cobalt100}",
           "type": "color",
-          "description": "Непрозрачная заливка карточек и плашек; заметнее primary на основном и белом фоне."
+          "description": "Слабо тонированная вложенная поверхность карточек и плашек."
         },
         "inverse": {
           "value": "{primitives.gray1200}",
@@ -350,25 +350,25 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "{primitives.cobalt500}",
+          "value": "{primitives.violet200}",
           "type": "color",
-          "description": "Самая насыщенная светлая заливка небольших контролов и нажатия primary; использовать с тёмным text-icon."
+          "description": "Мягкая цветная подложка нажатия или подсветки. Не использовать для всех крупных поверхностей."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.violet100} 0%, {primitives.violet300} 100%)",
+            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.violet100} 100%)",
             "type": "color",
-            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
+            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.violet300} 0%, {primitives.violet400} 100%)",
+            "value": "linear-gradient(45deg, {primitives.cobalt100} 0%, {primitives.violet200} 100%)",
             "type": "color",
-            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
+            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.violet400} 0%, {primitives.cobalt500} 100%)",
+            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.violet100} 100%)",
             "type": "color",
-            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
+            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
           }
         }
       },
@@ -601,31 +601,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.violet100}",
+              "value": "{primitives.gray200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet300}",
+              "value": "{primitives.violet100}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.violet300}",
+              "value": "{primitives.cobalt100}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet400}",
+              "value": "{primitives.violet200}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.violet400}",
+              "value": "{primitives.white}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.cobalt500}",
+              "value": "{primitives.violet100}",
               "type": "color"
             }
           }
@@ -635,21 +635,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.violet700} , 0.12)",
+              "value": "rgba( {primitives.cobalt100} , 0.8)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.violet700} , 0.18)",
+              "value": "rgba( {primitives.violet100} , 0.88)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.violet700} , 0.18)",
+              "value": "rgba( {primitives.white} , 0.88)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.violet700} , 0.22)",
+              "value": "rgba( {primitives.violet100} , 0.96)",
               "type": "color"
             }
           }

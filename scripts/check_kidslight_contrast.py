@@ -153,17 +153,19 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # A tinted fill must remain visible on both bases. This checks hierarchy, not
-    # the 3:1 requirement for meaningful UI graphics, which is checked separately.
+    # Light surfaces lift off the colored canvas. A white control on white
+    # intentionally needs a contour; alpha alone cannot separate white on white.
     for root in roots:
-        levels = [composite(samples(f"color.fill.glassy.{level}")[0], root) for level in ("primary", "secondary", "third")]
-        separations = [contrast(level, root) for level in levels]
-        if not 1 < separations[0] < separations[1] < separations[2]:
-            raise AssertionError("Glassy hierarchy must strengthen primary -> secondary -> third on both bases")
-        for level in ("primary", "secondary", "third"):
-            if samples(f"color.fill.solid.{level}")[0] == root:
-                raise AssertionError(f"Solid {level} disappears on a root background")
-    print("PASS fill hierarchy: glassy adapts to both bases; solid third is not white-on-white")
+        for family in ("solid", "glassy"):
+            for level in ("primary", "secondary", "third"):
+                surface = composite(samples(f"color.fill.{family}.{level}")[0], root)
+                if root == roots[0] and luminance(surface) <= luminance(root):
+                    raise AssertionError(f"{family}.{level} must lift off the colored canvas")
+                if surface == root:
+                    border = samples(f"color.border.{family}")[0]
+                    if contrast(border, surface) <= 1:
+                        raise AssertionError(f"{family}.{level} needs a visible contour on same-color background")
+    print("PASS light surfaces: lift on primary, contour fallback on white (not an AA boundary claim)")
 
     for role in ("primary", "secondary", "third", "accent", "offer", "positive", "negative", "warning"):
         require(f"text-icon.{role} / composed surfaces", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
