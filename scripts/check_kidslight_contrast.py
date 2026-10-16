@@ -7,6 +7,7 @@ This checks the token palette, not application-wide WCAG conformance.
 
 import json
 import re
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -51,10 +52,14 @@ def rgba(value):
         return tuple(int(value[i:i + 2], 16) / 255 for i in (1, 3, 5)) + (1.0,)
     match = re.fullmatch(r"rgba\(\s*(#[0-9a-fA-F]{6})\s*,\s*([\d.]+)\s*\)", value)
     if match:
-        return rgba(match[1])[:3] + (float(match[2]),)
+        alpha = float(match[2])
+        if not 0 <= alpha <= 1:
+            raise ValueError(f"Invalid alpha: {value}")
+        return rgba(match[1])[:3] + (alpha,)
     raise ValueError(f"Unsupported color: {value}")
 
 
+@lru_cache(maxsize=None)
 def samples(path):
     value = resolve(path)
     if not value.startswith("linear-gradient("):
@@ -69,7 +74,11 @@ def samples(path):
         # Include each endpoint and intermediate sRGB colors, not just stops.
         for index in range(1001):
             fraction = index / 1000
-            colors.append(tuple(x + (y - x) * fraction for x, y in zip(a, b)))
+            alpha = a[3] + (b[3] - a[3]) * fraction
+            # Premultiply before interpolation so transparent stops do not add color.
+            channels = tuple((x * a[3] * (1 - fraction) + y * b[3] * fraction) / alpha if alpha else 0
+                             for x, y in zip(a[:3], b[:3]))
+            colors.append(channels + (alpha,))
     return colors
 
 
@@ -107,8 +116,7 @@ def main():
         resolve(path)
     print(f"PASS references: {len(semantic)} tokens, no missing references or cycles")
 
-    backgrounds = ["color.background.solid.primary", "color.background.solid.secondary"]
-    backgrounds += [f"color.fill.solid.{level}" for level in ("primary", "secondary", "third", "fourth")]
+    backgrounds = [f"color.fill.solid.{level}" for level in ("primary", "secondary", "third", "fourth")]
     backgrounds += [f"color.fill.glassy.{level}" for level in ("primary", "secondary", "third")]
     for family, levels in [("solid", ("primary", "secondary", "third")), ("glassy", ("secondary", "third"))]:
         for level in levels:
@@ -120,13 +128,54 @@ def main():
                 raise AssertionError(f"Composite and variable-bound stops disagree: {path}")
     print("PASS hover gradients: composite paints match variable-bound stops")
 
-    palette = [color for path in backgrounds for color in samples(path)]
-    if any(color[3] != 1 for color in palette):
-        raise AssertionError("Supported light control backgrounds must remain opaque")
+    for path in backgrounds:
+        alphas = [color[3] for color in samples(path)]
+        if ".glassy." in path:
+            if not all(0 < alpha < 1 for alpha in alphas):
+                raise AssertionError(f"Glassy must retain transparency: {path}")
+        elif any(alpha != 1 for alpha in alphas):
+            raise AssertionError(f"Solid must remain opaque: {path}")
+
+    # Test both root backgrounds, with optional primary island and secondary card.
+    # Compose every layer, including gradients, before checking foreground contrast.
+    roots = [samples(f"color.background.solid.{role}")[0] for role in ("primary", "secondary")]
+    contexts = set(roots)
+    for root in roots:
+        islands = [composite(samples(f"color.fill.{family}.primary")[0], root) for family in ("solid", "glassy")]
+        contexts.update(islands)
+        for parent in [root, *islands]:
+            for family in ("solid", "glassy"):
+                contexts.add(composite(samples(f"color.fill.{family}.secondary")[0], parent))
+    pairs = {(color, color) for color in contexts}
+    for parent in contexts:
+        for path in backgrounds:
+            pairs.update((composite(fill, parent), parent) for fill in samples(path))
+    palette = {surface for surface, _ in pairs}
+    print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
+
+    # A tinted fill must remain visible on both bases. This checks hierarchy, not
+    # the 3:1 requirement for meaningful UI graphics, which is checked separately.
+    for root in roots:
+        levels = [composite(samples(f"color.fill.glassy.{level}")[0], root) for level in ("primary", "secondary", "third")]
+        separations = [contrast(level, root) for level in levels]
+        if not 1 < separations[0] < separations[1] < separations[2]:
+            raise AssertionError("Glassy hierarchy must strengthen primary -> secondary -> third on both bases")
+        for level in ("primary", "secondary", "third"):
+            if samples(f"color.fill.solid.{level}")[0] == root:
+                raise AssertionError(f"Solid {level} disappears on a root background")
+    print("PASS fill hierarchy: glassy adapts to both bases; solid third is not white-on-white")
+
     for role in ("primary", "secondary", "third", "accent", "offer", "positive", "negative", "warning"):
-        require(f"text-icon.{role} / light controls", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
-    for role in ("solid", "glassy", "active", "negative", "warning", "negative-glassy", "warning-glassy"):
-        require(f"border.{role} / light controls", minimum(samples(f"color.border.{role}"), palette), 3)
+        require(f"text-icon.{role} / composed surfaces", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
+    for role in ("active", "negative", "warning"):
+        paint = samples(f"color.border.{role}")[0]
+        # Stroke may be inside or outside. Test its rendered color against both
+        # adjacent surfaces rather than assuming the translucent stroke is opaque.
+        worst = min(contrast(composite(paint, under), adjacent)
+                    for surface, parent in pairs
+                    for under in (surface, parent)
+                    for adjacent in (surface, parent))
+        require(f"border.{role} / both adjacent surfaces", worst, 3)
 
     inverse = samples("color.text-icon.inverse.primary")
     for path in ("color.fill.solid.selected", "color.fill.solid.accent", "color.component.button"):

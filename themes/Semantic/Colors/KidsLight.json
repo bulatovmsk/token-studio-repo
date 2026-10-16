@@ -93,14 +93,14 @@
         }
       },
       "solid": {
-        "value": "{primitives.violet900}",
+        "value": "{primitives.violet300}",
         "type": "color",
-        "description": "Значимая граница контрола на светлых фонах KidsLight; непрозрачный контур с контрастом не менее 3:1. Для декоративных разделителей использовать border.contour."
+        "description": "Мягкие обводки поверхностей и разделители. Для значимой границы контрола использовать border.active, для фокуса — border.focus."
       },
       "glassy": {
-        "value": "{primitives.violet900}",
+        "value": "rgba( {primitives.violet700} , 0.24)",
         "type": "color",
-        "description": "Значимая граница контрола на светлых фонах KidsLight; непрозрачный контур с контрастом не менее 3:1. Для декоративных разделителей использовать border.contour."
+        "description": "Полупрозрачные мягкие обводки поверхностей и разделители. Не использовать как единственный индикатор состояния контрола."
       },
       "focus": {
         "value": "{primitives.cobalt1000}",
@@ -108,14 +108,14 @@
         "description": "Клавиатурный/ТВ фокус. На акцентной заливке отделять рамку белым промежутком 2 px; сохранять индикатор selected."
       },
       "active": {
-        "value": "{primitives.violet900}",
+        "value": "rgba( {primitives.cobalt1100} , 0.8)",
         "type": "color",
-        "description": "Обводка активных элементов, например, выбранный сезон"
+        "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
       "contour": {
-        "value": "rgba( {primitives.black} , 0.1)",
+        "value": "rgba( {primitives.violet700} , 0.1)",
         "type": "color",
-        "description": "Декоративные разделители и контуры контента. Не использовать как единственную значимую границу контрола."
+        "description": "Декоративные контуры айлендов и карточек. Не использовать как единственную значимую границу контрола."
       },
       "negative": {
         "value": "{primitives.red1000}",
@@ -126,30 +126,32 @@
         "type": "color"
       },
       "negative-glassy": {
-        "value": "{primitives.red1000}",
-        "type": "color"
+        "value": "rgba( {primitives.red1000} , 0.32)",
+        "type": "color",
+        "description": "Мягкий декоративный контур статуса; дополнить соответствующим текстом или иконкой. Для самостоятельного значимого контура использовать непрозрачный вариант."
       },
       "warning-glassy": {
-        "value": "{primitives.yellow1100}",
-        "type": "color"
+        "value": "rgba( {primitives.yellow1100} , 0.32)",
+        "type": "color",
+        "description": "Мягкий декоративный контур статуса; дополнить соответствующим текстом или иконкой. Для самостоятельного значимого контура использовать непрозрачный вариант."
       }
     },
     "fill": {
       "glassy": {
         "primary": {
-          "value": "{primitives.violet400}",
+          "value": "rgba( {primitives.violet700} , 0.06)",
           "type": "color",
-          "description": "В KidsLight непрозрачная подложка контрола для стабильного контраста, включая размещение над изображением."
+          "description": "Полупрозрачная цветная заливка крупных айлендов. Проверять после смешивания с background.primary/secondary и родительской поверхностью; для изображений нужна отдельная проверка."
         },
         "secondary": {
-          "value": "{primitives.violet200}",
+          "value": "rgba( {primitives.violet700} , 0.12)",
           "type": "color",
-          "description": "В KidsLight непрозрачная подложка контрола для стабильного контраста, включая размещение над изображением."
+          "description": "Полупрозрачная цветная заливка карточек и плашек. Проверять после смешивания с background.primary/secondary и родительской поверхностью; для изображений нужна отдельная проверка."
         },
         "third": {
-          "value": "{primitives.white}",
+          "value": "rgba( {primitives.violet700} , 0.18)",
           "type": "color",
-          "description": "В KidsLight непрозрачная подложка контрола для стабильного контраста, включая размещение над изображением."
+          "description": "Полупрозрачная цветная заливка небольших контролов. Проверять после смешивания с background.primary/secondary и родительской поверхностью; для изображений нужна отдельная проверка."
         },
         "inverse": {
           "primary": {
@@ -172,14 +174,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.violet300} 0%, {primitives.violet300} 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.violet700} , 0.12) 0%, rgba( {primitives.violet700} , 0.18) 100%)",
             "type": "color",
-            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
+            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.violet200} 0%, {primitives.violet200} 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.violet700} , 0.18) 0%, rgba( {primitives.violet700} , 0.22) 100%)",
             "type": "color",
-            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
+            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
           }
         },
         "warning": {
@@ -309,18 +311,19 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.violet400}",
+          "value": "{primitives.violet100}",
           "type": "color",
-          "description": "Крупные кликабельные элементы, баннеры"
+          "description": "Мягкая непрозрачная поверхность крупных айлендов. На белом фоне сохраняет лёгкий оттенок."
         },
         "third": {
-          "value": "{primitives.white}",
-          "type": "color"
+          "value": "{primitives.violet400}",
+          "type": "color",
+          "description": "Непрозрачная заливка небольших контролов; насыщеннее secondary."
         },
         "secondary": {
-          "value": "{primitives.violet200}",
+          "value": "{primitives.violet300}",
           "type": "color",
-          "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
+          "description": "Непрозрачная заливка карточек и плашек; заметнее primary на основном и белом фоне."
         },
         "inverse": {
           "value": "{primitives.gray1200}",
@@ -349,23 +352,23 @@
         "fourth": {
           "value": "{primitives.cobalt500}",
           "type": "color",
-          "description": "Самая насыщенная светлая заливка; в том числе нажатие primary. Использовать с тёмным text-icon."
+          "description": "Самая насыщенная светлая заливка небольших контролов и нажатия primary; использовать с тёмным text-icon."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.cobalt600} 0%, {primitives.cobalt600} 100%)",
+            "value": "linear-gradient(45deg, {primitives.violet100} 0%, {primitives.violet300} 100%)",
             "type": "color",
-            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
+            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.violet300} 0%, {primitives.violet300} 100%)",
+            "value": "linear-gradient(45deg, {primitives.violet300} 0%, {primitives.violet400} 100%)",
             "type": "color",
-            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
+            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.violet200} 0%, {primitives.violet200} 100%)",
+            "value": "linear-gradient(45deg, {primitives.violet400} 0%, {primitives.cobalt500} 100%)",
             "type": "color",
-            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
+            "description": "Цветной hover/focus: плавное усиление заливки. Для клавиатурного фокуса дополнительно использовать border.focus."
           }
         }
       },
@@ -598,11 +601,11 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.cobalt600}",
+              "value": "{primitives.violet100}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.cobalt600}",
+              "value": "{primitives.violet300}",
               "type": "color"
             }
           },
@@ -612,17 +615,17 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet300}",
+              "value": "{primitives.violet400}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.violet200}",
+              "value": "{primitives.violet400}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet200}",
+              "value": "{primitives.cobalt500}",
               "type": "color"
             }
           }
@@ -632,21 +635,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "{primitives.violet300}",
+              "value": "rgba( {primitives.violet700} , 0.12)",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet300}",
+              "value": "rgba( {primitives.violet700} , 0.18)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.violet200}",
+              "value": "rgba( {primitives.violet700} , 0.18)",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet200}",
+              "value": "rgba( {primitives.violet700} , 0.22)",
               "type": "color"
             }
           }
