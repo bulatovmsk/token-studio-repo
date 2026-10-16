@@ -11,8 +11,8 @@ and all solid fills are unchanged by this glassy revision.
 | primary | iris1100 | 4% | regular dark text |
 | secondary | iris1100 | 8% | regular dark text |
 | third | iris1100 | 12% | regular dark text |
-| hover-focus.secondary | iris1100 → iris900 | 10% → 14% | regular dark text |
-| hover-focus.third | iris1100 → iris900 | 14% → 18% | regular dark text |
+| hover-focus.secondary | white → iris100 | 70% → 75% | regular dark text |
+| hover-focus.third | white → iris100 | 90% → 85% | regular dark text |
 | inverse.primary | iris1200 | 92% | inverse light text |
 | inverse.third | iris1200 | 84% | inverse light text |
 | inverse.fourth | iris1200 | 76% | inverse light text |
@@ -24,8 +24,8 @@ parent. These are alternative strengths on a parent, not mandatory nesting
 levels. A raised white card uses solid.primary. Alpha accumulates when fills
 are nested; deeper nesting and arbitrary images need contextual checks.
 
-Hover replaces the normal paint, not an extra paint above it. The 45-degree gradient moves from darker iris1100 to brighter iris900,
-with increasing alpha to keep both ends denser than Rest. Focus still requires border.focus.
+Hover replaces the normal paint, not an extra paint above it. The 45-degree gradient highlights the control with white → iris100,
+reversing the previous near-invisible darkening. High opacity is confined to hover. Focus still requires border.focus.
 
 Inverse now consistently means a dark surface for light text. This changes
 inverse.third/fourth from weak overlays to readable dark containers. Components
@@ -49,7 +49,8 @@ Shared primitive values remain unchanged.
 `python3 scripts/check_kidslight_contrast.py` checks all references, composite
 and split gradients, transparency throughout glassy, parent composition,
 normal/inverse/status text, borders and focus. Ordinary glassy levels darken a
-common parent progressively; hover increases density. The 1.05:1 neighboring
+common parent progressively; hover lightens Rest. A custom 1.15:1 minimum checks hover/Rest separation on
+the supported root backgrounds; this is a design guard, not a WCAG criterion. The 1.05:1 neighboring
 level floor is a custom design regression guard, not a WCAG requirement.
 Solid surfaces retain their separate 1.10:1 hierarchy guard.
 

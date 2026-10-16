@@ -197,9 +197,12 @@ def main():
     for role in ("secondary", "third"):
         for parent in roots:
             normal = composite(samples(f"color.fill.glassy.{role}")[0], parent)
-            if any(luminance(composite(hover, parent)) >= luminance(normal)
+            if any(luminance(composite(hover, parent)) <= luminance(normal)
                    for hover in samples(f"color.fill.glassy.hover-focus.{role}")):
-                raise AssertionError(f"Hover must increase density: {role}")
+                raise AssertionError(f"Hover must visibly lighten Rest: {role}")
+            require(f"{role} hover / Rest separation",
+                    min(contrast(composite(hover, parent), normal)
+                        for hover in samples(f"color.fill.glassy.hover-focus.{role}")), 1.15)
     if resolve("color.background.solid.primary").upper() != "#E6E5F5":
         raise AssertionError("The production canvas color must not change")
 

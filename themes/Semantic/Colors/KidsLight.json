@@ -180,14 +180,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.1) 0%, rgba( {primitives.iris900} , 0.14) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.7) 0%, rgba( {primitives.iris100} , 0.75) 100%)",
             "type": "color",
-            "description": "Hover заменяет обычную заливку, не накладывается поверх неё. Фокус дополнительно обозначается border.focus."
+            "description": "Светлый iris-градиент при наведении заметно высветляет Rest. Заменяет обычную заливку, не накладывается сверху. Фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.14) 0%, rgba( {primitives.iris900} , 0.18) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.9) 0%, rgba( {primitives.iris100} , 0.85) 100%)",
             "type": "color",
-            "description": "Hover заменяет обычную заливку, не накладывается поверх неё. Фокус дополнительно обозначается border.focus."
+            "description": "Светлый iris-градиент при наведении заметно высветляет Rest. Заменяет обычную заливку, не накладывается сверху. Фокус дополнительно обозначается border.focus."
           }
         },
         "warning": {
@@ -643,21 +643,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1100} , 0.1)",
+              "value": "rgba( {primitives.white} , 0.7)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris900} , 0.14)",
+              "value": "rgba( {primitives.iris100} , 0.75)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1100} , 0.14)",
+              "value": "rgba( {primitives.white} , 0.9)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris900} , 0.18)",
+              "value": "rgba( {primitives.iris100} , 0.85)",
               "type": "color"
             }
           }
