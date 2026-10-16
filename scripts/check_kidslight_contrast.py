@@ -139,6 +139,9 @@ def main():
     # Test both root backgrounds, with optional primary island and secondary card.
     # Compose every layer, including gradients, before checking foreground contrast.
     roots = [samples(f"color.background.solid.{role}")[0] for role in ("primary", "secondary")]
+    # Include translucent modal backgrounds over the canvas and white surfaces.
+    modal = samples("color.background.glassy.secondary")[0]
+    roots += [composite(modal, base) for base in (roots[0], rgba("#FFFFFF"))]
     contexts = set(roots)
     for root in roots:
         islands = [composite(samples(f"color.fill.{family}.primary")[0], root) for family in ("solid", "glassy")]

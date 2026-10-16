@@ -451,9 +451,9 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{primitives.white}",
+          "value": "{primitives.violet200}",
           "type": "color",
-          "description": "Для окон"
+          "description": "Цветной фон диалогов, модалок и bottom sheet. Карточки и контролы внутри используют светлые fill-токены."
         },
         "inverse": {
           "value": "{primitives.gray1200}",
@@ -462,8 +462,9 @@
       },
       "glassy": {
         "secondary": {
-          "value": "rgba( {primitives.white} , 0.88)",
-          "type": "color"
+          "value": "rgba( {primitives.violet200} , 0.88)",
+          "type": "color",
+          "description": "Цветной фон диалогов, модалок и bottom sheet. Карточки и контролы внутри используют светлые fill-токены. Прозрачность 88%; контраст поверх изображений проверять отдельно."
         },
         "primary": {
           "value": "rgba( {primitives.cobalt200} , 0.88)",
