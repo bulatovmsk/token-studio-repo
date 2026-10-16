@@ -294,7 +294,7 @@
       },
       "solid": {
         "selected": {
-          "value": "{primitives.violet700}",
+          "value": "{primitives.iris600}",
           "type": "color",
           "description": "Заливка выбранного контрола (selected)."
         },
