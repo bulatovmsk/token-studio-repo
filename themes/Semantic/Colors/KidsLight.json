@@ -93,14 +93,14 @@
         }
       },
       "solid": {
-        "value": "{primitives.gray500}",
+        "value": "{primitives.gray800}",
         "type": "color",
-        "description": "Мягкая нейтральная обводка обычных кнопок и поверхностей, в том числе белых на белом. Если граница — единственный значимый признак контрола, использовать border.active."
+        "description": "Значимая граница обычного контрола. Для декоративных границ карточек использовать border.contour."
       },
       "glassy": {
-        "value": "rgba( {primitives.gray900} , 0.16)",
+        "value": "rgba( {primitives.gray900} , 0.85)",
         "type": "color",
-        "description": "Мягкий полупрозрачный нейтральный контур. Для значимой границы использовать border.active."
+        "description": "Полупрозрачная значимая граница обычного контрола на проверенных светлых поверхностях."
       },
       "focus": {
         "value": "{primitives.cobalt1000}",
@@ -113,9 +113,9 @@
         "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
       "contour": {
-        "value": "rgba( {primitives.gray900} , 0.12)",
+        "value": "rgba( {primitives.cobalt1300} , 0.22)",
         "type": "color",
-        "description": "Декоративный контур айлендов и карточек. Для значимого состояния использовать цветной border.active/focus."
+        "description": "Декоративный приглушённый цветной контур карточек. Значимая граница контрола — border.solid/glassy."
       },
       "negative": {
         "value": "{primitives.red1000}",
@@ -139,19 +139,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.gray200} , 0.92)",
+          "value": "rgba( {primitives.white} , 0.92)",
           "type": "color",
-          "description": "Светлый айленд с высокой укрывистостью, сохраняющий оттенок подложки. Контраст поверх изображений проверять отдельно."
+          "description": "Светлая карточка с альфой 92%."
         },
         "secondary": {
-          "value": "rgba( {primitives.cobalt100} , 0.8)",
+          "value": "rgba( {primitives.cobalt1300} , 0.06)",
           "type": "color",
-          "description": "Светлая слегка тонированная карточка внутри поверхности. Контраст поверх изображений проверять отдельно."
+          "description": "Приглушённый лавандовый слой для вложенных контролов. Альфа сохраняет различие с подложкой; на изображениях проверять отдельно."
         },
         "third": {
-          "value": "rgba( {primitives.white} , 0.88)",
+          "value": "rgba( {primitives.cobalt1300} , 0.16)",
           "type": "color",
-          "description": "Светлый полупрозрачный контрол. На белом фоне отделять контуром; белая альфа не создаёт различия на белой подложке. Контраст поверх изображений проверять отдельно."
+          "description": "Приглушённый лавандовый слой для вложенных контролов. Альфа сохраняет различие с подложкой; на изображениях проверять отдельно."
         },
         "inverse": {
           "primary": {
@@ -174,14 +174,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.cobalt100} , 0.8) 0%, rgba( {primitives.violet100} , 0.88) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.cobalt1300} , 0.12) 0%, rgba( {primitives.cobalt1300} , 0.16) 100%)",
             "type": "color",
-            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.88) 0%, rgba( {primitives.violet100} , 0.96) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.cobalt1300} , 0.18) 0%, rgba( {primitives.cobalt1300} , 0.18) 100%)",
             "type": "color",
-            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           }
         },
         "warning": {
@@ -311,19 +311,19 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.gray200}",
-          "type": "color",
-          "description": "Почти белая нейтральная поверхность крупных айлендов, например блока оценки."
-        },
-        "third": {
           "value": "{primitives.white}",
           "type": "color",
-          "description": "Белая поверхность обычных контролов. На белом фоне нужна мягкая обводка border.solid/glassy; если граница сама передаёт назначение контрола, использовать border.active."
+          "description": "Светлая карточка; вложенные контролы используют secondary/third."
+        },
+        "third": {
+          "value": "{primitives.lavender200}",
+          "type": "color",
+          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "secondary": {
-          "value": "{primitives.cobalt100}",
+          "value": "{primitives.lavender100}",
           "type": "color",
-          "description": "Слабо тонированная вложенная поверхность карточек и плашек."
+          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "inverse": {
           "value": "{primitives.gray1200}",
@@ -350,25 +350,25 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "{primitives.violet200}",
+          "value": "{primitives.lavender300}",
           "type": "color",
-          "description": "Мягкая цветная подложка нажатия или подсветки. Не использовать для всех крупных поверхностей."
+          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.violet100} 100%)",
+            "value": "linear-gradient(45deg, {primitives.violet100} 0%, {primitives.lavender100} 100%)",
             "type": "color",
-            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.cobalt100} 0%, {primitives.violet200} 100%)",
+            "value": "linear-gradient(45deg, {primitives.lavender200} 0%, {primitives.lavender200} 100%)",
             "type": "color",
-            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.violet100} 100%)",
+            "value": "linear-gradient(45deg, {primitives.lavender300} 0%, {primitives.lavender300} 100%)",
             "type": "color",
-            "description": "Лёгкий цветной оттенок поверх светлой заливки при hover/focus. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           }
         }
       },
@@ -602,31 +602,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.gray200}",
+              "value": "{primitives.violet100}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet100}",
+              "value": "{primitives.lavender100}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.cobalt100}",
+              "value": "{primitives.lavender200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet200}",
+              "value": "{primitives.lavender200}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.white}",
+              "value": "{primitives.lavender300}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.violet100}",
+              "value": "{primitives.lavender300}",
               "type": "color"
             }
           }
@@ -636,21 +636,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.cobalt100} , 0.8)",
+              "value": "rgba( {primitives.cobalt1300} , 0.12)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.violet100} , 0.88)",
+              "value": "rgba( {primitives.cobalt1300} , 0.16)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.88)",
+              "value": "rgba( {primitives.cobalt1300} , 0.18)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.violet100} , 0.96)",
+              "value": "rgba( {primitives.cobalt1300} , 0.18)",
               "type": "color"
             }
           }

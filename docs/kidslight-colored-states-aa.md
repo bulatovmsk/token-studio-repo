@@ -1,91 +1,77 @@
-# KidsLight: светлые поверхности и цветные состояния
+# KidsLight: hierarchy of backgrounds, surfaces and controls
 
-Основной фон — `cobalt200`, `#E6E5F5`. Фон диалогов, модалок и bottom sheet
-`background.solid.secondary` — `violet200`, `#E3DFFE`;
-`background.glassy.secondary` — тот же цвет с альфой 88%.
-Светлые fill-токены используются для карточек и контролов внутри этих фонов.
-На экране фильма крупные айленды и обычные кнопки должны оставаться светлыми.
-Цветные акценты используются для главного действия, selected, hover и focus.
+The production canvas stays `cobalt200` / `#E6E5F5`. Modal, dialog and sheet
+backgrounds stay `violet200` / `#E3DFFE` (glassy: 88%).
 
-## Роли поверхностей
+## Why the previous palette flattened the UI
 
-| Роль | Solid | Glassy | Назначение |
+The Figma comparison at node `41920:125304` uses fill.primary for the large
+island and again for a nested sample. Identical opaque fills cannot separate
+from themselves. The previous secondary and third fills were also almost white.
+Text contrast passed, but this did not establish a useful surface hierarchy.
+
+This revision applies role separation from
+[Radix Colors](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale)
+and [Material color roles](https://m3.material.io/styles/color/roles): backgrounds,
+containers, interactive fills, states and borders are separate decisions.
+The numerical palette is custom to Okko; it is not a copied Radix scale.
+
+## Surface roles
+
+| Role | Solid | Glassy | Purpose |
 |---|---|---|---|
-| Primary | `gray200`, `#F5F4F6` | `gray200` 92% | Почти белые крупные айленды, например блок оценки |
-| Secondary | `cobalt100`, `#F0F0F9` | `cobalt100` 80% | Слегка тонированные карточки и вложенные поверхности |
-| Third | `white`, `#FFFFFF` | `white` 88% | Светлые обычные контролы |
-| Fourth | `violet200`, `#E3DFFE` | — | Локальная подсветка и нажатие |
+| Primary | white | white 92% | Bright cards and large islands |
+| Secondary | lavender100 / #EEEDF2 | cobalt1300 6% | Subtle nested surfaces |
+| Third | lavender200 / #DEDAE4 | cobalt1300 16% | Denser controls and unselected segments |
+| Fourth | lavender300 / #CDC8D7 | — | Local stronger fill; avoid large areas |
 
-Это роли поверхностей, а не шкала возрастающей насыщенности фиолетового.
-Прозрачность сохраняет влияние подложки, при этом основные площади остаются
-светлыми. Результаты смешивания glassy с одним фоном:
+The definitive hex values for lavender100–300 are in Primitives.json. They are
+opaque mixes of cobalt1300 (#301A59) over white at 8%, 16% and 24%, respectively.
+Glassy variants retain alpha and adapt to the parent. Their solid counterparts
+are reference colors on white, not exact matches on every background.
 
-| Glassy | На основном фоне | На белом фоне |
-|---|---|---|
-| Primary | `#F4F3F6` | `#F6F5F7` |
-| Secondary | `#EEEEF8` | `#F3F3FA` |
-| Third | `#FCFCFE` | `#FFFFFF` |
+Solid hover: primary uses violet100 → lavender100; secondary uses lavender200;
+third uses lavender300. Existing two-stop gradient tokens are retained even
+when both stops match, preserving the Tokens Studio/Figma schema.
+Glassy hover: secondary uses cobalt1300 at 12% → 16%; third uses 18%.
+Hover replaces the normal fill rather than stacking another paint over it.
 
-Белая альфа на белом фоне не создаёт различия. Для белых контролов на
-белых вложенных поверхностях нужна обводка. Мягкие обычные контуры: `border.solid` —
-`gray500`, `border.glassy` — `gray900` 16%, `border.contour` — `gray900` 12%.
-Если граница является единственным значимым признаком контрола, используется
-контрастный `border.active`; декоративный контур не является AA-границей.
+Ordinary meaningful borders: solid gray800; glassy gray900 85%.
+Decorative card contours: cobalt1300 22%. Active and focus remain purple.
+The focus ring is 3 px; a white 2 px gap against accent fills is an application
+component requirement. Selected keeps violet700 with opaque white text.
 
-## Состояния
+## Limits and validation
 
-| Заливка | Hover/focus-градиент |
-|---|---|
-| Solid primary | `gray200 → violet100` |
-| Solid secondary | `cobalt100 → violet200` |
-| Solid third | `white → violet100` |
-| Glassy secondary | `cobalt100` 80% → `violet100` 88% |
-| Glassy third | `white` 88% → `violet100` 96% |
+Do not nest the same opaque fill inside itself and expect a visible boundary.
+Use secondary/third inside a primary card, or a contour where the same role is
+necessary. A token value cannot change an existing component's role binding.
+The linked Figma sample that nests primary inside primary will still merge.
 
-Hover добавляет лёгкий цветной оттенок. Составные градиенты и их переменные
-`gradient.fill.*.hover-focus.*.Step_1/Step_2` согласованы.
-Selected сохраняет `violet700`; главная кнопка — `violet700 → cobalt1000`.
-Текст на этих заливках — `text-icon.inverse.primary`, белый без прозрачности.
+`python3 scripts/check_kidslight_contrast.py` checks 19 parent contexts, alpha
+composition, gradient stops, references, focus widths and the fixed canvas.
+It also checks a custom 1.10:1 separation floor for card/root and successive
+control levels inside cards. This is a design regression guard, not WCAG.
 
-`border.active` — `cobalt1100` 80%, `border.focus` — `cobalt1000`.
-Focus 3 px отделяется белым промежутком 2 px от акцентной заливки; геометрия
-промежутка и дополнительный маркер selected задаются компонентом приложения.
-Текстовые токены и статусные цвета сохраняют значения предыдущей итерации.
+Minimum ratios over tested normal/hover surfaces and supported nesting:
 
-## Проверка
-
-```sh
-python3 scripts/check_kidslight_contrast.py
-```
-
-Проверяются алиасы, циклы, битые ссылки, согласованность составных и раздельных
-градиентов, прозрачность glassy и непрозрачность solid. Проверка поверхностей
-теперь требует высветления относительно основного фона и контур при совпадении
-цвета контрола с фоном. Монотонная фиолетовая шкала больше не является условием.
-
-Контраст рассчитывается после последовательного смешивания:
-основной/цветной secondary-фон (включая glassy secondary поверх основного
-и белого фона) → необязательный primary-айленд → необязательная
-secondary-карточка → заливка/hover контрола → текст/контур. Проверяются
-solid и glassy-контейнеры, 1001 цвет на сегмент градиента с учётом альфы,
-обе стороны активного контура. Порог оценивается без округления.
-
-| Пара, минимум по проверенным сочетаниям | Контраст |
+| Pair | Minimum |
 |---|---:|
-| Основной / вторичный текст | 15,41:1 / 10,62:1 |
-| Третичный текст | 8,73:1 |
-| Акцентный текст | 7,30:1 |
-| Положительный / отрицательный текст | 7,20:1 / 7,18:1 |
-| Предупреждение и оффер | 7,26:1 |
-| Активный контур / соседние поверхности | 5,05:1 |
-| Белый текст / selected и градиент кнопки | 5,22:1 |
-| Focus / светлые поверхности | 5,71:1 |
+| Primary text | 9.99:1 |
+| Secondary text | 7.66:1 |
+| Third text | 5.61:1 |
+| Accent text | 4.69:1 |
+| Status text | 4.61:1 |
+| Ordinary solid / glassy boundary | 3.39:1 / 3.89:1 |
+| Active boundary | 3.54:1 |
+| Focus | 3.67:1 |
+| White text on selected / CTA gradient | 5.22:1 |
 
-Целевые требования: [контраст текста WCAG AA](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
-— 4,5:1 для обычного текста; [нетекстовый контраст AA](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
-— 3:1 для значимых графических элементов.
+[WCAG non-text contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html)
+requires 3:1 for meaningful UI cues, not every decorative surface pair.
+Normal text uses the 4.5:1 threshold. Disabled/decorative colors, arbitrary
+images, videos, deeper nesting and actual application interaction are outside
+this palette check. It is not an application-wide WCAG certification.
 
-Имена, типы токенов и Figma mappings сохранены. Отдельные pressed-токены и
-hover главной кнопки не добавлялись. Поверх изображений, видео, при иной
-вложенности и других сочетаниях нужна проверка фактического фона. Скрипт
-проверяет палитру, а не соответствие всего приложения WCAG AA.
+Only KidsLight consumes the three newly added lavender primitives. Other theme
+values and the production main background are unchanged.

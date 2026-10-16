@@ -156,23 +156,24 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # Light surfaces lift off the colored canvas. A white control on white
-    # intentionally needs a contour; alpha alone cannot separate white on white.
+    # Cards lift off roots; nested controls gain density instead of whitening.
+    # 1.10 is a design regression floor, not a WCAG requirement for surfaces.
     for root in roots:
         for family in ("solid", "glassy"):
-            for level in ("primary", "secondary", "third"):
-                surface = composite(samples(f"color.fill.{family}.{level}")[0], root)
-                if root == roots[0] and luminance(surface) <= luminance(root):
-                    raise AssertionError(f"{family}.{level} must lift off the colored canvas")
-                if surface == root:
-                    border = samples(f"color.border.{family}")[0]
-                    if contrast(border, surface) <= 1:
-                        raise AssertionError(f"{family}.{level} needs a visible contour on same-color background")
-    print("PASS light surfaces: lift on primary, contour fallback on white (not an AA boundary claim)")
+            card = composite(samples(f"color.fill.{family}.primary")[0], root)
+            require(f"{family} card / root separation", contrast(card, root), 1.10)
+            levels = [composite(samples(f"color.fill.{family}.{level}")[0], card)
+                      for level in ("secondary", "third")]
+            if not luminance(card) > luminance(levels[0]) > luminance(levels[1]):
+                raise AssertionError(f"{family} controls must gain density inside cards")
+            require(f"{family} card / secondary separation", contrast(levels[0], card), 1.10)
+            require(f"{family} secondary / third separation", contrast(levels[1], levels[0]), 1.10)
+    if resolve("color.background.solid.primary").upper() != "#E6E5F5":
+        raise AssertionError("The production canvas color must not change")
 
     for role in ("primary", "secondary", "third", "accent", "offer", "positive", "negative", "warning"):
         require(f"text-icon.{role} / composed surfaces", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
-    for role in ("active", "negative", "warning"):
+    for role in ("solid", "glassy", "active", "negative", "warning"):
         paint = samples(f"color.border.{role}")[0]
         # Stroke may be inside or outside. Test its rendered color against both
         # adjacent surfaces rather than assuming the translucent stroke is opaque.
