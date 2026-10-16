@@ -10,42 +10,45 @@
         "type": "color"
       },
       "third": {
-        "value": "rgba( {primitives.black} , 0.56)",
-        "type": "color"
+        "value": "{primitives.gray900}",
+        "type": "color",
+        "description": "Читаемые подписи на светлых фонах и заливках KidsLight; непрозрачный цвет сохраняет контраст во всех состояниях."
       },
       "fourth": {
         "value": "rgba( {primitives.black} , 0.4)",
-        "type": "color"
+        "type": "color",
+        "description": "Только неактивные элементы и декоративные детали. Для читаемых подписей использовать text-icon.third."
       },
       "accent": {
-        "value": "{primitives.cobalt1000}",
+        "value": "{primitives.cobalt1100}",
         "type": "color",
         "description": "Замена для {{ Text & icon/on Light/Accent }}"
       },
       "offer": {
-        "value": "{primitives.yellow500}",
+        "value": "{primitives.yellow1100}",
         "type": "color",
-        "description": "Ссылки"
+        "description": "Текст офферов и ссылки на светлых заливках; контраст не менее 4,5:1."
       },
       "positive": {
-        "value": "{primitives.green900}",
+        "value": "{primitives.green1100}",
         "type": "color",
         "description": "Положительные события"
       },
       "negative": {
-        "value": "{primitives.red900}",
+        "value": "{primitives.red1000}",
         "type": "color",
         "description": "Ошибки, критичные предупреждения"
       },
       "warning": {
-        "value": "{primitives.yellow800}",
+        "value": "{primitives.yellow1100}",
         "type": "color",
         "description": "Некритичные предупреждения"
       },
       "inverse": {
         "primary": {
-          "value": "rgba( {primitives.white} , 0.96)",
-          "type": "color"
+          "value": "{primitives.white}",
+          "type": "color",
+          "description": "Основной текст на selected, accent и градиенте главной кнопки. На акцентных заливках не снижать прозрачность."
         },
         "secondary": {
           "value": "rgba( {primitives.white} , 0.8)",
@@ -90,62 +93,63 @@
         }
       },
       "solid": {
-        "value": "{primitives.gray500}",
+        "value": "{primitives.violet900}",
         "type": "color",
-        "description": "Обводки и разделители"
+        "description": "Значимая граница контрола на светлых фонах KidsLight; непрозрачный контур с контрастом не менее 3:1. Для декоративных разделителей использовать border.contour."
       },
       "glassy": {
-        "value": "rgba( {primitives.gray300} , 0.4)",
+        "value": "{primitives.violet900}",
         "type": "color",
-        "description": "Обводки и разделители"
+        "description": "Значимая граница контрола на светлых фонах KidsLight; непрозрачный контур с контрастом не менее 3:1. Для декоративных разделителей использовать border.contour."
       },
       "focus": {
         "value": "{primitives.cobalt1000}",
         "type": "color",
-        "description": "Фокус ТВ"
+        "description": "Клавиатурный/ТВ фокус. На акцентной заливке отделять рамку белым промежутком 2 px; сохранять индикатор selected."
       },
       "active": {
-        "value": "rgba( {primitives.gray1100} , 0.56)",
+        "value": "{primitives.violet900}",
         "type": "color",
         "description": "Обводка активных элементов, например, выбранный сезон"
       },
       "contour": {
         "value": "rgba( {primitives.black} , 0.1)",
         "type": "color",
-        "description": "контур контента, чтобы не сливался с черным"
+        "description": "Декоративные разделители и контуры контента. Не использовать как единственную значимую границу контрола."
       },
       "negative": {
-        "value": "{primitives.red600}",
+        "value": "{primitives.red1000}",
         "type": "color"
       },
       "warning": {
-        "value": "{primitives.yellow300}",
+        "value": "{primitives.yellow1100}",
         "type": "color"
       },
       "negative-glassy": {
-        "value": "rgba({primitives.red600} , 0.32)",
+        "value": "{primitives.red1000}",
         "type": "color"
       },
       "warning-glassy": {
-        "value": "rgba({primitives.yellow500} , 0.32)",
+        "value": "{primitives.yellow1100}",
         "type": "color"
       }
     },
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.gray400} , 0.80)",
-          "type": "color"
+          "value": "{primitives.violet400}",
+          "type": "color",
+          "description": "В KidsLight непрозрачная подложка контрола для стабильного контраста, включая размещение над изображением."
         },
         "secondary": {
-          "value": "rgba( {primitives.gray300} , 0.8)",
+          "value": "{primitives.violet200}",
           "type": "color",
-          "description": "Замена для {{ Fill/Glassy/On Light/Secondary }}"
+          "description": "В KidsLight непрозрачная подложка контрола для стабильного контраста, включая размещение над изображением."
         },
         "third": {
-          "value": "rgba( {primitives.white} , 0.8)",
+          "value": "{primitives.white}",
           "type": "color",
-          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Замена для {{ Fill/Glassy: hover & focus/Third }}"
+          "description": "В KidsLight непрозрачная подложка контрола для стабильного контраста, включая размещение над изображением."
         },
         "inverse": {
           "primary": {
@@ -168,13 +172,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.48) 0%, rgba( {primitives.gray200} , 0.48) 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.violet300} 0%, {primitives.violet300} 100%)",
+            "type": "color",
+            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.56) 0%, rgba( {primitives.white} , 0.80) 100%)",
+            "value": "linear-gradient(45deg, {primitives.violet200} 0%, {primitives.violet200} 100%)",
             "type": "color",
-            "description": ". Замена для {{ Fill/Glassy: hover & focus/On Light/Third }}"
+            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
           }
         },
         "warning": {
@@ -294,7 +299,7 @@
       },
       "solid": {
         "selected": {
-          "value": "{primitives.iris600}",
+          "value": "{primitives.violet700}",
           "type": "color",
           "description": "Заливка выбранного контрола (selected)."
         },
@@ -304,7 +309,7 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.gray200}",
+          "value": "{primitives.violet400}",
           "type": "color",
           "description": "Крупные кликабельные элементы, баннеры"
         },
@@ -313,7 +318,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{primitives.gray300}",
+          "value": "{primitives.violet200}",
           "type": "color",
           "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
         },
@@ -342,21 +347,25 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "{primitives.gray400}",
-          "type": "color"
+          "value": "{primitives.cobalt500}",
+          "type": "color",
+          "description": "Самая насыщенная светлая заливка; в том числе нажатие primary. Использовать с тёмным text-icon."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.gray200} 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.cobalt600} 0%, {primitives.cobalt600} 100%)",
+            "type": "color",
+            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.gray300} 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.violet300} 0%, {primitives.violet300} 100%)",
+            "type": "color",
+            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.gray300} 0%, {primitives.gray400} 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.violet200} 0%, {primitives.violet200} 100%)",
+            "type": "color",
+            "description": "Цветная непрозрачная hover/focus-заливка KidsLight. Видимость клавиатурного фокуса обеспечивает отдельная рамка border.focus."
           }
         }
       },
@@ -589,31 +598,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.white}",
+              "value": "{primitives.cobalt600}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray200}",
+              "value": "{primitives.cobalt600}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.gray200}",
+              "value": "{primitives.violet300}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray300}",
+              "value": "{primitives.violet300}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.gray300}",
+              "value": "{primitives.violet200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray400}",
+              "value": "{primitives.violet200}",
               "type": "color"
             }
           }
@@ -623,21 +632,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.48)",
+              "value": "{primitives.violet300}",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.gray200} , 0.48)",
+              "value": "{primitives.violet300}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.56)",
+              "value": "{primitives.violet200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.white} , 0.80)",
+              "value": "{primitives.violet200}",
               "type": "color"
             }
           }

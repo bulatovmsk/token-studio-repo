@@ -518,7 +518,7 @@
         }
       },
       "width": {
-        "value": "1",
+        "value": "3",
         "type": "borderWidth"
       }
     },
