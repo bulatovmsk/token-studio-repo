@@ -85,7 +85,7 @@
           "description": "Замена на {{ Border/Decorative/on Light/Active Vertical }}"
         },
         "assistant-gradient": {
-          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.indigo1200} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.iris1200} 100%)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
@@ -96,12 +96,12 @@
         }
       },
       "solid": {
-        "value": "{primitives.indigo1200}",
+        "value": "{primitives.iris1200}",
         "type": "color",
         "description": "Значимая граница обычного контрола. Для декоративных границ карточек использовать border.contour."
       },
       "glassy": {
-        "value": "rgba( {primitives.indigo1200} , 0.85)",
+        "value": "rgba( {primitives.iris1200} , 0.85)",
         "type": "color",
         "description": "Полупрозрачная значимая граница обычного контрола на проверенных светлых поверхностях."
       },
@@ -116,7 +116,7 @@
         "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
       "contour": {
-        "value": "rgba( {primitives.indigo1200} , 0.22)",
+        "value": "rgba( {primitives.iris1200} , 0.22)",
         "type": "color",
         "description": "Декоративный приглушённый цветной контур карточек. Значимая граница контрола — border.solid/glassy."
       },
@@ -147,28 +147,28 @@
           "description": "Светлая карточка с альфой 92%."
         },
         "secondary": {
-          "value": "rgba( {primitives.indigo1200} , 0.06)",
+          "value": "rgba( {primitives.iris1200} , 0.06)",
           "type": "color",
           "description": "Приглушённый лавандовый слой для вложенных контролов. Альфа сохраняет различие с подложкой; на изображениях проверять отдельно."
         },
         "third": {
-          "value": "rgba( {primitives.indigo1200} , 0.16)",
+          "value": "rgba( {primitives.iris1200} , 0.16)",
           "type": "color",
           "description": "Приглушённый лавандовый слой для вложенных контролов. Альфа сохраняет различие с подложкой; на изображениях проверять отдельно."
         },
         "inverse": {
           "primary": {
-            "value": "rgba( {primitives.indigo1200} , 0.92)",
+            "value": "rgba( {primitives.iris1200} , 0.92)",
             "type": "color",
             "description": "Тёмная полупрозрачная inverse-поверхность для светлого текста."
           },
           "third": {
-            "value": "rgba( {primitives.indigo1200} , 0.3)",
+            "value": "rgba( {primitives.iris1200} , 0.3)",
             "type": "color",
             "description": "Слабый тёмный слой на светлой подложке; использовать обычный тёмный text-icon, а не белый inverse-текст."
           },
           "fourth": {
-            "value": "rgba( {primitives.indigo1200} , 0.1)",
+            "value": "rgba( {primitives.iris1200} , 0.1)",
             "type": "color",
             "description": "Слабый тёмный слой на светлой подложке; использовать обычный тёмный text-icon, а не белый inverse-текст."
           }
@@ -180,12 +180,12 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.indigo1200} , 0.12) 0%, rgba( {primitives.indigo1200} , 0.16) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1200} , 0.12) 0%, rgba( {primitives.iris1200} , 0.16) 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.indigo1200} , 0.18) 0%, rgba( {primitives.indigo1200} , 0.18) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1200} , 0.18) 0%, rgba( {primitives.iris1200} , 0.18) 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           }
@@ -276,15 +276,15 @@
           "type": "color"
         },
         "button-loading": {
-          "value": "linear-gradient(90deg, rgba( {primitives.indigo1200} , 0) 0%, rgba( {primitives.indigo1200} , 0.35) 88%, rgba( {primitives.indigo1200} , 0.5) 100%)",
+          "value": "linear-gradient(90deg, rgba( {primitives.iris1200} , 0) 0%, rgba( {primitives.iris1200} , 0.35) 88%, rgba( {primitives.iris1200} , 0.5) 100%)",
           "type": "color"
         },
         "placeholder": {
-          "value": "{primitives.amethyst100}",
+          "value": "{primitives.iris100}",
           "type": "color"
         },
         "skeletonbg": {
-          "value": "rgba( {primitives.indigo1200} , 0.1)",
+          "value": "rgba( {primitives.iris1200} , 0.1)",
           "type": "color"
         },
         "material": {
@@ -322,19 +322,19 @@
           "description": "Светлая карточка; вложенные контролы используют secondary/third."
         },
         "third": {
-          "value": "{primitives.amethyst200}",
+          "value": "{primitives.iris200}",
           "type": "color",
           "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "secondary": {
-          "value": "{primitives.amethyst100}",
+          "value": "{primitives.iris100}",
           "type": "color",
           "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "inverse": {
-          "value": "{primitives.indigo1200}",
+          "value": "{primitives.iris1200}",
           "type": "color",
-          "description": "Тёмная indigo-поверхность для text-icon.inverse."
+          "description": "Тёмная iris-поверхность для text-icon.inverse."
         },
         "positive": {
           "value": "{primitives.green500}",
@@ -356,23 +356,23 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "{primitives.amethyst300}",
+          "value": "{primitives.iris300}",
           "type": "color",
           "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.indigo100} 0%, {primitives.amethyst100} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris100} 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.amethyst200} 0%, {primitives.amethyst200} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris200} 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.amethyst300} 0%, {primitives.amethyst300} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris300} 0%, {primitives.iris300} 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           }
@@ -380,7 +380,7 @@
       },
       "decorative": {
         "promo": {
-          "value": "{primitives.indigo1200}",
+          "value": "{primitives.iris1200}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
@@ -409,11 +409,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.iris1100} 0%, {primitives.purple1100} 100%)",
+          "value": "linear-gradient(90deg, {primitives.iris700} 0%, {primitives.iris700} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.purple1100} 0%, {primitives.pink900} 100%)",
+          "value": "linear-gradient(90deg, {primitives.amethyst700} 0%, {primitives.amethyst700} 100%)",
           "type": "color"
         },
         "gold": {
@@ -596,7 +596,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.indigo1200}",
+            "value": "{primitives.iris1200}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
@@ -608,31 +608,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.indigo100}",
+              "value": "{primitives.iris100}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.amethyst100}",
+              "value": "{primitives.iris100}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.amethyst200}",
+              "value": "{primitives.iris200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.amethyst200}",
+              "value": "{primitives.iris200}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.amethyst300}",
+              "value": "{primitives.iris300}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.amethyst300}",
+              "value": "{primitives.iris300}",
               "type": "color"
             }
           }
@@ -642,21 +642,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.indigo1200} , 0.12)",
+              "value": "rgba( {primitives.iris1200} , 0.12)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.indigo1200} , 0.16)",
+              "value": "rgba( {primitives.iris1200} , 0.16)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.indigo1200} , 0.18)",
+              "value": "rgba( {primitives.iris1200} , 0.18)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.indigo1200} , 0.18)",
+              "value": "rgba( {primitives.iris1200} , 0.18)",
               "type": "color"
             }
           }
@@ -945,15 +945,15 @@
         },
         "button-loading": {
           "Step_1": {
-            "value": "rgba( {primitives.indigo1200} , 0)",
+            "value": "rgba( {primitives.iris1200} , 0)",
             "type": "color"
           },
           "Step_2": {
-            "value": "rgba( {primitives.indigo1200} , 0.35)",
+            "value": "rgba( {primitives.iris1200} , 0.35)",
             "type": "color"
           },
           "Step_3": {
-            "value": "rgba( {primitives.indigo1200} , 0.5)",
+            "value": "rgba( {primitives.iris1200} , 0.5)",
             "type": "color"
           }
         }
@@ -993,21 +993,21 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "{primitives.iris1100}",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.purple1100}",
+            "value": "{primitives.iris700}",
             "type": "color"
           }
         },
         "lighthouse": {
           "Step_1": {
-            "value": "{primitives.purple1100}",
+            "value": "{primitives.amethyst700}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.pink900}",
+            "value": "{primitives.amethyst700}",
             "type": "color"
           }
         },

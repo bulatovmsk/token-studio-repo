@@ -216,6 +216,11 @@ def main():
         require(f"primary text / weak inverse.{role}", minimum(samples("color.text-icon.primary"), light_inverse), 4.5)
     for role in ("positive", "negative", "warning"):
         require(f"primary text / status {role}", minimum(samples("color.text-icon.primary"), samples(f"color.fill.solid.{role}")), 4.5)
+    for label in ("continuum", "lighthouse"):
+        require(f"inverse.primary / label {label}", minimum(inverse, samples(f"color.component.label.{label}")), 4.5)
+    for path, value in semantic.items():
+        if "primitives.indigo" in str(value) and not path.startswith(("color.component.button", "gradient.component.button")):
+            raise AssertionError(f"Indigo is reserved for the Kids button: {path}")
     require("inverse.primary / live", minimum(inverse, samples("color.fill.solid.live")), 4.5)
     for role in ("negative", "warning"):
         tinted = [composite(samples(f"color.fill.glassy.{role}")[0], root) for root in roots]

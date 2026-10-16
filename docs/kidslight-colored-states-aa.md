@@ -1,4 +1,4 @@
-# KidsLight: iris, amethyst and indigo
+# KidsLight: iris-based surfaces
 
 All background tokens are unchanged from commit 422c727. In particular,
 background.solid.primary remains cobalt200 (#E6E5F5); background.glassy.primary
@@ -6,18 +6,18 @@ and every fade token are unchanged. Secondary remains violet200 (#E3DFFE).
 
 ## Roles
 
-- Solid primary: white; secondary/third/fourth: amethyst100/200/300.
-- Glassy primary: white 92%; secondary/third: indigo1200 at 6%/16%.
-- Glassy hover: indigo1200 at 12–16% for secondary, 18% for third.
-- Solid hover: indigo100 → amethyst100; amethyst200; amethyst300.
+- Solid primary: white; secondary/third/fourth: iris100/200/300.
+- Glassy primary: white 92%; secondary/third: iris1200 at 6%/16%.
+- Glassy hover: iris1200 at 12–16% for secondary, 18% for third.
+- Solid hover: iris100 → iris100; iris200; iris300.
 - Selected: iris800. Accent/focus: iris900. Accent text: iris1100.
-- Solid inverse and promo: indigo1200. Glassy inverse primary: indigo1200 92%.
+- Solid inverse and promo: iris1200. Glassy inverse primary: iris1200 92%.
 - Weak inverse third/fourth remain 30%/10% layers: use dark regular text on them,
   not white inverse text. These are not standalone dark surfaces.
 - Readable inverse text: white 100%/98%/96%; fourth (40%) is disabled/decorative.
-- Ordinary borders: indigo1200 opaque/85%; contour: indigo1200 22%.
-- Technical placeholder: amethyst100. Skeleton background and loading tint use
-  indigo1200; white shimmer/materials remain neutral.
+- Ordinary borders: iris1200 opaque/85%; contour: iris1200 22%.
+- Technical placeholder: iris100. Skeleton background and loading tint use
+  iris1200; white shimmer/materials remain neutral.
 - Status colors, named decorative label palettes, brand progress gradient and
   partner colors retain their purpose. Static black/white stay theme invariant.
 - Shadows and decorative focus use iris. Decorative gradients do not replace
@@ -37,10 +37,10 @@ alpha composition across 19 supported contexts, normal and inverse text,
 status pairs, ordinary/active/status borders, focus and surface hierarchy.
 The previously mismatched decorative focus gradient and split stops are fixed.
 
-Normal readable text reaches at least 4.63:1 in checked surface combinations.
+Normal readable text reaches at least 4.56:1 in checked surface combinations.
 Inverse text reaches at least 4.75:1 on checked dark/accent surfaces.
 Opaque white text on the imported Kids button reaches 5.00:1 across the gradient.
-Ordinary borders: at least 5.07:1; active border: 3.94:1; focus: 3.93:1.
+Ordinary borders: at least 5.28:1; active border: 3.88:1; focus: 3.87:1.
 Status fills require the checked foreground: dark primary on positive/negative/
 warning; white inverse primary on live. Low-alpha status borders are decorative.
 
@@ -52,3 +52,7 @@ This is not application-wide WCAG certification.
 
 References: [Radix role separation](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale),
 [WCAG meaningful UI contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
+
+Continuum and Lighthouse follow dark Kids with one lighter step: iris700 and
+amethyst700 (instead of 800). Opaque white label text is contrast-tested.
+Indigo is used only in the unchanged Kids button. All backgrounds stay unchanged.
