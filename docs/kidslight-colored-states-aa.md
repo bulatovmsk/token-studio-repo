@@ -11,8 +11,8 @@ and all solid fills are unchanged by this glassy revision.
 | primary | iris1100 | 4% | regular dark text |
 | secondary | iris1100 | 8% | regular dark text |
 | third | iris1100 | 12% | regular dark text |
-| hover-focus.secondary | white → iris100 | 70% → 75% | regular dark text |
-| hover-focus.third | white → iris100 | 90% → 85% | regular dark text |
+| hover-focus.secondary | iris1300 | 0% → 16% | regular dark text |
+| hover-focus.third | iris1300 | 0% → 20% | regular dark text |
 | inverse.primary | iris1200 | 92% | inverse light text |
 | inverse.third | iris1200 | 84% | inverse light text |
 | inverse.fourth | iris1200 | 76% | inverse light text |
@@ -24,8 +24,10 @@ parent. These are alternative strengths on a parent, not mandatory nesting
 levels. A raised white card uses solid.primary. Alpha accumulates when fills
 are nested; deeper nesting and arbitrary images need contextual checks.
 
-Hover replaces the normal paint, not an extra paint above it. The 45-degree gradient highlights the control with white → iris100,
-reversing the previous near-invisible darkening. High opacity is confined to hover. Focus still requires border.focus.
+Hover matches the user reference Figma 41945:35375: 45deg iris1300,
+transparent at the first stop and 20% at the second for third. Secondary uses
+0–16%. The normal fill is disabled/replaced, not stacked underneath. The first
+edge intentionally merges with the parent. Focus uses its dedicated border.
 
 Inverse now consistently means a dark surface for light text. This changes
 inverse.third/fourth from weak overlays to readable dark containers. Components
@@ -49,14 +51,17 @@ Shared primitive values remain unchanged.
 `python3 scripts/check_kidslight_contrast.py` checks all references, composite
 and split gradients, transparency throughout glassy, parent composition,
 normal/inverse/status text, borders and focus. Ordinary glassy levels darken a
-common parent progressively; hover lightens Rest. A custom 1.15:1 minimum checks hover/Rest separation on
-the supported root backgrounds; this is a design guard, not a WCAG criterion. The 1.05:1 neighboring
-level floor is a custom design regression guard, not a WCAG requirement.
+common parent progressively. Hover endpoints match the approved reference;
+there is no requirement to brighten or darken the entire surface uniformly.
+The 1.05:1 neighboring Rest-level floor is a custom design guard, not WCAG.
 Solid surfaces retain their separate 1.10:1 hierarchy guard.
 
-Across checked combinations, normal readable text is at least 4.5:1;
-inverse text on glassy inverse surfaces is at least 6.90:1. Status text on
-tinted fills is at least 5.06:1. White button text remains 5.00:1.
+Ordinary primary/secondary/third/accent text passes 4.5:1 on checked hover
+surfaces. Status text is checked on normal and status-specific surfaces.
+Limitation: status/offer text on deeply nested approved hover can fall below
+4.5:1 (about 3.9:1). Use ordinary primary text for these buttons; do not claim
+that all status text works on this hover. The validator reports this limitation.
+Inverse text on glassy inverse surfaces remains at least 6.90:1.
 
 The tests cover the main and modal backgrounds, optional solid/glassy primary
 islands and secondary cards, controls and hover, including cumulative alpha.

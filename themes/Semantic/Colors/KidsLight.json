@@ -180,14 +180,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.7) 0%, rgba( {primitives.iris100} , 0.75) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.16) 100%)",
             "type": "color",
-            "description": "Светлый iris-градиент при наведении заметно высветляет Rest. Заменяет обычную заливку, не накладывается сверху. Фокус дополнительно обозначается border.focus."
+            "description": "Градиент от прозрачного края к тёмному iris1300. Заменяет Rest; исходная заливка отключена. Образец Figma 41945:35375. Фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.9) 0%, rgba( {primitives.iris100} , 0.85) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.2) 100%)",
             "type": "color",
-            "description": "Светлый iris-градиент при наведении заметно высветляет Rest. Заменяет обычную заливку, не накладывается сверху. Фокус дополнительно обозначается border.focus."
+            "description": "Градиент от прозрачного края к тёмному iris1300. Заменяет Rest; исходная заливка отключена. Образец Figma 41945:35375. Фокус дополнительно обозначается border.focus."
           }
         },
         "warning": {
@@ -643,21 +643,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.7)",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris100} , 0.75)",
+              "value": "rgba( {primitives.iris1300} , 0.16)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.9)",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris100} , 0.85)",
+              "value": "rgba( {primitives.iris1300} , 0.2)",
               "type": "color"
             }
           }
