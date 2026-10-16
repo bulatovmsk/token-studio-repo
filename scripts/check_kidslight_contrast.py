@@ -146,7 +146,7 @@ def main():
                 raise AssertionError(f"Composite and variable-bound stops disagree: {path}")
     print("PASS hover gradients: composite paints match variable-bound stops")
 
-    for path in backgrounds:
+    for path in set(backgrounds) | {key for key in semantic if key.startswith("color.fill.glassy.")}:
         alphas = [color[3] for color in samples(path)]
         if ".glassy." in path:
             if not all(0 < alpha < 1 for alpha in alphas):
@@ -174,10 +174,10 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # Cards lift off roots; nested controls gain density instead of whitening.
+    # Solid cards lift off roots; their nested controls gain density.
     # 1.10 is a design regression floor, not a WCAG requirement for surfaces.
     for root in roots:
-        for family in ("solid", "glassy"):
+        for family in ("solid",):
             card = composite(samples(f"color.fill.{family}.primary")[0], root)
             require(f"{family} card / root separation", contrast(card, root), 1.10)
             levels = [composite(samples(f"color.fill.{family}.{level}")[0], card)
@@ -186,6 +186,20 @@ def main():
                 raise AssertionError(f"{family} controls must gain density inside cards")
             require(f"{family} card / secondary separation", contrast(levels[0], card), 1.10)
             require(f"{family} secondary / third separation", contrast(levels[1], levels[0]), 1.10)
+    # Glassy levels darken one common parent; 1.05 is a design guard, not WCAG.
+    for parent in [*roots, rgba("#FFFFFF")]:
+        levels = [composite(samples(f"color.fill.glassy.{role}")[0], parent)
+                  for role in ("primary", "secondary", "third")]
+        if not luminance(parent) > luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
+            raise AssertionError("Glassy levels must progressively darken the same parent")
+        for previous, current in zip([parent, *levels], levels):
+            require("glassy neighboring levels", contrast(previous, current), 1.05)
+    for role in ("secondary", "third"):
+        for parent in roots:
+            normal = composite(samples(f"color.fill.glassy.{role}")[0], parent)
+            if any(luminance(composite(hover, parent)) >= luminance(normal)
+                   for hover in samples(f"color.fill.glassy.hover-focus.{role}")):
+                raise AssertionError(f"Hover must increase density: {role}")
     if resolve("color.background.solid.primary").upper() != "#E6E5F5":
         raise AssertionError("The production canvas color must not change")
 
@@ -211,9 +225,12 @@ def main():
     for role in ("primary", "secondary", "third"):
         require(f"inverse.{role} / dark and accent surfaces",
                 minimum(samples(f"color.text-icon.inverse.{role}"), dark), 4.5)
-    for role in ("third", "fourth"):
-        light_inverse = [composite(samples(f"color.fill.glassy.inverse.{role}")[0], root) for root in roots]
-        require(f"primary text / weak inverse.{role}", minimum(samples("color.text-icon.primary"), light_inverse), 4.5)
+    for role in ("primary", "third", "fourth"):
+        inverse_surfaces = [composite(samples(f"color.fill.glassy.inverse.{role}")[0], base)
+                            for base in [*contexts, rgba("#FFFFFF")]]
+        for text_role in ("primary", "secondary", "third"):
+            require(f"inverse.{text_role} / glassy.inverse.{role}",
+                    minimum(samples(f"color.text-icon.inverse.{text_role}"), inverse_surfaces), 4.5)
     for role in ("positive", "negative", "warning"):
         require(f"primary text / status {role}", minimum(samples("color.text-icon.primary"), samples(f"color.fill.solid.{role}")), 4.5)
     for label in ("continuum", "lighthouse"):
@@ -223,7 +240,7 @@ def main():
             raise AssertionError(f"Indigo is reserved for the Kids button: {path}")
     require("inverse.primary / live", minimum(inverse, samples("color.fill.solid.live")), 4.5)
     for role in ("negative", "warning"):
-        tinted = [composite(samples(f"color.fill.glassy.{role}")[0], root) for root in roots]
+        tinted = [composite(samples(f"color.fill.glassy.{role}")[0], root) for root in contexts]
         require(f"status text / tinted {role}", minimum(samples(f"color.text-icon.{role}"), tinted), 4.5)
 
     require("focus / light controls", minimum(samples("color.border.focus"), palette), 3)

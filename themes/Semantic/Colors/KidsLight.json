@@ -142,57 +142,58 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.white} , 0.92)",
+          "value": "rgba( {primitives.iris1100} , 0.04)",
           "type": "color",
-          "description": "Светлая карточка с альфой 92%."
+          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris1200} , 0.06)",
+          "value": "rgba( {primitives.iris1100} , 0.08)",
           "type": "color",
-          "description": "Приглушённый лавандовый слой для вложенных контролов. Альфа сохраняет различие с подложкой; на изображениях проверять отдельно."
+          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "third": {
-          "value": "rgba( {primitives.iris1200} , 0.16)",
+          "value": "rgba( {primitives.iris1100} , 0.12)",
           "type": "color",
-          "description": "Приглушённый лавандовый слой для вложенных контролов. Альфа сохраняет различие с подложкой; на изображениях проверять отдельно."
+          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "inverse": {
           "primary": {
             "value": "rgba( {primitives.iris1200} , 0.92)",
             "type": "color",
-            "description": "Тёмная полупрозрачная inverse-поверхность для светлого текста."
+            "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           },
           "third": {
-            "value": "rgba( {primitives.iris1200} , 0.3)",
+            "value": "rgba( {primitives.iris1200} , 0.84)",
             "type": "color",
-            "description": "Слабый тёмный слой на светлой подложке; использовать обычный тёмный text-icon, а не белый inverse-текст."
+            "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           },
           "fourth": {
-            "value": "rgba( {primitives.iris1200} , 0.1)",
+            "value": "rgba( {primitives.iris1200} , 0.76)",
             "type": "color",
-            "description": "Слабый тёмный слой на светлой подложке; использовать обычный тёмный text-icon, а не белый inverse-текст."
+            "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           }
         },
         "negative": {
-          "value": "rgba( {primitives.red700} , 0.3)",
+          "value": "rgba( {primitives.red1000} , 0.08)",
           "type": "color",
-          "description": "Например, для подсветки ошибки в поле ввода"
+          "description": "Лёгкая статусная подложка. Использовать одноимённый text-icon и значимый border, не полагаться только на цвет заливки."
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1200} , 0.12) 0%, rgba( {primitives.iris1200} , 0.16) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.1) 0%, rgba( {primitives.iris1100} , 0.1) 100%)",
             "type": "color",
-            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover заменяет обычную заливку, не накладывается поверх неё. Фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1200} , 0.18) 0%, rgba( {primitives.iris1200} , 0.18) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.14) 0%, rgba( {primitives.iris1100} , 0.14) 100%)",
             "type": "color",
-            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Hover заменяет обычную заливку, не накладывается поверх неё. Фокус дополнительно обозначается border.focus."
           }
         },
         "warning": {
-          "value": "rgba( {primitives.yellow500} , 0.32)",
-          "type": "color"
+          "value": "rgba( {primitives.yellow1100} , 0.08)",
+          "type": "color",
+          "description": "Лёгкая статусная подложка. Использовать одноимённый text-icon и значимый border, не полагаться только на цвет заливки."
         }
       },
       "fade": {
@@ -642,21 +643,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1200} , 0.12)",
+              "value": "rgba( {primitives.iris1100} , 0.1)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1200} , 0.16)",
+              "value": "rgba( {primitives.iris1100} , 0.1)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1200} , 0.18)",
+              "value": "rgba( {primitives.iris1100} , 0.14)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1200} , 0.18)",
+              "value": "rgba( {primitives.iris1100} , 0.14)",
               "type": "color"
             }
           }
