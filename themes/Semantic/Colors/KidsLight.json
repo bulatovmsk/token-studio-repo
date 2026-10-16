@@ -180,12 +180,12 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.1) 0%, rgba( {primitives.iris1100} , 0.1) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.1) 0%, rgba( {primitives.iris900} , 0.14) 100%)",
             "type": "color",
             "description": "Hover заменяет обычную заливку, не накладывается поверх неё. Фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.14) 0%, rgba( {primitives.iris1100} , 0.14) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1100} , 0.14) 0%, rgba( {primitives.iris900} , 0.18) 100%)",
             "type": "color",
             "description": "Hover заменяет обычную заливку, не накладывается поверх неё. Фокус дополнительно обозначается border.focus."
           }
@@ -647,7 +647,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1100} , 0.1)",
+              "value": "rgba( {primitives.iris900} , 0.14)",
               "type": "color"
             }
           },
@@ -657,7 +657,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1100} , 0.14)",
+              "value": "rgba( {primitives.iris900} , 0.18)",
               "type": "color"
             }
           }

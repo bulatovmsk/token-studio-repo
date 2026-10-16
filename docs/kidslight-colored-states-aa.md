@@ -11,8 +11,8 @@ and all solid fills are unchanged by this glassy revision.
 | primary | iris1100 | 4% | regular dark text |
 | secondary | iris1100 | 8% | regular dark text |
 | third | iris1100 | 12% | regular dark text |
-| hover-focus.secondary | iris1100 | 10% | regular dark text |
-| hover-focus.third | iris1100 | 14% | regular dark text |
+| hover-focus.secondary | iris1100 → iris900 | 10% → 14% | regular dark text |
+| hover-focus.third | iris1100 → iris900 | 14% → 18% | regular dark text |
 | inverse.primary | iris1200 | 92% | inverse light text |
 | inverse.third | iris1200 | 84% | inverse light text |
 | inverse.fourth | iris1200 | 76% | inverse light text |
@@ -24,9 +24,8 @@ parent. These are alternative strengths on a parent, not mandatory nesting
 levels. A raised white card uses solid.primary. Alpha accumulates when fills
 are nested; deeper nesting and arbitrary images need contextual checks.
 
-Hover replaces the normal paint, not an extra paint above it. Both stops are
-identical to retain the existing gradient-token schema without introducing an
-unnecessary gradient. Focus still requires border.focus.
+Hover replaces the normal paint, not an extra paint above it. The 45-degree gradient moves from darker iris1100 to brighter iris900,
+with increasing alpha to keep both ends denser than Rest. Focus still requires border.focus.
 
 Inverse now consistently means a dark surface for light text. This changes
 inverse.third/fourth from weak overlays to readable dark containers. Components
@@ -54,7 +53,7 @@ common parent progressively; hover increases density. The 1.05:1 neighboring
 level floor is a custom design regression guard, not a WCAG requirement.
 Solid surfaces retain their separate 1.10:1 hierarchy guard.
 
-Across checked combinations, normal readable text is at least 4.60:1;
+Across checked combinations, normal readable text is at least 4.5:1;
 inverse text on glassy inverse surfaces is at least 6.90:1. Status text on
 tinted fills is at least 5.06:1. White button text remains 5.00:1.
 
