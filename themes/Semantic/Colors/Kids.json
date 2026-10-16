@@ -426,11 +426,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "{primitives.iris800}",
+          "value": "linear-gradient(90deg, {primitives.iris800} 0%, {primitives.iris800} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "{primitives.amethyst800}",
+          "value": "linear-gradient(90deg, {primitives.amethyst800} 0%, {primitives.amethyst800} 100%)",
           "type": "color"
         },
         "gold": {
@@ -1037,6 +1037,26 @@
           },
           "Step_2": {
             "value": "{primitives.blue500}",
+            "type": "color"
+          }
+        },
+        "continuum": {
+          "Step_1": {
+            "value": "{primitives.iris800}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.iris800}",
+            "type": "color"
+          }
+        },
+        "lighthouse": {
+          "Step_1": {
+            "value": "{primitives.amethyst800}",
+            "type": "color"
+          },
+          "Step_2": {
+            "value": "{primitives.amethyst800}",
             "type": "color"
           }
         }

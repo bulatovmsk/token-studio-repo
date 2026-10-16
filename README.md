@@ -134,3 +134,9 @@ Primitives → Brand → Semantic → Component
 
 The separate `Typography Theme` collection is removed from the configuration. Text styles reference Suisse Int’l family and weight tokens directly in Core; there is no separate Theme layer or font switching by product theme.
 After syncing, check Main to Extra Small on text, buttons, and multiline blocks. An existing Figma `Typography Theme` collection may require separate removal after checking its bindings.
+
+## Градиентные метки continuum и lighthouse
+
+`color.component.label.continuum` и `color.component.label.lighthouse` — составные градиенты во всех цветовых темах. В Figma они представлены Paint Styles, точки которых привязаны к `gradient.component.label.<name>.Step_1/Step_2`. В Main, Meta и Kids обе точки одинаковы; KidsLight использует два разных цвета. Однотонные Variables для составных токенов не экспортируются; их устаревшие mappings удалены намеренно.
+
+В ветке Figma `grIFc4PUhs805xaGTPE6y0` создано два стиля, перевязано шесть заливок и удалены две старые переменные после проверки всех девяти страниц. Эта проверка покрывает данный файл; файлы-потребители библиотеки не проверялись.
