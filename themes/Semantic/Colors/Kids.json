@@ -141,6 +141,11 @@
     },
     "fill": {
       "solid": {
+        "selected": {
+          "value": "{primitives.violet700}",
+          "type": "color",
+          "description": "Заливка выбранного контрола (selected)."
+        },
         "accent": {
           "value": "{primitives.iris700}",
           "type": "color",
