@@ -12,12 +12,15 @@
     "Semantic/Text/Scale/Accessibility",
     "Semantic/Colors/Main",
     "Semantic/Colors/Kids",
+    "Semantic/Colors/KidsLight",
     "Semantic/Colors/Meta",
     "Component/WebMobile/Main",
     "Component/WebMobile/Kids",
+    "Component/WebMobile/KidsLight",
     "Component/WebMobile/Meta",
     "Component/TV/Main",
     "Component/TV/Kids",
+    "Component/TV/KidsLight",
     "Component/TV/Meta",
     "Technical(TV)/Ui Type",
     "Technical(iOS)/Ui Type/iPhone Compact 0-320",
@@ -30,9 +33,6 @@
     "Technical(Android M)/Ui Type/Tablet P",
     "Technical(Android M)/Ui Type/Tablet L",
     "Microcopy/RU",
-    "Microcopy/ID",
-    "_archive/Component/TV/KidsBaby",
-    "_archive/Component/WebMobile/KidsBaby",
-    "_archive/Semantic/Colors/KidsBaby"
+    "Microcopy/ID"
   ]
 }

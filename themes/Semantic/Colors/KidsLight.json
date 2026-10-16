@@ -153,11 +153,11 @@
             "type": "color"
           },
           "third": {
-            "value": "rgba( {primitives.white} , 0.3)",
+            "value": "rgba( {primitives.gray1200} , 0.3)",
             "type": "color"
           },
           "fourth": {
-            "value": "rgba( {primitives.white} , 0.1)",
+            "value": "rgba( {primitives.gray1200} , 0.1)",
             "type": "color"
           }
         },
@@ -293,6 +293,11 @@
         }
       },
       "solid": {
+        "selected": {
+          "value": "{primitives.violet700}",
+          "type": "color",
+          "description": "Заливка выбранного контрола (selected)."
+        },
         "accent": {
           "value": "{primitives.cobalt1000}",
           "type": "color",
@@ -618,7 +623,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.white} , 0.80)",
+              "value": "rgba( {primitives.gray200} , 0.48)",
               "type": "color"
             }
           },
@@ -1016,7 +1021,7 @@
       },
       "button": {
         "Step_1": {
-          "value": "{primitives.violet600}",
+          "value": "{primitives.violet700}",
           "type": "color"
         },
         "Step_2": {

@@ -100,6 +100,12 @@
       "radius": {
         "value": "12",
         "type": "borderRadius"
+      },
+      "filter-icon": {
+        "padding-horizontal": {
+          "value": "20",
+          "type": "spacing"
+        }
       }
     },
     "focus": {
@@ -171,6 +177,12 @@
       },
       "radius": {
         "value": "6",
+        "type": "borderRadius"
+      }
+    },
+    "rich": {
+      "radius": {
+        "value": "12",
         "type": "borderRadius"
       }
     }
