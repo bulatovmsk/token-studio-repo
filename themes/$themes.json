@@ -1498,7 +1498,11 @@
       "gradient.component.label.continuum.Step_1": "ad6b892c5044e44ea45e2514354ed1e6ac4680fe",
       "gradient.component.label.continuum.Step_2": "3aa8ceb0c6a04098cd19bba802b543343acdd6bb",
       "gradient.component.label.lighthouse.Step_1": "fca52718f16a4244ea63251eea64527d6156e908",
-      "gradient.component.label.lighthouse.Step_2": "a5df414baf30b09d921fafa29d467d516070ee30"
+      "gradient.component.label.lighthouse.Step_2": "a5df414baf30b09d921fafa29d467d516070ee30",
+      "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
+      "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
+      "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -1702,7 +1706,11 @@
       "gradient.component.label.continuum.Step_1": "ad6b892c5044e44ea45e2514354ed1e6ac4680fe",
       "gradient.component.label.continuum.Step_2": "3aa8ceb0c6a04098cd19bba802b543343acdd6bb",
       "gradient.component.label.lighthouse.Step_1": "fca52718f16a4244ea63251eea64527d6156e908",
-      "gradient.component.label.lighthouse.Step_2": "a5df414baf30b09d921fafa29d467d516070ee30"
+      "gradient.component.label.lighthouse.Step_2": "a5df414baf30b09d921fafa29d467d516070ee30",
+      "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
+      "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
+      "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
     },
     "$figmaModeId": "40245:0",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -1906,7 +1914,11 @@
       "gradient.component.label.continuum.Step_1": "ad6b892c5044e44ea45e2514354ed1e6ac4680fe",
       "gradient.component.label.continuum.Step_2": "3aa8ceb0c6a04098cd19bba802b543343acdd6bb",
       "gradient.component.label.lighthouse.Step_1": "fca52718f16a4244ea63251eea64527d6156e908",
-      "gradient.component.label.lighthouse.Step_2": "a5df414baf30b09d921fafa29d467d516070ee30"
+      "gradient.component.label.lighthouse.Step_2": "a5df414baf30b09d921fafa29d467d516070ee30",
+      "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
+      "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
+      "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
     },
     "$figmaModeId": "41872:1",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -2110,7 +2122,11 @@
       "gradient.component.sber-gradient.Step_3": "0813eda105ea4c5961100a97dd99f26a242c6ee8",
       "gradient.component.sber-gradient.Step_4": "15600aa8c3b3345186ca2ec9fe19457e19fc3e90",
       "gradient.component.button.Step_3": "a165d9776004dd901eb353960d5c202b977650b4",
-      "gradient.component.button.Step_4": "83d669f093eb58ab69e1c772dcffd96370ff296a"
+      "gradient.component.button.Step_4": "83d669f093eb58ab69e1c772dcffd96370ff296a",
+      "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
+      "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
+      "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
     },
     "$figmaModeId": "41872:2",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
