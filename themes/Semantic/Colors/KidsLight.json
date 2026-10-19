@@ -180,14 +180,14 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.16) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
             "type": "color",
-            "description": "Градиент от прозрачного края к тёмному iris1300. Заменяет Rest; исходная заливка отключена. Образец Figma 41945:35375. Фокус дополнительно обозначается border.focus."
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.2) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
             "type": "color",
-            "description": "Градиент от прозрачного края к тёмному iris1300. Заменяет Rest; исходная заливка отключена. Образец Figma 41945:35375. Фокус дополнительно обозначается border.focus."
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           }
         },
         "warning": {
@@ -363,19 +363,19 @@
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.iris100} 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.04) 100%)",
             "type": "color",
-            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris200} 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
             "type": "color",
-            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
             "type": "color",
-            "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           }
         }
       },
@@ -609,31 +609,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.white}",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris100}",
+              "value": "rgba( {primitives.iris1300} , 0.04)",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.iris100}",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris200}",
+              "value": "rgba( {primitives.iris1300} , 0.06)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.iris200}",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris300}",
+              "value": "rgba( {primitives.iris1300} , 0.08)",
               "type": "color"
             }
           }
@@ -647,7 +647,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.16)",
+              "value": "rgba( {primitives.iris1300} , 0.06)",
               "type": "color"
             }
           },
@@ -657,7 +657,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.2)",
+              "value": "rgba( {primitives.iris1300} , 0.08)",
               "type": "color"
             }
           }
