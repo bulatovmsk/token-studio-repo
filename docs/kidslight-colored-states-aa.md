@@ -71,3 +71,9 @@ nested together still need another role or contour.
 
 References: [Radix role separation](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale),
 [WCAG meaningful UI contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
+
+Solid hover gradients now preserve opaque role hierarchy: primary white →
+iris100, secondary iris100 → iris200, third iris200 → iris300 (45deg, 100%
+opacity at both stops). Glassy hover keeps the approved transparent iris1300
+ramps: secondary 0–16%, third 0–20%. Rest glassy primary/secondary/third remain
+4/8/12%; there is no separate glassy-primary hover token in the current schema.

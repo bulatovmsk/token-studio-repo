@@ -363,17 +363,17 @@
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris100} 100%)",
+            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.iris100} 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris200} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris200} 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.iris300} 0%, {primitives.iris300} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
             "type": "color",
             "description": "Hover повышает плотность приглушённого цветного слоя. Клавиатурный фокус дополнительно обозначается border.focus."
           }
@@ -609,7 +609,7 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.iris100}",
+              "value": "{primitives.white}",
               "type": "color"
             },
             "Step_2": {
@@ -619,7 +619,7 @@
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.iris200}",
+              "value": "{primitives.iris100}",
               "type": "color"
             },
             "Step_2": {
@@ -629,7 +629,7 @@
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.iris300}",
+              "value": "{primitives.iris200}",
               "type": "color"
             },
             "Step_2": {
