@@ -787,6 +787,21 @@
           "type": "color"
         }
       }
+    },
+    "lavender100": {
+      "value": "#EEEDF2",
+      "type": "color",
+      "description": "Muted lavender: cobalt1300 at 8% over white. Opaque surface counterpart."
+    },
+    "lavender200": {
+      "value": "#DEDAE4",
+      "type": "color",
+      "description": "Muted lavender: cobalt1300 at 16% over white. Opaque surface counterpart."
+    },
+    "lavender300": {
+      "value": "#CDC8D7",
+      "type": "color",
+      "description": "Muted lavender: cobalt1300 at 24% over white. Opaque surface counterpart."
     }
   },
   "space": {

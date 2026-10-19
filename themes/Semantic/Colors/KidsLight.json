@@ -10,176 +10,190 @@
         "type": "color"
       },
       "third": {
-        "value": "rgba( {primitives.black} , 0.56)",
-        "type": "color"
+        "value": "{primitives.gray900}",
+        "type": "color",
+        "description": "Читаемые подписи на светлых фонах и заливках KidsLight; непрозрачный цвет сохраняет контраст во всех состояниях."
       },
       "fourth": {
         "value": "rgba( {primitives.black} , 0.4)",
-        "type": "color"
+        "type": "color",
+        "description": "Только неактивные элементы и декоративные детали. Для читаемых подписей использовать text-icon.third."
       },
       "accent": {
-        "value": "{primitives.cobalt1000}",
+        "value": "{primitives.iris1100}",
         "type": "color",
         "description": "Замена для {{ Text & icon/on Light/Accent }}"
       },
       "offer": {
-        "value": "{primitives.yellow500}",
+        "value": "{primitives.yellow1100}",
         "type": "color",
-        "description": "Ссылки"
+        "description": "Текст офферов и ссылки на светлых заливках; контраст не менее 4,5:1."
       },
       "positive": {
-        "value": "{primitives.green900}",
+        "value": "{primitives.green1100}",
         "type": "color",
         "description": "Положительные события"
       },
       "negative": {
-        "value": "{primitives.red900}",
+        "value": "{primitives.red1000}",
         "type": "color",
         "description": "Ошибки, критичные предупреждения"
       },
       "warning": {
-        "value": "{primitives.yellow800}",
+        "value": "{primitives.yellow1100}",
         "type": "color",
         "description": "Некритичные предупреждения"
       },
       "inverse": {
         "primary": {
-          "value": "rgba( {primitives.white} , 0.96)",
-          "type": "color"
+          "value": "{primitives.white}",
+          "type": "color",
+          "description": "Основной текст на selected, accent и градиенте главной кнопки. На акцентных заливках не снижать прозрачность."
         },
         "secondary": {
-          "value": "rgba( {primitives.white} , 0.8)",
-          "type": "color"
+          "value": "rgba( {primitives.white} , 0.98)",
+          "type": "color",
+          "description": "Читаемый светлый текст на тёмных inverse, selected и accent-поверхностях; контраст проверен после смешивания."
         },
         "fourth": {
           "value": "rgba( {primitives.white} , 0.4)",
-          "type": "color"
+          "type": "color",
+          "description": "Только disabled и декоративные элементы на тёмной подложке; не использовать для читаемых подписей."
         },
         "third": {
-          "value": "rgba( {primitives.white} , 0.56)",
-          "type": "color"
+          "value": "rgba( {primitives.white} , 0.96)",
+          "type": "color",
+          "description": "Читаемый светлый текст на тёмных inverse, selected и accent-поверхностях; контраст проверен после смешивания."
         }
       }
     },
     "border": {
       "decorative": {
         "focus": {
-          "value": "linear-gradient(45deg, {primitives.cobalt1000} 0%, {primitives.purple1000} 52%, {primitives.pink800} 100%)",
+          "value": "linear-gradient(45deg, {primitives.iris900} 0%, {primitives.iris800} 52%, {primitives.iris900} 100%)",
           "type": "color",
-          "description": "Замена на {{ Border/Decorative/on Light/Focus }}"
+          "description": "Декоративный градиент; не заменяет контрастный border.focus."
         },
         "active-horizontal": {
-          "value": "linear-gradient(270deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
+          "value": "linear-gradient(270deg, {primitives.white} 0%, {primitives.iris400} 16%, {primitives.iris900} 50%, {primitives.iris400} 83%, {primitives.white} 100%)",
           "type": "color",
           "description": "Замена на {{ Border/Decorative/on Light/Active Horisontal }}"
         },
         "active-vertical": {
-          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.purple600} 16%, {primitives.cobalt1000} 50%, {primitives.purple600} 83%, {primitives.white} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.iris400} 16%, {primitives.iris900} 50%, {primitives.iris400} 83%, {primitives.white} 100%)",
           "type": "color",
           "description": "Замена на {{ Border/Decorative/on Light/Active Vertical }}"
         },
         "assistant-gradient": {
-          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.cobalt1300} 100%)",
+          "value": "linear-gradient(0deg, {primitives.white} 0%, {primitives.iris1200} 100%)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         },
         "assistant-solid": {
-          "value": "rgba( {primitives.cobalt700} , 0.7)",
+          "value": "rgba( {primitives.iris700} , 0.7)",
           "type": "color",
           "description": "Только для обводки ии ассистента "
         }
       },
       "solid": {
-        "value": "{primitives.gray500}",
+        "value": "{primitives.iris1200}",
         "type": "color",
-        "description": "Обводки и разделители"
+        "description": "Значимая граница обычного контрола. Для декоративных границ карточек использовать border.contour."
       },
       "glassy": {
-        "value": "rgba( {primitives.gray300} , 0.4)",
+        "value": "rgba( {primitives.iris1200} , 0.85)",
         "type": "color",
-        "description": "Обводки и разделители"
+        "description": "Полупрозрачная значимая граница обычного контрола на проверенных светлых поверхностях."
       },
       "focus": {
-        "value": "{primitives.cobalt1000}",
+        "value": "{primitives.iris900}",
         "type": "color",
-        "description": "Фокус ТВ"
+        "description": "Клавиатурный/ТВ фокус. На акцентной заливке отделять рамку белым промежутком 2 px; сохранять индикатор selected."
       },
       "active": {
-        "value": "rgba( {primitives.gray1100} , 0.56)",
+        "value": "rgba( {primitives.iris1100} , 0.8)",
         "type": "color",
-        "description": "Обводка активных элементов, например, выбранный сезон"
+        "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
       "contour": {
-        "value": "rgba( {primitives.black} , 0.1)",
+        "value": "rgba( {primitives.iris1200} , 0.22)",
         "type": "color",
-        "description": "контур контента, чтобы не сливался с черным"
+        "description": "Декоративный приглушённый цветной контур карточек. Значимая граница контрола — border.solid/glassy."
       },
       "negative": {
-        "value": "{primitives.red600}",
+        "value": "{primitives.red1000}",
         "type": "color"
       },
       "warning": {
-        "value": "{primitives.yellow300}",
+        "value": "{primitives.yellow1100}",
         "type": "color"
       },
       "negative-glassy": {
-        "value": "rgba({primitives.red600} , 0.32)",
-        "type": "color"
+        "value": "rgba( {primitives.red1000} , 0.32)",
+        "type": "color",
+        "description": "Мягкий декоративный контур статуса; дополнить соответствующим текстом или иконкой. Для самостоятельного значимого контура использовать непрозрачный вариант."
       },
       "warning-glassy": {
-        "value": "rgba({primitives.yellow500} , 0.32)",
-        "type": "color"
+        "value": "rgba( {primitives.yellow1100} , 0.32)",
+        "type": "color",
+        "description": "Мягкий декоративный контур статуса; дополнить соответствующим текстом или иконкой. Для самостоятельного значимого контура использовать непрозрачный вариант."
       }
     },
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.gray400} , 0.80)",
-          "type": "color"
+          "value": "rgba( {primitives.iris1100} , 0.04)",
+          "type": "color",
+          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "secondary": {
-          "value": "rgba( {primitives.gray300} , 0.8)",
+          "value": "rgba( {primitives.iris1100} , 0.08)",
           "type": "color",
-          "description": "Замена для {{ Fill/Glassy/On Light/Secondary }}"
+          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "third": {
-          "value": "rgba( {primitives.white} , 0.8)",
+          "value": "rgba( {primitives.iris1100} , 0.12)",
           "type": "color",
-          "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Замена для {{ Fill/Glassy: hover & focus/Third }}"
+          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "inverse": {
           "primary": {
-            "value": "rgba( {primitives.gray1200} , 0.8)",
-            "type": "color"
+            "value": "rgba( {primitives.iris1200} , 0.92)",
+            "type": "color",
+            "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           },
           "third": {
-            "value": "rgba( {primitives.gray1200} , 0.3)",
-            "type": "color"
+            "value": "rgba( {primitives.iris1200} , 0.84)",
+            "type": "color",
+            "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           },
           "fourth": {
-            "value": "rgba( {primitives.gray1200} , 0.1)",
-            "type": "color"
+            "value": "rgba( {primitives.iris1200} , 0.76)",
+            "type": "color",
+            "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           }
         },
         "negative": {
-          "value": "rgba( {primitives.red700} , 0.3)",
+          "value": "rgba( {primitives.red1000} , 0.08)",
           "type": "color",
-          "description": "Например, для подсветки ошибки в поле ввода"
+          "description": "Лёгкая статусная подложка. Использовать одноимённый text-icon и значимый border, не полагаться только на цвет заливки."
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.48) 0%, rgba( {primitives.gray200} , 0.48) 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
+            "type": "color",
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.white} , 0.56) 0%, rgba( {primitives.white} , 0.80) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
             "type": "color",
-            "description": ". Замена для {{ Fill/Glassy: hover & focus/On Light/Third }}"
+            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           }
         },
         "warning": {
-          "value": "rgba( {primitives.yellow500} , 0.32)",
-          "type": "color"
+          "value": "rgba( {primitives.yellow1100} , 0.08)",
+          "type": "color",
+          "description": "Лёгкая статусная подложка. Использовать одноимённый text-icon и значимый border, не полагаться только на цвет заливки."
         }
       },
       "fade": {
@@ -263,30 +277,30 @@
           "type": "color"
         },
         "button-loading": {
-          "value": "linear-gradient(90deg, rgba( {primitives.gray500} , 0) 0%, rgba( {primitives.gray500} , 0.35) 88%, rgba( {primitives.gray500} , 0.5) 100%)",
+          "value": "linear-gradient(90deg, rgba( {primitives.iris1200} , 0) 0%, rgba( {primitives.iris1200} , 0.35) 88%, rgba( {primitives.iris1200} , 0.5) 100%)",
           "type": "color"
         },
         "placeholder": {
-          "value": "{primitives.gray200}",
+          "value": "{primitives.iris100}",
           "type": "color"
         },
         "skeletonbg": {
-          "value": "rgba( {primitives.black} , 0.1)",
+          "value": "rgba( {primitives.iris1200} , 0.1)",
           "type": "color"
         },
         "material": {
           "primary": {
-            "value": "rgba(#FFFFFF , 0.4)",
+            "value": "rgba({primitives.white} , 0.4)",
             "type": "color",
             "description": "ios only! Для материалов с блюром"
           },
           "secondary": {
-            "value": "rgba(#FFFFFF , 0.25)",
+            "value": "rgba({primitives.white} , 0.25)",
             "type": "color",
             "description": "ios only! Для материалов с блюром"
           },
           "third": {
-            "value": "rgba(#FFFFFF , 0.15)",
+            "value": "rgba({primitives.white} , 0.15)",
             "type": "color",
             "description": "ios only! Для материалов с блюром"
           }
@@ -294,33 +308,34 @@
       },
       "solid": {
         "selected": {
-          "value": "{primitives.iris600}",
+          "value": "{primitives.iris800}",
           "type": "color",
           "description": "Заливка выбранного контрола (selected)."
         },
         "accent": {
-          "value": "{primitives.cobalt1000}",
+          "value": "{primitives.iris900}",
           "type": "color",
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.gray200}",
+          "value": "{primitives.white}",
           "type": "color",
-          "description": "Крупные кликабельные элементы, баннеры"
+          "description": "Светлая карточка; вложенные контролы используют secondary/third."
         },
         "third": {
-          "value": "{primitives.white}",
-          "type": "color"
+          "value": "{primitives.iris200}",
+          "type": "color",
+          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "secondary": {
-          "value": "{primitives.gray300}",
+          "value": "{primitives.iris100}",
           "type": "color",
-          "description": "Для всех кликабельных компонентов: табы, ценники, способы оплаты или реги, другие плашки"
+          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "inverse": {
-          "value": "{primitives.gray1200}",
+          "value": "{primitives.iris1200}",
           "type": "color",
-          "description": "Альтернативный цвет для акцентов, кнопок, снекбара в темной теме"
+          "description": "Тёмная iris-поверхность для text-icon.inverse."
         },
         "positive": {
           "value": "{primitives.green500}",
@@ -342,27 +357,31 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "{primitives.gray400}",
-          "type": "color"
+          "value": "{primitives.iris300}",
+          "type": "color",
+          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.gray200} 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.iris100} 100%)",
+            "type": "color",
+            "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.gray300} 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris200} 100%)",
+            "type": "color",
+            "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.gray300} 0%, {primitives.gray400} 100%)",
-            "type": "color"
+            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
+            "type": "color",
+            "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           }
         }
       },
       "decorative": {
         "promo": {
-          "value": "{primitives.violet1200}",
+          "value": "{primitives.iris1200}",
           "type": "color",
           "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
         }
@@ -370,11 +389,11 @@
     },
     "component": {
       "button": {
-        "value": "linear-gradient(45deg, {primitives.violet700} 0%, {primitives.cobalt1000} 100%)",
+        "value": "linear-gradient(135deg, {primitives.amethyst800} 0%, {primitives.iris800} 16%, {primitives.iris800} 82%, {primitives.indigo700} 100%)",
         "type": "color"
       },
       "progress-bar": {
-        "value": "linear-gradient(270deg, {primitives.pink500} 0%, {primitives.pink800} 33%, {primitives.purple1000} 67%, {primitives.cobalt1000} 100%)",
+        "value": "linear-gradient(270deg, {primitives.pink500} 0%, {primitives.pink800} 33%, {primitives.purple1000} 67%, {primitives.iris900} 100%)",
         "type": "color"
       },
       "label": {
@@ -391,11 +410,11 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.cobalt1100} 0%, {primitives.purple1100} 100%)",
+          "value": "linear-gradient(90deg, {primitives.iris700} 0%, {primitives.iris700} 100%)",
           "type": "color"
         },
         "lighthouse": {
-          "value": "linear-gradient(90deg, {primitives.purple1100} 0%, {primitives.pink900} 100%)",
+          "value": "linear-gradient(90deg, {primitives.amethyst700} 0%, {primitives.amethyst700} 100%)",
           "type": "color"
         },
         "gold": {
@@ -424,7 +443,7 @@
         "type": "color"
       },
       "menu": {
-        "value": "linear-gradient(0deg, {primitives.violet400} 0%, {primitives.white} 100%)",
+        "value": "linear-gradient(0deg, {primitives.iris300} 0%, {primitives.white} 100%)",
         "type": "color"
       },
       "sber-gradient": {
@@ -439,9 +458,9 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{primitives.white}",
+          "value": "{primitives.violet200}",
           "type": "color",
-          "description": "Для окон"
+          "description": "Цветной фон диалогов, модалок и bottom sheet. Карточки и контролы внутри используют светлые fill-токены."
         },
         "inverse": {
           "value": "{primitives.gray1200}",
@@ -450,8 +469,9 @@
       },
       "glassy": {
         "secondary": {
-          "value": "rgba( {primitives.white} , 0.88)",
-          "type": "color"
+          "value": "rgba( {primitives.violet200} , 0.88)",
+          "type": "color",
+          "description": "Цветной фон диалогов, модалок и bottom sheet. Карточки и контролы внутри используют светлые fill-токены. Прозрачность 88%; контраст поверх изображений проверять отдельно."
         },
         "primary": {
           "value": "rgba( {primitives.cobalt200} , 0.88)",
@@ -498,12 +518,12 @@
     },
     "shadow": {
       "accent-focus": {
-        "value": "rgba({primitives.electric1000} , 0.7)",
+        "value": "rgba({primitives.iris900} , 0.7)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       },
       "accent": {
-        "value": "rgba( {primitives.electric1000} , 0.3)",
+        "value": "rgba( {primitives.iris900} , 0.3)",
         "type": "color",
         "description": "Для тени компонентов ИИ ассистента"
       }
@@ -514,15 +534,15 @@
       "decorative": {
         "focus": {
           "Step_1": {
-            "value": "{primitives.pink500}",
+            "value": "{primitives.iris900}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.pink800}",
+            "value": "{primitives.iris800}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.purple1000}",
+            "value": "{primitives.iris900}",
             "type": "color"
           }
         },
@@ -532,15 +552,15 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.purple600}",
+            "value": "{primitives.iris400}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.iris900}",
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.purple600}",
+            "value": "{primitives.iris400}",
             "type": "color"
           },
           "Step_5": {
@@ -554,15 +574,15 @@
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.purple600}",
+            "value": "{primitives.iris400}",
             "type": "color"
           },
           "Step_3": {
-            "value": "{primitives.cobalt1000}",
+            "value": "{primitives.iris900}",
             "type": "color"
           },
           "Step_4": {
-            "value": "{primitives.purple600}",
+            "value": "{primitives.iris400}",
             "type": "color"
           },
           "Step_5": {
@@ -577,7 +597,7 @@
             "description": "Только для обводки ии ассистента "
           },
           "step_2": {
-            "value": "{primitives.cobalt1300}",
+            "value": "{primitives.iris1200}",
             "type": "color",
             "description": "Только для обводки ии ассистента "
           }
@@ -593,27 +613,27 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray200}",
+              "value": "{primitives.iris100}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.gray200}",
+              "value": "{primitives.iris100}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray300}",
+              "value": "{primitives.iris200}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.gray300}",
+              "value": "{primitives.iris200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.gray400}",
+              "value": "{primitives.iris300}",
               "type": "color"
             }
           }
@@ -623,21 +643,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.48)",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.gray200} , 0.48)",
+              "value": "rgba( {primitives.iris1300} , 0.06)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.white} , 0.56)",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.white} , 0.80)",
+              "value": "rgba( {primitives.iris1300} , 0.08)",
               "type": "color"
             }
           }
@@ -926,15 +946,15 @@
         },
         "button-loading": {
           "Step_1": {
-            "value": "rgba( {primitives.gray500} , 0)",
+            "value": "rgba( {primitives.iris1200} , 0)",
             "type": "color"
           },
           "Step_2": {
-            "value": "rgba( {primitives.gray500} , 0.35)",
+            "value": "rgba( {primitives.iris1200} , 0.35)",
             "type": "color"
           },
           "Step_3": {
-            "value": "rgba( {primitives.gray500} , 0.5)",
+            "value": "rgba( {primitives.iris1200} , 0.5)",
             "type": "color"
           }
         }
@@ -974,21 +994,21 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "{primitives.cobalt1100}",
+            "value": "{primitives.iris700}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.purple1100}",
+            "value": "{primitives.iris700}",
             "type": "color"
           }
         },
         "lighthouse": {
           "Step_1": {
-            "value": "{primitives.purple1100}",
+            "value": "{primitives.amethyst700}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.pink900}",
+            "value": "{primitives.amethyst700}",
             "type": "color"
           }
         },
@@ -1025,11 +1045,19 @@
       },
       "button": {
         "Step_1": {
-          "value": "{primitives.violet700}",
+          "value": "{primitives.amethyst800}",
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.cobalt1000}",
+          "value": "{primitives.iris800}",
+          "type": "color"
+        },
+        "Step_3": {
+          "value": "{primitives.iris800}",
+          "type": "color"
+        },
+        "Step_4": {
+          "value": "{primitives.indigo700}",
           "type": "color"
         }
       },
@@ -1047,13 +1075,13 @@
           "type": "color"
         },
         "Step_4": {
-          "value": "{primitives.cobalt1000}",
+          "value": "{primitives.iris900}",
           "type": "color"
         }
       },
       "menu": {
         "Step_1": {
-          "value": "{primitives.violet400}",
+          "value": "{primitives.iris300}",
           "type": "color"
         },
         "Step_2": {

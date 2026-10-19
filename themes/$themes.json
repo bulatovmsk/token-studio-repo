@@ -2108,7 +2108,9 @@
       "gradient.component.sber-gradient.Step_1": "db84ff74ac88b0b068958363bd4a058af580096d",
       "gradient.component.sber-gradient.Step_2": "b823bf9eebd45a558bc2dad3356ed2c9644fb7a1",
       "gradient.component.sber-gradient.Step_3": "0813eda105ea4c5961100a97dd99f26a242c6ee8",
-      "gradient.component.sber-gradient.Step_4": "15600aa8c3b3345186ca2ec9fe19457e19fc3e90"
+      "gradient.component.sber-gradient.Step_4": "15600aa8c3b3345186ca2ec9fe19457e19fc3e90",
+      "gradient.component.button.Step_3": "a165d9776004dd901eb353960d5c202b977650b4",
+      "gradient.component.button.Step_4": "83d669f093eb58ab69e1c772dcffd96370ff296a"
     },
     "$figmaModeId": "41872:2",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
