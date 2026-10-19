@@ -188,6 +188,11 @@
             "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
+          },
+          "inverse": {
+            "value": "linear-gradient(45deg, rgba( {primitives.iris100} , 0) 0%, rgba( {primitives.iris100} , 0.08) 100%)",
+            "type": "color",
+            "description": "Hover для inverse-поверхности со светлым inverse-текстом. Прозрачный слой поверх glassy.inverse.primary; слабые inverse.third/fourth требуют проверки в контексте."
           }
         },
         "warning": {
@@ -376,6 +381,11 @@
             "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
+          },
+          "inverse": {
+            "value": "linear-gradient(45deg, {primitives.iris1100} 0%, {primitives.iris1000} 100%)",
+            "type": "color",
+            "description": "Hover для inverse-поверхности со светлым inverse-текстом. Непрозрачный градиент поверх solid.inverse."
           }
         }
       },
@@ -636,6 +646,16 @@
               "value": "{primitives.iris300}",
               "type": "color"
             }
+          },
+          "inverse": {
+            "Step_1": {
+              "value": "{primitives.iris1100}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.iris1000}",
+              "type": "color"
+            }
           }
         }
       },
@@ -658,6 +678,16 @@
             },
             "Step_2": {
               "value": "rgba( {primitives.iris1300} , 0.08)",
+              "type": "color"
+            }
+          },
+          "inverse": {
+            "Step_1": {
+              "value": "rgba( {primitives.iris100} , 0)",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "rgba( {primitives.iris100} , 0.08)",
               "type": "color"
             }
           }

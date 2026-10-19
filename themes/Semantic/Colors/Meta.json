@@ -211,6 +211,11 @@
             "value": "linear-gradient(45deg, {primitives.gray1000} 0%, {primitives.gray800} 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Solid-third. Замена для {{ Fill/Solid: hover & focus/Third }}"
+          },
+          "inverse": {
+            "value": "linear-gradient(45deg, {primitives.gray200} 0%, {primitives.gray300} 100%)",
+            "type": "color",
+            "description": "Hover для светлой inverse-поверхности с тёмным inverse-текстом. Непрозрачный градиент поверх solid.inverse."
           }
         }
       },
@@ -270,6 +275,11 @@
             "value": "linear-gradient(45deg, rgba( {primitives.gray600} , 0.32) 0%, rgba( {primitives.gray500} , 0.32) 100%)",
             "type": "color",
             "description": "Для состояния ховера или фокуса компонентов залитых Glassy-third. Замена для {{ Fill/Glassy: hover & focus/Third }}"
+          },
+          "inverse": {
+            "value": "linear-gradient(45deg, rgba( {primitives.black} , 0) 0%, rgba( {primitives.black} , 0.08) 100%)",
+            "type": "color",
+            "description": "Hover для светлой inverse-поверхности с тёмным inverse-текстом. Прозрачный слой поверх glassy.inverse.primary; слабые inverse.third/fourth требуют проверки в контексте."
           }
         }
       },
@@ -654,6 +664,16 @@
               "value": "{primitives.gray800}",
               "type": "color"
             }
+          },
+          "inverse": {
+            "Step_1": {
+              "value": "{primitives.gray200}",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "{primitives.gray300}",
+              "type": "color"
+            }
           }
         }
       },
@@ -676,6 +696,16 @@
             },
             "Step_2": {
               "value": "rgba( {primitives.gray500} , 0.32)",
+              "type": "color"
+            }
+          },
+          "inverse": {
+            "Step_1": {
+              "value": "rgba( {primitives.black} , 0)",
+              "type": "color"
+            },
+            "Step_2": {
+              "value": "rgba( {primitives.black} , 0.08)",
               "type": "color"
             }
           }
