@@ -78,18 +78,14 @@ opacity at both stops). Glassy hover keeps the approved transparent iris1300
 ramps: secondary 0–16%, third 0–20%. Rest glassy primary/secondary/third remain
 4/8/12%; there is no separate glassy-primary hover token in the current schema.
 
-## Overlay correction (current behavior)
+## Current hover behavior
 
-Hover is an additional paint ABOVE Rest, not a replacement. This supersedes
-all earlier replacement-style hover descriptions in this document.
-Both solid and glassy hover paints are transparent iris1300 gradients at 45deg:
-solid primary 0–4%, secondary 0–6%, third 0–8%; glassy secondary 0–6%, third 0–8%.
-The solid/glassy names describe the underlying Rest family, not hover opacity.
-Reduced overlay alpha accounts for the existing Rest tint. Figma components
-must retain their Rest paint beneath the hover style/layer. Applying the hover
-style as the sole fill does not demonstrate the intended result.
+Solid hover remains fully opaque at both stops: primary white → iris100,
+secondary iris100 → iris200, third iris200 → iris300, at 45deg. Applied over
+Rest, it covers that base. All solid fills and gradient stops must have alpha 1.
 
-The validator now composes parent → matching Rest → hover → foreground,
-including nested containers, and checks transparent endpoints preserve Rest.
-Existing status-text limitations are reported explicitly. No background,
-Rest, button or unrelated token values changed in this correction.
+Only glassy hover is a transparent overlay: iris1300 at 0–6% for secondary
+and 0–8% for third, applied above the corresponding Rest paint. The validator
+composes parent → Rest → hover → foreground and enforces opaque solid fills.
+Backgrounds and Rest remain unchanged. Status-text limitations are still
+reported separately from the checked ordinary-text combinations.

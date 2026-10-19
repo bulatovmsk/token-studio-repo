@@ -148,7 +148,7 @@ def main():
 
     for path in set(backgrounds) | {key for key in semantic if key.startswith("color.fill.glassy.")}:
         alphas = [color[3] for color in samples(path)]
-        if ".glassy." in path or "hover-focus" in path:
+        if ".glassy." in path:
             if not all(0 <= alpha < 1 for alpha in alphas) or not any(alpha > 0 for alpha in alphas):
                 raise AssertionError(f"Glassy must retain transparency: {path}")
         elif any(alpha != 1 for alpha in alphas):
@@ -199,16 +199,14 @@ def main():
             raise AssertionError("Glassy levels must progressively darken the same parent")
         for previous, current in zip([parent, *levels], levels):
             require("glassy neighboring levels", contrast(previous, current), 1.05)
-    for family, levels in (("solid", (("primary", .04), ("secondary", .06), ("third", .08))),
-                           ("glassy", (("secondary", .06), ("third", .08)))):
-        for role, alpha in levels:
-            hover = samples(f"color.fill.{family}.hover-focus.{role}")
-            if hover[0][3] != 0 or hover[-1][3] != alpha:
-                raise AssertionError(f"Overlay endpoints disagree: {family}.{role}")
-            for parent in roots:
-                rest = composite(samples(f"color.fill.{family}.{role}")[0], parent)
-                if composite(hover[0], rest) != rest:
-                    raise AssertionError("Transparent hover edge must preserve Rest")
+    for role, alpha in (("secondary", .06), ("third", .08)):
+        hover = samples(f"color.fill.glassy.hover-focus.{role}")
+        if hover[0][3] != 0 or hover[-1][3] != alpha:
+            raise AssertionError(f"Glassy overlay endpoints disagree: {role}")
+        for parent in roots:
+            rest = composite(samples(f"color.fill.glassy.{role}")[0], parent)
+            if composite(hover[0], rest) != rest:
+                raise AssertionError("Transparent glassy hover edge must preserve Rest")
     if resolve("color.background.solid.primary").upper() != "#E6E5F5":
         raise AssertionError("The production canvas color must not change")
 

@@ -363,19 +363,19 @@
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.04) 100%)",
+            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.iris100} 100%)",
             "type": "color",
-            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
+            "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris200} 100%)",
             "type": "color",
-            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
+            "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
             "type": "color",
-            "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
+            "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           }
         }
       },
@@ -609,31 +609,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "{primitives.white}",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.04)",
+              "value": "{primitives.iris100}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "{primitives.iris100}",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.06)",
+              "value": "{primitives.iris200}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "{primitives.iris200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.08)",
+              "value": "{primitives.iris300}",
               "type": "color"
             }
           }
