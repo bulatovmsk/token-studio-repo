@@ -25,24 +25,24 @@
         "description": "Замена для {{ Text & icon/on Light/Accent }}"
       },
       "offer": {
-        "value": "{primitives.yellow1100}",
+        "value": "{primitives.yellow1200}",
         "type": "color",
-        "description": "Текст офферов и ссылки на светлых заливках; контраст не менее 4,5:1."
+        "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
       "positive": {
-        "value": "{primitives.green1100}",
+        "value": "{primitives.green1200}",
         "type": "color",
-        "description": "Положительные события"
+        "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
       "negative": {
-        "value": "{primitives.red1000}",
+        "value": "{primitives.red1100}",
         "type": "color",
-        "description": "Ошибки, критичные предупреждения"
+        "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
       "warning": {
-        "value": "{primitives.yellow1100}",
+        "value": "{primitives.yellow1200}",
         "type": "color",
-        "description": "Некритичные предупреждения"
+        "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
       "inverse": {
         "primary": {
@@ -453,8 +453,9 @@
         "type": "color"
       },
       "menu": {
-        "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris600} 100%)",
-        "type": "color"
+        "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris700} 100%)",
+        "type": "color",
+        "description": "Градиент меню для светлого inverse-текста; светлый конец ограничен iris700 для контраста не ниже 4.5:1."
       },
       "sber-gradient": {
         "value": "{brand.partners.sber-gradient}",
@@ -682,11 +683,11 @@
           },
           "inverse": {
             "Step_1": {
-              "value": "{primitives.iris1100}",
+              "value": "{primitives.iris900}",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris1000}",
+              "value": "{primitives.iris600}",
               "type": "color"
             }
           }
@@ -1148,7 +1149,7 @@
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.iris600}",
+          "value": "{primitives.iris700}",
           "type": "color"
         }
       },
