@@ -573,23 +573,23 @@
       "type": "color"
     },
     "iris100": {
-      "value": "#F0F0FF",
+      "value": "#EBEBFE",
       "type": "color"
     },
     "iris200": {
-      "value": "#E1E2FF",
+      "value": "#D3D3FE",
       "type": "color"
     },
     "iris300": {
-      "value": "#CBCBFF",
+      "value": "#BDBCFD",
       "type": "color"
     },
     "iris400": {
-      "value": "#B2B1FC",
+      "value": "#A7A5FA",
       "type": "color"
     },
     "iris500": {
-      "value": "#9893F9",
+      "value": "#938CF7",
       "type": "color"
     },
     "iris600": {
