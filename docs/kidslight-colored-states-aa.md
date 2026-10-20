@@ -1,45 +1,43 @@
-# KidsLight: existing iris primitives for paired surface roles
+# KidsLight: opaque mixtures of existing primitives
 
-All ordinary solid fills and gradient steps now reference existing primitives.
-No computed semantic HEX or new primitives are introduced. Main background
-remains cobalt200 (#E6E5F5); modal backgrounds are unchanged.
+The muted appearance approved in screenshot 1 is restored without new
+primitives or literal semantic HEX values. Main background stays cobalt200.
 
-| Role | Solid | Glassy |
-|---|---|---|
-| primary | iris200 | iris200 at 92% |
-| secondary | iris300 | iris400 at 49% |
-| third | iris400 | iris400 at 92% |
-| fourth | iris500 | No existing ordinary glassy fourth token |
+Solid primary/secondary/third/fourth use a Tokens Studio `mix` modifier:
+base `{primitives.cobalt200}`, mix color `{primitives.iris1100}`, sRGB amounts
+0.04/0.08/0.12/0.16. Both inputs are opaque, so output alpha remains 1.
+Resolved output: #DFDDF1 / #D7D5EC / #D0CDE8 / #C9C5E3.
+These are calculated results, not hardcoded token values or new primitives.
 
-Contrast against the main/modal background increases by role in both families.
-Primary is deliberately close to the background. Solid/glassy pairs are
-approximate: validation bounds maximum per-channel difference to 8/255 on main
-and modal contexts, including hover. This is an RGB regression guard, not a
-perceptual guarantee; visual approval belongs in Figma. Secondary is fitted
-with a darker primitive at lower opacity; third uses higher opacity so nested
-status text remains readable. Opacity need not be monotonic across roles.
+Glassy retains iris1100 with alpha 4/8/12%. It matches the corresponding solid
+on the main canvas within rounding. Modal-background appearance is approximate;
+both role scales increase contrast from primary onward. A separate ordinary
+glassy-fourth token does not exist and is not introduced.
 
-Solid hover: iris200 → iris300, iris300 → iris400, iris400 → iris500.
-Glassy hover overlays Rest: secondary iris500 0 → 50%; third iris600 0 → 45%.
-All are 45 degrees; composite values and Step tokens match. Solid is opaque.
-There is no ordinary glassy-primary hover token in the current schema.
+Solid hover Step_1 references its solid Rest. Step_2 mixes that Rest with
+iris1300 by 4/6/8% for primary/secondary/third. Gradient tokens reference their
+Step tokens. Glassy hover remains an iris1300 overlay at 0–6% / 0–8%.
 
-## Foreground constraints
+The rejected saturated iris200–500 scale and its extra foreground restrictions
+are removed. Active border and focus return to their previous iris1100 80%
+and iris900 values. Backgrounds, inverse and other semantic roles are unchanged.
 
-The stronger fourth and third-hover surfaces require primary/secondary text
-for ordinary small labels. text-icon.third on solid fourth is about 4.23:1;
-status text on fourth is also below 4.5:1. The validator reports these limits,
-and checks tertiary text on the remaining supported surfaces. Primary,
-secondary and accent text remain checked across the full surface palette.
-Status text remains checked on non-fourth Rest surfaces; hover limits are
-reported separately. These restrictions are new relative to the weaker scale.
+## Tool support
 
-Active border opacity increases from 80% to 85% (iris1100); focus uses iris1000
-instead of iris900 to retain 3:1 contrast on the stronger fills. This does not
-add outlines to components. Other text, status, inverse, button and shared
-primitive tokens are unchanged.
+Color Modifiers are a Tokens Studio Pro feature. Export to Figma produces
+resolved colors, not live primitive aliases, because Figma cannot represent
+mix expressions. Re-export after primitive changes. Plugin import/export has
+not been tested in the user's session. Official documentation:
+https://docs.tokens.studio/manage-tokens/token-types/color/modified
+
+The formulas were checked using the official @tokens-studio/sd-transforms
+modifyColor implementation, including nested references in gradient steps.
+The local validator supports opaque sRGB mix with HEX rounding and rejects
+unsupported modifier types rather than silently ignoring them.
 
 Run scripts/check_kidslight_contrast.py and scripts/check_inverse_hover.py.
-Checks cover hierarchy, pair matching, references, gradient steps, alpha,
-nested surfaces, supported foregrounds, borders and focus. Arbitrary images,
-disabled text and actual application rendering are outside this palette check.
+Checks retain the muted-scale hierarchy, paired Rest/hover matching on the
+canvas, ordinary text on all tested surfaces, status text on normal surfaces,
+references, opacity, borders and focus. Previously documented status-text hover
+limitations remain reported. Arbitrary-image readability and visual approval
+in Figma are not certified by these numerical checks.

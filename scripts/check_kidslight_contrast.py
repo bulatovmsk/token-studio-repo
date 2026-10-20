@@ -22,7 +22,8 @@ def flatten(tree, prefix=""):
         path = f"{prefix}.{key}" if prefix else key
         if isinstance(item, dict):
             if "value" in item:
-                result[path] = item["value"]
+                modifier = item.get("$extensions", {}).get("studio.tokens", {}).get("modify")
+                result[path] = {"base": item["value"], "modify": modifier} if modifier else item["value"]
             else:
                 result.update(flatten(item, path))
     return result
@@ -41,6 +42,17 @@ def resolve(path, stack=()):
     if path in stack:
         raise ValueError(f"Cyclic reference: {' -> '.join((*stack, path))}")
     value = TOKENS[path]
+    if isinstance(value, dict):
+        modifier = value["modify"]
+        if modifier["type"] != "mix" or modifier["space"] != "srgb":
+            raise ValueError(f"Unsupported modifier: {path}")
+        expand = lambda text: REFERENCE.sub(lambda match: str(resolve(match[1], (*stack, path))), text)
+        base = rgba(expand(value["base"]))
+        other = rgba(expand(modifier["color"]))
+        amount = float(modifier["value"])
+        if not 0 <= amount <= 1 or base[3] != 1 or other[3] != 1:
+            raise ValueError(f"Expected opaque sRGB mix: {path}")
+        return "#" + "".join(f"{int((a*(1-amount)+b*amount)*255+.5):02X}" for a,b in zip(base[:3], other[:3]))
     if isinstance(value, str):
         return REFERENCE.sub(lambda match: str(resolve(match[1], (*stack, path))), value)
     return value
@@ -189,27 +201,32 @@ def main():
             separations = [contrast(level, root) for level in levels]
             if not all(a < b for a, b in zip(separations, separations[1:])):
                 raise AssertionError(f"{family}: background contrast must increase by role")
-            if not all(luminance(a) > luminance(b) for a, b in zip(levels, levels[1:])):
+            if not all(luminance(a) > luminance(b) for a, b in zip([root, *levels], levels)):
                 raise AssertionError(f"{family}: levels must darken progressively")
             for previous, current in zip(levels, levels[1:]):
                 require(f"{family} neighboring levels", contrast(previous, current), 1.05)
-    # Existing primitives allow approximate, not exact, matching. Bound RGB
-    # distance on both reference backgrounds; check the entire hover ramp too.
-    for root in roots:
-        for role in ("primary", "secondary", "third"):
-            solid = samples(f"color.fill.solid.{role}")[0]
-            glassy = composite(samples(f"color.fill.glassy.{role}")[0], root)
-            error = max(abs(a-b) for a,b in zip(solid[:3],glassy[:3])) * 255
-            if error > 8:
-                raise AssertionError(f"{role}: solid/glassy Rest difference {error:.2f} > 8 RGB units")
-            if role != "primary":
-                sh = samples(f"color.fill.solid.hover-focus.{role}")
-                gh = [composite(h,glassy) for h in samples(f"color.fill.glassy.hover-focus.{role}")]
-                error = max(abs(a-b) for x,y in zip(sh,gh) for a,b in zip(x[:3],y[:3]))*255
-                if error > 8:
-                    raise AssertionError(f"{role}: solid/glassy hover difference {error:.2f} > 8 RGB units")
-    print("PASS approximate solid/glassy matching on main and modal backgrounds")
-    for role, alpha in (("secondary", .50), ("third", .45)):
+    canvas = samples("color.background.solid.primary")[0]
+    for role in ("primary", "secondary", "third"):
+        solid = samples(f"color.fill.solid.{role}")[0]
+        glassy = composite(samples(f"color.fill.glassy.{role}")[0], canvas)
+        if max(abs(a-b) for a,b in zip(solid[:3], glassy[:3])) > .5/255 + 1e-9:
+            raise AssertionError(f"{role}: solid must equal glassy on canvas within HEX rounding")
+        if role != "primary":
+            solid_hover = samples(f"color.fill.solid.hover-focus.{role}")
+            glassy_hover = [composite(h, glassy) for h in samples(f"color.fill.glassy.hover-focus.{role}")]
+            if max(abs(a-b) for sh,gh in zip(solid_hover,glassy_hover)
+                   for a,b in zip(sh[:3],gh[:3])) > 1/255 + 1e-9:
+                raise AssertionError(f"{role}: solid/glassy hover mismatch on canvas")
+    print("PASS solid/glassy matching on canvas, Rest and hover")
+    # Glassy levels darken one common parent; 1.05 is a design guard, not WCAG.
+    for parent in [*roots, rgba("#FFFFFF")]:
+        levels = [composite(samples(f"color.fill.glassy.{role}")[0], parent)
+                  for role in ("primary", "secondary", "third")]
+        if not luminance(parent) > luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
+            raise AssertionError("Glassy levels must progressively darken the same parent")
+        for previous, current in zip([parent, *levels], levels):
+            require("glassy neighboring levels", contrast(previous, current), 1.05)
+    for role, alpha in (("secondary", .06), ("third", .08)):
         hover = samples(f"color.fill.glassy.hover-focus.{role}")
         if hover[0][3] != 0 or hover[-1][3] != alpha:
             raise AssertionError(f"Glassy overlay endpoints disagree: {role}")
@@ -220,30 +237,18 @@ def main():
     if resolve("color.background.solid.primary").upper() != "#E6E5F5":
         raise AssertionError("The production canvas color must not change")
 
-    for role in ("primary", "secondary", "accent"):
+    for role in ("primary", "secondary", "third", "accent"):
         require(f"text-icon.{role} / composed surfaces", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
-    # The strongest iris500 surface and third hover require primary/secondary
-    # text. Keep checking tertiary text on all other supported ordinary fills.
-    tertiary_palette = set(contexts)
-    for parent in contexts:
-        for path in backgrounds:
-            if path in ("color.fill.solid.fourth", "color.fill.solid.hover-focus.third",
-                        "color.fill.glassy.hover-focus.third"):
-                continue
-            under = composite(samples(path.replace(".hover-focus", ""))[0], parent) if "hover-focus" in path else parent
-            tertiary_palette.update(composite(fill, under) for fill in samples(path))
-    require("text-icon.third / supported surfaces", minimum(samples("color.text-icon.third"), tertiary_palette), 4.5)
-    print(f"LIMITATION tertiary text on fourth/third hover: {minimum(samples('color.text-icon.third'), palette):.2f}:1")
-    # Status text is supported on normal surfaces except the strongest fourth;
-    # ordinary primary/secondary text is required there and on strong hover.
+    # Approved hover is for ordinary buttons. Status text remains checked on
+    # normal surfaces; report its hover limitation explicitly rather than
+    # silently changing the approved gradient or darkening unrelated tokens.
     normal_palette = set(contexts)
     for parent in contexts:
         for path in backgrounds:
-            if "hover-focus" not in path and path != "color.fill.solid.fourth":
+            if "hover-focus" not in path:
                 normal_palette.update(composite(fill, parent) for fill in samples(path))
     for role in ("offer", "positive", "negative", "warning"):
         require(f"text-icon.{role} / normal surfaces", minimum(samples(f"color.text-icon.{role}"), normal_palette), 4.5)
-        print(f"LIMITATION {role} / solid.fourth: {minimum(samples(f'color.text-icon.{role}'), samples('color.fill.solid.fourth')):.2f}:1; use primary/secondary text")
         hover_min = minimum(samples(f"color.text-icon.{role}"), palette)
         if hover_min < 4.5:
             print(f"LIMITATION {role} on nested hover: {hover_min:.2f}:1; use primary text for ordinary buttons")
