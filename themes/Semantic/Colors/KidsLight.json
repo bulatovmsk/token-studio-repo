@@ -96,12 +96,12 @@
         }
       },
       "solid": {
-        "value": "{primitives.iris1200}",
+        "value": "{primitives.iris1000}",
         "type": "color",
         "description": "Значимая граница обычного контрола. Для декоративных границ карточек использовать border.contour."
       },
       "glassy": {
-        "value": "rgba( {primitives.iris1200} , 0.85)",
+        "value": "rgba( {primitives.iris1000} , 0.85)",
         "type": "color",
         "description": "Полупрозрачная значимая граница обычного контрола на проверенных светлых поверхностях."
       },
@@ -116,7 +116,7 @@
         "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
       "contour": {
-        "value": "rgba( {primitives.iris1200} , 0.22)",
+        "value": "rgba( {primitives.iris1000} , 0.22)",
         "type": "color",
         "description": "Декоративный приглушённый цветной контур карточек. Значимая граница контрола — border.solid/glassy."
       },
@@ -142,33 +142,33 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris1100} , 0.04)",
+          "value": "rgba( {primitives.iris300} , 0.24)",
           "type": "color",
           "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris1100} , 0.08)",
+          "value": "rgba( {primitives.iris400} , 0.49)",
           "type": "color",
           "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "third": {
-          "value": "rgba( {primitives.iris1100} , 0.12)",
+          "value": "rgba( {primitives.iris500} , 0.68)",
           "type": "color",
           "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "inverse": {
           "primary": {
-            "value": "rgba( {primitives.iris1200} , 0.92)",
+            "value": "rgba( {primitives.iris1000} , 0.90)",
             "type": "color",
             "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           },
           "third": {
-            "value": "rgba( {primitives.iris1200} , 0.84)",
+            "value": "rgba( {primitives.iris1000} , 0.80)",
             "type": "color",
             "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           },
           "fourth": {
-            "value": "rgba( {primitives.iris1200} , 0.76)",
+            "value": "rgba( {primitives.iris1000} , 0.65)",
             "type": "color",
             "description": "Тёмная прозрачная iris-поверхность для светлого text-icon.inverse. Контраст проверен на светлых фонах и карточках; не использовать как слабый затемняющий overlay."
           }
@@ -323,55 +323,22 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.cobalt200}",
+          "value": "{primitives.iris200}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.04",
-                "space": "srgb",
-                "color": "{primitives.iris1100}",
-                "format": "hex"
-              }
-            }
-          },
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "third": {
-          "value": "{primitives.cobalt200}",
+          "value": "{primitives.iris300}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.12",
-                "space": "srgb",
-                "color": "{primitives.iris1100}",
-                "format": "hex"
-              }
-            }
-          },
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "secondary": {
-          "value": "{primitives.cobalt200}",
+          "value": "{primitives.iris400}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.08",
-                "space": "srgb",
-                "color": "{primitives.iris1100}",
-                "format": "hex"
-              }
-            }
-          },
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "inverse": {
-          "value": "{primitives.iris1200}",
+          "value": "{primitives.iris900}",
           "type": "color",
           "description": "Тёмная iris-поверхность для text-icon.inverse."
         },
@@ -427,7 +394,7 @@
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "inverse": {
-            "value": "linear-gradient(45deg, {primitives.iris1100} 0%, {primitives.iris1000} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris900} 0%, {primitives.iris600} 100%)",
             "type": "color",
             "description": "Hover для inverse-поверхности со светлым inverse-текстом. Непрозрачный градиент поверх solid.inverse."
           }
