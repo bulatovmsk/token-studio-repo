@@ -142,19 +142,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris1100} , 0.04)",
+          "value": "rgba( {primitives.iris100} , 0.88)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon поверх изображения. Непрозрачность primary 88%, secondary 84%, third 80%. Hover накладывается поверх Rest; background blur задаётся компонентом отдельно."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris1100} , 0.08)",
+          "value": "rgba( {primitives.iris200} , 0.84)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon поверх изображения. Непрозрачность primary 88%, secondary 84%, third 80%. Hover накладывается поверх Rest; background blur задаётся компонентом отдельно."
         },
         "third": {
-          "value": "rgba( {primitives.iris1100} , 0.12)",
+          "value": "rgba( {primitives.iris300} , 0.8)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon поверх изображения. Непрозрачность primary 88%, secondary 84%, third 80%. Hover накладывается поверх Rest; background blur задаётся компонентом отдельно."
         },
         "inverse": {
           "primary": {
@@ -180,12 +180,12 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris100} , 0) 0%, rgba( {primitives.iris100} , 0.06) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris100} , 0) 0%, rgba( {primitives.iris100} , 0.08) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
@@ -663,21 +663,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "rgba( {primitives.iris100} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.06)",
+              "value": "rgba( {primitives.iris100} , 0.06)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "rgba( {primitives.iris100} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.08)",
+              "value": "rgba( {primitives.iris100} , 0.08)",
               "type": "color"
             }
           },

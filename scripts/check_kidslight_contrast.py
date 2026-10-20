@@ -191,14 +191,29 @@ def main():
                 raise AssertionError(f"{family} controls must gain density inside cards")
             require(f"{family} card / secondary separation", contrast(levels[0], card), 1.10)
             require(f"{family} secondary / third separation", contrast(levels[1], levels[0]), 1.10)
-    # Glassy levels darken one common parent; 1.05 is a design guard, not WCAG.
-    for parent in [*roots, rgba("#FFFFFF")]:
+    # Light glassy surfaces may lift the parent; role hierarchy is checked
+    # between fills, rather than requiring every fill to darken its backdrop.
+    for parent in [*roots, rgba("#FFFFFF"), rgba("#000000")]:
         levels = [composite(samples(f"color.fill.glassy.{role}")[0], parent)
                   for role in ("primary", "secondary", "third")]
-        if not luminance(parent) > luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
-            raise AssertionError("Glassy levels must progressively darken the same parent")
-        for previous, current in zip([parent, *levels], levels):
+        if not luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
+            raise AssertionError("Glassy levels must retain primary/secondary/third hierarchy")
+        for previous, current in zip(levels, levels[1:]):
             require("glassy neighboring levels", contrast(previous, current), 1.05)
+
+    # Black and white bound every SDR image pixel under these fixed light
+    # fills and overlays. Include all hover samples and alpha-composited text.
+    image_surfaces = []
+    for role in ("primary", "secondary", "third"):
+        for backdrop in ("#000000", "#FFFFFF"):
+            rest = composite(samples(f"color.fill.glassy.{role}")[0], rgba(backdrop))
+            image_surfaces.append(rest)
+            if role != "primary":
+                image_surfaces.extend(composite(h, rest) for h in
+                                      samples(f"color.fill.glassy.hover-focus.{role}"))
+    for role in ("primary", "secondary", "third", "accent"):
+        require(f"text-icon.{role} / glassy over image extremes, Rest and hover",
+                minimum(samples(f"color.text-icon.{role}"), image_surfaces), 4.5)
     for role, alpha in (("secondary", .06), ("third", .08)):
         hover = samples(f"color.fill.glassy.hover-focus.{role}")
         if hover[0][3] != 0 or hover[-1][3] != alpha:
@@ -270,7 +285,7 @@ def main():
         if width < 3:
             raise AssertionError(f"Focus width below concept's 3 px rule: {relative}")
     print("PASS focus width: at least 3 px on Web/Mobile and TV")
-    print("Excluded: disabled/decorative colors, arbitrary image overlays, application layout and interaction.")
+    print("Excluded: disabled/decorative colors, status text on images, image overlays outside ordinary glassy fills, application layout and interaction.")
 
 
 if __name__ == "__main__":
