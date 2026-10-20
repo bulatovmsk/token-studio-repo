@@ -142,19 +142,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris100} , 0.94)",
+          "value": "rgba( {primitives.iris1100} , 0.05)",
           "type": "color",
-          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon. Различимость на background проверена относительно прежней шкалы iris1100 4/8/12%, без контура. Primary 94%, secondary 84%, third 92%; плотность third сохраняет читаемость текста поверх изображения. Hover накладывается поверх Rest."
+          "description": "Прежняя тонирующая заливка iris1100 с увеличенной плотностью: primary 5%, secondary 9%, third 13%. Для тёмного текста на светлой подложке; поверх произвольной картинки нужна проверка контраста."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris300} , 0.84)",
+          "value": "rgba( {primitives.iris1100} , 0.09)",
           "type": "color",
-          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon. Различимость на background проверена относительно прежней шкалы iris1100 4/8/12%, без контура. Primary 94%, secondary 84%, third 92%; плотность third сохраняет читаемость текста поверх изображения. Hover накладывается поверх Rest."
+          "description": "Прежняя тонирующая заливка iris1100 с увеличенной плотностью: primary 5%, secondary 9%, third 13%. Для тёмного текста на светлой подложке; поверх произвольной картинки нужна проверка контраста."
         },
         "third": {
-          "value": "rgba( {primitives.iris400} , 0.92)",
+          "value": "rgba( {primitives.iris1100} , 0.13)",
           "type": "color",
-          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon. Различимость на background проверена относительно прежней шкалы iris1100 4/8/12%, без контура. Primary 94%, secondary 84%, third 92%; плотность third сохраняет читаемость текста поверх изображения. Hover накладывается поверх Rest."
+          "description": "Прежняя тонирующая заливка iris1100 с увеличенной плотностью: primary 5%, secondary 9%, third 13%. Для тёмного текста на светлой подложке; поверх произвольной картинки нужна проверка контраста."
         },
         "inverse": {
           "primary": {
@@ -180,12 +180,12 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris100} , 0) 0%, rgba( {primitives.iris100} , 0.06) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris100} , 0) 0%, rgba( {primitives.iris100} , 0.08) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
@@ -663,21 +663,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris100} , 0)",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris100} , 0.06)",
+              "value": "rgba( {primitives.iris1300} , 0.06)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.iris100} , 0)",
+              "value": "rgba( {primitives.iris1300} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris100} , 0.08)",
+              "value": "rgba( {primitives.iris1300} , 0.08)",
               "type": "color"
             }
           },

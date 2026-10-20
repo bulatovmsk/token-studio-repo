@@ -191,45 +191,14 @@ def main():
                 raise AssertionError(f"{family} controls must gain density inside cards")
             require(f"{family} card / secondary separation", contrast(levels[0], card), 1.10)
             require(f"{family} secondary / third separation", contrast(levels[1], levels[0]), 1.10)
-    # Regression baseline: ordinary Rest fills before the light-surface change
-    # (e52393d), iris1100 at 4/8/12%. Compare actual configured backgrounds,
-    # including translucent backgrounds over the main canvas, without outlines.
-    comparison_bases = list(roots)
-    canvas = samples("color.background.solid.primary")[0]
-    comparison_bases += [composite(samples(f"color.background.glassy.{role}")[0], canvas)
-                         for role in ("primary", "secondary", "third")]
-    for role, alpha in (("primary", .04), ("secondary", .08), ("third", .12)):
-        old_fill = rgba(f"rgba( {resolve('primitives.iris1100')} , {alpha})")
-        new_fill = samples(f"color.fill.glassy.{role}")[0]
-        for base in comparison_bases:
-            before = contrast(composite(old_fill, base), base)
-            after = contrast(composite(new_fill, base), base)
-            require(f"glassy.{role} / background, previous separation {before:.3f}",
-                    after, before)
-
-    # Light glassy surfaces may lift the parent; role hierarchy is checked
-    # between fills, rather than requiring every fill to darken its backdrop.
-    for parent in [*roots, rgba("#FFFFFF"), rgba("#000000")]:
+    # Glassy levels darken one common parent; 1.05 is a design guard, not WCAG.
+    for parent in [*roots, rgba("#FFFFFF")]:
         levels = [composite(samples(f"color.fill.glassy.{role}")[0], parent)
                   for role in ("primary", "secondary", "third")]
-        if not luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
-            raise AssertionError("Glassy levels must retain primary/secondary/third hierarchy")
-        for previous, current in zip(levels, levels[1:]):
+        if not luminance(parent) > luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
+            raise AssertionError("Glassy levels must progressively darken the same parent")
+        for previous, current in zip([parent, *levels], levels):
             require("glassy neighboring levels", contrast(previous, current), 1.05)
-
-    # Black and white bound every SDR image pixel under these fixed light
-    # fills and overlays. Include all hover samples and alpha-composited text.
-    image_surfaces = []
-    for role in ("primary", "secondary", "third"):
-        for backdrop in ("#000000", "#FFFFFF"):
-            rest = composite(samples(f"color.fill.glassy.{role}")[0], rgba(backdrop))
-            image_surfaces.append(rest)
-            if role != "primary":
-                image_surfaces.extend(composite(h, rest) for h in
-                                      samples(f"color.fill.glassy.hover-focus.{role}"))
-    for role in ("primary", "secondary", "third", "accent"):
-        require(f"text-icon.{role} / glassy over image extremes, Rest and hover",
-                minimum(samples(f"color.text-icon.{role}"), image_surfaces), 4.5)
     for role, alpha in (("secondary", .06), ("third", .08)):
         hover = samples(f"color.fill.glassy.hover-focus.{role}")
         if hover[0][3] != 0 or hover[-1][3] != alpha:
@@ -301,7 +270,7 @@ def main():
         if width < 3:
             raise AssertionError(f"Focus width below concept's 3 px rule: {relative}")
     print("PASS focus width: at least 3 px on Web/Mobile and TV")
-    print("Excluded: disabled/decorative colors, status text on images, image overlays outside ordinary glassy fills, application layout and interaction.")
+    print("Excluded: disabled/decorative colors, arbitrary image overlays, application layout and interaction.")
 
 
 if __name__ == "__main__":
