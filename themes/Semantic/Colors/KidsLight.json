@@ -142,17 +142,17 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris300} , 0.24)",
+          "value": "rgba( {primitives.iris100} , 0.8)",
           "type": "color",
           "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris400} , 0.49)",
+          "value": "rgba( {primitives.iris200} , 0.80)",
           "type": "color",
           "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
         "third": {
-          "value": "rgba( {primitives.iris500} , 0.68)",
+          "value": "rgba( {primitives.iris300} , 0.9)",
           "type": "color",
           "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
         },
@@ -323,16 +323,21 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.iris200}",
+          "value": "{primitives.iris100}",
           "type": "color",
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "third": {
-          "value": "{primitives.iris300}",
+          "value": "{primitives.iris200}",
           "type": "color",
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "secondary": {
+          "value": "{primitives.iris300}",
+          "type": "color",
+          "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
+        },
+        "fourth": {
           "value": "{primitives.iris400}",
           "type": "color",
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
@@ -360,22 +365,6 @@
           "value": "{primitives.red900}",
           "type": "color",
           "description": "Live трансляции"
-        },
-        "fourth": {
-          "value": "{primitives.cobalt200}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.16",
-                "space": "srgb",
-                "color": "{primitives.iris1100}",
-                "format": "hex"
-              }
-            }
-          },
-          "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "hover-focus": {
           "primary": {

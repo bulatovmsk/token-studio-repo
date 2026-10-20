@@ -27,7 +27,7 @@
           "type": "fontSizes"
         },
         "20": {
-          "value": 17.0,
+          "value": 17,
           "type": "fontSizes"
         }
       },
@@ -73,7 +73,7 @@
           "type": "fontSizes"
         },
         "20": {
-          "value": 17.0,
+          "value": 17,
           "type": "fontSizes"
         }
       },
@@ -87,7 +87,7 @@
           "type": "fontSizes"
         },
         "20": {
-          "value": 17.0,
+          "value": 17,
           "type": "fontSizes"
         },
         "23": {
@@ -115,7 +115,7 @@
           "type": "fontSizes"
         },
         "40": {
-          "value": 34.0,
+          "value": 34,
           "type": "fontSizes"
         },
         "48": {
@@ -169,7 +169,7 @@
           "type": "fontSizes"
         },
         "60": {
-          "value": 51.0,
+          "value": 51,
           "type": "fontSizes"
         },
         "64": {
@@ -181,7 +181,7 @@
           "type": "fontSizes"
         },
         "100": {
-          "value": 85.0,
+          "value": 85,
           "type": "fontSizes"
         }
       }
@@ -201,7 +201,7 @@
           "type": "lineHeights"
         },
         "20": {
-          "value": 17.0,
+          "value": 17,
           "type": "lineHeights"
         },
         "22": {
@@ -251,7 +251,7 @@
           "type": "lineHeights"
         },
         "20": {
-          "value": 17.0,
+          "value": 17,
           "type": "lineHeights"
         },
         "22": {
@@ -269,7 +269,7 @@
       },
       "headings": {
         "20": {
-          "value": 17.0,
+          "value": 17,
           "type": "lineHeights"
         },
         "22": {
@@ -301,7 +301,7 @@
           "type": "lineHeights"
         },
         "40": {
-          "value": 34.0,
+          "value": 34,
           "type": "lineHeights"
         },
         "44": {
@@ -343,7 +343,7 @@
           "type": "lineHeights"
         },
         "40": {
-          "value": 34.0,
+          "value": 34,
           "type": "lineHeights"
         },
         "42": {
