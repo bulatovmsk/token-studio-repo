@@ -106,12 +106,12 @@
         "description": "Полупрозрачная значимая граница обычного контрола на проверенных светлых поверхностях."
       },
       "focus": {
-        "value": "{primitives.iris900}",
+        "value": "{primitives.iris1000}",
         "type": "color",
         "description": "Клавиатурный/ТВ фокус. На акцентной заливке отделять рамку белым промежутком 2 px; сохранять индикатор selected."
       },
       "active": {
-        "value": "rgba( {primitives.iris1100} , 0.8)",
+        "value": "rgba( {primitives.iris1100} , 0.85)",
         "type": "color",
         "description": "Значимая цветная граница активного контрола на светлой поверхности. Контраст проверяется после смешивания с подложкой, с обеих сторон границы."
       },
@@ -142,19 +142,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris1100} , 0.04)",
+          "value": "rgba( {primitives.iris200} , 0.92)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Полупрозрачный аналог одноимённого solid на основном фоне и фоне модалки. Использует существующий iris-примитив; визуальное совпадение приблизительное."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris1100} , 0.08)",
+          "value": "rgba( {primitives.iris400} , 0.49)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Полупрозрачный аналог одноимённого solid на основном фоне и фоне модалки. Использует существующий iris-примитив; визуальное совпадение приблизительное."
         },
         "third": {
-          "value": "rgba( {primitives.iris1100} , 0.12)",
+          "value": "rgba( {primitives.iris400} , 0.92)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Полупрозрачный аналог одноимённого solid на основном фоне и фоне модалки. Использует существующий iris-примитив; визуальное совпадение приблизительное."
         },
         "inverse": {
           "primary": {
@@ -180,12 +180,12 @@
         },
         "hover-focus": {
           "secondary": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris500} , 0) 0%, rgba( {primitives.iris500} , 0.5) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris600} , 0) 0%, rgba( {primitives.iris600} , 0.45) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
@@ -323,19 +323,19 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "#DFDDF1",
+          "value": "{primitives.iris200}",
           "type": "color",
-          "description": "Непрозрачный результат iris1100 4% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
+          "description": "Общая iris-шкала: primary наименее контрастный с основным фоном, fourth наиболее контрастный."
         },
         "third": {
-          "value": "#D0CDE8",
+          "value": "{primitives.iris400}",
           "type": "color",
-          "description": "Непрозрачный результат iris1100 12% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
+          "description": "Общая iris-шкала: primary наименее контрастный с основным фоном, fourth наиболее контрастный."
         },
         "secondary": {
-          "value": "#D7D5EC",
+          "value": "{primitives.iris300}",
           "type": "color",
-          "description": "Непрозрачный результат iris1100 8% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
+          "description": "Общая iris-шкала: primary наименее контрастный с основным фоном, fourth наиболее контрастный."
         },
         "inverse": {
           "value": "{primitives.iris1200}",
@@ -362,23 +362,23 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "#C9C5E3",
+          "value": "{primitives.iris500}",
           "type": "color",
-          "description": "Непрозрачный результат iris1100 16% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
+          "description": "Общая iris-шкала: primary наименее контрастный с основным фоном, fourth наиболее контрастный. Для обычного текста использовать text-icon.primary/secondary: third и статусный текст не обеспечивают 4.5:1."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, #DFDDF1 0%, #D7D5EA 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, #D7D5EC 0%, #CBC9E2 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris300} 0%, {primitives.iris400} 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "third": {
-            "value": "linear-gradient(45deg, #D0CDE8 0%, #C1BEDB 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris400} 0%, {primitives.iris500} 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
@@ -619,31 +619,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "#DFDDF1",
+              "value": "{primitives.iris200}",
               "type": "color"
             },
             "Step_2": {
-              "value": "#D7D5EA",
+              "value": "{primitives.iris300}",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "#D7D5EC",
+              "value": "{primitives.iris300}",
               "type": "color"
             },
             "Step_2": {
-              "value": "#CBC9E2",
+              "value": "{primitives.iris400}",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "#D0CDE8",
+              "value": "{primitives.iris400}",
               "type": "color"
             },
             "Step_2": {
-              "value": "#C1BEDB",
+              "value": "{primitives.iris500}",
               "type": "color"
             }
           },
@@ -663,21 +663,21 @@
         "hover-focus": {
           "secondary": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "rgba( {primitives.iris500} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.06)",
+              "value": "rgba( {primitives.iris500} , 0.5)",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "rgba( {primitives.iris1300} , 0)",
+              "value": "rgba( {primitives.iris600} , 0)",
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.08)",
+              "value": "rgba( {primitives.iris600} , 0.45)",
               "type": "color"
             }
           },

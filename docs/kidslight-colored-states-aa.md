@@ -1,44 +1,45 @@
-# KidsLight: matched solid and glassy role hierarchy
+# KidsLight: existing iris primitives for paired surface roles
 
-The production canvas remains cobalt200 (#E6E5F5). Ordinary fills now share
-one scale: primary is least contrasted against the background, then secondary,
-third and (solid only) fourth. This replaces the white solid-primary hierarchy.
+All ordinary solid fills and gradient steps now reference existing primitives.
+No computed semantic HEX or new primitives are introduced. Main background
+remains cobalt200 (#E6E5F5); modal backgrounds are unchanged.
 
-| Role | Opaque solid | Glassy |
+| Role | Solid | Glassy |
 |---|---|---|
-| primary | #DFDDF1 | iris1100 at 4% |
-| secondary | #D7D5EC | iris1100 at 8% |
-| third | #D0CDE8 | iris1100 at 12% |
-| fourth | #C9C5E3 | No existing ordinary glassy fourth token |
+| primary | iris200 | iris200 at 92% |
+| secondary | iris300 | iris400 at 49% |
+| third | iris400 | iris400 at 92% |
+| fourth | iris500 | No existing ordinary glassy fourth token |
 
-Solid values are the rounded sRGB composite of the existing iris1100 primitive
-at 4/8/12/16% over the unchanged main canvas. These semantic HEX values are not
-new primitives. Do not substitute the former white/iris100/iris200 aliases:
-they reverse the intended background-contrast hierarchy.
+Contrast against the main/modal background increases by role in both families.
+Primary is deliberately close to the background. Solid/glassy pairs are
+approximate: validation bounds maximum per-channel difference to 8/255 on main
+and modal contexts, including hover. This is an RGB regression guard, not a
+perceptual guarantee; visual approval belongs in Figma. Secondary is fitted
+with a darker primitive at lower opacity; third uses higher opacity so nested
+status text remains readable. Opacity need not be monotonic across roles.
 
-Glassy Rest and hover remain unchanged. Solid hover is opaque and recalculated:
-its start matches its Rest; its end equals an iris1300 overlay of 4/6/8% for
-primary/secondary/third. Separate Step tokens match the composite gradients.
-For secondary/third, solid and glassy hover match over the main canvas within
-one RGB code value, including sampled intermediate positions. There is no
-existing glassy-primary hover token to pair with solid-primary hover.
+Solid hover: iris200 → iris300, iris300 → iris400, iris400 → iris500.
+Glassy hover overlays Rest: secondary iris500 0 → 50%; third iris600 0 → 45%.
+All are 45 degrees; composite values and Step tokens match. Solid is opaque.
+There is no ordinary glassy-primary hover token in the current schema.
 
-The same solid/glassy role is calibrated to match on the main canvas. On the
-modal background the glassy result follows that backdrop, so it is not an exact
-match to solid. Both scales retain progressively stronger separation there.
-No contours are required by this change. Identical opaque fills nested inside
-each other remain identical; choose different roles for parent and child.
+## Foreground constraints
 
-Backgrounds, fades, inverse, status, accent, selected, button, text and shared
-primitive tokens are unchanged. This revision does not increase glassy alpha.
+The stronger fourth and third-hover surfaces require primary/secondary text
+for ordinary small labels. text-icon.third on solid fourth is about 4.23:1;
+status text on fourth is also below 4.5:1. The validator reports these limits,
+and checks tertiary text on the remaining supported surfaces. Primary,
+secondary and accent text remain checked across the full surface palette.
+Status text remains checked on non-fourth Rest surfaces; hover limits are
+reported separately. These restrictions are new relative to the weaker scale.
 
-## Validation
+Active border opacity increases from 80% to 85% (iris1100); focus uses iris1000
+instead of iris900 to retain 3:1 contrast on the stronger fills. This does not
+add outlines to components. Other text, status, inverse, button and shared
+primitive tokens are unchanged.
 
 Run scripts/check_kidslight_contrast.py and scripts/check_inverse_hover.py.
-Checks cover increasing contrast by role on main/modal backgrounds, solid/glassy
-Rest and hover matching on the main canvas, opaque solid paints, transparency,
-gradient steps, nested surfaces, ordinary/status/inverse text and focus.
-The former white-card-lift check is replaced by the explicitly requested role
-hierarchy. Existing foreground checks remain intact, including their reported
-status-text hover limitations. Arbitrary image backdrops and actual component
-rendering are outside this palette check; the user will preview in Figma.
+Checks cover hierarchy, pair matching, references, gradient steps, alpha,
+nested surfaces, supported foregrounds, borders and focus. Arbitrary images,
+disabled text and actual application rendering are outside this palette check.
