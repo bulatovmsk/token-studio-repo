@@ -1,91 +1,44 @@
-# KidsLight: iris surfaces and transparent fills
+# KidsLight: matched solid and glassy role hierarchy
 
-All backgrounds and fades remain unchanged. Primary is cobalt200 (#E6E5F5),
-secondary is violet200 (#E3DFFE). The Kids button, label colors, text, borders
-and all solid fills are unchanged by this glassy revision.
+The production canvas remains cobalt200 (#E6E5F5). Ordinary fills now share
+one scale: primary is least contrasted against the background, then secondary,
+third and (solid only) fourth. This replaces the white solid-primary hierarchy.
 
-## Glassy roles
+| Role | Opaque solid | Glassy |
+|---|---|---|
+| primary | #DFDDF1 | iris1100 at 4% |
+| secondary | #D7D5EC | iris1100 at 8% |
+| third | #D0CDE8 | iris1100 at 12% |
+| fourth | #C9C5E3 | No existing ordinary glassy fourth token |
 
-| Token | Base | Alpha | Foreground |
-|---|---|---:|---|
-| primary | iris1100 | 4% | regular dark text |
-| secondary | iris1100 | 8% | regular dark text |
-| third | iris1100 | 12% | regular dark text |
-| hover-focus.secondary | iris1300 | 0% → 16% | regular dark text |
-| hover-focus.third | iris1300 | 0% → 20% | regular dark text |
-| inverse.primary | iris1200 | 92% | inverse light text |
-| inverse.third | iris1200 | 84% | inverse light text |
-| inverse.fourth | iris1200 | 76% | inverse light text |
-| negative | red1000 | 8% | text-icon.negative |
-| warning | yellow1100 | 8% | text-icon.warning |
+Solid values are the rounded sRGB composite of the existing iris1100 primitive
+at 4/8/12/16% over the unchanged main canvas. These semantic HEX values are not
+new primitives. Do not substitute the former white/iris100/iris200 aliases:
+they reverse the intended background-contrast hierarchy.
 
-Ordinary fills form one subtle darkening scale. Primary no longer whitens the
-parent. These are alternative strengths on a parent, not mandatory nesting
-levels. A raised white card uses solid.primary. Alpha accumulates when fills
-are nested; deeper nesting and arbitrary images need contextual checks.
+Glassy Rest and hover remain unchanged. Solid hover is opaque and recalculated:
+its start matches its Rest; its end equals an iris1300 overlay of 4/6/8% for
+primary/secondary/third. Separate Step tokens match the composite gradients.
+For secondary/third, solid and glassy hover match over the main canvas within
+one RGB code value, including sampled intermediate positions. There is no
+existing glassy-primary hover token to pair with solid-primary hover.
 
-Hover matches the user reference Figma 41945:35375: 45deg iris1300,
-transparent at the first stop and 20% at the second for third. Secondary uses
-0–16%. The normal fill is disabled/replaced, not stacked underneath. The first
-edge intentionally merges with the parent. Focus uses its dedicated border.
+The same solid/glassy role is calibrated to match on the main canvas. On the
+modal background the glassy result follows that backdrop, so it is not an exact
+match to solid. Both scales retain progressively stronger separation there.
+No contours are required by this change. Identical opaque fills nested inside
+each other remain identical; choose different roles for parent and child.
 
-Inverse now consistently means a dark surface for light text. This changes
-inverse.third/fourth from weak overlays to readable dark containers. Components
-using those tokens as subtle scrims must instead use the appropriate overlay
-role; this repository does not contain application bindings. They should not
-continue using regular dark text on these newly dark surfaces.
-
-Status fills are subtle signals, paired with semantic text/icons or meaningful
-borders. They are not standalone contrast-bearing state indicators.
-
-## Retained palette
-
-Solid secondary/third/fourth use iris100/200/300; selected iris800; accent/focus
-iris900; accent text iris1100. Indigo is reserved for the unchanged dark-Kids
-button: amethyst800 → iris800 → iris800 → indigo700 at 0/16/82/100%, 135deg.
-Continuum uses iris700 and Lighthouse amethyst700, one step lighter than Kids.
-Shared primitive values remain unchanged.
+Backgrounds, fades, inverse, status, accent, selected, button, text and shared
+primitive tokens are unchanged. This revision does not increase glassy alpha.
 
 ## Validation
 
-`python3 scripts/check_kidslight_contrast.py` checks all references, composite
-and split gradients, transparency throughout glassy, parent composition,
-normal/inverse/status text, borders and focus. Ordinary glassy levels darken a
-common parent progressively. Hover endpoints match the approved reference;
-there is no requirement to brighten or darken the entire surface uniformly.
-The 1.05:1 neighboring Rest-level floor is a custom design guard, not WCAG.
-Solid surfaces retain their separate 1.10:1 hierarchy guard.
-
-Ordinary primary/secondary/third/accent text passes 4.5:1 on checked hover
-surfaces. Status text is checked on normal and status-specific surfaces.
-Limitation: status/offer text on deeply nested approved hover can fall below
-4.5:1 (about 3.9:1). Use ordinary primary text for these buttons; do not claim
-that all status text works on this hover. The validator reports this limitation.
-Inverse text on glassy inverse surfaces remains at least 6.90:1.
-
-The tests cover the main and modal backgrounds, optional solid/glassy primary
-islands and secondary cards, controls and hover, including cumulative alpha.
-They do not certify arbitrary image/video backdrops, deeper nesting,
-disabled/decorative colors or application behavior. Identical opaque fills
-nested together still need another role or contour.
-
-References: [Radix role separation](https://www.radix-ui.com/colors/docs/palette-composition/understanding-the-scale),
-[WCAG meaningful UI contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html).
-
-Solid hover gradients now preserve opaque role hierarchy: primary white →
-iris100, secondary iris100 → iris200, third iris200 → iris300 (45deg, 100%
-opacity at both stops). Glassy hover keeps the approved transparent iris1300
-ramps: secondary 0–16%, third 0–20%. Rest glassy primary/secondary/third remain
-4/8/12%; there is no separate glassy-primary hover token in the current schema.
-
-## Current hover behavior
-
-Solid hover remains fully opaque at both stops: primary white → iris100,
-secondary iris100 → iris200, third iris200 → iris300, at 45deg. Applied over
-Rest, it covers that base. All solid fills and gradient stops must have alpha 1.
-
-Only glassy hover is a transparent overlay: iris1300 at 0–6% for secondary
-and 0–8% for third, applied above the corresponding Rest paint. The validator
-composes parent → Rest → hover → foreground and enforces opaque solid fills.
-Backgrounds and Rest remain unchanged. Status-text limitations are still
-reported separately from the checked ordinary-text combinations.
+Run scripts/check_kidslight_contrast.py and scripts/check_inverse_hover.py.
+Checks cover increasing contrast by role on main/modal backgrounds, solid/glassy
+Rest and hover matching on the main canvas, opaque solid paints, transparency,
+gradient steps, nested surfaces, ordinary/status/inverse text and focus.
+The former white-card-lift check is replaced by the explicitly requested role
+hierarchy. Existing foreground checks remain intact, including their reported
+status-text hover limitations. Arbitrary image backdrops and actual component
+rendering are outside this palette check; the user will preview in Figma.

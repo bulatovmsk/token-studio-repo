@@ -179,18 +179,33 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # Solid cards lift off roots; their nested controls gain density.
-    # 1.10 is a design regression floor, not a WCAG requirement for surfaces.
+    # Both families now form one increasingly contrasted scale. Opaque
+    # equivalents are calibrated to the production canvas, not to white cards.
     for root in roots:
-        for family in ("solid",):
-            card = composite(samples(f"color.fill.{family}.primary")[0], root)
-            require(f"{family} card / root separation", contrast(card, root), 1.10)
-            levels = [composite(samples(f"color.fill.{family}.{level}")[0], card)
-                      for level in ("secondary", "third")]
-            if not luminance(card) > luminance(levels[0]) > luminance(levels[1]):
-                raise AssertionError(f"{family} controls must gain density inside cards")
-            require(f"{family} card / secondary separation", contrast(levels[0], card), 1.10)
-            require(f"{family} secondary / third separation", contrast(levels[1], levels[0]), 1.10)
+        for family, roles in (("solid", ("primary", "secondary", "third", "fourth")),
+                              ("glassy", ("primary", "secondary", "third"))):
+            levels = [composite(samples(f"color.fill.{family}.{role}")[0], root)
+                      for role in roles]
+            separations = [contrast(level, root) for level in levels]
+            if not all(a < b for a, b in zip(separations, separations[1:])):
+                raise AssertionError(f"{family}: background contrast must increase by role")
+            if not all(luminance(a) > luminance(b) for a, b in zip([root, *levels], levels)):
+                raise AssertionError(f"{family}: levels must darken progressively")
+            for previous, current in zip(levels, levels[1:]):
+                require(f"{family} neighboring levels", contrast(previous, current), 1.05)
+    canvas = samples("color.background.solid.primary")[0]
+    for role in ("primary", "secondary", "third"):
+        solid = samples(f"color.fill.solid.{role}")[0]
+        glassy = composite(samples(f"color.fill.glassy.{role}")[0], canvas)
+        if max(abs(a-b) for a,b in zip(solid[:3], glassy[:3])) > .5/255 + 1e-9:
+            raise AssertionError(f"{role}: solid must equal glassy on canvas within HEX rounding")
+        if role != "primary":
+            solid_hover = samples(f"color.fill.solid.hover-focus.{role}")
+            glassy_hover = [composite(h, glassy) for h in samples(f"color.fill.glassy.hover-focus.{role}")]
+            if max(abs(a-b) for sh,gh in zip(solid_hover,glassy_hover)
+                   for a,b in zip(sh[:3],gh[:3])) > 1/255 + 1e-9:
+                raise AssertionError(f"{role}: solid/glassy hover mismatch on canvas")
+    print("PASS solid/glassy matching on canvas, Rest and hover")
     # Glassy levels darken one common parent; 1.05 is a design guard, not WCAG.
     for parent in [*roots, rgba("#FFFFFF")]:
         levels = [composite(samples(f"color.fill.glassy.{role}")[0], parent)

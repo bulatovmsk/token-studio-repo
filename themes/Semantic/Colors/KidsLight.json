@@ -323,19 +323,19 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.white}",
+          "value": "#DFDDF1",
           "type": "color",
-          "description": "Светлая карточка; вложенные контролы используют secondary/third."
+          "description": "Непрозрачный результат iris1100 4% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
         },
         "third": {
-          "value": "{primitives.iris200}",
+          "value": "#D0CDE8",
           "type": "color",
-          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
+          "description": "Непрозрачный результат iris1100 12% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
         },
         "secondary": {
-          "value": "{primitives.iris100}",
+          "value": "#D7D5EC",
           "type": "color",
-          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
+          "description": "Непрозрачный результат iris1100 8% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
         },
         "inverse": {
           "value": "{primitives.iris1200}",
@@ -362,23 +362,23 @@
           "description": "Live трансляции"
         },
         "fourth": {
-          "value": "{primitives.iris300}",
+          "value": "#C9C5E3",
           "type": "color",
-          "description": "Приглушённая заливка: secondary → third → fourth последовательно увеличивают плотность. Не вкладывать одинаковые solid-заливки без контура."
+          "description": "Непрозрачный результат iris1100 16% поверх background.primary #E6E5F5. Общая шкала solid/glassy: primary минимально контрастный, fourth максимально контрастный. HEX рассчитан из существующих примитивов; не новый примитив."
         },
         "hover-focus": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.white} 0%, {primitives.iris100} 100%)",
+            "value": "linear-gradient(45deg, #DFDDF1 0%, #D7D5EA 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "secondary": {
-            "value": "linear-gradient(45deg, {primitives.iris100} 0%, {primitives.iris200} 100%)",
+            "value": "linear-gradient(45deg, #D7D5EC 0%, #CBC9E2 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "third": {
-            "value": "linear-gradient(45deg, {primitives.iris200} 0%, {primitives.iris300} 100%)",
+            "value": "linear-gradient(45deg, #D0CDE8 0%, #C1BEDB 100%)",
             "type": "color",
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
@@ -619,31 +619,31 @@
         "hover-focus": {
           "primary": {
             "Step_1": {
-              "value": "{primitives.white}",
+              "value": "#DFDDF1",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris100}",
+              "value": "#D7D5EA",
               "type": "color"
             }
           },
           "secondary": {
             "Step_1": {
-              "value": "{primitives.iris100}",
+              "value": "#D7D5EC",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris200}",
+              "value": "#CBC9E2",
               "type": "color"
             }
           },
           "third": {
             "Step_1": {
-              "value": "{primitives.iris200}",
+              "value": "#D0CDE8",
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris300}",
+              "value": "#C1BEDB",
               "type": "color"
             }
           },
