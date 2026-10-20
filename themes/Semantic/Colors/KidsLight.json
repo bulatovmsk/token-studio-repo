@@ -453,7 +453,7 @@
         "type": "color"
       },
       "menu": {
-        "value": "linear-gradient(0deg, {primitives.iris300} 0%, {primitives.white} 100%)",
+        "value": "linear-gradient(0deg, {primitives.iris800} 0%, {primitives.iris500} 100%)",
         "type": "color"
       },
       "sber-gradient": {
@@ -1111,11 +1111,11 @@
       },
       "menu": {
         "Step_1": {
-          "value": "{primitives.iris300}",
+          "value": "{primitives.iris800}",
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.white}",
+          "value": "{primitives.iris500}",
           "type": "color"
         }
       },
