@@ -328,12 +328,12 @@
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "third": {
-          "value": "{primitives.iris200}",
+          "value": "{primitives.iris300}",
           "type": "color",
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
         "secondary": {
-          "value": "{primitives.iris300}",
+          "value": "{primitives.iris200}",
           "type": "color",
           "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
         },
