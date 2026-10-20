@@ -142,19 +142,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris100} , 0.88)",
+          "value": "rgba( {primitives.iris100} , 0.94)",
           "type": "color",
-          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon поверх изображения. Непрозрачность primary 88%, secondary 84%, third 80%. Hover накладывается поверх Rest; background blur задаётся компонентом отдельно."
+          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon. Различимость на background проверена относительно прежней шкалы iris1100 4/8/12%, без контура. Primary 94%, secondary 84%, third 92%; плотность third сохраняет читаемость текста поверх изображения. Hover накладывается поверх Rest."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris200} , 0.84)",
+          "value": "rgba( {primitives.iris300} , 0.84)",
           "type": "color",
-          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon поверх изображения. Непрозрачность primary 88%, secondary 84%, third 80%. Hover накладывается поверх Rest; background blur задаётся компонентом отдельно."
+          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon. Различимость на background проверена относительно прежней шкалы iris1100 4/8/12%, без контура. Primary 94%, secondary 84%, third 92%; плотность third сохраняет читаемость текста поверх изображения. Hover накладывается поверх Rest."
         },
         "third": {
-          "value": "rgba( {primitives.iris300} , 0.8)",
+          "value": "rgba( {primitives.iris400} , 0.92)",
           "type": "color",
-          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon поверх изображения. Непрозрачность primary 88%, secondary 84%, third 80%. Hover накладывается поверх Rest; background blur задаётся компонентом отдельно."
+          "description": "Светлая полупрозрачная iris-подложка для тёмного text-icon. Различимость на background проверена относительно прежней шкалы iris1100 4/8/12%, без контура. Primary 94%, secondary 84%, third 92%; плотность third сохраняет читаемость текста поверх изображения. Hover накладывается поверх Rest."
         },
         "inverse": {
           "primary": {

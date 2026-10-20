@@ -1,13 +1,13 @@
 # KidsLight: light glassy surfaces
 
 Ordinary glassy fills use light iris primitives with enough opacity for dark
-text over imagery. Image content remains visible through 12–20% transparency.
+text over imagery. Image content remains visible through 6–16% transparency.
 
 | Token | Base | Alpha | Foreground |
 |---|---|---:|---|
-| primary | iris100 | 88% | regular dark text |
-| secondary | iris200 | 84% | regular dark text |
-| third | iris300 | 80% | regular dark text |
+| primary | iris100 | 94% | regular dark text |
+| secondary | iris300 | 84% | regular dark text |
+| third | iris400 | 92% | regular dark text |
 | hover-focus.secondary | iris100 | 0% → 6% | regular dark text |
 | hover-focus.third | iris100 | 0% → 8% | regular dark text |
 | inverse.primary | iris1200 | 92% | inverse light text |
@@ -18,13 +18,12 @@ text over imagery. Image content remains visible through 12–20% transparency.
 
 Hover is a 45-degree overlay above Rest: backdrop → Rest → hover → text.
 The ordinary hover uses light iris100 to preserve text contrast on dark image
-pixels. Its transparent first stop preserves Rest. The old iris1300 overlay
-would reduce text-icon.third contrast to about 4.02:1 on glassy.third over black.
+pixels. Its transparent first stop preserves Rest. The light overlay preserves text contrast on image backdrops.
 Composite gradient values and separate Step tokens must stay synchronized.
 Background blur, if needed, is a separate component effect, not part of color.
 
 These levels are alternative surface roles. Primary is the lightest and most
-opaque; third is more tinted and reveals more of the image. Glassy fills can
+opaque; third uses a stronger tint at 92% to retain text contrast over images. Glassy fills can
 lighten their parent. Nested fills accumulate opacity.
 
 Backgrounds, fades, solid fills, inverse fills, status colors, text, borders,
@@ -52,3 +51,13 @@ a separate outline, focus gap or scrim depending on their image context.
 Disabled/decorative text, status text on images, other image overlays and actual
 application rendering are outside this check. Existing weak inverse.third text
 limitations in Main, Kids and Meta are reported by the inverse-hover validator.
+
+## Background separation regression
+
+The initial 88/84/80% proposal merged secondary into the canvas. The revised
+94/84/92% scale uses iris100/300/400 and needs no contour for its measured
+surface separation. The validator compares each Rest role with the pre-change
+iris1100 4/8/12% baseline (e52393d) on the main/modal backgrounds and translucent
+backgrounds composed over the canvas. Each must meet or exceed its former
+separation. This is a relative design check, not a claim of 3:1 control-boundary
+contrast or of separation on every possible backdrop.

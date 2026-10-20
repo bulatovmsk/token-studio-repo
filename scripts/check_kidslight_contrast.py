@@ -191,6 +191,22 @@ def main():
                 raise AssertionError(f"{family} controls must gain density inside cards")
             require(f"{family} card / secondary separation", contrast(levels[0], card), 1.10)
             require(f"{family} secondary / third separation", contrast(levels[1], levels[0]), 1.10)
+    # Regression baseline: ordinary Rest fills before the light-surface change
+    # (e52393d), iris1100 at 4/8/12%. Compare actual configured backgrounds,
+    # including translucent backgrounds over the main canvas, without outlines.
+    comparison_bases = list(roots)
+    canvas = samples("color.background.solid.primary")[0]
+    comparison_bases += [composite(samples(f"color.background.glassy.{role}")[0], canvas)
+                         for role in ("primary", "secondary", "third")]
+    for role, alpha in (("primary", .04), ("secondary", .08), ("third", .12)):
+        old_fill = rgba(f"rgba( {resolve('primitives.iris1100')} , {alpha})")
+        new_fill = samples(f"color.fill.glassy.{role}")[0]
+        for base in comparison_bases:
+            before = contrast(composite(old_fill, base), base)
+            after = contrast(composite(new_fill, base), base)
+            require(f"glassy.{role} / background, previous separation {before:.3f}",
+                    after, before)
+
     # Light glassy surfaces may lift the parent; role hierarchy is checked
     # between fills, rather than requiring every fill to darken its backdrop.
     for parent in [*roots, rgba("#FFFFFF"), rgba("#000000")]:
