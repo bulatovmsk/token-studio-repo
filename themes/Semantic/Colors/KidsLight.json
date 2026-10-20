@@ -144,17 +144,17 @@
         "primary": {
           "value": "rgba( {primitives.iris100} , 0.8)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Почти белая iris-подложка с непрозрачностью 80%. Для тёмного text-icon; итоговый цвет зависит от родительского фона."
         },
         "secondary": {
           "value": "rgba( {primitives.iris200} , 0.80)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Мягкая iris-подложка с непрозрачностью 80%. Для тёмного text-icon; итоговый цвет зависит от родительского фона."
         },
         "third": {
           "value": "rgba( {primitives.iris300} , 0.9)",
           "type": "color",
-          "description": "Единая прозрачная шкала iris: primary 4%, secondary 8%, third 12%. Тёмный text-icon на светлой подложке. Уровни выбираются по роли; при вложении альфа накапливается."
+          "description": "Светлая iris-подложка компонента с непрозрачностью 90%. Для тёмного text-icon; итоговый цвет зависит от родительского фона."
         },
         "inverse": {
           "primary": {
@@ -325,22 +325,22 @@
         "primary": {
           "value": "{primitives.iris100}",
           "type": "color",
-          "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
+          "description": "Почти белая непрозрачная подложка iris100. Основной уровень светлой шкалы; использовать тёмный text-icon."
         },
         "third": {
           "value": "{primitives.iris300}",
           "type": "color",
-          "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
+          "description": "Светлая непрозрачная подложка iris300 для компонентов; использовать тёмный text-icon."
         },
         "secondary": {
           "value": "{primitives.iris200}",
           "type": "color",
-          "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
+          "description": "Мягкая непрозрачная подложка iris200. Второй уровень светлой шкалы; использовать тёмный text-icon."
         },
         "fourth": {
           "value": "{primitives.iris400}",
           "type": "color",
-          "description": "Непрозрачная смесь существующих cobalt200 и iris1100 в sRGB. Mix соответствует glassy на основном фоне. Требует обработки Color Modifiers в Tokens Studio."
+          "description": "Более выраженная непрозрачная подложка iris400; использовать тёмный text-icon."
         },
         "inverse": {
           "value": "{primitives.iris900}",
@@ -383,7 +383,7 @@
             "description": "Непрозрачный hover-градиент для solid-поверхности; обе точки имеют альфу 100%."
           },
           "inverse": {
-            "value": "linear-gradient(45deg, {primitives.iris900} 0%, {primitives.iris600} 100%)",
+            "value": "linear-gradient(45deg, {primitives.iris900} 0%, {primitives.iris800} 100%)",
             "type": "color",
             "description": "Hover для inverse-поверхности со светлым inverse-текстом. Непрозрачный градиент поверх solid.inverse."
           }
@@ -420,7 +420,7 @@
           "type": "color"
         },
         "continuum": {
-          "value": "linear-gradient(90deg, {primitives.iris700} 0%, {primitives.iris700} 100%)",
+          "value": "linear-gradient(90deg, {primitives.iris800} 0%, {primitives.iris800} 100%)",
           "type": "color"
         },
         "lighthouse": {
@@ -453,9 +453,9 @@
         "type": "color"
       },
       "menu": {
-        "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris700} 100%)",
+        "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris800} 100%)",
         "type": "color",
-        "description": "Градиент меню для светлого inverse-текста; светлый конец ограничен iris700 для контраста не ниже 4.5:1."
+        "description": "Градиент меню для светлого inverse-текста; светлый конец ограничен iris800 для контраста не ниже 4.5:1."
       },
       "sber-gradient": {
         "value": "{brand.partners.sber-gradient}",
@@ -687,7 +687,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "{primitives.iris600}",
+              "value": "{primitives.iris800}",
               "type": "color"
             }
           }
@@ -1058,11 +1058,11 @@
         },
         "continuum": {
           "Step_1": {
-            "value": "{primitives.iris700}",
+            "value": "{primitives.iris800}",
             "type": "color"
           },
           "Step_2": {
-            "value": "{primitives.iris700}",
+            "value": "{primitives.iris800}",
             "type": "color"
           }
         },
@@ -1149,7 +1149,7 @@
           "type": "color"
         },
         "Step_2": {
-          "value": "{primitives.iris700}",
+          "value": "{primitives.iris800}",
           "type": "color"
         }
       },

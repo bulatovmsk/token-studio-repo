@@ -573,31 +573,31 @@
       "type": "color"
     },
     "iris100": {
-      "value": "#EBEBFE",
+      "value": "#FAFAFF",
       "type": "color"
     },
     "iris200": {
-      "value": "#D3D3FE",
+      "value": "#F6F6FF",
       "type": "color"
     },
     "iris300": {
-      "value": "#BDBCFD",
+      "value": "#EAEAFF",
       "type": "color"
     },
     "iris400": {
-      "value": "#A7A5FA",
+      "value": "#D7D8FF",
       "type": "color"
     },
     "iris500": {
-      "value": "#938CF7",
+      "value": "#BDBFFE",
       "type": "color"
     },
     "iris600": {
-      "value": "#8073F4",
+      "value": "#9F9FFB",
       "type": "color"
     },
     "iris700": {
-      "value": "#6F57EF",
+      "value": "#7D77F6",
       "type": "color"
     },
     "iris800": {

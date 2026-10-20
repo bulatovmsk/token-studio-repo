@@ -18,6 +18,11 @@ Existing inverse.third text in dark themes does not always reach 4.5:1 on
 translucent inverse surfaces; the script reports it. Weak inverse.third/fourth
 surfaces in those themes and image backdrops require contextual validation.
 
+After the light Iris palette revision, KidsLight solid inverse-hover uses
+iris900 → iris800, with both the composite and split gradient updated.
+The brighter iris600 is no longer an endpoint under light inverse text.
+See [Iris palette](iris-palette.md) for the current primitives and semantic remaps.
+
 Figma creation was blocked by an MCP access denial for the source design file.
 The JSON definitions are ready for Tokens Studio import; new Figma variables
 and paint styles have not been created by this change.

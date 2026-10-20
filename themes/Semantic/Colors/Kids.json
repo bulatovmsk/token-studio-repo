@@ -147,9 +147,9 @@
           "description": "Заливка выбранного контрола (selected)."
         },
         "accent": {
-          "value": "{primitives.iris700}",
+          "value": "{primitives.iris800}",
           "type": "color",
-          "description": "Офферы, спецпредложения . Замена для {{ Fill/Solid/Accent }}"
+          "description": "Офферы, спецпредложения. Тёмный акцент для светлого основного текста; iris800 сохраняет контраст после осветления iris700."
         },
         "primary": {
           "value": "{primitives.gray1200}",

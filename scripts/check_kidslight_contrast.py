@@ -38,15 +38,16 @@ for relative in ["themes/Primitives.json", "themes/Brand.json", "themes/Semantic
     TOKENS.update(read_tokens(relative))
 
 
-def resolve(path, stack=()):
+def resolve(path, stack=(), tokens=None):
+    tokens = TOKENS if tokens is None else tokens
     if path in stack:
         raise ValueError(f"Cyclic reference: {' -> '.join((*stack, path))}")
-    value = TOKENS[path]
+    value = tokens[path]
     if isinstance(value, dict):
         modifier = value["modify"]
         if modifier["type"] != "mix" or modifier["space"] != "srgb":
             raise ValueError(f"Unsupported modifier: {path}")
-        expand = lambda text: REFERENCE.sub(lambda match: str(resolve(match[1], (*stack, path))), text)
+        expand = lambda text: REFERENCE.sub(lambda match: str(resolve(match[1], (*stack, path), tokens)), text)
         base = rgba(expand(value["base"]))
         other = rgba(expand(modifier["color"]))
         amount = float(modifier["value"])
@@ -54,7 +55,7 @@ def resolve(path, stack=()):
             raise ValueError(f"Expected opaque sRGB mix: {path}")
         return "#" + "".join(f"{int((a*(1-amount)+b*amount)*255+.5):02X}" for a,b in zip(base[:3], other[:3]))
     if isinstance(value, str):
-        return REFERENCE.sub(lambda match: str(resolve(match[1], (*stack, path))), value)
+        return REFERENCE.sub(lambda match: str(resolve(match[1], (*stack, path), tokens)), value)
     return value
 
 
@@ -191,51 +192,50 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # Both families now form one increasingly contrasted scale. Opaque
-    # equivalents are calibrated to the production canvas, not to white cards.
-    for root in roots:
+    # The light tints darken within their own role scale. The first tints may
+    # be lighter than the canvas, and close steps such as iris100/200 are
+    # intentional. Solid and glassy paints need not render identically.
+    for root in [*roots, rgba("#FFFFFF")]:
         for family, roles in (("solid", ("primary", "secondary", "third", "fourth")),
                               ("glassy", ("primary", "secondary", "third"))):
             levels = [composite(samples(f"color.fill.{family}.{role}")[0], root)
                       for role in roles]
-            separations = [contrast(level, root) for level in levels]
-            if not all(a < b for a, b in zip(separations, separations[1:])):
-                raise AssertionError(f"{family}: background contrast must increase by role")
-            if not all(luminance(a) > luminance(b) for a, b in zip([root, *levels], levels)):
+            if not all(luminance(a) > luminance(b) for a, b in zip(levels, levels[1:])):
                 raise AssertionError(f"{family}: levels must darken progressively")
-            for previous, current in zip(levels, levels[1:]):
-                require(f"{family} neighboring levels", contrast(previous, current), 1.05)
-    canvas = samples("color.background.solid.primary")[0]
+    print("PASS solid/glassy tint hierarchy on all root backgrounds and white")
+
     for role in ("primary", "secondary", "third"):
-        solid = samples(f"color.fill.solid.{role}")[0]
-        glassy = composite(samples(f"color.fill.glassy.{role}")[0], canvas)
-        if max(abs(a-b) for a,b in zip(solid[:3], glassy[:3])) > .5/255 + 1e-9:
-            raise AssertionError(f"{role}: solid must equal glassy on canvas within HEX rounding")
-        if role != "primary":
-            solid_hover = samples(f"color.fill.solid.hover-focus.{role}")
-            glassy_hover = [composite(h, glassy) for h in samples(f"color.fill.glassy.hover-focus.{role}")]
-            if max(abs(a-b) for sh,gh in zip(solid_hover,glassy_hover)
-                   for a,b in zip(sh[:3],gh[:3])) > 1/255 + 1e-9:
-                raise AssertionError(f"{role}: solid/glassy hover mismatch on canvas")
-    print("PASS solid/glassy matching on canvas, Rest and hover")
-    # Glassy levels darken one common parent; 1.05 is a design guard, not WCAG.
-    for parent in [*roots, rgba("#FFFFFF")]:
-        levels = [composite(samples(f"color.fill.glassy.{role}")[0], parent)
-                  for role in ("primary", "secondary", "third")]
-        if not luminance(parent) > luminance(levels[0]) > luminance(levels[1]) > luminance(levels[2]):
-            raise AssertionError("Glassy levels must progressively darken the same parent")
-        for previous, current in zip([parent, *levels], levels):
-            require("glassy neighboring levels", contrast(previous, current), 1.05)
+        rest = samples(f"color.fill.solid.{role}")[0]
+        hover = samples(f"color.fill.solid.hover-focus.{role}")
+        if hover[0] != rest:
+            raise AssertionError(f"Solid hover start must preserve its own Rest: {role}")
+        lightness = [luminance(color) for color in hover]
+        if not lightness[-1] < luminance(rest) or any(a < b - 1e-12 for a, b in zip(lightness, lightness[1:])):
+            raise AssertionError(f"Solid hover must progressively darken its own Rest: {role}")
     for role, alpha in (("secondary", .06), ("third", .08)):
         hover = samples(f"color.fill.glassy.hover-focus.{role}")
         if hover[0][3] != 0 or hover[-1][3] != alpha:
             raise AssertionError(f"Glassy overlay endpoints disagree: {role}")
-        for parent in roots:
+        for parent in [*roots, rgba("#FFFFFF")]:
             rest = composite(samples(f"color.fill.glassy.{role}")[0], parent)
-            if composite(hover[0], rest) != rest:
+            surfaces = [composite(paint, rest) for paint in hover]
+            if surfaces[0] != rest:
                 raise AssertionError("Transparent glassy hover edge must preserve Rest")
+            lightness = [luminance(color) for color in surfaces]
+            if not lightness[-1] < luminance(rest) or any(a < b - 1e-12 for a, b in zip(lightness, lightness[1:])):
+                raise AssertionError(f"Glassy hover must progressively darken its own Rest: {role}")
+    print("PASS solid/glassy hover preserves its own Rest and progressively darkens")
     if resolve("color.background.solid.primary").upper() != "#E6E5F5":
         raise AssertionError("The production canvas color must not change")
+
+    # The primitives are shared with dark Kids. Check its affected pairings
+    # against a separate token map so the KidsLight palette remains intact.
+    kids_tokens = dict(TOKENS)
+    kids_tokens.update(read_tokens("themes/Semantic/Colors/Kids.json"))
+    for text, fill in (("primary", "accent"), ("inverse.primary", "selected")):
+        foreground = rgba(resolve(f"color.text-icon.{text}", tokens=kids_tokens))
+        background = rgba(resolve(f"color.fill.solid.{fill}", tokens=kids_tokens))
+        require(f"Kids text-icon.{text} / solid.{fill}", contrast(foreground, background), 4.5)
 
     for role in ("primary", "secondary", "third", "accent"):
         require(f"text-icon.{role} / composed surfaces", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
@@ -263,7 +263,8 @@ def main():
         require(f"border.{role} / both adjacent surfaces", worst, 3)
 
     inverse = samples("color.text-icon.inverse.primary")
-    for path in ("color.fill.solid.selected", "color.fill.solid.accent", "color.component.button"):
+    for path in ("color.fill.solid.selected", "color.fill.solid.accent", "color.component.button",
+                 "color.component.menu", "color.fill.solid.hover-focus.inverse"):
         require(f"inverse.primary / {path}", minimum(inverse, samples(path)), 4.5)
     dark = samples("color.fill.solid.inverse") + samples("color.background.solid.inverse")
     dark += [composite(samples("color.fill.glassy.inverse.primary")[0], base)
