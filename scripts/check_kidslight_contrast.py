@@ -192,9 +192,8 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # The light tints darken within their own role scale. The first tints may
-    # be lighter than the canvas, and close steps such as iris100/200 are
-    # intentional. Solid and glassy paints need not render identically.
+    # The light tints darken within their own role scale on every supported
+    # root. Pair matching is calibrated separately on the main canvas below.
     for root in [*roots, rgba("#FFFFFF")]:
         for family, roles in (("solid", ("primary", "secondary", "third", "fourth")),
                               ("glassy", ("primary", "secondary", "third"))):
@@ -204,6 +203,30 @@ def main():
                 raise AssertionError(f"{family}: levels must darken progressively")
     print("PASS solid/glassy tint hierarchy on all root backgrounds and white")
 
+    # Like Main, the paired solid/glassy levels are calibrated on the main
+    # canvas. Other parents intentionally retain the glassy contribution.
+    canvas = samples("color.background.solid.primary")[0]
+    for family, roles in (("solid", ("primary", "secondary", "third", "fourth")),
+                          ("glassy", ("primary", "secondary", "third"))):
+        levels = [composite(samples(f"color.fill.{family}.{role}")[0], canvas) for role in roles]
+        if not all(luminance(canvas) > luminance(level) for level in levels):
+            raise AssertionError(f"{family}: ordinary fills must darken the main canvas")
+        separations = [contrast(level, canvas) for level in levels]
+        if not all(a < b for a, b in zip(separations, separations[1:])):
+            raise AssertionError(f"{family}: separation from the main canvas must increase by role")
+    for role in ("primary", "secondary", "third"):
+        solid = samples(f"color.fill.solid.{role}")[0]
+        glassy = composite(samples(f"color.fill.glassy.{role}")[0], canvas)
+        if max(abs(a-b) for a,b in zip(solid[:3], glassy[:3])) > .5/255 + 1e-9:
+            raise AssertionError(f"{role}: solid/glassy Rest mismatch on the main canvas")
+        if role != "primary":
+            solid_hover = samples(f"color.fill.solid.hover-focus.{role}")
+            glassy_hover = [composite(paint, glassy) for paint in samples(f"color.fill.glassy.hover-focus.{role}")]
+            if max(abs(a-b) for sh,gh in zip(solid_hover,glassy_hover)
+                   for a,b in zip(sh[:3],gh[:3])) > 1/255 + 1e-9:
+                raise AssertionError(f"{role}: solid/glassy hover mismatch on the main canvas")
+    print("PASS paired solid/glassy Rest and hover; increasing separation on main canvas")
+
     for role in ("primary", "secondary", "third"):
         rest = samples(f"color.fill.solid.{role}")[0]
         hover = samples(f"color.fill.solid.hover-focus.{role}")
@@ -212,7 +235,7 @@ def main():
         lightness = [luminance(color) for color in hover]
         if not lightness[-1] < luminance(rest) or any(a < b - 1e-12 for a, b in zip(lightness, lightness[1:])):
             raise AssertionError(f"Solid hover must progressively darken its own Rest: {role}")
-    for role, alpha in (("secondary", .06), ("third", .08)):
+    for role, alpha in (("secondary", .06), ("third", .06)):
         hover = samples(f"color.fill.glassy.hover-focus.{role}")
         if hover[0][3] != 0 or hover[-1][3] != alpha:
             raise AssertionError(f"Glassy overlay endpoints disagree: {role}")

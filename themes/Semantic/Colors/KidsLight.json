@@ -142,19 +142,19 @@
     "fill": {
       "glassy": {
         "primary": {
-          "value": "rgba( {primitives.iris100} , 0.8)",
+          "value": "rgba( {primitives.iris600} , 0.15)",
           "type": "color",
-          "description": "Почти белая iris-подложка с непрозрачностью 80%. Для тёмного text-icon; итоговый цвет зависит от родительского фона."
+          "description": "Прозрачный iris600 с непрозрачностью 15%. На основном фоне соответствует solid.primary; итоговый цвет на других поверхностях зависит от родителя. Для тёмного text-icon."
         },
         "secondary": {
-          "value": "rgba( {primitives.iris200} , 0.80)",
+          "value": "rgba( {primitives.iris600} , 0.33)",
           "type": "color",
-          "description": "Мягкая iris-подложка с непрозрачностью 80%. Для тёмного text-icon; итоговый цвет зависит от родительского фона."
+          "description": "Прозрачный iris600 с непрозрачностью 33%. На основном фоне соответствует solid.secondary; итоговый цвет на других поверхностях зависит от родителя. Для тёмного text-icon."
         },
         "third": {
-          "value": "rgba( {primitives.iris300} , 0.9)",
+          "value": "rgba( {primitives.iris600} , 0.65)",
           "type": "color",
-          "description": "Светлая iris-подложка компонента с непрозрачностью 90%. Для тёмного text-icon; итоговый цвет зависит от родительского фона."
+          "description": "Прозрачный iris600 с непрозрачностью 65%. На основном фоне соответствует solid.third; итоговый цвет на других поверхностях зависит от родителя. Для тёмного text-icon."
         },
         "inverse": {
           "primary": {
@@ -185,7 +185,7 @@
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
           "third": {
-            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.08) 100%)",
+            "value": "linear-gradient(45deg, rgba( {primitives.iris1300} , 0) 0%, rgba( {primitives.iris1300} , 0.06) 100%)",
             "type": "color",
             "description": "Дополнительный hover-слой поверх соответствующего Rest, не замена заливки. Порядок: фон → Rest → hover → текст. Фокус обозначается border.focus."
           },
@@ -323,24 +323,68 @@
           "description": "Офферы, спецпредложения"
         },
         "primary": {
-          "value": "{primitives.iris100}",
+          "value": "{color.background.solid.primary}",
           "type": "color",
-          "description": "Почти белая непрозрачная подложка iris100. Основной уровень светлой шкалы; использовать тёмный text-icon."
+          "description": "Непрозрачная sRGB-смесь основного фона и iris600 (15%). На основном фоне соответствует glassy того же уровня в пределах округления HEX.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.15",
+                "space": "srgb",
+                "color": "{primitives.iris600}",
+                "format": "hex"
+              }
+            }
+          }
         },
         "third": {
-          "value": "{primitives.iris300}",
+          "value": "{color.background.solid.primary}",
           "type": "color",
-          "description": "Светлая непрозрачная подложка iris300 для компонентов; использовать тёмный text-icon."
+          "description": "Непрозрачная sRGB-смесь основного фона и iris600 (65%). На основном фоне соответствует glassy того же уровня в пределах округления HEX.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.65",
+                "space": "srgb",
+                "color": "{primitives.iris600}",
+                "format": "hex"
+              }
+            }
+          }
         },
         "secondary": {
-          "value": "{primitives.iris200}",
+          "value": "{color.background.solid.primary}",
           "type": "color",
-          "description": "Мягкая непрозрачная подложка iris200. Второй уровень светлой шкалы; использовать тёмный text-icon."
+          "description": "Непрозрачная sRGB-смесь основного фона и iris600 (33%). На основном фоне соответствует glassy того же уровня в пределах округления HEX.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.33",
+                "space": "srgb",
+                "color": "{primitives.iris600}",
+                "format": "hex"
+              }
+            }
+          }
         },
         "fourth": {
-          "value": "{primitives.iris400}",
+          "value": "{color.background.solid.primary}",
           "type": "color",
-          "description": "Более выраженная непрозрачная подложка iris400; использовать тёмный text-icon."
+          "description": "Выраженный непрозрачный уровень: sRGB-смесь основного фона и iris600 (90%). Для тёмного text-icon; парного glassy.fourth нет.",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "mix",
+                "value": "0.90",
+                "space": "srgb",
+                "color": "{primitives.iris600}",
+                "format": "hex"
+              }
+            }
+          }
         },
         "inverse": {
           "value": "{primitives.iris900}",
@@ -672,7 +716,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "mix",
-                    "value": "0.08",
+                    "value": "0.06",
                     "space": "srgb",
                     "color": "{primitives.iris1300}",
                     "format": "hex"
@@ -711,7 +755,7 @@
               "type": "color"
             },
             "Step_2": {
-              "value": "rgba( {primitives.iris1300} , 0.08)",
+              "value": "rgba( {primitives.iris1300} , 0.06)",
               "type": "color"
             }
           },
