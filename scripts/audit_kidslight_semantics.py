@@ -69,8 +69,8 @@ for role in ('active', 'negative', 'warning'):
 c.require('focus / all ordinary fills', c.minimum(c.samples('color.border.focus'), palette), 3)
 for role in ('primary', 'secondary', 'third'):
     text = c.samples('color.text-icon.inverse.' + role)
-    for path in ('color.fill.solid.inverse', 'color.fill.solid.selected', 'color.fill.solid.accent',
-                 'color.component.button', 'color.component.menu'):
+    for path in ('color.fill.solid.inverse', 'color.component.control.fill.selected', 'color.fill.solid.accent',
+                 'color.component.control.fill.primary', 'color.component.menu'):
         c.require(f'inverse.{role} / {path}', c.minimum(text, c.samples(path)), 4.5)
     for fill_role in ('primary', 'third', 'fourth'):
         bgs = [c.composite(c.samples('color.fill.glassy.inverse.' + fill_role)[0], bg)

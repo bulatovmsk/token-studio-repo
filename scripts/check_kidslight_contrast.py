@@ -312,13 +312,13 @@ def main():
         require(f"border.{role} / both adjacent surfaces", worst, 3)
 
     inverse = samples("color.text-icon.inverse.primary")
-    for path in ("color.fill.solid.selected", "color.fill.solid.accent", "color.component.button",
+    for path in ("color.component.control.fill.selected", "color.fill.solid.accent", "color.component.control.fill.primary",
                  "color.component.menu", "color.fill.solid.hover-focus.inverse"):
         require(f"inverse.primary / {path}", minimum(inverse, samples(path)), 4.5)
     dark = samples("color.fill.solid.inverse") + samples("color.background.solid.inverse")
     dark += [composite(samples("color.fill.glassy.inverse.primary")[0], base)
              for base in [*roots, rgba("#FFFFFF")]]
-    dark += samples("color.fill.solid.selected") + samples("color.fill.solid.accent") + samples("color.component.button")
+    dark += samples("color.component.control.fill.selected") + samples("color.fill.solid.accent") + samples("color.component.control.fill.primary")
     for role in ("primary", "secondary", "third"):
         require(f"inverse.{role} / dark and accent surfaces",
                 minimum(samples(f"color.text-icon.inverse.{role}"), dark), 4.5)
@@ -333,11 +333,12 @@ def main():
     for label in ("continuum", "lighthouse"):
         require(f"inverse.primary / label {label}", minimum(inverse, samples(f"color.component.label.{label}")), 4.5)
     for path, value in semantic.items():
-        if "primitives.indigo" in str(value) and not path.startswith(("color.component.button", "gradient.component.button")):
-            raise AssertionError(f"Indigo is reserved for the Kids button: {path}")
+        if "primitives.indigo" in str(value) and not path.startswith(("color.component.control.fill.primary", "gradient.component.control.fill.primary")):
+            raise AssertionError(f"Indigo is reserved for the Kids primary controls: {path}")
     require("inverse.primary / live", minimum(inverse, samples("color.fill.solid.live")), 4.5)
     for role in ("negative", "warning"):
-        tinted = [composite(samples(f"color.fill.glassy.{role}")[0], root) for root in contexts]
+        path = "color.component.control.fill.negative" if role == "negative" else "color.fill.glassy.warning"
+        tinted = [composite(samples(path)[0], root) for root in contexts]
         require(f"status text / tinted {role}", minimum(samples(f"color.text-icon.{role}"), tinted), 4.5)
 
     require("focus / light controls", minimum(samples("color.border.focus"), palette), 3)

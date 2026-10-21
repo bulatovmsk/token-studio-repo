@@ -135,16 +135,17 @@
         }
       },
       "negative-glassy": {
-        "value": "rgba( {primitives.red800} , 0.32)",
-        "type": "color"
+        "value": "{color.component.control.border.negative}",
+        "type": "color",
+        "description": "Устаревший токен. Использовать color.component.control.border.negative. Сохранён для совместимости существующих привязок."
       }
     },
     "fill": {
       "solid": {
         "selected": {
-          "value": "{primitives.iris300}",
+          "value": "{color.component.control.fill.selected}",
           "type": "color",
-          "description": "Заливка выбранного контрола (selected)."
+          "description": "Устаревший токен. Использовать color.component.control.fill.selected. Сохранён для совместимости существующих привязок."
         },
         "accent": {
           "value": "{primitives.iris800}",
@@ -238,9 +239,9 @@
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid. Замена для {{ Fill/Glassy/Secondary }}"
         },
         "negative": {
-          "value": "rgba( {primitives.red1000} , 0.48)",
+          "value": "{color.component.control.fill.negative}",
           "type": "color",
-          "description": "Например, для подсветки ошибки в поле ввода. Замена для {{ Fill/Glassy/Negative }}"
+          "description": "Устаревший токен. Использовать color.component.control.fill.negative. Сохранён для совместимости существующих привязок."
         },
         "warning": {
           "value": "rgba( {primitives.yellow500} , 0.32)",
@@ -457,8 +458,9 @@
         }
       },
       "button": {
-        "value": "linear-gradient(135deg, {primitives.amethyst800} 0%, {primitives.iris800} 16%, {primitives.iris800} 82%, {primitives.indigo700} 100%)",
-        "type": "color"
+        "value": "{color.component.control.fill.primary}",
+        "type": "color",
+        "description": "Устаревший токен. Использовать color.component.control.fill.primary. Сохранён для совместимости существующих привязок."
       },
       "menu": {
         "value": "linear-gradient(0deg, {primitives.violet400} 0%, {primitives.white} 100%)",
@@ -469,12 +471,59 @@
         "type": "color"
       },
       "sber-button": {
-        "value": "{primitives.external.sber1}",
-        "type": "color"
+        "value": "{color.component.control.fill.sber}",
+        "type": "color",
+        "description": "Устаревший токен. Использовать color.component.control.fill.sber. Сохранён для совместимости существующих привязок."
       },
       "sber-gradient": {
         "value": "{brand.partners.sber-gradient}",
         "type": "color"
+      },
+      "control": {
+        "fill": {
+          "primary": {
+            "value": "linear-gradient(135deg, {primitives.amethyst800} 0%, {primitives.iris800} 16%, {primitives.iris800} 82%, {primitives.indigo700} 100%)",
+            "type": "color",
+            "description": "Основная акцентная заливка контролов."
+          },
+          "secondary": {
+            "value": "rgba( {primitives.gray600} , 0.32)",
+            "type": "color",
+            "description": "Заливка второстепенных контролов; самостоятельное компонентное значение."
+          },
+          "selected": {
+            "value": "{primitives.iris300}",
+            "type": "color",
+            "description": "Заливка выбранного контрола: таба, селекта, чипса."
+          },
+          "negative": {
+            "value": "rgba( {primitives.red1000} , 0.48)",
+            "type": "color",
+            "description": "Полупрозрачная заливка негативного варианта контрола."
+          },
+          "sber": {
+            "value": "{primitives.external.sber1}",
+            "type": "color",
+            "description": "Заливка контролов в стиле Сбера."
+          }
+        },
+        "border": {
+          "secondary": {
+            "value": "rgba( {primitives.gray600} , 0)",
+            "type": "color",
+            "description": "Внутренняя декоративная обводка secondary-контролов. В светлой теме видима, в тёмных темах alpha 0; не индикатор фокуса или выбора."
+          },
+          "ghost": {
+            "value": "rgba( {primitives.gray600} , 0)",
+            "type": "color",
+            "description": "Внутренняя декоративная обводка ghost-контролов. В светлой теме видима, в тёмных темах alpha 0; не индикатор фокуса или выбора."
+          },
+          "negative": {
+            "value": "rgba( {primitives.red800} , 0.32)",
+            "type": "color",
+            "description": "Полупрозрачная обводка негативного варианта контрола; дополняет соответствующий текст или иконку."
+          }
+        }
       }
     },
     "background": {
@@ -1093,20 +1142,24 @@
       },
       "button": {
         "Step_1": {
-          "value": "{primitives.amethyst800}",
-          "type": "color"
+          "value": "{gradient.component.control.fill.primary.Step_1}",
+          "type": "color",
+          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_1. Сохранён для совместимости существующих привязок."
         },
         "Step_2": {
-          "value": "{primitives.iris800}",
-          "type": "color"
+          "value": "{gradient.component.control.fill.primary.Step_2}",
+          "type": "color",
+          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_2. Сохранён для совместимости существующих привязок."
         },
         "Step_3": {
-          "value": "{primitives.iris800}",
-          "type": "color"
+          "value": "{gradient.component.control.fill.primary.Step_3}",
+          "type": "color",
+          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_3. Сохранён для совместимости существующих привязок."
         },
         "Step_4": {
-          "value": "{primitives.indigo700}",
-          "type": "color"
+          "value": "{gradient.component.control.fill.primary.Step_4}",
+          "type": "color",
+          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_4. Сохранён для совместимости существующих привязок."
         }
       },
       "progress-bar": {
@@ -1157,6 +1210,32 @@
           "value": "{primitives.external.sber-gradient.Step_4}",
           "type": "color",
           "description": "Позиция шага: 100%"
+        }
+      },
+      "control": {
+        "fill": {
+          "primary": {
+            "Step_1": {
+              "value": "{primitives.amethyst800}",
+              "type": "color",
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 0%; угол градиента: 135deg."
+            },
+            "Step_2": {
+              "value": "{primitives.iris800}",
+              "type": "color",
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 16%; угол градиента: 135deg."
+            },
+            "Step_3": {
+              "value": "{primitives.iris800}",
+              "type": "color",
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 82%; угол градиента: 135deg."
+            },
+            "Step_4": {
+              "value": "{primitives.indigo700}",
+              "type": "color",
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 100%; угол градиента: 135deg."
+            }
+          }
         }
       }
     }

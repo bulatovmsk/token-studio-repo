@@ -49,6 +49,46 @@ Primitives → Brand → Semantic → Component
 | **Technical** | Типографика и spec'ы под устройства | Платформенный код |
 | **Microcopy** | Локализованные строки | UI-копии |
 
+### Компонентные цвета контролов
+
+Общие цвета контролов находятся в `color.component.control` и предназначены для
+ДС-компонентов: кнопок, селектов, табов, чипсов и других контролов с соответствующим
+оформлением. Исторически компонентные цвета хранятся в наборах `Semantic/Colors/*`
+и коллекции Color; наборы `Component/WebMobile` и `Component/TV` продолжают хранить
+размеры и отступы. Для сборки продуктовых экранов используется общая семантика.
+
+| Токен после `color.component.control` | Назначение / значение |
+|---|---|
+| `fill.primary` | Основная акцентная заливка; градиент 135deg с позициями 0%, 16%, 82%, 100% |
+| `fill.secondary` | Заливка второстепенных контролов; копия текущего значения `color.fill.glassy.third` каждой темы |
+| `fill.selected` | Заливка выбранного таба, селекта, чипса |
+| `fill.negative` | Полупрозрачная заливка негативного варианта |
+| `fill.sber` | Заливка контролов в стиле Сбера |
+| `border.secondary`, `border.ghost` | Внутренние декоративные обводки: копия `color.border.glassy` в KidsLight, alpha 0 в Main/Kids/Meta |
+| `border.negative` | Полупрозрачная обводка негативного варианта |
+
+Цвета шагов primary-градиента находятся в
+`gradient.component.control.fill.primary.Step_1…Step_4`.
+Новые токены сохраняют ссылки на Primitives/Brand, но не ссылаются на старые
+семантические пути. `fill.secondary` и обводки secondary/ghost — самостоятельные
+значения: общие `color.fill.glassy.third` и `color.border.glassy` остаются независимыми.
+Текст и hover/focus используют существующую семантику; `sber-gradient` не изменён.
+
+Для совместимости следующие старые пути сохранены как устаревшие алиасы:
+
+| Старый путь | Новый путь |
+|---|---|
+| `color.component.button` | `color.component.control.fill.primary` |
+| `color.fill.solid.selected` | `color.component.control.fill.selected` |
+| `color.fill.glassy.negative` | `color.component.control.fill.negative` |
+| `color.component.sber-button` | `color.component.control.fill.sber` |
+| `color.border.negative-glassy` | `color.component.control.border.negative` |
+| `gradient.component.button.Step_*` | `gradient.component.control.fill.primary.Step_*` |
+
+Существующие идентификаторы и mappings в `$themes.json` сохранены. Эта правка
+не переименовывает переменные в Figma; новые пути ещё не имеют записей в mapping.
+Удалять совместимые алиасы можно только после отдельной миграции привязок.
+
 ## Темы
 
 В каждой из 5 коллекций (см. ниже) присутствуют **четыре** темы с одинаковыми именами:
