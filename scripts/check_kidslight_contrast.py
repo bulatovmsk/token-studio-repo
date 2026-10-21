@@ -289,7 +289,19 @@ def main():
         hover_min = minimum(samples(f"color.text-icon.{role}"), palette)
         if hover_min < 4.5:
             print(f"LIMITATION {role} on legacy nested hover: {hover_min:.2f}:1; use primary text")
-    for role in ("solid", "glassy", "active", "negative", "warning"):
+    # Solid/Glassy are supplemental island outlines, not sole control boundaries.
+    for role in ("solid", "glassy"):
+        outline = samples(f"color.border.{role}")[0]
+        ratios = [contrast(outline, surface) for surface in normal_palette]
+        print(f"INFO structural border.{role} / Rest surfaces: {min(ratios):.2f}–{max(ratios):.2f}:1; excluded from control-boundary checks")
+    solid_border = samples("color.border.solid")[0]
+    active_border = samples("color.border.active")[0]
+    if solid_border[3] != 1 or active_border[3] != 1:
+        raise AssertionError("Solid and active island borders must remain opaque")
+    if not all(contrast(active_border, surface) > contrast(solid_border, surface) for surface in palette):
+        raise AssertionError("Active island border must separate more strongly than Solid on light surfaces")
+    print("PASS active island border is stronger than the ordinary solid outline")
+    for role in ("active", "negative", "warning"):
         paint = samples(f"color.border.{role}")[0]
         # Stroke may be inside or outside. Test its rendered color against both
         # adjacent surfaces rather than assuming the translucent stroke is opaque.

@@ -51,7 +51,17 @@ palette = {p for p, _ in pairs}
 for role in ('primary', 'secondary', 'third', 'accent', 'offer', 'positive', 'negative', 'warning'):
     c.require(f'text-icon.{role} / Rest, hover and nested fills',
               c.minimum(c.samples('color.text-icon.' + role), palette), 4.5)
-for role in ('solid', 'glassy', 'active', 'negative', 'warning'):
+# Solid/Glassy are supplemental structural island outlines.
+for role in ('solid', 'glassy'):
+    outline = c.samples('color.border.' + role)[0]
+    ratios = [c.contrast(outline, surface) for surface in palette]
+    print(f'INFO structural border.{role} / own surface: {min(ratios):.2f}–{max(ratios):.2f}:1; excluded from control-boundary checks')
+solid_border = c.samples('color.border.solid')[0]
+active_border = c.samples('color.border.active')[0]
+assert solid_border[3] == active_border[3] == 1
+assert all(c.contrast(active_border, surface) > c.contrast(solid_border, surface) for surface in palette)
+print('PASS active island border is stronger than solid')
+for role in ('active', 'negative', 'warning'):
     paint = c.samples('color.border.' + role)[0]
     worst = min(c.contrast(c.composite(paint, under), adjacent)
                 for surface, parent in pairs for under in (surface, parent) for adjacent in (surface, parent))
