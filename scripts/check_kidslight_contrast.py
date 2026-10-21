@@ -173,6 +173,7 @@ def main():
     # Include translucent modal backgrounds over the canvas and white surfaces.
     modal = samples("color.background.glassy.secondary")[0]
     roots += [composite(modal, base) for base in (roots[0], rgba("#FFFFFF"))]
+    roots.append(rgba("#FFFFFF"))
     contexts = set(roots)
     for root in roots:
         islands = [composite(samples(f"color.fill.{family}.primary")[0], root) for family in ("solid", "glassy")]
@@ -180,6 +181,28 @@ def main():
         for parent in [root, *islands]:
             for family in ("solid", "glassy"):
                 contexts.add(composite(samples(f"color.fill.{family}.secondary")[0], parent))
+
+    # Check every Solid/Glassy sequence through all four distinct island roles.
+    # 1.08 is an internal separation target, not a WCAG requirement for islands.
+    island_pairs = set()
+    for root in roots:
+        parents = {root}
+        for role in ("primary", "secondary", "third", "fourth"):
+            families = ("solid",) if role == "fourth" else ("solid", "glassy")
+            children = set()
+            for parent in parents:
+                for family in families:
+                    surface = composite(samples(f"color.fill.{family}.{role}")[0], parent)
+                    if role != "primary":
+                        if luminance(surface) >= luminance(parent):
+                            raise AssertionError(f"{family}.{role}: nested islands must darken their parent")
+                        if contrast(surface, parent) < 1.08:
+                            raise AssertionError(f"{family}.{role}: nested island separation below 1.08:1")
+                        island_pairs.add((surface, parent))
+                    children.add(surface)
+            contexts.update(children)
+            parents = children
+    print(f"PASS nested island separation: {min(contrast(s,p) for s,p in island_pairs):.3f}:1 (design target 1.08:1)")
     pairs = {(color, color) for color in contexts}
     for parent in contexts:
         for path in backgrounds:
@@ -192,40 +215,32 @@ def main():
     palette = {surface for surface, _ in pairs}
     print(f"PASS alpha composition: {len(contexts)} contexts, {len(palette)} resolved surface colors")
 
-    # The light tints darken within their own role scale on every supported
-    # root. Pair matching is calibrated separately on the main canvas below.
-    for root in [*roots, rgba("#FFFFFF")]:
+    # Primary is whitest; deeper island roles darken even on a white parent.
+    for root in roots:
         for family, roles in (("solid", ("primary", "secondary", "third", "fourth")),
                               ("glassy", ("primary", "secondary", "third"))):
             levels = [composite(samples(f"color.fill.{family}.{role}")[0], root)
                       for role in roles]
             if not all(luminance(a) > luminance(b) for a, b in zip(levels, levels[1:])):
-                raise AssertionError(f"{family}: levels must darken progressively")
-    print("PASS solid/glassy tint hierarchy on all root backgrounds and white")
+                raise AssertionError(f"{family}: island levels must darken progressively")
+    print("PASS descending island hierarchy on all root backgrounds, including white")
 
-    # Like Main, the paired solid/glassy levels are calibrated on the main
-    # canvas. Other parents intentionally retain the glassy contribution.
-    canvas = samples("color.background.solid.primary")[0]
-    for family, roles in (("solid", ("primary", "secondary", "third", "fourth")),
-                          ("glassy", ("primary", "secondary", "third"))):
-        levels = [composite(samples(f"color.fill.{family}.{role}")[0], canvas) for role in roles]
-        if not all(luminance(canvas) > luminance(level) for level in levels):
-            raise AssertionError(f"{family}: ordinary fills must darken the main canvas")
-        separations = [contrast(level, canvas) for level in levels]
-        if not all(a < b for a, b in zip(separations, separations[1:])):
-            raise AssertionError(f"{family}: separation from the main canvas must increase by role")
-    for role in ("primary", "secondary", "third"):
-        solid = samples(f"color.fill.solid.{role}")[0]
-        glassy = composite(samples(f"color.fill.glassy.{role}")[0], canvas)
-        if max(abs(a-b) for a,b in zip(solid[:3], glassy[:3])) > .5/255 + 1e-9:
-            raise AssertionError(f"{role}: solid/glassy Rest mismatch on the main canvas")
-        if role != "primary":
-            solid_hover = samples(f"color.fill.solid.hover-focus.{role}")
-            glassy_hover = [composite(paint, glassy) for paint in samples(f"color.fill.glassy.hover-focus.{role}")]
-            if max(abs(a-b) for sh,gh in zip(solid_hover,glassy_hover)
-                   for a,b in zip(sh[:3],gh[:3])) > 1/255 + 1e-9:
-                raise AssertionError(f"{role}: solid/glassy hover mismatch on the main canvas")
-    print("PASS paired solid/glassy Rest and hover; increasing separation on main canvas")
+    # Glassy uses the paired tint instead of white-only overlays so it remains
+    # distinct when nested. Allow at most three RGB levels of parent contribution
+    # on supported roots; exact matching on one canvas is no longer the target.
+    for parent in roots:
+        for role in ("primary", "secondary", "third"):
+            solid = samples(f"color.fill.solid.{role}")[0]
+            glassy = composite(samples(f"color.fill.glassy.{role}")[0], parent)
+            if max(abs(a-b) for a,b in zip(solid[:3], glassy[:3])) > 3/255 + 1e-9:
+                raise AssertionError(f"{role}: solid/glassy Rest difference exceeds three RGB levels")
+            if role != "primary":
+                solid_hover = samples(f"color.fill.solid.hover-focus.{role}")
+                glassy_hover = [composite(paint, glassy) for paint in samples(f"color.fill.glassy.hover-focus.{role}")]
+                if max(abs(a-b) for sh,gh in zip(solid_hover,glassy_hover)
+                       for a,b in zip(sh[:3],gh[:3])) > 3/255 + 1e-9:
+                    raise AssertionError(f"{role}: solid/glassy hover difference exceeds three RGB levels")
+    print("PASS paired solid/glassy Rest and hover remain close on supported roots")
 
     for role in ("primary", "secondary", "third"):
         rest = samples(f"color.fill.solid.{role}")[0]
@@ -262,9 +277,8 @@ def main():
 
     for role in ("primary", "secondary", "third", "accent"):
         require(f"text-icon.{role} / composed surfaces", minimum(samples(f"color.text-icon.{role}"), palette), 4.5)
-    # Approved hover is for ordinary buttons. Status text remains checked on
-    # normal surfaces; report its hover limitation explicitly rather than
-    # silently changing the approved gradient or darkening unrelated tokens.
+    # Existing hover tokens remain for compatibility. Island Rest surfaces do
+    # not define future component control states; keep their WCAG regressions.
     normal_palette = set(contexts)
     for parent in contexts:
         for path in backgrounds:
@@ -274,7 +288,7 @@ def main():
         require(f"text-icon.{role} / normal surfaces", minimum(samples(f"color.text-icon.{role}"), normal_palette), 4.5)
         hover_min = minimum(samples(f"color.text-icon.{role}"), palette)
         if hover_min < 4.5:
-            print(f"LIMITATION {role} on nested hover: {hover_min:.2f}:1; use primary text for ordinary buttons")
+            print(f"LIMITATION {role} on legacy nested hover: {hover_min:.2f}:1; use primary text")
     for role in ("solid", "glassy", "active", "negative", "warning"):
         paint = samples(f"color.border.{role}")[0]
         # Stroke may be inside or outside. Test its rendered color against both
