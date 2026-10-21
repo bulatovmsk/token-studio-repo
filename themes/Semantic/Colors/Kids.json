@@ -133,20 +133,10 @@
           "type": "color",
           "description": "Офферы, спецпредложения. Замена на {{ Border/Decorative/on Dark/Active Vertical }}"
         }
-      },
-      "negative-glassy": {
-        "value": "{color.component.control.border.negative}",
-        "type": "color",
-        "description": "Устаревший токен. Использовать color.component.control.border.negative. Сохранён для совместимости существующих привязок."
       }
     },
     "fill": {
       "solid": {
-        "selected": {
-          "value": "{color.component.control.fill.selected}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать color.component.control.fill.selected. Сохранён для совместимости существующих привязок."
-        },
         "accent": {
           "value": "{primitives.iris800}",
           "type": "color",
@@ -237,11 +227,6 @@
           "value": "rgba( {primitives.gray900} , 0.48)",
           "type": "color",
           "description": "Использовать, только если нужна прозрачность. Например, плашка на неоднородном фоне. Аналог Solid. Замена для {{ Fill/Glassy/Secondary }}"
-        },
-        "negative": {
-          "value": "{color.component.control.fill.negative}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать color.component.control.fill.negative. Сохранён для совместимости существующих привязок."
         },
         "warning": {
           "value": "rgba( {primitives.yellow500} , 0.32)",
@@ -457,11 +442,6 @@
           "type": "color"
         }
       },
-      "button": {
-        "value": "{color.component.control.fill.primary}",
-        "type": "color",
-        "description": "Устаревший токен. Использовать color.component.control.fill.primary. Сохранён для совместимости существующих привязок."
-      },
       "menu": {
         "fill": {
           "selected": {
@@ -484,11 +464,6 @@
       "progress-bar": {
         "value": "linear-gradient(270deg, {primitives.gray200} 0%, {primitives.gray200} 33%, {primitives.gray200} 67%, {primitives.gray200} 100%)",
         "type": "color"
-      },
-      "sber-button": {
-        "value": "{color.component.control.fill.sber}",
-        "type": "color",
-        "description": "Устаревший токен. Использовать color.component.control.fill.sber. Сохранён для совместимости существующих привязок."
       },
       "sber-gradient": {
         "value": "{brand.partners.sber-gradient}",
@@ -1155,28 +1130,6 @@
           }
         }
       },
-      "button": {
-        "Step_1": {
-          "value": "{gradient.component.control.fill.primary.Step_1}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_1. Сохранён для совместимости существующих привязок."
-        },
-        "Step_2": {
-          "value": "{gradient.component.control.fill.primary.Step_2}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_2. Сохранён для совместимости существующих привязок."
-        },
-        "Step_3": {
-          "value": "{gradient.component.control.fill.primary.Step_3}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_3. Сохранён для совместимости существующих привязок."
-        },
-        "Step_4": {
-          "value": "{gradient.component.control.fill.primary.Step_4}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать gradient.component.control.fill.primary.Step_4. Сохранён для совместимости существующих привязок."
-        }
-      },
       "progress-bar": {
         "Step_1": {
           "value": "{primitives.gray200}",
@@ -1196,16 +1149,6 @@
         }
       },
       "menu": {
-        "Step_1": {
-          "value": "{gradient.component.menu.fill.selected.Step_1}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать gradient.component.menu.fill.selected.Step_1. Сохранён для совместимости существующих привязок."
-        },
-        "Step_2": {
-          "value": "{gradient.component.menu.fill.selected.Step_2}",
-          "type": "color",
-          "description": "Устаревший токен. Использовать gradient.component.menu.fill.selected.Step_2. Сохранён для совместимости существующих привязок."
-        },
         "fill": {
           "selected": {
             "Step_1": {
