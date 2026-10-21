@@ -24,6 +24,8 @@ for path in semantic:
     assert keys and [c.rgba(c.resolve(k)) for k in keys] == expected, path
 print('PASS every gradient matches its Step variables')
 
+c.check_menu_colors()
+
 roots = [c.samples('color.background.solid.' + r)[0] for r in ('primary', 'secondary')]
 modal = c.samples('color.background.glassy.secondary')[0]
 roots += [c.composite(modal, b) for b in (roots[0], c.rgba('#FFFFFF'))]
@@ -74,7 +76,7 @@ c.require('focus / all ordinary fills', c.minimum(c.samples('color.border.focus'
 for role in ('primary', 'secondary', 'third'):
     text = c.samples('color.text-icon.inverse.' + role)
     for path in ('color.fill.solid.inverse', 'color.component.control.fill.selected', 'color.fill.solid.accent',
-                 'color.component.control.fill.primary', 'color.component.menu'):
+                 'color.component.control.fill.primary', 'color.component.menu.fill.selected'):
         c.require(f'inverse.{role} / {path}', c.minimum(text, c.samples(path)), 4.5)
     for fill_role in ('primary', 'third', 'fourth'):
         bgs = [c.composite(c.samples('color.fill.glassy.inverse.' + fill_role)[0], bg)

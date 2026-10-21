@@ -455,9 +455,23 @@
         "description": "Устаревший токен. Использовать color.component.control.fill.sber. Сохранён для совместимости существующих привязок."
       },
       "menu": {
-        "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris800} 100%)",
-        "type": "color",
-        "description": "Градиент меню для светлого inverse-текста; светлый конец ограничен iris800 для контраста не ниже 4.5:1."
+        "fill": {
+          "selected": {
+            "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris800} 100%)",
+            "type": "color",
+            "description": "Заливка выбранного пункта меню. Текст и иконка выбранного пункта используют соответствующую inverse-семантику."
+          },
+          "container": {
+            "value": "rgba( {primitives.white} , 0.48)",
+            "type": "color",
+            "description": "Полупрозрачная белая заливка контейнера меню, в котором расположены пункты; alpha 48%."
+          }
+        },
+        "text-icon": {
+          "value": "linear-gradient(0deg, {primitives.iris1000} 0%, {primitives.iris800} 100%)",
+          "type": "color",
+          "description": "Цвет текста и иконки невыбранного пункта меню. Обычное доступное состояние, не disabled; настраивается независимо от selected-заливки."
+        }
       },
       "sber-gradient": {
         "value": "{brand.partners.sber-gradient}",
@@ -1197,12 +1211,40 @@
       },
       "menu": {
         "Step_1": {
-          "value": "{primitives.iris1000}",
-          "type": "color"
+          "value": "{gradient.component.menu.fill.selected.Step_1}",
+          "type": "color",
+          "description": "Устаревший токен. Использовать gradient.component.menu.fill.selected.Step_1. Сохранён для совместимости существующих привязок."
         },
         "Step_2": {
-          "value": "{primitives.iris800}",
-          "type": "color"
+          "value": "{gradient.component.menu.fill.selected.Step_2}",
+          "type": "color",
+          "description": "Устаревший токен. Использовать gradient.component.menu.fill.selected.Step_2. Сохранён для совместимости существующих привязок."
+        },
+        "fill": {
+          "selected": {
+            "Step_1": {
+              "value": "{primitives.iris1000}",
+              "type": "color",
+              "description": "Цвет шага градиента заливки выбранного пункта меню. Позиция шага: 0%; угол градиента: 0deg."
+            },
+            "Step_2": {
+              "value": "{primitives.iris800}",
+              "type": "color",
+              "description": "Цвет шага градиента заливки выбранного пункта меню. Позиция шага: 100%; угол градиента: 0deg."
+            }
+          }
+        },
+        "text-icon": {
+          "Step_1": {
+            "value": "{primitives.iris1000}",
+            "type": "color",
+            "description": "Цвет шага градиента текста и иконки невыбранного пункта меню. Позиция шага: 0%; угол градиента: 0deg."
+          },
+          "Step_2": {
+            "value": "{primitives.iris800}",
+            "type": "color",
+            "description": "Цвет шага градиента текста и иконки невыбранного пункта меню. Позиция шага: 100%; угол градиента: 0deg."
+          }
         }
       },
       "sber-gradient": {

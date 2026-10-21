@@ -123,6 +123,22 @@ def require(label, actual, threshold):
     print(f"PASS {label}: {actual:.2f}:1 (required {threshold}:1)")
 
 
+def check_menu_colors():
+    # Evaluate translucent menu paints over the supported solid page backgrounds.
+    roots = [*samples("color.background.solid.primary"),
+             *samples("color.background.solid.secondary")]
+    container = [composite(paint, root)
+                 for paint in samples("color.component.menu.fill.container")
+                 for root in roots]
+    require("menu unselected text/icon / container",
+            minimum(samples("color.component.menu.text-icon"), container), 4.5)
+    require("menu selected text/icon / selected fill",
+            minimum(samples("color.text-icon.inverse.primary"),
+                    [composite(paint, surface)
+                     for paint in samples("color.component.menu.fill.selected")
+                     for surface in container]), 4.5)
+
+
 def main():
     semantic = read_tokens("themes/Semantic/Colors/KidsLight.json")
     for path in semantic:
@@ -146,6 +162,8 @@ def main():
         if [rgba(resolve(key)) for key in keys] != expected:
             raise AssertionError(f"Gradient stops disagree: {path}")
     print("PASS all composite/split gradients, including fades, borders and components")
+
+    check_menu_colors()
 
     backgrounds = [f"color.fill.solid.{level}" for level in ("primary", "secondary", "third", "fourth")]
     backgrounds += [f"color.fill.glassy.{level}" for level in ("primary", "secondary", "third")]
@@ -323,7 +341,7 @@ def main():
 
     inverse = samples("color.text-icon.inverse.primary")
     for path in ("color.component.control.fill.selected", "color.fill.solid.accent", "color.component.control.fill.primary",
-                 "color.component.menu", "color.fill.solid.hover-focus.inverse"):
+                 "color.component.menu.fill.selected", "color.fill.solid.hover-focus.inverse"):
         require(f"inverse.primary / {path}", minimum(inverse, samples(path)), 4.5)
     dark = samples("color.fill.solid.inverse") + samples("color.background.solid.inverse")
     dark += [composite(samples("color.fill.glassy.inverse.primary")[0], base)
