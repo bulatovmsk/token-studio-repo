@@ -183,7 +183,7 @@ def main():
                 contexts.add(composite(samples(f"color.fill.{family}.secondary")[0], parent))
 
     # Check every Solid/Glassy sequence through all four distinct island roles.
-    # 1.08 is an internal separation target, not a WCAG requirement for islands.
+    # 1.11 is an internal separation target, not a WCAG requirement for islands.
     island_pairs = set()
     for root in roots:
         parents = {root}
@@ -196,13 +196,18 @@ def main():
                     if role != "primary":
                         if luminance(surface) >= luminance(parent):
                             raise AssertionError(f"{family}.{role}: nested islands must darken their parent")
-                        if contrast(surface, parent) < 1.08:
-                            raise AssertionError(f"{family}.{role}: nested island separation below 1.08:1")
+                        if contrast(surface, parent) < 1.11:
+                            raise AssertionError(f"{family}.{role}: nested island separation below 1.11:1")
                         island_pairs.add((surface, parent))
                     children.add(surface)
             contexts.update(children)
             parents = children
-    print(f"PASS nested island separation: {min(contrast(s,p) for s,p in island_pairs):.3f}:1 (design target 1.08:1)")
+    print(f"PASS nested island separation: {min(contrast(s,p) for s,p in island_pairs):.3f}:1 (design target 1.11:1)")
+    primary_island = samples("color.fill.solid.primary")[0]
+    third_on_primary = composite(samples("color.fill.glassy.third")[0], primary_island)
+    if contrast(third_on_primary, primary_island) < 1.32:
+        raise AssertionError("Glassy third on solid primary must meet the island separation target 1.32:1")
+    print(f"PASS glassy third on solid primary: {contrast(third_on_primary, primary_island):.3f}:1 (design target 1.32:1)")
     pairs = {(color, color) for color in contexts}
     for parent in contexts:
         for path in backgrounds:
@@ -289,13 +294,18 @@ def main():
         hover_min = minimum(samples(f"color.text-icon.{role}"), palette)
         if hover_min < 4.5:
             print(f"LIMITATION {role} on legacy nested hover: {hover_min:.2f}:1; use primary text")
-    # Solid/Glassy are supplemental island outlines, not sole control boundaries.
-    for role in ("solid", "glassy"):
+    # Solid/Glassy/Contour are supplemental outlines, not sole control boundaries.
+    for role in ("solid", "glassy", "contour"):
         outline = samples(f"color.border.{role}")[0]
         ratios = [contrast(outline, surface) for surface in normal_palette]
         print(f"INFO structural border.{role} / Rest surfaces: {min(ratios):.2f}–{max(ratios):.2f}:1; excluded from control-boundary checks")
     solid_border = samples("color.border.solid")[0]
     active_border = samples("color.border.active")[0]
+    contour_border = samples("color.border.contour")[0]
+    glassy_border = samples("color.border.glassy")[0]
+    if not all(contrast(contour_border, surface) < contrast(glassy_border, surface) for surface in normal_palette):
+        raise AssertionError("Contour must be weaker than glassy on the same light surface")
+    print("PASS weak contour stays below glassy contrast on light Rest surfaces")
     if solid_border[3] != 1 or active_border[3] != 1:
         raise AssertionError("Solid and active island borders must remain opaque")
     if not all(contrast(active_border, surface) > contrast(solid_border, surface) for surface in palette):

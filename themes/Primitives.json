@@ -37,15 +37,15 @@
       "type": "color"
     },
     "gray400": {
-      "value": "#D4D3D7",
+      "value": "#CBCAD0",
       "type": "color"
     },
     "gray300": {
-      "value": "#E4E4E6",
+      "value": "#DDDDE1",
       "type": "color"
     },
     "gray200": {
-      "value": "#F2F2F3",
+      "value": "#F0F0F2",
       "type": "color"
     },
     "white": {
