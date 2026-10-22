@@ -460,7 +460,7 @@
             "description": "Основная акцентная заливка контролов."
           },
           "secondary": {
-            "value": "rgba( {primitives.gray300} , 0.92)",
+            "value": "rgba( {primitives.white} , 0.92)",
             "type": "color",
             "description": "Заливка второстепенных контролов; самостоятельное компонентное значение."
           },
