@@ -1502,7 +1502,13 @@
       "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
       "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
       "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
-      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b",
+      "color.component.menu.fill.container": "f408c451170f1d84bcf4b1746e634dbe142f055e",
+      "color.component.control.fill.secondary": "f7fb016bb9eccc5169005fd82dd7b9c5de294047",
+      "color.component.control.border.secondary": "7ec46f94d1947a31feb0abece6d156d10c2b1995",
+      "color.component.control.border.ghost": "e79148050f9d238f685e0e8e177f070c2056de76",
+      "gradient.component.menu.text-icon.Step_1": "c1da26fd535a5668b28c71af5b05d1ec40c0ec18",
+      "gradient.component.menu.text-icon.Step_2": "f62984fcc212fd68c048f2e65ddae39115572b9c"
     },
     "$figmaModeId": "32029:4",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -1710,7 +1716,13 @@
       "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
       "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
       "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
-      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b",
+      "color.component.menu.fill.container": "f408c451170f1d84bcf4b1746e634dbe142f055e",
+      "color.component.control.fill.secondary": "f7fb016bb9eccc5169005fd82dd7b9c5de294047",
+      "color.component.control.border.secondary": "7ec46f94d1947a31feb0abece6d156d10c2b1995",
+      "color.component.control.border.ghost": "e79148050f9d238f685e0e8e177f070c2056de76",
+      "gradient.component.menu.text-icon.Step_1": "c1da26fd535a5668b28c71af5b05d1ec40c0ec18",
+      "gradient.component.menu.text-icon.Step_2": "f62984fcc212fd68c048f2e65ddae39115572b9c"
     },
     "$figmaModeId": "40245:0",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -1918,7 +1930,13 @@
       "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
       "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
       "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
-      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b",
+      "color.component.menu.fill.container": "f408c451170f1d84bcf4b1746e634dbe142f055e",
+      "color.component.control.fill.secondary": "f7fb016bb9eccc5169005fd82dd7b9c5de294047",
+      "color.component.control.border.secondary": "7ec46f94d1947a31feb0abece6d156d10c2b1995",
+      "color.component.control.border.ghost": "e79148050f9d238f685e0e8e177f070c2056de76",
+      "gradient.component.menu.text-icon.Step_1": "c1da26fd535a5668b28c71af5b05d1ec40c0ec18",
+      "gradient.component.menu.text-icon.Step_2": "f62984fcc212fd68c048f2e65ddae39115572b9c"
     },
     "$figmaModeId": "41872:1",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
@@ -2126,7 +2144,13 @@
       "gradient.fill.solid.hover-focus.inverse.Step_1": "92f64eb60638049d291fbd376d5a039a1f87eb11",
       "gradient.fill.solid.hover-focus.inverse.Step_2": "fa6a9a81034f3daaeaecf3afdd1ca7daea02562b",
       "gradient.fill.glassy.hover-focus.inverse.Step_1": "fde93f549e1c2c2673b09dca3905b80edd90cfb1",
-      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b"
+      "gradient.fill.glassy.hover-focus.inverse.Step_2": "a48df011a3c63765e31a18cc8bf49e396180512b",
+      "color.component.menu.fill.container": "f408c451170f1d84bcf4b1746e634dbe142f055e",
+      "color.component.control.fill.secondary": "f7fb016bb9eccc5169005fd82dd7b9c5de294047",
+      "color.component.control.border.secondary": "7ec46f94d1947a31feb0abece6d156d10c2b1995",
+      "color.component.control.border.ghost": "e79148050f9d238f685e0e8e177f070c2056de76",
+      "gradient.component.menu.text-icon.Step_1": "c1da26fd535a5668b28c71af5b05d1ec40c0ec18",
+      "gradient.component.menu.text-icon.Step_2": "f62984fcc212fd68c048f2e65ddae39115572b9c"
     },
     "$figmaModeId": "41872:2",
     "$figmaCollectionId": "VariableCollectionId:32029:3918",
