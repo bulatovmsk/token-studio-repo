@@ -455,7 +455,7 @@
       "control": {
         "fill": {
           "primary": {
-            "value": "linear-gradient(45deg, {primitives.violet700} 0%, {primitives.cobalt1000} 100%)",
+            "value": "linear-gradient(135deg, {primitives.violet700} 0%, {primitives.violet700} 16%, {primitives.cobalt1000} 82%, {primitives.cobalt1000} 100%)",
             "type": "color",
             "description": "Основная акцентная заливка контролов."
           },
@@ -1218,12 +1218,22 @@
             "Step_1": {
               "value": "{primitives.violet700}",
               "type": "color",
-              "description": "Цвет шага основной акцентной заливки контролов KidsLight. Позиция шага: 0%; угол градиента: 45deg."
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 0%; угол градиента: 135deg."
             },
             "Step_2": {
+              "value": "{primitives.violet700}",
+              "type": "color",
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 16%; угол градиента: 135deg."
+            },
+            "Step_3": {
               "value": "{primitives.cobalt1000}",
               "type": "color",
-              "description": "Цвет шага основной акцентной заливки контролов KidsLight. Позиция шага: 100%; угол градиента: 45deg."
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 82%; угол градиента: 135deg."
+            },
+            "Step_4": {
+              "value": "{primitives.cobalt1000}",
+              "type": "color",
+              "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 100%; угол градиента: 135deg."
             }
           }
         }

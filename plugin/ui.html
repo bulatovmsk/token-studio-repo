@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  :root { color-scheme: light; }
+  html, body { background: #ffffff; }
+  body { font-family: Inter, -apple-system, system-ui, sans-serif; font-size: 12px; margin: 0; padding: 12px; color: #111111; }
+  h3 { margin: 0 0 6px; font-size: 12px; font-weight: 600; color: #111111; }
+  .section { background: #ffffff; border: 1px solid #e6e6e6; border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+  .row { display: flex; gap: 8px; align-items: center; margin-top: 6px; }
+  select, button { font: inherit; padding: 6px 8px; border-radius: 6px; border: 1px solid #d9d9d9; background: #ffffff; color: #111111; }
+  select { flex: 1; min-width: 0; }
+  button { cursor: pointer; }
+  button:hover { background: #f5f5f5; }
+  button.primary { background: #6E2BFF; color: #ffffff; border-color: #6E2BFF; }
+  button.primary:hover { background: #5A1FD9; border-color: #5A1FD9; }
+  button.danger { background: rgba(176, 0, 32, 0.1); color: #b00020; border-color: rgba(176, 0, 32, 0.2); }
+  button.danger:hover { background: rgba(176, 0, 32, 0.18); border-color: rgba(176, 0, 32, 0.3); }
+  .meta { color: #666666; font-size: 11px; line-height: 1.4; }
+  .collections { background: #fafafa; max-height: 90px; overflow: auto; border: 1px solid #e6e6e6; border-radius: 6px; padding: 6px; margin-top: 6px; font-size: 11px; color: #333333; }
+  .col-item { padding: 2px 0; }
+  .empty { color: #999999; padding: 6px 0; }
+  .scan-hint { padding: 8px; text-align: center; }
+  .scan-hint .meta { margin-bottom: 6px; }
+  button.scan { font-size: 11px; padding: 5px 10px; }
+  .dev-row { display: flex; justify-content: flex-end; margin-top: 12px; padding-top: 8px; border-top: 1px dashed #e6e6e6; }
+  button.dev { font-size: 10px; padding: 3px 8px; color: #999999; border-color: #ececec; background: #fafafa; }
+  button.dev:hover { color: #666666; background: #f0f0f0; }
+
+  .progress { display: none; margin: 8px 0 12px; padding: 10px 12px; background: #f3edff; border: 1px solid #d6c2ff; border-radius: 8px; }
+  .progress.active { display: block; }
+  .progress-bar { height: 8px; background: #ffffff; border-radius: 4px; overflow: hidden; box-shadow: inset 0 0 0 1px #e0d0ff; }
+  .progress-bar > div { height: 100%; width: 0%; background: #6E2BFF; transition: width 120ms ease; }
+  .progress-label { font-size: 12px; color: #3a14a0; margin-top: 6px; display: flex; justify-content: space-between; gap: 8px; font-weight: 500; }
+  .progress-label .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  body.busy button { opacity: 0.5; pointer-events: none; }
+  body.busy select { opacity: 0.5; pointer-events: none; }
+</style>
+</head>
+<body>
+  <div class="meta" id="scope">…</div>
+
+  <div class="progress" id="progress">
+    <div class="progress-bar"><div id="progressFill"></div></div>
+    <div class="progress-label"><span class="name" id="progressName">…</span><span id="progressCount"></span></div>
+  </div>
+
+  <div class="section">
+    <h3>Выбор темы</h3>
+    <div class="meta">Назначает тему на всех вложенных элементах, включая скрытые слои и инстансы.</div>
+    <div class="row">
+      <select id="theme"></select>
+      <button class="primary" id="apply">Применить</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h3>Сброс текущей темы</h3>
+    <div class="meta">Полностью снимает явные режимы тематических коллекций внутри выделения или страницы.</div>
+    <div class="row">
+      <button class="danger" id="reset">Полный сброс тем</button>
+    </div>
+  </div>
+
+  <div class="meta">Коллекции с Main / Meta / Kids:</div>
+  <div class="collections" id="collections"></div>
+
+  <div class="dev-row">
+    <button id="diagnose" class="dev">Диагностика</button>
+  </div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let lastState = null;
+
+function render(state) {
+  lastState = state;
+  $('scope').textContent = state.scope === 'selection'
+    ? `Область: выделение (${state.rootsCount})`
+    : `Область: страница (${state.rootsCount} верхнеуровневых)`;
+
+  const prev = $('theme').value;
+  $('theme').innerHTML = '';
+  for (const t of state.themes) {
+    const o = document.createElement('option');
+    o.value = t;
+    o.textContent = t;
+    $('theme').appendChild(o);
+  }
+  if (prev && state.themes.includes(prev)) $('theme').value = prev;
+
+  const cont = $('collections');
+  cont.innerHTML = '';
+  if (state.needsScan) {
+    const wrap = document.createElement('div');
+    wrap.className = 'scan-hint';
+    const m = document.createElement('div');
+    m.className = 'meta';
+    m.textContent = 'Выделите фрейм, чтобы увидеть коллекции, или просканируйте всю страницу.';
+    const btn = document.createElement('button');
+    btn.className = 'scan';
+    btn.textContent = 'Сканировать страницу';
+    btn.onclick = () => parent.postMessage({ pluginMessage: { type: 'scanPage' } }, '*');
+    wrap.appendChild(m);
+    wrap.appendChild(btn);
+    cont.appendChild(wrap);
+  } else if (!state.collections.length) {
+    const d = document.createElement('div');
+    d.className = 'empty';
+    d.textContent = 'Не найдено используемых коллекций с Main / Meta / Kids.';
+    cont.appendChild(d);
+  } else {
+    for (const c of state.collections) {
+      const d = document.createElement('div');
+      d.className = 'col-item';
+      d.textContent = c.name;
+      cont.appendChild(d);
+    }
+  }
+}
+
+function setBusy(busy, label) {
+  document.body.classList.toggle('busy', busy);
+  const prog = $('progress');
+  if (busy) {
+    prog.classList.add('active');
+    $('progressName').textContent = label || 'Обработка…';
+    $('progressCount').textContent = '';
+    $('progressFill').style.width = '0%';
+  } else {
+    setTimeout(() => prog.classList.remove('active'), 250);
+  }
+}
+
+function updateProgress(stage, current, total, label) {
+  if (stage === 'done') {
+    $('progressFill').style.width = '100%';
+    setBusy(false);
+    return;
+  }
+  document.body.classList.add('busy');
+  $('progress').classList.add('active');
+  const pct = total > 0 ? Math.round((current / total) * 100) : 0;
+  $('progressFill').style.width = pct + '%';
+  $('progressName').textContent = label || 'Обработка…';
+  $('progressCount').textContent = total > 0 ? `${current}/${total}` : '';
+}
+
+$('apply').onclick = () => {
+  const themeName = $('theme').value;
+  if (!themeName) return;
+  setBusy(true, 'Применяю тему…');
+  parent.postMessage({ pluginMessage: { type: 'apply', themeName } }, '*');
+};
+$('reset').onclick = () => {
+  setBusy(true, 'Сбрасываю темы…');
+  parent.postMessage({ pluginMessage: { type: 'reset' } }, '*');
+};
+$('diagnose').onclick = () => parent.postMessage({ pluginMessage: { type: 'diagnose' } }, '*');
+
+window.onmessage = (e) => {
+  const msg = e.data.pluginMessage;
+  if (!msg) return;
+  if (msg.type === 'state') render(msg);
+  else if (msg.type === 'progress') updateProgress(msg.stage, msg.current, msg.total, msg.label);
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <style>
+    :root { color-scheme: light dark; }
+    body { font: 12px/1.45 Inter, system-ui, sans-serif; margin: 0; padding: 18px; color: var(--figma-color-text, #222); background: var(--figma-color-bg, #fff); }
+    h1 { font-size: 17px; margin: 0 0 6px; }
+    h2 { font-size: 13px; margin: 0 0 10px; }
+    p { margin: 0 0 12px; }
+    .muted { color: var(--figma-color-text-secondary, #666); }
+    .panel { border: 1px solid var(--figma-color-border, #ddd); border-radius: 8px; padding: 12px; margin-top: 14px; }
+    .collection { border-bottom: 1px solid var(--figma-color-border, #ddd); padding: 10px 0; }
+    .collection:last-child { border: 0; }
+    .collection-title { font-weight: 650; margin-bottom: 6px; overflow-wrap: anywhere; }
+    .mode { display: flex; gap: 8px; align-items: start; margin: 6px 0; }
+    .mode input { margin-top: 2px; }
+    button, select { font: inherit; color: inherit; border: 1px solid var(--figma-color-border, #bbb); border-radius: 5px; padding: 8px 10px; background: var(--figma-color-bg, #fff); }
+    button { cursor: pointer; }
+    button:hover { background: var(--figma-color-bg-hover, #f2f2f2); }
+    button:disabled { opacity: .45; cursor: default; }
+    .actions { display: flex; gap: 8px; align-items: center; }
+    #scope { flex: 1; }
+    #auditState { margin: 10px 0 0; }
+    #collections { max-height: 245px; overflow: auto; margin: 8px 0 12px; }
+    #message { min-height: 19px; margin-top: 12px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    #message.error { color: var(--figma-color-text-danger, #b42318); }
+    #warnings { margin-top: 12px; color: var(--figma-color-text-warning, #946200); white-space: pre-wrap; overflow-wrap: anywhere; }
+    #warnings:empty { display: none; }
+    #diagnostics { overflow-wrap: anywhere; }
+    #diagnostics details { margin: 8px 0; }
+    #diagnostics summary { cursor: pointer; }
+    .conflict { color: var(--figma-color-text-warning, #946200); font-weight: 600; }
+    .version { border-left: 2px solid var(--figma-color-border, #ddd); padding-left: 10px; margin: 12px 0; }
+    .reference { padding: 7px 0; border-bottom: 1px solid var(--figma-color-border, #ddd); }
+    .reference button { padding: 3px 7px; margin-top: 4px; }
+    code { font-size: 10px; }
+    #detachPreview { border: 1px solid var(--figma-color-border-warning, #c98a28); border-radius: 6px; padding: 12px; margin-top: 12px; }
+    #detachPreview[hidden] { display: none; }
+    #rebindPreview { border: 1px solid var(--figma-color-border-warning, #c98a28); border-radius: 6px; padding: 12px; margin-top: 12px; }
+    #rebindPreview[hidden] { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Диагностика коллекций</h1>
+  <p class="muted">Найдите слои, переменные и стили, из-за которых коллекции остаются в выбранной области. Проверка включает вложенные слои.</p>
+  <div class="actions">
+    <select id="scope" aria-label="Область проверки">
+      <option value="selection">Выделенные объекты</option>
+      <option value="page">Текущая страница</option>
+    </select>
+    <button id="audit">Проверить</button>
+  </div>
+  <p id="auditState" class="muted">Выделите компоненты или фреймы и нажмите «Проверить».</p>
+  <section class="panel">
+    <h2>Что удерживает коллекции</h2>
+    <p class="muted">Отметьте устаревшие версии, чтобы отвязать их от слоёв. Свойства станут обычными значениями; связи с затронутыми стилями на этих слоях могут быть сняты.</p>
+    <div id="diagnostics">Проверка не выполнена.</div>
+    <div id="rebindControls" hidden>
+      <h2>Перепривязать версии</h2>
+      <p class="muted">Выберите старую и актуальную версии одной коллекции. Плагин сопоставит переменные по ключу или точному имени и типу.</p>
+      <div class="actions"><select id="rebindSource" aria-label="Старая версия"></select><select id="rebindTarget" aria-label="Актуальная версия"></select></div>
+      <button id="prepareRebind">Подготовить перепривязку…</button>
+      <div id="rebindPreview" hidden>
+        <p id="rebindSummary"></p>
+        <div id="rebindMatches" class="muted"></div>
+        <div id="rebindIssues" class="muted"></div>
+        <div class="actions"><button id="applyRebind">Перепривязать</button><button id="cancelRebind">Отмена</button></div>
+      </div>
+    </div>
+    <button id="prepareDetach" disabled>Отвязать выбранные коллекции…</button>
+    <div id="detachPreview" hidden>
+      <p id="detachSummary"></p>
+      <div id="detachIssues" class="muted"></div>
+      <div class="actions"><button id="applyDetach">Отвязать</button><button id="cancelDetach">Отмена</button></div>
+    </div>
+  </section>
+  <section class="panel">
+    <h2>Явные назначения режимов</h2>
+    <p class="muted">Снятие назначения включает наследование режима. Привязки переменных и конфликты версий из отчёта выше эта кнопка не исправляет.</p>
+    <button id="selectAll" disabled>Выбрать все</button>
+    <div id="collections" class="muted">Проверка не выполнена.</div>
+    <button id="clear" disabled>Снять выбранные назначения</button>
+  </section>
+  <div id="warnings" role="status"></div>
+  <div id="message" role="status"></div>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const send = (message) => parent.postMessage({ pluginMessage: message }, '*');
+    let auditId = null;
+    let busy = false;
+    let detachPlanId = null;
+    let rebindPlanId = null;
+    let rebindGroups = [];
+
+    function setMessage(value, error = false) {
+      $('message').textContent = value;
+      $('message').classList.toggle('error', error);
+    }
+
+    function updateButtons() {
+      const selected = [...document.querySelectorAll('input[data-mode-id]:checked')];
+      const count = selected.reduce((sum, input) => sum + Number(input.dataset.uses), 0);
+      $('clear').disabled = busy || !auditId || !selected.length;
+      $('clear').textContent = count ? `Снять назначения (${count})` : 'Снять выбранные назначения';
+      $('selectAll').disabled = busy || !auditId || !document.querySelector('input[data-mode-id]:not([data-unavailable])');
+      $('audit').disabled = busy;
+      $('scope').disabled = busy;
+      for (const input of document.querySelectorAll('input[data-mode-id]')) {
+        input.disabled = busy || !auditId || input.dataset.unavailable === 'true';
+      }
+      for (const button of document.querySelectorAll('button[data-node-id]')) button.disabled = busy || !auditId;
+      const detachInputs = [...document.querySelectorAll('input[data-detach-collection], input[data-detach-variable]')];
+      $('prepareDetach').disabled = busy || !auditId || !detachInputs.some((input) => input.checked);
+      $('applyDetach').disabled = busy || !auditId || !detachPlanId;
+      $('cancelDetach').disabled = busy;
+      $('prepareRebind').disabled = busy || !auditId || !rebindGroups.length || !$('rebindSource').value || !$('rebindTarget').value || $('rebindSource').value === $('rebindTarget').value;
+      $('applyRebind').disabled = busy || !auditId || !rebindPlanId;
+      $('cancelRebind').disabled = busy;
+      $('rebindSource').disabled = busy || !auditId;
+      $('rebindTarget').disabled = busy || !auditId;
+      for (const input of detachInputs) input.disabled = busy || !auditId;
+    }
+
+    function invalidate(message) {
+      auditId = null;
+      detachPlanId = null;
+      rebindPlanId = null;
+      rebindGroups = [];
+      $('detachPreview').hidden = true;
+      $('rebindPreview').hidden = true;
+      $('rebindControls').hidden = true;
+      $('auditState').textContent = message;
+      $('collections').textContent = 'Проверка не выполнена.';
+      $('diagnostics').textContent = 'Проверка не выполнена.';
+      $('warnings').textContent = '';
+      updateButtons();
+    }
+
+    function element(tag, text, className = '') {
+      const result = document.createElement(tag);
+      result.textContent = text;
+      result.className = className;
+      return result;
+    }
+
+    function showUses(parent, uses) {
+      // Keep large pages responsive; the complete list is revealed on demand.
+      let shown = 0;
+      const more = element('button', 'Показать ещё ссылки');
+      const append = () => {
+        more.remove();
+        for (const use of uses.slice(shown, shown + 30)) {
+          const row = element('div', '', 'reference');
+          row.appendChild(element('div', use.path));
+          row.appendChild(element('div', [use.property, use.via].filter(Boolean).join(' → '), 'muted'));
+          row.appendChild(element('code', use.nodeId));
+          const reveal = element('button', 'Приблизить слой');
+          reveal.dataset.nodeId = use.nodeId;
+          reveal.onclick = () => send({ type: 'revealNode', nodeId: use.nodeId, auditId });
+          row.appendChild(reveal);
+          parent.appendChild(row);
+        }
+        shown += 30;
+        if (shown < uses.length) parent.appendChild(more);
+        updateButtons();
+      };
+      more.onclick = append;
+      append();
+    }
+
+    function renderDiagnostics(data) {
+      const list = $('diagnostics');
+      list.replaceChildren();
+      list.appendChild(element('p', `Ссылок слой–переменная–свойство: ${data.bindingCount}. Переменных с учётом цепочек: ${data.variableCount}.`));
+      if (data.conflicts) {
+        list.appendChild(element('p', `Коллекций с несколькими ID при одном ключе: ${data.conflicts}. Эти ссылки могут объяснять старые режимы в меню.`, 'conflict'));
+      } else {
+        list.appendChild(element('p', 'Среди доступных ссылок в этой области разные версии режимов не обнаружены. Это не подтверждает актуальность или отсутствие коллекции в библиотеке.', 'muted'));
+      }
+      for (const group of data.groups) {
+        const card = document.createElement('details');
+        card.open = group.conflict;
+        card.appendChild(element('summary', `${group.name}${group.conflict ? ' · конфликт версий' : ''} · представлений: ${group.versions.length}`, group.conflict ? 'conflict' : ''));
+        card.appendChild(element('div', `Ключ: ${group.key}`, 'muted'));
+        if (group.conflict) card.appendChild(element('p', 'Один ключ коллекции, но разные ID. Ниже показано, какие слои используют каждую версию. По этому отчёту нельзя определить, какая версия последняя.'));
+        for (const version of group.versions) {
+          const section = element('div', '', 'version');
+          const choice = element('label', '', 'mode');
+          const select = document.createElement('input');
+          select.type = 'checkbox';
+          select.dataset.detachCollection = version.id;
+          select.onchange = () => { detachPlanId = null; $('detachPreview').hidden = true; updateButtons(); };
+          choice.append(select, element('span', 'Отвязать эту версию от слоёв'));
+          section.appendChild(choice);
+          section.appendChild(element('div', version.available
+            ? `Режимы: ${version.modes.map((mode) => mode.name).join(', ')}`
+            : 'Коллекция недоступна: она могла быть удалена или доступ к ней ограничен.'));
+          section.appendChild(element('code', version.id));
+          for (const variable of version.variables) {
+            const details = document.createElement('details');
+            details.appendChild(element('summary', `${variable.name} · ссылок: ${variable.uses.length}`));
+            details.appendChild(element('code', variable.id));
+            let loaded = false;
+            details.ontoggle = () => {
+              if (details.open && !loaded) { loaded = true; showUses(details, variable.uses); }
+            };
+            section.appendChild(details);
+          }
+          if (version.assignments.length) {
+            const details = document.createElement('details');
+            details.appendChild(element('summary', `Явных назначений: ${version.assignments.length}`));
+            let loaded = false;
+            details.ontoggle = () => {
+              if (details.open && !loaded) {
+                loaded = true;
+                showUses(details, version.assignments.map((use) => ({ ...use,
+                  property: `Режим: ${(version.modes.find((mode) => mode.id === use.modeId) || {}).name || use.modeId}`,
+                })));
+              }
+            };
+            section.appendChild(details);
+          }
+          card.appendChild(section);
+        }
+        list.appendChild(card);
+      }
+      for (const variable of data.unavailableVariables) {
+        const details = document.createElement('details');
+        details.appendChild(element('summary', `Недоступная переменная · ссылок: ${variable.uses.length}`, 'conflict'));
+        details.appendChild(element('code', variable.id));
+        const choice = element('label', '', 'mode');
+        const select = document.createElement('input');
+        select.type = 'checkbox';
+        select.dataset.detachVariable = variable.id;
+        select.onchange = () => { detachPlanId = null; $('detachPreview').hidden = true; updateButtons(); };
+        choice.append(select, element('span', 'Отвязать эту недоступную переменную'));
+        details.appendChild(choice);
+        details.appendChild(element('p', 'Ссылка осталась на слое, но переменную прочитать не удалось. Удаление и ограничение доступа здесь неразличимы.'));
+        let loaded = false;
+        details.ontoggle = () => {
+          if (details.open && !loaded) { loaded = true; showUses(details, variable.uses); }
+        };
+        list.appendChild(details);
+      }
+      rebindGroups = data.groups.filter((group) => group.versions.length > 1 && group.versions.every((version) => version.available));
+      $('rebindControls').hidden = !rebindGroups.length;
+      $('rebindSource').replaceChildren();
+      for (const group of rebindGroups) for (const version of group.versions) {
+        const option = document.createElement('option');
+        option.value = version.id;
+        option.textContent = `${group.name} · ${version.modes.map((mode) => mode.name).join(', ')} · ${version.id}`;
+        $('rebindSource').appendChild(option);
+      }
+      updateRebindTargets();
+    }
+
+    function updateRebindTargets() {
+      const sourceId = $('rebindSource').value;
+      const group = rebindGroups.find((item) => item.versions.some((version) => version.id === sourceId));
+      $('rebindTarget').replaceChildren();
+      if (group) for (const version of group.versions.filter((item) => item.id !== sourceId)) {
+        const option = document.createElement('option');
+        option.value = version.id;
+        option.textContent = `${group.name} · ${version.modes.map((mode) => mode.name).join(', ')} · ${version.id}`;
+        $('rebindTarget').appendChild(option);
+      }
+      rebindPlanId = null;
+      $('rebindPreview').hidden = true;
+      updateButtons();
+    }
+
+    function render(message) {
+      auditId = message.auditId;
+      const scopeLabel = message.scope === 'page' ? 'Текущая страница' : 'Выделение';
+      $('auditState').textContent = `${scopeLabel} · проверено объектов: ${message.nodeCount} · назначений: ${message.assignmentCount}`;
+      renderDiagnostics(message.diagnostics);
+      const list = $('collections');
+      list.replaceChildren();
+      for (const collection of message.collections) {
+        const wrap = document.createElement('div');
+        wrap.className = 'collection';
+        const title = document.createElement('div');
+        title.className = 'collection-title';
+        title.textContent = collection.name;
+        wrap.appendChild(title);
+        for (const mode of collection.modes) {
+          const label = document.createElement('label');
+          label.className = 'mode';
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.dataset.collectionId = collection.id;
+          checkbox.dataset.modeId = mode.id;
+          checkbox.dataset.uses = mode.uses;
+          if (!collection.available) checkbox.dataset.unavailable = 'true';
+          checkbox.onchange = updateButtons;
+          const text = document.createElement('span');
+          text.textContent = `${mode.name} · назначений: ${mode.uses}`;
+          label.append(checkbox, text);
+          wrap.appendChild(label);
+        }
+        list.appendChild(wrap);
+      }
+      if (!message.collections.length) list.textContent = 'В этой области явных назначений нет. Режимы могут наследоваться от родителя.';
+      $('warnings').textContent = message.warnings.length
+        ? `Проверка частичная:\n${message.warnings.join('\n')}` : '';
+      updateButtons();
+    }
+
+    $('scope').onchange = () => {
+      invalidate('Область изменена. Нажмите «Проверить».');
+      setMessage('');
+      send({ type: 'reset' });
+    };
+    $('audit').onclick = () => {
+      busy = true;
+      invalidate('Проверяю назначения и ссылки на коллекции…');
+      setMessage('');
+      send({ type: 'audit', scope: $('scope').value });
+    };
+    $('selectAll').onclick = () => {
+      const inputs = [...document.querySelectorAll('input[data-mode-id]:not([data-unavailable])')];
+      const checked = !inputs.every((input) => input.checked);
+      for (const input of inputs) input.checked = checked;
+      updateButtons();
+    };
+    $('clear').onclick = () => {
+      if (busy || !auditId) return;
+      const items = [...document.querySelectorAll('input[data-mode-id]:checked')]
+        .map((input) => ({ collectionId: input.dataset.collectionId, modeId: input.dataset.modeId }));
+      if (!items.length) return;
+      busy = true;
+      updateButtons();
+      setMessage('Снимаю назначения…');
+      send({ type: 'clearAssignments', items, auditId });
+    };
+    $('prepareDetach').onclick = () => {
+      const collectionIds = [...document.querySelectorAll('input[data-detach-collection]:checked')].map((input) => input.dataset.detachCollection);
+      const unavailableVariableIds = [...document.querySelectorAll('input[data-detach-variable]:checked')].map((input) => input.dataset.detachVariable);
+      busy = true;
+      detachPlanId = null;
+      $('detachPreview').hidden = true;
+      updateButtons();
+      setMessage('Готовлю план отвязки…');
+      send({ type: 'prepareDetach', collectionIds, unavailableVariableIds, auditId });
+    };
+    $('cancelDetach').onclick = () => { detachPlanId = null; $('detachPreview').hidden = true; updateButtons(); };
+    $('rebindSource').onchange = updateRebindTargets;
+    $('rebindTarget').onchange = () => { rebindPlanId = null; $('rebindPreview').hidden = true; updateButtons(); };
+    $('prepareRebind').onclick = () => {
+      if (busy || !auditId) return;
+      busy = true;
+      rebindPlanId = null;
+      $('rebindPreview').hidden = true;
+      updateButtons();
+      setMessage('Готовлю план перепривязки…');
+      send({ type: 'prepareRebind', sourceId: $('rebindSource').value, targetId: $('rebindTarget').value, auditId });
+    };
+    $('cancelRebind').onclick = () => { rebindPlanId = null; $('rebindPreview').hidden = true; updateButtons(); };
+    $('applyRebind').onclick = () => {
+      if (busy || !rebindPlanId) return;
+      busy = true;
+      updateButtons();
+      setMessage('Перепривязываю переменные и проверяю результат…');
+      send({ type: 'applyRebind', planId: rebindPlanId });
+    };
+    $('applyDetach').onclick = () => {
+      if (busy || !detachPlanId) return;
+      busy = true;
+      updateButtons();
+      setMessage('Отвязываю ссылки и проверяю результат…');
+      send({ type: 'applyDetach', planId: detachPlanId });
+    };
+    window.onmessage = (event) => {
+      const message = event.data && event.data.pluginMessage;
+      if (!message) return;
+      if (message.type === 'inventory') render(message);
+      else if (message.type === 'detachPreview') {
+        detachPlanId = message.planId;
+        $('detachPreview').hidden = false;
+        $('detachSummary').textContent = `Выбрано: ${message.names.join('; ')}${message.missingCount ? `; недоступных переменных: ${message.missingCount}` : ''}. Будет зафиксировано свойств: ${message.propertyCount}, на слоях: ${message.layerCount}. Выбранные явные режимы будут сняты после успешной отвязки и полной проверки.`;
+        $('detachIssues').textContent = message.issues.length ? `Не удаётся подготовить:\n${message.issues.join('\n')}` : '';
+        setMessage('Проверьте план и нажмите «Отвязать».');
+      }
+      else if (message.type === 'rebindPreview') {
+        rebindPlanId = message.planId;
+        $('rebindPreview').hidden = false;
+        $('rebindSummary').textContent = `Будет перепривязано свойств: ${message.propertyCount}, на слоях: ${message.layerCount}. Явных режимов старой версии: ${message.assignmentCount}.`;
+        $('rebindMatches').textContent = message.matches.length ? `Совпадения:\n${message.matches.map((item) => `${item.from} → ${item.to}`).join('\n')}` : 'Совпадений переменных нет.';
+        $('rebindIssues').textContent = message.issues.length ? `Останутся без перепривязки:\n${message.issues.join('\n')}` : '';
+        setMessage('Проверьте план и нажмите «Перепривязать».');
+      }
+      else if (message.type === 'invalidated') invalidate(message.message);
+      else if (message.type === 'result') {
+        setMessage([message.message, ...message.errors].join('\n'), message.errors.length > 0);
+      } else if (message.type === 'error') setMessage(message.message, true);
+      else if (message.type === 'idle') { busy = false; updateButtons(); }
+    };
+  </script>
+</body>
+</html>

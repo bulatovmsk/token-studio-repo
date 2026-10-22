@@ -1,0 +1,12 @@
+{
+  "name": "Theme Switcher",
+  "id": "1644355903928118864",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "code.js",
+  "ui": "ui.html",
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}

@@ -76,7 +76,7 @@
       "filter-icon": {
         "padding-horizontal": {
           "desktop": {
-            "value": "16",
+            "value": "20",
             "type": "spacing"
           },
           "tablet": {
