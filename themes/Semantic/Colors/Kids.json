@@ -22,7 +22,7 @@
         "description": "Хинты, подсказки. Замена для {{Text & icon/on Dark/Forth }}"
       },
       "accent": {
-        "value": "{primitives.iris500}",
+        "value": "{primitives.iris700}",
         "type": "color",
         "description": "Ссылки. Замена для {{ Text & icon/on Dark/Accent }}"
       },
