@@ -117,20 +117,20 @@ Primitives → Brand → Semantic → Component
 
 ## Фейды карточки в рейле
 
-`color.component.rail.card.fade.bottom` и `color.component.rail.card.fade.left`
+`color.component.rail.card.fade.bottom.third` и `color.component.rail.card.fade.left.third`
 затемняют изображение под светлым текстом и элементами карточки. В Main, Meta
 и Kids они используют чёрный, в KidsLight — `primitives.iris1300` (`#160D48`).
 Оба градиента повторяют кривую исходного Featured с максимальной непрозрачностью 50%:
 нижний направлен под углом 0°, левый — 90°. Цвета отдельных точек для Figma
-хранятся в `gradient.component.rail.card.fade.<direction>.Step_1…Step_8`.
+хранятся в `gradient.component.rail.card.fade.<direction>.third.Step_1…Step_8`.
 Токены независимы от общих фейдов и не меняют существующие значения баннеров.
 Площадь наложения и читаемость на светлых изображениях проверяются в компоненте.
 
-Для усиленного затемнения предусмотрены `color.component.rail.card.fade.bottom-secondary`
-и `color.component.rail.card.fade.left-secondary`. Они используют кривую общего
+Для усиленного затемнения предусмотрены `color.component.rail.card.fade.bottom.secondary`
+и `color.component.rail.card.fade.left.secondary`. Они используют кривую общего
 `fade.secondary` с максимумом 80%, сохраняя чёрный цвет в Main, Meta и Kids и
 `iris1300` в KidsLight. Точки для Figma находятся в соответствующих ветках
-`gradient.component.rail.card.fade.bottom-secondary` и `left-secondary` (16 точек).
+`gradient.component.rail.card.fade.bottom.secondary` и `left.secondary` (16 точек).
 
 ## Статичные фейды поверх медиа
 
