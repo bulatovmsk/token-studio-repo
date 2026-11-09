@@ -126,6 +126,12 @@ Primitives → Brand → Semantic → Component
 Токены независимы от общих фейдов и не меняют существующие значения баннеров.
 Площадь наложения и читаемость на светлых изображениях проверяются в компоненте.
 
+Для усиленного затемнения предусмотрены `color.component.rail.card.fade.bottom-secondary`
+и `color.component.rail.card.fade.left-secondary`. Они используют кривую общего
+`fade.secondary` с максимумом 80%, сохраняя чёрный цвет в Main, Meta и Kids и
+`iris1300` в KidsLight. Точки для Figma находятся в соответствующих ветках
+`gradient.component.rail.card.fade.bottom-secondary` и `left-secondary` (16 точек).
+
 ## Статичные фейды поверх медиа
 
 В `Semantic/Colors/{Main,Kids,KidsLight,Meta}.json` добавлены три градиента,

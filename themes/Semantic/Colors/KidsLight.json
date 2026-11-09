@@ -510,6 +510,16 @@
               "value": "linear-gradient(90deg, rgba( {primitives.iris1300} , 0.5) 0%, rgba( {primitives.iris1300} , 0.45917) 20%, rgba( {primitives.iris1300} , 0.384112) 33%, rgba( {primitives.iris1300} , 0.278654) 47%, rgba( {primitives.iris1300} , 0.221345) 53%, rgba( {primitives.iris1300} , 0.115887) 67%, rgba( {primitives.iris1300} , 0.073705) 73%, rgba( {primitives.iris1300} , 0) 100%)",
               "type": "color",
               "description": "Фейд поверх изображения карточки в рейле под светлым текстом и элементами. Кривая исходного Featured, максимум 50%; тёмный iris в KidsLight."
+            },
+            "bottom-secondary": {
+              "value": "linear-gradient(0deg, rgba( {primitives.iris1300} , 0.8) 0%, rgba( {primitives.iris1300} , 0.79) 7%, rgba( {primitives.iris1300} , 0.77) 13%, rgba( {primitives.iris1300} , 0.73) 20%, rgba( {primitives.iris1300} , 0.68) 27%, rgba( {primitives.iris1300} , 0.61) 33%, rgba( {primitives.iris1300} , 0.53) 40%, rgba( {primitives.iris1300} , 0.45) 47%, rgba( {primitives.iris1300} , 0.35) 53%, rgba( {primitives.iris1300} , 0.27) 60%, rgba( {primitives.iris1300} , 0.19) 67%, rgba( {primitives.iris1300} , 0.12) 73%, rgba( {primitives.iris1300} , 0.07) 80%, rgba( {primitives.iris1300} , 0.03) 87%, rgba( {primitives.iris1300} , 0.01) 93%, rgba( {primitives.iris1300} , 0) 100%)",
+              "type": "color",
+              "description": "Усиленный фейд поверх изображения карточки в рейле под светлым текстом и элементами. Кривая fade.secondary, максимум 80%; тёмный iris в KidsLight."
+            },
+            "left-secondary": {
+              "value": "linear-gradient(90deg, rgba( {primitives.iris1300} , 0.8) 0%, rgba( {primitives.iris1300} , 0.79) 7%, rgba( {primitives.iris1300} , 0.77) 13%, rgba( {primitives.iris1300} , 0.73) 20%, rgba( {primitives.iris1300} , 0.68) 27%, rgba( {primitives.iris1300} , 0.61) 33%, rgba( {primitives.iris1300} , 0.53) 40%, rgba( {primitives.iris1300} , 0.45) 47%, rgba( {primitives.iris1300} , 0.35) 53%, rgba( {primitives.iris1300} , 0.27) 60%, rgba( {primitives.iris1300} , 0.19) 67%, rgba( {primitives.iris1300} , 0.12) 73%, rgba( {primitives.iris1300} , 0.07) 80%, rgba( {primitives.iris1300} , 0.03) 87%, rgba( {primitives.iris1300} , 0.01) 93%, rgba( {primitives.iris1300} , 0) 100%)",
+              "type": "color",
+              "description": "Усиленный фейд поверх изображения карточки в рейле под светлым текстом и элементами. Кривая fade.secondary, максимум 80%; тёмный iris в KidsLight."
             }
           }
         }
@@ -1362,6 +1372,170 @@
                 "value": "rgba( {primitives.iris1300} , 0)",
                 "type": "color",
                 "description": "Цвет точки фейда карточки в рейле: 100%, угол 90deg."
+              }
+            },
+            "bottom-secondary": {
+              "Step_1": {
+                "value": "rgba( {primitives.iris1300} , 0.8)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 0%, угол 0deg."
+              },
+              "Step_2": {
+                "value": "rgba( {primitives.iris1300} , 0.79)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 7%, угол 0deg."
+              },
+              "Step_3": {
+                "value": "rgba( {primitives.iris1300} , 0.77)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 13%, угол 0deg."
+              },
+              "Step_4": {
+                "value": "rgba( {primitives.iris1300} , 0.73)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 20%, угол 0deg."
+              },
+              "Step_5": {
+                "value": "rgba( {primitives.iris1300} , 0.68)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 27%, угол 0deg."
+              },
+              "Step_6": {
+                "value": "rgba( {primitives.iris1300} , 0.61)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 33%, угол 0deg."
+              },
+              "Step_7": {
+                "value": "rgba( {primitives.iris1300} , 0.53)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 40%, угол 0deg."
+              },
+              "Step_8": {
+                "value": "rgba( {primitives.iris1300} , 0.45)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 47%, угол 0deg."
+              },
+              "Step_9": {
+                "value": "rgba( {primitives.iris1300} , 0.35)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 53%, угол 0deg."
+              },
+              "Step_10": {
+                "value": "rgba( {primitives.iris1300} , 0.27)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 60%, угол 0deg."
+              },
+              "Step_11": {
+                "value": "rgba( {primitives.iris1300} , 0.19)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 67%, угол 0deg."
+              },
+              "Step_12": {
+                "value": "rgba( {primitives.iris1300} , 0.12)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 73%, угол 0deg."
+              },
+              "Step_13": {
+                "value": "rgba( {primitives.iris1300} , 0.07)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 80%, угол 0deg."
+              },
+              "Step_14": {
+                "value": "rgba( {primitives.iris1300} , 0.03)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 87%, угол 0deg."
+              },
+              "Step_15": {
+                "value": "rgba( {primitives.iris1300} , 0.01)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 93%, угол 0deg."
+              },
+              "Step_16": {
+                "value": "rgba( {primitives.iris1300} , 0)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 100%, угол 0deg."
+              }
+            },
+            "left-secondary": {
+              "Step_1": {
+                "value": "rgba( {primitives.iris1300} , 0.8)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 0%, угол 90deg."
+              },
+              "Step_2": {
+                "value": "rgba( {primitives.iris1300} , 0.79)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 7%, угол 90deg."
+              },
+              "Step_3": {
+                "value": "rgba( {primitives.iris1300} , 0.77)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 13%, угол 90deg."
+              },
+              "Step_4": {
+                "value": "rgba( {primitives.iris1300} , 0.73)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 20%, угол 90deg."
+              },
+              "Step_5": {
+                "value": "rgba( {primitives.iris1300} , 0.68)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 27%, угол 90deg."
+              },
+              "Step_6": {
+                "value": "rgba( {primitives.iris1300} , 0.61)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 33%, угол 90deg."
+              },
+              "Step_7": {
+                "value": "rgba( {primitives.iris1300} , 0.53)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 40%, угол 90deg."
+              },
+              "Step_8": {
+                "value": "rgba( {primitives.iris1300} , 0.45)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 47%, угол 90deg."
+              },
+              "Step_9": {
+                "value": "rgba( {primitives.iris1300} , 0.35)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 53%, угол 90deg."
+              },
+              "Step_10": {
+                "value": "rgba( {primitives.iris1300} , 0.27)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 60%, угол 90deg."
+              },
+              "Step_11": {
+                "value": "rgba( {primitives.iris1300} , 0.19)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 67%, угол 90deg."
+              },
+              "Step_12": {
+                "value": "rgba( {primitives.iris1300} , 0.12)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 73%, угол 90deg."
+              },
+              "Step_13": {
+                "value": "rgba( {primitives.iris1300} , 0.07)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 80%, угол 90deg."
+              },
+              "Step_14": {
+                "value": "rgba( {primitives.iris1300} , 0.03)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 87%, угол 90deg."
+              },
+              "Step_15": {
+                "value": "rgba( {primitives.iris1300} , 0.01)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 93%, угол 90deg."
+              },
+              "Step_16": {
+                "value": "rgba( {primitives.iris1300} , 0)",
+                "type": "color",
+                "description": "Цвет точки усиленного фейда карточки в рейле: 100%, угол 90deg."
               }
             }
           }
