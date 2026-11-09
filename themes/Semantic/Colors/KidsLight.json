@@ -497,6 +497,22 @@
             "description": "Полупрозрачная обводка негативного варианта контрола; дополняет соответствующий текст или иконку."
           }
         }
+      },
+      "rail": {
+        "card": {
+          "fade": {
+            "bottom": {
+              "value": "linear-gradient(0deg, rgba( {primitives.iris1300} , 0.5) 0%, rgba( {primitives.iris1300} , 0.45917) 20%, rgba( {primitives.iris1300} , 0.384112) 33%, rgba( {primitives.iris1300} , 0.278654) 47%, rgba( {primitives.iris1300} , 0.221345) 53%, rgba( {primitives.iris1300} , 0.115887) 67%, rgba( {primitives.iris1300} , 0.073705) 73%, rgba( {primitives.iris1300} , 0) 100%)",
+              "type": "color",
+              "description": "Фейд поверх изображения карточки в рейле под светлым текстом и элементами. Кривая исходного Featured, максимум 50%; тёмный iris в KidsLight."
+            },
+            "left": {
+              "value": "linear-gradient(90deg, rgba( {primitives.iris1300} , 0.5) 0%, rgba( {primitives.iris1300} , 0.45917) 20%, rgba( {primitives.iris1300} , 0.384112) 33%, rgba( {primitives.iris1300} , 0.278654) 47%, rgba( {primitives.iris1300} , 0.221345) 53%, rgba( {primitives.iris1300} , 0.115887) 67%, rgba( {primitives.iris1300} , 0.073705) 73%, rgba( {primitives.iris1300} , 0) 100%)",
+              "type": "color",
+              "description": "Фейд поверх изображения карточки в рейле под светлым текстом и элементами. Кривая исходного Featured, максимум 50%; тёмный iris в KidsLight."
+            }
+          }
+        }
       }
     },
     "background": {
@@ -1257,6 +1273,96 @@
               "value": "{primitives.cobalt1000}",
               "type": "color",
               "description": "Цвет шага основной акцентной заливки контролов. Позиция шага: 100%; угол градиента: 135deg."
+            }
+          }
+        }
+      },
+      "rail": {
+        "card": {
+          "fade": {
+            "bottom": {
+              "Step_1": {
+                "value": "rgba( {primitives.iris1300} , 0.5)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 0%, угол 0deg."
+              },
+              "Step_2": {
+                "value": "rgba( {primitives.iris1300} , 0.45917)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 20%, угол 0deg."
+              },
+              "Step_3": {
+                "value": "rgba( {primitives.iris1300} , 0.384112)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 33%, угол 0deg."
+              },
+              "Step_4": {
+                "value": "rgba( {primitives.iris1300} , 0.278654)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 47%, угол 0deg."
+              },
+              "Step_5": {
+                "value": "rgba( {primitives.iris1300} , 0.221345)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 53%, угол 0deg."
+              },
+              "Step_6": {
+                "value": "rgba( {primitives.iris1300} , 0.115887)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 67%, угол 0deg."
+              },
+              "Step_7": {
+                "value": "rgba( {primitives.iris1300} , 0.073705)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 73%, угол 0deg."
+              },
+              "Step_8": {
+                "value": "rgba( {primitives.iris1300} , 0)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 100%, угол 0deg."
+              }
+            },
+            "left": {
+              "Step_1": {
+                "value": "rgba( {primitives.iris1300} , 0.5)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 0%, угол 90deg."
+              },
+              "Step_2": {
+                "value": "rgba( {primitives.iris1300} , 0.45917)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 20%, угол 90deg."
+              },
+              "Step_3": {
+                "value": "rgba( {primitives.iris1300} , 0.384112)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 33%, угол 90deg."
+              },
+              "Step_4": {
+                "value": "rgba( {primitives.iris1300} , 0.278654)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 47%, угол 90deg."
+              },
+              "Step_5": {
+                "value": "rgba( {primitives.iris1300} , 0.221345)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 53%, угол 90deg."
+              },
+              "Step_6": {
+                "value": "rgba( {primitives.iris1300} , 0.115887)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 67%, угол 90deg."
+              },
+              "Step_7": {
+                "value": "rgba( {primitives.iris1300} , 0.073705)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 73%, угол 90deg."
+              },
+              "Step_8": {
+                "value": "rgba( {primitives.iris1300} , 0)",
+                "type": "color",
+                "description": "Цвет точки фейда карточки в рейле: 100%, угол 90deg."
+              }
             }
           }
         }

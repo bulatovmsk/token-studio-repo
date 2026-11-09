@@ -115,6 +115,17 @@ Primitives → Brand → Semantic → Component
 Проверка контраста меню учитывает наложение полупрозрачного контейнера на
 `background.solid.primary` и `background.solid.secondary`.
 
+## Фейды карточки в рейле
+
+`color.component.rail.card.fade.bottom` и `color.component.rail.card.fade.left`
+затемняют изображение под светлым текстом и элементами карточки. В Main, Meta
+и Kids они используют чёрный, в KidsLight — `primitives.iris1300` (`#160D48`).
+Оба градиента повторяют кривую исходного Featured с максимальной непрозрачностью 50%:
+нижний направлен под углом 0°, левый — 90°. Цвета отдельных точек для Figma
+хранятся в `gradient.component.rail.card.fade.<direction>.Step_1…Step_8`.
+Токены независимы от общих фейдов и не меняют существующие значения баннеров.
+Площадь наложения и читаемость на светлых изображениях проверяются в компоненте.
+
 ## Статичные фейды поверх медиа
 
 В `Semantic/Colors/{Main,Kids,KidsLight,Meta}.json` добавлены три градиента,
