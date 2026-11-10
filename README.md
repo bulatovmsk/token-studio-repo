@@ -2,6 +2,8 @@
 
 Дизайн-токены продукта в формате [Token Studio](https://docs.tokens.studio/). Синхронизируются с Figma Variables через Token Studio Figma plugin.
 
+Контекст прежних обсуждений и указатель чатов: [docs/chat-context.md](docs/chat-context.md).
+
 ## Файловое дерево
 
 ```
