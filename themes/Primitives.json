@@ -105,35 +105,35 @@
       "type": "color"
     },
     "yellow1300": {
-      "value": "#342302",
+      "value": "#88660E",
       "type": "color"
     },
     "yellow1200": {
-      "value": "#50360A",
+      "value": "#936E10",
       "type": "color"
     },
     "yellow1100": {
-      "value": "#5E410F",
+      "value": "#9E7612",
       "type": "color"
     },
     "yellow1000": {
-      "value": "#6D4C12",
+      "value": "#AB7E14",
       "type": "color"
     },
     "yellow900": {
-      "value": "#8C631C",
+      "value": "#B78616",
       "type": "color"
     },
     "yellow800": {
-      "value": "#9C6D1E",
+      "value": "#C48F18",
       "type": "color"
     },
     "yellow700": {
-      "value": "#BD8628",
+      "value": "#D1961A",
       "type": "color"
     },
     "yellow600": {
-      "value": "#CE922B",
+      "value": "#DF9E1C",
       "type": "color"
     },
     "yellow500": {
