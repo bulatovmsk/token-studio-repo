@@ -25,7 +25,7 @@
         "description": "Замена для {{ Text & icon/on Light/Accent }}"
       },
       "offer": {
-        "value": "{primitives.yellow1200}",
+        "value": "{primitives.yellow600}",
         "type": "color",
         "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
@@ -40,7 +40,7 @@
         "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
       "warning": {
-        "value": "{primitives.yellow1200}",
+        "value": "{primitives.yellow1000}",
         "type": "color",
         "description": "Статусный текст на выбранной вручную светлой iris-шкале, включая обычный hover; контраст проверяется после смешивания заливок."
       },
@@ -125,11 +125,11 @@
         "type": "color"
       },
       "warning": {
-        "value": "{primitives.yellow1100}",
+        "value": "{primitives.yellow900}",
         "type": "color"
       },
       "warning-glassy": {
-        "value": "rgba( {primitives.yellow1100} , 0.32)",
+        "value": "rgba( {primitives.yellow900} , 0.32)",
         "type": "color",
         "description": "Мягкий декоративный контур статуса; дополнить соответствующим текстом или иконкой. Для самостоятельного значимого контура использовать непрозрачный вариант."
       }
@@ -337,12 +337,12 @@
           "type": "color"
         },
         "negative": {
-          "value": "{primitives.red600}",
+          "value": "{primitives.red1100}",
           "type": "color",
           "description": "Ошибки, критичные предупреждения"
         },
         "warning": {
-          "value": "{primitives.yellow300}",
+          "value": "{primitives.yellow900}",
           "type": "color",
           "description": "Некритичные предупреждения"
         },
